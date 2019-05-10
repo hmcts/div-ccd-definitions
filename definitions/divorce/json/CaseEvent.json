@@ -16,7 +16,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -29,7 +29,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AosOverdue",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -44,7 +44,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -58,7 +58,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -72,7 +72,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -86,9 +86,9 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-received",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -101,9 +101,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-received",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -117,7 +117,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosSubmittedAwaitingAnswer",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -130,7 +130,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosSubmittedAwaitingAnswer",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -144,7 +144,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingClarification",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -159,7 +159,7 @@
     "DisplayOrder": 4,
     "PreConditionState(s)": "AwaitingConsideration",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -176,7 +176,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -191,7 +191,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -204,7 +204,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/dn-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -217,7 +217,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/dn-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -232,7 +232,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDocuments",
     "PostConditionState": "Issued",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -254,7 +254,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -271,7 +271,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingPayment",
     "PostConditionState": "Submitted",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -286,7 +286,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -301,7 +301,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "AosStarted",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -314,7 +314,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -327,9 +327,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/bulk-print",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -343,9 +343,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "Issued",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/bulk-print",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -362,7 +362,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "PendingRejection",
     "PostConditionState": "Issued",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -379,7 +379,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "Rejected",
     "PostConditionState": "Issued",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -400,9 +400,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
     "PostConditionState": "solicitorAwaitingPaymentConfirmation",
-    "CallBackURLAboutToStartEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issue-fees",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
     "RetriesTimeoutAboutToStartEvent": "120,120",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/process-pba-payment",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
@@ -418,7 +418,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Issued",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -426,7 +426,7 @@
   {"LiveFrom": "01/01/2017", "CaseTypeID": "DIVORCE", "ID": "pendingRejection", "Name": "Pending rejection", "Description": "Pending rejection", "DisplayOrder": 2, "PreConditionState(s)": "Submitted", "PostConditionState": "PendingRejection", "SecurityClassification": "Public"},
   {"LiveFrom": "02/01/2017", "CaseTypeID": "DIVORCE", "ID": "transferCaseFromCTSCsubmitted", "Name": "Transfer from CTSC to RDC", "Description": "Transfer from CTSC to an RDC", "DisplayOrder": 11, "PreConditionState(s)": "Submitted", "PostConditionState": "Submitted", "SecurityClassification": "Public"},
   {"LiveFrom": "01/01/2017", "CaseTypeID": "DIVORCE", "ID": "create", "Name": "Apply for a divorce", "Description": "Apply for a divorce", "DisplayOrder": 1, "PostConditionState": "AwaitingPayment", "SecurityClassification": "Public"},
-  {"LiveFrom": "01/01/2017", "CaseTypeID": "DIVORCE", "ID": "hwfCreate", "Name": "Apply for a divorce", "Description": "Apply for a divorce", "DisplayOrder": 2, "PostConditionState": "AwaitingHWFDecision", "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-submitted", "RetriesTimeoutURLSubmittedEvent": "120,120", "SecurityClassification": "Public"},
+  {"LiveFrom": "01/01/2017", "CaseTypeID": "DIVORCE", "ID": "hwfCreate", "Name": "Apply for a divorce", "Description": "Apply for a divorce", "DisplayOrder": 2, "PostConditionState": "AwaitingHWFDecision", "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted", "RetriesTimeoutURLSubmittedEvent": "120,120", "SecurityClassification": "Public"},
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
@@ -435,7 +435,7 @@
     "Description": "Apply for a divorce",
     "DisplayOrder": 1,
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/solicitor-create",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
@@ -455,9 +455,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosCompleted",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-received",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": 120120,
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -470,9 +470,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosCompleted",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-received",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": 120120,
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -499,7 +499,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -512,7 +512,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosStarted",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -525,7 +525,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosSubmittedAwaitingAnswer",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -538,7 +538,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosOverdue",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -551,7 +551,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "DefendedDivorce",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -564,7 +564,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosCompleted",
     "PostConditionState": "AosCompleted",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -577,7 +577,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -590,7 +590,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -610,7 +610,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -623,7 +623,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -637,7 +637,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosStarted",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -651,7 +651,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosOverdue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -665,7 +665,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosSubmittedAwaitingAnswer",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -679,7 +679,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingClarification",
     "PostConditionState": "AwaitingClarification",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -693,7 +693,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingConsideration",
     "PostConditionState": "AwaitingConsideration",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -707,7 +707,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "AwaitingDecreeAbsolute",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -721,7 +721,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -735,7 +735,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -749,7 +749,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingPronouncement",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -763,7 +763,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -777,7 +777,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "DefendedDivorce",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/co-respondent-answered",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -791,7 +791,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "Rejected",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -805,7 +805,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "Issued",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -819,7 +819,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -833,7 +833,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -847,7 +847,7 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "Issued",
     "PostConditionState": "Issued",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/petition-issued?generateAosInvitation=true",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -862,7 +862,7 @@
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosAwaitingSol",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "http://div-cos-aat-staging.service.core-compute-aat.internal/aos-solicitor-nominated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-solicitor-nominated",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },

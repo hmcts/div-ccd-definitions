@@ -3,3 +3,4 @@ node_modules/
 *.xls
 *.xlsx
 .DS_Store
+yarn-error.log
