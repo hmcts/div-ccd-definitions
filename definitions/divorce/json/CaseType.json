@@ -1,1 +1,12 @@
-[{"LiveFrom": "01/01/2017", "ID": "DIVORCE", "Name": "Divorce case - v113.13", "Description": "Handling of the dissolution of marriage", "JurisdictionID": "DIVORCE", "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents", "RetriesTimeoutURLPrintEvent": "5,10,15", "SecurityClassification": "Public"}]
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "DIVORCE",
+    "Name": "Divorce case - v113.13",
+    "Description": "Handling of the dissolution of marriage",
+    "JurisdictionID": "DIVORCE",
+    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents",
+    "RetriesTimeoutURLPrintEvent": "5,10,15",
+    "SecurityClassification": "Public"
+  }
+]

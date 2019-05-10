@@ -25,11 +25,15 @@
   },
   "scripts": {
     "preinstall": "yarn --cwd ccd-definition-processor install",
-    "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx",
+    "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx | pretty-quick --pattern 'definitions/**/json/**'",
     "generate-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-excel",
     "generate-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-excel",
     "generate-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-excel",
     "generate-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-${DIV_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-prod"
+  },
+  "devDependencies": {
+    "husky": "^2.2.0",
+    "pretty-quick": "^1.10.0"
   }
 }
