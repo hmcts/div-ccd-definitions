@@ -1,0 +1,17 @@
+{
+  "name": "div-ccd-definitions",
+  "version": "1.0.0",
+  "description": "Utility to help creating CCD confing definitions",
+  "main": "index.js",
+  "repository": "git@github.com:hmcts/div-ccd-definitions.git",
+  "author": "Hosain <hosain.alahmad@hmcts.net>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "config": "^3.1.0"
+  },
+  "scripts": {
+    "generate-json-aat": "cd ccd-definition-processor && yarn install && yarn xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-aat.xlsx",
+    "generate-excel-aat": "cd ccd-definition-processor && yarn install && yarn json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-aat.xlsx"
+  }
+}
