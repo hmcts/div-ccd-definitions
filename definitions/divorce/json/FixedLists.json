@@ -97,7 +97,7 @@
   {"LiveFrom": "05/09/2018", "ID": "DivorceCostsOptionDNEnum", "ListElementCode": "counterOffer", "ListElement": "I will accept the amount my wife has suggested"},
   {"LiveFrom": "05/09/2018", "ID": "DivorceCostsOptionDNEnum", "ListElementCode": "differentAmount", "ListElement": "I want to claim a different amount"},
   {"LiveFrom": "05/09/2018", "ID": "DivorceCostsOptionDNEnum", "ListElementCode": "endClaim", "ListElement": "I don't want to claim my costs anymore"},
-  {"LiveFrom": "19/10/2018", "ID": "permittedDecreeNisiEnum", "ListElementCode": 0, "ListElement": "Undefended divorce with Respondent agreement"},
+  {"LiveFrom": "19/10/2018", "ID": "permittedDecreeNisiEnum", "ListElement": "Undefended divorce with Respondent agreement"},
   {"LiveFrom": "19/10/2018", "ID": "permittedDecreeNisiEnum", "ListElementCode": 1, "ListElement": "Deemed service has been accepted by the Court"},
   {"LiveFrom": "19/10/2018", "ID": "permittedDecreeNisiEnum", "ListElementCode": 2, "ListElement": "Dispense with service has been agreed by the Court"},
   {"LiveFrom": "19/10/2018", "ID": "permittedDecreeNisiEnum", "ListElementCode": 3, "ListElement": "A Bailiff successfully served the petition/AOS on the Respondent; "},
