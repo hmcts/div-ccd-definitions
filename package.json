@@ -7,6 +7,9 @@
   "author": "Hosain <hosain.alahmad@hmcts.net>",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=8.11.0 <9.0.0"
+  },
   "config": {
     "demo": {
       "cosUrl": "http://div-cos-demo-staging.service.core-compute-demo.internal",
