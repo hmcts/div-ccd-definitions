@@ -1,0 +1,16 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceUnit",
+    "Label": "RDC",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolPaymentHowToPay",
+    "Label": "Solicitor Payment Method",
+    "DisplayOrder": 2
+  }
+]
