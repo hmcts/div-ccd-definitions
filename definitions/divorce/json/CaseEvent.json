@@ -1770,7 +1770,7 @@
     "ID": "linkBulkCaseReference",
     "Name": "Linked with bulk case ",
     "Description": "Linked with bulk case ",
-    "DisplayOrder": 1,
+    "DisplayOrder": 20,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
