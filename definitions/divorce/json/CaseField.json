@@ -2874,5 +2874,13 @@
     "Label": "Decree Nisi granted date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BulkListingCaseId",
+    "Label": "Bulk case reference",
+    "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
   }
 ]
