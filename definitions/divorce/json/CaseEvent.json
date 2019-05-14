@@ -1763,5 +1763,16 @@
     "PreConditionState(s)": "DNisRefused",
     "PostConditionState": "AwaitingPronouncement",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "linkBulkCaseReference",
+    "Name": "Linked with bulk case ",
+    "Description": "Linked with bulk case ",
+    "DisplayOrder": 20,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
   }
 ]
