@@ -12,7 +12,7 @@
   },
   "config": {
     "demo": {
-      "cosUrl": "http://div-cos-demo-staging.service.core-compute-demo.internal",
+      "cosUrl": "http://div-cos-demo.service.core-compute-demo.internal",
       "ccdUrl": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
     },
     "aat": {
@@ -20,7 +20,7 @@
       "ccdUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
     },
     "prod": {
-      "cosUrl": "http://div-cos-prod-staging.service.core-compute-prod.internal",
+      "cosUrl": "http://div-cos-prod.service.core-compute-prod.internal",
       "ccdUrl": "http://ccd-data-store-api-prod.service.core-compute-prod.internal"
     }
   },
