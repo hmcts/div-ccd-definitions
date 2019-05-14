@@ -4592,7 +4592,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageLabel": "AOS Completed",
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -4837,7 +4837,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageLabel": "AOS Completed",
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -5082,7 +5082,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageLabel": "AOS Received",
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -5327,7 +5327,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageLabel": "AOS Received",
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
