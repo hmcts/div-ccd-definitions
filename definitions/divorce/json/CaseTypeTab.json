@@ -599,6 +599,26 @@
     "TabFieldDisplayOrder": 53
   },
   {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "labelOutcomeofDN",
+    "TabFieldDisplayOrder": 54
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DNApprovalDate",
+    "TabFieldDisplayOrder": 55
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -606,7 +626,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
-    "TabFieldDisplayOrder": 54
+    "TabFieldDisplayOrder": 56
   },
   {
     "LiveFrom": "01/01/2017",
