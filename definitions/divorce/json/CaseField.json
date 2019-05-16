@@ -2879,7 +2879,7 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "CostsClaimGranted",
-    "Label": "Costs claim  granted",
+    "Label": "Costs claim granted",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
