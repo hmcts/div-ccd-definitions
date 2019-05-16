@@ -1774,5 +1774,192 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingHWF",
+    "Name": "Awaiting HWF decision",
+    "Description": "Awaiting HWF decision",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingHWFDecision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingDocs",
+    "Name": "Awaiting petitioner",
+    "Description": "Case created and awaiting action by the petitioner",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AwaitingDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUIssued",
+    "Name": "Petition issued",
+    "Description": "Petition issued",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SURejected",
+    "Name": "Petition rejected",
+    "Description": "Petition rejected",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "Rejected",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingDN",
+    "Name": "Awaiting DN application",
+    "Description": "Awaiting DN application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAosOverdue",
+    "Name": "AOS Overdue",
+    "Description": "AOS Overdue",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AosOverdue",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingReissue",
+    "Name": "Awaiting reissue",
+    "Description": "Awaiting reissue",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AwaitingReissue",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingLAReferral",
+    "Name": "Awaiting legal advisor referral",
+    "Description": "Awaiting legal advisor referral",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingConsideration",
+    "Name": "Awaiting consideration",
+    "Description": "Awaiting consideration",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AwaitingConsideration ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAmend",
+    "Name": "Amend petition",
+    "Description": "Amend petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "* ",
+    "PostConditionState": "AmendPetition",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingClarification",
+    "Name": "Awaiting clarification",
+    "Description": "Awaiting clarification",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingClarification",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUDefendDiv",
+    "Name": "Defended divorce",
+    "Description": "Defended divorce",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DefendedDivorce",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingPronouncement",
+    "Name": "Listed; Awaiting pronouncement",
+    "Description": "Has been Listed; Awaiting pronouncement",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingPronouncement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAwaitingDA",
+    "Name": "Awaiting DA Application",
+    "Description": "Awaiting DA application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUDivGranted",
+    "Name": "Divorce granted",
+    "Description": "Divorce granted",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DivorceGranted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUWithdrawn",
+    "Name": "Withdraw",
+    "Description": "Withdraw petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "Withdrawn",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUDNRefused",
+    "Name": "DN application refused",
+    "Description": "DN application has been refused ",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DNisRefused",
+    "SecurityClassification": "Public"
   }
 ]
