@@ -625,8 +625,18 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "BulkListingCaseId",
+    "CaseFieldID": "CostsClaimGranted",
     "TabFieldDisplayOrder": 56
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "BulkListingCaseId",
+    "TabFieldDisplayOrder": 57
   },
   {
     "LiveFrom": "01/01/2017",

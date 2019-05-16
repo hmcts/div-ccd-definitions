@@ -2876,6 +2876,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CostsClaimGranted",
+    "Label": "Costs claim  granted",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
