@@ -242,6 +242,12 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "coe",
+    "ListElement": "Certificate Of Entitlement"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "coRespondentAnswers",
     "ListElement": "Co-Respondent Answers"
   },
