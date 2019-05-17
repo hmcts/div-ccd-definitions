@@ -1,0 +1,26 @@
+[
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "YesNoNever",
+    "ListElementCode": "YES",
+    "ListElement": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "YesNoNever",
+    "ListElementCode": "NO",
+    "ListElement": "No"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "YesNoNever",
+    "ListElementCode": "NEVER",
+    "ListElement": "Never"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "YesOnly",
+    "ListElementCode": "YES",
+    "ListElement": "Yes"
+  }
+]
