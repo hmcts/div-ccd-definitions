@@ -1,0 +1,59 @@
+[
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "CaseReference",
+    "FieldType": "CaseLink",
+    "ElementLabel": "Case reference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "FamilyManReference",
+    "FieldType": "Text",
+    "ElementLabel": "FamilyMan reference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "CaseParties",
+    "FieldType": "Text",
+    "ElementLabel": "Case parties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "DNApprovalDate",
+    "FieldType": "Date",
+    "ElementLabel": "Decree Nisi approval date",
+    "FieldTypeParameter": "TodayPast",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "SelectedForProcessing",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "selected for processing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DivorceCaseList",
+    "ListElementCode": "CostOrder",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Cost order",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "BulkListDocument",
+    "ListElementCode": "url",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "create",
+    "Name": "Create bulk list",
+    "Description": "Create bulk list",
+    "DisplayOrder": 1,
+    "PostConditionState": "Created",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "scheduleForListing",
+    "Name": "Schedule cases for listing  ",
+    "Description": "Schedule for listing",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "Created",
+    "PostConditionState": "ScheduledForListing",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "listed",
+    "Name": "Cases listed",
+    "Description": "Cases listed",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "ScheduledForListing",
+    "PostConditionState": "Listed",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  }
+]
