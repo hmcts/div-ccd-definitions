@@ -1,5 +1,13 @@
 [
   {
+    "LiveFrom": "29/03/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseHistory",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "CaseTitle",
