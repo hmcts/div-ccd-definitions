@@ -5,7 +5,7 @@
     "Name": "Divorce bulk listcase - v0.2",
     "Description": "Handling of the dissolution of marriage",
     "JurisdictionID": "DIVORCE",
-    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE_BulkAction/documents",
     "RetriesTimeoutURLPrintEvent": "5,10,15",
     "SecurityClassification": "Public"
   }
