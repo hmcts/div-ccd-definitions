@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "LiveFrom": "10/11/2018",
+    "UserIDAMId": "divorce_as_caseworker_beta@mailinator.com",
+    "WorkBasketDefaultJurisdiction": "DIVORCE",
+    "WorkBasketDefaultCaseType": "DIVORCE",
+    "WorkBasketDefaultState": "Submitted"
+  },
+  {
+    "LiveFrom": "10/11/2018",
+    "UserIDAMId": "divorce_as_caseworker_solicitor@mailinator.com",
+    "WorkBasketDefaultJurisdiction": "DIVORCE",
+    "WorkBasketDefaultCaseType": "DIVORCE",
+    "WorkBasketDefaultState": "Submitted"
+  },
+  {
+    "LiveFrom": "10/11/2018",
+    "UserIDAMId": "divorce_as_caseworker_bulk_scanner@mailinator.com",
+    "WorkBasketDefaultJurisdiction": "DIVORCE",
+    "WorkBasketDefaultCaseType": "DIVORCE",
+    "WorkBasketDefaultState": "Submitted"
+  },
+  {
+    "LiveFrom": "10/11/2018",
+    "UserIDAMId": "divorce_as_caseworker_superuser@mailinator.com",
+    "WorkBasketDefaultJurisdiction": "DIVORCE",
+    "WorkBasketDefaultCaseType": "DIVORCE",
+    "WorkBasketDefaultState": "Submitted"
+  }
+]
