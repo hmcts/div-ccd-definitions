@@ -34,6 +34,17 @@ For example
 
 `yarn generate-excel-aat`
 
+### For a bulk-action config
+
+`yarn generate-bulk-excel-(demo\aat\prod)` 
+
+For example
+
+`yarn generate-bulk-excel-aat`
+
+### For all environments bulk-action's config
+
+`yarn generate-bulk-excel-all` 
 
 ## Convert Excel to JSON
 

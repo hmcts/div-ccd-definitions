@@ -1,0 +1,26 @@
+[
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "Created",
+    "Name": "Builk case list created",
+    "Description": "Builk case list created",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "02/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "ScheduledForListing",
+    "Name": "Bulk case list scheduled",
+    "Description": "Bulk case list scheduled to process the cases",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "03/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "Listed",
+    "Name": "Bulk case list listed",
+    "Description": "Bulk case list listed",
+    "DisplayOrder": 3
+  }
+]

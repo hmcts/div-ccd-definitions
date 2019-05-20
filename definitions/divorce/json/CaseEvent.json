@@ -1309,6 +1309,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1322,6 +1324,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosStarted",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1335,6 +1339,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosSubmittedAwaitingAnswer",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1348,6 +1354,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosOverdue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1361,6 +1369,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "DefendedDivorce",
     "PostConditionState": "DefendedDivorce",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1374,6 +1384,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosCompleted",
     "PostConditionState": "AosCompleted",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1387,6 +1399,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1400,6 +1414,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1497,6 +1513,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingReissue",
     "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"

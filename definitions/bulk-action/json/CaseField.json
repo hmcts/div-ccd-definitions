@@ -1,0 +1,52 @@
+[
+  {
+    "LiveFrom": "29/03/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseHistory",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseTitle",
+    "Label": "Case title",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseLocation",
+    "Label": "Case location",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "hearingDate",
+    "Label": "Hearing Date",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseList",
+    "Label": "Case list",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceCaseList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "CaseAcceptedList",
+    "Label": "Cases accepted to list for hearing",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public"
+  }
+]
