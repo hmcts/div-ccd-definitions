@@ -1849,7 +1849,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "D8caseReference",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND D8ReasonForDivorceAdulteryWishToName=\"Y*\""
+    "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND (D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\")"
   },
   {
     "LiveFrom": "01/01/2017",
