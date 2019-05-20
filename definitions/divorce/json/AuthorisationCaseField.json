@@ -5000,21 +5000,21 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails ",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails ",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails ",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -6225,7 +6225,7 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails ",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -8437,7 +8437,7 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails ",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },

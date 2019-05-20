@@ -10,7 +10,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "[CREATED_DATE]",
-    "Label": "Case created date ",
+    "Label": "Case created date",
     "DisplayOrder": 2
   },
   {

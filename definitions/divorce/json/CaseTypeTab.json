@@ -1318,7 +1318,7 @@
     "TabID": "facts",
     "TabLabel": "Reason for divorce",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted ",
+    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
     "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
