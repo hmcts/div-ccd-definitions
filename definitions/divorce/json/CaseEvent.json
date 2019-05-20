@@ -1874,7 +1874,7 @@
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUAwaitingLAReferral",
-    "Name": "Awaiting legal advisor referral",
+    "Name": "Awaiting legal adv referral",
     "Description": "Awaiting legal advisor referral",
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
