@@ -2182,5 +2182,26 @@
     "CaseEventID": "SUDNRefused",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUAosAwaitingSol",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUAosAwaitingSol",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUAosAwaitingSol",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
   }
 ]

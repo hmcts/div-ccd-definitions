@@ -1979,5 +1979,16 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "DNisRefused",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUAosAwaitingSol",
+    "Name": "AOS Awaiting Solicitor",
+    "Description": "AOS Awaiting Solicitor",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AosAwaitingSol",
+    "SecurityClassification": "Public"
   }
 ]
