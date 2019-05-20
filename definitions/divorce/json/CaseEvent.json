@@ -1793,7 +1793,7 @@
     "Name": "Awaiting petitioner",
     "Description": "Case created and awaiting action by the petitioner",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingDocuments",
     "SecurityClassification": "Public"
   },
@@ -1804,7 +1804,7 @@
     "Name": "Petition issued",
     "Description": "Petition issued",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public"
   },
@@ -1815,7 +1815,7 @@
     "Name": "Petition rejected",
     "Description": "Petition rejected",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "Rejected",
     "SecurityClassification": "Public"
   },
@@ -1826,7 +1826,7 @@
     "Name": "Awaiting DN application",
     "Description": "Awaiting DN application",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingDecreeNisi",
     "SecurityClassification": "Public"
   },
@@ -1837,7 +1837,7 @@
     "Name": "AOS Overdue",
     "Description": "AOS Overdue",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AosOverdue",
     "SecurityClassification": "Public"
   },
@@ -1848,7 +1848,7 @@
     "Name": "Awaiting reissue",
     "Description": "Awaiting reissue",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingReissue",
     "SecurityClassification": "Public"
   },
@@ -1859,7 +1859,7 @@
     "Name": "Awaiting legal advisor referral",
     "Description": "Awaiting legal advisor referral",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "SecurityClassification": "Public"
   },
@@ -1870,8 +1870,8 @@
     "Name": "Awaiting consideration",
     "Description": "Awaiting consideration",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
-    "PostConditionState": "AwaitingConsideration ",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingConsideration",
     "SecurityClassification": "Public"
   },
   {
@@ -1881,7 +1881,7 @@
     "Name": "Amend petition",
     "Description": "Amend petition",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "* ",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AmendPetition",
     "SecurityClassification": "Public"
   },
@@ -1956,7 +1956,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "SUDNRefused",
     "Name": "DN application refused",
-    "Description": "DN application has been refused ",
+    "Description": "DN application has been refused",
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
     "PostConditionState": "DNisRefused",
