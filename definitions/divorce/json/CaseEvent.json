@@ -1800,8 +1800,8 @@
     "Name": "Update case with court hearing details",
     "Description": "Update case with court hearing details",
     "DisplayOrder": 21,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "AwaitingPronouncement",
     "SecurityClassification": "Public"
   }
 ]
