@@ -151,7 +151,7 @@
     "ID": "Payment",
     "ListElementCode": "PaymentSiteId",
     "FieldType": "Text",
-    "ElementLabel": "Payment site ID ",
+    "ElementLabel": "Payment site ID",
     "SecurityClassification": "Public"
   },
   {

@@ -1329,7 +1329,7 @@
     "TabID": "facts",
     "TabLabel": "Reason for divorce",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted ",
+    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
     "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -1860,7 +1860,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "D8caseReference",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND (D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\")"
+    "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND D8ReasonForDivorceAdulteryWishToName=\"Y*\""
   },
   {
     "LiveFrom": "01/01/2017",
