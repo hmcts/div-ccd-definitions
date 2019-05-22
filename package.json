@@ -26,7 +26,8 @@
   },
   "scripts": {
     "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
-    "test": "echo hello",
+    "lint": "echo lint",
+    "test": "echo test",
 
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-excel",
