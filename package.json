@@ -26,6 +26,8 @@
   },
   "scripts": {
     "preinstall": "yarn --cwd ccd-definition-processor install",
+    "test": "echo hello",
+
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-excel",
     "generate-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-excel",
@@ -38,7 +40,7 @@
     "generate-bulk-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
-    "generate-bulk-excel-all": "yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod" 
+    "generate-bulk-excel-all": "yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod"
   },
   "devDependencies": {
     "husky": "^2.2.0",
