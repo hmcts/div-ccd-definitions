@@ -25,7 +25,7 @@
     }
   },
   "scripts": {
-    "preinstall": "yarn --cwd ccd-definition-processor install",
+    "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
     "test": "echo hello",
 
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
