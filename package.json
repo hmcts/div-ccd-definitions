@@ -30,6 +30,7 @@
     "test": "echo test",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
+    "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
 
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-excel",
@@ -47,7 +48,8 @@
   },
   "devDependencies": {
     "husky": "^2.2.0",
+    "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
-    "prettier": "^1.17.0"
+    "sonar-scanner": "^3.1.0"
   }
 }
