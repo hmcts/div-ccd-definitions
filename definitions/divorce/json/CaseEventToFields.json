@@ -1603,7 +1603,7 @@
     "PageID": "SolSOCDesertion",
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1615,14 +1615,14 @@
     "PageID": "SolSOCDesertion",
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8ReasonForDivorceDesertionDetails",
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCDesertion",
     "PageLabel": "Statement of case - desertion",
@@ -3280,7 +3280,7 @@
     "PageID": "SolSOCDesertionUpdate",
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
