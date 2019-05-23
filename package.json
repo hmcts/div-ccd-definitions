@@ -27,7 +27,7 @@
   "scripts": {
     "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
     "lint": "echo lint",
-    "test": "echo test",
+    "test": "mocha test/**/*.js",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "husky": "^2.2.0",
+    "mocha": "^6.1.4",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
     "sonar-scanner": "^3.1.0"
