@@ -1797,7 +1797,7 @@
     "LiveFrom": "07/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "updateBulkCaseHearingDetails",
-    "Name": "Update case with court hearing details",
+    "Name": "Update case with court hearing",
     "Description": "Update case with court hearing details",
     "DisplayOrder": 21,
     "PreConditionState(s)": "AwaitingPronouncement",
