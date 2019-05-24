@@ -39,6 +39,6 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "CaseAcceptedList",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRD"
+    "CRUD": "CRUD"
   }
 ]
