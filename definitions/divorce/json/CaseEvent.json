@@ -1802,6 +1802,8 @@
     "DisplayOrder": 21,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00020.docx&documentType=coe&filename=certificateOfEntitlement",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {

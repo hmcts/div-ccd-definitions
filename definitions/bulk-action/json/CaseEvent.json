@@ -19,6 +19,8 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "Created",
     "PostConditionState": "ScheduledForListing",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk/schedule",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },

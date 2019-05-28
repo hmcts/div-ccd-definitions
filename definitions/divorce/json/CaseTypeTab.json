@@ -642,6 +642,26 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "CourtName",
+    "TabFieldDisplayOrder": 58
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DateAndTimeOfHearing",
+    "TabFieldDisplayOrder": 59
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
     "TabID": "respondentDetails",
     "TabLabel": "Respondent",
     "TabDisplayOrder": 4,
