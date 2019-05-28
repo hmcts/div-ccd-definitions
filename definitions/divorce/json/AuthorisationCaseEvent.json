@@ -3169,5 +3169,12 @@
     "CaseEventID": "SUAosAwaitingSol",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
   }
 ]

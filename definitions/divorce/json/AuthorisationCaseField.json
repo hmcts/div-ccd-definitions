@@ -9301,5 +9301,19 @@
     "CaseFieldID": "labelOutcomeofDN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "state",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
   }
 ]

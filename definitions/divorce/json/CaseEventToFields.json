@@ -5784,5 +5784,28 @@
     "DisplayContext": "OPTIONAL",
     "PageID": "updatecaserdc",
     "PageLabel": "Update Case"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "DecreeNisiGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "CostsClaimGranted",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
