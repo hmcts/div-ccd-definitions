@@ -18,7 +18,7 @@ The generated excel files will be in `defintions/divorce/xlsx`
 
 ### For a specific environment
 
-`yarn generate-excel-(demo\aat\prod)` 
+`yarn generate-excel-(local\demo\aat\prod)` 
 
 For example
 
@@ -26,7 +26,7 @@ For example
 
 ### For a bulk-action config
 
-`yarn generate-bulk-excel-(demo\aat\prod)` 
+`yarn generate-bulk-excel-(local\demo\aat\prod)` 
 
 For example
 
