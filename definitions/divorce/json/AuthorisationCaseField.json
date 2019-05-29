@@ -7220,13 +7220,6 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DNApprovalDate",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DNApprovalDate",
     "UserRole": "citizen",
     "CRUD": "R"
   },
@@ -7249,13 +7242,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CostsClaimGranted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CostsClaimGranted",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
@@ -7312,13 +7298,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelOutcomeofDN",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
