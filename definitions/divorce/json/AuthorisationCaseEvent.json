@@ -3796,27 +3796,6 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testAosStarted",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testAosAwaiting",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testAwaitingDecreeNisi",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "linkRespondent",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
@@ -4035,13 +4014,6 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAwaitingLAReferral",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testAwaitingDecreeAbsolute",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
