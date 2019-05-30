@@ -2922,5 +2922,32 @@
     "Label": "Case State",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "whoPaysCosts",
+    "Label": "Who should pay?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "WhoPaysCostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "typeCostsDecision",
+    "Label": "Make a costs order:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "CostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "costsOrderAdditionalInfo",
+    "Label": "Additional info",
+    "FieldType": "Text",
+    "FieldTypeParameter": "CostOrderList",
+    "SecurityClassification": "Public"
   }
 ]
