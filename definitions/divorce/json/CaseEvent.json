@@ -1990,5 +1990,16 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "AosAwaitingSol",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "create",
+    "Name": "Notice of Acting",
+    "Description": "Create a Notice of Acting",
+    "DisplayOrder": 1,
+    "PostConditionState": "Created",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
