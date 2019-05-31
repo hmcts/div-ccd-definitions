@@ -2876,14 +2876,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "25/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "CostsClaimGranted",
-    "Label": "Costs claim granted",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
@@ -2905,6 +2897,57 @@
     "ID": "labelOutcomeofDN",
     "Label": "### Outcome of DN:",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeNisiGranted",
+    "Label": "Grant Decree Nisi?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CostsClaimGranted",
+    "Label": "Grant Cost Order?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "state",
+    "Label": "Case State",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "whoPaysCosts",
+    "Label": "Who should pay?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "WhoPaysCostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "typeCostsDecision",
+    "Label": "Make a costs order:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "CostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "costsOrderAdditionalInfo",
+    "Label": "Additional info",
+    "FieldType": "Text",
+    "FieldTypeParameter": "CostOrderList",
     "SecurityClassification": "Public"
   },
   {
