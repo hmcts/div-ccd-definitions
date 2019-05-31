@@ -2197,7 +2197,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "solicitorCoRespondent",
+    "TabID": "SolicitorCoRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CoRespDefendsDivorce",
