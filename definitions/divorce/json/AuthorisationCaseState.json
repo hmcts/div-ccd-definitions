@@ -831,5 +831,26 @@
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingConsideration",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingClarification",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingPronouncement",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "RU"
   }
 ]
