@@ -2912,7 +2912,7 @@
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "LinkRespondentName",
     "Label": "Respondent's name:",
-    "FieldType": "Label",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -2920,7 +2920,7 @@
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "RespondentSolicitorCaseNo",
     "Label": "Case ID:",
-    "FieldType": "Label",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -2928,7 +2928,7 @@
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "RespondentSolicitorPin",
     "Label": "Pin code:",
-    "FieldType": "Label",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]
