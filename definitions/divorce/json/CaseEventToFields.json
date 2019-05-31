@@ -5857,8 +5857,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateBulkCaseHearingDetails",
-    "CaseFieldID": "CourtName",
-    "PageFieldDisplayOrder": 1,
+    "CaseFieldID": "DateAndTimeOfHearing",
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "PageID": "bulkcasehearing",
     "PageLabel": "Bulk Case Court Hearing Details"
