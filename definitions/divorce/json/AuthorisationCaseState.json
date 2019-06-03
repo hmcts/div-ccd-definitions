@@ -852,5 +852,12 @@
     "CaseStateID": "AwaitingPronouncement",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseStateID": "Created",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
