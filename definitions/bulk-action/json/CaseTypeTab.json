@@ -26,7 +26,7 @@
     "TabID": "BulkListCaseDetails",
     "TabLabel": "bulk listing case details",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "CaseLocation",
+    "CaseFieldID": "CourtName",
     "TabFieldDisplayOrder": 2
   },
   {
