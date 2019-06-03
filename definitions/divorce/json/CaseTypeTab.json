@@ -645,6 +645,36 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
+    "CaseFieldID": "whoPaysCosts",
+    "TabFieldDisplayOrder": 58
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "typeCostsDecision",
+    "TabFieldDisplayOrder": 59
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "costsOrderAdditionalInfo",
+    "TabFieldDisplayOrder": 60
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
     "TabFieldDisplayOrder": 58
   },
