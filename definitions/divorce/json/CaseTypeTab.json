@@ -2363,5 +2363,15 @@
     "TabDisplayOrder": 12,
     "CaseFieldID": "PreviousReasonsForDivorce",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "Channel": "CaseWorker",
+    "TabID": "History",
+    "TabLabel": "History",
+    "TabDisplayOrder": 1,
+    "CaseFieldID": "CaseHistory",
+    "TabFieldDisplayOrder": 1
   }
 ]
