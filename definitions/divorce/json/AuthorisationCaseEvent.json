@@ -3172,6 +3172,13 @@
   },
   {
     "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseEventID": "create",
     "UserRole": "caseworker-divorce-solicitor",

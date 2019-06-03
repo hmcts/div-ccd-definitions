@@ -5786,6 +5786,64 @@
     "PageLabel": "Update Case"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "DecreeNisiGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "CostsClaimGranted",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "whoPaysCosts",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeCostsOrder",
+    "PageLabel": "Make a costs order",
+    "PageShowCondition": "CostsClaimGranted=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "typeCostsDecision",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeCostsOrder",
+    "PageLabel": "Make a costs order",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "costsOrderAdditionalInfo",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeCostsOrder",
+    "PageLabel": "Make a costs order",
+    "FieldShowCondition": "typeCostsDecision=\"AdditionalInformation\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseEventID": "create",

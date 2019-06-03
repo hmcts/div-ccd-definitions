@@ -772,5 +772,47 @@
     "ID": "livingarrangementslastlivedtogether",
     "ListElementCode": "NEVER",
     "ListElement": "Never"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "WhoPaysCostOrderList",
+    "ListElementCode": "RespondentAndCoRespondent",
+    "ListElement": "Respondent and co-respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "WhoPaysCostOrderList",
+    "ListElementCode": "CoRespondent",
+    "ListElement": "Co-respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "WhoPaysCostOrderList",
+    "ListElementCode": "Respondent",
+    "ListElement": "Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "CostOrderList",
+    "ListElementCode": "AdditionalInformation",
+    "ListElement": "Additional information / free text order"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "CostOrderList",
+    "ListElementCode": "SubjectToDetailedAssessment",
+    "ListElement": "An amount subject to detailed assessment if not agreed"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "CostOrderList",
+    "ListElementCode": "Half",
+    "ListElement": "To pay half the costs"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "CostOrderList",
+    "ListElementCode": "All",
+    "ListElement": "To pay all the costs"
   }
 ]

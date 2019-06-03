@@ -1992,6 +1992,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "grantDnMakeDecision",
+    "Name": "Make a Decision",
+    "Description": "Make a Decision",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingConsideration",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "create",
