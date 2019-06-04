@@ -7227,13 +7227,6 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DNApprovalDate",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DNApprovalDate",
     "UserRole": "citizen",
     "CRUD": "R"
   },
@@ -11316,6 +11309,272 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "costsOrderAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNAOSReview",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNReviewPetition",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNAdulteryMustIntolerate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNRespCostReview",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNRespCostAgree",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelSolDNRespCostDisagree",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTName",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTFirm",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNAdditionalComments",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNAdditionalComments",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNAdditionalComments",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNAdditionalComments",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PetitionChangedDetailsDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmPetitionDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BehaviourStillHappeningDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BehaviourMostRecentIncidentDateDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BehaviourLivedApartSinceEventDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BehaviourTimeLivedTogetherDetailsDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AdulteryLifeIntolerable",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AdulteryDateFoundOut",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AdulteryLivedApartSinceEventDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AdulteryTimeLivedTogetherDetailsDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionLivedApartSinceEventDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionTimeLivedTogetherDetailsDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationLivedApartSinceEventDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DivorceCostsOptionDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DocumentsUploadedDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "statementOfTruthDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTName",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTFirm",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTName",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTFirm",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTName",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solDNSOTFirm",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "minipetitionlink",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "minipetitionlink",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "minipetitionlink",
+    "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   }
 ]

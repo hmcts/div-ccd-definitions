@@ -646,7 +646,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
-    "TabFieldDisplayOrder": 598
+    "TabFieldDisplayOrder": 58
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2121,7 +2121,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "D8caseReference",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
+    "TabShowCondition": "PetitionerSolicitorEmail=\"*\" AND D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
   },
   {
     "LiveFrom": "01/01/2017",
