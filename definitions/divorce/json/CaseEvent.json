@@ -1794,6 +1794,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "07/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "updateBulkCaseHearingDetails",
+    "Name": "Update case with court hearing",
+    "Description": "Update case with court hearing details",
+    "DisplayOrder": 21,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00020.docx&documentType=coe&filename=certificateOfEntitlement",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUAwaitingHWF",
@@ -1990,5 +2003,18 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "AosAwaitingSol",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "grantDnMakeDecision",
+    "Name": "Make a Decision",
+    "Description": "Make a Decision",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingConsideration",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

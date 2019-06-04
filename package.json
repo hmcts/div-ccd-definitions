@@ -11,6 +11,10 @@
     "node": ">=8.11.0 <9.0.0"
   },
   "config": {
+    "local": {
+      "cosUrl": "http://host.docker.internal:4012",
+      "ccdUrl": "http://localhost:4452"
+    },
     "demo": {
       "cosUrl": "http://div-cos-demo.service.core-compute-demo.internal",
       "ccdUrl": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
@@ -25,24 +29,34 @@
     }
   },
   "scripts": {
-    "preinstall": "yarn --cwd ccd-definition-processor install",
+    "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
+    "lint": "echo lint",
+    "test": "mocha test/**/*.js",
+    "test:coverage": "echo test:coverage",
+    "test:a11y": "echo test:a11y",
+    "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
+
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
+    "generate-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-excel",
     "generate-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-excel",
     "generate-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-excel",
     "generate-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-excel",
     "generate-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-${DIV_ENV:-base}.xlsx",
-    "generate-excel-all": "yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-prod",
+    "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-prod",
 
     "generate-bulk-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/bulk-action/json -i ../definitions/bulk-action/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
+    "generate-bulk-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
-    "generate-bulk-excel-all": "yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod" 
+    "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod" 
   },
   "devDependencies": {
     "husky": "^2.2.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
-    "prettier": "^1.17.0"
+    "sonar-scanner": "^3.1.0"
   }
 }

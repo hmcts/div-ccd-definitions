@@ -4,16 +4,6 @@ Divorce configuration definitions for CCD
 
 ## Setup
 
-### Include the submodule
-
-* If you're cloning the repository for the first time, use 
-
-`git clone --recursive git@github.com:hmcts/div-ccd-definitions.git`
-
-* If you've already cloned the project
-
-`git submodule update --init --recursive`
-
 ### Install
 
 Run `yarn install` to install the dependencies for both this project and the submodule
@@ -28,7 +18,7 @@ The generated excel files will be in `defintions/divorce/xlsx`
 
 ### For a specific environment
 
-`yarn generate-excel-(demo\aat\prod)` 
+`yarn generate-excel-(local\demo\aat\prod)` 
 
 For example
 
@@ -36,7 +26,7 @@ For example
 
 ### For a bulk-action config
 
-`yarn generate-bulk-excel-(demo\aat\prod)` 
+`yarn generate-bulk-excel-(local\demo\aat\prod)` 
 
 For example
 
