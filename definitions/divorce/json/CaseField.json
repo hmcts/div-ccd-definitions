@@ -2230,7 +2230,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "ConfirmPetitionDN",
-    "Label": "Petitioner confirmed petition is true at DN stage?",
+    "Label": "Is everything stated in this divorce petition true?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2239,7 +2239,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "DivorceCostsOptionDN",
     "Label": "Petitioner's cost order preference at DN stage",
-    "FieldType": "FixedList",
+    "FieldType": "FixedRadioList",
     "FieldTypeParameter": "DivorceCostsOptionDNEnum",
     "SecurityClassification": "Public"
   },
@@ -2288,7 +2288,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "AdulteryLifeIntolerable",
-    "Label": "Petitioner finds it intolerable to live with their husband/wife?",
+    "Label": "Does the petitioner find it intolerable to live with the respondent?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2499,7 +2499,7 @@
     "LiveFrom": "04/11/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApplyForDecreeNisi",
-    "Label": "Petitioner is continuing with their divorce and applying for a decree nisi?",
+    "Label": "Does the petitioner want to continue with the divorce and apply for a decree nisi?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2955,6 +2955,87 @@
     "CaseTypeID": "DIVORCE",
     "ID": "CourtName",
     "Label": "Court name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNAOSReview",
+    "Label": "### Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName} \r\n\r\n### Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n### Reason for Divorce\r\n${D8ReasonForDivorce}\r\n\r\n### Acknowledgement of Service\r\nThe respondent agrees to the divorce and doesn't want to try and prevent the divorce\r\n\r\n### Jurisdiction of the court\r\nThe respondent agrees that the courts of England and Wales have the jurisdiction to grant the petitioner a divorce. They stated there are no other proceedings outside of England and Wales that are related to the marriage or which may affect its validity.\r\n\r\n### Does the petitioner want to claim costs?\r\n${D8DivorceCostsClaim}\r\n\r\n### Statement of Truth\r\n_\"I believe that the facts stated in this application are true\"_\r\n\r\n${D8PetitionerFirstName} ${D8PetitionerLastName} ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "minipetitionlink",
+    "Label": "Link to Mini Petition",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNReviewPetition",
+    "Label": "Review the Petition: ${minipetitionlink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNAdulteryMustIntolerate",
+    "Label": "### The petitioner must find it intolerable to live with the respondent\r\n\r\nThe petitioner must find it intolerable (unbearable) to live with the respondent if they want to use adultery as the reason for divorce. This applies whether they are still living together or not. If the petitioner does not find it intolerable, they will need to pay a £95 fee to change the application and use another reason for divorce. The application will also need to be sent to the respondent again.\r\nContact the Courts and Tribunals Service Centre to change your application, or go back to change your answer.\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNRespCostReview",
+    "Label": "When asked if they agree to your cost claim, the respondent replied as follows",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNRespCostAgree",
+    "Label": "I agree to the petitioner's cost claim",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNRespCostDisagree",
+    "Label": "I disagree to the petitioner's cost claim for the following reasons:\r\n${RespCostsReason}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solDNSOTName",
+    "Label": "Solicitor's Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solDNSOTFirm",
+    "Label": "Solicitor's Firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solDNAdditionalComments",
+    "Label": "Additional Comments",
+    "HintText": "For the attention of court staff. These comments will not form part of the petition",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
