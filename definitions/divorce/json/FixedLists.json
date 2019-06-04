@@ -546,30 +546,6 @@
     "ListElement": "No"
   },
   {
-    "LiveFrom": "31/08/2018",
-    "ID": "RespAgreeToCostsEnum",
-    "ListElementCode": "DifferentAmount",
-    "ListElement": "Different amount"
-  },
-  {
-    "LiveFrom": "31/08/2018",
-    "ID": "RespAgreeToCostsEnum",
-    "ListElementCode": "yes",
-    "ListElement": "Yes - Remove"
-  },
-  {
-    "LiveFrom": "31/08/2018",
-    "ID": "RespAgreeToCostsEnum",
-    "ListElementCode": "no",
-    "ListElement": "No - Remove"
-  },
-  {
-    "LiveFrom": "31/08/2018",
-    "ID": "RespAgreeToCostsEnum",
-    "ListElementCode": "differentAmount",
-    "ListElement": "Different amount - Remove"
-  },
-  {
     "LiveFrom": "05/09/2018",
     "ID": "DivorceCostsOptionDNEnum",
     "ListElementCode": "originalAmount",
