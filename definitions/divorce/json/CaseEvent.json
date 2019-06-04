@@ -1123,7 +1123,7 @@
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": 120120,
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -1138,7 +1138,7 @@
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": 120120,
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
