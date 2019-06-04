@@ -1020,7 +1020,6 @@
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
-    "CRUD": "RU"
   },
   {
     "LiveFrom": "31/05/2019",
