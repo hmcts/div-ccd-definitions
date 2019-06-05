@@ -758,43 +758,43 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
-    "ListElementCode": "RespondentAndCoRespondent",
+    "ListElementCode": "respondentAndCoRespondent",
     "ListElement": "Respondent and co-respondent"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
-    "ListElementCode": "CoRespondent",
+    "ListElementCode": "coRespondent",
     "ListElement": "Co-respondent"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
-    "ListElementCode": "Respondent",
+    "ListElementCode": "respondent",
     "ListElement": "Respondent"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
-    "ListElementCode": "AdditionalInformation",
+    "ListElementCode": "additionalInformation",
     "ListElement": "Additional information / free text order"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
-    "ListElementCode": "SubjectToDetailedAssessment",
+    "ListElementCode": "subjectToDetailedAssessment",
     "ListElement": "An amount subject to detailed assessment if not agreed"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
-    "ListElementCode": "Half",
+    "ListElementCode": "half",
     "ListElement": "To pay half the costs"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
-    "ListElementCode": "All",
+    "ListElementCode": "all",
     "ListElement": "To pay all the costs"
   }
 ]

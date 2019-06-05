@@ -2926,7 +2926,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "whoPaysCosts",
+    "ID": "WhoPaysCosts",
     "Label": "Who should pay?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "WhoPaysCostOrderList",
@@ -2935,7 +2935,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "typeCostsDecision",
+    "ID": "TypeCostsDecision",
     "Label": "Make a costs order:",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "CostOrderList",
@@ -2944,7 +2944,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "costsOrderAdditionalInfo",
+    "ID": "CostsOrderAdditionalInfo",
     "Label": "Additional info",
     "FieldType": "Text",
     "FieldTypeParameter": "CostOrderList",

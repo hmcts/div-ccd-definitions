@@ -645,7 +645,7 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "whoPaysCosts",
+    "CaseFieldID": "WhoPaysCosts",
     "TabFieldDisplayOrder": 58
   },
   {
@@ -655,7 +655,7 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "typeCostsDecision",
+    "CaseFieldID": "TypeCostsDecision",
     "TabFieldDisplayOrder": 59
   },
   {
@@ -665,7 +665,7 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "costsOrderAdditionalInfo",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
     "TabFieldDisplayOrder": 60
   },
   {
