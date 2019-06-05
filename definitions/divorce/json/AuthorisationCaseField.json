@@ -11587,14 +11587,14 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LivedTogetherPermittedPara-1",
+    "CaseFieldID": "LivedTogetherSepPermittedPara-1",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LivedTogetherPermittedPara-2",
+    "CaseFieldID": "LivedTogetherDesertionPermittedPara-1",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },

@@ -2458,16 +2458,16 @@
   {
     "LiveFrom": "01/11/2018",
     "CaseTypeID": "DIVORCE",
-    "ID": "LivedTogetherPermittedPara-1",
-    "Label": "${D8SeparationReferenceDate} is the date exactly ${SepYears} years and 6 months in the past. If the petitioner and the respondent lived together for more than 6 months (over one or more periods) since that date, then you can't use this reason for divorce at this time.",
+    "ID": "LivedTogetherSepPermittedPara-1",
+    "Label": "If the petitioner and respondent lived together for more than ${D8SeparationTimeTogetherPermitted} since ${D8SeparationReferenceDate} they won't have been separated for long enough to use the ${SepYears} years separation reason for divorce at this time.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/11/2018",
     "CaseTypeID": "DIVORCE",
-    "ID": "LivedTogetherPermittedPara-2",
-    "Label": "If the petitioner and respondent lived together for more than ${D8SeparationTimeTogetherPermitted} since ${D8SeparationReferenceDate} they won't have been separated for long enough to use the ${SepYears} years separation reason for divorce at this time.",
+    "ID": "LivedTogetherDesertionPermittedPara-1",
+    "Label": "If the petitioner and respondent lived together for more than ${D8DesertionTimeTogetherPermitted} since ${D8SeparationReferenceDate} they won't have been separated for long enough to use desertion as  reason for divorce at this time.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2825,6 +2825,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "D8LivedApartSinceDesertion",
     "Label": "Has the petitioner lived apart from the respondent for the entire time since they deserted the petitioner?",
+    "HintText": "Petitioner must have lived apart from the respondent for at least 2 years since  ${D8SeparationReferenceDate}. Any time that the petitioner & respondent have lived together doesn't count towards this 2 year desertion period",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },

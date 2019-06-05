@@ -1691,7 +1691,7 @@
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -1703,7 +1703,7 @@
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -1729,7 +1729,7 @@
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -1754,33 +1754,7 @@
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "LivedTogetherPermittedPara-1",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCLivedApart",
-    "PageLabel": "Lived Apart for the entire time",
-    "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "LivedTogetherPermittedPara-2",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCLivedApart",
-    "PageLabel": "Lived Apart for the entire time",
-    "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\" AND D8LivedApartSinceSeparation=\"No\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -1788,20 +1762,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8DesertionTimeTogetherPermitted",
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 7,
     "DisplayContext": "READONLY",
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8LivedApartSinceDesertion",
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
@@ -1814,13 +1788,39 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceDesertion=\"No\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\" AND D8LivedApartSinceDesertion=\"No\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "LivedTogetherSepPermittedPara-1",
+    "PageFieldDisplayOrder": 10,
+    "DisplayContext": "READONLY",
+    "PageID": "SolSOCLivedApart",
+    "PageLabel": "Lived Apart for the entire time",
+    "PageDisplayOrder": 14,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\" AND D8LivedApartSinceSeparation=\"No\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "LivedTogetherDesertionPermittedPara-1",
+    "PageFieldDisplayOrder": 11,
+    "DisplayContext": "READONLY",
+    "PageID": "SolSOCLivedApart",
+    "PageLabel": "Lived Apart for the entire time",
+    "PageDisplayOrder": 14,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\" AND D8LivedApartSinceDesertion=\"No\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3470,7 +3470,7 @@
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "LabSolSOCSeparation-Para2",
     "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "SolSOCSeparationUpdate",
     "PageLabel": "Statement of case - separation",
     "PageDisplayOrder": 13,
@@ -3511,7 +3511,7 @@
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -3523,7 +3523,7 @@
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -3549,7 +3549,7 @@
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -3574,33 +3574,7 @@
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "LivedTogetherPermittedPara-1",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCLivedApartUpdate",
-    "PageLabel": "Lived Apart for the entire time",
-    "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "LivedTogetherPermittedPara-2",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCLivedApartUpdate",
-    "PageLabel": "Lived Apart for the entire time",
-    "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceSeparation=\"No\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\" AND D8LivedApartSinceSeparation=\"No\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3608,20 +3582,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "D8DesertionTimeTogetherPermitted",
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 7,
     "DisplayContext": "READONLY",
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "D8LivedApartSinceDesertion",
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
@@ -3634,13 +3608,39 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "FieldShowCondition": "D8LivedApartSinceDesertion=\"No\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\" AND D8LivedApartSinceDesertion=\"No\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "LivedTogetherSepPermittedPara-1",
+    "PageFieldDisplayOrder": 10,
+    "DisplayContext": "READONLY",
+    "PageID": "SolSOCLivedApartUpdate",
+    "PageLabel": "Lived Apart for the entire time",
+    "PageDisplayOrder": 14,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\" AND D8LivedApartSinceSeparation=\"No\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "LivedTogetherDesertionPermittedPara-1",
+    "PageFieldDisplayOrder": 11,
+    "DisplayContext": "READONLY",
+    "PageID": "SolSOCLivedApartUpdate",
+    "PageLabel": "Lived Apart for the entire time",
+    "PageDisplayOrder": 14,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\" AND D8LivedApartSinceDesertion=\"No\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3651,7 +3651,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolExistingCourtCasesUpdate",
     "PageLabel": "Other legal proceedings",
-    "PageDisplayOrder": 14,
+    "PageDisplayOrder": 15,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3663,7 +3663,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolExistingCourtCasesUpdate",
     "PageLabel": "Other legal proceedings",
-    "PageDisplayOrder": 14,
+    "PageDisplayOrder": 15,
     "FieldShowCondition": "D8LegalProceedings=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -3676,7 +3676,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolDividingMoneyAndPropertyUpdate",
     "PageLabel": "Financial orders",
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 16,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3688,7 +3688,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolDividingMoneyAndPropertyUpdate",
     "PageLabel": "Financial orders",
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 16,
     "FieldShowCondition": "D8FinancialOrder=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -3701,7 +3701,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 16,
+    "PageDisplayOrder": 17,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3713,7 +3713,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 16,
+    "PageDisplayOrder": 17,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3725,7 +3725,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 16,
+    "PageDisplayOrder": 17,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -3738,7 +3738,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3750,7 +3750,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3762,7 +3762,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3774,7 +3774,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3786,7 +3786,7 @@
     "DisplayContext": "READONLY",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3798,7 +3798,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
-    "PageDisplayOrder": 17,
+    "PageDisplayOrder": 18,
     "ShowSummaryChangeOption": "Yes"
   },
   {
