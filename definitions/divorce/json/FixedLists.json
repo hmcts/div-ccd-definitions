@@ -266,6 +266,12 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "costsOrder",
+    "ListElement": "Costs Order"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "daApplication",
     "ListElement": "Decree Absolute application"
   },
