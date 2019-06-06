@@ -560,18 +560,6 @@
   {
     "LiveFrom": "05/09/2018",
     "ID": "DivorceCostsOptionDNEnum",
-    "ListElementCode": "counterOffer",
-    "ListElement": "I will accept the amount my wife has suggested"
-  },
-  {
-    "LiveFrom": "05/09/2018",
-    "ID": "DivorceCostsOptionDNEnum",
-    "ListElementCode": "differentAmount",
-    "ListElement": "I want to claim a different amount"
-  },
-  {
-    "LiveFrom": "05/09/2018",
-    "ID": "DivorceCostsOptionDNEnum",
     "ListElementCode": "endClaim",
     "ListElement": "I don't want to claim my costs anymore"
   },
