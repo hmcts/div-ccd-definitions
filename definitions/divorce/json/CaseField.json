@@ -2304,7 +2304,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "AdulteryLivedApartSinceEventDN",
-    "Label": "Has the petitioner lived apart from the respondent since applying for the divorce?",
+    "Label": "Has the petitioner lived apart from the respondent since finding out about the adultery?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2312,7 +2312,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "AdulteryTimeLivedTogetherDetailsDN",
-    "Label": "Additional details of the living arrangements since the divorce application.",
+    "Label": "Additional details of the living arrangements since finding out about the adultery",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -2336,7 +2336,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "BehaviourLivedApartSinceEventDN",
-    "Label": "Has the petitioner lived apart from the respondent since applying for the divorce?",
+    "Label": "Has the petitioner lived apart from the respondent since the most recent example of the behaviour?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2344,7 +2344,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "BehaviourTimeLivedTogetherDetailsDN",
-    "Label": "Additional details of the living arrangements since the divorce application.",
+    "Label": "Additional details of the living arrangements since the the most recent example of the behaviour",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
