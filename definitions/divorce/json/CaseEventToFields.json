@@ -5874,7 +5874,9 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": 120120
   },
   {
     "LiveFrom": "16/04/2019",
