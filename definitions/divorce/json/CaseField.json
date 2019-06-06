@@ -2961,25 +2961,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelSolDNAOSReview",
-    "Label": "### Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName} \r\n\r\n### Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n### Reason for Divorce\r\n${D8ReasonForDivorce}\r\n\r\n### Acknowledgement of Service\r\nThe respondent agrees to the divorce and doesn't want to try and prevent the divorce\r\n\r\n### Jurisdiction of the court\r\nThe respondent agrees that the courts of England and Wales have the jurisdiction to grant the petitioner a divorce. They stated there are no other proceedings outside of England and Wales that are related to the marriage or which may affect its validity.\r\n\r\n### Does the petitioner want to claim costs?\r\n${D8DivorceCostsClaim}\r\n\r\n### Statement of Truth\r\n_\"I believe that the facts stated in this application are true\"_\r\n\r\n${D8RespondentFirstName} ${D8RespondentLastName}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "minipetitionlink",
-    "Label": "Link to Mini Petition",
+    "Label": "Link to Mini Petition:",
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelSolDNReviewPetition",
-    "Label": "Review the Petition: ${minipetitionlink}",
-    "FieldType": "Label",
+    "ID": "respondentanswerslink",
+    "Label": "Link to respondent answers:",
+    "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
@@ -3002,7 +2994,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostAgree",
-    "Label": "I agree to the petitioner's cost claim",
+    "Label": "_\"I agree to pay the costs\"_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3010,7 +3002,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostDisagree",
-    "Label": "I disagree to the petitioner's cost claim for the following reasons:\r\n${RespCostsReason}",
+    "Label": "_\"I should not pay any costs, and will give my reasons:\r\n${RespCostsReason}\"_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

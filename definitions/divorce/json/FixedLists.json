@@ -554,14 +554,14 @@
   {
     "LiveFrom": "05/09/2018",
     "ID": "DivorceCostsOptionDNEnum",
-    "ListElementCode": "originalAmount",
-    "ListElement": "I still want to claim my costs and will let the court decide how much"
+    "ListElementCode": "endClaim",
+    "ListElement": "I don't want to claim my costs anymore"
   },
   {
     "LiveFrom": "05/09/2018",
     "ID": "DivorceCostsOptionDNEnum",
-    "ListElementCode": "endClaim",
-    "ListElement": "I don't want to claim my costs anymore"
+    "ListElementCode": "originalAmount",
+    "ListElement": "I still want to claim my costs and will let the court decide how much"
   },
   {
     "LiveFrom": "19/10/2018",
