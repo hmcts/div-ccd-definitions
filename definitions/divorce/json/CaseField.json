@@ -2879,7 +2879,7 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DAEligibleFromDate",
-    "Label": "Decree Nisi granted date",
+    "Label": "Decree Absolute Eligible From Date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
