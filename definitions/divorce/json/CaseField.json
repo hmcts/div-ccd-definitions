@@ -2986,7 +2986,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostReview",
-    "Label": "When asked if they agree to your cost claim, the respondent replied as follows",
+    "Label": "### Respondent costs order",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2994,7 +2994,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostAgree",
-    "Label": "_\"I agree to pay the costs\"_",
+    "Label": "_The respondent has agreed to pay some or all of the costs_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3002,7 +3002,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostDisagree",
-    "Label": "_\"I should not pay any costs, and will give my reasons:\r\n${RespCostsReason}\"_",
+    "Label": "_The respondent has said they should not pay costs and given the following explaination about why they should not pay:_\r\n_\"${RespCostsReason}\"_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3029,6 +3029,30 @@
     "Label": "Additional Comments",
     "HintText": "For the attention of court staff. These comments will not form part of the petition",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDN",
+    "Label": "Has the respondent offered to resume living with the petitioner?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNRefused",
+    "Label": "Did the petitioner refuse to resume living together?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNDetails",
+    "Label": "Please give reasons why they refused:",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   }
 ]
