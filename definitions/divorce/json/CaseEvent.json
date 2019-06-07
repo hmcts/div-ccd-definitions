@@ -2026,6 +2026,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
+    "RetriesTimeoutAboutToStartEvent": 120120,
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": 120120,
     "SecurityClassification": "Public",
