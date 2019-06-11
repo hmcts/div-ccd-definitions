@@ -47,6 +47,8 @@
     "DisplayOrder": 4,
     "PreConditionState(s)": "Listed",
     "PostConditionState": "Pronounced",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/pronounce/submit",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
