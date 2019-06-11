@@ -2304,7 +2304,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "AdulteryLivedApartSinceEventDN",
-    "Label": "Has the petitioner lived apart from the respondent since applying for the divorce?",
+    "Label": "Has the petitioner lived apart from the respondent since finding out about the adultery?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2312,7 +2312,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "AdulteryTimeLivedTogetherDetailsDN",
-    "Label": "Additional details of the living arrangements since the divorce application.",
+    "Label": "Additional details of the living arrangements since finding out about the adultery",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -2336,7 +2336,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "BehaviourLivedApartSinceEventDN",
-    "Label": "Has the petitioner lived apart from the respondent since applying for the divorce?",
+    "Label": "Has the petitioner lived apart from the respondent since the most recent example of the behaviour?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2344,7 +2344,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "BehaviourTimeLivedTogetherDetailsDN",
-    "Label": "Additional details of the living arrangements since the divorce application.",
+    "Label": "Additional details of the living arrangements since the the most recent example of the behaviour",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -2876,6 +2876,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAEligibleFromDate",
+    "Label": "Decree Absolute Eligible From Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
@@ -2926,7 +2934,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "whoPaysCosts",
+    "ID": "WhoPaysCosts",
     "Label": "Who should pay?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "WhoPaysCostOrderList",
@@ -2935,7 +2943,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "typeCostsDecision",
+    "ID": "TypeCostsDecision",
     "Label": "Make a costs order:",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "CostOrderList",
@@ -2944,7 +2952,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "costsOrderAdditionalInfo",
+    "ID": "CostsOrderAdditionalInfo",
     "Label": "Additional info",
     "FieldType": "Text",
     "FieldTypeParameter": "CostOrderList",
@@ -2961,25 +2969,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelSolDNAOSReview",
-    "Label": "### Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName} \r\n\r\n### Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n### Reason for Divorce\r\n${D8ReasonForDivorce}\r\n\r\n### Acknowledgement of Service\r\nThe respondent agrees to the divorce and doesn't want to try and prevent the divorce\r\n\r\n### Jurisdiction of the court\r\nThe respondent agrees that the courts of England and Wales have the jurisdiction to grant the petitioner a divorce. They stated there are no other proceedings outside of England and Wales that are related to the marriage or which may affect its validity.\r\n\r\n### Does the petitioner want to claim costs?\r\n${D8DivorceCostsClaim}\r\n\r\n### Statement of Truth\r\n_\"I believe that the facts stated in this application are true\"_\r\n\r\n${D8PetitionerFirstName} ${D8PetitionerLastName} ",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "minipetitionlink",
-    "Label": "Link to Mini Petition",
+    "Label": "Link to Mini Petition:",
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelSolDNReviewPetition",
-    "Label": "Review the Petition: ${minipetitionlink}",
-    "FieldType": "Label",
+    "ID": "respondentanswerslink",
+    "Label": "Link to respondent answers:",
+    "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
@@ -2994,7 +2994,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostReview",
-    "Label": "When asked if they agree to your cost claim, the respondent replied as follows",
+    "Label": "### Respondent costs order",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3002,7 +3002,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostAgree",
-    "Label": "I agree to the petitioner's cost claim",
+    "Label": "_The respondent has agreed to pay some or all of the costs_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3010,7 +3010,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelSolDNRespCostDisagree",
-    "Label": "I disagree to the petitioner's cost claim for the following reasons:\r\n${RespCostsReason}",
+    "Label": "_The respondent has said they should not pay costs and given the following explaination about why they should not pay:_\r\n_\"${RespCostsReason}\"_",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3037,6 +3037,30 @@
     "Label": "Additional Comments",
     "HintText": "For the attention of court staff. These comments will not form part of the petition",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDN",
+    "Label": "Has the respondent offered to resume living with the petitioner?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNRefused",
+    "Label": "Did the petitioner refuse to resume living together?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNDetails",
+    "Label": "Please give reasons why they refused:",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   }
 ]
