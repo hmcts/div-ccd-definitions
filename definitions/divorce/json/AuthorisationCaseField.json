@@ -5467,6 +5467,20 @@
     "CRUD": "CRUD"
   },
   {
+    "LiveFrom": "02/01/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "evidenceHandled",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/01/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "scannedDocuments",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRUD"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8JurisdictionPath",
@@ -7192,6 +7206,13 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeNisiGrantedDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -9275,6 +9296,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DNApprovalDate",
@@ -11245,6 +11273,13 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeNisiGrantedDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },

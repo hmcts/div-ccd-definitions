@@ -2911,6 +2911,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAEligibleFromDate",
+    "Label": "Decree Absolute Eligible From Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
