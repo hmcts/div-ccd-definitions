@@ -1509,6 +1509,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "LabSolSOCSeparation-Para2",
+    "Label": "You need to provide the following dates related to petitioner separation. The court will use the most recent separation date as the petitioner and respondent separated.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "SeparationLivedTogetherAsCoupleAgain",
     "Label": "Has there been any period or periods since the separation date that the petitioner and the respondent have resumed living together as a couple?",
     "FieldType": "YesOrNo",
@@ -2418,6 +2426,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "D8MentalSeparationDate",
     "Label": "Date the petitioner decided the marriage was over",
+    "HintText": "Use the same date for both if they happened on the same day. If the Petitioner not sure of the exact dates, use the closest dates that they remember.",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
@@ -2426,6 +2435,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "D8PhysicalSeparationDate",
     "Label": "Date the petitioner and respondent started living apart",
+    "HintText": "Petitioner and respondent can both live in the same property and be considered by the court to be living apart, as long as they're living separate lives. For example, they don’t eat, sleep or socialise together.",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
@@ -2443,6 +2453,22 @@
     "ID": "D8LivedTogetherMoreTimeThanPermitted",
     "Label": "Have the petitioner and respondent lived together for more than ${D8SeparationTimeTogetherPermitted} since ${D8SeparationReferenceDate} ?",
     "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LivedTogetherSepPermittedPara-1",
+    "Label": "If the petitioner and respondent lived together for more than ${D8SeparationTimeTogetherPermitted} since ${D8SeparationReferenceDate} they won't have been separated for long enough to use the ${SepYears} years separation reason for divorce at this time.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LivedTogetherDesertionPermittedPara-1",
+    "Label": "If the petitioner and respondent lived together for more than ${D8DesertionTimeTogetherPermitted} since ${D8SeparationReferenceDate} they won't have been separated for long enough to use desertion as  reason for divorce at this time.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -2762,6 +2788,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SepYears",
+    "Label": "Number of allowed separation years as part of the selected fact",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8SeparationReferenceDate",
@@ -2791,6 +2825,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "D8LivedApartSinceDesertion",
     "Label": "Has the petitioner lived apart from the respondent for the entire time since they deserted the petitioner?",
+    "HintText": "Petitioner must have lived apart from the respondent for at least 2 years since  ${D8SeparationReferenceDate}. Any time that the petitioner & respondent have lived together doesn't count towards this 2 year desertion period",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
