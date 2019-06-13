@@ -702,6 +702,26 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "TabFieldDisplayOrder": 61
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DAEligibleFromDate",
+    "TabFieldDisplayOrder": 62
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
     "TabID": "respondentDetails",
     "TabLabel": "Respondent",
     "TabDisplayOrder": 4,
