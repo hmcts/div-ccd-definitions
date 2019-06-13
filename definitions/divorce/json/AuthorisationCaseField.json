@@ -11321,6 +11321,20 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "state",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11335,6 +11349,20 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WhoPaysCosts",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WhoPaysCosts",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "TypeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11342,9 +11370,37 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "TypeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "TypeCostsDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CostsOrderAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
