@@ -1579,7 +1579,8 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1591,8 +1592,7 @@
     "PageID": "SolSOCDesertion",
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1690,7 +1690,7 @@
     "PageID": "SolSOCLivedApart",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"separation-*\" OR D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -3510,7 +3510,7 @@
     "PageID": "SolSOCLivedApartUpdate",
     "PageLabel": "Lived Apart for the entire time",
     "PageDisplayOrder": 14,
-    "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"separation-*\" OR D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No"
   },
   {
