@@ -4673,7 +4673,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8MentalSeparationDate",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/11/2018",
@@ -4701,7 +4701,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PhysicalSeparationDate",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/11/2018",
@@ -4729,7 +4729,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8SeparationTimeTogetherPermitted",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/11/2018",
@@ -4757,7 +4757,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/11/2018",
@@ -11321,6 +11321,20 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "state",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11335,6 +11349,20 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WhoPaysCosts",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WhoPaysCosts",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "TypeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11342,9 +11370,37 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "TypeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "TypeCostsDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CostsOrderAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -11701,6 +11757,34 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DesertionAskedToResumeDNDetails",
     "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabSolSOCSeparation-Para2",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LivedTogetherSepPermittedPara-1",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LivedTogetherDesertionPermittedPara-1",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SepYears",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   }
 ]
