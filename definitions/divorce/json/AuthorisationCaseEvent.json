@@ -1491,6 +1491,20 @@
     "CRUD": "CRUD"
   },
   {
+    "LiveFrom": "02/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "handleEvidence",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "05/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "attachScannedDocs",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRUD"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAOSReceivedStarted",
