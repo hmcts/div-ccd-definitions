@@ -564,6 +564,12 @@
     "ListElement": "I still want to claim my costs and will let the court decide how much"
   },
   {
+    "LiveFrom": "05/09/2018",
+    "ID": "DivorceCostsOptionDNEnum",
+    "ListElementCode": "differentAmount",
+    "ListElement": "I want to claim a different amount of costs"
+  },
+  {
     "LiveFrom": "19/10/2018",
     "ID": "permittedDecreeNisiEnum",
     "ListElementCode": 0,
