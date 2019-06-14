@@ -3090,5 +3090,28 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-  { "ID": "labelSolDNWarning" }
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningContinueDN",
+    "Label": "### Warning: You have selected 'No'\r\nSubmitting this answer will result in the application for decree nisi being rejected.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningPetitionRead",
+    "Label": "### Warning: You have selected 'No'\r\nEverything stated in the divorce petition must be true. Submitting this answer will result in the application for decree nisi being rejected. ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningSOT",
+    "Label": "### Warning: You have selected 'No'\r\nSubmitting this answer will result in the application for decree nisi being rejected. ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
 ]
