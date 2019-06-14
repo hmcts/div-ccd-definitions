@@ -7350,6 +7350,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CourtName",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedAOSfromResp",
