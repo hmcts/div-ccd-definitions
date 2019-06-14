@@ -3215,13 +3215,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelSolSOCAdulteryPara-4",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelSolSOCAdulteryPara-5",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"

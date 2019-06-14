@@ -1405,14 +1405,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolSOCAdulteryPara-4",
-    "Label": "Clearly indicate any information which has been given to the petitioner by another person.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "LabelSolSOCAdulteryPara-5",
     "Label": "Do not name the person with whom the adultery was committed, unless the petitioner wishes to formally include them in the divorce proceedings.",
     "FieldType": "Label",
@@ -2710,7 +2702,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
-    "Label": "Adultery case information from third party?",
+    "Label": "Has any of the information about the adultery come from another person?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2718,7 +2710,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8ReasonForDivorceAdultery2ndHandDetails",
-    "Label": "Adultery case information from third party info",
+    "Label": "Second hand information details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -3097,5 +3089,6 @@
     "Label": "Please give reasons why they refused:",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
-  }
+  },
+  { "ID": "labelSolDNWarning" }
 ]
