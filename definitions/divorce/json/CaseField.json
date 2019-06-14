@@ -2247,8 +2247,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "DivorceCostsOptionDN",
     "Label": "Petitioner's cost order preference at DN stage",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "DivorceCostsOptionDNEnum",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
