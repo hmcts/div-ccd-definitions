@@ -2998,7 +2998,8 @@
     "CaseTypeID": "DIVORCE",
     "ID": "CourtName",
     "Label": "Court name",
-    "FieldType": "Text",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "DnCourtEnum",
     "SecurityClassification": "Public"
   },
   {
