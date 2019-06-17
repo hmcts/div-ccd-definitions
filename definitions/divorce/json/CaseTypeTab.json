@@ -2151,7 +2151,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "D8caseReference",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "PetitionerSolicitorEmail=\"*\" AND D8ReasonForDivorceAdulteryWishToName=\"Y*\""
+    "TabShowCondition": "PetitionerSolicitorEmail=\"*\" AND D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
   },
   {
     "LiveFrom": "01/01/2017",
