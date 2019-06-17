@@ -1729,6 +1729,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolPaySummaryChequePara-1",
+    "Label": "Payment Method: Cheque (payable to 'HM Courts & Tribunal Service')",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "LabelSolAppSummaryPara-1",
     "Label": "# Before you submit",
     "FieldType": "Label",
@@ -1811,6 +1819,54 @@
     "CaseTypeID": "DIVORCE",
     "ID": "LabelSolAppSummaryPara-11",
     "Label": "Phone: 0300 303 0642 (Monday to Friday, 8.30am to 5pm)\r\nEmail: EastMidlandsDivorce@Justice.gov.uk",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-1",
+    "Label": "# What to do now",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-2",
+    "Label": "## Write your reference number on your cheque",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-3",
+    "Label": "If you can’t write the reference number on the back, you can print this screen and include it in the envelope.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-4",
+    "Label": "## Post the cheque",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-5",
+    "Label": "Post the cheque to the following address:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAppSummaryChequePara-6",
+    "Label": "East Midlands Regional Divorce Centre, PO Box 10447, Nottingham, Nottinghamshire, NG2 9QN",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
