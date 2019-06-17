@@ -2255,7 +2255,7 @@
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "CostsDifferentDetails",
-    "Label": "Reason the petitioner is requesting a different amount of costs",
+    "Label": "State what the petitioner wants to claim and why",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
