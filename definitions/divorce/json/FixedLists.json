@@ -104,12 +104,6 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "paymentMethodEnum",
-    "ListElementCode": "cheque",
-    "ListElement": "Cheque"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "paymentMethodEnum",
     "ListElementCode": "online",
     "ListElement": "Online"
   },
@@ -502,12 +496,6 @@
     "ID": "solHowToPay",
     "ListElementCode": "feesHelpWith",
     "ListElement": "Help with fees"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "solHowToPay",
-    "ListElementCode": "cheque",
-    "ListElement": "Cheque"
   },
   {
     "LiveFrom": "31/08/2018",
