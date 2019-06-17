@@ -7298,7 +7298,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CU"
+    "CRUD": "CR"
   },
   {
     "LiveFrom": "01/01/2019",
