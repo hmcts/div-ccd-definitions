@@ -2003,7 +2003,7 @@
     "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "coRespondentAddressIsSharablePara",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
     "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
@@ -2014,7 +2014,7 @@
     "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "coRespondentAddressIsConfidentialPara",
+    "CaseFieldID": "Label-CoRespondentAddressIsConfidential",
     "TabFieldDisplayOrder": 7,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
@@ -2269,7 +2269,7 @@
     "TabID": "SolicitorCoRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "coRespondentAddressIsSharablePara",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
     "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
@@ -2280,7 +2280,7 @@
     "TabID": "SolicitorCoRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "coRespondentAddressIsConfidentialPara",
+    "CaseFieldID": "Label-CoRespondentAddressIsConfidential",
     "TabFieldDisplayOrder": 7,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },

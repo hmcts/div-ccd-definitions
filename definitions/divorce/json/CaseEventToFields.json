@@ -6861,35 +6861,35 @@
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseEventID": "create",
     "CaseFieldID": "LinkRespondentName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
     "PageID": "CreateCase",
     "PageLabel": "Create a Notice of Acting",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes",
-    "DisplayContext": "MANDATORY"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseEventID": "create",
     "CaseFieldID": "RespondentSolicitorCaseNo",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
     "PageID": "CreateCase",
     "PageLabel": "Create a Notice of Acting",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Yes",
-    "DisplayContext": "MANDATORY"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseEventID": "create",
     "CaseFieldID": "RespondentSolicitorPin",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
     "PageID": "CreateCase",
     "PageLabel": "Create a Notice of Acting",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Yes",
-    "DisplayContext": "MANDATORY"
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
