@@ -3175,7 +3175,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "Label-CoRespondentAddressIsConfidential",
-    "Label": "The co-respondent's contact details are CONFIDENTIAL",
+    "Label": "### The co-respondent's contact details are CONFIDENTIAL",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3183,7 +3183,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "Label-CoRespondentAddressIsShareable ",
-    "Label": "The co-respondent's contact details may be shared",
+    "Label": "### The co-respondent's contact details may be shared",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
