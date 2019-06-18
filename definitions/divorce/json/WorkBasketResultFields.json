@@ -75,5 +75,19 @@
     "CaseFieldID": "PreviousCaseId",
     "Label": "Linked Cases",
     "DisplayOrder": 14
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseFieldID": "[CASE_REFERENCE]",
+    "Label": "Case reference",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseFieldID": "[CREATED_DATE]",
+    "Label": "Case created date",
+    "DisplayOrder": 2
   }
 ]

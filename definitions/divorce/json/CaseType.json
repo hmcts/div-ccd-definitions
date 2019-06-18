@@ -8,5 +8,15 @@
     "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents",
     "RetriesTimeoutURLPrintEvent": "5,10,15",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "ID": "DIVORCE_NOTICE_OF_ACTING",
+    "Name": "Notice Of Acting - v0.1",
+    "Description": "Solicitor Notice of Acting",
+    "JurisdictionID": "DIVORCE",
+    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/NOTICE_OF_ACTING/documents",
+    "RetriesTimeoutURLPrintEvent": "5,10,15",
+    "SecurityClassification": "Public"
   }
 ]
