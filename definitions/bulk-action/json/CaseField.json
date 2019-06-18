@@ -20,7 +20,8 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "CourtName",
     "Label": "Court name",
-    "FieldType": "Text",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "DnCourtEnum",
     "SecurityClassification": "Public"
   },
   {
