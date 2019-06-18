@@ -1990,23 +1990,23 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "SolicitorCoRespondent",
+    "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
     "CaseFieldID": "coRespondentAddressIsSharablePara",
     "TabFieldDisplayOrder": 5,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"No\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "SolicitorCoRespondent",
+    "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
     "CaseFieldID": "coRespondentAddressIsConfidentialPara",
     "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2251,7 +2251,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "coRespondentAddressIsSharablePara",
     "TabFieldDisplayOrder": 5,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"No\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2262,7 +2262,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "coRespondentAddressIsConfidentialPara",
     "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
