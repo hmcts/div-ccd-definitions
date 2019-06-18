@@ -7291,7 +7291,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CR"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -11784,6 +11784,27 @@
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SepYears",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseFieldID": "LinkRespondentName",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseFieldID": "RespondentSolicitorCaseNo",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseFieldID": "RespondentSolicitorPin",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },

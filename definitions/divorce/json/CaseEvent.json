@@ -2032,5 +2032,18 @@
     "RetriesTimeoutURLSubmittedEvent": 120120,
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "create",
+    "Name": "Notice of Acting",
+    "Description": "Create a Notice of Acting",
+    "DisplayOrder": 1,
+    "PostConditionState": "Created",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-link-case",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

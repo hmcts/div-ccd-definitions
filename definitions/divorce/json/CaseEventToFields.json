@@ -1485,7 +1485,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "D8ReasonForDivorceAdulteryIsNamed",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWishToName",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCCoRespondent",
@@ -1503,7 +1503,7 @@
     "PageID": "SolSOCCoRespondent",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -1516,7 +1516,7 @@
     "PageID": "SolSOCCoRespondent",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -1529,7 +1529,7 @@
     "PageID": "SolSOCCoRespondent",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -1919,7 +1919,7 @@
     "PageID": "SolApplyToClaimCosts",
     "PageLabel": "Claim for costs",
     "PageDisplayOrder": 17,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3318,7 +3318,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "D8ReasonForDivorceAdulteryIsNamed",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWishToName",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "SolSOCCoRespondentUpdate",
@@ -3336,7 +3336,7 @@
     "PageID": "SolSOCCoRespondentUpdate",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3349,7 +3349,7 @@
     "PageID": "SolSOCCoRespondentUpdate",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3362,7 +3362,7 @@
     "PageID": "SolSOCCoRespondentUpdate",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3752,7 +3752,7 @@
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
     "PageDisplayOrder": 17,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4370,7 +4370,7 @@
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryIsNamed=\"Yes\""
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6691,6 +6691,20 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "CostsDifferentDetails",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "dncosts",
+    "PageLabel": "Your claim for divorce costs",
+    "PageDisplayOrder": 4,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DivorceCostsOptionDN=\"differentAmount\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "DocumentsUploadedQuestionDN",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -6781,5 +6795,41 @@
     "PageDisplayOrder": 6,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseEventID": "create",
+    "CaseFieldID": "LinkRespondentName",
+    "PageID": "CreateCase",
+    "PageLabel": "Create a Notice of Acting",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseEventID": "create",
+    "CaseFieldID": "RespondentSolicitorCaseNo",
+    "PageID": "CreateCase",
+    "PageLabel": "Create a Notice of Acting",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "CaseEventID": "create",
+    "CaseFieldID": "RespondentSolicitorPin",
+    "PageID": "CreateCase",
+    "PageLabel": "Create a Notice of Acting",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
   }
 ]
