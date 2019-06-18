@@ -2003,7 +2003,7 @@
     "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
@@ -2269,7 +2269,7 @@
     "TabID": "SolicitorCoRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
