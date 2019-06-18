@@ -2398,10 +2398,10 @@
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "Channel": "CaseWorker",
-    "TabID": "History",
-    "TabLabel": "History",
+    "TabID": "General",
+    "TabLabel": "General",
     "TabDisplayOrder": 1,
-    "CaseFieldID": "CaseHistory",
+    "CaseFieldID": "CaseLink",
     "TabFieldDisplayOrder": 1
   }
 ]

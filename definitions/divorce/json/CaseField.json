@@ -3120,7 +3120,7 @@
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "RespondentSolicitorCaseNo",
     "Label": "Case ID:",
-    "FieldType": "Text",
+    "FieldType": "CaseLink",
     "SecurityClassification": "Public"
   },
   {
