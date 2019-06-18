@@ -2,7 +2,7 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DIVORCE_BulkAction",
-    "Name": "Divorce bulk listcase - v0.7",
+    "Name": "Divorce bulk listcase - v0.8",
     "Description": "Handling of the dissolution of marriage",
     "JurisdictionID": "DIVORCE",
     "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE_BulkAction/documents",

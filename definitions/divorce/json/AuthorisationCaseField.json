@@ -11968,5 +11968,12 @@
     "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PronouncementJudge",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   }
 ]
