@@ -3098,5 +3098,37 @@
     "Label": "Please give reasons why they refused:",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "CaseHistory",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "LinkRespondentName",
+    "Label": "Respondent's name:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "RespondentSolicitorCaseNo",
+    "Label": "Case ID:",
+    "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "RespondentSolicitorPin",
+    "Label": "Pin code:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
