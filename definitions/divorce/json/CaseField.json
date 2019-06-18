@@ -3146,5 +3146,45 @@
     "Label": "### Warning: You have selected 'No'\r\nSubmitting this answer will result in the application for decree nisi not progressing…",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "coRespondentContactDetailsConfidential",
+    "Label": "Keep the Co-Respondent's contact details private from the petitioner?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "coRespondentAddressIsSharablePara",
+    "Label": "The co-respondent's contact details may be shared",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "coRespondentAddressIsConfidentialPara",
+    "Label": "Confidential Address - Take extra care to ensure the co-respondent's contact details below are not shared with the petitioner",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "Label-CoRespondentAddressIsConfidential",
+    "Label": "The co-respondent's contact details are CONFIDENTIAL",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "Label-CoRespondentAddressIsShareable ",
+    "Label": "The co-respondent's contact details may be shared",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
