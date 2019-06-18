@@ -5,7 +5,8 @@
     "ID": "AwaitingPayment",
     "Name": "Petition awaiting payment",
     "Description": "Petition awaiting online payment",
-    "DisplayOrder": 1
+    "DisplayOrder": 1,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -13,7 +14,8 @@
     "ID": "AwaitingHWFDecision",
     "Name": "Awaiting HWF decision",
     "Description": "Awaiting HWF decision",
-    "DisplayOrder": 2
+    "DisplayOrder": 2,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -21,7 +23,8 @@
     "ID": "AwaitingDocuments",
     "Name": "Awaiting petitioner",
     "Description": "Case created and awaiting action by the petitioner",
-    "DisplayOrder": 3
+    "DisplayOrder": 3,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -29,7 +32,8 @@
     "ID": "Submitted",
     "Name": "Petition submitted",
     "Description": "Petition paid and submitted",
-    "DisplayOrder": 4
+    "DisplayOrder": 4,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -37,7 +41,8 @@
     "ID": "Issued",
     "Name": "Petition issued",
     "Description": "Petition issued",
-    "DisplayOrder": 5
+    "DisplayOrder": 5,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -45,7 +50,8 @@
     "ID": "Rejected",
     "Name": "Petition rejected",
     "Description": "Petition rejected",
-    "DisplayOrder": 6
+    "DisplayOrder": 6,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -53,7 +59,8 @@
     "ID": "PendingRejection",
     "Name": "Pending rejection",
     "Description": "Petition pending rejection",
-    "DisplayOrder": 7
+    "DisplayOrder": 7,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -61,7 +68,8 @@
     "ID": "SOTAgreementPayAndSubmitRequired",
     "Name": "Statement of Truth, Pay and Submit Required",
     "Description": "Statement of Truth, Pay and Submit Required",
-    "DisplayOrder": 8
+    "DisplayOrder": 8,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -69,7 +77,8 @@
     "ID": "solicitorAwaitingPaymentConfirmation",
     "Name": "Solicitor - Awaiting Payment Confirmation",
     "Description": "Solicitor - Awaiting Payment Confirmation",
-    "DisplayOrder": 9
+    "DisplayOrder": 9,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -77,7 +86,8 @@
     "ID": "AosAwaiting",
     "Name": "AOS Awaiting",
     "Description": "AOS Awaiting",
-    "DisplayOrder": 10
+    "DisplayOrder": 10,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -85,7 +95,8 @@
     "ID": "AosStarted",
     "Name": "AOS Started",
     "Description": "AOS Started",
-    "DisplayOrder": 11
+    "DisplayOrder": 11,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -93,7 +104,8 @@
     "ID": "AosSubmittedAwaitingAnswer",
     "Name": "AOS Submitted Awaiting Answer",
     "Description": "AOS Submitted Awaiting Answer",
-    "DisplayOrder": 12
+    "DisplayOrder": 12,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -101,7 +113,8 @@
     "ID": "AwaitingDecreeNisi",
     "Name": "Awaiting DN application",
     "Description": "Awaiting DN application",
-    "DisplayOrder": 14
+    "DisplayOrder": 14,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -109,7 +122,8 @@
     "ID": "AosOverdue",
     "Name": "AOS Overdue",
     "Description": "AOS Overdue",
-    "DisplayOrder": 16
+    "DisplayOrder": 16,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -117,7 +131,8 @@
     "ID": "AwaitingReissue",
     "Name": "Awaiting reissue",
     "Description": "Awaiting reissue",
-    "DisplayOrder": 17
+    "DisplayOrder": 17,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -125,7 +140,8 @@
     "ID": "AwaitingLegalAdvisorReferral",
     "Name": "Awaiting legal advisor referral",
     "Description": "Awaiting legal advisor referral",
-    "DisplayOrder": 18
+    "DisplayOrder": 18,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -133,7 +149,8 @@
     "ID": "AwaitingConsideration",
     "Name": "Awaiting consideration",
     "Description": "Awaiting consideration",
-    "DisplayOrder": 19
+    "DisplayOrder": 19,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -141,7 +158,8 @@
     "ID": "AmendPetition",
     "Name": "Amend petition",
     "Description": "Amend petition",
-    "DisplayOrder": 20
+    "DisplayOrder": 20,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -149,7 +167,8 @@
     "ID": "AwaitingClarification",
     "Name": "Awaiting clarification",
     "Description": "Awaiting clarification",
-    "DisplayOrder": 21
+    "DisplayOrder": 21,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -157,7 +176,8 @@
     "ID": "DefendedDivorce",
     "Name": "Defended divorce",
     "Description": "Defended divorce",
-    "DisplayOrder": 22
+    "DisplayOrder": 22,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -165,7 +185,8 @@
     "ID": "AwaitingPronouncement",
     "Name": "Listed; Awaiting pronouncement",
     "Description": "Has been Listed; Awaiting pronouncement",
-    "DisplayOrder": 24
+    "DisplayOrder": 24,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -173,7 +194,8 @@
     "ID": "AwaitingDecreeAbsolute",
     "Name": "Awaiting DA Application",
     "Description": "Awaiting DA application",
-    "DisplayOrder": 26
+    "DisplayOrder": 26,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -181,7 +203,8 @@
     "ID": "DivorceGranted",
     "Name": "Divorce granted",
     "Description": "Divorce granted",
-    "DisplayOrder": 30
+    "DisplayOrder": 30,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -189,7 +212,8 @@
     "ID": "Withdrawn",
     "Name": "Withdraw",
     "Description": "Withdraw petition",
-    "DisplayOrder": 32
+    "DisplayOrder": 32,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -197,7 +221,8 @@
     "ID": "AosCompleted",
     "Name": "AOS Completed",
     "Description": "AOS Completed",
-    "DisplayOrder": 33
+    "DisplayOrder": 33,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -205,7 +230,8 @@
     "ID": "DNisRefused",
     "Name": "DN application refused",
     "Description": "DN application has been refused",
-    "DisplayOrder": 34
+    "DisplayOrder": 34,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -213,6 +239,15 @@
     "ID": "AosAwaitingSol",
     "Name": "Awaiting AOS (Solicitor)",
     "Description": "Awaiting AOS from solicitor",
-    "DisplayOrder": 35
+    "DisplayOrder": 35,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "Created",
+    "Name": "Noticed of Acting case created",
+    "Description": "Noticed of Acting case created",
+    "DisplayOrder": 1
   }
 ]
