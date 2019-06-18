@@ -1405,14 +1405,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolSOCAdulteryPara-4",
-    "Label": "Clearly indicate any information which has been given to the petitioner by another person.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "LabelSolSOCAdulteryPara-5",
     "Label": "Do not name the person with whom the adultery was committed, unless the petitioner wishes to formally include them in the divorce proceedings.",
     "FieldType": "Label",
@@ -2710,7 +2702,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
-    "Label": "Adultery case information from third party?",
+    "Label": "Has any of the information about the adultery come from another person?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2718,7 +2710,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8ReasonForDivorceAdultery2ndHandDetails",
-    "Label": "Adultery case information from third party info",
+    "Label": "Second hand information details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -3006,7 +2998,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "minipetitionlink",
-    "Label": "Link to Mini Petition:",
+    "Label": "Link to online petition:",
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
@@ -3129,6 +3121,30 @@
     "ID": "RespondentSolicitorPin",
     "Label": "Pin code:",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningContinueDN",
+    "Label": "### Warning: You have selected 'No'\r\nSubmitting this answer will result in the application for decree nisi not progressing…",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningPetitionRead",
+    "Label": "### Warning: You have selected 'No'\r\nEverything stated in the divorce petition must be true. Submitting this answer will result in the application for decree nisi not progressing…",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolDNWarningSOT",
+    "Label": "### Warning: You have selected 'No'\r\nSubmitting this answer will result in the application for decree nisi not progressing…",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]

@@ -1399,18 +1399,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "LabelSolSOCAdulteryPara-4",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCAdultery1",
-    "PageLabel": "Statement of case - adultery",
-    "PageDisplayOrder": 7,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
     "CaseFieldID": "LabelSolSOCAdulteryPara-5",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
@@ -1429,6 +1417,31 @@
     "PageID": "SolSOCAdultery1",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolSOCAdultery1",
+    "PageLabel": "Statement of case - adultery",
+    "PageDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
+    "PageFieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolSOCAdultery1",
+    "PageLabel": "Statement of case - adultery",
+    "PageDisplayOrder": 7,
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryAnyInfo2ndHand=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3219,18 +3232,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "LabelSolSOCAdulteryPara-4",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "READONLY",
-    "PageID": "SolSOCAdultery1Update",
-    "PageLabel": "Statement of case - adultery",
-    "PageDisplayOrder": 7,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "LabelSolSOCAdulteryPara-5",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
@@ -3249,6 +3250,31 @@
     "PageID": "SolSOCAdultery1Update",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolSOCAdultery1Update",
+    "PageLabel": "Statement of case - adultery",
+    "PageDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
+    "PageFieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolSOCAdultery1Update",
+    "PageLabel": "Statement of case - adultery",
+    "PageDisplayOrder": 7,
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryAnyInfo2ndHand=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -3794,7 +3820,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "D8DocumentsUploaded",
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "PageID": "SolUploadDocsUpdate",
     "PageLabel": "Upload the marriage certificate",
@@ -6167,7 +6193,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "respondentanswerslink",
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": "dnreviewaos",
     "PageLabel": "Review Acknowledgement of Service",
@@ -6182,13 +6208,26 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "DNApplyForDecreeNisi",
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "dnreviewaos",
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "labelSolDNWarningContinueDN",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"No\""
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6360,6 +6399,20 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "labelSolDNWarningPetitionRead",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewpetition",
+    "PageLabel": "Review the petitioner's application",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ConfirmPetitionDN=\"No\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "BehaviourStillHappeningDN",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -6480,7 +6533,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "AdulteryLifeIntolerable=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6591,7 +6644,7 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "PageShowCondition": "D8DivorceCostsClaim=\"Yes\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6605,7 +6658,7 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "RespAgreeToCosts=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6619,7 +6672,7 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "RespAgreeToCosts=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6694,20 +6747,21 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
-    "CaseFieldID": "solDNSOTName",
+    "CaseFieldID": "labelSolDNWarningSOT",
     "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
     "PageDisplayOrder": 6,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
+    "FieldShowCondition": "statementOfTruthDN=\"No\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
-    "CaseFieldID": "solDNSOTFirm",
+    "CaseFieldID": "solDNSOTName",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "dnsot",
@@ -6720,8 +6774,21 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
-    "CaseFieldID": "solDNAdditionalComments",
+    "CaseFieldID": "solDNSOTFirm",
     "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "dnsot",
+    "PageLabel": "Statement of Truth",
+    "PageDisplayOrder": 6,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "solDNAdditionalComments",
+    "PageFieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
