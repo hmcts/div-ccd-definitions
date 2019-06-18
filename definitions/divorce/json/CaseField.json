@@ -2997,7 +2997,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "minipetitionlink",
-    "Label": "Link to Mini Petition:",
+    "Label": "Link to online petition:",
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
