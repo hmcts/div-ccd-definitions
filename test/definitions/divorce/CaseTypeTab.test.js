@@ -1,4 +1,5 @@
 const expect = require('chai').expect;
+const assert = require('chai').assert;
 const _ = require('loadsh');
 const caseTypeTab = require('../../../definitions/divorce/json/CaseTypeTab');
 const caseField = require('../../../definitions/divorce/json/CaseField');
@@ -25,6 +26,25 @@ describe('CaseTypeTab', function() {
             field1.TabFieldDisplayOrder === field2.TabFieldDisplayOrder
         );
         expect(uniqResults).to.eql(allFieldsPerTab);
+      });
+    });
+  });
+
+  describe('sequence', function() {
+    it('should contain a proper sequence for TabFieldDisplayOrder with no gaps', function() {
+      const tabIds = _.uniq(_.map(caseTypeTab, 'TabID'));
+      tabIds.forEach(tabId => {
+        const allFieldsPerTab = _.filter(caseTypeTab, (field) => {
+          return field.TabID === tabId;
+        });
+        const allTabFieldDisplayOrderNumbers = _.map(allFieldsPerTab, (field) => {
+          return field.TabFieldDisplayOrder;
+        }).sort((a, b) => a - b);
+        for(var i = 1; i < allTabFieldDisplayOrderNumbers.length; i++) {
+          if(allTabFieldDisplayOrderNumbers[i] - allTabFieldDisplayOrderNumbers[i-1] !== 1) {
+            assert.fail(`Missing/unordered TabFieldDisplayOrder sequence number in TabID ${tabId} - expected ${allTabFieldDisplayOrderNumbers[i-1] + 1} but got ${allTabFieldDisplayOrderNumbers[i]}`);
+          }
+        }
       });
     });
   });
