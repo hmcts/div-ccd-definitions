@@ -17,7 +17,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerSolicitorName",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 50
   },
   {
     "LiveFrom": "01/01/2017",
@@ -27,7 +27,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerSolicitorFirm",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 51
   },
   {
     "LiveFrom": "01/01/2017",
@@ -37,7 +37,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "DerivedPetitionerSolicitorAddr",
-    "TabFieldDisplayOrder": 3
+    "TabFieldDisplayOrder": 61
   },
   {
     "LiveFrom": "01/01/2017",
@@ -47,7 +47,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerSolicitorPhone",
-    "TabFieldDisplayOrder": 4
+    "TabFieldDisplayOrder": 62
   },
   {
     "LiveFrom": "01/01/2017",
@@ -57,7 +57,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerSolicitorEmail",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 63
   },
   {
     "LiveFrom": "01/01/2017",
@@ -67,7 +67,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerSolicitorToEffectService",
-    "TabFieldDisplayOrder": 6
+    "TabFieldDisplayOrder": 64
   },
   {
     "LiveFrom": "01/01/2017",
@@ -646,7 +646,7 @@
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CostsOrderAdditionalInfo",
-    "TabFieldDisplayOrder": 60
+    "TabFieldDisplayOrder": 6
   },
   {
     "LiveFrom": "01/01/2017",
@@ -656,7 +656,7 @@
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
-    "TabFieldDisplayOrder": 58
+    "TabFieldDisplayOrder": 7
   },
   {
     "LiveFrom": "01/01/2017",
@@ -666,7 +666,7 @@
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CourtName",
-    "TabFieldDisplayOrder": 59
+    "TabFieldDisplayOrder": 8
   },
   {
     "LiveFrom": "01/01/2017",
@@ -676,7 +676,7 @@
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 3,
     "CaseFieldID": "DateAndTimeOfHearing",
-    "TabFieldDisplayOrder": 60
+    "TabFieldDisplayOrder": 9
   },
   {
     "LiveFrom": "01/01/2017",
@@ -686,7 +686,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8RespondentFirstName",
-    "TabFieldDisplayOrder": 3
+    "TabFieldDisplayOrder": 52
   },
   {
     "LiveFrom": "01/01/2017",
@@ -696,7 +696,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8RespondentLastName",
-    "TabFieldDisplayOrder": 4
+    "TabFieldDisplayOrder": 53
   },
   {
     "LiveFrom": "01/01/2017",
@@ -706,7 +706,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8RespondentNameAsOnMarriageCertificate",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 54
   },
   {
     "LiveFrom": "01/01/2017",
@@ -780,7 +780,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
-    "TabFieldDisplayOrder": 12,
+    "TabFieldDisplayOrder": 55,
     "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
   },
   {
@@ -791,7 +791,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
-    "TabFieldDisplayOrder": 13,
+    "TabFieldDisplayOrder": 56,
     "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
   },
   {
@@ -812,7 +812,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8InferredRespondentGender",
-    "TabFieldDisplayOrder": 15
+    "TabFieldDisplayOrder": 57
   },
   {
     "LiveFrom": "01/01/2017",
@@ -822,7 +822,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8RespondentCorrespondenceSendToSol",
-    "TabFieldDisplayOrder": 16
+    "TabFieldDisplayOrder": 58
   },
   {
     "LiveFrom": "01/01/2017",
@@ -832,7 +832,7 @@
     "TabLabel": "AOS",
     "TabDisplayOrder": 4,
     "CaseFieldID": "D8RespondentSolicitorName",
-    "TabFieldDisplayOrder": 17
+    "TabFieldDisplayOrder": 59
   },
   {
     "LiveFrom": "01/01/2017",
@@ -862,7 +862,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8RespondentSolicitorEmail",
-    "TabFieldDisplayOrder": 20
+    "TabFieldDisplayOrder": 60
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1132,7 +1132,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 5,
     "CaseFieldID": "D8ReasonForDivorceAdulteryWishToName",
-    "TabFieldDisplayOrder": 2,
+    "TabFieldDisplayOrder": 1,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
@@ -1649,7 +1649,7 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "PaymentHistory",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 6
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1689,7 +1689,7 @@
     "TabLabel": "Documents",
     "TabDisplayOrder": 10,
     "CaseFieldID": "DocumentsUploadedDN",
-    "TabFieldDisplayOrder": 3
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",

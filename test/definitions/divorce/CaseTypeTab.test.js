@@ -13,6 +13,20 @@ describe('CaseTypeTab', function() {
       );
       expect(uniqResult).to.eql(caseTypeTab);
     });
+    it('should contain a unique tab field display order ID field tab ID (no duplicate field order in a tab)', function() {
+      const tabIds = _.uniq(_.map(caseTypeTab, 'TabID'));
+      tabIds.forEach(tabId => {
+        const allFieldsPerTab = _.filter(caseTypeTab, (field) => {
+          return field.TabID === tabId;
+        });
+        const uniqResults = _.uniqWith(
+          allFieldsPerTab,
+          (field1, field2) =>
+            field1.TabFieldDisplayOrder === field2.TabFieldDisplayOrder
+        );
+        expect(uniqResults).to.eql(allFieldsPerTab);
+      });
+    });
   });
 
   describe('validation', function() {
