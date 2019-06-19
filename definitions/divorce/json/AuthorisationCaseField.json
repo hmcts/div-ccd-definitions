@@ -4860,20 +4860,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelOtherProceedingsPetitioner",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -7317,20 +7303,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CourtName",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -7709,13 +7681,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelAOSAnswers",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -9322,13 +9287,6 @@
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "31/08/2018",
@@ -9690,13 +9648,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelAOSAnswers",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11303,13 +11254,6 @@
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
