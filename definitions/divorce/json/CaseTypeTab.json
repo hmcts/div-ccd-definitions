@@ -543,6 +543,39 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionAskedToResumeDN",
+    "TabFieldDisplayOrder": 48,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionAskedToResumeDNRefused",
+    "TabFieldDisplayOrder": 48,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionAskedToResumeDNDetails",
+    "TabFieldDisplayOrder": 48,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
     "CaseFieldID": "DesertionLivedApartSinceEventDN",
     "TabFieldDisplayOrder": 48,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
