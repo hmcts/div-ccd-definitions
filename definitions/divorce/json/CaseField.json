@@ -3182,7 +3182,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "Label-CoRespondentAddressIsShareable ",
+    "ID": "Label-CoRespondentAddressIsShareable",
     "Label": "### The co-respondent's contact details may be shared",
     "FieldType": "Label",
     "SecurityClassification": "Public"
