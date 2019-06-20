@@ -241,5 +241,13 @@
     "Description": "Awaiting AOS from solicitor",
     "DisplayOrder": 35,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "31/05/2019",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
+    "ID": "Created",
+    "Name": "Noticed of Acting case created",
+    "Description": "Noticed of Acting case created",
+    "DisplayOrder": 1
   }
 ]
