@@ -2549,14 +2549,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAOSAnswers",
-    "Label": "### AOS Answers:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "ReceivedAosFromCoResp",
     "Label": "Received AOS from co-respondent?",
     "FieldType": "YesOrNo",

@@ -4923,20 +4923,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionChangedYesNoDN",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -7688,13 +7674,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionChangedYesNoDN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -9649,13 +9628,6 @@
     "LiveFrom": "01/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
