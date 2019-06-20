@@ -11686,6 +11686,27 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DesertionAskedToResumeDN",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDNRefused",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDNDetails",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDN",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
