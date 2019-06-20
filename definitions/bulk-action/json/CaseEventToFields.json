@@ -3,24 +3,12 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseEventID": "create",
-    "CaseFieldID": "CaseTitle",
+    "CaseFieldID": "CaseAcceptedList",
     "PageID": "CreateCase",
     "PageLabel": "Create bulk list case",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "No",
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE_BulkAction",
-    "CaseEventID": "create",
-    "CaseFieldID": "CaseList",
-    "PageID": "CreateCase",
-    "PageLabel": "Create bulk list case",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Yes",
     "DisplayContext": "MANDATORY"
   },
   {
