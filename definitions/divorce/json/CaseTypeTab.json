@@ -555,39 +555,6 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "DesertionAskedToResumeDNRefused",
-    "TabFieldDisplayOrder": 48,
-    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "DesertionAskedToResumeDNDetails",
-    "TabFieldDisplayOrder": 48,
-    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "DesertionLivedApartSinceEventDN",
-    "TabFieldDisplayOrder": 48,
-    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "DesertionTimeLivedTogetherDetailsDN",
     "TabFieldDisplayOrder": 49,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
@@ -598,8 +565,41 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionAskedToResumeDNDetails",
+    "TabFieldDisplayOrder": 50,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionLivedApartSinceEventDN",
+    "TabFieldDisplayOrder": 51,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DesertionTimeLivedTogetherDetailsDN",
+    "TabFieldDisplayOrder": 52,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
     "CaseFieldID": "DivorceCostsOptionDN",
-    "TabFieldDisplayOrder": 50
+    "TabFieldDisplayOrder": 53
   },
   {
     "LiveFrom": "01/01/2017",
@@ -609,36 +609,6 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CostsDifferentDetails",
-    "TabFieldDisplayOrder": 51
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "DocumentsUploadedQuestionDN",
-    "TabFieldDisplayOrder": 52
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "statementOfTruthDN",
-    "TabFieldDisplayOrder": 53
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionerDetails",
-    "TabLabel": "Petitioner",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "labelOutcomeofDN",
     "TabFieldDisplayOrder": 54
   },
   {
@@ -648,7 +618,7 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "DNApprovalDate",
+    "CaseFieldID": "DocumentsUploadedQuestionDN",
     "TabFieldDisplayOrder": 55
   },
   {
@@ -658,8 +628,38 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "DecreeNisiGranted",
+    "CaseFieldID": "statementOfTruthDN",
     "TabFieldDisplayOrder": 56
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "labelOutcomeofDN",
+    "TabFieldDisplayOrder": 57
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DNApprovalDate",
+    "TabFieldDisplayOrder": 58
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DecreeNisiGranted",
+    "TabFieldDisplayOrder": 59
   },
   {
     "LiveFrom": "01/01/2017",
@@ -669,7 +669,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CostsClaimGranted",
-    "TabFieldDisplayOrder": 57
+    "TabFieldDisplayOrder": 60
   },
   {
     "LiveFrom": "01/01/2017",
@@ -709,7 +709,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
-    "TabFieldDisplayOrder": 58
+    "TabFieldDisplayOrder": 61
   },
   {
     "LiveFrom": "01/01/2017",
@@ -719,7 +719,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "CourtName",
-    "TabFieldDisplayOrder": 59
+    "TabFieldDisplayOrder": 62
   },
   {
     "LiveFrom": "01/01/2017",
@@ -729,7 +729,7 @@
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
     "CaseFieldID": "DateAndTimeOfHearing",
-    "TabFieldDisplayOrder": 60
+    "TabFieldDisplayOrder": 63
   },
   {
     "LiveFrom": "01/01/2017",
