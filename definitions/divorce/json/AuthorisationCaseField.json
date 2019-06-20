@@ -3927,13 +3927,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "AosLetterHolderId",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "31/08/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedAOSfromResp",
@@ -12308,13 +12301,6 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespondentContactDetailsConfidential",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentFullName",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
@@ -12323,13 +12309,6 @@
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentHomeAddressGlobal",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "respondentSolicitorReference",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
