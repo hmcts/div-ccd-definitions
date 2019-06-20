@@ -50,6 +50,27 @@ describe('CaseTypeTab', function() {
   });
 
   describe('validation', function() {
+    it('should contain a valid Tab IDs', function() {
+      const tabIds = _.uniq(_.map(caseTypeTab, 'TabID'));
+      expect(tabIds).to.eql([
+        "History",
+        "petitionDetails",
+        "dnDetails",
+        "outcomeOfDnDetails",
+        "aosDetails",
+        "paymentDetails",
+        "documents",
+        "confidentialPetitioner",
+        "confidentialRespondent",
+        "confidentialCoRespondent",
+        "notes",
+        "marriageCertificate",
+        "coRespondent",
+        "SolicitorCoRespondent",
+        "LinkedCase",
+        "General"
+      ]);
+    });
     it('should contain a valid case field IDs', function() {
       const validFields = _.uniq(_.map(caseField, 'ID'));
       let objectsWithInvalidCaseId = _.filter(caseTypeTab, (field) => {

@@ -1425,171 +1425,121 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "jurisdiction",
-    "TabLabel": "Jurisdiction",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 6,
     "CaseFieldID": "D8JurisdictionConnection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 72
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "jurisdiction",
-    "TabLabel": "Jurisdiction",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 6,
     "CaseFieldID": "D8DerivedLivingArrangementsLastLivedAddr",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 73
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "labelOtherProceedingsPetitioner",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "D8LegalProceedings",
-    "TabFieldDisplayOrder": 2
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "D8LegalProceedingsRelated",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "D8LegalProceedingsDetails",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "D8FinancialOrder",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 74
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "D8FinancialOrderFor",
-    "TabFieldDisplayOrder": 6
+    "TabFieldDisplayOrder": 75
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "D8DivorceCostsClaim",
-    "TabFieldDisplayOrder": 7
+    "TabFieldDisplayOrder": 76
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "D8DivorceClaimFrom",
-    "TabFieldDisplayOrder": 8
+    "TabFieldDisplayOrder": 77
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "D8StatementOfTruth",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "solSignStatementofTruth",
-    "TabFieldDisplayOrder": 10
+    "TabFieldDisplayOrder": 78
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "SolStatementOfReconciliationCertify",
-    "TabFieldDisplayOrder": 11
+    "TabFieldDisplayOrder": 79
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
-    "TabFieldDisplayOrder": 12
+    "TabFieldDisplayOrder": 80
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "StatementOfReconciliationComments",
-    "TabFieldDisplayOrder": 13
+    "TabFieldDisplayOrder": 81
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "SolStatementOfReconciliationName",
-    "TabFieldDisplayOrder": 14
+    "TabFieldDisplayOrder": 82
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "otherLegalProceedings",
-    "TabLabel": "Prayer / Other Legal Proceedings",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 7,
     "CaseFieldID": "SolStatementOfReconciliationFirm",
-    "TabFieldDisplayOrder": 15
+    "TabFieldDisplayOrder": 83
   },
   {
     "LiveFrom": "01/01/2017",
