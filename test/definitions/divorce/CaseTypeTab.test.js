@@ -47,6 +47,36 @@ describe('CaseTypeTab', function() {
         }
       });
     });
+
+    const tabIds = _.uniq(_.map(caseTypeTab, 'TabID'));
+    const expected = {
+      History: 1,
+      petitionDetails: 2,
+      aosDetails: 3,
+      dnDetails: 4,
+      outcomeOfDnDetails: 5,
+      paymentDetails: 6,
+      documents: 7,
+      confidentialPetitioner: 8,
+      confidentialRespondent: 9,
+      confidentialCoRespondent: 10,
+      notes: 11,
+      marriageCertificate: 12,
+      coRespondent: 13,
+      SolicitorCoRespondent: 14,
+      LinkedCase: 15,
+      General: 1
+    };
+    tabIds.forEach(tabId => {
+      it(`all ${tabId} fields should have the expected tab order ${expected[tabId]}`, function() {
+
+        const allTabFields = _.uniq(_.filter(caseTypeTab, (field) => {
+          return field.TabID === tabId;
+        }));
+        const allTabOrders = _.uniq(_.map(allTabFields, 'TabDisplayOrder'));
+        expect(allTabOrders).to.eql([expected[tabId]]);
+      });
+    });
   });
 
   describe('validation', function() {
