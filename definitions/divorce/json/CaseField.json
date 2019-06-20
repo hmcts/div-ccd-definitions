@@ -2903,6 +2903,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnOutcomeLaChecked",
+    "Label": "DN outcome checked by LA",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DAEligibleFromDate",
