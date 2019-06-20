@@ -6842,6 +6842,13 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentContactDetailsConfidential",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentContactDetailsConfidential",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -11965,28 +11972,28 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Label-CoRespondentAddressIsShareable ",
+    "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
