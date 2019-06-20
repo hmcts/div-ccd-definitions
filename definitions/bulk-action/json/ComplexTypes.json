@@ -49,11 +49,51 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "01/01/2017",
     "ID": "BulkListDocument",
-    "ListElementCode": "url",
+    "ListElementCode": "DocumentType",
+    "FieldType": "Text",
+    "ElementLabel": "Type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "BulkListDocument",
+    "ListElementCode": "DocumentEmailContent",
+    "FieldType": "TextArea",
+    "ElementLabel": "Email content",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "BulkListDocument",
+    "ListElementCode": "DocumentLink",
     "FieldType": "Document",
-    "ElementLabel": "Document",
+    "ElementLabel": "Document Url",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "BulkListDocument",
+    "ListElementCode": "DocumentDateAdded",
+    "FieldType": "Date",
+    "ElementLabel": "Date added",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "BulkListDocument",
+    "ListElementCode": "DocumentComment",
+    "FieldType": "Text",
+    "ElementLabel": "Comment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "BulkListDocument",
+    "ListElementCode": "DocumentFileName",
+    "FieldType": "Text",
+    "ElementLabel": "File name",
     "SecurityClassification": "Public"
   }
 ]
