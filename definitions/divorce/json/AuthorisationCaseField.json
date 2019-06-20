@@ -11975,5 +11975,26 @@
     "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDN",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDNRefused",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DesertionAskedToResumeDNDetails",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
