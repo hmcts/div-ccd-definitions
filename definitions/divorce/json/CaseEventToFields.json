@@ -1098,18 +1098,6 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "02/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "PetitionerSolicitorToEffectService",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolAboutTheRespondent",
-    "PageLabel": "About the respondent",
-    "PageDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
@@ -2925,18 +2913,6 @@
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "PageFieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL",
-    "PageID": "SolAboutTheRespondentUpdate",
-    "PageLabel": "About the respondent",
-    "PageDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "02/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerSolicitorToEffectService",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY",
     "PageID": "SolAboutTheRespondentUpdate",
     "PageLabel": "About the respondent",
     "PageDisplayOrder": 3,
