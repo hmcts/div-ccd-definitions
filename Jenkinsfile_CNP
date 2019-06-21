@@ -34,7 +34,6 @@ withPipeline("nodejs", product, component) {
   }
 
   loadVaultSecrets(secrets)
-  setVaultName('div')
 
   after('test') {
     // enable yarn audit and send message on master branch only
