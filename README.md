@@ -6,7 +6,7 @@ Divorce configuration definitions for CCD
 
 ### Install
 
-Run `yarn install` to install the dependencies for both this project and the submodule
+Run `yarn install && yarn setup` to install the dependencies for both this project and the submodule
 
 ## Convert JSON to Excel
 
