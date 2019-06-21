@@ -46,6 +46,7 @@ withPipeline("nodejs", product, component) {
       }
     }
     stage('Generate Divorce Case excel file') {
+      sh 'yarn setup'
       sh 'yarn generate-excel-all'
     }
     stage('Generate Bulk Case excel file') {
