@@ -52,7 +52,8 @@
     "LiveFrom": "01/01/2017",
     "ID": "BulkListDocument",
     "ListElementCode": "DocumentType",
-    "FieldType": "Text",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "d8documentsReceivedEnum",
     "ElementLabel": "Type",
     "SecurityClassification": "Public"
   },
