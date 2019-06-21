@@ -5,7 +5,27 @@
 String product = "div"
 String component = "ccd-definitions"
 
+def secrets = [
+        's2s-${env}'      : [
+                secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-gw', 'API_GATEWAY_S2S_KEY'),
+                secret('microservicekey-ccd-ps', 'PRINT_S2S_KEY')
+        ],
+        'ccd-${env}'      : [
+                secret('ccd-api-gateway-oauth2-client-secret', 'API_GATEWAY_IDAM_SECRET')
+        ]
+]
+
 withPipeline("nodejs", product, component) {
+
+  if (env.CHANGE_TITLE && !env.CHANGE_TITLE.startsWith('[PREVIEW]')) {
+    enableDockerBuild()
+    installCharts()
+  }
+
+  loadVaultSecrets(secrets)
+
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
