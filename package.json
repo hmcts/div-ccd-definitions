@@ -34,6 +34,7 @@
     "test": "mocha test/**/*.js",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
+    "test:smoke": "echo smoke",
     "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
 
