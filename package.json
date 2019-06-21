@@ -35,6 +35,7 @@
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
     "test:smoke": "echo smoke",
+    "test:functional": "echo functional",
     "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
 
