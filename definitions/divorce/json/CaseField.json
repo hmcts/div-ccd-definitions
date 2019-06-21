@@ -2903,6 +2903,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnOutcomeLaChecked",
+    "Label": "DN outcome checked by LA",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DAEligibleFromDate",
@@ -3185,6 +3193,14 @@
     "ID": "Label-CoRespondentAddressIsShareable",
     "Label": "### The co-respondent's contact details may be shared",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PronouncementJudge",
+    "Label": "Pronouncement Judge",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]
