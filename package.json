@@ -34,6 +34,7 @@
     "test": "mocha test/**/*.js",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
+    "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
 
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
@@ -50,7 +51,15 @@
     "generate-bulk-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
-    "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod" 
+    "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-prod"
+  },
+  "dependencies": {
+    "@hmcts/properties-volume": "0.0.8",
+    "@hmcts/nodejs-healthcheck": "1.5.1",
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "yarn": "^1.14.0",
+    "js-yaml": "^3.13.1"
   },
   "devDependencies": {
     "husky": "^2.2.0",
