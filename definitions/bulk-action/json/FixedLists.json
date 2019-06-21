@@ -64,5 +64,11 @@
     "ID": "DnCourtEnum",
     "ListElementCode": "bradford",
     "ListElement": "Bradford Law Courts"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "caseListForPronouncement",
+    "ListElement": "Case List For Pronouncement"
   }
 ]
