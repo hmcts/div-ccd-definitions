@@ -675,6 +675,16 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
+    "CaseFieldID": "DnOutcomeCase",
+    "TabFieldDisplayOrder": 61
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
     "CaseFieldID": "BulkListingCaseId",
     "TabFieldDisplayOrder": 58
   },

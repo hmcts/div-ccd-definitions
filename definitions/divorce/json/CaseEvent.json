@@ -600,6 +600,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingConsideration",
+    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-331.service.core-compute-preview.internal/add-dn-outcome-flag",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,60",
     "SecurityClassification": "Public"
   },
   {
