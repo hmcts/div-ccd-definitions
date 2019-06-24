@@ -73,5 +73,14 @@
     "Label": "Pronouncement Judge",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "D8DocumentsGenerated",
+    "Label": "Documents generated",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "BulkListDocument",
+    "SecurityClassification": "Public"
   }
 ]

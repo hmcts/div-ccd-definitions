@@ -694,6 +694,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingDecreeAbsolute",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-dn-pronouncement-documents",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
