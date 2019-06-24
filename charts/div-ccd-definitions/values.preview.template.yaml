@@ -45,3 +45,16 @@ ccd:
     idamClientSecret: ${ADMIN_WEB_IDAM_SECRET}
     environment:
       NODE_TLS_REJECT_UNAUTHORIZED: 0
+
+  importer:
+    userprofile:
+      enabled: true
+      jurisdictions:
+        - Divorce
+      users:
+        - ccd@divorce.local
+      userProfileDatabaseHost: ${SERVICE_NAME}-ccd-postgres
+      userProfileDatabasePort: 5432
+      userProfileDatabaseUser: hmcts
+      userProfileDatabasePassword: hmcts
+      userProfileDatabaseName: user-profile

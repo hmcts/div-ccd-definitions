@@ -45,6 +45,12 @@ If you prefer to make the changes directly on the excel file, and then convert b
 3) Once you're satisfied with your changes in the Excel file, convert back to JSON using `yarn generate-json`
 4) Review the JSON file changes to ensure all your changes are correct
 
+## Accessing CCD on preview/per PR
+
+* Visit `https://gateway-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` and whitelist the certificate
+* Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
+* Login with `ccd@divorce.local` - `password`
+
 ## Release
 
 When we make a major change for a release:
