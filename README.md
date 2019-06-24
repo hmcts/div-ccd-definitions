@@ -49,7 +49,7 @@ If you prefer to make the changes directly on the excel file, and then convert b
 
 * Visit `https://gateway-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` and whitelist the certificate
 * Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
-* Login with `ccd@divorce.local` - `password`
+* Login with an authorised user listed in `charts/div-ccd-definitions/values.preview.template.yaml` (under `importer/userProfile/users`)
 
 ## Release
 

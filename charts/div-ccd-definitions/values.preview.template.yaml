@@ -52,7 +52,7 @@ ccd:
       jurisdictions:
         - Divorce
       users:
-        - ccd@divorce.local
+        - divorce_as_caseworker_beta@mailinator.com
       userProfileDatabaseHost: ${SERVICE_NAME}-ccd-postgres
       userProfileDatabasePort: 5432
       userProfileDatabaseUser: hmcts
