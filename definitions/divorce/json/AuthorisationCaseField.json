@@ -7289,21 +7289,21 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
