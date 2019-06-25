@@ -3202,5 +3202,13 @@
     "Label": "Pronouncement Judge",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeAbsoluteGrantedDate",
+    "Label": "Decree Absolute Granted Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]
