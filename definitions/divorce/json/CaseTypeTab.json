@@ -748,7 +748,7 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "DecreeNisiGrantedDate",
+    "CaseFieldID": "PronouncementJudge",
     "TabFieldDisplayOrder": 64
   },
   {
@@ -758,8 +758,18 @@
     "TabID": "petitionerDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "DAEligibleFromDate",
+    "CaseFieldID": "DecreeNisiGrantedDate",
     "TabFieldDisplayOrder": 65
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionerDetails",
+    "TabLabel": "Petitioner",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "DAEligibleFromDate",
+    "TabFieldDisplayOrder": 66
   },
   {
     "LiveFrom": "01/01/2017",
