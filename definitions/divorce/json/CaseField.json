@@ -2905,8 +2905,8 @@
   {
     "LiveFrom": "20/06/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "DnOutcomeLaChecked",
-    "Label": "DN outcome checked by LA",
+    "ID": "DnOutcomeCase",
+    "Label": "Case on digital Decree Nisi Outcome",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -3201,6 +3201,14 @@
     "ID": "PronouncementJudge",
     "Label": "Pronouncement Judge",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeAbsoluteGrantedDate",
+    "Label": "Decree Absolute Granted Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]
