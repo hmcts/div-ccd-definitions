@@ -43,7 +43,7 @@
   {
     "LiveFrom": "03/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
-    "ID": "Pronounced",
+    "ID": "DNPronounced",
     "Name": "Bulk case pronounced",
     "Description": "Bulk case pronounced",
     "DisplayOrder": 6

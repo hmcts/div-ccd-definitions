@@ -37,7 +37,7 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE_BulkAction",
-    "CaseStateID": "Pronounced",
+    "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   }
