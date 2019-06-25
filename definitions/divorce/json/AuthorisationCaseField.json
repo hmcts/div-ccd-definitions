@@ -12070,13 +12070,6 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelCoRespAnswers",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
