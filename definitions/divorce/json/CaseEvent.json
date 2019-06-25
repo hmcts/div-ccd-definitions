@@ -2061,15 +2061,15 @@
     "PostConditionState": "AwaitingDecreeAbsolute",
     "SecurityClassification": "Public"
   },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
-  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" }
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DARequested",
+    "Name": "DA Requested",
+    "Description": "Decree Absolute Requested",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  }
 ]
