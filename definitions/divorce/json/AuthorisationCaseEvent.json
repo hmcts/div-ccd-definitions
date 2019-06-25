@@ -4366,5 +4366,33 @@
     "CaseEventID": "create",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DATimeTriggerPassed",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DATimeTriggerPassed",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DATimeTriggerPassed",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DATimeTriggerPassed",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   }
 ]

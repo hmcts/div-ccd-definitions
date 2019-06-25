@@ -2049,5 +2049,27 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
-  }
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DATimeTriggerPassed",
+    "Name": "DA Time Trigger",
+    "Description": "DA Time Trigger (Petitioner)",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "DNPronounced",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" },
+  { "LiveFrom": "25/06/2019", "CaseTypeID": "DIVORCE" }
 ]
