@@ -58,5 +58,45 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "CaseList",
     "TabFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "Channel": "Caseworker",
+    "TabID": "BulkListCaseDetails",
+    "TabLabel": "bulk listing case details",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "PronouncementJudge",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "Channel": "Caseworker",
+    "TabID": "BulkListCaseDetails",
+    "TabLabel": "bulk listing case details",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "Channel": "Caseworker",
+    "TabID": "BulkListCaseDetails",
+    "TabLabel": "bulk listing case details",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "DAEligibleFromDate",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "Channel": "CaseWorker",
+    "TabID": "BulkListDocuments",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "D8DocumentsGenerated",
+    "TabFieldDisplayOrder": 1
   }
 ]
