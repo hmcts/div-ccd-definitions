@@ -3210,5 +3210,15 @@
     "Label": "Decree Absolute Granted Date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GrantDA",
+    "Label": "Grant Decree Absolute?",
+    "HintText": "The decree nisi made on {$DecreeNisiGrantedDate} will be made absolute and the marriage between {$D8PetitionerFirstName} {$D8PetitionerLastName} and {$D8RespondentFirstName} {$D8RespondentLastName} will be ended.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "daOption",
+    "SecurityClassification": "Public"
   }
 ]

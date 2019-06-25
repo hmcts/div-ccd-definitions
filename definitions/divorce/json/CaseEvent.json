@@ -2071,5 +2071,17 @@
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GrantDecreeAbsolute",
+    "Name": "Grant Decree Absolute",
+    "Description": "Grant Decree Absolute",
+    "DisplayOrder": 24,
+    "PreConditionState(s)": "DARequested",
+    "PostConditionState": "DivorceGranted",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
