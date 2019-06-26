@@ -4398,6 +4398,13 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DATimeTriggerPassed",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "DARequested",
     "UserRole": "citizen",
     "CRUD": "CRU"
