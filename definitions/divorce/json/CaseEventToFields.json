@@ -6879,7 +6879,7 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GrantDA=\"potato\""
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
   },
   {
     "LiveFrom": "25/06/2019",
@@ -6892,7 +6892,7 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GrantDA=\"potato\""
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
   },
   {
     "LiveFrom": "25/06/2019",
@@ -6905,7 +6905,7 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GrantDA=\"potato\""
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
   },
   {
     "LiveFrom": "25/06/2019",
@@ -6918,13 +6918,13 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GrantDA=\"potato\""
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GrantDecreeAbsolute",
-    "CaseFieldID": "GrantDA",
+    "CaseFieldID": "DecreeAbsoluteGranted",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "grantDA",
