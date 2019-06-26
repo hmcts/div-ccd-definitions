@@ -1264,6 +1264,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   }
 ]

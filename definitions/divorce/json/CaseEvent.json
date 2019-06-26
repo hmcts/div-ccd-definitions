@@ -1087,10 +1087,22 @@
   {
     "LiveFrom": "13/11/2018",
     "CaseTypeID": "DIVORCE",
+    "ID": "testAosAwaitingSol",
+    "Name": "AOS Awaiting Sol Test",
+    "Description": "AOS Aos Awaiting Solicitor Test",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AosAwaitingSol",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/11/2018",
+    "CaseTypeID": "DIVORCE",
     "ID": "testAosStarted",
     "Name": "AOS Started Test",
     "Description": "AOS Started Test",
-    "DisplayOrder": 19,
+    "DisplayOrder": 20,
     "PreConditionState(s)": "*",
     "PostConditionState": "AosStarted",
     "SecurityClassification": "Public"
@@ -1111,7 +1123,7 @@
     "ID": "testAwaitingDecreeAbsolute",
     "Name": "Test Awaiting Decree Absolute",
     "Description": "Test event to take case from any state to Awaiting Decree Absolute",
-    "DisplayOrder": 19,
+    "DisplayOrder": 21,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingDecreeAbsolute",
     "SecurityClassification": "Public"
