@@ -72,7 +72,7 @@
     "Description": "Decree Nisi Pronounced",
     "DisplayOrder": 4,
     "PreConditionState(s)": "ScheduledForPronouncement",
-    "PostConditionState": "Pronounced",
+    "PostConditionState": "DNPronounced",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },

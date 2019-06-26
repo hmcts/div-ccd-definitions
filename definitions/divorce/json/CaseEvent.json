@@ -694,6 +694,17 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dnPronouncedBulk",
+    "Name": "DN Pronounced by Bulk",
+    "Description": "DN Pronounced by Bulk",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "DNPronounced",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-dn-pronouncement-documents",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
