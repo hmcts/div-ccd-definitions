@@ -600,8 +600,6 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingConsideration",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-dn-outcome-flag",
-    "RetriesTimeoutURLAboutToSubmitEvent": "30,60",
     "SecurityClassification": "Public"
   },
   {
