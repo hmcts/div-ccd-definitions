@@ -1214,8 +1214,8 @@
     "LiveFrom": "24/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "linkRespondent",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "U"
   },
   {
     "LiveFrom": "01/01/2017",
