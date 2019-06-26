@@ -2758,6 +2758,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8RespondentSolicitorDetails",
+    "Label": "${D8RespondentSolicitorName}, ${D8RespondentSolicitorCompany}, ${D8RespondentSolicitorAddress}",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "labelUpdateMarriageCertWarning",
     "Label": "### Only update Marriage Certificate Names to make them match the marriage certificate exactly",
     "FieldType": "Label",
