@@ -6867,5 +6867,70 @@
     "PageLabel": "Create a Notice of Acting",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "CaseFieldID": "D8PetitionerFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDA",
+    "PageLabel": "Grant Decree Absolute",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "CaseFieldID": "D8PetitionerLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDA",
+    "PageLabel": "Grant Decree Absolute",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "CaseFieldID": "D8RespondentFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDA",
+    "PageLabel": "Grant Decree Absolute",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "CaseFieldID": "D8RespondentLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDA",
+    "PageLabel": "Grant Decree Absolute",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "CaseFieldID": "DecreeAbsoluteGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "grantDA",
+    "PageLabel": "Grant Decree Absolute",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

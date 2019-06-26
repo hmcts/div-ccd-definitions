@@ -2022,6 +2022,17 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "SUDARequested",
+    "Name": "DA Requested",
+    "Description": "DA Requested",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "grantDnMakeDecision",
     "Name": "Make a Decision",
     "Description": "Make a Decision",
@@ -2058,6 +2069,40 @@
     "PostConditionState": "Created",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-link-case",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "MakeEligibleForDA_Petitioner",
+    "Name": "Make eligible for DA (Pet)",
+    "Description": "Make eligible for DA (Pet)",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "DNPronounced",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RequestDA",
+    "Name": "Request DA",
+    "Description": "Request Decree Absolute",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GrantDecreeAbsolute",
+    "Name": "Grant Decree Absolute",
+    "Description": "Grant Decree Absolute",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "DARequested",
+    "PostConditionState": "DivorceGranted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
