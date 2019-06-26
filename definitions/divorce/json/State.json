@@ -258,5 +258,23 @@
     "Name": "Noticed of Acting case created",
     "Description": "Noticed of Acting case created",
     "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DNPronounced",
+    "Name": "Decree Nisi Pronounced",
+    "Description": "Decree Nisi Pronounced",
+    "DisplayOrder": 36,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DARequested",
+    "Name": "Decree Absolute Requested",
+    "Description": "Decree Absolute Requested",
+    "DisplayOrder": 37,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
