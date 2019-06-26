@@ -363,7 +363,7 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "PermittedDecreeNisiReason",
+    "CaseFieldID": "DNApplyForDecreeNisi",
     "TabFieldDisplayOrder": 1
   },
   {
@@ -373,7 +373,7 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "DNApplyForDecreeNisi",
+    "CaseFieldID": "DNApplicationSubmittedDate",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -383,7 +383,7 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "DNApplicationSubmittedDate",
+    "CaseFieldID": "PetitionChangedYesNoDN",
     "TabFieldDisplayOrder": 3
   },
   {
@@ -393,7 +393,7 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "PetitionChangedYesNoDN",
+    "CaseFieldID": "PetitionChangedDetailsDN",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -403,7 +403,7 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "PetitionChangedDetailsDN",
+    "CaseFieldID": "ConfirmPetitionDN",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -413,18 +413,8 @@
     "TabID": "dnDetails",
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
-    "CaseFieldID": "ConfirmPetitionDN",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "dnDetails",
-    "TabLabel": "Decree Nisi",
-    "TabDisplayOrder": 4,
     "CaseFieldID": "SeparationLivedApartSinceEventDN",
-    "TabFieldDisplayOrder": 7,
+    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
   {
@@ -435,7 +425,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 7,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
   {
@@ -446,7 +436,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "BehaviourStillHappeningDN",
-    "TabFieldDisplayOrder": 9,
+    "TabFieldDisplayOrder": 8,
     "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
@@ -457,7 +447,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "BehaviourMostRecentIncidentDateDN",
-    "TabFieldDisplayOrder": 10,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
@@ -468,7 +458,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "BehaviourLivedApartSinceEventDN",
-    "TabFieldDisplayOrder": 11,
+    "TabFieldDisplayOrder": 10,
     "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
@@ -479,7 +469,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "BehaviourTimeLivedTogetherDetailsDN",
-    "TabFieldDisplayOrder": 12,
+    "TabFieldDisplayOrder": 11,
     "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
@@ -490,7 +480,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "AdulteryLifeIntolerable",
-    "TabFieldDisplayOrder": 13,
+    "TabFieldDisplayOrder": 12,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
@@ -501,7 +491,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "AdulteryDateFoundOut",
-    "TabFieldDisplayOrder": 14,
+    "TabFieldDisplayOrder": 13,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
@@ -512,7 +502,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "AdulteryLivedApartSinceEventDN",
-    "TabFieldDisplayOrder": 15,
+    "TabFieldDisplayOrder": 14,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
@@ -523,7 +513,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "AdulteryTimeLivedTogetherDetailsDN",
-    "TabFieldDisplayOrder": 16,
+    "TabFieldDisplayOrder": 15,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
@@ -534,7 +524,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionAskedToResumeDN",
-    "TabFieldDisplayOrder": 17,
+    "TabFieldDisplayOrder": 16,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
@@ -545,7 +535,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionAskedToResumeDNRefused",
-    "TabFieldDisplayOrder": 18,
+    "TabFieldDisplayOrder": 17,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
@@ -556,7 +546,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionAskedToResumeDNDetails",
-    "TabFieldDisplayOrder": 19,
+    "TabFieldDisplayOrder": 18,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
@@ -567,7 +557,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionLivedApartSinceEventDN",
-    "TabFieldDisplayOrder": 20,
+    "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
@@ -578,7 +568,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionTimeLivedTogetherDetailsDN",
-    "TabFieldDisplayOrder": 21,
+    "TabFieldDisplayOrder": 20,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
@@ -589,7 +579,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DivorceCostsOptionDN",
-    "TabFieldDisplayOrder": 22
+    "TabFieldDisplayOrder": 21
   },
   {
     "LiveFrom": "01/01/2017",
@@ -599,7 +589,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "CostsDifferentDetails",
-    "TabFieldDisplayOrder": 23
+    "TabFieldDisplayOrder": 22
   },
   {
     "LiveFrom": "01/01/2017",
@@ -609,7 +599,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DocumentsUploadedQuestionDN",
-    "TabFieldDisplayOrder": 24
+    "TabFieldDisplayOrder": 23
   },
   {
     "LiveFrom": "01/01/2017",
@@ -619,7 +609,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "statementOfTruthDN",
-    "TabFieldDisplayOrder": 25
+    "TabFieldDisplayOrder": 24
   },
   {
     "LiveFrom": "01/01/2017",
