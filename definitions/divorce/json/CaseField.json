@@ -2524,14 +2524,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelDNAnswers",
-    "Label": "### Decree Nisi Answers:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "labelOtherProceedingsPetitioner",
     "Label": "### Petitioner's other proceedings:",
     "FieldType": "Label",
@@ -2553,14 +2545,6 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "RespondentWillDefendEnum",
     "SecurityClassification": "PUBLIC"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "labelAOSAnswers",
-    "Label": "### AOS Answers:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2924,14 +2908,6 @@
     "ID": "BulkListingCaseId",
     "Label": "Bulk case reference",
     "FieldType": "CaseLink",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "labelOutcomeofDN",
-    "Label": "### Outcome of DN:",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
