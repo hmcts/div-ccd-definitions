@@ -7199,8 +7199,22 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeNisiGrantedDate",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGrantedDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "25/04/2019",
@@ -12009,6 +12023,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PronouncementJudge",
+    "UserRole": "citizen",
     "CRUD": "R"
   },
   {
