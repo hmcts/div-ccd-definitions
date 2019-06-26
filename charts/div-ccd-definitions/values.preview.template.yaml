@@ -59,3 +59,15 @@ ccd:
       userProfileDatabaseUser: hmcts
       userProfileDatabasePassword: hmcts
       userProfileDatabaseName: user-profile
+    definition:
+      enabled: true
+      userRoles:
+        - caseworker
+        - caseworker-divorce
+        - caseworker-divorce-courtadmin
+        - caseworker-divorce-courtadmin_beta
+        - caseworker-divorce-solicitor
+        - caseworker-divorce-systemupdate
+        - caseworker-divorce-bulkscan
+        - caseworker-divorce-courtadmin-la
+        - caseworker-divorce-superuser
