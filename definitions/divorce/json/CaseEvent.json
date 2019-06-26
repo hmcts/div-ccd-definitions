@@ -2026,7 +2026,7 @@
     "Name": "Make a Decision",
     "Description": "Make a Decision",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "AwaitingConsideration",
+    "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
     "SecurityClassification": "Public",
