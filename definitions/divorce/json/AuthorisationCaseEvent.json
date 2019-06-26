@@ -4457,5 +4457,26 @@
     "CaseEventID": "GrantDecreeAbsolute",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUDARequested",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUDARequested",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUDARequested",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
   }
 ]

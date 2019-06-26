@@ -2011,6 +2011,17 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "SUDARequested",
+    "Name": "DA Requested",
+    "Description": "DA Requested",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "grantDnMakeDecision",
     "Name": "Make a Decision",
     "Description": "Make a Decision",
@@ -2078,7 +2089,7 @@
     "ID": "GrantDecreeAbsolute",
     "Name": "Grant Decree Absolute",
     "Description": "Grant Decree Absolute",
-    "DisplayOrder": 24,
+    "DisplayOrder": 1,
     "PreConditionState(s)": "DARequested",
     "PostConditionState": "DivorceGranted",
     "SecurityClassification": "Public",

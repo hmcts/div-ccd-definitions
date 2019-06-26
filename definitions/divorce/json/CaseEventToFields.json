@@ -6930,6 +6930,7 @@
     "PageID": "grantDA",
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
