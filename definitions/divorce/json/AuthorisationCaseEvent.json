@@ -1862,6 +1862,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "07/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateBulkCaseHearingDetails",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAwaitingHWF",
