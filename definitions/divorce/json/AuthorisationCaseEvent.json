@@ -4499,5 +4499,12 @@
     "CaseEventID": "SUDARequested",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cleanCaseState",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CU"
   }
 ]
