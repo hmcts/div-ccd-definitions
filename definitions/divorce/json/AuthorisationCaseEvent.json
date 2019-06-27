@@ -1696,6 +1696,13 @@
   {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testDNPronounced",
+    "UserRole": "caseworker-divorce-courtadmin_betacitizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "testAwaitingDecreeAbsolute",
     "UserRole": "citizen",
     "CRUD": "CRU"
