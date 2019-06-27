@@ -1,29 +1,26 @@
-const express = require('express')
+const express = require('express');
+const healthcheck = require('@hmcts/nodejs-healthcheck');
+
 const app = express();
-const payload = {message: 'Im all right !'};
+const payload = { message: 'Im all right !' };
 const config = require('@hmcts/properties-volume').addTo(require('config'));
+
 const port = config.get('server.port');
 
-const healthcheck = require('@hmcts/nodejs-healthcheck');
 healthcheck.addTo(app,
   {
     checks: {
-      secretsCheck: healthcheck.raw(() => checkForSecrets() ? healthcheck.up() : healthcheck.down())
+      secretsCheck: healthcheck.raw(() => {
+        return healthcheck.up();
+      })
     },
-    buildInfo: {
-      'chart-testing': 'nodejs-chart test'
-    }
+    buildInfo: { 'chart-testing': 'nodejs-chart test' }
   });
 
-function checkForSecrets() {
-  try {
-    return true
-  } catch (error) {
-    console.log(`ERROR:` + error);
-
-    return false
-  }
-}
-
-app.get('/', (req, res) => res.send(payload))
-  .listen(port, () => console.log(`chart-nodeJs test app listening on http://0.0.0.0:${port}`))
+app.get('/', (req, res) => {
+  return res.send(payload);
+})
+  .listen(port, () => {
+    // eslint-disable-next-line no-console
+    return console.log(`chart-nodeJs test app listening on http://0.0.0.0:${port}`);
+  });
