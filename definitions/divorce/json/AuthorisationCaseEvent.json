@@ -1697,7 +1697,7 @@
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "testDNPronounced",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
