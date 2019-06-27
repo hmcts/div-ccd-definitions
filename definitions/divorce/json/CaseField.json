@@ -2898,7 +2898,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
-    "Label": "Decree Nisi approval date",
+    "Label": "Legal advisor decision date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
