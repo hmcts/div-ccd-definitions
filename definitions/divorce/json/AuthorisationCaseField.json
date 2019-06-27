@@ -4853,20 +4853,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelOtherProceedingsPetitioner",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -4924,20 +4910,6 @@
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespWillDefendDivorce",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -5288,27 +5260,6 @@
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentFullName",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -6624,13 +6575,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorEmail",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -7199,8 +7143,22 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeNisiGrantedDate",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGrantedDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "25/04/2019",
@@ -7289,21 +7247,21 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnOutcomeLaChecked",
+    "CaseFieldID": "DnOutcomeCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -7338,20 +7296,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CourtName",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -7730,20 +7674,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionChangedYesNoDN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -8878,13 +8808,6 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorEmail",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -9343,13 +9266,6 @@
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "31/08/2018",
@@ -9711,20 +9627,6 @@
   {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionChangedYesNoDN",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -10859,13 +10761,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorDetails",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorEmail",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -11324,13 +11219,6 @@
     "CaseFieldID": "BulkListingCaseId",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelOutcomeofDN",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -12015,6 +11903,13 @@
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PronouncementJudge",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PronouncementJudge",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -12154,21 +12049,7 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAOSAnswers",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelCoRespAnswers",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelDNAnswers",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
@@ -12381,5 +12262,54 @@
     "CaseFieldID": "RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGrantedDate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGrantedDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGrantedDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGranted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGranted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGranted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteGranted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
   }
 ]
