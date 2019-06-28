@@ -23,7 +23,7 @@
       "cosUrl": "http://div-cos-aat-staging.service.core-compute-aat.internal",
       "ccdUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
     },
-    "aat": {
+    "ithc": {
       "cosUrl": "http://div-cos-ithc.service.core-compute-ithc.internal",
       "ccdUrl": "http://ccd-data-store-api-ithc.service.core-compute-ithc.internal"
     },
