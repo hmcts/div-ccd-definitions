@@ -1119,6 +1119,17 @@
   {
     "LiveFrom": "13/11/2018",
     "CaseTypeID": "DIVORCE",
+    "ID": "testDNPronounced",
+    "Name": "Test DN Pronounced",
+    "Description": "Test event to take case from any state to DN Pronounced",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DNPronounced",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/11/2018",
+    "CaseTypeID": "DIVORCE",
     "ID": "linkRespondent",
     "Name": "Link respondent",
     "Description": "Link respondent",
