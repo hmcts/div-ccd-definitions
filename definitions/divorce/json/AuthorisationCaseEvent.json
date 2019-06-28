@@ -4421,7 +4421,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "MakeEligibleForDA_Petitioner",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
