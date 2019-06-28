@@ -2042,6 +2042,7 @@
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2094,6 +2095,17 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "cleanCaseState",
+    "Name": "Clean state",
+    "Description": "System event to clean state",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
     "SecurityClassification": "Public"
   },
   {
