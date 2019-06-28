@@ -12264,6 +12264,20 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeAbsoluteGrantedDate",

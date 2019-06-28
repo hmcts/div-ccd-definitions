@@ -1264,7 +1264,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",

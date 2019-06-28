@@ -2202,6 +2202,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolLinkedEmail",
+    "Label": "Respondent solicitor's email address they used to link the case",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApplicationSubmittedDate",
