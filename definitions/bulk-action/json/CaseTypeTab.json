@@ -56,7 +56,7 @@
     "TabID": "BulkListCaseDetails",
     "TabLabel": "bulk listing case details",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "CaseList",
+    "CaseFieldID": "DecreeNisiGrantedDate",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -66,7 +66,7 @@
     "TabID": "BulkListCaseDetails",
     "TabLabel": "bulk listing case details",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "PronouncementJudge",
+    "CaseFieldID": "DAEligibleFromDate",
     "TabFieldDisplayOrder": 6
   },
   {
@@ -76,18 +76,8 @@
     "TabID": "BulkListCaseDetails",
     "TabLabel": "bulk listing case details",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "DecreeNisiGrantedDate",
+    "CaseFieldID": "CaseList",
     "TabFieldDisplayOrder": 7
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE_BulkAction",
-    "Channel": "Caseworker",
-    "TabID": "BulkListCaseDetails",
-    "TabLabel": "bulk listing case details",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "DAEligibleFromDate",
-    "TabFieldDisplayOrder": 8
   },
   {
     "LiveFrom": "01/01/2017",
