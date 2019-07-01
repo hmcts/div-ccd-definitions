@@ -6,6 +6,7 @@ ACR_TASKNAME=`echo "div-ccd-definition-importer-${CHANGE_ID}" | cut -c -49`
 
 [ "_${CHANGE_ID}" = "_" ] && echo "No BRANCH defined. Script terminated." && exit 0
 
+az account list
 az account set --subscription DCD-CNP-DEV
 
 az acr task create \
