@@ -28,7 +28,7 @@
     "ID": "DivorceCaseList",
     "ListElementCode": "DNApprovalDate",
     "FieldType": "Date",
-    "ElementLabel": "Decree Nisi approval date",
+    "ElementLabel": "Legal advisor decision date",
     "FieldTypeParameter": "TodayPast",
     "SecurityClassification": "Public"
   },
