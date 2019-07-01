@@ -1,7 +1,7 @@
 {
   "name": "div-ccd-definitions",
   "version": "1.0.0",
-  "description": "Utility to help creating CCD confing definitions",
+  "description": "Utility to help creating CCD config definitions",
   "main": "index.js",
   "repository": "git@github.com:hmcts/div-ccd-definitions.git",
   "author": "Hosain <hosain.alahmad@hmcts.net>",
