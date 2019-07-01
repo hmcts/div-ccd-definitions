@@ -61,6 +61,8 @@ ccd:
       userProfileDatabaseName: user-profile
     definition:
       enabled: true
+      image: hmcts.azurecr.io/hmcts/div-ccd-definitions:latest
+      definitionFilename: ccd-config-aat.xlsx
       userRoles:
         - caseworker
         - caseworker-divorce

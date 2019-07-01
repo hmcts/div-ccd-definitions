@@ -37,6 +37,16 @@ withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
 
+  after('build') {
+    stage('Generate Divorce Case excel file') {
+      sh 'yarn setup'
+      sh 'yarn generate-excel-all'
+    }
+    stage('Generate Bulk Case excel file') {
+      sh 'yarn generate-bulk-excel-all'
+    }
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
+  }
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
@@ -46,15 +56,6 @@ withPipeline("nodejs", product, component) {
         slackSend(channel: '#div-dev', color: 'warning', message: "Yarn Audit has detected vulnerabilities in ${env.JOB_NAME}. You can check if there are patches for them in the full report, build details here: <${env.RUN_DISPLAY_URL}|Build ${env.BUILD_DISPLAY_NAME}>.")
       }
     }
-    stage('Generate Divorce Case excel file') {
-      sh 'yarn setup'
-      sh 'yarn generate-excel-all'
-    }
-    stage('Generate Bulk Case excel file') {
-      sh 'yarn generate-bulk-excel-all'
-    }
-    sh 'scripts/release.sh'
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
   }
 
   onMaster {
