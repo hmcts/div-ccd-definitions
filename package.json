@@ -33,7 +33,7 @@
     }
   },
   "scripts": {
-    "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
+    "preinstall": "git submodule update --init --recursive && git submodule foreach --recursive git pull && yarn --cwd ccd-definition-processor install",
     "lint": "eslint --fix .",
     "test": "mocha test/**/*.js",
     "test:coverage": "echo test:coverage",
