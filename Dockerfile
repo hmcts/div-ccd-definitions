@@ -4,7 +4,6 @@ FROM hmcts/ccd-definition-processor:latest as base
 # ----        Runtime image         ----
 FROM hmcts/ccd-definition-importer:latest as runtime
 
-USER hmcts
 COPY package.json yarn.lock ./
 COPY /definitions/divorce/xlsx /
 ADD ./config "/config"
