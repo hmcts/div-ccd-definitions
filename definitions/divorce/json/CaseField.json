@@ -2202,6 +2202,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolLinkedEmail",
+    "Label": "Respondent solicitor's email address they used to link the case",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "05/09/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApplicationSubmittedDate",
@@ -2524,14 +2532,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelDNAnswers",
-    "Label": "### Decree Nisi Answers:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "labelOtherProceedingsPetitioner",
     "Label": "### Petitioner's other proceedings:",
     "FieldType": "Label",
@@ -2553,14 +2553,6 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "RespondentWillDefendEnum",
     "SecurityClassification": "PUBLIC"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "labelAOSAnswers",
-    "Label": "### AOS Answers:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2758,14 +2750,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "D8RespondentSolicitorDetails",
-    "Label": "${D8RespondentSolicitorName}, ${D8RespondentSolicitorCompany}, ${D8RespondentSolicitorAddress}",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "labelUpdateMarriageCertWarning",
     "Label": "### Only update Marriage Certificate Names to make them match the marriage certificate exactly",
     "FieldType": "Label",
@@ -2903,6 +2887,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "20/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnOutcomeCase",
+    "Label": "Case on digital Decree Nisi Outcome",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DAEligibleFromDate",
@@ -2914,7 +2906,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DNApprovalDate",
-    "Label": "Decree Nisi approval date",
+    "Label": "Legal advisor decision date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
@@ -2924,14 +2916,6 @@
     "ID": "BulkListingCaseId",
     "Label": "Bulk case reference",
     "FieldType": "CaseLink",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "labelOutcomeofDN",
-    "Label": "### Outcome of DN:",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -3185,6 +3169,32 @@
     "ID": "Label-CoRespondentAddressIsShareable",
     "Label": "### The co-respondent's contact details may be shared",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PronouncementJudge",
+    "Label": "Pronouncement Judge",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeAbsoluteGrantedDate",
+    "Label": "Decree Absolute Granted Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeAbsoluteGranted",
+    "Label": "Grant Decree Absolute?",
+    "HintText": "The decree nisi made on ${DecreeNisiGrantedDate} will be made absolute and the marriage between ${D8PetitionerFirstName} ${D8PetitionerLastName} and ${D8RespondentFirstName} ${D8RespondentLastName} will be ended.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "daOption",
     "SecurityClassification": "Public"
   }
 ]

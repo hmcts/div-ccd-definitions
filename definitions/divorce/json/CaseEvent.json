@@ -695,6 +695,21 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dnPronouncedBulk",
+    "Name": "DN Pronounced by Bulk",
+    "Description": "DN Pronounced by Bulk",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "DNPronounced",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-dn-pronouncement-documents",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-pronounced",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCpronounce",
@@ -1099,6 +1114,17 @@
     "DisplayOrder": 19,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "ID": "testDNPronounced",
+    "Name": "Test DN Pronounced",
+    "Description": "Test event to take case from any state to DN Pronounced",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DNPronounced",
     "SecurityClassification": "Public"
   },
   {
@@ -1804,6 +1830,8 @@
     "PostConditionState": "AwaitingPronouncement",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00020.docx&documentType=coe&filename=certificateOfEntitlement",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/case-linked-for-hearing",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2007,13 +2035,25 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "SUDARequested",
+    "Name": "DA Requested",
+    "Description": "DA Requested",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "grantDnMakeDecision",
     "Name": "Make a Decision",
     "Description": "Make a Decision",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "AwaitingConsideration",
+    "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2043,6 +2083,51 @@
     "PostConditionState": "Created",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-link-case",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "MakeEligibleForDA_Petitioner",
+    "Name": "Make eligible for DA (Pet)",
+    "Description": "Make eligible for DA (Pet)",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "DNPronounced",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RequestDA",
+    "Name": "Request DA",
+    "Description": "Request Decree Absolute",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "cleanCaseState",
+    "Name": "Clean state",
+    "Description": "System event to clean state",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GrantDecreeAbsolute",
+    "Name": "Grant Decree Absolute",
+    "Description": "Grant Decree Absolute",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "DARequested",
+    "PostConditionState": "DivorceGranted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
