@@ -16,7 +16,7 @@
     "Label": "FamilyMan reference",
     "HintText": "FamilyMan case reference",
     "FieldType": "Text",
-    "RegularExpression": "^(EZ|RS|LV|WU)\\d{2}D(8|9)\\d{4}$",
+    "RegularExpression": "^(EZ|RS|LV|WU|ZZ)\\d{2}D(8|9)\\d{4}$",
     "SecurityClassification": "Public"
   },
   {
