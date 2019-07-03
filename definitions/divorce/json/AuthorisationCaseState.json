@@ -1334,7 +1334,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingLegalAdvisorReferral",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
