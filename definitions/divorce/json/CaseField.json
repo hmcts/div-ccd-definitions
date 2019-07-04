@@ -3196,5 +3196,21 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "daOption",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ApplyForDecreeAbsolute",
+    "Label": "Does the petitioner want to apply for Decree Absolute and finalise the divorce?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DecreeAbsoluteGrantedTime",
+    "Label": "Decree Absolute Granted Time",
+    "FieldType": "Time",
+    "SecurityClassification": "Public"
   }
 ]
