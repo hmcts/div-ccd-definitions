@@ -12346,19 +12346,5 @@
     "CaseFieldID": "ApplyForDecreeAbsolute",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Decree Absolute Granted Time",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "Decree Absolute Granted Time",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
   }
 ]
