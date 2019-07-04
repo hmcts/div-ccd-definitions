@@ -107,6 +107,13 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDecreeAbsolute",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
