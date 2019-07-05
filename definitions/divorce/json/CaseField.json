@@ -3201,7 +3201,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "ApplyForDecreeAbsolute",
-    "Label": "Does the petitioner want to apply for Decree Absolute and finalise the divorce?",
+    "Label": "Does the applicant want to apply for Decree Absolute and finalise the divorce?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   }
