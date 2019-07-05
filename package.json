@@ -1,7 +1,7 @@
 {
   "name": "div-ccd-definitions",
   "version": "1.0.0",
-  "description": "Utility to help creating CCD confing definitions",
+  "description": "Utility to help creating CCD config definitions",
   "main": "index.js",
   "repository": "git@github.com:hmcts/div-ccd-definitions.git",
   "author": "Hosain <hosain.alahmad@hmcts.net>",
@@ -33,7 +33,7 @@
     }
   },
   "scripts": {
-    "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
+    "preinstall": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
     "lint": "eslint --fix .",
     "test": "mocha test/**/*.js",
     "test:coverage": "echo test:coverage",
@@ -51,7 +51,7 @@
     "generate-bulk-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-aat": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-bulk-excel",
-    "generate-bulk-excel-ithc": "DIV_ENV=aat CCD_DEF_COS_URL=$npm_package_config_ithc_cosUrl CCD_DEF_CCD_URL=$npm_package_config_ithc_ccdUrl yarn run generate-bulk-excel",
+    "generate-bulk-excel-ithc": "DIV_ENV=ithc CCD_DEF_COS_URL=$npm_package_config_ithc_cosUrl CCD_DEF_CCD_URL=$npm_package_config_ithc_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
     "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-ithc && yarn generate-bulk-excel-prod"

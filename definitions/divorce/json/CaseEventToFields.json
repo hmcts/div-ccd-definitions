@@ -6153,8 +6153,32 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "FieldShowCondition": "DecreeNisiGranted=\"Yes\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "D8DivorceCostsClaim",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "DivorceCostsOptionDN",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
