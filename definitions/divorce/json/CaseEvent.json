@@ -2110,6 +2110,7 @@
     "DisplayOrder": 22,
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingDecreeAbsolute",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-applicant-da-eligibility",
     "SecurityClassification": "Public"
   },
   {
