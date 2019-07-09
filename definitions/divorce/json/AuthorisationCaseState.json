@@ -1264,7 +1264,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -1321,5 +1321,33 @@
     "CaseStateID": "DARequested",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosOverdue",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingLegalAdvisorReferral",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDecreeNisi",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosSubmittedAwaitingAnswer",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]

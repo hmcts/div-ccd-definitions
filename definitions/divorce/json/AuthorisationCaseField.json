@@ -12264,6 +12264,20 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeAbsoluteGrantedDate",
@@ -12311,5 +12325,26 @@
     "CaseFieldID": "DecreeAbsoluteGranted",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]

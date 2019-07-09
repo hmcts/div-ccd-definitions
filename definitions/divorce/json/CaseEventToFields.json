@@ -6153,8 +6153,32 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "FieldShowCondition": "DecreeNisiGranted=\"Yes\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "D8DivorceCostsClaim",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "DivorceCostsOptionDN",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "grantDN",
+    "PageLabel": "Grant Decree Nisi",
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6165,7 +6189,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\"",
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\" ",
     "PageShowCondition": "CostsClaimGranted=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6180,6 +6204,17 @@
     "PageLabel": "Make a costs order",
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryIsNamed",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "makeCostsOrder",
+    "PageLabel": "Make a costs order",
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\""
   },
   {
     "LiveFrom": "01/01/2017",
