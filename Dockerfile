@@ -7,6 +7,7 @@ FROM hmcts/ccd-definition-importer:latest as runtime
 COPY package.json yarn.lock ./
 COPY /definitions/divorce/xlsx /
 ADD ./config "/config"
+RUN apk add --no-cache nodejs yarn
 RUN yarn install --production && yarn cache clean
 COPY index.js ./
 ENV NODE_CONFIG_DIR="/config"
