@@ -345,6 +345,8 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingConsideration",
     "PostConditionState": "AwaitingClarification",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/request-clarification-petitioner",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
