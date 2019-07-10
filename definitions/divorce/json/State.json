@@ -267,5 +267,14 @@
     "Description": "Decree Absolute Requested",
     "DisplayOrder": 37,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DNDrafted",
+    "Name": "Decree Nisi Application Drafted",
+    "Description": "Decree Nisi Application Drafted",
+    "DisplayOrder": 15,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]

@@ -2064,13 +2064,26 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "solicitorApplyForDN",
-    "Name": "Apply for Decree Nisi",
-    "Description": "Apply for Decree Nisi",
+    "Name": "Draft Decree Nisi Application",
+    "Description": "Draft Decree Nisi Application",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDecreeNisi",
-    "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "PostConditionState": "DNDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
     "RetriesTimeoutAboutToStartEvent": 120120,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save DN Application"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorSOTDN",
+    "Name": "Submit Decree Nisi Application",
+    "Description": "Submit Decree Nisi Application",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "DNDrafted",
+    "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": 120120,
     "SecurityClassification": "Public",
@@ -2135,6 +2148,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GOR-ENG-00062.docx&documentType=daGranted&filename=decreeAbsolute",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit Decree Nisi Application"
   }
 ]
