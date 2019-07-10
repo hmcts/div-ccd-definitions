@@ -970,7 +970,9 @@
     "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1068,6 +1070,7 @@
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-created",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Petition"
