@@ -1,6 +1,3 @@
-tags:
-  ccd-idam-pr: true
-
 nodejs:
   # Don't modify below here
   image: ${IMAGE_NAME}
