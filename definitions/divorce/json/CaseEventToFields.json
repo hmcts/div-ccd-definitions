@@ -6819,21 +6819,6 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "respondentanswerslink",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
     "CaseFieldID": "DNApplyForDecreeNisi",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
@@ -6842,145 +6827,6 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "labelSolDNWarningContinueDN",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"No\""
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8ReasonForDivorce",
-    "PageFieldDisplayOrder": 5,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8DivorceCostsClaim",
-    "PageFieldDisplayOrder": 6,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "RespAgreeToCosts",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8PetitionerFirstName",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8PetitionerLastName",
-    "PageFieldDisplayOrder": 9,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8RespondentFirstName",
-    "PageFieldDisplayOrder": 10,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8RespondentLastName",
-    "PageFieldDisplayOrder": 11,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "D8ReasonForDivorceBehaviourDetails",
-    "PageFieldDisplayOrder": 12,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "minipetitionlink",
-    "PageFieldDisplayOrder": 13,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "PageShowCondition": "DNApplyForDecreeNisi=\"Yes\"",
-    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7047,7 +6893,6 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7103,7 +6948,6 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"adultery\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7173,7 +7017,6 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"desertion\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7242,7 +7085,6 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"separation*\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7258,48 +7100,6 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "SeparationLivedApartSinceEventDN=\"No\"",
     "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "labelSolDNRespCostReview",
-    "PageFieldDisplayOrder": 34,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "PageShowCondition": "D8DivorceCostsClaim=\"Yes\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "labelSolDNRespCostAgree",
-    "PageFieldDisplayOrder": 35,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "RespAgreeToCosts=\"Yes\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "labelSolDNRespCostDisagree",
-    "PageFieldDisplayOrder": 36,
-    "DisplayContext": "READONLY",
-    "PageID": "reviewdnapplication",
-    "PageLabel": "Review DN Application",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "RespAgreeToCosts=\"No\"",
-    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7339,7 +7139,6 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "ConfirmPetitionDN=\"Yes\" AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7365,9 +7164,10 @@
     "DisplayContext": "READONLY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "statementOfTruthDN=\"nevershow\"",
+    "PageShowCondition": "DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7379,7 +7179,7 @@
     "DisplayContext": "READONLY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "statementOfTruthDN=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
@@ -7393,9 +7193,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "PageShowCondition": "DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -7407,7 +7206,7 @@
     "DisplayContext": "READONLY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "statementOfTruthDN=\"No\"",
     "ShowSummaryChangeOption": "No"
@@ -7421,7 +7220,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
@@ -7434,7 +7233,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
@@ -7447,7 +7246,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": "dnsot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },

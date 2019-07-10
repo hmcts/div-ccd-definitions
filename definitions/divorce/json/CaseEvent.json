@@ -2084,10 +2084,13 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "DNDrafted",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
+    "RetriesTimeoutAboutToStartEvent": 120120,
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": 120120,
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit Decree Nisi Application"
   },
   {
     "LiveFrom": "31/05/2019",
@@ -2148,7 +2151,6 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GOR-ENG-00062.docx&documentType=daGranted&filename=decreeAbsolute",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "EndButtonLabel": "Submit Decree Nisi Application"
+    "ShowSummary": "Y"
   }
 ]

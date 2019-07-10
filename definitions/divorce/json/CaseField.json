@@ -3209,7 +3209,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelDNReview",
-    "Label": "Review the answers in your Decree Nisi Application below. If you wish to change any of this, please ",
+    "Label": "Review the answers in your Decree Nisi Application below. If you wish to change any of this, please go back and use the 'Update Decree Nisi Application' action.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
