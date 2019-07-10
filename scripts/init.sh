@@ -1,0 +1,1 @@
+/wait && /scripts/upload-definition.sh && yarn start
