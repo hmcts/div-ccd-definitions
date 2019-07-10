@@ -345,6 +345,8 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AwaitingConsideration",
     "PostConditionState": "AwaitingClarification",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/request-clarification-petitioner",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2096,6 +2098,7 @@
     "DisplayOrder": 22,
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingDecreeAbsolute",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-applicant-da-eligibility",
     "SecurityClassification": "Public"
   },
   {
@@ -2131,8 +2134,6 @@
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GOR-ENG-00062.docx&documentType=daGranted&filename=decreeAbsolute",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-granted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
