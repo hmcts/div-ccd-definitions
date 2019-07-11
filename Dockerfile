@@ -1,4 +1,4 @@
-FROM hhmcts/ccd-definition-processor:latest as base
+FROM hmcts/ccd-definition-processor:latest as base
 
 FROM hmcts.azurecr.io/hmcts/base/node/stretch-slim-lts-8 as runtime
 
