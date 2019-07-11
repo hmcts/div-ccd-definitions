@@ -6826,6 +6826,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6852,6 +6853,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6865,6 +6867,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "PetitionChangedYesNoDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6891,6 +6894,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6904,6 +6908,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "BehaviourStillHappeningDN=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6917,6 +6922,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "BehaviourStillHappeningDN=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6930,6 +6936,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "BehaviourLivedApartSinceEventDN=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6943,6 +6950,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6956,6 +6964,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "AdulteryLifeIntolerable=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6969,6 +6978,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "AdulteryLifeIntolerable=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6982,6 +6992,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "AdulteryLifeIntolerable=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6995,6 +7006,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7008,6 +7020,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DesertionAskedToResumeDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7021,6 +7034,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DesertionAskedToResumeDNRefused=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7034,6 +7048,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7047,6 +7062,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DesertionLivedApartSinceEventDN=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7060,6 +7076,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation*\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7073,6 +7090,21 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "SeparationLivedApartSinceEventDN=\"No\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSOTDN",
+    "CaseFieldID": "D8DivorceCostsClaim",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewdnapplication",
+    "PageLabel": "Review DN Application",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7086,6 +7118,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"  AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7099,6 +7132,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DivorceCostsOptionDN=\"differentAmount\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7125,6 +7159,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "DocumentsUploadedQuestionDN=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
