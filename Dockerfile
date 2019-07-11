@@ -1,10 +1,6 @@
-# ---- Base image - order important ----
-FROM hmcts/ccd-definition-processor:latest as processor
-
-# ----        Runtime image         ----
 FROM hmcts/ccd-definition-importer:latest as importer
 
-FROM hmcts.azurecr.io/hmcts/base/node/stretch-slim-lts-8 as runtime
+FROM node:8-stretch-slim as runtime
 
 COPY --from=importer /scripts /scripts
 COPY --from=importer /wait /wait
