@@ -2134,7 +2134,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "DARequested",
     "PostConditionState": "DivorceGranted",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GOR-ENG-00062.docx&documentType=daGranted&filename=decreeAbsolute",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
