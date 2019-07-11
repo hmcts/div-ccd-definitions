@@ -1,6 +1,6 @@
-FROM hmcts/ccd-definition-importer:latest as importer
+FROM hhmcts/ccd-definition-processor:latest as base
 
-FROM node:8-stretch-slim as runtime
+FROM hmcts.azurecr.io/hmcts/base/node/stretch-slim-lts-8 as runtime
 
 COPY --from=importer /scripts /scripts
 COPY --from=importer /wait /wait
