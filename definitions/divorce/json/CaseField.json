@@ -3208,17 +3208,9 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "DateRespondentEligibleForDA",
-    "Label": "Date from which the respondent can apply for Decree Absolute",
-    "FieldType": "Date",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "DateCaseNoLongerEligibleForDA",
-    "Label": "Final date to apply for Decree Absolute",
-    "FieldType": "Date",
+    "ID": "labelDNReview",
+    "Label": "### Review the answers in your Decree Nisi Application below. If you wish to change any of your answers, please go back and use the 'Update Decree Nisi Application' action",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]

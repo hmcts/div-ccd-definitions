@@ -1675,26 +1675,6 @@
     "TabFieldDisplayOrder": 3
   },
   {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "DecreeAbsolute",
-    "TabLabel": "Decree Absolute",
-    "TabDisplayOrder": 6,
-    "CaseFieldID": "DateRespondentEligibleForDA",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "DecreeAbsolute",
-    "TabLabel": "Decree Absolute",
-    "TabDisplayOrder": 6,
-    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
-    "TabFieldDisplayOrder": 5
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",

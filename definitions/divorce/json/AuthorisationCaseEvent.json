@@ -4692,13 +4692,6 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdateDN",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
