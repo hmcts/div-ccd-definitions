@@ -12366,7 +12366,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DateRespondentEligibleForDA",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/04/2019",
@@ -12394,7 +12394,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DateCaseNoLongerEligibleForDA",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/04/2019",
