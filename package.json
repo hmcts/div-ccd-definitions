@@ -63,9 +63,7 @@
     "@hmcts/properties-volume": "0.0.8",
     "@hmcts/nodejs-healthcheck": "1.5.1",
     "config": "^3.0.1",
-    "express": "^4.16.4",
-    "yarn": "^1.14.0",
-    "js-yaml": "^3.13.1"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "@hmcts/eslint-config": "^1.4.0",
