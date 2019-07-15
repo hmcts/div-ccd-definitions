@@ -58,7 +58,5 @@ withPipeline("nodejs", product, component) {
     }
   }
 
-  onMaster {
-    enableSlackNotifications('#div-dev')
-  }
+  enableSlackNotifications('#div-dev')
 }
