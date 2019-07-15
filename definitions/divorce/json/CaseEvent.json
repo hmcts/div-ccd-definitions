@@ -439,7 +439,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -452,7 +453,6 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -971,10 +971,10 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120"
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1484,6 +1484,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosCompleted",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2073,8 +2075,8 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
     "RetriesTimeoutAboutToStartEvent": 120120,
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": 120120,
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
