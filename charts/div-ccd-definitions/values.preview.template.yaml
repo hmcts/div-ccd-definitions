@@ -48,7 +48,7 @@ ccd:
 
   importer:
     userprofile:
-      enabled: true
+      enabled: false
       jurisdictions:
         - Divorce
       users:
