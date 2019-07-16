@@ -48,9 +48,9 @@ ccd:
 
   importer:
     userprofile:
-      enabled: false
+      enabled: true
       jurisdictions:
-        - Divorce
+        - DIVORCE
       users:
         - divorce_as_caseworker_beta@mailinator.com|DIVORCE|DIVORCE|Submitted
         - divorce_as_caseworker_solicitor@mailinator.com|DIVORCE|DIVORCE|Submitted
