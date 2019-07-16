@@ -11,5 +11,6 @@ RUN apk add --no-cache nodejs yarn
 RUN yarn install --production && yarn cache clean
 COPY index.js ./
 ENV NODE_CONFIG_DIR="/config"
+RUN ["chmod", "+x",  "/scripts/*"]
 CMD ["yarn", "start"]
 EXPOSE 3000
