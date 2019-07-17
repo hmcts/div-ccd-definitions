@@ -1840,6 +1840,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "07/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "unlinkBulkCaseReference",
+    "Name": "Unlink from bulk case ",
+    "Description": "Unlink from bulk case ",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-376.service.core-compute-preview.internal/remove-bulk-link",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUAwaitingHWF",
