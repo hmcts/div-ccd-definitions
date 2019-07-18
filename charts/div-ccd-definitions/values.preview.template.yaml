@@ -65,7 +65,7 @@ ccd:
       userProfileDatabaseName: user-profile
     definition:
       enabled: true
-      waitHosts: http://${SERVICE_NAME}.service.core-compute-preview.internal
+      waitHosts: ${SERVICE_NAME}.service.core-compute-preview.internal
       definitions:
         - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-config-aat.xlsx
         - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-div-bulk-action-config-aat.xlsx
