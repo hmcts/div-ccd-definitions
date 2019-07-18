@@ -5,7 +5,7 @@ FROM hmcts/ccd-definition-processor:latest as base
 FROM hmcts/ccd-definition-importer:latest as runtime
 
 COPY package.json yarn.lock ./
-COPY /definitions/divorce/xlsx /public
+COPY /definitions/divorce/xlsx /
 ADD ./config "/config"
 RUN apk add --no-cache nodejs yarn
 RUN yarn install --production && yarn cache clean

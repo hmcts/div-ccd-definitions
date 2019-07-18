@@ -65,10 +65,8 @@ ccd:
       userProfileDatabaseName: user-profile
     definition:
       enabled: true
-      waitHosts: ${SERVICE_NAME}.service.core-compute-preview.internal
-      definitions:
-        - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-config-aat.xlsx
-        - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-div-bulk-action-config-aat.xlsx
+      image: hmcts.azurecr.io/hmcts/div-ccd-definitions:pr-142
+      definitionFilename: ccd-config-aat.xlsx
       userRoles:
         - citizen
         - caseworker
