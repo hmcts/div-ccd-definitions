@@ -971,10 +971,10 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120"
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2169,5 +2169,48 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorDraftAOS",
+    "Name": "Draft Acknowledgement of Service",
+    "Description": "Draft Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
+    "RetriesTimeoutAboutToStartEvent": 120120,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save AOS Response"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorUpdateAOS",
+    "Name": "Update Acknowledgement of Service",
+    "Description": "Update Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
+    "RetriesTimeoutAboutToStartEvent": 120120,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Updated AOS Response"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorSubmitAOS",
+    "Name": "Submit Acknowledgement of Service",
+    "Description": "Submit Acknowledgement of Service",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
   }
 ]
