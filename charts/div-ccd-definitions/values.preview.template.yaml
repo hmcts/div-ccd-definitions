@@ -63,3 +63,19 @@ ccd:
       userProfileDatabaseUser: hmcts
       userProfileDatabasePassword: hmcts
       userProfileDatabaseName: user-profile
+    definition:
+      enabled: true
+      definitions:
+        - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-config-aat.xlsx
+        - http://${SERVICE_NAME}.service.core-compute-preview.internal/static/ccd-div-bulk-action-config-aat.xlsx
+      userRoles:
+        - citizen
+        - caseworker
+        - caseworker-divorce
+        - caseworker-divorce-courtadmin
+        - caseworker-divorce-courtadmin_beta
+        - caseworker-divorce-solicitor
+        - caseworker-divorce-systemupdate
+        - caseworker-divorce-bulkscan
+        - caseworker-divorce-courtadmin-la
+        - caseworker-divorce-superuser

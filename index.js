@@ -17,6 +17,7 @@ healthcheck.addTo(app,
     buildInfo: { 'chart-testing': 'nodejs-chart test' }
   });
 
+app.use('/static', express.static('public'));
 app.get('/', (req, res) => {
   return res.send(payload);
 })
