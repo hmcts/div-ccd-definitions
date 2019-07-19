@@ -19,7 +19,7 @@
     "DisplayOrder": 98,
     "PreConditionState(s)": "ScheduledForCreate",
     "PostConditionState": "Created",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-376.service.core-compute-preview.internal/bulk/remove",
+    "CallBackURLAboutToSubmitEvent": "http://${CCD_DEF_COS_URL}/bulk/remove",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
