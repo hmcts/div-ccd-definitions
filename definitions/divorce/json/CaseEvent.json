@@ -1845,7 +1845,7 @@
     "DisplayOrder": 22,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "http://${CCD_DEF_COS_URL}/remove-bulk-link",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-bulk-link",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
