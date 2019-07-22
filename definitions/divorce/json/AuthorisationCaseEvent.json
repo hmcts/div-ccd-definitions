@@ -4714,7 +4714,7 @@
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
