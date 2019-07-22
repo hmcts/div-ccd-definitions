@@ -11496,6 +11496,13 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsDifferentDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "statementOfTruthDN",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
