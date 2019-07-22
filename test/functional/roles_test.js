@@ -26,4 +26,4 @@ Scenario('add all the roles', I => {
   I.see('caseworker-divorce-bulkscan');
   I.see('caseworker-divorce-courtadmin-la');
   I.see('caseworker-divorce-superuser');
-});
+}).retry(3);
