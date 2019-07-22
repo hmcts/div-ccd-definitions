@@ -59,6 +59,9 @@
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
     "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-ithc && yarn generate-bulk-excel-prod"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "dependencies": {
     "@hmcts/nodejs-healthcheck": "1.5.1",
     "@hmcts/properties-volume": "0.0.8",
@@ -77,6 +80,7 @@
     "husky": "^2.2.0",
     "loadsh": "^0.0.4",
     "mocha": "^6.1.4",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
     "sonar-scanner": "^3.1.0"

@@ -16,7 +16,7 @@ Scenario('add all the roles', I => {
   I.createRole('caseworker-divorce-bulkscan');
   I.createRole('caseworker-divorce-courtadmin-la');
   I.createRole('caseworker-divorce-superuser');
-  I.click("Manage User Roles");
+  I.click('Manage User Roles');
   I.see('citizen');
   I.see('caseworker');
   I.see('caseworker-divorce-courtadmin');
@@ -26,4 +26,4 @@ Scenario('add all the roles', I => {
   I.see('caseworker-divorce-bulkscan');
   I.see('caseworker-divorce-courtadmin-la');
   I.see('caseworker-divorce-superuser');
-}).retry(3);
+}).retry(3); // eslint-disable-line no-magic-numbers
