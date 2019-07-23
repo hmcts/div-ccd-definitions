@@ -23,6 +23,7 @@ module.exports = () => {
     uploadConfig(path) {
       this.click('Import Case Definition');
       this.attachFile('file', path);
+      this.click('Submit');
     }
   });
 };
