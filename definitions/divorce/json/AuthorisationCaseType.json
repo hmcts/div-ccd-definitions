@@ -50,7 +50,7 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   }
 ]
