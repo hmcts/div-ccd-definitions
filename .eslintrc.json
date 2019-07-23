@@ -4,13 +4,14 @@
         "es6": true,
         "node": true,
         "jquery": true,
-        "mocha": true
+        "mocha": true,
+        "codeceptjs/codeceptjs": true
     },
     "extends": "@hmcts",
     "parserOptions": {
         "sourceType": "module"
     },
-    "plugins": ["mocha"],
+    "plugins": ["mocha", "codeceptjs"],
     "rules": {
         "linebreak-style": [
             "error",

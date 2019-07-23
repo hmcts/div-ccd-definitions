@@ -33,11 +33,14 @@
     }
   },
   "scripts": {
-    "preinstall": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
+    "setup": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
     "lint": "eslint --fix .",
-    "test": "mocha test/**/*.js",
+    "test": "NODE_PATH=. mocha test/unit/**/*.js",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
+    "test:smoke": "echo smoke",
+    "test:functional": "codeceptjs run --steps -c test/functional/codecept.conf.js",
+    "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/divorce/json -i ../definitions/divorce/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-excel",
@@ -56,6 +59,18 @@
     "generate-bulk-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/bulk-action/json -o ../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-${DIV_ENV:-base}.xlsx",
     "generate-bulk-excel-all": "yarn generate-bulk-excel-local && yarn generate-bulk-excel-demo && yarn generate-bulk-excel-aat && yarn generate-bulk-excel-ithc && yarn generate-bulk-excel-prod"
   },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "@hmcts/nodejs-healthcheck": "1.5.1",
+    "@hmcts/properties-volume": "0.0.8",
+    "codeceptjs": "^2.2.0",
+    "config": "^3.0.1",
+    "eslint-plugin-codeceptjs": "^1.0.0",
+    "express": "^4.16.4",
+    "puppeteer": "^1.18.1"
+  },
   "devDependencies": {
     "@hmcts/eslint-config": "^1.4.0",
     "@shinnn/eslint-config-node": "^6.0.2",
@@ -65,6 +80,7 @@
     "husky": "^2.2.0",
     "loadsh": "^0.0.4",
     "mocha": "^6.1.4",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
     "sonar-scanner": "^3.1.0"

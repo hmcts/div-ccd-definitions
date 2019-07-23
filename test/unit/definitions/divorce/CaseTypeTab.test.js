@@ -1,8 +1,9 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
-const caseTypeTab = Object.assign(require('../../../definitions/divorce/json/CaseTypeTab'), {});
-const caseField = Object.assign(require('../../../definitions/divorce/json/CaseField'), {});
+
+const caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab'), {});
+const caseField = Object.assign(require('definitions/divorce/json/CaseField'), {});
 
 const tabIds = uniq(map(caseTypeTab, 'TabID'));
 
