@@ -4083,6 +4083,13 @@
   {
     "LiveFrom": "31/08/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAgreeToCosts",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/08/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespCostsAmount",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -11475,7 +11482,7 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
