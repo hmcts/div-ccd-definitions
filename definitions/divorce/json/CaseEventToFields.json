@@ -6693,7 +6693,7 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
-    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "dnlivedapartseparation",
