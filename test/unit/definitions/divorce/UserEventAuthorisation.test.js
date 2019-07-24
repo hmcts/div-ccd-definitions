@@ -7,15 +7,41 @@ const caseFieldAuthTab = Object.assign(require('definitions/divorce/json/Authori
 const caseRolesTab = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
 let caseEventsActive = [];
 
+function matchEventFieldToAuthField(userRole, caseType) {
+  return (authFieldEntry, eventCaseField) => {
+    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
+      && authFieldEntry.UserRole === userRole
+      && authFieldEntry.CaseTypeID === caseType
+      && eventCaseField.CaseTypeID === caseType;
+  };
+}
+
+function getFieldsForEvent(eventName, caseType) {
+  return entry => {
+    return entry.CaseEventID === eventName
+      && (entry.DisplayContext === 'MANDATORY' || entry.DisplayContext === 'OPTIONAL')
+      && entry.CaseTypeID === caseType;
+  };
+}
+
+function getShowHideFieldsForEvent(eventName) {
+  return entry => {
+    return entry.CaseEventID === eventName && entry.DisplayContext === 'READONLY' && (
+      (entry.FieldShowCondition && entry.FieldShowCondition.includes(entry.CaseFieldID)) ||
+      (entry.PageShowCondition && entry.PageShowCondition.includes(entry.CaseFieldID)));
+  };
+}
+
+function getDiffForFields(userRole, caseType) {
+  return (eventCaseField, authFieldEntry) => {
+    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
+      && authFieldEntry.UserRole === userRole
+      && authFieldEntry.CaseTypeID === caseType
+      && eventCaseField.CaseTypeID === caseType;
+  };
+}
+
 describe('Events authorisation validation', () => {
-  function matchEventFieldToAuthField(userRole, caseType) {
-    return (authFieldEntry, eventCaseField) => {
-      return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
-        && authFieldEntry.UserRole === userRole
-        && authFieldEntry.CaseTypeID === caseType
-        && eventCaseField.CaseTypeID === caseType;
-    };
-  }
 
   before(() => {
     caseEventsActive = caseEventsAuthTab.filter(entry => {
@@ -33,22 +59,10 @@ describe('Events authorisation validation', () => {
       const userRole = eventAuth.UserRole;
       const eventName = eventAuth.CaseEventID;
       const caseType = eventAuth.CaseTypeID;
-
-      // get all MANDATORY and OPTIONAL fields for this event
-      let caseFieldsForEvent = caseEventFields.filter(entry => {
-        return entry.CaseEventID === eventName
-          && (entry.DisplayContext === 'MANDATORY' || entry.DisplayContext === 'OPTIONAL')
-          && entry.CaseTypeID === caseType;
-      });
+      let caseFieldsForEvent = caseEventFields.filter(getFieldsForEvent(eventName, caseType));
 
       // get all the READONLY fields that are used as show/hide conditions (not labels) - these are sent with the event too
-      const caseFieldsForConditionals = caseEventFields.filter(entry => {
-        return entry.CaseEventID === eventName && entry.DisplayContext === 'READONLY' && (
-          (entry.FieldShowCondition && entry.FieldShowCondition.includes(entry.CaseFieldID)) ||
-          (entry.PageShowCondition && entry.PageShowCondition.includes(entry.CaseFieldID)));
-      });
-
-      // combine the above set into one list
+      const caseFieldsForConditionals = caseEventFields.filter(getShowHideFieldsForEvent(eventName));
       caseFieldsForEvent = concat(caseFieldsForEvent, caseFieldsForConditionals);
 
       // find the intersection between the event fields and the field's authorisations for this user role and event
@@ -57,12 +71,7 @@ describe('Events authorisation validation', () => {
 
       if (relevantCaseFieldsAuth.length !== caseFieldsForEvent.length) {
         const diffFields = differenceWith(
-          caseFieldsForEvent, relevantCaseFieldsAuth, (eventCaseField, authFieldEntry) => {
-            return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
-              && authFieldEntry.UserRole === userRole
-              && authFieldEntry.CaseTypeID === caseType
-              && eventCaseField.CaseTypeID === caseType;
-          });
+          caseFieldsForEvent, relevantCaseFieldsAuth, getDiffForFields(userRole, caseType));
         console.log(`Event ID: ${eventName} for ${userRole} user role is missing field authorisations`);
         console.dir(diffFields);
       }
