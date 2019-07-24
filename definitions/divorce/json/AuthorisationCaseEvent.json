@@ -492,6 +492,13 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issuedFromReissue",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "issueAosFromReissue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
