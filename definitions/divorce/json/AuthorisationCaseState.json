@@ -241,6 +241,13 @@
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingReissue",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingReissue",
     "UserRole": "citizen",
     "CRUD": "RU"
   },
