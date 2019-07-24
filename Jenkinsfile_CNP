@@ -58,6 +58,12 @@ withPipeline("nodejs", product, component) {
     }
   }
 
+  before('functionalTest:preview') {
+    //regenerate files here as build stage can be skipped by pipeline
+    sh 'yarn generate-excel-all'
+    sh 'yarn generate-bulk-excel-all'
+  }
+
   after('functionalTest:preview') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
   }
