@@ -82,5 +82,12 @@
     "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseStateID": "dropped",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
