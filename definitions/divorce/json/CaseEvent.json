@@ -1072,7 +1072,6 @@
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-created",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Petition"
