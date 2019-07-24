@@ -4657,14 +4657,6 @@
     "PageID": 1
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "create",
-    "CaseFieldID": "AosLetterHolderId",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1
-  },
-  {
     "LiveFrom": "19/09/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "startAos",
@@ -7083,7 +7075,7 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
-    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "PageFieldDisplayOrder": 20,
     "DisplayContext": "READONLY",
     "PageID": "reviewdnapplication",
@@ -7764,7 +7756,7 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdateDN",
-    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "dnlivedapartseparation",
