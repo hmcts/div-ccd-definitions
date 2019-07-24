@@ -47,8 +47,11 @@ If you prefer to make the changes directly on the excel file, and then convert b
 
 ## Accessing CCD on preview/per PR
 
+A full CCD instance is created PR via Helm charts which can be accessed using the details below.
+
+If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHub.
+
 * Visit `https://gateway-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` and whitelist accept the SSL certificate
-* Upload the definition file(s) from your PR on `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` - [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
 * Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 * Login with an authorised AAT user [listed here](https://github.com/hmcts/div-ccd-definitions/blob/master/definitions/divorce/json/UserProfile.json)
 
