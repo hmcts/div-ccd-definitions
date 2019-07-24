@@ -1,9 +1,8 @@
-FROM hmctspublic.azurecr.io/base/node/stretch-slim-lts-10:10-stretch-slim as base
+FROM hmctspublic.azurecr.io/base/node/stretch-slim-lts-8:8-stretch-slim as base
 USER hmcts
 COPY --chown=hmcts:hmcts package.json yarn.lock ./
 COPY /definitions/divorce/xlsx /
 ADD ./config "/config"
-RUN apk add --no-cache nodejs yarn
 RUN yarn install --production && yarn cache clean
 COPY index.js ./
 ENV NODE_CONFIG_DIR="/config"
