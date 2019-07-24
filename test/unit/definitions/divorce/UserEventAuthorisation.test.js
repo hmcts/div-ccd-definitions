@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const expect = require('chai').expect;
 const { differenceWith, intersectionWith, concat } = require('lodash');
 
@@ -9,16 +7,14 @@ const caseFieldAuthTab = Object.assign(require('definitions/divorce/json/Authori
 const caseRolesTab = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
 let caseEventsActive = [];
 
-describe('Events authorisation', () => {
+describe('Events authorisation validation', () => {
   function matchEventFieldToAuthField(userRole, caseType) {
     return (authFieldEntry, eventCaseField) => {
-      if (eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
+      return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
         && authFieldEntry.UserRole === userRole
         && authFieldEntry.CaseTypeID === caseType
-        && eventCaseField.CaseTypeID === caseType) {
-        return true;
-      }
-    }
+        && eventCaseField.CaseTypeID === caseType;
+    };
   }
 
   before(() => {
@@ -28,10 +24,8 @@ describe('Events authorisation', () => {
 
     // we need to exclude the Case Roles events as its not used for Field Authorisation (is User Role only)
     caseEventsActive = differenceWith(caseEventsActive, caseRolesTab, (eventActive, caseRole) => {
-      if (eventActive.UserRole === caseRole.ID) {
-        return true;
-      }
-    })
+      return eventActive.UserRole === caseRole.ID;
+    });
   });
 
   it('should have at least CRU or RU access level for all MANDATORY, OPTIONAL and READONLY show/hide event fields', () => {
@@ -62,19 +56,18 @@ describe('Events authorisation', () => {
         caseFieldAuthTab, caseFieldsForEvent, matchEventFieldToAuthField(userRole, caseType));
 
       if (relevantCaseFieldsAuth.length !== caseFieldsForEvent.length) {
-        const diffFields = differenceWith(caseFieldsForEvent, relevantCaseFieldsAuth, (eventCaseField, authFieldEntry) => {
-          if (eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
-            && authFieldEntry.UserRole === userRole
-            && authFieldEntry.CaseTypeID === caseType
-            && eventCaseField.CaseTypeID === caseType) {
-            return true;
-          }
-        });
+        const diffFields = differenceWith(
+          caseFieldsForEvent, relevantCaseFieldsAuth, (eventCaseField, authFieldEntry) => {
+            return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
+              && authFieldEntry.UserRole === userRole
+              && authFieldEntry.CaseTypeID === caseType
+              && eventCaseField.CaseTypeID === caseType;
+          });
         console.log(`Event ID: ${eventName} for ${userRole} user role is missing field authorisations`);
         console.dir(diffFields);
       }
 
-      expect(relevantCaseFieldsAuth.length).to.eql(caseFieldsForEvent.length)
+      expect(relevantCaseFieldsAuth.length).to.eql(caseFieldsForEvent.length);
     });
   });
 });
