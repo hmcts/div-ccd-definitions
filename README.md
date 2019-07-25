@@ -6,7 +6,7 @@ Divorce configuration definitions for CCD
 
 ### Install
 
-Run `yarn install` to install the dependencies for both this project and the submodule
+Run `yarn install && yarn setup` to install the dependencies for both this project and the submodule
 
 ## Convert JSON to Excel
 
@@ -44,6 +44,16 @@ If you prefer to make the changes directly on the excel file, and then convert b
 2) Make the changes to `ccd-config-base.xlsx` but ensure you don't have any environment-specific URLs (use placeholders instead).
 3) Once you're satisfied with your changes in the Excel file, convert back to JSON using `yarn generate-json`
 4) Review the JSON file changes to ensure all your changes are correct
+
+## Accessing CCD on preview/per PR
+
+A full CCD instance is created PR via Helm charts which can be accessed using the details below.
+
+If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHub.
+
+* Visit `https://gateway-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` and whitelist accept the SSL certificate
+* Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
+* Login with an authorised AAT user [listed here](https://github.com/hmcts/div-ccd-definitions/blob/master/definitions/divorce/json/UserProfile.json)
 
 ## Release
 

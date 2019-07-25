@@ -439,8 +439,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -452,8 +452,6 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -974,6 +972,10 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
   {
@@ -1072,7 +1074,6 @@
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-created",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Petition"
@@ -1484,6 +1485,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosCompleted",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -1840,6 +1843,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "07/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "unlinkBulkCaseReference",
+    "Name": "Unlink from bulk case ",
+    "Description": "Unlink from bulk case ",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-bulk-link",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUAwaitingHWF",
@@ -2103,8 +2119,8 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
     "RetriesTimeoutAboutToStartEvent": 120120,
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": 120120,
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit Decree Nisi Application"

@@ -19,6 +19,8 @@
     "DisplayOrder": 98,
     "PreConditionState(s)": "ScheduledForCreate",
     "PostConditionState": "Created",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/remove",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
