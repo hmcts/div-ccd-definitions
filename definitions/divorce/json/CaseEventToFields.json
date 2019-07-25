@@ -7895,7 +7895,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7909,7 +7909,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7923,7 +7923,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7937,7 +7937,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7951,7 +7951,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7965,7 +7965,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7979,7 +7979,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -7993,7 +7993,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8003,7 +8003,7 @@
     "CaseFieldID": "minipetitionlink",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
-    "PageID": "aosreviewpetition",
+    "PageID": "aosstart",
     "PageLabel": "Review the petitioner's application",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
@@ -8016,7 +8016,7 @@
     "CaseFieldID": "RespConfirmReadPetition",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "aosreviewpetition",
+    "PageID": "aosstart",
     "PageLabel": "Review the petitioner's application",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
