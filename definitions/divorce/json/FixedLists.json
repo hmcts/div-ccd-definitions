@@ -499,6 +499,18 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "solServiceMethod",
+    "ListElementCode": "courtService",
+    "ListElement": "Court Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "solServiceMethod",
+    "ListElementCode": "personalService",
+    "ListElement": "Personal Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "solHowToPay",
     "ListElementCode": "feePayByAccount",
     "ListElement": "Fee account"
