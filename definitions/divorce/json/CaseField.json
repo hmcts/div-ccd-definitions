@@ -1623,7 +1623,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "SolServiceMethod",
     "Label": "Service method",
-    "FieldType": "FixedList",
+    "FieldType": "FixedRadioList",
     "FieldTypeParameter": "solServiceMethod",
     "SecurityClassification": "Public"
   },
