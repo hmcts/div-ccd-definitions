@@ -5,7 +5,48 @@
 String product = "div"
 String component = "ccd-definitions"
 
+def secrets = [
+        's2s-${env}'      : [
+                secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-gw', 'API_GATEWAY_S2S_KEY'),
+                secret('microservicekey-ccd-ps', 'PRINT_S2S_KEY'),
+                secret('microservicekey-ccd-admin', 'ADMIN_S2S_KEY')
+        ],
+        'ccd-${env}'      : [
+                secret('ccd-api-gateway-oauth2-client-secret', 'API_GATEWAY_IDAM_SECRET'),
+                secret('ccd-admin-web-oauth2-client-secret', 'ADMIN_WEB_IDAM_SECRET')
+        ]
+]
+
+static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
+  [ $class: 'AzureKeyVaultSecret',
+    secretType: 'Secret',
+    name: secretName,
+    version: '',
+    envVariable: envVar
+  ]
+}
+
 withPipeline("nodejs", product, component) {
+
+  if (env.CHANGE_TITLE && !env.CHANGE_TITLE.startsWith('[PREVIEW]')) {
+    enableDockerBuild()
+    installCharts()
+  }
+
+  loadVaultSecrets(secrets)
+
+  after('build') {
+    stage('Generate Divorce Case excel file') {
+      sh 'yarn setup'
+      sh 'yarn generate-excel-all'
+    }
+    stage('Generate Bulk Case excel file') {
+      sh 'yarn generate-bulk-excel-all'
+    }
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
+  }
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
@@ -15,16 +56,11 @@ withPipeline("nodejs", product, component) {
         slackSend(channel: '#div-dev', color: 'warning', message: "Yarn Audit has detected vulnerabilities in ${env.JOB_NAME}. You can check if there are patches for them in the full report, build details here: <${env.RUN_DISPLAY_URL}|Build ${env.BUILD_DISPLAY_NAME}>.")
       }
     }
-    stage('Generate Divorce Case excel file') {
-      sh 'yarn generate-excel-all'
-    }
-    stage('Generate Bulk Case excel file') {
-      sh 'yarn generate-bulk-excel-all'
-    }
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
   }
 
-  onMaster {
-    enableSlackNotifications('#div-dev')
+  after('functionalTest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
   }
+
+  enableSlackNotifications('#div-dev')
 }

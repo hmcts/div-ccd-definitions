@@ -1,8 +1,9 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
-const caseTypeTab = Object.assign(require('../../../definitions/divorce/json/CaseTypeTab'), {});
-const caseField = Object.assign(require('../../../definitions/divorce/json/CaseField'), {});
+
+const caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab'), {});
+const caseField = Object.assign(require('definitions/divorce/json/CaseField'), {});
 
 const tabIds = uniq(map(caseTypeTab, 'TabID'));
 
@@ -54,16 +55,17 @@ describe('CaseTypeTab', () => {
     aosDetails: 3,
     dnDetails: 4,
     outcomeOfDnDetails: 5,
-    paymentDetails: 6,
-    documents: 7,
-    confidentialPetitioner: 8,
-    confidentialRespondent: 9,
-    confidentialCoRespondent: 10,
-    notes: 11,
-    marriageCertificate: 12,
-    coRespondent: 13,
-    SolicitorCoRespondent: 14,
-    LinkedCase: 15,
+    DecreeAbsolute: 6,
+    paymentDetails: 7,
+    documents: 8,
+    confidentialPetitioner: 9,
+    confidentialRespondent: 10,
+    confidentialCoRespondent: 11,
+    notes: 12,
+    marriageCertificate: 13,
+    coRespondent: 14,
+    SolicitorCoRespondent: 15,
+    LinkedCase: 16,
     General: 1
   };
   tabIds.forEach(tabId => {
@@ -79,10 +81,12 @@ describe('CaseTypeTab', () => {
   it('should contain a valid Tab IDs', () => {
     expect(tabIds).to.eql([
       'History',
+      'General',
       'petitionDetails',
+      'aosDetails',
       'dnDetails',
       'outcomeOfDnDetails',
-      'aosDetails',
+      'DecreeAbsolute',
       'paymentDetails',
       'documents',
       'confidentialPetitioner',
@@ -92,8 +96,7 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       'SolicitorCoRespondent',
-      'LinkedCase',
-      'General'
+      'LinkedCase'
     ]);
   });
   it('should contain a valid case field IDs', () => {

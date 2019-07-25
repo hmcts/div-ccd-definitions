@@ -12339,5 +12339,82 @@
     "CaseFieldID": "DecreeAbsoluteGranted",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
   }
 ]
