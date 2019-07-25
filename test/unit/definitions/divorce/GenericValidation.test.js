@@ -1,0 +1,39 @@
+/* eslint global-require: 0 */
+
+const expect = require('chai').expect;
+const { uniq } = require('lodash');
+
+const Config = {
+  AuthorisationCaseEvent: Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent'), []),
+  AuthorisationCaseField: Object.assign(require('definitions/divorce/json/AuthorisationCaseField'), []),
+  AuthorisationCaseState: Object.assign(require('definitions/divorce/json/AuthorisationCaseState'), []),
+  AuthorisationCaseType: Object.assign(require('definitions/divorce/json/AuthorisationCaseType'), []),
+  AuthorisationComplexType: Object.assign(require('definitions/divorce/json/AuthorisationComplexType'), []),
+  CaseEvent: Object.assign(require('definitions/divorce/json/CaseEvent'), []),
+  CaseEventToComplexTypes: Object.assign(require('definitions/divorce/json/CaseEventToComplexTypes'), []),
+  CaseEventToFields: Object.assign(require('definitions/divorce/json/CaseEventToFields'), []),
+  CaseField: Object.assign(require('definitions/divorce/json/CaseField'), []),
+  CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
+  CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
+  CaseTypeTab: Object.assign(require('definitions/divorce/json/CaseTypeTab'), []),
+  ComplexTypes: Object.assign(require('definitions/divorce/json/ComplexTypes'), []),
+  FixedLists: Object.assign(require('definitions/divorce/json/FixedLists'), []),
+  Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
+  SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
+  SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
+  SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
+  State: Object.assign(require('definitions/divorce/json/State'), []),
+  UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
+  WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields'), []),
+  WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
+};
+
+describe('For each config sheet', () => {
+  it('should have unique rows', () => {
+    Object.keys(Config).forEach(sheetName => {
+      const originalContent = Config[sheetName];
+      const uniqueList = uniq(originalContent);
+      expect(uniqueList.length).to.eq(originalContent.length);
+    });
+  });
+});

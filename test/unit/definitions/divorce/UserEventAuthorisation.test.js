@@ -1,11 +1,14 @@
 const expect = require('chai').expect;
 const { differenceWith, intersectionWith, concat } = require('lodash');
 
-const caseEventsAuthTab = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent'), []);
-const caseEventFields = Object.assign(require('definitions/divorce/json/CaseEventToFields'), []);
-const caseFieldAuthTab = Object.assign(require('definitions/divorce/json/AuthorisationCaseField'), []);
-const caseRolesTab = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
-let caseEventsActive = [];
+const AuthorisationCaseEvent = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent'), []);
+const AuthorisationCaseField = Object.assign(require('definitions/divorce/json/AuthorisationCaseField'), []);
+const AuthorisationCaseState = Object.assign(require('definitions/divorce/json/AuthorisationCaseState'), []);
+const CaseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
+const CaseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields'), []);
+const CaseRoles = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
+
+let AuthCaseEventsActive = [];
 
 function matchEventFieldToAuthField(userRole, caseType) {
   return (authFieldEntry, eventCaseField) => {
@@ -41,33 +44,44 @@ function getDiffForFields(userRole, caseType) {
   };
 }
 
-describe('Events authorisation validation', () => {
+function getEventsForEventName(eventName, caseType) {
+  return entry => {
+    return entry.CaseEventID === eventName && entry.CaseTypeID === caseType;
+  };
+}
 
+function getAuthStateForUserRole(state, userRole, caseType) {
+  return entry => {
+    return entry.CaseStateID === state && entry.UserRole === userRole && entry.CaseTypeID === caseType;
+  };
+}
+
+describe('Events authorisation validation', () => {
   before(() => {
-    caseEventsActive = caseEventsAuthTab.filter(entry => {
+    AuthCaseEventsActive = AuthorisationCaseEvent.filter(entry => {
       return entry.CRUD === 'CRU' || entry.CRUD === 'RU';
     });
 
     // we need to exclude the Case Roles events as its not used for Field Authorisation (is User Role only)
-    caseEventsActive = differenceWith(caseEventsActive, caseRolesTab, (eventActive, caseRole) => {
+    AuthCaseEventsActive = differenceWith(AuthCaseEventsActive, CaseRoles, (eventActive, caseRole) => {
       return eventActive.UserRole === caseRole.ID;
     });
   });
 
   it('should have at least CRU or RU access level for all MANDATORY, OPTIONAL and READONLY show/hide event fields', () => {
-    caseEventsActive.forEach(eventAuth => {
+    AuthCaseEventsActive.forEach(eventAuth => {
       const userRole = eventAuth.UserRole;
       const eventName = eventAuth.CaseEventID;
       const caseType = eventAuth.CaseTypeID;
-      let caseFieldsForEvent = caseEventFields.filter(getFieldsForEvent(eventName, caseType));
+      let caseFieldsForEvent = CaseEventToFields.filter(getFieldsForEvent(eventName, caseType));
 
       // get all the READONLY fields that are used as show/hide conditions (not labels) - these are sent with the event too
-      const caseFieldsForConditionals = caseEventFields.filter(getShowHideFieldsForEvent(eventName));
+      const caseFieldsForConditionals = CaseEventToFields.filter(getShowHideFieldsForEvent(eventName));
       caseFieldsForEvent = concat(caseFieldsForEvent, caseFieldsForConditionals);
 
       // find the intersection between the event fields and the field's authorisations for this user role and event
       const relevantCaseFieldsAuth = intersectionWith(
-        caseFieldAuthTab, caseFieldsForEvent, matchEventFieldToAuthField(userRole, caseType));
+        AuthorisationCaseField, caseFieldsForEvent, matchEventFieldToAuthField(userRole, caseType));
 
       if (relevantCaseFieldsAuth.length !== caseFieldsForEvent.length) {
         const diffFields = differenceWith(
@@ -77,6 +91,62 @@ describe('Events authorisation validation', () => {
       }
 
       expect(relevantCaseFieldsAuth.length).to.eql(caseFieldsForEvent.length);
+    });
+  });
+
+  it('should give user C/RU access for all post-condition states', () => {
+    CaseEvent.forEach(event => {
+      const eventName = event.ID;
+      const postConditionState = event.PostConditionState;
+      const caseType = event.CaseTypeID;
+      const allAuthForEvent = AuthCaseEventsActive.filter(getEventsForEventName(eventName, caseType));
+
+      if (postConditionState && postConditionState !== '*') {
+        allAuthForEvent.forEach(authEventEntry => {
+          const userRole = authEventEntry.UserRole;
+          const postConditionAuthState = AuthorisationCaseState.filter(
+            getAuthStateForUserRole(postConditionState, userRole, caseType));
+
+          if (postConditionAuthState.length === 0) {
+            console.log(`"${eventName}" event for "${userRole}" is missing authorisation for PostCondition state "${postConditionState}"`);
+          }
+
+          expect(postConditionAuthState.length).to.eql(1);
+
+          if (!postConditionAuthState[0].CRUD.match(/C?RU?D?/)) {
+            console.log(`"${eventName}" event for "${userRole}" is missing permissions for PostCondition state "${postConditionState}"`);
+          }
+          expect(postConditionAuthState[0].CRUD).to.match(/C?RU?D?/);
+        });
+      }
+    });
+  });
+
+  it('should give user minimum R access for all pre-condition states', () => {
+    CaseEvent.forEach(event => {
+      const eventName = event.ID;
+      const preConditionState = event['PreConditionState(s)'];
+      const caseType = event.CaseTypeID;
+      const allAuthForEvent = AuthCaseEventsActive.filter(getEventsForEventName(eventName, caseType));
+
+      if (preConditionState && preConditionState !== '*') {
+        allAuthForEvent.forEach(authEventEntry => {
+          const userRole = authEventEntry.UserRole;
+          const preConditionAuthState = AuthorisationCaseState.filter(
+            getAuthStateForUserRole(preConditionState, userRole, caseType));
+
+          if (preConditionAuthState.length === 0) {
+            console.log(`"${eventName}" event for "${userRole}" is missing authorisation for PreCondition state "${preConditionState}"`);
+          }
+
+          expect(preConditionAuthState.length).to.eql(1);
+
+          if (!preConditionAuthState[0].CRUD.match(/C?RU?D?/)) {
+            console.log(`"${eventName}" event for "${userRole}" is missing permissions for PreCondition state "${preConditionState}"`);
+          }
+          expect(preConditionAuthState[0].CRUD).to.match(/C?RU?D?/);
+        });
+      }
     });
   });
 });
