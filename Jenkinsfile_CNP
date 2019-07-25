@@ -71,3 +71,4 @@ withPipeline("nodejs", product, component) {
 
   enableSlackNotifications('#div-dev')
 }
+
