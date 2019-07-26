@@ -50,7 +50,7 @@
   {
     "LiveFrom": "03/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
-    "ID": "dropped",
+    "ID": "Dropped",
     "Name": "Bulk case dropped",
     "Description": "Bulk case dropped",
     "DisplayOrder": 7

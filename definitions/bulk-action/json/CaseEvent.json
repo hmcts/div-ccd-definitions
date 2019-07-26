@@ -126,7 +126,7 @@
     "Description": "Drop bulk case",
     "DisplayOrder": 7,
     "PreConditionState(s)": "*",
-    "PostConditionState": "dropped",
+    "PostConditionState": "Dropped",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }

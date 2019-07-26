@@ -86,7 +86,7 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE_BulkAction",
-    "CaseStateID": "dropped",
+    "CaseStateID": "Dropped",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   }
