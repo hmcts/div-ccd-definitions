@@ -3240,7 +3240,7 @@
   {
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelSolAOSFinancialConsider",
+    "ID": "labelSolAOSFinancialConsideration",
     "Label": "As the petitioner used separation as the reason for divorce, the respondent can ask the court to consider what the respondent’s financial situation will be afterwards.\r\n\r\nThe court may then decide to delay the final stage of the divorce (the decree absolute) until it is satisfied with the future financial arrangement between the respondent and the petitioner.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
