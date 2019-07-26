@@ -972,10 +972,6 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
   {
@@ -2088,7 +2084,7 @@
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "DNDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save DN Application"
@@ -2103,7 +2099,7 @@
     "PreConditionState(s)": "DNDrafted",
     "PostConditionState": "DNDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save updated DN Application"
@@ -2118,7 +2114,7 @@
     "PreConditionState(s)": "DNDrafted",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
@@ -2196,7 +2192,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save AOS Response"
@@ -2211,7 +2207,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Updated AOS Response"
