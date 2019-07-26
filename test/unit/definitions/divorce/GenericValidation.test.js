@@ -1,4 +1,4 @@
-/* eslint global-require: 0 */
+/* eslint global-require: "off", max-nested-callbacks: "off" */
 
 const expect = require('chai').expect;
 const { uniq } = require('lodash');
@@ -34,6 +34,23 @@ describe('For each config sheet', () => {
       const originalContent = Config[sheetName];
       const uniqueList = uniq(originalContent);
       expect(uniqueList.length).to.eq(originalContent.length);
+    });
+  });
+
+  it('should not have any special characters, tabs or line breaks in any of the cells', () => {
+    const accepted = /^[\w|*|\-|.|[|\]]+$/;
+    const priorityUserFields = ['CaseFieldID', 'CaseStateID', 'ID', 'CaseEventID'];
+    Object.keys(Config).forEach(sheetName => {
+      const content = Config[sheetName];
+      content.forEach(row => {
+        priorityUserFields.forEach(field => {
+          const cellValue = row[field];
+          if (cellValue && !cellValue.match(accepted)) {
+            console.log(`Cell ${field} value in sheet ${sheetName} has unexpected characters for value ${cellValue}.`);
+            expect(cellValue.toString()).to.match(accepted);
+          }
+        });
+      });
     });
   });
 });
