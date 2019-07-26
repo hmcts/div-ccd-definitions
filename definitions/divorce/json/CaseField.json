@@ -1605,8 +1605,16 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolServiceMethod",
+    "Label": "## Service method",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "SolServiceMethod",
-    "Label": "Service method",
+    "Label": "How would you like the respondent to be served?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "solServiceMethodEnum",
     "SecurityClassification": "Public"
