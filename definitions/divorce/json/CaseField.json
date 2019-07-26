@@ -3350,5 +3350,14 @@
     "Label": "### The respondent has not read the petition\r\n\r\nThe respondent must have read the petition in order to respond.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "refusalDecision",
+    "Label": "Refusal decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DnRefusalOptionEnum",
+    "SecurityClassification": "Public"
   }
 ]
