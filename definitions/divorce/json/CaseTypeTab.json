@@ -977,7 +977,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "solSignStatementofTruth",
-    "TabFieldDisplayOrder": 84
+    "TabFieldDisplayOrder": 83
   },
   {
     "LiveFrom": "01/01/2017",
@@ -987,7 +987,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolServiceMethod",
-    "TabFieldDisplayOrder": 85
+    "TabFieldDisplayOrder": 84
   },
   {
     "LiveFrom": "01/01/2017",
@@ -997,7 +997,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationCertify",
-    "TabFieldDisplayOrder": 86
+    "TabFieldDisplayOrder": 85
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1007,7 +1007,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
-    "TabFieldDisplayOrder": 87
+    "TabFieldDisplayOrder": 86
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1017,7 +1017,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "StatementOfReconciliationComments",
-    "TabFieldDisplayOrder": 88
+    "TabFieldDisplayOrder": 87
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1027,7 +1027,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationName",
-    "TabFieldDisplayOrder": 89
+    "TabFieldDisplayOrder": 88
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1037,7 +1037,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationFirm",
-    "TabFieldDisplayOrder": 90
+    "TabFieldDisplayOrder": 89
   },
   {
     "LiveFrom": "01/01/2017",
