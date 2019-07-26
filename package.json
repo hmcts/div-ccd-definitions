@@ -33,7 +33,7 @@
     }
   },
   "scripts": {
-    "setup": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
+    "setup": "yarn --cwd ccd-definition-processor install",
     "lint": "eslint --fix .",
     "test": "NODE_PATH=. mocha test/unit/**/*.js",
     "test:coverage": "echo test:coverage",
@@ -61,6 +61,7 @@
   },
   "pre-commit": [
     "lint"
+    
   ],
   "dependencies": {
     "@hmcts/nodejs-healthcheck": "1.5.1",
