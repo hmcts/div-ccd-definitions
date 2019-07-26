@@ -37,7 +37,7 @@ describe('For each config sheet', () => {
     });
   });
 
-  it('should not have any special characters, tabs or line breaks in any of the cells', () => {
+  it('should not have any special characters, tabs or line breaks in any of the priority user fields', () => {
     const accepted = /^[\w|*|\-|.|[|\]]+$/;
     const priorityUserFields = ['CaseFieldID', 'CaseStateID', 'ID', 'CaseEventID'];
     Object.keys(Config).forEach(sheetName => {
