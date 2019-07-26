@@ -374,12 +374,6 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "dnAnswers",
-    "ListElement": "Decree Nisi Answers"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "other",
     "ListElement": "Other"
   },
@@ -850,5 +844,17 @@
     "ID": "DocumentType",
     "ListElementCode": "daGranted",
     "ListElement": "DA Granted"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "reject",
+    "ListElement": "Reject"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "moreInfo",
+    "ListElement": "Get more information / Evidence"
   }
 ]
