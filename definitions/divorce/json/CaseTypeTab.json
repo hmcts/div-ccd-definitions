@@ -986,7 +986,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationCertify",
+    "CaseFieldID": "SolServiceMethod",
     "TabFieldDisplayOrder": 85
   },
   {
@@ -996,7 +996,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationDiscussed",
+    "CaseFieldID": "SolStatementOfReconciliationCertify",
     "TabFieldDisplayOrder": 86
   },
   {
@@ -1006,7 +1006,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "StatementOfReconciliationComments",
+    "CaseFieldID": "SolStatementOfReconciliationDiscussed",
     "TabFieldDisplayOrder": 87
   },
   {
@@ -1016,7 +1016,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationName",
+    "CaseFieldID": "StatementOfReconciliationComments",
     "TabFieldDisplayOrder": 88
   },
   {
@@ -1026,8 +1026,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationFirm",
+    "CaseFieldID": "SolStatementOfReconciliationName",
     "TabFieldDisplayOrder": 89
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "SolStatementOfReconciliationFirm",
+    "TabFieldDisplayOrder": 90
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1307,7 +1317,8 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "ConfirmPetitionDN",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1329,7 +1340,7 @@
     "TabDisplayOrder": 4,
     "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1373,7 +1384,7 @@
     "TabDisplayOrder": 4,
     "CaseFieldID": "BehaviourTimeLivedTogetherDetailsDN",
     "TabFieldDisplayOrder": 11,
-    "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1417,7 +1428,7 @@
     "TabDisplayOrder": 4,
     "CaseFieldID": "AdulteryTimeLivedTogetherDetailsDN",
     "TabFieldDisplayOrder": 15,
-    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1471,8 +1482,7 @@
     "TabLabel": "Decree Nisi",
     "TabDisplayOrder": 4,
     "CaseFieldID": "DesertionTimeLivedTogetherDetailsDN",
-    "TabFieldDisplayOrder": 20,
-    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+    "TabFieldDisplayOrder": 20
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1792,7 +1802,9 @@
     "TabLabel": "Documents",
     "TabDisplayOrder": 8,
     "CaseFieldID": "DocumentsUploadedDN",
-    "TabFieldDisplayOrder": 4
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\"",
+    "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1803,8 +1815,7 @@
     "TabDisplayOrder": 9,
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\"",
-    "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1837,7 +1848,8 @@
     "TabDisplayOrder": 9,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
     "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\"",
+    "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1848,8 +1860,7 @@
     "TabDisplayOrder": 10,
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\"",
-    "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1882,7 +1893,8 @@
     "TabDisplayOrder": 10,
     "CaseFieldID": "RespPhoneNumber",
     "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\"",
+    "TabShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1893,8 +1905,7 @@
     "TabDisplayOrder": 11,
     "CaseFieldID": "CoRespEmailAddress",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\"",
-    "TabShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1915,8 +1926,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1986,17 +1996,7 @@
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 13,
     "CaseFieldID": "D8CountryName",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "coRespondent",
-    "TabLabel": "Co-Respondent",
-    "TabDisplayOrder": 14,
-    "CaseFieldID": "D8caseReference",
-    "TabFieldDisplayOrder": 1,
+    "TabFieldDisplayOrder": 6,
     "TabShowCondition": "D8ReasonForDivorce=\"adultery\" AND D8ReasonForDivorceAdulteryWishToName=\"Y*\""
   },
   {
@@ -2006,6 +2006,16 @@
     "TabID": "coRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 14,
+    "CaseFieldID": "D8caseReference",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "coRespondent",
+    "TabLabel": "Co-Respondent",
+    "TabDisplayOrder": 14,
     "CaseFieldID": "createdDate",
     "TabFieldDisplayOrder": 2
   },
@@ -2037,7 +2047,8 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "coRespondentContactDetailsConfidential",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2048,7 +2059,7 @@
     "TabDisplayOrder": 14,
     "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2059,7 +2070,7 @@
     "TabDisplayOrder": 14,
     "CaseFieldID": "Label-CoRespondentAddressIsConfidential",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2091,8 +2102,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "TabFieldDisplayOrder": 10,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 10
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2242,17 +2252,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "ReceivedAnswerFromCoRespDate",
-    "TabFieldDisplayOrder": 25
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "SolicitorCoRespondent",
-    "TabLabel": "Co-Respondent",
-    "TabDisplayOrder": 15,
-    "CaseFieldID": "D8caseReference",
-    "TabFieldDisplayOrder": 1,
+    "TabFieldDisplayOrder": 25,
     "TabShowCondition": "PetitionerSolicitorEmail=\"*\" AND D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
   },
   {
@@ -2262,6 +2262,16 @@
     "TabID": "SolicitorCoRespondent",
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 15,
+    "CaseFieldID": "D8caseReference",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "SolicitorCoRespondent",
+    "TabLabel": "Co-Respondent",
+    "TabDisplayOrder": 15,
     "CaseFieldID": "createdDate",
     "TabFieldDisplayOrder": 2
   },
@@ -2293,7 +2303,8 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "coRespondentContactDetailsConfidential",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2304,7 +2315,7 @@
     "TabDisplayOrder": 15,
     "CaseFieldID": "Label-CoRespondentAddressIsShareable",
     "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"No\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2315,7 +2326,7 @@
     "TabDisplayOrder": 15,
     "CaseFieldID": "Label-CoRespondentAddressIsConfidential",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2347,8 +2358,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "TabFieldDisplayOrder": 10,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 10
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2498,7 +2508,8 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "ReceivedAnswerFromCoRespDate",
-    "TabFieldDisplayOrder": 25
+    "TabFieldDisplayOrder": 25,
+    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\""
   },
   {
     "LiveFrom": "22/02/2019",
@@ -2508,8 +2519,7 @@
     "TabLabel": "Linked Cases",
     "TabDisplayOrder": 16,
     "CaseFieldID": "PreviousCaseId",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\""
+    "TabFieldDisplayOrder": 1
   },
   {
     "LiveFrom": "22/02/2019",

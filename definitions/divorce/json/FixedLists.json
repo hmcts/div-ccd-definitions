@@ -499,15 +499,15 @@
   },
   {
     "LiveFrom": "01/01/2017",
-    "ID": "solServiceMethod",
-    "ListElementCode": "courtService",
-    "ListElement": "Court Service"
+    "ID": "solServiceMethodEnum",
+    "ListElementCode": "personalService",
+    "ListElement": "Personal Service"
   },
   {
     "LiveFrom": "01/01/2017",
-    "ID": "solServiceMethod",
-    "ListElementCode": "personalService",
-    "ListElement": "Personal Service"
+    "ID": "solServiceMethodEnum",
+    "ListElementCode": "courtService",
+    "ListElement": "Court Service"
   },
   {
     "LiveFrom": "01/01/2017",

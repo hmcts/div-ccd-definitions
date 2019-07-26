@@ -1605,15 +1605,16 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolStatementOTruthPara-3",
-    "Label": "## Statement of Reconciliation",
-    "FieldType": "Label",
+    "ID": "SolServiceMethod",
+    "Label": "Service method",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "solServiceMethodEnum",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolServiceMethod",
+    "ID": "LabelSolPersonalService",
     "Label": "You have 7 days to serve the respondent. After service is complete you must notify the court by completing the 'Confirm Service' form in CCD. Refer to the information pack for further instruction on how to do this",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -1621,10 +1622,9 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "SolServiceMethod",
-    "Label": "Service method",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "solServiceMethod",
+    "ID": "LabelSolStatementOTruthPara-3",
+    "Label": "## Statement of Reconciliation",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
