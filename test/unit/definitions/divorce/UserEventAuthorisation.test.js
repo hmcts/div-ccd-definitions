@@ -96,6 +96,7 @@ describe('Events authorisation validation', () => {
 
   it('should give user C/RU access for all post-condition states', () => {
     CaseEvent.forEach(event => {
+      const acceptedPermissions = /C?RU?D?/;
       const eventName = event.ID;
       const postConditionState = event.PostConditionState;
       const caseType = event.CaseTypeID;
@@ -113,10 +114,10 @@ describe('Events authorisation validation', () => {
 
           expect(postConditionAuthState.length).to.eql(1);
 
-          if (!postConditionAuthState[0].CRUD.match(/C?RU?D?/)) {
+          if (!postConditionAuthState[0].CRUD.match(acceptedPermissions)) {
             console.log(`"${eventName}" event for "${userRole}" is missing permissions for PostCondition state "${postConditionState}"`);
           }
-          expect(postConditionAuthState[0].CRUD).to.match(/C?RU?D?/);
+          expect(postConditionAuthState[0].CRUD).to.match(acceptedPermissions);
         });
       }
     });
@@ -124,6 +125,7 @@ describe('Events authorisation validation', () => {
 
   it('should give user minimum R access for all pre-condition states', () => {
     CaseEvent.forEach(event => {
+      const acceptedPermissions = /C?RU?D?/;
       const eventName = event.ID;
       const preConditionState = event['PreConditionState(s)'];
       const caseType = event.CaseTypeID;
@@ -141,10 +143,10 @@ describe('Events authorisation validation', () => {
 
           expect(preConditionAuthState.length).to.eql(1);
 
-          if (!preConditionAuthState[0].CRUD.match(/C?RU?D?/)) {
+          if (!preConditionAuthState[0].CRUD.match(acceptedPermissions)) {
             console.log(`"${eventName}" event for "${userRole}" is missing permissions for PreCondition state "${preConditionState}"`);
           }
-          expect(preConditionAuthState[0].CRUD).to.match(/C?RU?D?/);
+          expect(preConditionAuthState[0].CRUD).to.match(acceptedPermissions);
         });
       }
     });
