@@ -46,5 +46,13 @@
     "Name": "Bulk case pronounced",
     "Description": "Bulk case pronounced",
     "DisplayOrder": 6
+  },
+  {
+    "LiveFrom": "03/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "Dropped",
+    "Name": "Bulk case dropped",
+    "Description": "Bulk case dropped",
+    "DisplayOrder": 7
   }
 ]
