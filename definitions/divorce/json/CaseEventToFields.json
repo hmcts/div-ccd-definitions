@@ -6142,6 +6142,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6153,6 +6154,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
+    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6165,6 +6167,7 @@
     "DisplayContext": "READONLY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
+    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "No"
   },
@@ -6177,6 +6180,7 @@
     "DisplayContext": "READONLY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
+    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "No"
   },
@@ -6189,6 +6193,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\" ",
     "PageShowCondition": "CostsClaimGranted=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
@@ -6202,6 +6207,7 @@
     "DisplayContext": "READONLY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6214,6 +6220,7 @@
     "DisplayContext": "READONLY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\""
   },
   {
@@ -6225,6 +6232,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
+    "PageDisplayOrder": 2,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6236,6 +6244,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "TypeCostsDecision=\"additionalInformation\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6248,8 +6257,35 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeRefusalOrder",
     "PageLabel": "Make a refusal order",
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "DecreeNisiGranted=\"No\"",
     "PageShowCondition": "DecreeNisiGranted=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "refusalRejectionReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "refusalRejection",
+    "PageLabel": "Make a refusal order: Reject",
+    "PageDisplayOrder": 3,
+    "PageShowCondition": "refusalDecision=\"reject\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "refusalRejectionAdditionalInfo",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "refusalRejection",
+    "PageLabel": "Make a refusal order: Reject",
+    "PageDisplayOrder": 3,
+    "FieldShowCondition": "refusalRejectionReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {

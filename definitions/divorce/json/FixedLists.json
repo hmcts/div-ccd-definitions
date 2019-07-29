@@ -848,13 +848,31 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "moreInfo",
+    "ListElement": "Get more information / Evidence"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
     "ListElementCode": "reject",
     "ListElement": "Reject"
   },
   {
     "LiveFrom": "01/01/2019",
-    "ID": "DnRefusalOptionEnum",
-    "ListElementCode": "moreInfo",
-    "ListElement": "Get more information / Evidence"
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "other",
+    "ListElement": "Provide details / Make free text order"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "noCriteria",
+    "ListElement": "Applicant does not fit criteria for divorce"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "noJurisdiction",
+    "ListElement": "Court does not have jurisdiction"
   }
 ]

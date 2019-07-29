@@ -3237,5 +3237,23 @@
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "DnRefusalOptionEnum",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "refusalRejectionReason",
+    "Label": "Refusal rejection reason",
+    "HintText": "Choose at least one of the following",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnRejectonReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "refusalRejectionAdditionalInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
