@@ -12520,7 +12520,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelSolPersonalService",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
