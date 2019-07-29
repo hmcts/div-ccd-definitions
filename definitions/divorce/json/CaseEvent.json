@@ -1796,8 +1796,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosAwaitingSol",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-solicitor-nominated",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-solicitor-nominated",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
