@@ -374,6 +374,12 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "dnAnswers",
+    "ListElement": "Decree Nisi Answers"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "other",
     "ListElement": "Other"
   },
