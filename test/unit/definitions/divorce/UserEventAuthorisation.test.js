@@ -96,7 +96,7 @@ describe('Events authorisation validation', () => {
 
   it('should give user C/RU access for all post-condition states', () => {
     CaseEvent.forEach(event => {
-      const acceptedPermissions = /C?RU?D?/;
+      const acceptedPermissions = /C?RUD?|CRU?D?/;
       const eventName = event.ID;
       const postConditionState = event.PostConditionState;
       const caseType = event.CaseTypeID;
