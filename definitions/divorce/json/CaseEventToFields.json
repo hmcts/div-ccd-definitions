@@ -6253,7 +6253,7 @@
     "PageLabel": "Make a costs order",
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6782,7 +6782,7 @@
     "FieldShowCondition": "RespAgreeToCosts=\"No\"",
     "ShowSummaryChangeOption": "No",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7315,7 +7315,7 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\"",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "25/06/2019",

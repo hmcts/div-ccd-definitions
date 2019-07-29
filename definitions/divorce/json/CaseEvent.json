@@ -1152,7 +1152,7 @@
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1167,7 +1167,7 @@
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -2086,7 +2086,7 @@
     "PreConditionState(s)": "AwaitingDecreeNisi",
     "PostConditionState": "DNDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save DN Application"
@@ -2101,7 +2101,7 @@
     "PreConditionState(s)": "DNDrafted",
     "PostConditionState": "DNDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save updated DN Application"
@@ -2116,7 +2116,7 @@
     "PreConditionState(s)": "DNDrafted",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-resp-answers-doc",
-    "RetriesTimeoutAboutToStartEvent": 120120,
+    "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
