@@ -844,7 +844,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "CanSaveDraft": "x"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -972,9 +973,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120"
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2183,5 +2182,18 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solConfirmPersonalService",
+    "Name": "Confirm Service",
+    "Description": "Confirm Personal Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
