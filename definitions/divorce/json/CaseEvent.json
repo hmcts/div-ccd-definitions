@@ -844,8 +844,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "CanSaveDraft": "x"
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -2190,7 +2189,7 @@
     "Name": "Confirm Service",
     "Description": "Confirm Personal Service",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "solicitorAwaitingPaymentConfirmation",
+    "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",

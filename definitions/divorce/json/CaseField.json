@@ -3258,7 +3258,7 @@
     "LiveFrom": "30/07/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelApplicantName",
-    "Label": "Name of Applicant",
+    "Label": "Name of Applicant - ${D8PetitionerFirstName} ${D8PetitionerLastName}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3266,7 +3266,7 @@
     "LiveFrom": "30/07/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelRespondentName",
-    "Label": "Name of Respondent",
+    "Label": "Name of Respondent - ${D8RespondentFirstName} ${D8RespondentLastName}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3291,7 +3291,8 @@
     "CaseTypeID": "DIVORCE",
     "ID": "OnWhomServed",
     "Label": "On whom did you serve?",
-    "FieldType": "Text",
+    "HintText": "(If appropriate include their position e.g. partner, director)",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -3325,7 +3326,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "BeingThe",
     "Label": "Being The",
-    "FieldType": "FixedList",
+    "FieldType": "FixedRadioList",
     "FieldTypeParameter": "BeingTheEnum",
     "SecurityClassification": "Public"
   },
