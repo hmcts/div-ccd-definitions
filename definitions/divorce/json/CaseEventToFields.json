@@ -7990,7 +7990,7 @@
     "PageID": "SolConfirmPersonalService",
     "PageLabel": "Certificate Of Service",
     "PageDisplayOrder": 1,
-    "FieldShowCondition": "HowServed=\"personalHanding\" or HowServed=\"other\"",
+    "FieldShowCondition": "HowServed=\"personalHanding\" OR HowServed=\"other\"",
     "ShowSummaryChangeOption": "No"
   },
   {
