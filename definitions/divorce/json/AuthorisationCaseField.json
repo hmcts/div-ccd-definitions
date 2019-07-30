@@ -4083,6 +4083,13 @@
   {
     "LiveFrom": "31/08/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAgreeToCosts",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/08/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespCostsAmount",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -11475,7 +11482,7 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN\t",
+    "CaseFieldID": "SeparationTimeLivedTogetherDetailsDN",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -11490,6 +11497,13 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DocumentsUploadedDN",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsDifferentDetails",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -12352,6 +12366,62 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelDNReview",
     "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateRespondentEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateCaseNoLongerEligibleForDA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   }
 ]
