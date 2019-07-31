@@ -4742,7 +4742,7 @@
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solConfirmPersonalService",
-    "UserRole": "[PETSOLICITOR]",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
