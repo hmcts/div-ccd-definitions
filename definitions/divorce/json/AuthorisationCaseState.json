@@ -375,7 +375,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "citizen",
-    "CRUD": "CR"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
