@@ -58,13 +58,6 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AosStarted",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosSubmittedAwaitingAnswer",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -1271,7 +1264,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaiting",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "31/05/2019",
