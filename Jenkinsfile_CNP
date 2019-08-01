@@ -45,7 +45,7 @@ withPipeline("nodejs", product, component) {
       yarnBuilder.yarn('generate-excel-all')
     }
     stage('Generate Bulk Case excel file') {
-      yarnBuilder.yarn('yarn generate-bulk-excel-all')
+      yarnBuilder.yarn('generate-bulk-excel-all')
     }
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
   }
