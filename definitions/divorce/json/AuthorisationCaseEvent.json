@@ -4743,7 +4743,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "IssueAOSOffline_Respondent",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",

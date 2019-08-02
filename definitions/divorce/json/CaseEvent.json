@@ -2186,7 +2186,7 @@
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "IssueAOSOffline_Respondent",
-    "Name": "Issue AOS (offline) for respondent",
+    "Name": "Issue AOS offline - Respondent",
     "Description": "Issue AOS (offline) for respondent",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosAwaiting",
