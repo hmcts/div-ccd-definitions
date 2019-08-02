@@ -972,9 +972,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120"
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
