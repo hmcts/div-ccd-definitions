@@ -2181,5 +2181,18 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solConfirmPersonalService",
+    "Name": "Confirm Service",
+    "Description": "Confirm Personal Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]

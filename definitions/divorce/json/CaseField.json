@@ -3253,5 +3253,122 @@
     "Label": "Final date to apply for Decree Absolute",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelApplicantName",
+    "Label": "Name of Applicant - ${D8PetitionerFirstName} ${D8PetitionerLastName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespondentName",
+    "Label": "Name of Respondent - ${D8RespondentFirstName} ${D8RespondentLastName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DateOfService",
+    "Label": "Date of Service",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DocumentsServed",
+    "Label": "What documents did you serve?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OnWhomServed",
+    "Label": "On whom did you serve?",
+    "HintText": "(If appropriate include their position e.g. partner, director)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "HowServed",
+    "Label": "How did you serve the documents?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "HowServedEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceDetails",
+    "Label": "Details of service?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceAddress",
+    "Label": "Give the address where did you serve the documents?",
+    "HintText": "Include fax or DX number, e-mail address or other electronic identification",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BeingThe",
+    "Label": "Being The",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "BeingTheEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceLocation",
+    "Label": "Location",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceLocationEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OtherServiceLocation",
+    "Label": "Other Service Location",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceSOTLabel",
+    "Label": "I believe that the facts stated in the application are true.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceSOTName",
+    "Label": "Solicitor's Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceSOTFirm",
+    "Label": "Solicitor's Firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
