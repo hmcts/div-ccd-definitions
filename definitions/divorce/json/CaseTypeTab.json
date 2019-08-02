@@ -986,19 +986,8 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolServiceMethod",
-    "TabFieldDisplayOrder": 85,
-    "FieldShowCondition": "SolServiceMethod=\"*\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationCertify",
-    "TabFieldDisplayOrder": 86
+    "TabFieldDisplayOrder": 85
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1008,7 +997,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
-    "TabFieldDisplayOrder": 87
+    "TabFieldDisplayOrder": 86
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1018,7 +1007,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "StatementOfReconciliationComments",
-    "TabFieldDisplayOrder": 88
+    "TabFieldDisplayOrder": 87
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1028,7 +1017,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationName",
-    "TabFieldDisplayOrder": 89
+    "TabFieldDisplayOrder": 88
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1038,7 +1027,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationFirm",
-    "TabFieldDisplayOrder": 90
+    "TabFieldDisplayOrder": 89
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1048,7 +1037,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "Label-SolicitorPersonalService",
-    "TabFieldDisplayOrder": 91,
+    "TabFieldDisplayOrder": 99,
     "FieldShowCondition": "SolServiceMethod=\"personalService\""
   },
   {
@@ -1059,7 +1048,8 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolServiceMethod",
-    "TabFieldDisplayOrder": 92
+    "TabFieldDisplayOrder": 100,
+    "FieldShowCondition": "SolServiceMethod=\"*\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1069,7 +1059,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "DateOfService",
-    "TabFieldDisplayOrder": 93
+    "TabFieldDisplayOrder": 101
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1079,7 +1069,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "DocumentsServed",
-    "TabFieldDisplayOrder": 94
+    "TabFieldDisplayOrder": 102
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1089,7 +1079,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "OnWhomServed",
-    "TabFieldDisplayOrder": 95
+    "TabFieldDisplayOrder": 103
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1099,7 +1089,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "HowServed",
-    "TabFieldDisplayOrder": 96
+    "TabFieldDisplayOrder": 104
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1109,7 +1099,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceDetails",
-    "TabFieldDisplayOrder": 97,
+    "TabFieldDisplayOrder": 105,
     "FieldShowCondition": "HowServed=\"personalHanding\" OR HowServed=\"other\""
   },
   {
@@ -1120,7 +1110,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceAddress",
-    "TabFieldDisplayOrder": 98
+    "TabFieldDisplayOrder": 106
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1130,7 +1120,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "BeingThe",
-    "TabFieldDisplayOrder": 99
+    "TabFieldDisplayOrder": 107
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1140,7 +1130,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceLocation",
-    "TabFieldDisplayOrder": 100
+    "TabFieldDisplayOrder": 108
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1150,7 +1140,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "OtherServiceLocation",
-    "TabFieldDisplayOrder": 101,
+    "TabFieldDisplayOrder": 109,
     "FieldShowCondition": "BeingThe=\"Other\""
   },
   {
@@ -1161,7 +1151,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceSOTLabel",
-    "TabFieldDisplayOrder": 102
+    "TabFieldDisplayOrder": 110
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1171,7 +1161,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceSOTName",
-    "TabFieldDisplayOrder": 103
+    "TabFieldDisplayOrder": 111
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1181,7 +1171,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceSOTFirm",
-    "TabFieldDisplayOrder": 104
+    "TabFieldDisplayOrder": 112
   },
   {
     "LiveFrom": "01/01/2017",
