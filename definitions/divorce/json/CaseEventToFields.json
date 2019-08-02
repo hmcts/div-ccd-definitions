@@ -3436,8 +3436,7 @@
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3450,7 +3449,8 @@
     "PageLabel": "Statement of case - behaviour",
     "PageDisplayOrder": 10,
     "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3499,8 +3499,7 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3512,7 +3511,8 @@
     "PageID": "SolSOCDesertionUpdate",
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6243,9 +6243,7 @@
     "DisplayContext": "READONLY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6278,7 +6276,9 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "PageID": "bulkcasehearing",
-    "PageLabel": "Bulk Case Court Hearing Details"
+    "PageLabel": "Bulk Case Court Hearing Details",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6772,9 +6772,7 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "RespAgreeToCosts=\"No\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6815,7 +6813,9 @@
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "PageShowCondition": "ConfirmPetitionDN=\"Yes\" AND DNApplyForDecreeNisi=\"Yes\" AND ConfirmPetitionDN=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7305,9 +7305,7 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\"",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
   },
   {
     "LiveFrom": "25/06/2019",
@@ -7346,7 +7344,9 @@
     "PageLabel": "Grant Decree Absolute",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\""
+    "FieldShowCondition": "DecreeAbsoluteGranted=\"nevershow\"",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "25/06/2019",
