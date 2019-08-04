@@ -8069,5 +8069,81 @@
     "PageLabel": "Certificate Of Service",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "DateOfService",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "SendAosPackToResp",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "SendViaEmailOrPost",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "FieldShowCondition": "SendAosPackToResp=\"Yes\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "RespEmailAddress",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "RespConsentToEmail",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "caseworkerConfirmService",
+    "CaseFieldID": "LabelCaseWorkerSendEmail",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "READONLY",
+    "PageID": "CaseWorkerConfirmService",
+    "PageLabel": "Certificate Of Service",
+    "PageDisplayOrder": 1,
+    "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
