@@ -6272,12 +6272,25 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecision",
     "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "refusalRejection",
     "PageLabel": "Make a refusal order: Reject",
     "PageDisplayOrder": 3,
     "FieldShowCondition": "RefusalRejectionReasonCONTAINS\"other\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "LabelLARefusalOrder",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "refusalRejection",
+    "PageLabel": "Make a refusal order: Reject",
+    "PageDisplayOrder": 3,
+    "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
