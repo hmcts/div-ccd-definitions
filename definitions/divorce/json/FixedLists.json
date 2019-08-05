@@ -854,31 +854,36 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
-    "ListElementCode": "moreInfo",
-    "ListElement": "Get more information / Evidence"
+    "ListElementCode": "reject",
+    "ListElement": "Reject",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
-    "ListElementCode": "reject",
-    "ListElement": "Reject"
+    "ListElementCode": "moreInfo",
+    "ListElement": "Get more information / Evidence",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "other",
-    "ListElement": "Provide details / Make free text order"
+    "ListElement": "Provide details / Make free text order",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noCriteria",
-    "ListElement": "Applicant does not fit criteria for divorce"
+    "ListElement": "Applicant does not fit criteria for divorce",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noJurisdiction",
-    "ListElement": "Court does not have jurisdiction"
+    "ListElement": "Court does not have jurisdiction",
+    "DisplayOrder": 3
   }
 ]
