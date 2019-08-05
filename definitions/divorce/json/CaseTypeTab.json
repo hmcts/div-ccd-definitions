@@ -958,16 +958,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8MarriagePetitionerName",
-    "TabFieldDisplayOrder": 90
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriageDate",
     "TabFieldDisplayOrder": 91
   },
   {
@@ -977,7 +967,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriedInUk",
+    "CaseFieldID": "D8MarriageDate",
     "TabFieldDisplayOrder": 92
   },
   {
@@ -987,7 +977,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriagePlaceOfMarriage",
+    "CaseFieldID": "D8MarriedInUk",
     "TabFieldDisplayOrder": 93
   },
   {
@@ -997,7 +987,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8CountryName",
+    "CaseFieldID": "D8MarriagePlaceOfMarriage",
     "TabFieldDisplayOrder": 94
   },
   {
@@ -1007,7 +997,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DivorceWho",
+    "CaseFieldID": "D8CountryName",
     "TabFieldDisplayOrder": 95
   },
   {
@@ -1017,7 +1007,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriageIsSameSexCouple",
+    "CaseFieldID": "D8DivorceWho",
     "TabFieldDisplayOrder": 96
   },
   {
@@ -1027,8 +1017,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8CertificateInEnglish",
+    "CaseFieldID": "D8MarriageIsSameSexCouple",
     "TabFieldDisplayOrder": 97
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8CertificateInEnglish",
+    "TabFieldDisplayOrder": 98
   },
   {
     "LiveFrom": "01/01/2017",
