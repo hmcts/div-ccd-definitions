@@ -976,5 +976,17 @@
     "ID": "ServiceLocationEnum",
     "ListElementCode": "other",
     "ListElement": "Other (please specify)"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "ID": "SendViaEmailOrPostEnum",
+    "ListElementCode": "Email",
+    "ListElement": "Email"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "ID": "SendViaEmailOrPostEnum",
+    "ListElementCode": "Post",
+    "ListElement": "Post"
   }
 ]

@@ -3378,5 +3378,30 @@
     "Label": "### Solicitor Personal Service",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SendAosPackToResp",
+    "Label": "Send AOS Pack to respondent",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SendViaEmailOrPost",
+    "Label": "Send via Email or Post",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "SendViaEmailOrPostEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelCaseWorkerSendEmail",
+    "Label": "You have to manually download the AOS pack from the documents tab and attach to an email to the respondent",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
