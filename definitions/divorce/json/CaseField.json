@@ -3374,6 +3374,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "Label-SolicitorPersonalService",
+    "Label": "### Solicitor Personal Service",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "SendAosPackToResp",
     "Label": "Send AOS Pack to respondent",
     "FieldType": "YesOrNo",
