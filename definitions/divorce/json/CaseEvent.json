@@ -2155,6 +2155,8 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
