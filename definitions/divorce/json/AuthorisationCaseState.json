@@ -1295,6 +1295,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingConsideration",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPronouncement",
