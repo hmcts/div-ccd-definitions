@@ -12514,40 +12514,5 @@
     "CaseFieldID": "RefusalRejectionAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelLARefusalOrder",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelLARefusalOrder",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelLARefusalOrder",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelLARefusalOrder",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelLARefusalOrder",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
   }
 ]

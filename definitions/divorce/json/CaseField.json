@@ -2929,14 +2929,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelLARefusalOrder",
-    "Label": "The reason and description for the Decree Nisi refusal will be sent to the applicant via PDF download",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "CostsClaimGranted",
     "Label": "Grant Cost Order?",
     "FieldType": "YesOrNo",
