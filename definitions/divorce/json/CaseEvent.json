@@ -2197,5 +2197,33 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "Name": "Issue AOS offline-CoRespondent",
+    "Description": "Issue AOS (offline) for Co-Respondent from AosAwaiting",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/co-respondent",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "IssueAOSOffline_CoRespondent_fromAosStarted",
+    "Name": "Issue AOS offline-CoRespondent",
+    "Description": "Issue AOS (offline) for Co-Respondent from AosStarted",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/co-respondent",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
