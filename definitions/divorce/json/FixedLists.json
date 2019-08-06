@@ -868,15 +868,15 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
-    "ListElementCode": "noCriteria",
-    "ListElement": "Applicant does not fit criteria for divorce",
+    "ListElementCode": "noJurisdiction",
+    "ListElement": "Court does not have jurisdiction",
     "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
-    "ListElementCode": "noJurisdiction",
-    "ListElement": "Court does not have jurisdiction",
+    "ListElementCode": "noCriteria",
+    "ListElement": "Applicant does not fit criteria for divorce",
     "DisplayOrder": 2
   },
   {
