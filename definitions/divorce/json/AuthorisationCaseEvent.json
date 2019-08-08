@@ -4741,35 +4741,175 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "IssueAOSOffline_Respondent",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "IssueAOSOffline_Respondent",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "IssueAOSOffline_Respondent",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "IssueAOSOffline_Respondent",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "IssueAOSOffline_Respondent",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
