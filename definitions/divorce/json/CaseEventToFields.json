@@ -707,7 +707,7 @@
     "CaseEventID": "updateContactDetails",
     "CaseFieldID": "PetitionerSolicitorName",
     "PageFieldDisplayOrder": 37,
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "updateContactDetails",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
