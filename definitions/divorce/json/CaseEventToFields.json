@@ -748,6 +748,215 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "labelPetitionerSolicitor",
+    "PageFieldDisplayOrder": 35,
+    "DisplayContext": "READONLY",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8SolicitorReference",
+    "PageFieldDisplayOrder": 36,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorName",
+    "PageFieldDisplayOrder": 37,
+    "DisplayContext": "READONLY",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorFirm",
+    "PageFieldDisplayOrder": 38,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorAddress",
+    "PageFieldDisplayOrder": 39,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorPhone",
+    "PageFieldDisplayOrder": 40,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 41,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "SolicitorAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 42,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "labelRespondentSolicitor",
+    "PageFieldDisplayOrder": 43,
+    "DisplayContext": "READONLY",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "respondentSolicitorReference",
+    "PageFieldDisplayOrder": 44,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "PageFieldDisplayOrder": 45,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "respondentSolicitorRepresented",
+    "PageFieldDisplayOrder": 46,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "PageFieldDisplayOrder": 47,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorCompany",
+    "PageFieldDisplayOrder": 48,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentCorrespondenceSendToSol",
+    "PageFieldDisplayOrder": 49,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorAddress",
+    "PageFieldDisplayOrder": 50,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
+    "PageFieldDisplayOrder": 51,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "PageFieldDisplayOrder": 52,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 53,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "uploadDocument",
     "CaseFieldID": "D8DocumentsUploaded",
     "PageFieldDisplayOrder": 1,
@@ -1515,7 +1724,8 @@
     "PageID": "SolSOCCoRespondent",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1578,7 +1788,8 @@
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1640,8 +1851,7 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1702,8 +1912,7 @@
     "PageLabel": "Statement of case - separation",
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3336,7 +3545,8 @@
     "PageID": "SolSOCCoRespondentUpdate",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3399,7 +3609,8 @@
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3461,8 +3672,7 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3523,8 +3733,7 @@
     "PageLabel": "Statement of case - separation",
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -6146,7 +6355,9 @@
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
     "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": 120120
   },
   {
     "LiveFrom": "01/01/2019",
@@ -6262,9 +6473,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6665,7 +6874,9 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "DesertionLivedApartSinceEventDN=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": 120120
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6803,9 +7014,7 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7206,7 +7415,9 @@
     "PageLabel": "Statement of Truth",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": 120120
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7333,9 +7544,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
