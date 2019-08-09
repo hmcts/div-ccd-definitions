@@ -383,6 +383,7 @@
     "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
   },
   {
+    "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "petitionDetails",
