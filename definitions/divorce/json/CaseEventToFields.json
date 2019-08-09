@@ -8004,6 +8004,20 @@
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "labelAOSConfirmRead",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "aosstart",
+    "PageLabel": "Review the petitioner's application",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespConfirmReadPetition=\"No\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
     "CaseFieldID": "labelSolAOSConsent",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -8012,7 +8026,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-2-years\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8039,7 +8053,7 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "PageShowCondition": "D8ReasonForDivorce=\"separation*\" ",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8065,8 +8079,8 @@
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "RespConsiderFinancialSituation=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "FieldShowCondition": "RespConsiderFinancialSituation=\"Y*\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8080,7 +8094,7 @@
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "PageShowCondition": "D8ReasonForDivorce=\"adultery\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8093,8 +8107,8 @@
     "PageLabel": "Does the respondent admit to committing adultery?",
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhere=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhere=\"Y*\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8108,7 +8122,7 @@
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWhereDetails=\"NeverShow\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8122,7 +8136,7 @@
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWhenDetails=\"Nevershow\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8135,8 +8149,8 @@
     "PageLabel": "Does the respondent admit to committing adultery?",
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhen=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhen=\"Y*\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8149,7 +8163,7 @@
     "PageLabel": "Does the respondent admit to committing adultery?",
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8176,7 +8190,7 @@
     "PageDisplayOrder": 6,
     "PageColumnNumber": 1,
     "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8256,8 +8270,8 @@
     "PageLabel": "Paying for the divorce",
     "PageDisplayOrder": 9,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8DivorceCostsClaim=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes"
+    "PageShowCondition": "D8DivorceCostsClaim=\"Y*\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -8303,52 +8317,257 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorDraftAOS",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "D8ReasonForDivorce",
+    "PageFieldDisplayOrder": 99,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "D8DivorceCostsClaim",
+    "PageFieldDisplayOrder": 99,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespConfirmReadPetition=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "labelAOSReview",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespConfirmReadPetition",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespAOS2yrConsent",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-2-years\" ",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespConsiderFinancialSituation",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation*\" ",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespAOSAdultery",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespWillDefendDivorce",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespJurisdictionAgree",
+    "PageFieldDisplayOrder": 7,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespJurisdictionDisagreeReason",
+    "PageFieldDisplayOrder": 8,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespLegalProceedingsExist",
+    "PageFieldDisplayOrder": 9,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespLegalProceedingsDescription",
+    "PageFieldDisplayOrder": 10,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespLegalProceedingsExist=\"Yes\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespAgreeToCosts",
+    "PageFieldDisplayOrder": 11,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespCostsAmount",
+    "PageFieldDisplayOrder": 12,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespAgreeToCosts=\"DifferentAmount\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "RespCostsReason",
+    "PageFieldDisplayOrder": 13,
+    "DisplayContext": "READONLY",
+    "PageID": "reviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "RespAgreeToCosts=\"No\" OR RespAgreeToCosts=\"DifferentAmount\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
     "CaseFieldID": "RespStatementOfTruth",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "aossot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 10,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorDraftAOS",
+    "CaseEventID": "solicitorSubmitAOS",
     "CaseFieldID": "solAOSSOTName",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "aossot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 10,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorDraftAOS",
+    "CaseEventID": "solicitorSubmitAOS",
     "CaseFieldID": "solAOSSOTFirm",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "aossot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 10,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorDraftAOS",
+    "CaseEventID": "solicitorSubmitAOS",
     "CaseFieldID": "solAOSAdditionalComments",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "aossot",
     "PageLabel": "Statement of Truth",
-    "PageDisplayOrder": 10,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   }
