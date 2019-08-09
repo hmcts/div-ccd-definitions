@@ -82,17 +82,5 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Yes",
     "DisplayContext": "MANDATORY"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE_BulkAction",
-    "CaseEventID": "editBulkCase",
-    "CaseFieldID": "CaseAcceptedList",
-    "PageID": "EditListedBulkCase",
-    "PageLabel": "Edit bulk list case ",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "No",
-    "DisplayContext": "READONLY"
   }
 ]
