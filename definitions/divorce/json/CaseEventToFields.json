@@ -6262,7 +6262,7 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "refusalRejection",
-    "PageLabel": "Make a refusal order: Reject",
+    "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "Yes"
@@ -6272,10 +6272,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecision",
     "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "refusalRejection",
-    "PageLabel": "Make a refusal order: Reject",
+    "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "FieldShowCondition": "RefusalRejectionReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
