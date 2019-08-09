@@ -64,6 +64,8 @@
         ],
         "new-cap": "off",
         "no-sync": "off",
-        "max-lines": "off"
+        "max-lines": "off",
+        "operator-linebreak": "off",
+        "no-console": "off"
     }
 }
