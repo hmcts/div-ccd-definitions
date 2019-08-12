@@ -2166,8 +2166,8 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
     "SecurityClassification": "Public"
   },
   {
@@ -2198,6 +2198,17 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "solAosNotReceivedStarted",
+    "Name": "AOS Not Received within SLA",
+    "Description": "AOS Not Received within SLA",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosAwaitingSol",
+    "PostConditionState": "AosOverdue",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "Name": "Issue AOS offline-Respondent",
     "Description": "Issue AOS (offline) for respondent from AosAwaiting",
@@ -2209,7 +2220,6 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
-
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
@@ -2224,7 +2234,6 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
-
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
@@ -2264,6 +2273,45 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAosSubmittedDefended",
+    "Name": "AOS Submitted (defending)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol",
+    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAosReceivedNoAdConStarted",
+    "Name": "AOS Received (no ad/con)",
+    "Description": "AOS Received (no admission/consent)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol",
+    "PostConditionState": "AosCompleted",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAosSubmittedUndefended",
+    "Name": "AOS Received (undefended)",
+    "Description": "AOS Received (undefended)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
