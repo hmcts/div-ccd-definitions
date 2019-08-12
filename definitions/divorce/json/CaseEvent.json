@@ -1132,6 +1132,17 @@
   {
     "LiveFrom": "13/11/2018",
     "CaseTypeID": "DIVORCE",
+    "ID": "testRequestDa",
+    "Name": "Test Decree Absolute Requested",
+    "Description": "Test event to take case from any state to Decree Absolute Requested",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/11/2018",
+    "CaseTypeID": "DIVORCE",
     "ID": "testDNPronounced",
     "Name": "Test DN Pronounced",
     "Description": "Test event to take case from any state to DN Pronounced",
