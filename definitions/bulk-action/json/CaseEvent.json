@@ -116,15 +116,28 @@
     "SecurityClassification": "Public",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00059.docx&documentType=caseListForPronouncement&filename=caseListForPronouncement",
     "ShowSummary": "Y"
-  }
-  ,
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "removeFromListed",
+    "Name": "Remove cases from bulk case",
+    "Description": "remove cases from bulk case",
+    "DisplayOrder": 7,
+    "PreConditionState(s)": "Listed",
+    "PostConditionState": "Listed",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/remove",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "drop",
     "Name": "Drop bulkcase",
     "Description": "Drop bulk case",
-    "DisplayOrder": 7,
+    "DisplayOrder": 8,
     "PreConditionState(s)": "*",
     "PostConditionState": "Dropped",
     "SecurityClassification": "Public",
