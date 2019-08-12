@@ -1841,6 +1841,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testRequestDa",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAOSReceivedAwaitingReissue",
