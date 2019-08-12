@@ -775,6 +775,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "issueFromReissue",
+    "Name": "Issue",
+    "Description": "Issue from Reissue",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingReissue",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "issueAos",
     "Name": "Issue AOS pack to respondent",
     "Description": "Issue AOS pack to respondent",
