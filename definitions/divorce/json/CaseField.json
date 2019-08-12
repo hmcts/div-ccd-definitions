@@ -1623,7 +1623,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelSolPersonalService",
-    "Label": "You have 7 days to serve the respondent. After service is complete you must notify the court by completing the 'Confirm Service' form in CCD. Refer to the information pack for further instruction on how to do this",
+    "Label": "After service is complete you must notify the court by completing the 'Confirm Service' form in CCD. Refer to the information pack for further instruction on how to do this",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
