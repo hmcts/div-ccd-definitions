@@ -5,7 +5,7 @@
     "Name": "Divorce case - v114.26",
     "Description": "Handling of the dissolution of marriage",
     "JurisdictionID": "DIVORCE",
-    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents",
+    "PrintableDocumentsUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal/callback/jurisdictions/DIVORCE/case-types/DIVORCE/documents",
     "RetriesTimeoutURLPrintEvent": "5,10,15",
     "SecurityClassification": "Public"
   },
@@ -15,7 +15,7 @@
     "Name": "Notice Of Acting - v0.1",
     "Description": "Solicitor Notice of Acting",
     "JurisdictionID": "DIVORCE",
-    "PrintableDocumentsUrl": "${CCD_DEF_CCD_URL}/callback/jurisdictions/DIVORCE/case-types/NOTICE_OF_ACTING/documents",
+    "PrintableDocumentsUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal/callback/jurisdictions/DIVORCE/case-types/NOTICE_OF_ACTING/documents",
     "RetriesTimeoutURLPrintEvent": "5,10,15",
     "SecurityClassification": "Public"
   }
