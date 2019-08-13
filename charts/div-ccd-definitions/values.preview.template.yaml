@@ -45,6 +45,8 @@ ccd:
     idamClientSecret: ${ADMIN_WEB_IDAM_SECRET}
     environment:
       NODE_TLS_REJECT_UNAUTHORIZED: 0
+  print-api:
+    enabled: true
 
   importer:
     userprofile:
