@@ -5135,7 +5135,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/08/2019",
