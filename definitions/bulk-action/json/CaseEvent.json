@@ -116,8 +116,7 @@
     "SecurityClassification": "Public",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00059.docx&documentType=caseListForPronouncement&filename=caseListForPronouncement",
     "ShowSummary": "Y"
-  }
-  ,
+  },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
@@ -127,6 +126,22 @@
     "DisplayOrder": 7,
     "PreConditionState(s)": "*",
     "PostConditionState": "Dropped",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "editBulkCase",
+    "Name": "Edit bulk case",
+    "Description": "Edit bulk case",
+    "DisplayOrder": 8,
+    "PreConditionState(s)": "Listed",
+    "PostConditionState": "ScheduledForListing",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/edit/listing?templateId=FL-DIV-GNO-ENG-00059.docx&documentType=caseListForPronouncement&filename=caseListForPronouncement",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk/schedule/listing",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
