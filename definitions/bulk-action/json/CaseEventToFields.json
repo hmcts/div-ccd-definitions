@@ -72,7 +72,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "01/07/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseEventID": "editBulkCase",
     "CaseFieldID": "hearingDate",
