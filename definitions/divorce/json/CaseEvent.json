@@ -2255,5 +2255,19 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "removeFromBulkCaseListed",
+    "Name": "Remove case from bulk case",
+    "Description": "Remove case from bulk case listed",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "RemovedFromBulkCaseList",
+    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-422.service.core-compute-preview.internal/listing/remove-bulk-link",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
