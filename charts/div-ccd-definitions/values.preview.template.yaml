@@ -47,6 +47,7 @@ ccd:
       NODE_TLS_REJECT_UNAUTHORIZED: 0
   print-api:
     enabled: true
+    s2sKey: ${PRINT_S2S_KEY}
 
   importer:
     userprofile:
