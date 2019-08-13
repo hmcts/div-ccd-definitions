@@ -1970,6 +1970,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingConsideration",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-dn-outcome-case-flag",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
