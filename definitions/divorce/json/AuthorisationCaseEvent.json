@@ -4994,7 +4994,7 @@
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
   {
@@ -5092,14 +5092,14 @@
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdateAOS",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSubmitAOS",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
   {
