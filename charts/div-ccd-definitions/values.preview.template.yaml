@@ -49,6 +49,7 @@ ccd:
   printApi:
     enabled: true
     s2sKey: ${PRINT_S2S_KEY}
+    probateTemplateUrl: http://${SERVICE_NAME}-probate-app # Not used
 
   importer:
     userprofile:
