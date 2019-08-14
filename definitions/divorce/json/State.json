@@ -285,5 +285,14 @@
     "Description": "AOS Drafted",
     "DisplayOrder": 12,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingService",
+    "Name": "Awaiting Service",
+    "Description": "Awaiting Service",
+    "DisplayOrder": 15,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
