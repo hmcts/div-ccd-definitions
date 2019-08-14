@@ -6280,7 +6280,7 @@
     "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -6799,7 +6799,7 @@
     "FieldShowCondition": "DesertionLivedApartSinceEventDN=\"No\"",
     "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7340,7 +7340,7 @@
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
