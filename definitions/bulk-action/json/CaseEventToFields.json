@@ -55,7 +55,7 @@
     "PageID": "PrintForPronouncement",
     "PageLabel": "Print bulk list case for pronouncement",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Yes",
     "DisplayContext": "MANDATORY"
   }
