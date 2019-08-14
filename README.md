@@ -61,7 +61,7 @@ If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHu
 
 ## Applications useful urls
 
-* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
+* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 * CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
