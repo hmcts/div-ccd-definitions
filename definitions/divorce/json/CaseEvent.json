@@ -2268,6 +2268,6 @@
     "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-422.service.core-compute-preview.internal/listing/remove-bulk-link",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "N"
   }
 ]
