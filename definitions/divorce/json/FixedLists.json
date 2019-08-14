@@ -384,12 +384,6 @@
     "ListElement": "Other"
   },
   {
-    "LiveFrom": "09/08/2019",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "personalService",
-    "ListElement": "Personal Service"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "ID": "feeIdEnum",
     "ListElementCode": "X0165",
@@ -502,18 +496,6 @@
     "ID": "cohort",
     "ListElementCode": "onlineSubmissionPrivateBeta",
     "ListElement": "Online Submission Private Beta"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "solServiceMethodEnum",
-    "ListElementCode": "personalService",
-    "ListElement": "Personal Service"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "solServiceMethodEnum",
-    "ListElementCode": "courtService",
-    "ListElement": "Court Service"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -874,131 +856,5 @@
     "ID": "DocumentType",
     "ListElementCode": "daGranted",
     "ListElement": "DA Granted"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "HowServedEnum",
-    "ListElementCode": "firstClassPost",
-    "ListElement": "By first class post or other service which provides for delivery on the next business day"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "HowServedEnum",
-    "ListElementCode": "deliveringAtAPlace",
-    "ListElement": "By delivering to or leaving at a permitted place"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "HowServedEnum",
-    "ListElementCode": "personalHanding",
-    "ListElement": "By personally handing it to or leaving it with"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "HowServedEnum",
-    "ListElementCode": "other",
-    "ListElement": "By other means permitted by the court"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "BeingTheEnum",
-    "ListElementCode": "applicant",
-    "ListElement": "Applicant's"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "BeingTheEnum",
-    "ListElementCode": "respondent",
-    "ListElement": "Respondent's"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "BeingTheEnum",
-    "ListElementCode": "solicitor",
-    "ListElement": "Solicitor's"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "BeingTheEnum",
-    "ListElementCode": "litigationFriend",
-    "ListElement": "Litigation friend"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "usualResidence",
-    "ListElement": "usual residence"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "lastKnownResidence",
-    "ListElement": "last known residence"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "placeOfBusiness",
-    "ListElement": "place of business"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "principalPlaceOfBusiness",
-    "ListElement": "principal place of business"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "lastKnownPlaceOfBusiness",
-    "ListElement": "last known place of business"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "lastKnownPrincipalPlaceOfBusiness",
-    "ListElement": "last known principal place of business"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "principalOfficeOfPartnership",
-    "ListElement": "principal office of the partnership"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "principalOfficeOfCorporation",
-    "ListElement": "principal office of the corporation"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "principalOfficeOfCompany",
-    "ListElement": "principal office of the company"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "placeOfBusinessWithinJurisdiction",
-    "ListElement": "place of business of the partnership/company/ corporation within the jurisdiction with a connection to claim"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "ServiceLocationEnum",
-    "ListElementCode": "other",
-    "ListElement": "Other (please specify)"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "SendViaEmailOrPostEnum",
-    "ListElementCode": "Email",
-    "ListElement": "Email"
-  },
-  {
-    "LiveFrom": "30/07/2019",
-    "ID": "SendViaEmailOrPostEnum",
-    "ListElementCode": "Post",
-    "ListElement": "Post"
   }
 ]
