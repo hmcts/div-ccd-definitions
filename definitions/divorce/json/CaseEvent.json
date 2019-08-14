@@ -807,10 +807,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "Issued",
     "PostConditionState": "AwaitingService",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-406.service.core-compute-preview.internal/personal-service-pack",
+    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-421.service.core-compute-preview.internal/personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
