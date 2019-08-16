@@ -1502,6 +1502,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingService",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   }
 ]
