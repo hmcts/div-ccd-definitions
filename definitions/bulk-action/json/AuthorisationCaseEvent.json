@@ -128,7 +128,14 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
-    "CaseEventID": "removeFromListed",
+    "CaseEventID": "editBulkCase",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseEventID": "editBulkCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -137,6 +144,13 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseEventID": "removeFromListed",
     "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseEventID": "removeFromListed",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   }
 ]
