@@ -126,7 +126,7 @@
     "DisplayOrder": 7,
     "PreConditionState(s)": "Listed",
     "PostConditionState": "Listed",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-422.service.core-compute-preview.internal//bulk/remove/listing",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/remove/listing",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
