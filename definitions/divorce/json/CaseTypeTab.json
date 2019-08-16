@@ -1714,7 +1714,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 7,
     "CaseFieldID": "Payments",
-    "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -1725,7 +1724,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 7,
     "CaseFieldID": "solApplicationFeeOrderSummary",
-    "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 3
   },
   {
@@ -1736,7 +1734,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 7,
     "CaseFieldID": "SolicitorFeeAccountNumber",
-    "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -1747,7 +1744,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 7,
     "CaseFieldID": "D8SolicitorReference",
-    "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -1758,7 +1754,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 7,
     "CaseFieldID": "PaymentHistory",
-    "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 6
   },
   {
@@ -1780,7 +1775,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 8,
     "CaseFieldID": "Payments",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -1791,7 +1785,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 8,
     "CaseFieldID": "solApplicationFeeOrderSummary",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 3
   },
   {
@@ -1802,7 +1795,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 8,
     "CaseFieldID": "SolicitorFeeAccountNumber",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -1813,7 +1805,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 8,
     "CaseFieldID": "D8SolicitorReference",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -1824,7 +1815,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 8,
     "CaseFieldID": "PaymentHistory",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 6
   },
   {
@@ -1846,7 +1836,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "Payments",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -1857,7 +1846,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "solApplicationFeeOrderSummary",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 3
   },
   {
@@ -1868,7 +1856,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "SolicitorFeeAccountNumber",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -1879,7 +1866,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "D8SolicitorReference",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -1890,7 +1876,6 @@
     "TabLabel": "Payment",
     "TabDisplayOrder": 9,
     "CaseFieldID": "PaymentHistory",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 6
   },
   {
@@ -1943,7 +1928,6 @@
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
   },
   {
@@ -1954,9 +1938,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1966,9 +1948,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerEmail",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1978,9 +1958,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1992,7 +1970,6 @@
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
   },
   {
@@ -2003,9 +1980,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 12,
     "CaseFieldID": "D8PetitionerPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2015,9 +1990,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 12,
     "CaseFieldID": "D8PetitionerEmail",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2027,9 +2000,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 12,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2041,7 +2012,6 @@
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
   },
   {
@@ -2052,9 +2022,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 13,
     "CaseFieldID": "D8PetitionerPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2064,9 +2032,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 13,
     "CaseFieldID": "D8PetitionerEmail",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2076,9 +2042,7 @@
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 13,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2090,7 +2054,6 @@
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
   },
   {
@@ -2101,9 +2064,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2113,9 +2074,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "RespEmailAddress",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2125,9 +2084,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 14,
     "CaseFieldID": "RespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2139,7 +2096,6 @@
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
   },
   {
@@ -2150,9 +2106,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2162,9 +2116,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "RespEmailAddress",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2174,9 +2126,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 15,
     "CaseFieldID": "RespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2188,7 +2138,6 @@
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\"",
     "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
   },
   {
@@ -2199,9 +2148,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 16,
     "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2211,9 +2158,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 16,
     "CaseFieldID": "RespEmailAddress",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2223,9 +2168,7 @@
     "TabLabel": "Confidential Respondent",
     "TabDisplayOrder": 16,
     "CaseFieldID": "RespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+    "TabFieldDisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2237,7 +2180,6 @@
     "CaseFieldID": "CoRespEmailAddress",
     "UserRole": "caseworker-divorce-courtadmin",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\"",
     "TabShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
@@ -2248,9 +2190,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 17,
     "CaseFieldID": "CoRespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2260,9 +2200,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 17,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2274,7 +2212,6 @@
     "CaseFieldID": "CoRespEmailAddress",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\"",
     "TabShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
@@ -2285,9 +2222,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 18,
     "CaseFieldID": "CoRespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2297,9 +2232,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 18,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2311,7 +2244,6 @@
     "CaseFieldID": "CoRespEmailAddress",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\"",
     "TabShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
   },
   {
@@ -2322,9 +2254,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 19,
     "CaseFieldID": "CoRespPhoneNumber",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2334,9 +2264,7 @@
     "TabLabel": "Confidential Co-Respondent",
     "TabDisplayOrder": 19,
     "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential=\"Yes\""
+    "TabFieldDisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
