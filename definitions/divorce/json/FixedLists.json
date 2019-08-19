@@ -818,6 +818,12 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
+    "ListElementCode": "nottinghamJustice",
+    "ListElement": "Nottingham Justice Centre"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnCourtEnum",
     "ListElementCode": "nottingham",
     "ListElement": "Nottingham County Court and Family Court Hearing Centre"
   },
