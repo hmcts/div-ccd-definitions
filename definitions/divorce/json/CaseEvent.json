@@ -2361,7 +2361,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-409.service.core-compute-preview.internal/confirm-service",
+    "CallBackURLAboutToSubmitEvent": "http://div-cos-pr-430.service.core-compute-preview.internal/confirm-service",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
