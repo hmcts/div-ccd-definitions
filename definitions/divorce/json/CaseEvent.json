@@ -1948,6 +1948,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-la-make-decision-fields",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
