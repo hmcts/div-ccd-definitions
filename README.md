@@ -1,3 +1,5 @@
+This branch and PR is for spinning up a separate CCD instance for test usage.
+
 # div-ccd-definitions
 Divorce configuration definitions for CCD
 
