@@ -2051,7 +2051,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespConfirmReadPetition",
-    "Label": "Respondent confirmed petition read",
+    "Label": "Has the respondent read the petition?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -3214,6 +3214,103 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSRespond",
+    "Label": "### Respond to a divorce application\r\n\r\n# Reference number\r\n${[CASE_REFERENCE]}\r\n\r\n# Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\nYou must respond to this application within 7 days of the respondent receiving the letter from the courts. If you don't, the petitioner can ask the court to move the divorce forwards without the respondent. The respondent may have to pay extra fees if this happens\r\n\r\nIf the respondent has been married to more than one person during this marriage (polygamy) contact your regional divorce centre before you apply.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespAOS2yrConsent",
+    "Label": "Does the respondent consent to a divorce",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSConsent",
+    "Label": "The petitioner has based the breakdown of the marriage on the fact that the respondent and petitioner have been separated for 2 years, and that the respondent gives their consent to a divorce.\r\n\r\nThe court must have the respondent's consent for the divorce to continue on these grounds.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSFinancialConsideration",
+    "Label": "As the petitioner used separation as the reason for divorce, the respondent can ask the court to consider what the respondent’s financial situation will be afterwards.\r\n\r\nThe court may then decide to delay the final stage of the divorce (the decree absolute) until it is satisfied with the future financial arrangement between the respondent and the petitioner.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSFormB",
+    "Label": "You’ll need to submit another application (Form B) after you’ve submitted this application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAdulteryAdmit",
+    "Label": "The petitioner provided the following details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespAOSAdultery",
+    "Label": "Does the respondent admit to the adultery?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSIFDefend",
+    "Label": "If the respondent defends the divorce, they will have to pay a £245 fee. All parties may have to attend a hearing where a judge will decide if the divorce should be granted. Defending usually only delays a divorce rather than prevents it.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelSolAOSCost",
+    "Label": "The petitioner asked the court that the respondent pays some or all of the costs of the divorce.\r\n\r\nIt is up to the court to decide how the costs will be split, but it will take into account any requests the respondent and the petitioner make.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOTName",
+    "Label": "Solicitor's Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOTFirm",
+    "Label": "Solicitor's Firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSAdditionalComments",
+    "Label": "Additional Comments",
+    "HintText": "For the attention of court staff. These comments will not form part of the AOS",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DateRespondentEligibleForDA",
@@ -3227,6 +3324,22 @@
     "ID": "DateCaseNoLongerEligibleForDA",
     "Label": "Final date to apply for Decree Absolute",
     "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSReview",
+    "Label": "### Review the answers in your Acknowledgement of Service below. If you wish to change any of your answers, please go back and use the 'Update AoS' action",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSConfirmRead",
+    "Label": "### The respondent has not read the petition\r\n\r\nThe respondent must have read the petition in order to respond.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]
