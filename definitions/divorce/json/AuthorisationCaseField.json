@@ -12436,6 +12436,27 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeAbsoluteApplicationDate",
     "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteApplicationDate",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteApplicationDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeAbsoluteApplicationDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   }
 ]
