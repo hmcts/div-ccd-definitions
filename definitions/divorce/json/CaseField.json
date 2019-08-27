@@ -3234,7 +3234,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "DecreeAbsoluteApplicationDate",
     "Label": "Date when Petitioner or Respondent apply for Decree Absolute",
-    "FieldType": "Date",
+    "FieldType": "DateTime",
     "SecurityClassification": "Public"
   }
 ]
