@@ -1439,7 +1439,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNDrafted",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "RU"
   },
   {
     "LiveFrom": "12/08/2019",
