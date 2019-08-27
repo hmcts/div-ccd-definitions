@@ -645,19 +645,19 @@
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "No",
-    "ListElement": "No"
+    "ListElement": "The respondent will let the divorce proceed"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "NoNoAdmission",
-    "ListElement": "No, but does not accept the allegations made"
+    "ListElement": "The respondent will let the divorce proceed but does not admit to the allegations made by the petitioner"
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "Yes",
-    "ListElement": "Yes"
+    "ListElement": "The respondent intends to defend the divorce  "
   },
   {
     "LiveFrom": "01/01/2017",

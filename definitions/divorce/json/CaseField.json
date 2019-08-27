@@ -2157,7 +2157,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespStatementOfTruth",
-    "Label": "Respondent agreed to statement of truth?",
+    "Label": "The respondent believes that the facts stated in this response are true",
+    "HintText": "I am duly authorised by the respondent to sign this statement",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2549,7 +2550,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespWillDefendDivorce",
-    "Label": "Is the respondent defending the divorce?",
+    "Label": "How does the respondent want to proceed?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "RespondentWillDefendEnum",
     "SecurityClassification": "PUBLIC"
