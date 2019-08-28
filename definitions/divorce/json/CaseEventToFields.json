@@ -6277,7 +6277,7 @@
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6818,7 +6818,7 @@
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7348,7 +7348,7 @@
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": 120120
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
