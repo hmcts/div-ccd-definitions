@@ -2051,7 +2051,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespConfirmReadPetition",
-    "Label": "Has the respondent read the petition?",
+    "Label": "Has the respondent read the application for divorce?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
