@@ -1972,6 +1972,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-la-make-decision-fields",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -1983,6 +1985,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingConsideration",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/remove-dn-outcome-case-flag",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2336,6 +2340,20 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "removeFromBulkCaseListed",
+    "Name": "Remove case from bulk case",
+    "Description": "Remove case from bulk case listed",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "RemovedFromBulkCaseList",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/listing/remove-bulk-link",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
