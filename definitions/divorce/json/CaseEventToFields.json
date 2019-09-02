@@ -6296,6 +6296,32 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "RefusalClarificationReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "refusalClarification",
+    "PageLabel": "Refusal order: Clarify",
+    "PageDisplayOrder": 4,
+    "PageShowCondition": "RefusalDecision=\"moreInfo\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "refusalClarification",
+    "PageLabel": "Refusal order: Clarify",
+    "PageDisplayOrder": 4,
+    "FieldShowCondition": "RefusalClarificationReasonCONTAINS\"other\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateBulkCaseHearingDetails",
     "CaseFieldID": "CourtName",
     "PageFieldDisplayOrder": 1,
