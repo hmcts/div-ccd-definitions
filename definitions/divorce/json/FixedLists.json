@@ -908,7 +908,7 @@
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnClarificationReasonEnum",
-    "ListElementCode": "JurisdictionDetails",
+    "ListElementCode": "jurisdictionDetails",
     "ListElement": "Jurisdiction details",
     "DisplayOrder": 1
   },
