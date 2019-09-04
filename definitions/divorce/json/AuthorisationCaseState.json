@@ -359,6 +359,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
@@ -1166,6 +1173,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingReissue",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingReissue",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
