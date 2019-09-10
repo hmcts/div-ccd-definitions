@@ -2402,5 +2402,38 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "awaitingApplicationPaymentFromAosAwaiting",
+    "Name": "Awaiting Application payment",
+    "Description": "Awaiting Application payment",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingApplicationPayment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "awaitingApplicationPaymentFromAosStarted",
+    "Name": "Awaiting Application payment",
+    "Description": "Awaiting Application payment",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "AwaitingApplicationPayment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "awaitingApplicationPaymentFromAosOverdue",
+    "Name": "Awaiting Application payment",
+    "Description": "Awaiting Application payment",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosOverdue",
+    "PostConditionState": "AwaitingApplicationPayment",
+    "SecurityClassification": "Public"
   }
 ]

@@ -1531,5 +1531,40 @@
     "CaseStateID": "RemovedFromBulkCaseList",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingApplicationPayment",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingApplicationPayment",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]

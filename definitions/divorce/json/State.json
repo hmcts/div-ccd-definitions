@@ -303,5 +303,14 @@
     "Description": "Removed from bulk case list",
     "DisplayOrder": 1,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingApplicationPayment",
+    "Name": "Awaiting Application payment",
+    "Description": "Awaiting Application payment",
+    "DisplayOrder": 39,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
