@@ -1566,5 +1566,40 @@
     "CaseStateID": "AwaitingApplicationPayment",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]

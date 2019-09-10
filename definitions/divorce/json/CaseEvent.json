@@ -2435,5 +2435,16 @@
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AwaitingApplicationPayment",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "awaitServiceConsideration",
+    "Name": "Awaiting Service Consideration",
+    "Description": "Awaiting Service Consideration",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingApplicationPayment",
+    "PostConditionState": "AwaitingServiceConsideration",
+    "SecurityClassification": "Public"
   }
 ]

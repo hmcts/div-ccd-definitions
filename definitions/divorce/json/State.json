@@ -312,5 +312,14 @@
     "Description": "Awaiting Application payment",
     "DisplayOrder": 39,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "10/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingServiceConsideration",
+    "Name": "Awaiting service consideration",
+    "Description": "Awaiting service consideration",
+    "DisplayOrder": 40,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
