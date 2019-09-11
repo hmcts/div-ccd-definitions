@@ -302,7 +302,7 @@
     "Name": "AOS PreSubmit",
     "Description": "AOS PreSubmit (Intermediary state)",
     "DisplayOrder": 39,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName} (Intermediary state)"
+    "TitleDisplay": "${[CASE_REFERENCE]}: Intermediary state, please revert to AosDrafted"
   },
   {
     "LiveFrom": "25/06/2019",

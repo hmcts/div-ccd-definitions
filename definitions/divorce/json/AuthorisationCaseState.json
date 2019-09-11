@@ -1480,6 +1480,13 @@
     "LiveFrom": "12/08/2019",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosPreSubmit",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosPreSubmit",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
