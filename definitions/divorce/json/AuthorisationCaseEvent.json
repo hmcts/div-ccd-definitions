@@ -5313,11 +5313,18 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/06/2019",
+    "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "removeFromBulkCaseListed",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CaseEventID": "solicitorUpdateAOS",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/07/2019",
