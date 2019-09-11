@@ -5264,6 +5264,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "refertoLegalAdvisor",
@@ -5303,6 +5310,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "removeFromBulkCaseListed",
     "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "removeFromBulkCaseListed",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
