@@ -397,6 +397,12 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "two-year-separation-aos-form",
+    "ListElement": "AOS Offline Two Year Separation Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "feeIdEnum",
     "ListElementCode": "X0165",
     "ListElement": "X0165 - Filing an application for a divorce"
