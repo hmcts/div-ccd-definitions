@@ -3289,6 +3289,14 @@
   {
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOT",
+    "Label": "The solicitor believes that the facts stated in this response are true",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "solAOSSOTName",
     "Label": "Solicitor's Name",
     "FieldType": "Text",
