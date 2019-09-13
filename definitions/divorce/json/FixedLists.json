@@ -876,6 +876,12 @@
     "ListElement": "Bradford Law Courts"
   },
   {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "birmingham",
+    "ListElement": "Birmingham Civil and Family Justice Centre"
+  },
+  {
     "LiveFrom": "25/06/2019",
     "ID": "daOption",
     "ListElementCode": "Yes",
