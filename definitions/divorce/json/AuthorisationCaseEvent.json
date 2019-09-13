@@ -5211,6 +5211,13 @@
     "LiveFrom": "12/08/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedDefended",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosSubmittedDefended",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
@@ -5232,6 +5239,13 @@
     "LiveFrom": "12/08/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosReceivedNoAdConStarted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
@@ -5240,7 +5254,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",
     "UserRole": "citizen",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -5253,6 +5267,13 @@
     "LiveFrom": "12/08/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
@@ -5261,7 +5282,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "citizen",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/08/2019",
