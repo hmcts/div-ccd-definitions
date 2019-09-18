@@ -303,5 +303,14 @@
     "Description": "Removed from bulk case list",
     "DisplayOrder": 1,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ClarificationSubmitted",
+    "Name": "Clarification Submitted",
+    "Description": "Decree Nisi Clarification Submitted",
+    "DisplayOrder": 22,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
