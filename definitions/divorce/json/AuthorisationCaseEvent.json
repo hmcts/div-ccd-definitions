@@ -4884,8 +4884,6 @@
     "CaseEventID": "removeFromBulkCaseListed",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
-<<<<<<< HEAD
-=======
   },
   {
     "LiveFrom": "18/07/2019",
@@ -4963,6 +4961,5 @@
     "CaseEventID": "CCD_ADMIN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
->>>>>>> 9bc3300...  DIV-5730 missing doc link fix (#246)
   }
 ]
