@@ -9109,5 +9109,17 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateBailiffApplicationStatus",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "PageID": "UpdateBailiff",
+    "PageLabel": "Update Bailiff application status",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
   }
 ]

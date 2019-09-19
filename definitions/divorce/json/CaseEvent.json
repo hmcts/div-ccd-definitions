@@ -2422,5 +2422,17 @@
     "PostConditionState": "*",
     "SecurityClassification": "PUBLIC",
     "ShowSummary": "Yes"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "updateBailiffApplicationStatus",
+    "Name": "Update Bailiff application status",
+    "Description": "Update Bailiff application status",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosOverdue",
+    "PostConditionState": "AosOverdue",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

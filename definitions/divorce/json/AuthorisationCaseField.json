@@ -12787,5 +12787,40 @@
     "CaseFieldID": "RefusalClarificationAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationStatus",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
