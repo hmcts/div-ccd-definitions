@@ -20,8 +20,8 @@
       "ccdUrl": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
     },
     "aat": {
-      "cosUrl": "http://div-cos-aat-staging.service.core-compute-aat.internal",
-      "ccdUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
+      "cosUrl": "http://div-cos-pr-491.service.core-compute-preview.internal",
+      "ccdUrl": "http://div-cos-pr-491.service.core-compute-preview.internal"
     },
     "ithc": {
       "cosUrl": "http://div-cos-ithc.service.core-compute-ithc.internal",
