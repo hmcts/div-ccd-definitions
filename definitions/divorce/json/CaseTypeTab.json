@@ -1582,7 +1582,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "DnOutcomeCase",
+    "CaseFieldID": "RefusalDecision",
     "TabFieldDisplayOrder": 7
   },
   {
@@ -1592,7 +1592,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "BulkListingCaseId",
+    "CaseFieldID": "RefusalRejectionReason",
     "TabFieldDisplayOrder": 8
   },
   {
@@ -1602,7 +1602,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "CourtName",
+    "CaseFieldID": "RefusalRejectionAdditionalInfo",
     "TabFieldDisplayOrder": 9
   },
   {
@@ -1612,7 +1612,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "DateAndTimeOfHearing",
+    "CaseFieldID": "RefusalClarificationReason",
     "TabFieldDisplayOrder": 10
   },
   {
@@ -1620,9 +1620,9 @@
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "outcomeOfDnDetails",
-    "TabLabel": "Petitioner",
+    "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "PronouncementJudge",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
     "TabFieldDisplayOrder": 11
   },
   {
@@ -1632,7 +1632,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Petitioner",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "DecreeNisiGrantedDate",
+    "CaseFieldID": "DnOutcomeCase",
     "TabFieldDisplayOrder": 12
   },
   {
@@ -1640,10 +1640,60 @@
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "outcomeOfDnDetails",
-    "TabLabel": "Petitioner",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "BulkListingCaseId",
+    "TabFieldDisplayOrder": 13
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "CourtName",
+    "TabFieldDisplayOrder": 14
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "DateAndTimeOfHearing",
+    "TabFieldDisplayOrder": 15
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "PronouncementJudge",
+    "TabFieldDisplayOrder": 16
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "TabFieldDisplayOrder": 17
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
     "CaseFieldID": "DAEligibleFromDate",
-    "TabFieldDisplayOrder": 13
+    "TabFieldDisplayOrder": 18
   },
   {
     "LiveFrom": "22/02/2019",

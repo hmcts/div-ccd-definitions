@@ -1176,6 +1176,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "03/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingReissue",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DefendedDivorce",
