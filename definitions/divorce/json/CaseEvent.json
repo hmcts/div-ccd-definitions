@@ -2418,7 +2418,7 @@
     "LiveFrom": "01/09/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "submitDnClarification",
-    "Name": "Submit clarification for Decree Nisi",
+    "Name": "Submit clarification for DN",
     "Description": "Submit petitioner clarification data for Decree Nisi",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingClarification",
