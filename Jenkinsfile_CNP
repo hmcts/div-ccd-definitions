@@ -70,6 +70,4 @@ withPipeline("nodejs", product, component) {
   after('functionalTest:preview') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
   }
-
-  enableSlackNotifications('#div-dev')
 }
