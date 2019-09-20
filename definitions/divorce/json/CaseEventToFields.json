@@ -9113,10 +9113,10 @@
   {
     "LiveFrom": "19/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateBailiffApplicationStatus",
-    "CaseFieldID": "BailiffApplicationStatus",
+    "CaseEventID": "updateBailiffStatus",
+    "CaseFieldID": "BailiffStatus",
     "PageID": "UpdateBailiff",
-    "PageLabel": "Update Bailiff application status",
+    "PageLabel": "Update Bailiff status",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes",

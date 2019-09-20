@@ -3399,10 +3399,10 @@
   {
     "LiveFrom": "19/09/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "BailiffApplicationStatus",
-    "Label": "Bailiff application status",
+    "ID": "BailiffStatus",
+    "Label": "Bailiff status",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "BailiffApplicationEnum",
+    "FieldTypeParameter": "BailiffEnum",
     "SecurityClassification": "Public"
   }
 ]

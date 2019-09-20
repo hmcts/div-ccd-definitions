@@ -2426,9 +2426,9 @@
   {
     "LiveFrom": "19/09/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "updateBailiffApplicationStatus",
-    "Name": "Update Bailiff application status",
-    "Description": "Update Bailiff application status",
+    "ID": "updateBailiffStatus",
+    "Name": "Update Bailiff status",
+    "Description": "Update Bailiff status",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosOverdue",

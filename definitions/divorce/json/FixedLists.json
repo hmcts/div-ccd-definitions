@@ -979,21 +979,21 @@
   },
   {
     "LiveFrom": "19/09/2019",
-    "ID": "BailiffApplicationEnum",
+    "ID": "BailiffEnum",
     "ListElementCode": "awaitingApplicationPayment",
     "ListElement": "Awaiting Application Payment",
     "DisplayOrder": 1
   },
   {
     "LiveFrom": "19/09/2019",
-    "ID": "BailiffApplicationEnum",
+    "ID": "BailiffEnum",
     "ListElementCode": "awaitingServiceConsideration",
     "ListElement": "Awaiting Service Consideration",
     "DisplayOrder": 2
   },
   {
     "LiveFrom": "19/09/2019",
-    "ID": "BailiffApplicationEnum",
+    "ID": "BailiffEnum",
     "ListElementCode": "serviceDecisionMade",
     "ListElement": "Service Decision Made",
     "DisplayOrder": 3
