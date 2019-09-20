@@ -58,6 +58,13 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "answerReceivedLAClarification",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "answerReceivedOverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -332,6 +339,13 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevert",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertClarification",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
@@ -744,6 +758,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "refertoLegalAdvisorClarification",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "refundFromRejected",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -1017,6 +1038,13 @@
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCreferLAClarification",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "13/12/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCpayment",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -1137,6 +1165,13 @@
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLA",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "13/12/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCreferLAClarification",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
@@ -1745,11 +1780,25 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertCompletedClarification",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevertCompleted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertCompletedClarification",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "hwfFromWithdrawn",
@@ -1829,7 +1878,21 @@
   {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "co-RespAwaitingLAReferralClarification",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAwaitingLAReferral",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "co-RespAwaitingLAReferralClarification",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
@@ -1921,6 +1984,13 @@
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedLAR",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "coRespAnswerReceivedLARClarification",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -2214,6 +2284,13 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "answerReceivedLAClarification",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "answerReceivedOverdue",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
@@ -2369,6 +2446,13 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevert",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertClarification",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -2536,6 +2620,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "refertoLegalAdvisorClarification",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "refundFromRejected",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
@@ -2684,6 +2775,13 @@
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "13/12/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCreferLAClarification",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -2947,6 +3045,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertCompletedClarification",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "hwfFromWithdrawn",
@@ -2985,6 +3090,13 @@
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAwaitingLAReferral",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "co-RespAwaitingLAReferralClarification",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -3055,6 +3167,13 @@
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedLAR",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "coRespAnswerReceivedLARClarification",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -3446,6 +3565,13 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "answerReceivedLAClarification",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "answerReceivedOverdue",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
@@ -3601,6 +3727,13 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevert",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
@@ -3768,6 +3901,13 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "refertoLegalAdvisorClarification",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "refundFromRejected",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
@@ -3923,6 +4063,13 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCreferLAClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
@@ -4202,6 +4349,13 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertCompletedClarification",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "hwfFromWithdrawn",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
@@ -4238,6 +4392,13 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "co-RespAwaitingLAReferral",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "co-RespAwaitingLAReferralClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
@@ -4308,6 +4469,13 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedLAR",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "coRespAnswerReceivedLARClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
@@ -4524,7 +4692,21 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecisionClarification",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecisionClarification",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
@@ -5267,6 +5449,13 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "refertoLegalAdvisor",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "refertoLegalAdvisorClarification",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
