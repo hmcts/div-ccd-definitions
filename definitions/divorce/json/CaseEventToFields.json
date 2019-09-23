@@ -9117,8 +9117,8 @@
     "CaseFieldID": "ApplyForDecreeAbsolute",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
-    "PageID": "idontknowwhatshoulditbe",
-    "PageLabel": "What should it be?",
+    "PageID": "petsolapplyforda",
+    "PageLabel": "Do you want to finalise your divorce?",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
