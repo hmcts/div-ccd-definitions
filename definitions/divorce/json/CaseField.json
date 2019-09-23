@@ -3395,5 +3395,14 @@
     "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ApplyForDecreeAbsolute",
+    "Label": "Do you want to finalise your divorce?",
+    "FieldType": "YesOrNo",
+    "RegularExpression": "^Yes$",
+    "SecurityClassification": "Public"
   }
 ]

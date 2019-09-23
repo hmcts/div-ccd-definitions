@@ -2422,5 +2422,17 @@
     "PostConditionState": "*",
     "SecurityClassification": "PUBLIC",
     "ShowSummary": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solApplyForDA",
+    "Name": "Solicitior applies for DA",
+    "Description": "Solicitior applies for DA",
+    "DisplayOrder": 51,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

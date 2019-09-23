@@ -897,84 +897,72 @@
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
     "ListElementCode": "reject",
-    "ListElement": "Reject",
-    "DisplayOrder": 1
+    "ListElement": "Reject"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
     "ListElementCode": "moreInfo",
-    "ListElement": "Get more information / Evidence",
-    "DisplayOrder": 2
+    "ListElement": "Get more information / Evidence"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noJurisdiction",
-    "ListElement": "Court does not have jurisdiction",
-    "DisplayOrder": 1
+    "ListElement": "Court does not have jurisdiction"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noCriteria",
-    "ListElement": "Applicant does not fit criteria for divorce",
-    "DisplayOrder": 2
+    "ListElement": "Applicant does not fit criteria for divorce"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "insufficentDetails",
-    "ListElement": "Insufficent details in application",
-    "DisplayOrder": 3
+    "ListElement": "Insufficent details in application"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "other",
-    "ListElement": "Provide details / Make free text order",
-    "DisplayOrder": 4
+    "ListElement": "Provide details / Make free text order"
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "jurisdictionDetails",
-    "ListElement": "Jurisdiction details",
-    "DisplayOrder": 1
+    "ListElement": "Jurisdiction details"
   },
   {
     "LiveFrom": "02/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "marriageCertTranslation",
-    "ListElement": "Translation of marriage certificate",
-    "DisplayOrder": 2
+    "ListElement": "Translation of marriage certificate"
   },
   {
     "LiveFrom": "03/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "marriageCertificate",
-    "ListElement": "Marriage certificate",
-    "DisplayOrder": 3
+    "ListElement": "Marriage certificate"
   },
   {
     "LiveFrom": "04/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "previousProceedingDetails",
-    "ListElement": "Previous proceedings details",
-    "DisplayOrder": 4
+    "ListElement": "Previous proceedings details"
   },
   {
     "LiveFrom": "05/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "caseDetailsStatement",
-    "ListElement": "Statement of case details",
-    "DisplayOrder": 5
+    "ListElement": "Statement of case details"
   },
   {
     "LiveFrom": "06/01/2019",
     "ID": "DnClarificationReasonEnum",
     "ListElementCode": "other",
-    "ListElement": "Enter free Text / Make free text order",
-    "DisplayOrder": 6
+    "ListElement": "Enter free Text / Make free text order"
   }
 ]
