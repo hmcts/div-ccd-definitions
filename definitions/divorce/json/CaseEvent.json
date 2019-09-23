@@ -442,7 +442,7 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-dn-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -1508,7 +1508,7 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-dn-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2148,7 +2148,7 @@
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-dn-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
@@ -2178,7 +2178,7 @@
     "PostConditionState": "AwaitingDecreeAbsolute",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-applicant-da-eligibility",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-make-case-eligible-for-da-submitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-make-case-eligible-for-da-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -2217,7 +2217,7 @@
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-da-granted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-da-granted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
