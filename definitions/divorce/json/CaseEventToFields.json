@@ -9122,5 +9122,35 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "DNApprovalDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8DerivedRespondentCurrentName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8DerivedPetitionerCurrentFullName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "ShowSummaryChangeOption": "No"
   }
 ]

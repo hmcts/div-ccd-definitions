@@ -976,5 +976,11 @@
     "ListElementCode": "other",
     "ListElement": "Enter free Text / Make free text order",
     "DisplayOrder": 6
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "ID": "petSolApplyDaList",
+    "ListElementCode": "yes",
+    "ListElement": "Yes"
   }
 ]
