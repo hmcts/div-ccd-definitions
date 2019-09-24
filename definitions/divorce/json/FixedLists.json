@@ -445,6 +445,12 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "courtEnum",
+    "ListElementCode": "buryStEdmunds",
+    "ListElement": "Bury St Edmunds"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "changedNameHowEnum",
     "ListElementCode": "marriageCertificate",
     "ListElement": "Marriage certificate"
@@ -868,6 +874,12 @@
     "ID": "DnCourtEnum",
     "ListElementCode": "bradford",
     "ListElement": "Bradford Law Courts"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "birmingham",
+    "ListElement": "Birmingham Civil and Family Justice Centre"
   },
   {
     "LiveFrom": "25/06/2019",
