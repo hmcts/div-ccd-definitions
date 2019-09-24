@@ -5205,6 +5205,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedDefended",
     "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosSubmittedDefended",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
@@ -5226,6 +5233,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",
     "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosReceivedNoAdConStarted",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
@@ -5240,13 +5254,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",
     "UserRole": "citizen",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/08/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
@@ -5261,7 +5282,42 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "revertAosSubmit",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
