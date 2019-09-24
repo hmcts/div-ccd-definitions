@@ -5444,5 +5444,40 @@
     "CaseEventID": "CCD_ADMIN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "caseworker-divorce-courtadmin-la,",
+    "CRUD": "R"
   }
 ]
