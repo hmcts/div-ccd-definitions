@@ -207,6 +207,7 @@
     "DisplayOrder": 4,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosOverdue",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -2139,6 +2140,8 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
