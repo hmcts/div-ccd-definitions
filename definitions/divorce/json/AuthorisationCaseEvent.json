@@ -5477,7 +5477,7 @@
     "LiveFrom": "23/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solApplyForDA",
-    "UserRole": "caseworker-divorce-courtadmin-la,",
+    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   }
 ]
