@@ -192,6 +192,13 @@
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingLegalAdvisorReferral",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingLegalAdvisorReferral",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
@@ -355,6 +362,20 @@
     "CaseStateID": "SOTAgreementPayAndSubmitRequired",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CR"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -404,6 +425,13 @@
     "CaseStateID": "AosCompleted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosCompleted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
