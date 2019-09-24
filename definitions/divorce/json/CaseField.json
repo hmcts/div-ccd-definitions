@@ -2182,7 +2182,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespHardshipDefenseResponse",
-    "Label": "Respondent relying on hardship defence?",
+    "Label": "Is the respondent defending on the basis that it will cause them severe hardship?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -3395,5 +3395,14 @@
     "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespWillDefendDivorce2",
+    "Label": "How does the respondent want to proceed?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "RespondentWillDefendEnum2",
+    "SecurityClassification": "PUBLIC"
   }
 ]
