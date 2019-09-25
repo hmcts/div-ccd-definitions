@@ -5449,13 +5449,6 @@
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8LivedApartSinceDesertion",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8LivedApartSinceDesertion",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -5493,13 +5486,6 @@
     "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2018",
