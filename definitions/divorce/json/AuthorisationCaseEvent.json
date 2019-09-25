@@ -5465,5 +5465,47 @@
     "CaseEventID": "CCD_ADMIN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "CCD_ADMIN",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cancelPronoucement",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cancelPronoucement",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cancelPronoucement",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cancelPronoucement",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cancelPronoucement",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
