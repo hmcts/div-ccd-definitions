@@ -1660,8 +1660,7 @@
     "PageID": "SolSOCCoRespondent",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1724,8 +1723,7 @@
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1787,7 +1785,8 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1848,7 +1847,8 @@
     "PageLabel": "Statement of case - separation",
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3481,8 +3481,7 @@
     "PageID": "SolSOCCoRespondentUpdate",
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3545,8 +3544,7 @@
     "PageLabel": "Statement of case - adultery",
     "PageDisplayOrder": 9,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3608,7 +3606,8 @@
     "PageLabel": "Statement of case - desertion",
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3669,7 +3668,8 @@
     "PageLabel": "Statement of case - separation",
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -6293,9 +6293,7 @@
     "PageLabel": "Grant Decree Nisi",
     "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -6484,7 +6482,9 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -6885,9 +6885,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "DesertionLivedApartSinceEventDN=\"No\"",
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7025,7 +7023,9 @@
     "PageLabel": "Review DN Application",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7426,9 +7426,7 @@
     "PageLabel": "Statement of Truth",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7555,7 +7553,9 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "16/04/2019",
