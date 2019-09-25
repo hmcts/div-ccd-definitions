@@ -2095,6 +2095,13 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUFixCaseEvent",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAwaitingConsideration",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
