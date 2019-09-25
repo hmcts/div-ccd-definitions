@@ -892,11 +892,5 @@
     "ID": "DocumentType",
     "ListElementCode": "daGranted",
     "ListElement": "DA Granted"
-  },
-  {
-    "LiveFrom": "23/09/2019",
-    "ID": "petSolApplyDaList",
-    "ListElementCode": "Yes",
-    "ListElement": "Yes"
   }
 ]
