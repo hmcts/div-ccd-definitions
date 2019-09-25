@@ -1173,7 +1173,7 @@
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1188,7 +1188,7 @@
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"

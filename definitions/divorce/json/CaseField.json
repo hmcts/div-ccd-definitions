@@ -3402,6 +3402,20 @@
     "CaseTypeID": "DIVORCE",
     "ID": "ApplyForDecreeAbsoluteLabel",
     "Label": "Once the court has checked that there are no outstanding applications or other matters which need to be resolved first, the decree nisi made on ${DNApprovalDate} will be made absolute and the mariage between ${D8DerivedPetitionerCurrentFullName} and ${D8DerivedRespondentCurrentName} will be ended.",
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelPetitionerSolicitor",
+    "Label": "### Petitioner's Solicitor Details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelRespondentSolicitor",
+    "Label": "### Respondent's Solicitor Details",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
