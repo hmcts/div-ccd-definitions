@@ -478,13 +478,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaiting",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "RU"

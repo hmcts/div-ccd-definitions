@@ -7,7 +7,7 @@ const State = Object.assign(require('definitions/divorce/json/State'), []);
 const AuthorisationCaseState = Object.assign(require('definitions/divorce/json/AuthorisationCaseState'), []);
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
-const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'DNisRefused'];
+const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'DNisRefused', 'solicitorAwaitingPaymentConfirmation'];
 
 function byCaseType(caseType) {
   return entry => {
