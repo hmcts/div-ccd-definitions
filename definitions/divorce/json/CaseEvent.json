@@ -2097,7 +2097,7 @@
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },

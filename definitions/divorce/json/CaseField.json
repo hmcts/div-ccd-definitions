@@ -3350,50 +3350,5 @@
     "Label": "### The respondent has not read the petition\r\n\r\nThe respondent must have read the petition in order to respond.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "RefusalDecision",
-    "Label": "Refusal decision",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "DnRefusalOptionEnum",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "RefusalRejectionReason",
-    "Label": "Refusal rejection reason",
-    "HintText": "Choose at least one of the following",
-    "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "DnRejectonReasonEnum",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "RefusalRejectionAdditionalInfo",
-    "Label": "Additional information",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "RefusalClarificationReason",
-    "Label": "Provide a refusal reason",
-    "HintText": "Choose at least one of the following",
-    "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "DnClarificationReasonEnum",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "RefusalClarificationAdditionalInfo",
-    "Label": "Additional information",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
   }
 ]
