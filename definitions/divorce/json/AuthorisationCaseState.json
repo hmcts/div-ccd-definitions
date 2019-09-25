@@ -338,13 +338,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Rejected",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "solicitorAwaitingPaymentConfirmation",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
@@ -690,7 +683,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDecreeAbsolute",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -726,13 +719,6 @@
     "CaseStateID": "Withdrawn",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Withdrawn",
-    "UserRole": "citizen",
-    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1005,13 +991,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNisRefused",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "DNisRefused",
-    "UserRole": "citizen",
     "CRUD": "R"
   },
   {
