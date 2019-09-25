@@ -322,6 +322,20 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnPronouncedBulk",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnPronouncedBulk",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceived",
@@ -1211,6 +1225,20 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateContactDetails",
@@ -2009,6 +2037,20 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "linkBulkCaseReference",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "linkBulkCaseReference",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "07/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "unlinkBulkCaseReference",
@@ -2021,6 +2063,20 @@
     "CaseEventID": "updateBulkCaseHearingDetails",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateBulkCaseHearingDetails",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateBulkCaseHearingDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "07/05/2019",
@@ -3343,6 +3399,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAwaitingDA",
     "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUAwaitingDA",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUAwaitingDA",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -4526,6 +4596,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -5472,6 +5556,13 @@
     "CaseEventID": "solApplyForDA",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "23/09/2019",
