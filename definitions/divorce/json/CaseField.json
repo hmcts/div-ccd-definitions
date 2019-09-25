@@ -3404,5 +3404,21 @@
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "RespondentWillDefendEnum2",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelPetitionerSolicitor",
+    "Label": "### Petitioner's Solicitor Details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelRespondentSolicitor",
+    "Label": "### Respondent's Solicitor Details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
