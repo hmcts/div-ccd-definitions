@@ -8748,7 +8748,7 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorDraftAOS",
+    "CaseEventID": "solicitorUpdateAOS",
     "CaseFieldID": "RespHardshipDescription",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY",
