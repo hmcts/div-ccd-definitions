@@ -4627,12 +4627,12 @@
     "CRUD": "R"
   },
   {
-  "LiveFrom": "25/06/2019",
-  "CaseTypeID": "DIVORCE",
-  "CaseEventID": "GrantDecreeAbsolute",
-  "UserRole": "caseworker-divorce-courtadmin_beta",
-  "CRUD": "CRU"
-},
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GrantDecreeAbsolute",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
@@ -4868,6 +4868,27 @@
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedAOS",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissueFromRejected",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissueFromIssued",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissueFromIssuedRDC",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },

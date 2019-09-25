@@ -12296,7 +12296,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespSolLinkedEmail",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -12635,157 +12635,94 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "26/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
+    "CaseFieldID": "RespSolLinkedEmail",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
+    "CaseFieldID": "RespSolLinkedEmail",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
+    "CaseFieldID": "RespSolLinkedEmail",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "citizen",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationReason",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationReason",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationReason",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationReason",
+    "CaseFieldID": "labelPetitionerSolicitor",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationReason",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CaseFieldID": "labelPetitionerSolicitor",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "CaseFieldID": "labelPetitionerSolicitor",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "CaseFieldID": "labelPetitionerSolicitor",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
-    "UserRole": "citizen",
+    "CaseFieldID": "labelPetitionerSolicitor",
+    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "CaseFieldID": "labelRespondentSolicitor",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "08/08/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "CaseFieldID": "labelRespondentSolicitor",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelRespondentSolicitor",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelRespondentSolicitor",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelRespondentSolicitor",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   }
 ]
