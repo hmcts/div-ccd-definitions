@@ -373,27 +373,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
