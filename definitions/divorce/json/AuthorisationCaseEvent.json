@@ -2102,6 +2102,27 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUFixCaseEvent",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUFixCaseEvent",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SUFixCaseEvent",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAwaitingConsideration",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
