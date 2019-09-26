@@ -5469,13 +5469,6 @@
   {
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "CCD_ADMIN",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "18/07/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "cancelPronoucement",
     "UserRole": "citizen",
     "CRUD": "R"

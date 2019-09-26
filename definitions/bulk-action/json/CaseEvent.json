@@ -168,7 +168,7 @@
     "DisplayOrder": 4,
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "ScheduledCancelPronouncement",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/pronouncement/cancel",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/pronouncement/cancel",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
