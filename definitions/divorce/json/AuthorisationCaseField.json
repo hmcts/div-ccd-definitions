@@ -7147,6 +7147,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DateAndTimeOfHearing",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DecreeNisiGrantedDate",
@@ -7180,6 +7187,13 @@
     "CaseFieldID": "DAEligibleFromDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DAEligibleFromDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -7278,6 +7292,13 @@
     "CaseFieldID": "DnOutcomeCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DnOutcomeCase",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -7315,6 +7336,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CourtName",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CourtName",
@@ -11263,6 +11291,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGranted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "state",
@@ -11284,6 +11319,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WhoPaysCosts",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "WhoPaysCosts",
@@ -11302,6 +11344,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "TypeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "TypeCostsDecision",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -11940,6 +11989,13 @@
     "CaseFieldID": "PronouncementJudge",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PronouncementJudge",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/06/2019",
