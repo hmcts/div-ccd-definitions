@@ -9196,10 +9196,11 @@
     "LiveFrom": "23/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solApplyForDA",
-    "CaseFieldID": "DNApprovalDate",
+    "CaseFieldID": "DecreeNisiGrantedDate",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
