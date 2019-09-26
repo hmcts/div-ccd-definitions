@@ -1260,7 +1260,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "PetitionerSolicitorName",
-    "Label": "Solicitor’s name",
+    "Label": "Petitioner Solicitor’s name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -1285,7 +1285,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "PetitionerSolicitorPhone",
-    "Label": "Phone number",
+    "Label": "Petitioner Solicitor Phone number",
     "FieldType": "Text",
     "RegularExpression": "^[0-9 +().-]{9,}$",
     "SecurityClassification": "Public"
@@ -1294,7 +1294,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "PetitionerSolicitorEmail",
-    "Label": "Email",
+    "Label": "Petitioner Solicitor Email",
     "FieldType": "Email",
     "SecurityClassification": "Public"
   },
