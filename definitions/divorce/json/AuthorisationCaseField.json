@@ -7161,6 +7161,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "26/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DAEligibleFromDate",
