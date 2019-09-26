@@ -3204,7 +3204,6 @@
     "ID": "ApplyForDecreeAbsolute",
     "Label": "Does the applicant want to apply for Decree Absolute and finalise the divorce?",
     "FieldType": "YesOrNo",
-    "RegularExpression": "Yes|yes",
     "SecurityClassification": "Public"
   },
   {
