@@ -2419,7 +2419,7 @@
     "Name": "Cancel pronouncement",
     "Description": "Cancel case pronouncment",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingPronouncement",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/pronouncement/cancel",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
