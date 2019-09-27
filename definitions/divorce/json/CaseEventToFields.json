@@ -520,72 +520,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8RespondentSolicitorCompany",
-    "PageFieldDisplayOrder": 17,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8RespondentSolicitorName",
-    "PageFieldDisplayOrder": 18,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
-    "PageFieldDisplayOrder": 19,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8RespondentSolicitorEmail",
-    "PageFieldDisplayOrder": 20,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8RespondentSolicitorPhone",
-    "PageFieldDisplayOrder": 21,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "respondentSolicitorReference",
-    "PageFieldDisplayOrder": 22,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "updateContactDetails",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
     "CaseFieldID": "labelUpdateMarriageCertWarning",
     "PageFieldDisplayOrder": 23,
     "DisplayContext": "READONLY",
@@ -740,6 +674,204 @@
     "CaseEventID": "updateContactDetails",
     "CaseFieldID": "D8PetitionerConsent",
     "PageFieldDisplayOrder": 31,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "labelPetitionerSolicitor",
+    "PageFieldDisplayOrder": 35,
+    "DisplayContext": "READONLY",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8SolicitorReference",
+    "PageFieldDisplayOrder": 36,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorName",
+    "PageFieldDisplayOrder": 37,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorFirm",
+    "PageFieldDisplayOrder": 38,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorAddress",
+    "PageFieldDisplayOrder": 39,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorPhone",
+    "PageFieldDisplayOrder": 40,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 41,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "SolicitorAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 42,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "labelRespondentSolicitor",
+    "PageFieldDisplayOrder": 43,
+    "DisplayContext": "READONLY",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "respondentSolicitorReference",
+    "PageFieldDisplayOrder": 44,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "RespSolLinkedEmail",
+    "PageFieldDisplayOrder": 45,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "respondentSolicitorRepresented",
+    "PageFieldDisplayOrder": 46,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "PageFieldDisplayOrder": 47,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorCompany",
+    "PageFieldDisplayOrder": 48,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorAddress",
+    "PageFieldDisplayOrder": 49,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
+    "PageFieldDisplayOrder": 50,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "PageFieldDisplayOrder": 51,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updateContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateContactDetails",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 52,
     "DisplayContext": "OPTIONAL",
     "PageID": "updateContactDetails",
     "PageDisplayOrder": 1,
@@ -6147,7 +6279,6 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6159,7 +6290,6 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6172,7 +6302,6 @@
     "DisplayContext": "READONLY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "No"
   },
@@ -6185,7 +6314,6 @@
     "DisplayContext": "READONLY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "PageDisplayOrder": 1,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "No"
   },
@@ -6198,7 +6326,6 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "PageDisplayOrder": 2,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\" ",
     "PageShowCondition": "CostsClaimGranted=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
@@ -6212,7 +6339,6 @@
     "DisplayContext": "READONLY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "PageDisplayOrder": 2,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -6225,7 +6351,6 @@
     "DisplayContext": "READONLY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "PageDisplayOrder": 2,
     "FieldShowCondition": "DecreeNisiGranted=\"NeverShow\""
   },
   {
@@ -6237,7 +6362,6 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "PageDisplayOrder": 2,
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6249,74 +6373,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "makeCostsOrder",
     "PageLabel": "Make a costs order",
-    "PageDisplayOrder": 2,
     "FieldShowCondition": "TypeCostsDecision=\"additionalInformation\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "CaseFieldID": "RefusalDecision",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": "makeRefusalOrder",
-    "PageLabel": "Make a refusal order",
-    "PageDisplayOrder": 2,
-    "FieldShowCondition": "DecreeNisiGranted=\"No\"",
-    "PageShowCondition": "DecreeNisiGranted=\"No\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "CaseFieldID": "RefusalRejectionReason",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": "refusalRejection",
-    "PageLabel": "Refusal order: Reject",
-    "PageDisplayOrder": 3,
-    "PageShowCondition": "RefusalDecision=\"reject\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "PageID": "refusalRejection",
-    "PageLabel": "Refusal order: Reject",
-    "PageDisplayOrder": 3,
-    "FieldShowCondition": "RefusalRejectionReasonCONTAINS\"other\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "CaseFieldID": "RefusalClarificationReason",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": "refusalClarification",
-    "PageLabel": "Refusal order: Clarify",
-    "PageDisplayOrder": 4,
-    "PageShowCondition": "RefusalDecision=\"moreInfo\"",
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "CaseFieldID": "RefusalClarificationAdditionalInfo",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "PageID": "refusalClarification",
-    "PageLabel": "Refusal order: Clarify",
-    "PageDisplayOrder": 4,
-    "FieldShowCondition": "RefusalClarificationReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -9109,5 +9166,85 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "ApplyForDecreeAbsoluteLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "petSolApplyForDa",
+    "PageLabel": "Do you want to apply to finalise the divorce?",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8PetitionerFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8PetitionerLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8RespondentFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8RespondentLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
