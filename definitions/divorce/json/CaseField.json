@@ -3352,6 +3352,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ApplyForDecreeAbsoluteLabel",
+    "Label": "Once the court has checked that there are no outstanding applications or other matters which need to be resolved first, the decree nisi made on ${DecreeNisiGrantedDate} will be made absolute and the mariage between ${D8PetitionerFirstName} ${D8PetitionerLastName} and ${D8RespondentFirstName} ${D8RespondentLastName} will be ended.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelPetitionerSolicitor",

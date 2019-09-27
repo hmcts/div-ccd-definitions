@@ -9166,5 +9166,85 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "ApplyForDecreeAbsoluteLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "petSolApplyForDa",
+    "PageLabel": "Do you want to apply to finalise the divorce?",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8PetitionerFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8PetitionerLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8RespondentFirstName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "CaseFieldID": "D8RespondentLastName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "petSolApplyForDa",
+    "FieldShowCondition": "ApplyForDecreeAbsolute=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
