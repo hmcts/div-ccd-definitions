@@ -1060,5 +1060,89 @@
     "ID": "SendViaEmailOrPostEnum",
     "ListElementCode": "Post",
     "ListElement": "Post"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "reject",
+    "ListElement": "Reject",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "moreInfo",
+    "ListElement": "Get more information / Evidence",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "noJurisdiction",
+    "ListElement": "Court does not have jurisdiction",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "noCriteria",
+    "ListElement": "Applicant does not fit criteria for divorce",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "insufficentDetails",
+    "ListElement": "Insufficent details in application",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnRejectonReasonEnum",
+    "ListElementCode": "other",
+    "ListElement": "Provide details / Make free text order",
+    "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "jurisdictionDetails",
+    "ListElement": "Jurisdiction details",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "02/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "marriageCertTranslation",
+    "ListElement": "Translation of marriage certificate",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "03/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "marriageCertificate",
+    "ListElement": "Marriage certificate",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "04/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "previousProceedingDetails",
+    "ListElement": "Previous proceedings details",
+    "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "05/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "caseDetailsStatement",
+    "ListElement": "Statement of case details",
+    "DisplayOrder": 5
+  },
+  {
+    "LiveFrom": "06/01/2019",
+    "ID": "DnClarificationReasonEnum",
+    "ListElementCode": "other",
+    "ListElement": "Enter free Text / Make free text order",
+    "DisplayOrder": 6
   }
 ]

@@ -68,11 +68,9 @@ To run divorce test on CCD PR environment you need to replace `core_case_data.ap
 
 ## Release
 
-When we want to release config changes to production:
+When we make a major change for a release:
 
-1) Generate all excel files using `yarn generate-excel-all` 
-2) Upload the excel file for the AAT env and QA the changes
+1) Increment the version number in `CaseType.json` (e.g v113.xx)
+2) Generate all excel files using `yarn generate-excel-all`
 3) Create a new release in https://github.com/hmcts/div-ccd-definitions/releases/new
-4) Upload all the generate Excel files to the release and add give it the same version number from (3)
-5) Raise a RDM ticket (e.g. RDM-5372) and add link to the release created in step (7)
-6) Ask tester to sign off the RDM if changes pass and assign the RDM ticket to someone in the RDM team
+4) Upload all the generate Excel files to the release and add give it the same version number from (1)
