@@ -2415,7 +2415,7 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "cancelPronoucement",
+    "ID": "cancelPronouncement",
     "Name": "Cancel pronouncement",
     "Description": "Cancel case pronouncment",
     "DisplayOrder": 1,
