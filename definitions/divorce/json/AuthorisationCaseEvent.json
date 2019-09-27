@@ -325,13 +325,6 @@
     "LiveFrom": "25/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnPronouncedBulk",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnPronouncedBulk",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
@@ -1228,13 +1221,6 @@
     "LiveFrom": "25/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateContactDetails",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateContactDetails",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
@@ -2040,13 +2026,6 @@
     "LiveFrom": "25/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "linkBulkCaseReference",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "linkBulkCaseReference",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
@@ -2062,13 +2041,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateBulkCaseHearingDetails",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "updateBulkCaseHearingDetails",
-    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
@@ -3400,13 +3372,6 @@
     "CaseEventID": "SUAwaitingDA",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "SUAwaitingDA",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/09/2019",
@@ -4597,13 +4562,6 @@
     "CaseEventID": "grantDnMakeDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "grantDnMakeDecision",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/09/2019",
@@ -5549,13 +5507,6 @@
     "CaseEventID": "CCD_ADMIN",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solApplyForDA",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/09/2019",
