@@ -57,7 +57,7 @@
             }
         ],
         "max-nested-callbacks": [
-            "error", 4
+            "error", 5
         ],
         "max-depth": [
             "error", 4
