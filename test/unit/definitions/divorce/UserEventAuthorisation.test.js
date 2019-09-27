@@ -168,13 +168,13 @@ describe('Events authorisation validation', () => {
             getAuthStateForUserRole(postConditionState, userRole, caseType));
 
           if (postConditionAuthState.length === 0) {
-            console.log(`"${eventName}" event for "${userRole}" is missing authorisation for PostCondition state "${postConditionState}"`);
+            console.log(`"${eventName}" event for "${userRole}" is missing authorisation for PostCondition state "${preConditionState}"`);
           }
 
           expect(postConditionAuthState.length).to.eql(1);
 
           if (!postConditionAuthState[0].CRUD.match(acceptedPermissions)) {
-            console.log(`"${eventName}" event for "${userRole}" is missing permissions for PostCondition state "${postConditionState}"`);
+            console.log(`"${eventName}" event for "${userRole}" is missing permissions for PostCondition state "${preConditionState}"`);
           }
           expect(postConditionAuthState[0].CRUD).to.match(acceptedPermissions);
         });

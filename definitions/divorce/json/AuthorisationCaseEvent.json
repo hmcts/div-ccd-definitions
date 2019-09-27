@@ -4627,12 +4627,12 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GrantDecreeAbsolute",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
+  "LiveFrom": "25/06/2019",
+  "CaseTypeID": "DIVORCE",
+  "CaseEventID": "GrantDecreeAbsolute",
+  "UserRole": "caseworker-divorce-courtadmin_beta",
+  "CRUD": "CRU"
+},
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
