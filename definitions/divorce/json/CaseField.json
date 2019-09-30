@@ -3374,5 +3374,21 @@
     "Label": "### Respondent's Solicitor Details",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelPetGenderChangeWarning",
+    "Label": "WARNING: Changing the petitioner gender here means you need to Re-Issue the case to update all case documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelRespGenderChangeWarning",
+    "Label": "WARNING: Changing the respondent gender here means you need to Re-Issue the case to update all case documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
