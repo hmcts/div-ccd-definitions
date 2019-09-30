@@ -2202,6 +2202,18 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "SUFixCaseEvent",
+    "Name": "Resolve Case Issues",
+    "Description": "System event to clean state",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "GrantDecreeAbsolute",
     "Name": "Grant Decree Absolute",
     "Description": "Grant Decree Absolute",
