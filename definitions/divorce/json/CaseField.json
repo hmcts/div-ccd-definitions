@@ -3411,5 +3411,23 @@
     "Label": "### Respondent's Solicitor Details",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationResponse",
+    "Label": "List of responses for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DocumentsUploadedDnClarification",
+    "Label": "Documents uploaded at for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
   }
 ]
