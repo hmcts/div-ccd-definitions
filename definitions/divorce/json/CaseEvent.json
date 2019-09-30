@@ -2183,6 +2183,8 @@
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
     "SecurityClassification": "Public"
   },
@@ -2195,6 +2197,18 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUFixCaseEvent",
+    "Name": "Resolve Case Issues",
+    "Description": "System event to clean state",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public"
   },
   {
@@ -2436,5 +2450,21 @@
     "PostConditionState": "*",
     "SecurityClassification": "PUBLIC",
     "ShowSummary": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solApplyForDA",
+    "Name": "Apply for Decree Absolute",
+    "Description": "Apply for Decree Absolute",
+    "DisplayOrder": 51,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
