@@ -5660,7 +5660,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "issuePersonalAos",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/08/2019",
