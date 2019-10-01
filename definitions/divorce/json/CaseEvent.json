@@ -1371,7 +1371,7 @@
     "Name": "AOS Received (Co-Respondent)",
     "Description": "AOS Received (Co-Respondent)",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "AosAwaiting",
+    "PreConditionState(s)": "AosAwaiting;AosAwaitingSol",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
