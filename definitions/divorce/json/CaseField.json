@@ -1795,7 +1795,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelSolAppSummaryPara-6",
-    "Label": "Phone: 0300 303 0642 (Monday to Friday, 8.30am to 5pm)\r\nEmail: EastMidlandsDivorce@Justice.gov.uk",
+    "Label": "Phone: 0300 303 0642 (Monday to Friday, 8.30am to 5pm)\r\nEmail: divorcecase@justice.gov.uk",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
