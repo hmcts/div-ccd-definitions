@@ -3610,5 +3610,68 @@
     "Label": "You have to manually download the AOS pack from the documents tab and attach to an email to the respondent",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalDecision",
+    "Label": "Refusal decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DnRefusalOptionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalRejectionReason",
+    "Label": "Refusal rejection reason",
+    "HintText": "Choose at least one of the following",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnRejectonReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalRejectionAdditionalInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalClarificationReason",
+    "Label": "Provide a refusal reason",
+    "HintText": "Choose at least one of the following",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnClarificationReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalClarificationAdditionalInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationResponse",
+    "Label": "List of responses for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DocumentsUploadedDnClarification",
+    "Label": "Documents uploaded at for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
   }
 ]
