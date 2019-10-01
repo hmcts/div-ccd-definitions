@@ -403,6 +403,30 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "five-year-separation-aos-form",
+    "ListElement": "AOS Offline Five Year Separation Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "behaviour-desertion-aos-form",
+    "ListElement": "AOS Offline Unreasonable Behaviour / Desertion Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "adultery-respondent-aos-form",
+    "ListElement": "AOS Offline Adultery Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "adultery-co-respondent-aos-form",
+    "ListElement": "AOS Offline Adultery Form Co-Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "feeIdEnum",
     "ListElementCode": "X0165",
     "ListElement": "X0165 - Filing an application for a divorce"
