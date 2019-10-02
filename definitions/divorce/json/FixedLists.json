@@ -1069,20 +1069,6 @@
   },
   {
     "LiveFrom": "01/01/2019",
-    "ID": "DnRefusalOptionEnum",
-    "ListElementCode": "reject",
-    "ListElement": "Reject",
-    "DisplayOrder": 1
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "ID": "DnRefusalOptionEnum",
-    "ListElementCode": "moreInfo",
-    "ListElement": "Get more information / Evidence",
-    "DisplayOrder": 2
-  },
-  {
-    "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noJurisdiction",
     "ListElement": "Court does not have jurisdiction",
@@ -1155,7 +1141,7 @@
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
     "ListElementCode": "reject",
-    "ListElement": "Reject",
+    "ListElement": "Reject - request amended petition",
     "DisplayOrder": 1
   },
   {
