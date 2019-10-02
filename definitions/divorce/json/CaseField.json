@@ -3619,5 +3619,14 @@
     "Label": "You have to manually download the AOS pack from the documents tab and attach to an email to the respondent",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOT",
+    "Label": "Solicitor Statement of Truth",
+    "HintText": "The solicitor believes that the facts stated in this response are true",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]

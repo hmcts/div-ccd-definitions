@@ -9263,6 +9263,21 @@
     "PageLabel": "Statement of Truth",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\" OR D8ReasonForDivorce=\"separation-2-years\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "CaseFieldID": "solAOSSOT",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "aossot",
+    "PageLabel": "Statement of Truth",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
