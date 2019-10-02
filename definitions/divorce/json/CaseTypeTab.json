@@ -1292,7 +1292,7 @@
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
     "CaseFieldID": "RespStatementOfTruth",
-    "TabFieldDisplayOrder": 12
+    "TabFieldDisplayOrder": 13
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1302,7 +1302,7 @@
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
     "CaseFieldID": "solAOSSOT",
-    "TabFieldDisplayOrder": 13
+    "TabFieldDisplayOrder": 12
   },
   {
     "LiveFrom": "01/01/2017",
