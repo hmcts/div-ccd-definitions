@@ -2182,8 +2182,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespStatementOfTruth",
-    "Label": "The respondent believes that the facts stated in this response are true",
-    "HintText": "I am duly authorised by the respondent to sign this statement",
+    "Label": "Respondent Statement of Truth",
+    "HintText": "I ${D8RespondentFirstName} ${D8RespondentLastName} belive that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
