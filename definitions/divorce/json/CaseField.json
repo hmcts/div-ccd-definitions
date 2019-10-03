@@ -3578,6 +3578,14 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "RefusalAdminErrorInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "RefusalRejectionReason",
     "Label": "Refusal rejection reason",
     "HintText": "Choose at least one of the following",
