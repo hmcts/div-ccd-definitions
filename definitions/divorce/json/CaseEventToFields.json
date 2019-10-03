@@ -6517,6 +6517,20 @@
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "http://div-cos-pr-523.service.core-compute-preview.internal/dn-about-to-be-granted",
+    "RetriesTimeoutURLMidEvent": "120,120"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "D8DocumentsGenerated",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "refusalClarification",
+    "PageLabel": "DocumentS",
+    "PageDisplayOrder": 4,
     "ShowSummaryChangeOption": "Yes"
   },
   {

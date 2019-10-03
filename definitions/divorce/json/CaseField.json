@@ -3628,5 +3628,13 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceDocument",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DNRefusalDraft",
+    "Label": "Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
   }
 ]
