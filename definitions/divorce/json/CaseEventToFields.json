@@ -10717,7 +10717,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -10731,7 +10731,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -10745,7 +10745,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -10759,7 +10759,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -10773,7 +10773,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -10787,7 +10787,7 @@
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ReceivedAOSfromCoRespDate=\"nevershow\"",
+    "FieldShowCondition": "ReceivedAosFromCoRespDate=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
   },
   {
