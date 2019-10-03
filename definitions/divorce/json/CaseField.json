@@ -3565,5 +3565,54 @@
     "Label": "You have to manually download the AOS pack from the documents tab and attach to an email to the respondent",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DateRespReceivedDivorceApplication",
+    "Label": "Date respondent received the divorce application",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOT",
+    "Label": "Solicitor statement of truth",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespWillDefendDivorce2",
+    "Label": "How does the respondent want to proceed?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "RespondentWillDefendEnum2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSOfflineDetails",
+    "Label": "\r\n## Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName}\r\n\r\n## Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n## Reason for divorce\r\n${D8ReasonForDivorce}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSOfflineAdulteryCoRespDetails",
+    "Label": "\r\n## Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName}\r\n\r\n## Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n## Co-respondent\r\n${D8ReasonForDivorceAdultery3rdPartyFName} ${D8ReasonForDivorceAdultery3rdPartyLName}\r\n\r\n## Reason for divorce\r\n${D8ReasonForDivorce}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DateCoRespReceivedDivorceApplication",
+    "Label": "Date co-respondent received the divorce application",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]
