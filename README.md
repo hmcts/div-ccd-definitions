@@ -1,6 +1,6 @@
 # div-ccd-definitions
 Divorce configuration definitions for CCD
-
+ 
 ## Setup
 
 ### Pre-requirements 
@@ -61,16 +61,18 @@ If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHu
 
 ## Applications useful urls
 
-* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
+* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
 * CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
 
 ## Release
 
-When we make a major change for a release:
+When we want to release config changes to production:
 
-1) Increment the version number in `CaseType.json` (e.g v113.xx)
-2) Generate all excel files using `yarn generate-excel-all`
+1) Generate all excel files using `yarn generate-excel-all` 
+2) Upload the excel file for the AAT env and QA the changes
 3) Create a new release in https://github.com/hmcts/div-ccd-definitions/releases/new
-4) Upload all the generate Excel files to the release and add give it the same version number from (1)
+4) Upload all the generate Excel files to the release and add give it the same version number from (3)
+5) Raise a RDM ticket (e.g. RDM-5372) and add link to the release created in step (7)
+6) Ask tester to sign off the RDM if changes pass and assign the RDM ticket to someone in the RDM team

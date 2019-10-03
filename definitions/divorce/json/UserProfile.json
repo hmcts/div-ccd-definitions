@@ -40,5 +40,12 @@
     "WorkBasketDefaultJurisdiction": "DIVORCE",
     "WorkBasketDefaultCaseType": "DIVORCE",
     "WorkBasketDefaultState": "Submitted"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "UserIDAMId": "divorce_respondent_solicitor@mailinator.com",
+    "WorkBasketDefaultJurisdiction": "DIVORCE",
+    "WorkBasketDefaultCaseType": "DIVORCE",
+    "WorkBasketDefaultState": "Submitted"
   }
 ]

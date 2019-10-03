@@ -243,6 +243,15 @@
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AosPreSubmit",
+    "Name": "AOS PreSubmit",
+    "Description": "AOS PreSubmit (Intermediary state)",
+    "DisplayOrder": 36,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "Created",
@@ -256,7 +265,7 @@
     "ID": "DNPronounced",
     "Name": "Decree Nisi Pronounced",
     "Description": "Decree Nisi Pronounced",
-    "DisplayOrder": 36,
+    "DisplayOrder": 37,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
@@ -265,7 +274,16 @@
     "ID": "DARequested",
     "Name": "Decree Absolute Requested",
     "Description": "Decree Absolute Requested",
-    "DisplayOrder": 37,
+    "DisplayOrder": 38,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "20/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAOverdue",
+    "Name": "Decree Absolute Overdue",
+    "Description": "Decree Absolute Overdue",
+    "DisplayOrder": 39,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
@@ -274,6 +292,33 @@
     "ID": "DNDrafted",
     "Name": "Decree Nisi Application Drafted",
     "Description": "Decree Nisi Application Drafted",
+    "DisplayOrder": 15,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "12/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AosDrafted",
+    "Name": "AOS Drafted",
+    "Description": "AOS Drafted",
+    "DisplayOrder": 12,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RemovedFromBulkCaseList",
+    "Name": "Removed from bulk case list",
+    "Description": "Removed from bulk case list",
+    "DisplayOrder": 1,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingService",
+    "Name": "Awaiting Service",
+    "Description": "Awaiting Service",
     "DisplayOrder": 15,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }

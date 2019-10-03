@@ -58,5 +58,41 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes",
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseEventID": "editBulkCase",
+    "CaseFieldID": "CourtName",
+    "PageID": "EditListedBulkCase",
+    "PageLabel": "Edit bulk list case ",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "01/07/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseEventID": "editBulkCase",
+    "CaseFieldID": "hearingDate",
+    "PageID": "EditListedBulkCase",
+    "PageLabel": "Edit bulk list case ",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "CaseEventID": "removeFromListed",
+    "CaseFieldID": "CaseAcceptedList",
+    "PageID": "editAcceptedList",
+    "PageLabel": "Edit accepted case list from bulk",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
   }
 ]
