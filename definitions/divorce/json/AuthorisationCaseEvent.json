@@ -5765,7 +5765,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
@@ -5800,7 +5800,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent_fromAosStarted",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
@@ -5835,7 +5835,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent_fromAosOverdue",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
@@ -5870,7 +5870,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
@@ -5905,7 +5905,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
