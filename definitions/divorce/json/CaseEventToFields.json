@@ -6485,12 +6485,12 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecision",
     "CaseFieldID": "RefusalAdminErrorInfo",
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
-    "PageID": "makeRefusalOrder",
-    "PageLabel": "Make a refusal order",
-    "PageDisplayOrder": 2,
-    "FieldShowCondition": "RefusalDecision=\"adminError\"",
+    "PageID": "refusalAdminError",
+    "PageLabel": "Admin error / Send back to Caseworker",
+    "PageDisplayOrder": 3,
+    "PageShowCondition": "RefusalDecision=\"adminError\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
