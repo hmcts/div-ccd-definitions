@@ -5689,5 +5689,54 @@
     "CaseEventID": "caseworkerConfirmService",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "SYSTEM_MAINTENANCE",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]
