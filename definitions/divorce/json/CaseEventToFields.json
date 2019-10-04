@@ -9659,7 +9659,6 @@
     "PageID": "SolicitorSubmitDnClarification",
     "PageLabel": "Submit DN Clarification",
     "PageDisplayOrder": 1,
-    "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
