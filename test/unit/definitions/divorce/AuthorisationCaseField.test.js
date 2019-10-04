@@ -3,7 +3,6 @@ const { uniqWith } = require('lodash');
 
 const caseTypeTab = Object.assign(require('definitions/divorce/json/AuthorisationCaseField'), {});
 
-
 describe('AuthorisationCaseField', () => {
   it('should contain a unique case case type, case event ID and user role (no duplicates)', () => {
     const uniqResult = uniqWith(
