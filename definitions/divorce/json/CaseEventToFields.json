@@ -6518,7 +6518,7 @@
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "http://div-cos-pr-523.service.core-compute-preview.internal/dn-about-to-be-granted",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
