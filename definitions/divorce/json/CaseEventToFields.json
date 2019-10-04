@@ -9648,5 +9648,29 @@
     "PageDisplayOrder": 1,
     "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "03/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "DnClarificationResponse",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolicitorDnClarificationResponse",
+    "PageLabel": "DN Clarification Response",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "DocumentsUploadedDnClarification",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolicitorDnClarificationResponse",
+    "PageLabel": "DN Clarification Response",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
