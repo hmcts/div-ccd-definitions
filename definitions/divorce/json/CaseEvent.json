@@ -812,6 +812,8 @@
     "PostConditionState": "AwaitingService",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-personal-service-pack",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
