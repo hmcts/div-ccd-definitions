@@ -13720,7 +13720,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalDecision",
     "UserRole": "caseworker-divorce-solicitor",
@@ -13755,7 +13755,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionReason",
     "UserRole": "caseworker-divorce-solicitor",
@@ -13790,7 +13790,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "19/07/2019",
+    "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionAdditionalInfo",
     "UserRole": "caseworker-divorce-solicitor",

@@ -9866,7 +9866,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "03/10/2019",
+    "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "CaseFieldID": "DnClarificationResponse",
@@ -9878,7 +9878,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "03/10/2019",
+    "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "CaseFieldID": "DocumentsUploadedDnClarification",
