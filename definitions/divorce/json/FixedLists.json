@@ -1085,7 +1085,7 @@
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
     "ListElementCode": "adminError",
-    "ListElement": "Admin error / send back to Caseworker",
+    "ListElement": "Admin error / send back to caseworker",
     "DisplayOrder": 3
   },
   {

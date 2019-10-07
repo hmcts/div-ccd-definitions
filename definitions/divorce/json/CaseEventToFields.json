@@ -6488,7 +6488,7 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "refusalAdminError",
-    "PageLabel": "Admin error / Send back to Caseworker",
+    "PageLabel": "Admin error / Send back to caseworker",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"adminError\"",
     "ShowSummaryChangeOption": "Yes"
