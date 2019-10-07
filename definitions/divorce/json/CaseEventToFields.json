@@ -9652,8 +9652,8 @@
   {
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "RefusalDecision",
-    "CaseFieldID": "DnClarificationResponse",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "RefusalDecision",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": "SolicitorSubmitDnClarification",
@@ -9664,8 +9664,8 @@
   {
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "RefusalClarificationReason",
-    "CaseFieldID": "DnClarificationResponse",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "RefusalClarificationReason",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
     "PageID": "SolicitorSubmitDnClarification",
