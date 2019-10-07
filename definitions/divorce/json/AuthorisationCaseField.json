@@ -13764,35 +13764,35 @@
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespWillDefendDivorce2",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespWillDefendDivorce2",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespWillDefendDivorce2",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespWillDefendDivorce2",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespWillDefendDivorce2",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },

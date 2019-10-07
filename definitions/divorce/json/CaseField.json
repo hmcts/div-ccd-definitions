@@ -3585,9 +3585,9 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "RespWillDefendDivorce2",
+    "ID": "UiOnly_RespWillDefendDivorce",
     "Label": "How does the respondent want to proceed?",
-    "FieldType": "FixedList",
+    "FieldType": "FixedRadioList",
     "FieldTypeParameter": "RespondentWillDefendEnum2",
     "SecurityClassification": "Public"
   },
