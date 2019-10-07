@@ -802,6 +802,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "05/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issuePersonalAos",
+    "Name": "Issue Personal Service Pack",
+    "Description": "Issue Personal Service Pack to petitioner's solicitor (if service method = Personal Service)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "Issued",
+    "PostConditionState": "AwaitingService",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "refundOnIssue",
@@ -1175,7 +1188,7 @@
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1190,7 +1203,7 @@
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": 120120,
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
@@ -1360,7 +1373,7 @@
     "Name": "AOS Received (Co-Respondent)",
     "Description": "AOS Received (Co-Respondent)",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "AosAwaiting",
+    "PreConditionState(s)": "AosAwaiting;AosAwaitingSol",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
@@ -2101,7 +2114,7 @@
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2192,6 +2205,8 @@
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
     "SecurityClassification": "Public"
   },
@@ -2204,6 +2219,18 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SUFixCaseEvent",
+    "Name": "Resolve Case Issues",
+    "Description": "System event to clean state",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
     "SecurityClassification": "Public"
   },
   {
@@ -2424,6 +2451,20 @@
     "ShowSummary": "Y"
   },
   {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "cancelPronouncement",
+    "Name": "Cancel pronouncement",
+    "Description": "Cancel case pronouncment",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "DNPronounced",
+    "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/pronouncement/cancel",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "CCD_ADMIN",
@@ -2433,5 +2474,59 @@
     "PostConditionState": "*",
     "SecurityClassification": "PUBLIC",
     "ShowSummary": "Yes"
+  },
+  {
+    "LiveFrom": "23/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solApplyForDA",
+    "Name": "Apply for Decree Absolute",
+    "Description": "Apply for Decree Absolute",
+    "DisplayOrder": 51,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DARequested",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SYSTEM_MAINTENANCE",
+    "Name": "System Maintenance",
+    "Description": "Maintenance updates to cases, made automatically by the system",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "PUBLIC",
+    "ShowSummary": "N"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solConfirmPersonalService",
+    "Name": "Confirm Service",
+    "Description": "Confirm Personal Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "caseworkerConfirmService",
+    "Name": "Confirm Service",
+    "Description": "Confirm Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
