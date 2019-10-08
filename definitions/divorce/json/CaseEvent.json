@@ -442,8 +442,6 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -812,8 +810,6 @@
     "PostConditionState": "AwaitingService",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-personal-service-pack",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -1523,8 +1519,6 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2163,8 +2157,6 @@
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit Decree Nisi Application"
@@ -2192,9 +2184,6 @@
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingDecreeAbsolute",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-applicant-da-eligibility",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-make-case-eligible-for-da-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2246,8 +2235,6 @@
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-da-granted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
