@@ -6502,6 +6502,8 @@
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "RetriesTimeoutURLMidEvent": "120,120",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6735,7 +6737,7 @@
     "DisplayContext": "READONLY",
     "PageID": "refusalOrderDraft",
     "PageLabel": "Refusal order draft",
-    "PageShowCondition": "DecreeNisiGranted=\"No\"",
+    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
     "PageDisplayOrder": 5,
     "ShowSummaryChangeOption": "No"
   },
