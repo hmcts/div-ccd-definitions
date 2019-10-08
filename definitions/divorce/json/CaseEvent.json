@@ -2110,7 +2110,7 @@
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "CallBackURLSubmittedEvent": "http://div-cos-pr-522.service.core-compute-preview.internal/dn-decision-made",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2627,7 +2627,7 @@
     "PreConditionState(s)": "ClarificationSubmitted",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "CallBackURLSubmittedEvent": "http://div-cos-pr-522.service.core-compute-preview.internal/dn-decision-made",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
