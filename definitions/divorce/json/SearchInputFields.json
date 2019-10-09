@@ -119,6 +119,20 @@
     "DisplayOrder": 17
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DnOutcomeCase",
+    "Label": "Case on digital Decree Nisi Outcome",
+    "DisplayOrder": 18
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "Label": "Case on digital Decree Absolute",
+    "DisplayOrder": 19
+  },
+  {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseFieldID": "[CASE_REFERENCE]",

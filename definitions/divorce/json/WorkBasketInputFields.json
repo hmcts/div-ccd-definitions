@@ -12,5 +12,19 @@
     "CaseFieldID": "SolPaymentHowToPay",
     "Label": "Solicitor Payment Method",
     "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DnOutcomeCase",
+    "Label": "Case on digital Decree Nisi Outcome",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "Label": "Case on digital Decree Absolute",
+    "DisplayOrder": 4
   }
 ]
