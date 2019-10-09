@@ -3623,7 +3623,7 @@
   {
     "LiveFrom": "01/09/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "DnClarificationUploadAnyOtherDocuments",
+    "ID": "DnClarificationUploadDocuments",
     "Label": "Upload any other documents per Clarification?",
     "FieldType": "Collection",
     "FieldTypeParameter": "YesOrNo",

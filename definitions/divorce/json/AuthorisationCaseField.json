@@ -13911,42 +13911,42 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },

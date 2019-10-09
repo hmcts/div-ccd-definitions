@@ -2159,7 +2159,7 @@
     "TabID": "documents",
     "TabLabel": "Documents",
     "TabDisplayOrder": 10,
-    "CaseFieldID": "DnClarificationUploadAnyOtherDocuments",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "TabFieldDisplayOrder": 5
   },
   {
