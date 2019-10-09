@@ -3626,7 +3626,7 @@
     "ID": "DnClarificationUploadDocuments",
     "Label": "Upload any other documents per Clarification?",
     "FieldType": "Collection",
-    "FieldTypeParameter": "YesOrNo",
+    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
   },
   {
