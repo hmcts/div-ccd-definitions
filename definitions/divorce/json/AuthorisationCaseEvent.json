@@ -6017,6 +6017,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "UserRole": "citizen",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   }
 ]
