@@ -9840,5 +9840,65 @@
     "PageDisplayOrder": 1,
     "FieldShowCondition": "SendViaEmailOrPost=\"Email\"",
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "RefusalDecision",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "SolicitorSubmitDnClarification",
+    "PageLabel": "Submit DN Clarification",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "RefusalClarificationReason",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "SolicitorSubmitDnClarification",
+    "PageLabel": "Submit DN Clarification",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "RefusalRejectionAdditionalInfo",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "SolicitorSubmitDnClarification",
+    "PageLabel": "Submit DN Clarification",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "DnClarificationResponse",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolicitorSubmitDnClarification",
+    "PageLabel": "Submit DN Clarification",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "CaseFieldID": "DocumentsUploadedDnClarification",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolicitorSubmitDnClarification",
+    "PageLabel": "Submit DN Clarification",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

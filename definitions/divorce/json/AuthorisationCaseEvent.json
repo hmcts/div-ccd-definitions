@@ -5866,10 +5866,24 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "answerReceivedLAClarification",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevertClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertClarification",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -5887,10 +5901,24 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCreferLAClarification",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnReceivedRevertCompletedClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "dnReceivedRevertCompletedClarification",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -5901,10 +5929,24 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "co-RespAwaitingLAReferralClarification",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedLARClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "coRespAnswerReceivedLARClarification",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -5913,6 +5955,13 @@
     "CaseEventID": "grantDnMakeDecisionClarification",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecisionClarification",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/05/2019",
@@ -5954,7 +6003,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/07/2019",
