@@ -3623,10 +3623,35 @@
   {
     "LiveFrom": "01/09/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationUploadAnyOtherDocuments",
+    "Label": "Upload any other documents per Clarification?",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "DocumentsUploadedDnClarification",
     "Label": "Documents uploaded for Decree Nisi clarification",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnClarificationResponse",
+    "Label": "## Clarification Response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnPronouncementDetails",
+    "Label": "## Pronouncement Details",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]
