@@ -3,5 +3,5 @@ dependencies:
     version: ~1.4.1
     repository: '@hmctspublic'
   - name: ccd
-    version: ~3.0.4
+    version: ~3.0.5
     repository: '@hmctspublic'
