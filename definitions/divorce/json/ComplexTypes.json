@@ -387,5 +387,21 @@
     "FieldType": "Text",
     "ElementLabel": "Hearing Time",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "Clarification",
+    "ListElementCode": "ClarificationId",
+    "FieldType": "Text",
+    "ElementLabel": "Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "Clarification",
+    "ListElementCode": "ClarificationValue",
+    "FieldType": "TextArea",
+    "ElementLabel": "Value",
+    "SecurityClassification": "Public"
   }
 ]

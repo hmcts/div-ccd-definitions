@@ -3617,7 +3617,7 @@
     "ID": "DnClarificationResponse",
     "Label": "List of responses for Decree Nisi clarification",
     "FieldType": "Collection",
-    "FieldTypeParameter": "TextArea",
+    "FieldTypeParameter": "Clarification",
     "SecurityClassification": "Public"
   },
   {
@@ -3626,7 +3626,7 @@
     "ID": "DnClarificationUploadDocuments",
     "Label": "Upload any other documents per Clarification?",
     "FieldType": "Collection",
-    "FieldTypeParameter": "Text",
+    "FieldTypeParameter": "Clarification",
     "SecurityClassification": "Public"
   },
   {
@@ -3643,6 +3643,14 @@
     "CaseTypeID": "DIVORCE",
     "ID": "labelDnClarificationResponse",
     "Label": "## Clarification Response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnClarificationCollection",
+    "Label": "**Clarification Response ${DnClarificationResponse.ClarificationId}**:         ${DnClarificationResponse.ClarificationValue}\n**Upload Documents Clarification ${DnClarificationUploadDocuments.ClarificationId}**: ${DnClarificationUploadDocuments}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
