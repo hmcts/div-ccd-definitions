@@ -1083,6 +1083,13 @@
   },
   {
     "LiveFrom": "01/01/2019",
+    "ID": "DnRefusalOptionEnum",
+    "ListElementCode": "adminError",
+    "ListElement": "Admin error / send back to caseworker",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2019",
     "ID": "DnRejectonReasonEnum",
     "ListElementCode": "noJurisdiction",
     "ListElement": "Court does not have jurisdiction",

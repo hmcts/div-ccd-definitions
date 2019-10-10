@@ -2630,5 +2630,17 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "adminClarificationSubmit",
+    "Name": "Add admin clarification",
+    "Description": "Add admin clarification",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingAdminClarification",
+    "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
