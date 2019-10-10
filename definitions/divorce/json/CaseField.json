@@ -3650,7 +3650,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelDnClarificationCollection",
-    "Label": "**Clarification Response ${DnClarificationResponse.ClarificationId}**:         ${DnClarificationResponse.ClarificationValue}\n**Upload Documents Clarification ${DnClarificationUploadDocuments.ClarificationId}**: ${DnClarificationUploadDocuments}",
+    "Label": "**Clarification Response ${DnClarificationResponse.ClarificationId}**:         ${DnClarificationResponse.ClarificationValue}\n**Upload Documents Clarification ${DnClarificationUploadDocuments.ClarificationId}**: ${DnClarificationUploadDocuments.ClarificationValue}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
