@@ -442,6 +442,8 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -810,6 +812,8 @@
     "PostConditionState": "AwaitingService",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-personal-service-pack",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -1519,6 +1523,8 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2157,6 +2163,8 @@
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit Decree Nisi Application"
@@ -2184,6 +2192,9 @@
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingDecreeAbsolute",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-applicant-da-eligibility",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-make-case-eligible-for-da-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2195,10 +2206,10 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2235,6 +2246,8 @@
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-da-granted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2269,7 +2282,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/respondent",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2283,7 +2296,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/respondent",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2297,7 +2310,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosOverdue",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/respondent",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2311,7 +2324,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/co-respondent",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2325,7 +2338,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosStarted",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/party/co-respondent",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
@@ -2473,10 +2486,10 @@
     "DisplayOrder": 51,
     "PreConditionState(s)": "AwaitingDecreeAbsolute",
     "PostConditionState": "DARequested",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2517,6 +2530,81 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "EnterAOSOffline_Respondent_fromAosAwaiting",
+    "Name": "Received AOS offline-Resp",
+    "Description": "Received AOS offline for respondent from AosAwaiting",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "EnterAOSOffline_Respondent_fromAosStarted",
+    "Name": "Received AOS offline-Resp",
+    "Description": "Received AOS offline for respondent from AosStarted",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "EnterAOSOffline_Respondent_fromAosOverdue",
+    "Name": "Received AOS offline-Resp",
+    "Description": "Received AOS offline for respondent from AosOverdue",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosOverdue",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
+    "Name": "Received AOS offline-CoResp",
+    "Description": "Received AOS offline form for Co-Respondent from AosAwaiting",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/co-respondent",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "EnterAOSOffline_CoRespondent_fromAosStarted",
+    "Name": "Received AOS offline-CoResp",
+    "Description": "Received AOS offline form for Co-Respondent from AosStarted",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/co-respondent",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
   },
   {
     "LiveFrom": "01/09/2019",

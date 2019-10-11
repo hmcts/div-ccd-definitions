@@ -1068,6 +1068,18 @@
     "ListElement": "Post"
   },
   {
+    "LiveFrom": "01/09/2019",
+    "ID": "RespondentWillDefendEnum2",
+    "ListElementCode": "No",
+    "ListElement": "The respondent will let the divorce proceed"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "ID": "RespondentWillDefendEnum2",
+    "ListElementCode": "Yes",
+    "ListElement": "The respondent intends to defend the divorce"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "ID": "DnRefusalOptionEnum",
     "ListElementCode": "reject",
