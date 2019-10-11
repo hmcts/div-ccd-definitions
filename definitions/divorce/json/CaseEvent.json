@@ -2730,5 +2730,16 @@
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "amendPetitionForRefusalRejection",
+    "Name": "Amend Petition",
+    "Description": "Amend Petition",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "DNisRefused",
+    "PostConditionState": "AmendPetition",
+    "SecurityClassification": "Public"
   }
 ]

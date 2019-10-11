@@ -6235,5 +6235,33 @@
     "CaseEventID": "adminClarificationSubmit",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
   }
 ]
