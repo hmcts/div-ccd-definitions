@@ -8279,6 +8279,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhere=\"Y*\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"adultery\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8759,6 +8760,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryKnowWhere=\"Y*\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"adultery\"",
     "ShowSummaryChangeOption": "No"
   },
   {
