@@ -139,7 +139,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8PetitionerContactDetailsConfidential",
     "TabFieldDisplayOrder": 12,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -150,7 +150,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "ccdLabel-AddressIsShareable",
     "TabFieldDisplayOrder": 13,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -161,7 +161,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8PetitionerPhoneNumber",
     "TabFieldDisplayOrder": 14,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -172,7 +172,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8PetitionerEmail",
     "TabFieldDisplayOrder": 15,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -183,7 +183,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
     "TabFieldDisplayOrder": 16,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -194,7 +194,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "TabFieldDisplayOrder": 17,
-    "FieldShowCondition": "D8PetitionerContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "D8PetitionerContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -315,7 +315,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "RespondentContactDetailsConfidential",
     "TabFieldDisplayOrder": 29,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -337,7 +337,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "ccdLabel-RespondentAddressIsShareable",
     "TabFieldDisplayOrder": 31,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -348,7 +348,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "RespEmailAddress",
     "TabFieldDisplayOrder": 32,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -359,7 +359,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "RespPhoneNumber",
     "TabFieldDisplayOrder": 33,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -370,7 +370,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "TabFieldDisplayOrder": 34,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -381,7 +381,7 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
     "TabFieldDisplayOrder": 35,
-    "FieldShowCondition": "RespondentContactDetailsConfidential=\"share\""
+    "FieldShowCondition": "RespondentContactDetailsConfidential!=\"keep\""
   },
   {
     "LiveFrom": "01/01/2017",
