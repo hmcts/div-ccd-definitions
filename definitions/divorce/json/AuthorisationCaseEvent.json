@@ -5765,7 +5765,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "20/09/2019",

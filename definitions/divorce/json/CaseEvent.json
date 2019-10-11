@@ -2538,7 +2538,7 @@
     "Name": "Received AOS offline-Resp",
     "Description": "Received AOS offline for respondent from AosAwaiting",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaiting",
+    "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
     "RetriesTimeoutURLSubmittedEvent": "120,120",

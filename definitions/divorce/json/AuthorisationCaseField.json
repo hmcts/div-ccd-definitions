@@ -14012,5 +14012,19 @@
     "CaseFieldID": "labelAOSTabOnlineResponse",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespEmailAddress",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDefenseResponse",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
