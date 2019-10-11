@@ -3616,7 +3616,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "11/10/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelAOSTabOfflineResponse",
     "Label": "## This is an offline AOS response",
@@ -3624,7 +3624,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "11/10/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelAOSTabOnlineResponse",
     "Label": "## This is an online AOS response",
