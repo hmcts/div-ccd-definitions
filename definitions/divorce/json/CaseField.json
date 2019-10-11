@@ -3614,5 +3614,21 @@
     "Label": "Date co-respondent received the divorce application",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSTabOfflineResponse",
+    "Label": "## This is an offline AOS response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSTabOnlineResponse",
+    "Label": "## This is an online AOS response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
