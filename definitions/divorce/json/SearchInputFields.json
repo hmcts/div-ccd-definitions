@@ -30,7 +30,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DivorceUnit",
+    "CaseFieldID": "D8PetitionerHomeAddress",
     "Label": "RDC",
     "DisplayOrder": 5
   },
