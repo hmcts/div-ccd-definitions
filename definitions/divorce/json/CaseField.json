@@ -2183,7 +2183,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "RespStatementOfTruth",
     "Label": "Respondent Statement of Truth",
-    "HintText": "I ${D8RespondentFirstName} ${D8RespondentLastName} belive that the facts stated in this response are true",
+    "HintText": "I ${D8RespondentFirstName} ${D8RespondentLastName} believe that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
