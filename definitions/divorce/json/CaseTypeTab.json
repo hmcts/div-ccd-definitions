@@ -1868,7 +1868,7 @@
     "TabID": "outcomeOfDnDetails",
     "TabLabel": "Outcome of Decree Nisi",
     "TabDisplayOrder": 5,
-    "CaseFieldID": "DocumentsUploadedDnClarification",
+    "CaseFieldID": "DnClarificationUploadDocuments",
     "TabFieldDisplayOrder": 15
   },
   {
@@ -2231,7 +2231,7 @@
     "TabID": "documents",
     "TabLabel": "Documents",
     "TabDisplayOrder": 10,
-    "CaseFieldID": "DnClarificationUploadDocuments",
+    "CaseFieldID": "DocumentsUploadedDnClarification",
     "TabFieldDisplayOrder": 5
   },
   {
