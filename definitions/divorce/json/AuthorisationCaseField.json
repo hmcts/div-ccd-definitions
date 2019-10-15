@@ -13944,6 +13944,76 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOfflineResponse",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOfflineResponse",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOfflineResponse",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOfflineResponse",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOfflineResponse",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOnlineResponse",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOnlineResponse",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOnlineResponse",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOnlineResponse",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelAOSTabOnlineResponse",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalDecision",
