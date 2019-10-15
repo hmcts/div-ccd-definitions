@@ -11307,6 +11307,13 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "state",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "WhoPaysCosts",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
