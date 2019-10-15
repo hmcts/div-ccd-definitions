@@ -3569,10 +3569,83 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "DateRespReceivedDivorceApplication",
+    "Label": "Date respondent received the divorce application",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOT",
+    "Label": "Solicitor statement of truth",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "UiOnly_RespWillDefendDivorce",
+    "Label": "How does the respondent want to proceed?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "RespondentWillDefendEnum2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSOfflineDetails",
+    "Label": "\r\n## Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName}\r\n\r\n## Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n## Reason for divorce\r\n${D8ReasonForDivorce}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSOfflineAdulteryCoRespDetails",
+    "Label": "\r\n## Petitioner\r\n${D8PetitionerFirstName} ${D8PetitionerLastName}\r\n\r\n## Respondent\r\n${D8RespondentFirstName} ${D8RespondentLastName}\r\n\r\n## Co-respondent\r\n${D8ReasonForDivorceAdultery3rdPartyFName} ${D8ReasonForDivorceAdultery3rdPartyLName}\r\n\r\n## Reason for divorce\r\n${D8ReasonForDivorce}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DateCoRespReceivedDivorceApplication",
+    "Label": "Date co-respondent received the divorce application",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSTabOfflineResponse",
+    "Label": "## This is an offline AOS response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelAOSTabOnlineResponse",
+    "Label": "## This is an online AOS response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "RefusalDecision",
     "Label": "Refusal decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "DnRefusalOptionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalAdminErrorInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -3623,8 +3696,17 @@
   {
     "LiveFrom": "01/09/2019",
     "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationUploadDocuments",
+    "Label": "Upload any other documents per Clarification?",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
     "ID": "DocumentsUploadedDnClarification",
-    "Label": "Documents uploaded at for Decree Nisi clarification",
+    "Label": "Documents uploaded for Decree Nisi clarification",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceDocument",
     "SecurityClassification": "Public"
@@ -3635,6 +3717,22 @@
     "ID": "DNRefusalDraft",
     "Label": "Refusal draft",
     "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnClarificationResponse",
+    "Label": "## Clarification Response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnPronouncementDetails",
+    "Label": "## Pronouncement Details",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]

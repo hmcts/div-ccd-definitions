@@ -59,12 +59,47 @@ If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHu
 * Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 * Login with an authorised AAT user [listed here](https://github.com/hmcts/div-ccd-definitions/blob/master/definitions/divorce/json/UserProfile.json)
 
+### Accessing documents on a CCD PR
+
+To access generated documents on a CCD PR, you have to use the AAT env gateway:
+
+* Ensure you're logged in with a user that can access the documents (e.g caseworker or solicitor depending on the case) on https://www-ccd.aat.platform.hmcts.net/
+* Copy the document URL from the Documents tab in CCD, and replace the hostname with `https://gateway-ccd.aat.platform.hmcts.net`
+
+### Creating cases 
+
+To be able to create a case as a solicitor in a CCD PR, you have to create:
+
+* a CMS PR pointing to the CCD instance (e.g https://github.com/hmcts/div-case-maintenance-service/pull/190)
+* a COS PR pointing to the above CMS PR (e.g https://github.com/hmcts/div-case-orchestration-service/pull/534)
+* temperately change config.aat.cosUrl in package.json to point to the COS PR
+
+This will ensure that callbacks point back to the correct CCD URL.
+
 ## Applications useful urls
 
 * CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
 * CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
+
+
+## ccd-definition-processor
+
+This repo makes use of https://github.com/hmcts/ccd-definition-processor to generate the excel file. You may have to update this repo if, for example, you need to add a column to the definitions spreadsheet.
+
+Ideally this should be a published NPM package, so that we can include it in package.json but at the moment we include it as a git submodule
+
+A submodule is simply a pointer to a repo and a commit. If you want to reset that repo to the latest upstream master, run
+
+```
+yarn reset-ccd-submodule
+```
+
+You need to use this if you have accidentally change this pointer reference to something other than what you intended (you can instead modify the above command to package.json to check out a specific commit/version of that submodule)
+
+It's also important to note that once you update to a new reference (i.e you commit a change to the `ccd-definition-processor` _file_) you need to make sure everyone else runs `yarn setup` again to get the updated reference as well.
+
 
 ## Release
 
