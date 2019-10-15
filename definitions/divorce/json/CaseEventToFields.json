@@ -6371,7 +6371,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "grantDN",
     "PageLabel": "Grant Decree Nisi",
-    "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN != \"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"Yes\" AND DivorceCostsOptionDN!=\"endClaim\" AND D8DivorceCostsClaim=\"Y*\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -8361,7 +8361,7 @@
     "PageLabel": "How do you want to respond?",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent = \"No\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8389,7 +8389,7 @@
     "PageLabel": "How do you want to respond?",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent = \"No\"",
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent=\"No\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -8842,7 +8842,7 @@
     "PageLabel": "How do you want to respond?",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent = \"No\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\" OR D8ReasonForDivorce=\"desertion\" OR D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent=\"No\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8870,7 +8870,7 @@
     "PageLabel": "How do you want to respond?",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent = \"No\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-5-years\" OR RespAOSAdultery=\"No\" OR RespAOS2yrConsent=\"No\""
   },
   {
     "LiveFrom": "16/04/2019",
