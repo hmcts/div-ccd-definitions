@@ -13737,13 +13737,6 @@
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "solAOSSOT",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "solAOSSOT",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },

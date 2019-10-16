@@ -3577,14 +3577,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "solAOSSOT",
-    "Label": "Solicitor statement of truth",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "ID": "UiOnly_RespWillDefendDivorce",
     "Label": "How does the respondent want to proceed?",
     "FieldType": "FixedRadioList",
@@ -3639,14 +3631,5 @@
     "HintText": "The solicitor believes that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "UiOnly_RespWillDefendDivorce",
-    "Label": "How does the respondent want to proceed?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "RespondentWillDefendEnum2",
-    "SecurityClassification": "PUBLIC"
   }
 ]
