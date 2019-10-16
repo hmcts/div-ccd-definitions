@@ -4797,6 +4797,13 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "cleanCaseState",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "answerReceivedAos",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
