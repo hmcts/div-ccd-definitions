@@ -12,5 +12,19 @@
     "CaseFieldID": "SolPaymentHowToPay",
     "Label": "Solicitor Payment Method",
     "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "10/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DnOutcomeCase",
+    "Label": "Case on digital DN Outcome",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "10/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ApplyForDecreeAbsolute",
+    "Label": "Case on digital DA",
+    "DisplayOrder": 4
   }
 ]

@@ -179,7 +179,7 @@
     "ID": "cancelPronouncement",
     "Name": "Cancel pronouncement",
     "Description": "Cancel pronouncement",
-    "DisplayOrder":11,
+    "DisplayOrder": 11,
     "PreConditionState(s)": "ScheduledCancelPronouncement",
     "PostConditionState": "Listed",
     "SecurityClassification": "Public",
