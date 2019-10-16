@@ -5994,7 +5994,7 @@
     "CaseEventID": "AddNote",
     "CaseFieldID": "CaseNotes",
     "PageFieldDisplayOrder": 1,
-    "DisplayContext": "Mandatory",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageLabel": "Add Note",
     "ShowSummaryChangeOption": "Yes"
