@@ -1344,16 +1344,6 @@
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
     "CaseFieldID": "RespStatementOfTruth",
-    "TabFieldDisplayOrder": 13
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "aosDetails",
-    "TabLabel": "AOS",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "solAOSSOT",
     "TabFieldDisplayOrder": 17
   },
   {
@@ -1363,7 +1353,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespConsiderFinancialSituation",
+    "CaseFieldID": "solAOSSOT",
     "TabFieldDisplayOrder": 18
   },
   {
@@ -1373,7 +1363,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespHardshipDefenseResponse",
+    "CaseFieldID": "RespConsiderFinancialSituation",
     "TabFieldDisplayOrder": 19
   },
   {
@@ -1383,7 +1373,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespHardshipDescription",
+    "CaseFieldID": "RespHardshipDefenseResponse",
     "TabFieldDisplayOrder": 20
   },
   {
@@ -1393,7 +1383,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespContactMethodIsDigital",
+    "CaseFieldID": "RespHardshipDescription",
     "TabFieldDisplayOrder": 21
   },
   {
@@ -1403,7 +1393,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAOSfromResp",
+    "CaseFieldID": "RespContactMethodIsDigital",
     "TabFieldDisplayOrder": 22
   },
   {
@@ -1413,7 +1403,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAOSfromRespDate",
+    "CaseFieldID": "ReceivedAOSfromResp",
     "TabFieldDisplayOrder": 23
   },
   {
@@ -1423,7 +1413,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "solAOSSOT",
+    "CaseFieldID": "ReceivedAOSfromRespDate",
     "TabFieldDisplayOrder": 24
   },
   {
