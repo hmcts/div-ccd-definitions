@@ -82,5 +82,11 @@
     "ID": "d8documentsReceivedEnum",
     "ListElementCode": "caseListForPronouncement",
     "ListElement": "Case List For Pronouncement"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "ID": "HasJudgePronouncedEnum",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes"
   }
 ]
