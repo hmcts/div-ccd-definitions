@@ -6515,6 +6515,8 @@
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "RetriesTimeoutURLMidEvent": "120,120",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -6541,7 +6543,9 @@
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6736,6 +6740,19 @@
     "PageDisplayOrder": 4,
     "FieldShowCondition": "RefusalClarificationReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "CaseFieldID": "DNRefusalDraft",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "refusalOrderDraft",
+    "PageLabel": "Refusal order draft",
+    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
+    "PageDisplayOrder": 5,
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",

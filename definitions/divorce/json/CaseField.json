@@ -3712,6 +3712,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DNRefusalDraft",
+    "Label": "Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelDnClarificationResponse",
