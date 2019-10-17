@@ -2115,7 +2115,10 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted-state",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "RetriesTimeoutURLSubmittedEvent": "30,30",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
