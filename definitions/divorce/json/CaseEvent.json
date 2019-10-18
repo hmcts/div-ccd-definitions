@@ -2617,6 +2617,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingClarification",
     "PostConditionState": "ClarificationSubmitted",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clarification-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
