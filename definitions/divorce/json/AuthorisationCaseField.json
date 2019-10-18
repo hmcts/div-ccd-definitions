@@ -12280,6 +12280,20 @@
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDefenseResponse",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDescription",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespJurisdictionAgree",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"

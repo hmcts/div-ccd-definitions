@@ -2352,8 +2352,6 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosAwaitingSol;AosAwaiting",
     "PostConditionState": "AosDrafted",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save AOS Response"
@@ -2367,8 +2365,6 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosDrafted",
     "PostConditionState": "AosDrafted",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Updated AOS Response"
