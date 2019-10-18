@@ -8429,9 +8429,9 @@
     "DisplayContext": "READONLY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"separation-2-years\" OR RespHardshipDefenseResponse=\"No\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"separation-2-years\" OR RespHardshipDefenseResponse=\"N*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8443,7 +8443,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
@@ -8456,7 +8456,7 @@
     "DisplayContext": "READONLY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "FieldShowCondition": "RespConsiderFinancialSituation=\"Y*\"",
     "ShowSummaryChangeOption": "No"
@@ -8908,9 +8908,9 @@
     "DisplayContext": "READONLY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
-    "PageShowCondition": "D8ReasonForDivorce=\"separation-2-years\" OR RespHardshipDefenseResponse=\"No\"",
+    "PageShowCondition": "D8ReasonForDivorce=\"separation-2-years\" OR RespHardshipDefenseResponse=\"N*\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -8922,7 +8922,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
@@ -8935,7 +8935,7 @@
     "DisplayContext": "READONLY",
     "PageID": "aosseparationdelay",
     "PageLabel": "Do you intend to ask the court to delay the divorce until it’s satisfied with the respondent’s financial situation?",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "FieldShowCondition": "RespConsiderFinancialSituation=\"Y*\"",
     "ShowSummaryChangeOption": "No"
