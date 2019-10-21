@@ -2182,8 +2182,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespStatementOfTruth",
-    "Label": "The respondent believes that the facts stated in this response are true",
-    "HintText": "I am duly authorised by the respondent to sign this statement",
+    "Label": "Respondent Statement of Truth",
+    "HintText": "I ${D8RespondentFirstName} ${D8RespondentLastName} believe that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2207,7 +2207,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "RespHardshipDefenseResponse",
-    "Label": "Respondent relying on hardship defence?",
+    "Label": "Is the respondent defending on the basis that it will cause them severe hardship?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -3577,14 +3577,6 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "solAOSSOT",
-    "Label": "Solicitor statement of truth",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "ID": "UiOnly_RespWillDefendDivorce",
     "Label": "How does the respondent want to proceed?",
     "FieldType": "FixedRadioList",
@@ -3629,6 +3621,15 @@
     "ID": "labelAOSTabOnlineResponse",
     "Label": "## This is an online AOS response",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solAOSSOT",
+    "Label": "Solicitor Statement of Truth",
+    "HintText": "The solicitor believes that the facts stated in this response are true",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   }
 ]
