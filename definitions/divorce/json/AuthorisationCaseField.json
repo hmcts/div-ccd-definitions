@@ -7802,7 +7802,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CaseNotes",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "16/05/2019",
@@ -11308,6 +11308,20 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "state",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "state",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "state",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
@@ -12275,6 +12289,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespHardshipDescription",
     "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDefenseResponse",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDescription",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
@@ -13737,13 +13765,6 @@
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "solAOSSOT",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "solAOSSOT",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
@@ -13766,13 +13787,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "solAOSSOT",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
-    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
@@ -14019,6 +14033,13 @@
     "CaseFieldID": "labelAOSTabOnlineResponse",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solAOSSOT",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -14072,6 +14093,13 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionReason",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRUD"
@@ -14087,6 +14115,13 @@
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionReason",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAdmitOrConsentToFact",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
