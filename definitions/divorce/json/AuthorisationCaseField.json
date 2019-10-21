@@ -14044,55 +14044,6 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "07/10/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalDecision",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
@@ -14100,6 +14051,62 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAdmitOrConsentToFact",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalDecision",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "07/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalDecision",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalRejectionReason",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalRejectionReason",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionReason",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRUD"
@@ -14115,13 +14122,6 @@
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalRejectionReason",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "19/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespAdmitOrConsentToFact",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
