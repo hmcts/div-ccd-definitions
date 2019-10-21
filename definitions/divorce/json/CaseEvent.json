@@ -2731,7 +2731,7 @@
     "Description": "Add admin clarification",
     "DisplayOrder": 3,
     "PreConditionState(s)": "AwaitingAdminClarification",
-    "PostConditionState": "AwaitingLegalAdvisorReferral",
+    "PostConditionState": "ClarificationSubmitted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
