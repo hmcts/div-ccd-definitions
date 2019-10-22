@@ -3173,6 +3173,40 @@
     "TabLabel": "Linked Cases",
     "TabDisplayOrder": 24,
     "CaseFieldID": "PreviousReasonsForDivorce",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousReasonsForDivorceRefusal",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "PreviousReasonsForDivorceRefusal=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionReason",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "PreviousRefusalRejectionReason=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
   }
 ]

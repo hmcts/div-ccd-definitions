@@ -3735,5 +3735,31 @@
     "Label": "## Pronouncement Details",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousReasonsForDivorceRefusal",
+    "Label": "List of previous reasons for divorce for refusal rejection",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "reasonForDivorceEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousRefusalRejectionReason",
+    "Label": "Previous refusal rejection reasons",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnRejectonReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousRefusalRejectionAdditionalInfo",
+    "Label": "Previous refusal rejection information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
