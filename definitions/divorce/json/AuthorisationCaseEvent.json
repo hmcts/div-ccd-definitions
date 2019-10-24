@@ -5868,70 +5868,35 @@
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosAwaiting",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_CoRespondent_fromAosStarted",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
