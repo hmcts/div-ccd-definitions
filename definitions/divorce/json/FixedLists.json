@@ -717,19 +717,36 @@
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "No",
-    "ListElement": "The respondent will let the divorce proceed"
+    "ListElement": "The respondent will let the divorce proceed",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "NoNoAdmission",
-    "ListElement": "The respondent will let the divorce proceed but does not admit to the allegations made by the petitioner"
+    "ListElement": "The respondent will let the divorce proceed but does not admit to the allegations made by the petitioner",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "RespondentWillDefendEnum",
     "ListElementCode": "Yes",
-    "ListElement": "The respondent intends to defend the divorce  "
+    "ListElement": "The respondent intends to defend the divorce  ",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "06/01/2019",
+    "ID": "RespondentWillDefendEnum2",
+    "ListElementCode": "No",
+    "ListElement": "The respondent will let the divorce proceed",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "06/01/2019",
+    "ID": "RespondentWillDefendEnum2",
+    "ListElementCode": "Yes",
+    "ListElement": "The respondent intends to defend the divorce  ",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1060,17 +1077,5 @@
     "ID": "SendViaEmailOrPostEnum",
     "ListElementCode": "Post",
     "ListElement": "Post"
-  },
-  {
-    "LiveFrom": "01/09/2019",
-    "ID": "RespondentWillDefendEnum2",
-    "ListElementCode": "No",
-    "ListElement": "The respondent will let the divorce proceed"
-  },
-  {
-    "LiveFrom": "01/09/2019",
-    "ID": "RespondentWillDefendEnum2",
-    "ListElementCode": "Yes",
-    "ListElement": "The respondent intends to defend the divorce"
   }
 ]
