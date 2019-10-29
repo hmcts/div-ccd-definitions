@@ -4606,6 +4606,20 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecision",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
@@ -6136,6 +6150,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "grantDnMakeDecisionClarification",
     "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecisionClarification",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "grantDnMakeDecisionClarification",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
