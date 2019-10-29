@@ -6170,7 +6170,7 @@
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
-    "UserRole": "[RESPSOLICITOR]",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
