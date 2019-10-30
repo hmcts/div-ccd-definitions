@@ -11441,7 +11441,7 @@
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
-    "CaseFieldID": "RefusalRejectionAdditionalInfo",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
     "PageID": "SolicitorSubmitDnClarification",
