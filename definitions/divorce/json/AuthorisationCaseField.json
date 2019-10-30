@@ -14628,5 +14628,47 @@
     "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ClarificationDigital",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   }
 ]

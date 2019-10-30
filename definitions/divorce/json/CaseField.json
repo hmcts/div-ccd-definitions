@@ -3761,5 +3761,13 @@
     "Label": "Previous refusal rejection information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ClarificationDigital",
+    "Label": "Was the DN clarification sent digitally (online) or not?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
