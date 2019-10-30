@@ -3766,7 +3766,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "ClarificationDigital",
-    "Label": "Was the DN clarification sent digitally (online) or not?",
+    "Label": "Is the DN clarification sent digitally (online) or not?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   }
