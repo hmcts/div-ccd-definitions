@@ -105,7 +105,7 @@ It's also important to note that once you update to a new reference (i.e you com
 
 When we want to release config changes to production:
 
-1) Generate all excel files using `yarn generate-excel-all` 
+1) Generate all excel files using `yarn generate-excel-all`
 2) Upload the excel file for the AAT env and QA the changes
 3) Create a new release in https://github.com/hmcts/div-ccd-definitions/releases/new
 4) Upload all the generate Excel files to the release and add give it the same version number from (3)

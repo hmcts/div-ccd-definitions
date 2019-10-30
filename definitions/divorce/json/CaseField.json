@@ -3631,5 +3631,143 @@
     "HintText": "The solicitor believes that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalDecision",
+    "Label": "Refusal decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DnRefusalOptionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalAdminErrorInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalRejectionReason",
+    "Label": "Refusal rejection reason",
+    "HintText": "Choose at least one of the following",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnRejectonReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalRejectionAdditionalInfo",
+    "Label": "Rejection additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalClarificationReason",
+    "Label": "Provide a refusal reason",
+    "HintText": "Choose at least one of the following",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnClarificationReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalClarificationAdditionalInfo",
+    "Label": "Clarification additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationResponse",
+    "Label": "List of responses for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DnClarificationUploadDocuments",
+    "Label": "Upload any other documents per Clarification?",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DocumentsUploadedDnClarification",
+    "Label": "Documents uploaded for Decree Nisi clarification",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DNRefusalDraft",
+    "Label": "Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnClarificationResponse",
+    "Label": "## Clarification Response",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelDnPronouncementDetails",
+    "Label": "## Pronouncement Details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousReasonsForDivorceRefusal",
+    "Label": "List of previous reasons for divorce for refusal rejection",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "reasonForDivorceEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousRefusalRejectionReason",
+    "Label": "Previous refusal rejection reasons",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DnRejectonReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousRefusalRejectionAdditionalInfo",
+    "Label": "Previous refusal rejection information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ClarificationDigital",
+    "Label": "Is the DN clarification sent digitally (online) or not?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]

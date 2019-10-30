@@ -82,5 +82,14 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "BulkListDocument",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/10/2019",
+    "CaseTypeID": "DIVORCE_BulkAction",
+    "ID": "HasJudgePronounced",
+    "Label": "Has the judge pronounced?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "HasJudgePronouncedEnum",
+    "SecurityClassification": "Public"
   }
 ]
