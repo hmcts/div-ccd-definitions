@@ -3663,7 +3663,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "RefusalRejectionAdditionalInfo",
-    "Label": "Additional information",
+    "Label": "Rejection Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -3681,7 +3681,7 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "RefusalClarificationAdditionalInfo",
-    "Label": "Additional information",
+    "Label": "Clarification Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
