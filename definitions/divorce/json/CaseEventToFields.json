@@ -1758,7 +1758,7 @@
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1820,7 +1820,7 @@
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3544,7 +3544,7 @@
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/calculate-separation-fields"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3606,7 +3606,7 @@
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/calculate-separation-fields"
   },
   {
     "LiveFrom": "05/06/2019",
@@ -6371,9 +6371,9 @@
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120",
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/dn-about-to-be-granted",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6400,7 +6400,7 @@
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/dn-about-to-be-granted",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
@@ -6606,8 +6606,8 @@
     "DisplayContext": "READONLY",
     "PageID": "refusalOrderDraft",
     "PageLabel": "Refusal order draft",
-    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
     "PageDisplayOrder": 5,
+    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6642,7 +6642,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/sol-dn-review-petition",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
@@ -7183,7 +7183,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/sol-dn-review-petition",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
@@ -7713,7 +7713,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "CallBackURLMidEvent": "http://div-cos-staging.service.core-compute-aat.internal/sol-dn-review-petition",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {

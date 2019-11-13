@@ -11,7 +11,8 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "[CREATED_DATE]",
     "Label": "Case created date",
-    "DisplayOrder": 2
+    "DisplayOrder": 2,
+    "ResultsOrdering": "1:DESC"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -60,8 +61,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "[LAST_MODIFIED_DATE]",
     "Label": "Last Modified",
-    "DisplayOrder": 9,
-    "ResultsOrdering": "1:ASC"
+    "DisplayOrder": 9
   },
   {
     "LiveFrom": "01/01/2017",
