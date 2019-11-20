@@ -2734,5 +2734,27 @@
     "PreConditionState(s)": "DNisRefused",
     "PostConditionState": "AmendPetition",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "bulkScanCaseCreate",
+    "Name": "Bulk Scanning - Case Create",
+    "Description": "Create a case from scanned documents",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "bulkScanCaseUpdate",
+    "Name": "Bulk Scanning - Case Update",
+    "Description": "Update a case adding additional data from scanned documents to an existing case",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
   }
 ]

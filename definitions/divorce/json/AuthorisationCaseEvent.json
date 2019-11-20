@@ -6298,5 +6298,19 @@
     "CaseEventID": "amendPetitionForRefusalRejection",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "bulkScanCaseCreate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "bulkScanCaseUpdate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
   }
 ]
