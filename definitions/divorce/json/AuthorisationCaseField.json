@@ -14684,5 +14684,5 @@
     "CaseFieldID": "bulkScanCaseReference",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
-  },
+  }
 ]
