@@ -6302,29 +6302,57 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "bulkScanCaseCreate",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CaseEventID": "createCase",
+    "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "bulkScanCaseUpdate",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CaseEventID": "updateCase",
+    "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "bulkScanCaseCreate",
+    "CaseEventID": "createCase",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateCase",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "createCase",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "bulkScanCaseUpdate",
+    "CaseEventID": "updateCase",
     "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "createCase",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateCase",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   }
 ]
