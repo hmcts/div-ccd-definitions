@@ -417,70 +417,70 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPayment",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingHWFDecision",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDocuments",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Issued",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Rejected",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "PendingRejection",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "SOTAgreementPayAndSubmitRequired",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "solicitorAwaitingPaymentConfirmation",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaiting",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -494,7 +494,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosStarted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -508,7 +508,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosSubmittedAwaitingAnswer",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -522,7 +522,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDecreeNisi",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -536,7 +536,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosOverdue",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -550,14 +550,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingReissue",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingLegalAdvisorReferral",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -571,7 +571,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingConsideration",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -585,7 +585,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AmendPetition",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -606,7 +606,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingClarification",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -627,7 +627,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DefendedDivorce",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -648,7 +648,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPronouncement",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -662,7 +662,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDecreeAbsolute",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -683,14 +683,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DivorceGranted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -711,14 +711,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Withdrawn",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosCompleted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1005,7 +1005,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNisRefused",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -1033,7 +1033,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosAwaitingSol",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1551,7 +1551,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DARequested",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -1607,7 +1607,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DAOverdue",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "20/08/2019",
@@ -1649,7 +1649,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNDrafted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -1691,7 +1691,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosDrafted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -1747,7 +1747,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AosPreSubmit",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -1845,7 +1845,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "RemovedFromBulkCaseList",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -1887,7 +1887,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingService",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1964,7 +1964,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ClarificationSubmitted",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2027,7 +2027,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAdminClarification",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
