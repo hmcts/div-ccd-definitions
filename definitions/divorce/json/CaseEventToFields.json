@@ -6580,9 +6580,9 @@
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
+    "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120",
-    "ShowSummaryChangeOption": "Yes"
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",

@@ -14698,5 +14698,89 @@
     "CaseFieldID": "bulkScanCaseReference",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ApplicationToIssueWithoutCertificate",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ApplicationToIssueWithoutCertificate",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ApplicationToIssueWithoutCertificate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ApplicationToIssueWithoutCertificate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrect",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrect",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrect",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrect",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrectExplain",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrectExplain",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrectExplain",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MarriageCertificateCorrectExplain",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   }
 ]
