@@ -2583,13 +2583,13 @@
     "TabFieldDisplayOrder": 1
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "12/12/2019",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8MarriagePetitionerName",
+    "CaseFieldID": "D8ApplicationToIssueWithoutCertificate",
     "TabFieldDisplayOrder": 1
   },
   {
@@ -2599,7 +2599,7 @@
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8MarriageRespondentName",
+    "CaseFieldID": "D8MarriagePetitionerName",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -2609,7 +2609,7 @@
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8MarriageDate",
+    "CaseFieldID": "D8MarriageRespondentName",
     "TabFieldDisplayOrder": 3
   },
   {
@@ -2619,7 +2619,7 @@
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8MarriedInUk",
+    "CaseFieldID": "D8MarriageDate",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -2629,7 +2629,7 @@
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8MarriagePlaceOfMarriage",
+    "CaseFieldID": "D8MarriedInUk",
     "TabFieldDisplayOrder": 5
   },
   {
@@ -2639,8 +2639,38 @@
     "TabID": "marriageCertificate",
     "TabLabel": "Marriage Certificate",
     "TabDisplayOrder": 21,
-    "CaseFieldID": "D8CountryName",
+    "CaseFieldID": "D8MarriagePlaceOfMarriage",
     "TabFieldDisplayOrder": 6
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "marriageCertificate",
+    "TabLabel": "Marriage Certificate",
+    "TabDisplayOrder": 21,
+    "CaseFieldID": "D8CountryName",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "marriageCertificate",
+    "TabLabel": "Marriage Certificate",
+    "TabDisplayOrder": 21,
+    "CaseFieldID": "D8MarriageCertificateCorrect",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "marriageCertificate",
+    "TabLabel": "Marriage Certificate",
+    "TabDisplayOrder": 21,
+    "CaseFieldID": "D8MarriageCertificateCorrectExplain",
+    "TabFieldDisplayOrder": 9
   },
   {
     "LiveFrom": "01/01/2017",

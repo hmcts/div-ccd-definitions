@@ -3777,5 +3777,29 @@
     "Label": "Exception Record Reference",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ApplicationToIssueWithoutCertificate",
+    "Label": "Is Petitioner making separate application to issue without their marriage or civil partnership certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8MarriageCertificateCorrect",
+    "Label": "Are the details set out in the marriage or civil partnership correct?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8MarriageCertificateCorrectExplain",
+    "Label": "Explanation of why marriage or civl partnership details are not correct",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
   }
 ]
