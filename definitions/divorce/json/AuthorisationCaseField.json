@@ -14782,5 +14782,40 @@
     "CaseFieldID": "D8MarriageCertificateCorrectExplain",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
   }
 ]

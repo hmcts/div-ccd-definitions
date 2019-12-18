@@ -3801,5 +3801,13 @@
     "Label": "Explanation of why marriage or civl partnership details are not correct",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8LegalProceedingsDetailsCaseNumber",
+    "Label": "Case number(s)",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
   }
 ]
