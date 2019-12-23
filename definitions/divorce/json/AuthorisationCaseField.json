@@ -9107,6 +9107,34 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgain",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgainDetails",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceDetails,",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceDetails,",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "solApplicationFeeOrderSummary",
@@ -9657,6 +9685,34 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PhysicalSeparationDate",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MentalSeparationDate",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PhysicalSeparationDate",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8MentalSeparationDate",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PhysicalSeparationDate",
+    "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "CRU"
   },
   {
