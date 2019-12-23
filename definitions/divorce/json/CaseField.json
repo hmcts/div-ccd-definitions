@@ -3809,5 +3809,13 @@
     "Label": "Brief details to support the reasons for your application",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8LegalProceedingsDetailsCaseNumber",
+    "Label": "Case number(s)",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
   }
 ]
