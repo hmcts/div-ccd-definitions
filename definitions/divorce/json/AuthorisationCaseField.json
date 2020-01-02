@@ -9116,6 +9116,19 @@
   {
     "LiveFrom": "23/12/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgain",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgainDetails",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },  {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SeparationLivedTogetherAsCoupleAgainDetails",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "CRU"
