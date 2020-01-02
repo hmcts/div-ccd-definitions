@@ -3809,5 +3809,13 @@
     "Label": "Case number(s)",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "02/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespStatementofTruthSignedDate",
+    "Label": "Date Respondent statement of truth signed",
+    "FieldType": "Date",
+    "SecurityClassification": "PUBLIC"
   }
 ]
