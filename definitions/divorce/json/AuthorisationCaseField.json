@@ -4160,6 +4160,13 @@
   {
     "LiveFrom": "31/08/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespStatementofTruthSignedDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/08/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespConsentToEmail",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -9445,6 +9452,13 @@
   {
     "LiveFrom": "31/08/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespStatementofTruthSignedDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/08/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespConsentToEmail",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
@@ -12374,6 +12388,13 @@
     "CaseFieldID": "RespStatementOfTruth",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespStatementofTruthSignedDate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/06/2019",

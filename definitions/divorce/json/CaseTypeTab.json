@@ -1345,15 +1345,14 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "RespStatementOfTruth",
     "TabFieldDisplayOrder": 16
-  },
-  {
+  },  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespConsiderFinancialSituation",
+    "CaseFieldID": "RespStatementofTruthSignedDate",
     "TabFieldDisplayOrder": 17
   },
   {
@@ -1363,7 +1362,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespHardshipDefenseResponse",
+    "CaseFieldID": "RespConsiderFinancialSituation",
     "TabFieldDisplayOrder": 18
   },
   {
@@ -1373,7 +1372,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespHardshipDescription",
+    "CaseFieldID": "RespHardshipDefenseResponse",
     "TabFieldDisplayOrder": 19
   },
   {
@@ -1383,7 +1382,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "RespContactMethodIsDigital",
+    "CaseFieldID": "RespHardshipDescription",
     "TabFieldDisplayOrder": 20
   },
   {
@@ -1393,7 +1392,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAOSfromResp",
+    "CaseFieldID": "RespContactMethodIsDigital",
     "TabFieldDisplayOrder": 21
   },
   {
@@ -1403,7 +1402,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAOSfromRespDate",
+    "CaseFieldID": "ReceivedAOSfromResp",
     "TabFieldDisplayOrder": 22
   },
   {
@@ -1413,7 +1412,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "solAOSSOT",
+    "CaseFieldID": "ReceivedAOSfromRespDate",
     "TabFieldDisplayOrder": 23
   },
   {
@@ -1423,7 +1422,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "AosLetterHolderId",
+    "CaseFieldID": "solAOSSOT",
     "TabFieldDisplayOrder": 24
   },
   {
@@ -1433,7 +1432,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "dueDate",
+    "CaseFieldID": "AosLetterHolderId",
     "TabFieldDisplayOrder": 25
   },
   {
@@ -1443,7 +1442,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAnswerFromResp",
+    "CaseFieldID": "dueDate",
     "TabFieldDisplayOrder": 26
   },
   {
@@ -1453,7 +1452,7 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "ReceivedAnswerFromRespDate",
+    "CaseFieldID": "ReceivedAnswerFromResp",
     "TabFieldDisplayOrder": 27
   },
   {
@@ -1463,8 +1462,18 @@
     "TabID": "aosDetails",
     "TabLabel": "AOS",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "PermittedDecreeNisiReason",
+    "CaseFieldID": "ReceivedAnswerFromRespDate",
     "TabFieldDisplayOrder": 28
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "aosDetails",
+    "TabLabel": "AOS",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "PermittedDecreeNisiReason",
+    "TabFieldDisplayOrder": 29
   },
   {
     "LiveFrom": "01/01/2017",
