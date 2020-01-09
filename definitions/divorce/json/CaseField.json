@@ -361,6 +361,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8RespondentEmailAddress",
+    "Label": "Respondent Email address written in Petition",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8DerivedRespondentHomeAddress",

@@ -2639,6 +2639,34 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "RU"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentKnowsHomeAddress",
