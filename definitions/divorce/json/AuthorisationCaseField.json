@@ -2604,6 +2604,20 @@
     "CRUD": "RU"
   },
   {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentSolicitorReference",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentSolicitorReference",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "RU"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentCorrespondenceUseHomeAddress",
@@ -2692,6 +2706,20 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentEmailAddress",
     "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentEmailAddress",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "RU"
   },
   {
