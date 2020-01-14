@@ -3826,5 +3826,14 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "D8AppliesForStatementOfTruthEnum",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8FinancialOrderStatementOfTruth",
+    "Label": "That a financial order may be granted for",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "financialOrderForEnum",
+    "SecurityClassification": "PUBLIC"
   }
 ]
