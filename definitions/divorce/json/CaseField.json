@@ -3817,5 +3817,14 @@
     "Label": "Date Respondent statement of truth signed",
     "FieldType": "Date",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8AppliesForStatementOfTruth",
+    "Label": "The Petitioner applies for the following:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "D8AppliesForStatementOfTruthEnum",
+    "SecurityClassification": "PUBLIC"
   }
 ]
