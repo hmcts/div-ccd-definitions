@@ -3833,5 +3833,55 @@
     "Label": "Date Respondent statement of truth signed",
     "FieldType": "Date",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8AppliesForStatementOfTruth",
+    "Label": "The Petitioner applies for the following:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "D8AppliesForStatementOfTruthEnum",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8FinancialOrderStatementOfTruth",
+    "Label": "That a financial order may be granted for",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "financialOrderForEnum",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8FullNameStatementOfTruth",
+    "Label": "Full name on Statement of Truth",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8StatementOfTruthSignature",
+    "Label": "Has the statement of truth been signed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8StatementOfTruthDate",
+    "Label": "Statement of Truth Date",
+    "FieldType": "Date",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "14/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8SolicitorsFirmStatementOfTruth",
+    "Label": "Name of solicitor's firm on Statement of Truth",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
   }
 ]
