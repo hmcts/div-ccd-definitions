@@ -1174,5 +1174,26 @@
     "ListElementCode": "other",
     "ListElement": "Enter free Text / Make free text order",
     "DisplayOrder": 6
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "D8AppliesForStatementOfTruthEnum",
+    "ListElementCode": "marriage",
+    "ListElement": "Marriage be dissolved",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "D8AppliesForStatementOfTruthEnum",
+    "ListElementCode": "dissolution",
+    "ListElement": "Civil partnership be dissolved",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "ID": "D8AppliesForStatementOfTruthEnum",
+    "ListElementCode": "separation",
+    "ListElement": "The Petitioner be (judicially) separated from the Respondent",
+    "DisplayOrder": 3
   }
 ]
