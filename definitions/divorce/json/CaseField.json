@@ -3819,6 +3819,14 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "LiveFrom": "23/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceDetails",
+    "Label": "Brief details to support the reasons for your application",
+    "FieldType": "Text",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "D8LegalProceedingsDetailsCaseNumber",
