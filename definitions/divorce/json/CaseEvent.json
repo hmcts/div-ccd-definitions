@@ -2743,7 +2743,7 @@
     "Description": "Create a case from scanned documents",
     "DisplayOrder": 20,
     "PreConditionState(s)": "*",
-    "PostConditionState": "*",
+    "PostConditionState": "Submitted",
     "SecurityClassification": "Public"
   },
   {
