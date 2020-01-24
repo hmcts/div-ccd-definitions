@@ -2742,7 +2742,6 @@
     "Name": "Bulk Scanning - Case Create",
     "Description": "Create a case from scanned documents",
     "DisplayOrder": 20,
-    "PreConditionState(s)": "*",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public"
   },
