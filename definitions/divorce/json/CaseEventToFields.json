@@ -190,7 +190,6 @@
     "PageID": "submitted",
     "PageLabel": "Issue from Submitted",
     "PageDisplayOrder": 1,
-    "FieldShowCondition": "PreviousCaseId.CaseReference=\"\"",
     "ShowSummaryChangeOption": "No"
   },
   {
