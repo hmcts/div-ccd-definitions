@@ -224,13 +224,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "03/02/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingAosSolicitor",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPronouncement",

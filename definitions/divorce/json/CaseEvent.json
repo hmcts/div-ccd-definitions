@@ -719,7 +719,7 @@
     "Name": "Transfer from CTSC to RDC",
     "Description": "Transfer from CTSC to an RDC",
     "DisplayOrder": 19,
-    "PreConditionState(s)": "AwaitingAosSolicitor",
+    "PreConditionState(s)": "AosAwaitingSol",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public"
   },
