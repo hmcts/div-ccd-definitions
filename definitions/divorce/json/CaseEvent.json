@@ -715,11 +715,11 @@
   {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "transferCaseFromCTSCpronounce",
+    "ID": "transferCaseFromCTSCAosSolicitor",
     "Name": "Transfer from CTSC to RDC",
     "Description": "Transfer from CTSC to an RDC",
-    "DisplayOrder": 11,
-    "PreConditionState(s)": "AwaitingPronouncement",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "AwaitingAosSolicitor",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public"
   },
