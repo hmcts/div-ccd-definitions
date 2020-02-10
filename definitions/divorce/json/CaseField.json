@@ -201,6 +201,15 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "LanguagePreferenceWelsh",
+    "Label": "Is the language preference Welsh?",
+    "HintText": "Please choose language preference (default English), \"Yes\" for Welesh",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8PetitionerEmail",
     "Label": "Petitioner's email address",
     "FieldType": "Email",

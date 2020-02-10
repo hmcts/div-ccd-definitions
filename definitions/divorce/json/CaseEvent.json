@@ -13,6 +13,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "UpdateLanguage",
+    "Name": "Update Language",
+    "Description": "Update Language",
+    "DisplayOrder": 12,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "generalApplicationReceived",
     "Name": "General application received",
     "Description": "General application received",
