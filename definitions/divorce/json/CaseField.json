@@ -202,8 +202,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LanguagePreferenceWelsh",
-    "Label": "Is the language preference Welsh?",
-    "HintText": "Please choose language preference (default English), \"Yes\" for Welsh",
+    "Label": "Is the case bilingual (English and Welsh) ?",
+    "HintText": "Select \"No\" for English or \"Yes\" for bilingual",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
