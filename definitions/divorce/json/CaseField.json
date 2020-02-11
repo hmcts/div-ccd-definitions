@@ -203,7 +203,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "LanguagePreferenceWelsh",
     "Label": "Is the language preference Welsh?",
-    "HintText": "Please choose language preference (default English), \"Yes\" for Welesh",
+    "HintText": "Please choose language preference (default English), \"Yes\" for Welsh",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
