@@ -1097,6 +1097,7 @@
     "DisplayOrder": 2,
     "PostConditionState": "AwaitingHWFDecision",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
