@@ -11555,5 +11555,29 @@
     "PageLabel": "Submit DN Clarification",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+  "LiveFrom": "01/01/2017",
+  "CaseTypeID": "DIVORCE",
+  "CaseEventID": "UpdateLanguage",
+  "CaseFieldID": "LanguagePreferenceWelsh",
+  "PageFieldDisplayOrder": 1,
+  "DisplayContext": "OPTIONAL",
+  "PageID": 1,
+  "PageLabel": "Update Language",
+  "PageDisplayOrder": 1,
+  "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "hwfCreate",
+    "CaseFieldID": "LanguagePreferenceWelsh",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageLabel": "Select Language",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
