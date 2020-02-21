@@ -2516,8 +2516,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "SecurityClassification": "Public"
   },
   {
