@@ -6224,7 +6224,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "transferCaseFromCTSCpronounce",
+    "CaseEventID": "transferCaseFromCTSCAosSolicitor",
     "CaseFieldID": "D8DivorceUnit",
     "DisplayContext": "MANDATORY",
     "PageID": "Transfer Case",
