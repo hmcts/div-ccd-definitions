@@ -15192,7 +15192,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8LegalProcess",
+    "CaseFieldID": "D8legalProcess",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "CRU"
   },

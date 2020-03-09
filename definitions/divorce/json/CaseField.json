@@ -3860,13 +3860,5 @@
     "Label": "Name of solicitor's firm on Statement of Truth",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "D8LegalProcess",
-    "Label": "D8LegalProcess",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
   }
 ]
