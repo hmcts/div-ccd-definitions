@@ -244,6 +244,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8PetitionerHasNameChanged",
+    "Label": "Did the petitioner change their name?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8PetitionerNameChangedHow",
     "Label": "How did the petitioner change their name?",
     "FieldType": "MultiSelectList",
@@ -333,6 +341,15 @@
     "ID": "D8RespondentLastName",
     "Label": "Respondent's Last name",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8RespondentPhoneNumber",
+    "Label": "Respondent's phone number",
+    "FieldType": "Text",
+    "RegularExpression": "^[0-9 +().-]{9,}$",
     "SecurityClassification": "Public"
   },
   {
@@ -1270,6 +1287,14 @@
     "ID": "LabelSolAboutTheSolPara-1",
     "Label": "Please note that the information provided will be used as evidence by the court to decide if the petitioner is entitled to legally end their marriage. **A copy of this form is sent to the respondent**",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerSolicitor",
+    "Label": "Is petitioner using a solicitor?",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
