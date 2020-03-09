@@ -14989,13 +14989,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHow",
-    "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8StatementOfTruthDate",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "CRU"
