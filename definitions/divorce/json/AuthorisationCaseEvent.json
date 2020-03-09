@@ -6325,7 +6325,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "createCase",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
@@ -6339,7 +6339,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "createCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
