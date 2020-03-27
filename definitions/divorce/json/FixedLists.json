@@ -582,6 +582,12 @@
     "ListElement": "Help with fees"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "ID": "solHowToPay",
+    "ListElementCode": "cheque",
+    "ListElement": "Cheque (DO NOT USE)"
+  },
+  {
     "LiveFrom": "31/08/2018",
     "ID": "AOSResponseEnum",
     "ListElementCode": "proceed",
