@@ -74,6 +74,7 @@ describe('CaseTypeTab', () => {
     coRespondent: 22,
     SolicitorCoRespondent: 23,
     LinkedCase: 24,
+    Language: 25,
     General: 1
   };
   tabIds.forEach(tabId => {
