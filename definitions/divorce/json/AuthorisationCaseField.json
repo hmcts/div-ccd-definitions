@@ -15045,20 +15045,6 @@
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LanguagePreferenceWelsh",
-    "UserRole": "caseworker-bulkscan",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "18/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LanguagePreferenceWelsh",
-    "UserRole": "caseworker-divorce",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "18/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LanguagePreferenceWelsh",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
