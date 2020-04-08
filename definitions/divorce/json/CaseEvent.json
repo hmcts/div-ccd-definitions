@@ -726,11 +726,11 @@
   {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "transferCaseFromCTSCpronounce",
+    "ID": "transferCaseFromCTSCAosSolicitor",
     "Name": "Transfer from CTSC to RDC",
     "Description": "Transfer from CTSC to an RDC",
-    "DisplayOrder": 11,
-    "PreConditionState(s)": "AwaitingPronouncement",
+    "DisplayOrder": 19,
+    "PreConditionState(s)": "AosAwaitingSol",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public"
   },
@@ -2529,8 +2529,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
     "SecurityClassification": "Public"
   },
   {
@@ -2755,8 +2755,7 @@
     "Name": "Bulk Scanning - Case Create",
     "Description": "Create a case from scanned documents",
     "DisplayOrder": 20,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
+    "PostConditionState": "Submitted",
     "SecurityClassification": "Public"
   },
   {
