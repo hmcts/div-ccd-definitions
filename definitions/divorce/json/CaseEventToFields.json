@@ -2161,6 +2161,18 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "LanguagePreferenceWelsh",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "langPref",
+    "PageLabel": "Select Language",
+    "PageDisplayOrder": 19,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolStatementOfTruthPara-1",
     "PageFieldDisplayOrder": 1,
