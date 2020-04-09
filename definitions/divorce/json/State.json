@@ -339,5 +339,13 @@
     "Description": "Awaiting admin clarification",
     "DisplayOrder": 22,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOCaseStopped",
+    "Name": "Case stopped",
+    "Description": "Case stopped",
+    "DisplayOrder": 23,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]

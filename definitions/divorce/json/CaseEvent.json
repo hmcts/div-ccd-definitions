@@ -21,6 +21,16 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public"
   },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boStopCaseForCaseCreated",
+    "Name": "Stop case",
+    "Description": "Stop case",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "BOCaseStopped",
+    "SecurityClassification": "Public",
+    "ShowSummary": "N"},
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",

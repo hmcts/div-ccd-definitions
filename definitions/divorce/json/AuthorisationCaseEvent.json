@@ -6424,5 +6424,82 @@
     "CaseEventID": "UpdateLanguage",
     "UserRole": "caseworker",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-bulkscan",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "UserRole": "caseworker",
+    "CRUD": "CRU"
   }
 ]
