@@ -753,7 +753,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
