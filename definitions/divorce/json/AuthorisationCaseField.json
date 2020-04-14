@@ -15036,13 +15036,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "18/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LanguagePreferenceWelsh",
-    "UserRole": "caseworker",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerSolicitorEmail",
