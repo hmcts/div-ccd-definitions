@@ -5579,11 +5579,11 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/09/2019",
+    "LiveFrom": "23/09/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solApplyForDA",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/09/2019",
