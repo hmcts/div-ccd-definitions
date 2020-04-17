@@ -1202,5 +1202,12 @@
     "ListElementCode": "WelshTranslationRequired",
     "ListElement": "Welsh Translation Required",
     "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "caseResolveReasonList",
+    "ListElementCode": "WelshTranslationReceived",
+    "ListElement": "Welsh Translation Received",
+    "DisplayOrder": 1
   }
 ]

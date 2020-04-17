@@ -11518,5 +11518,15 @@
     "PageID": "boStopCaseForCaseCreatedPage1",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "n"
+  },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boResolveStopForCase",
+    "CaseFieldID": "boCaseResolveReasonList",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "boResolveStopPage1",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "n"
   }
 ]

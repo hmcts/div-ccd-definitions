@@ -3878,5 +3878,15 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "boCaseStopReason",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boCaseResolveReasonList",
+    "Label": "Reason for resolve for stop case",
+    "HintText": "Reason for resolve for stop case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "boResolveStopState",
+    "SecurityClassification": "Public"
   }
 ]
