@@ -6409,7 +6409,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boStopCaseForCaseCreated",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
@@ -6465,7 +6465,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boResolveStopForCase",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
