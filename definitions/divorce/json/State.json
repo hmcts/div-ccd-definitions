@@ -347,13 +347,5 @@
     "Description": "Case stopped",
     "DisplayOrder": 23,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {"LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "BOCaseResolve",
-    "Name": "Case resolved",
-    "Description": "Case resolved",
-    "DisplayOrder": 24,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
