@@ -2034,7 +2034,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAdminClarification",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "R"
+    "CRUD": "RU"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2084,5 +2084,12 @@
     "CaseStateID": "BOCaseStopped",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "BOCaseStopped",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "RU"
   }
 ]
