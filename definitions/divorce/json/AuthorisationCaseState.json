@@ -2034,7 +2034,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAdminClarification",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
