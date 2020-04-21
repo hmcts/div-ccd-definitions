@@ -949,126 +949,126 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCAos",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCoverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCstarted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCanswer",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCclarify",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCconsider",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDA",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDN",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDocs",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSChwf",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLA",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCpayment",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCAosSolicitor",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreissue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCissued",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCpendReject",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCrejected",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCsubmitted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
@@ -1201,14 +1201,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseToNewRDC",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseToNewRDC",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2678,133 +2678,133 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCAos",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCoverdue",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCstarted",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCanswer",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCclarify",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCconsider",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDA",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDN",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCawaitDocs",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSChwf",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLA",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCpayment",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCAosSolicitor",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreissue",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCissued",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCpendReject",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCrejected",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/12/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCsubmitted",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseToNewRDC",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -5947,7 +5947,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLAClarification",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "13/12/2018",
@@ -6017,7 +6017,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromCTSCreferLAClarification",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
