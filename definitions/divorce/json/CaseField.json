@@ -3869,5 +3869,24 @@
     "Label": "Name of solicitor's firm on Statement of Truth",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boCaseStopReasonList",
+    "Label": "Case stop reason",
+    "HintText": "Reason for stopping the case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "boCaseStopReason",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boCaseResolveReasonList",
+    "Label": "Reason for resolve for stop case",
+    "HintText": "Reason for resolve for stop case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "boResolveStopState",
+    "SecurityClassification": "Public"
   }
 ]

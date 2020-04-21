@@ -11507,5 +11507,26 @@
     "PageLabel": "Select Language",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseFieldID": "boCaseStopReasonList",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "boStopCaseForCaseCreatedPage1",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "n"
+  },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boResolveStopForCase",
+    "CaseFieldID": "boCaseResolveReasonList",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "boResolveStopPage1",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "n"
   }
 ]
