@@ -15342,5 +15342,117 @@
     "CaseFieldID": "D8CertificateInEnglish",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-AboutSolicitor",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-AboutPetitioner",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-AboutRespondent",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-CertificationDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-Jurisdiction",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-ReasonForDivorce",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-Separation",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-Desertion",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-Adultery",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-AdulteryCoResp",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-Behaviour",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-LivedApart",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-LegalProceedings",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-FinancialOrders",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-ClaimCosts",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelSolAboutEditingApplication-UploadMarriageCert",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
   }
 ]

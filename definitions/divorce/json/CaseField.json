@@ -3860,5 +3860,133 @@
     "Label": "Name of solicitor's firm on Statement of Truth",
     "FieldType": "Text",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-AboutSolicitor",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-AboutPetitioner",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-AboutRespondent",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-CertificationDetails",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-Jurisdiction",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-ReasonForDivorce",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-Separation",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-Desertion",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-Adultery",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-AdulteryCoResp",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-Behaviour",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-LivedApart",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-LegalProceedings",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-FinancialOrders",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-ClaimCosts",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/04/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolAboutEditingApplication-UploadMarriageCert",
+    "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
