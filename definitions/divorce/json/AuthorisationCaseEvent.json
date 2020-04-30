@@ -6407,112 +6407,112 @@
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boStopCaseForCaseCreated",
+    "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boResolveStopForCase",
+    "CaseEventID": "boTranslationReceivedFromWLU",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   }

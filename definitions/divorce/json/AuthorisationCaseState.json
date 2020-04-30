@@ -2039,56 +2039,56 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "RU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "BOCaseStopped",
+    "CaseStateID": "BOTranslationRequested",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "RU"
   }
