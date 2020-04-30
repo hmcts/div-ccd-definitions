@@ -342,9 +342,9 @@
   },
   {"LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "BOCaseStopped",
-    "Name": "Case stopped",
-    "Description": "Case stopped",
+    "ID": "BOTranslationRequested",
+    "Name": "Translation Requested",
+    "Description": "Translation Requested",
     "DisplayOrder": 23,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }

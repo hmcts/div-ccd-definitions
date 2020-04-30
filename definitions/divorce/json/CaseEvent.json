@@ -2772,24 +2772,24 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "boStopCaseForCaseCreated",
-    "Name": "Stop case",
-    "Description": "Stop case",
+    "ID": "boRequestTranslationFromWLU",
+    "Name": "Request Translation from WLU",
+    "Description": "Request Translation from WLU",
     "DisplayOrder": 23,
     "PreConditionState(s)": "Submitted;PendingRejection",
-    "PostConditionState": "BOCaseStopped",
+    "PostConditionState": "BOTranslationRequested",
     "SecurityClassification": "Public",
     "ShowSummary": "N"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "boResolveStopForCase",
-    "Name": "Resolve stop",
-    "Description": "Resolve the stop placed on the case",
+    "ID": "boTranslationReceivedFromWLU",
+    "Name": "Translation Received from WLU",
+    "Description": "Resolve the Petition submitted, Awaiting Translation Received ",
     "DisplayOrder": 32,
-    "PreConditionState(s)": "BOCaseStopped",
-    "PostConditionState": "Issued",
+    "PreConditionState(s)": "BOTranslationRequested",
+    "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
     "ShowSummary": "N"
   }
