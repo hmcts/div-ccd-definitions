@@ -2755,5 +2755,15 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "04/05/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AddPaperAOS",
+    "Name": "Add Paper AoS",
+    "Description": "Add Paper Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting",
+    "PostConditionState": "AosDrafted"
   }
 ]
