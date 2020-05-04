@@ -5289,7 +5289,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSubmitAOS",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/06/2019",
