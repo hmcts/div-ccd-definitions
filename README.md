@@ -12,6 +12,20 @@ Install requiered node version using `nvm install`
 
 Run `yarn install && yarn setup` to install the dependencies for both this project and the submodule
 
+## Feature toggle
+If you want to test something on local, aat or demo env, but don't want to release it on prod make sure you move
+all definitions you don't want to release to a file with suffix "-nonprod.json".
+
+To do it, you need to create a folder for files related to that xlsx tab, eg: "AuthorisationCaseEvent" where you move
+the production file "AuthorisationCaseEvent.json" and you create another one with definitions you don't want to release
+yet (eg. AuthorisationCaseEvent-noprod.json, but can be any name such as "definitions-for-bsp-ABC-nonprod.json").
+
+When "toggled off" definitions can be released, just move them to the prod file and remove them from nonprod file.
+Then follow the typical release process.
+
+Please read more here:
+https://tools.hmcts.net/confluence/display/BSP/Feature+toggle+for+CCD+definition
+
 ## Convert JSON to Excel
 
 ### For all environments
