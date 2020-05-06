@@ -113,8 +113,7 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       'SolicitorCoRespondent',
-      'LinkedCase',
-      'Language'
+      'LinkedCase'
     ]);
   });
   it('should contain a valid case field IDs', () => {
