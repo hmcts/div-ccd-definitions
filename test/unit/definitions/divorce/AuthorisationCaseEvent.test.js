@@ -1,9 +1,8 @@
 const expect = require('chai').expect;
 const { uniqWith } = require('lodash');
 
+const load = require;
 const authCaseEventCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), {});
-const nonprod = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod'), {});
-const onlyProd = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-only-for-prod'), {});
 
 function isDuplicated(field1, field2) {
   return field1.CaseTypeID === field2.CaseTypeID
@@ -12,12 +11,10 @@ function isDuplicated(field1, field2) {
 }
 
 function mergeJsonFilesFor(whatEnvs) {
-  const authCaseForEnvs = {
-    nonprod,
-    'only-for-prod': onlyProd
-  };
+  const authCaseForSpecificEnvs = Object
+    .assign(load(`definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-${whatEnvs}`), {});
 
-  return [...authCaseEventCommon, ...authCaseForEnvs[whatEnvs]];
+  return [...authCaseEventCommon, ...authCaseForSpecificEnvs];
 }
 
 describe('AuthorisationCaseEvent', () => {
