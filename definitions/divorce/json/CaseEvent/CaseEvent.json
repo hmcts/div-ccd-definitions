@@ -13,17 +13,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "UpdateLanguage",
-    "Name": "Update Language",
-    "Description": "Update Language",
-    "DisplayOrder": 12,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "generalApplicationReceived",
     "Name": "General application received",
     "Description": "General application received",
@@ -1097,7 +1086,6 @@
     "DisplayOrder": 2,
     "PostConditionState": "AwaitingHWFDecision",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -1110,7 +1098,6 @@
     "DisplayOrder": 1,
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
@@ -2768,29 +2755,5 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boRequestTranslationFromWLU",
-    "Name": "Request Translation from WLU",
-    "Description": "Request Translation from WLU",
-    "DisplayOrder": 23,
-    "PreConditionState(s)": "Submitted;PendingRejection",
-    "PostConditionState": "BOTranslationRequested",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boTranslationReceivedFromWLU",
-    "Name": "Translation Received from WLU",
-    "Description": "Resolve the Petition submitted, Awaiting Translation Received ",
-    "DisplayOrder": 32,
-    "PreConditionState(s)": "BOTranslationRequested",
-    "PostConditionState": "Submitted",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
   }
 ]

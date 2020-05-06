@@ -3279,15 +3279,5 @@
     "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
     "TabFieldDisplayOrder": 5,
     "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "Language",
-    "TabLabel": "Language",
-    "TabDisplayOrder": 25,
-    "CaseFieldID": "LanguagePreferenceWelsh",
-    "TabFieldDisplayOrder": 1
   }
 ]
