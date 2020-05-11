@@ -110,6 +110,60 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "WelshResponseAwaitingReview",
+    "Name": "Welsh Response Awaiting Review",
+    "Description": "Welsh Response Awaiting Review",
+    "DisplayOrder": 15,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshResponseAwaitingReviewReceived",
+    "Name": "Welsh Resp. Await Review (Rcd)",
+    "Description": "Welsh Response Awaiting Review Received",
+    "DisplayOrder": 17,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AOSWelshTranslationRequested",
+    "Name": "Welsh Translation Requested",
+    "Description": "Welsh Translation Requested",
+    "DisplayOrder": 16,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AOSReceivedWelshTranslationRequested",
+    "Name": "Welsh Translation Req. (Rcd)",
+    "Description": "Welsh Translation Requested AOS Received",
+    "DisplayOrder": 18,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshResponseAwaitingReviewDefended",
+    "Name": "Welsh Resp. Await Review (def)",
+    "Description": "Welsh Translation Await Review (Defended)",
+    "DisplayOrder": 19,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AOSWelshTranslationDefendedRequested",
+    "Name": "Welsh Translation Req. (def)",
+    "Description": "Welsh Translation Requested (Defended)",
+    "DisplayOrder": 20,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "AwaitingDecreeNisi",
     "Name": "Awaiting DN application",
     "Description": "Awaiting DN application",
