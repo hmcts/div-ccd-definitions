@@ -10,8 +10,8 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "WelshResponseAwaitingReview",
-    "Name": "Welsh Response Awaiting Review",
+    "ID": "WelshResponseAwaitingReviewUndefended",
+    "Name": "Welsh Resp Awaiting Review Und",
     "Description": "Welsh Response Awaiting Review",
     "DisplayOrder": 24,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
@@ -19,17 +19,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "WelshResponseAwaitingReviewReceived",
-    "Name": "Welsh Resp. Await Review (Rcd)",
-    "Description": "Welsh Response Awaiting Review Received",
+    "ID": "WelshResponseAwaitingReviewAosReceived",
+    "Name": "Welsh Resp Await Revw (AOS Rcd)",
+    "Description": "Welsh Response Awaiting Review - AOS Received",
     "DisplayOrder": 25,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "AOSWelshTranslationRequested",
-    "Name": "Welsh Translation Requested",
+    "ID": "AOSUndefendedWelshTranslationRequested",
+    "Name": "Trans Requested (AOS undfd)",
     "Description": "Welsh Translation Requested",
     "DisplayOrder": 26,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
@@ -38,8 +38,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "AOSReceivedWelshTranslationRequested",
-    "Name": "Welsh Translation Req. (Rcd)",
-    "Description": "Welsh Translation Requested AOS Received",
+    "Name": "Trans Requested (AOS Rcd)",
+    "Description": "Welsh Translation Requested - AOS Received",
     "DisplayOrder": 27,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
@@ -47,8 +47,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "WelshResponseAwaitingReviewDefended",
-    "Name": "Welsh Resp. Await Review (def)",
-    "Description": "Welsh Translation Await Review (Defended)",
+    "Name": "Welsh Resp Review (AOS Sub df)",
+    "Description": "Welsh Translation Await Review - AOS Submitted (defended)",
     "DisplayOrder": 28,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
@@ -56,8 +56,8 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "AOSWelshTranslationDefendedRequested",
-    "Name": "Welsh Translation Req. (def)",
-    "Description": "Welsh Translation Requested (Defended)",
+    "Name": "Trans Requested (AOS Sub df)",
+    "Description": "Welsh Translation Requested - AOS Submitted (defended)",
     "DisplayOrder": 29,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
