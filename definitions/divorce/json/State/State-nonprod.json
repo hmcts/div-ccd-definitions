@@ -60,5 +60,24 @@
     "Description": "Welsh Translation Requested - AOS Submitted (defended)",
     "DisplayOrder": 29,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshDNisRefused",
+    "Name": "Welsh DN Refused",
+    "Description": "Welsh DN Refused",
+    "DisplayOrder": 30,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshDNiRefusedTransRequested",
+    "Name": "Translation Requested - DN Ref",
+    "Description": "Translation Requested - DN Refused",
+    "DisplayOrder": 31,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
+
 ]

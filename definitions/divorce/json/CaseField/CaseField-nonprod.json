@@ -7,5 +7,13 @@
     "HintText": "Select \"No\" for English or \"Yes\" for bilingual",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshRefusalRejectionAdditionalInfo",
+    "Label": "Welsh Rejection additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]

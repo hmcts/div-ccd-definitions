@@ -34,5 +34,17 @@
     "PageLabel": "Select Language",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AddWelshRefusalAdditionalInfo",
+    "CaseFieldID": "WelshRefusalRejectionAdditionalInfo",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageLabel": "Add Welsh Refusal Additional Info",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
