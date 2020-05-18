@@ -5,7 +5,7 @@ const { uniq } = require('lodash');
 
 const Config = {
   AuthorisationCaseEvent: Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), []),
-  AuthorisationCaseField: Object.assign(require('definitions/divorce/json/AuthorisationCaseField'), []),
+  AuthorisationCaseField: Object.assign(require('definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField'), []),
   AuthorisationCaseState: Object.assign(require('definitions/divorce/json/AuthorisationCaseState'), []),
   AuthorisationCaseType: Object.assign(require('definitions/divorce/json/AuthorisationCaseType'), []),
   AuthorisationComplexType: Object.assign(require('definitions/divorce/json/AuthorisationComplexType'), []),
