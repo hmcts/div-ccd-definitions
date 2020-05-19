@@ -15,7 +15,7 @@ const Config = {
   CaseField: Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []),
   CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
   CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
-  CaseTypeTab: Object.assign(require('definitions/divorce/json/CaseTypeTab'), []),
+  CaseTypeTab: Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), []),
   ComplexTypes: Object.assign(require('definitions/divorce/json/ComplexTypes'), []),
   FixedLists: Object.assign(require('definitions/divorce/json/FixedLists'), []),
   Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
