@@ -113,5 +113,44 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dnRefusedRequestTranslationFromWLU",
+    "Name": "Request Translation - DN Ref",
+    "Description": "Request Translation from WLU - DN Refused",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "WelshDNisRefused",
+    "PostConditionState": "WelshDNiRefusedTransRequested",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dnRefusedReceivedTranslationFromWLU",
+    "Name": "Welsh Translation Resolved",
+    "Description": "Received Translation from WLU - DN Refused",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "WelshDNiRefusedTransRequested",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
+    "RetriesTimeoutURLSubmittedEvent": "30,30",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AddWelshRefusalAdditionalInfo",
+    "Name": "Welsh Refusal Additional Info",
+    "Description": "Welsh Refusal Additional Info",
+    "DisplayOrder": 12,
+    "PreConditionState(s)": "WelshDNiRefusedTransRequested",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
   }
 ]
