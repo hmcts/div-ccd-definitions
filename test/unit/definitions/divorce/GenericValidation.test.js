@@ -12,7 +12,7 @@ const Config = {
   CaseEvent: Object.assign(require('definitions/divorce/json/CaseEvent'), []),
   CaseEventToComplexTypes: Object.assign(require('definitions/divorce/json/CaseEventToComplexTypes'), []),
   CaseEventToFields: Object.assign(require('definitions/divorce/json/CaseEventToFields'), []),
-  CaseField: Object.assign(require('definitions/divorce/json/CaseField'), []),
+  CaseField: Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []),
   CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
   CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
   CaseTypeTab: Object.assign(require('definitions/divorce/json/CaseTypeTab'), []),

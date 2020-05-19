@@ -1,0 +1,60 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorRepresented",
+    "Label": "Is the co-respondent represented by a solicitor?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorName",
+    "Label": "Co-respondent's solicitor's name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorAddress",
+    "Label": "Co-respondent's solicitor's address",
+    "FieldType": "AddressBaseUk",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorPhone",
+    "Label": "Co-respondent's solicitor's Phone number",
+    "FieldType": "Text",
+    "RegularExpression": "^[0-9 +().-]{9,}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorEmail",
+    "Label": "Co-respondent's solicitor's Email",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DerivedCoRespondentSolicitorAddr",
+    "Label": "Co-respondent's solicitor's firm/ DX address",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespSolAOSSOT",
+    "Label": "Solicitor Statement of Truth",
+    "HintText": "The solicitor believes that the facts stated in this response are true",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  }
+]
