@@ -10,55 +10,19 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "WelshResponseAwaitingReviewUndefended",
-    "Name": "Welsh Resp Awaiting Review Und",
-    "Description": "Welsh Response Awaiting Review",
-    "DisplayOrder": 24,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "WelshResponseAwaitingReviewAosReceived",
-    "Name": "Welsh Resp Await Revw (AOS Rcd)",
-    "Description": "Welsh Response Awaiting Review - AOS Received",
-    "DisplayOrder": 25,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "AOSUndefendedWelshTranslationRequested",
-    "Name": "Trans Requested (AOS undfd)",
-    "Description": "Welsh Translation Requested",
-    "DisplayOrder": 26,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "AOSReceivedWelshTranslationRequested",
-    "Name": "Trans Requested (AOS Rcd)",
-    "Description": "Welsh Translation Requested - AOS Received",
-    "DisplayOrder": 27,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "WelshResponseAwaitingReviewDefended",
-    "Name": "Welsh Resp Review (AOS Sub df)",
-    "Description": "Welsh Translation Await Review - AOS Submitted (defended)",
+    "ID": "WelshResponseAwaitingReview",
+    "Name": "Welsh AOS",
+    "Description": "Welsh AOS",
     "DisplayOrder": 28,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "AOSWelshTranslationDefendedRequested",
-    "Name": "Trans Requested (AOS Sub df)",
-    "Description": "Welsh Translation Requested - AOS Submitted (defended)",
-    "DisplayOrder": 29,
+    "ID": "BOTranslationRequestedAuto",
+    "Name": "Trans Requested For Auto Stop",
+    "Description": "Translation Requested",
+    "DisplayOrder": 28,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
