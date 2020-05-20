@@ -24,7 +24,7 @@ const Config = {
   SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
   State: Object.assign(require('definitions/divorce/json/State/State'), []),
   UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
-  WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields'), []),
+  WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
   WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
 };
 
