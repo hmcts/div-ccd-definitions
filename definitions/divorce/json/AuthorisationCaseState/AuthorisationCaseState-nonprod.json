@@ -58,336 +58,105 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "RU"
   },
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewUndefended",
+    "CaseStateID": "WelshResponseAwaitingReview",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "RU"
   },
   {
-    "LiveFrom": "09/11/2018",
+    "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
+    "CaseStateID": "BOTranslationRequestedAuto",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CaseStateID": "BOTranslationRequestedAuto",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
+    "CaseStateID": "BOTranslationRequestedAuto",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "BOTranslationRequestedAuto",
     "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
+    "CaseStateID": "BOTranslationRequestedAuto",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
+    "CaseStateID": "BOTranslationRequestedAuto",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSUndefendedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewAosReceived",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSReceivedWelshTranslationRequested",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshResponseAwaitingReviewDefended",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-bulkscan",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AOSWelshTranslationDefendedRequested",
+    "CaseStateID": "BOTranslationRequestedAuto",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "RU"
   },

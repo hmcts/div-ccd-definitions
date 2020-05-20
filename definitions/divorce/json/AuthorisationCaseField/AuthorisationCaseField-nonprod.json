@@ -56,6 +56,62 @@
     "CRUD": "CRU"
   },
   {
+  "LiveFrom": "09/11/2018",
+  "CaseTypeID": "DIVORCE",
+  "CaseFieldID": "WelshNextEvent",
+  "UserRole": "caseworker-divorce-courtadmin_beta",
+  "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "WelshNextEvent",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "WelshRefusalRejectionAdditionalInfo",
