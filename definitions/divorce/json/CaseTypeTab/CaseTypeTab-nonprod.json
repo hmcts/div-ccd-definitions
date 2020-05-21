@@ -80,8 +80,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespondentSolicitorRepresented",
-    "TabFieldDisplayOrder": 8,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 8
   },
   {
     "LiveFrom": "01/01/2017",
@@ -91,8 +90,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespondentSolicitorName",
-    "TabFieldDisplayOrder": 9,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 9
   },
   {
     "LiveFrom": "01/01/2017",
@@ -102,8 +100,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespondentSolicitorAddress",
-    "TabFieldDisplayOrder": 10,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 10
   },
   {
     "LiveFrom": "01/01/2017",
@@ -113,8 +110,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespondentSolicitorPhone",
-    "TabFieldDisplayOrder": 11,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 11
   },
   {
     "LiveFrom": "01/01/2017",
@@ -124,8 +120,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespondentSolicitorEmail",
-    "TabFieldDisplayOrder": 12,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 12
   },
   {
     "LiveFrom": "01/01/2017",
@@ -135,8 +130,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
-    "TabFieldDisplayOrder": 13,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 13
   },
   {
     "LiveFrom": "01/01/2017",
@@ -146,8 +140,7 @@
     "TabLabel": "Co-Respondent",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CoRespSolAOSSOT",
-    "TabFieldDisplayOrder": 14,
-    "FieldShowCondition": "coRespondentContactDetailsConfidential!=\"Yes\""
+    "TabFieldDisplayOrder": 14
   },
   {
     "LiveFrom": "01/01/2017",
