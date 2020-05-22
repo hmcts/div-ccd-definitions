@@ -63,10 +63,12 @@
     "Name": "Welsh Translation Resolved",
     "Description": "Welsh Translation Resolved",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "BOTranslationRequestedAuto",
+    "PreConditionState(s)": "BOTranslationRequested;BOTranslationRequestedAuto",
     "PostConditionState": "*",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-continue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welsh-continue-intercept",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-continue",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
