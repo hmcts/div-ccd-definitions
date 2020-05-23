@@ -292,12 +292,5 @@
     "CaseEventID": "AddWelshRefusalAdditionalInfo",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "issueAos",
-    "UserRole": "caseworker",
-    "CRUD": "CRU"
   }
 ]
