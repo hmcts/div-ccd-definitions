@@ -27,40 +27,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "boTranslationReceivedFromWLU",
-    "Name": "Translation Received from WLU",
-    "Description": "Resolve the Petition submitted, Awaiting Translation Received ",
-    "DisplayOrder": 32,
-    "PreConditionState(s)": "BOTranslationRequested",
-    "PostConditionState": "Submitted",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boWelshReview",
-    "Name": "Welsh Translation Review",
-    "Description": "Welsh Translation Review",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "AosStarted;AosOverdue",
-    "PostConditionState": "WelshResponseAwaitingReview",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boRequestTranslationFromWLUAuto",
-    "Name": "Request Trans from WLU (auto)",
-    "Description": "Request Trans from WLU (auto)",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "WelshResponseAwaitingReview",
-    "PostConditionState": "BOTranslationRequestedAuto",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "boWelshReviewTransResolved",
     "Name": "Welsh Translation Resolved",
     "Description": "Welsh Translation Resolved",

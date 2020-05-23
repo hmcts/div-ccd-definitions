@@ -17,15 +17,6 @@
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "BOTranslationRequestedAuto",
-    "Name": "Trans Requested For Auto Stop",
-    "Description": "Translation Requested",
-    "DisplayOrder": 28,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "WelshDNisRefused",
