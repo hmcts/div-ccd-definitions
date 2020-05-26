@@ -52,6 +52,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "updateNextWelshCaseEvent",
+    "Name": "Update Next Welsh Case Event",
+    "Description": "Update Next Welsh Case Event",
+    "DisplayOrder": 12,
+    "PreConditionState(s)": "BOTranslationRequested",
+    "PostConditionState": "BOTranslationRequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "aosSubmittedUndefended",
     "Name": "AOS Received (undefended)",
     "Description": "AOS Received (undefended)",
