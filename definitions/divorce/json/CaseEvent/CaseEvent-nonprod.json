@@ -17,12 +17,22 @@
     "Name": "Request Translation from WLU",
     "Description": "Request Translation from WLU",
     "DisplayOrder": 23,
-    "PreConditionState(s)": "Submitted;PendingRejection;AosStarted;AosOverdue",
-    "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welsh-continue-intercept",
+    "PreConditionState(s)": "Submitted;PendingRejection;WelshResponseAwaitingReview",
+    "PostConditionState": "BOTranslationRequested",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welshSetPreviousState",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boWelshReview",
+    "Name": "Welsh Translation Review",
+    "Description": "Welsh Translation Review",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue",
+    "PostConditionState": "WelshResponseAwaitingReview",
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -122,5 +132,33 @@
     "PreConditionState(s)": "WelshDNiRefusedTransRequested",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
+  },
+  {
+  "LiveFrom": "01/01/2017",
+  "CaseTypeID": "DIVORCE",
+  "ID": "hwfCreate",
+  "Name": "Apply for a divorce",
+  "Description": "Apply for a divorce",
+  "DisplayOrder": 2,
+  "PostConditionState": "AwaitingHWFDecision",
+  "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
+  "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
+  "RetriesTimeoutURLSubmittedEvent": "120,120",
+  "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorCreate",
+    "Name": "Apply for a divorce",
+    "Description": "Apply for a divorce",
+    "DisplayOrder": 1,
+    "PostConditionState": "SOTAgreementPayAndSubmitRequired",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Petition"
   }
 ]

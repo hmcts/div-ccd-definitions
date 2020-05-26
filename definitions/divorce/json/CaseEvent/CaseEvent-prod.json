@@ -42,5 +42,31 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "hwfCreate",
+    "Name": "Apply for a divorce",
+    "Description": "Apply for a divorce",
+    "DisplayOrder": 2,
+    "PostConditionState": "AwaitingHWFDecision",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorCreate",
+    "Name": "Apply for a divorce",
+    "Description": "Apply for a divorce",
+    "DisplayOrder": 1,
+    "PostConditionState": "SOTAgreementPayAndSubmitRequired",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Petition"
   }
 ]
