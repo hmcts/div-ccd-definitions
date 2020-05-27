@@ -43,9 +43,9 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "BOTranslationRequested;WelshResponseAwaitingReview",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welsh-continue-intercept",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welsh-state-intercept",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-continue",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-event-intercept",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
