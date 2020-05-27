@@ -54,5 +54,12 @@
     "CaseEventID": "EnterAOSOffline_Respondent_fromAosOverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "EnterAOSOffline_CoRespondent",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
   }
 ]
