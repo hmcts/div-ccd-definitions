@@ -111,7 +111,7 @@ describe('CaseTypeTab', () => {
       'notes',
       'marriageCertificate',
       'coRespondent',
-      // 'SolicitorCoRespondent',//TODO - DO NOT MERGE THIS TO MASTER
+      // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
       'LinkedCase'
     ]);
   });
