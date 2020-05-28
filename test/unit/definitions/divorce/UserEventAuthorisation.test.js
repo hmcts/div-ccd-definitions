@@ -5,7 +5,7 @@ const AuthorisationCaseEvent = Object.assign(require('definitions/divorce/json/A
 const AuthorisationCaseField = Object.assign(require('definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField'), []);
 const AuthorisationCaseState = Object.assign(require('definitions/divorce/json/AuthorisationCaseState'), []);
 const CaseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
-const CaseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields'), []);
+const CaseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 const CaseRoles = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
 
 let AuthCaseEventsActive = [];
