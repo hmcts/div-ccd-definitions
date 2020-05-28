@@ -273,7 +273,7 @@
     "CaseEventID": "EnterAOSOffline_CoRespondent",
     "CaseFieldID": "CoRespondentSolicitorAddress",
     "PageFieldDisplayOrder": 15,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "aosdataentrycoresp1",
     "PageLabel": "Enter scanned form case data",
     "PageDisplayOrder": 1,

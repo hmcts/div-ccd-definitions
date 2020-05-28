@@ -3,81 +3,77 @@
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
-        "CaseFieldID": "D8caseReference",
-        "TabFieldDisplayOrder": 1,
-        "TabShowCondition": "CoRespondentSolicitorRepresented=\"Y*\" AND D8ReasonForDivorceAdulteryWishToName=\"Y*\""
-    },
-    {
-        "LiveFrom": "01/01/2017",
-        "CaseTypeID": "DIVORCE",
-        "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespondentSolicitorRepresented",
-        "TabFieldDisplayOrder": 2
+        "TabFieldDisplayOrder": 26,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespondentSolicitorName",
-        "TabFieldDisplayOrder": 3
+        "TabFieldDisplayOrder": 27,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespondentSolicitorAddress",
-        "TabFieldDisplayOrder": 4
+        "TabFieldDisplayOrder": 28,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespondentSolicitorPhone",
-        "TabFieldDisplayOrder": 5
+        "TabFieldDisplayOrder": 29,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespondentSolicitorEmail",
-        "TabFieldDisplayOrder": 6
+        "TabFieldDisplayOrder": 30,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
-        "TabFieldDisplayOrder": 7
+        "TabFieldDisplayOrder": 31,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
-        "TabID": "SolicitorCoRespondent",
-        "TabLabel": "Co-Respondent's Solicitor",
-        "TabDisplayOrder": 23,
+        "TabID": "coRespondent",
+        "TabLabel": "Co-Respondent",
+        "TabDisplayOrder": 22,
         "CaseFieldID": "CoRespSolAOSSOT",
-        "TabFieldDisplayOrder": 8
+        "TabFieldDisplayOrder": 32,
+        "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
     }
 ]
