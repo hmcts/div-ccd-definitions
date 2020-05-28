@@ -17,22 +17,11 @@
     "Name": "Request Translation from WLU",
     "Description": "Request Translation from WLU",
     "DisplayOrder": 23,
-    "PreConditionState(s)": "Submitted;PendingRejection",
+    "PreConditionState(s)": "Submitted;PendingRejection;WelshResponseAwaitingReview",
     "PostConditionState": "BOTranslationRequested",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boTranslationReceivedFromWLU",
-    "Name": "Translation Received from WLU",
-    "Description": "Resolve the Petition submitted, Awaiting Translation Received ",
-    "DisplayOrder": 32,
-    "PreConditionState(s)": "BOTranslationRequested",
-    "PostConditionState": "Submitted",
-    "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welshSetPreviousState",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -48,25 +37,16 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "boRequestTranslationFromWLUAuto",
-    "Name": "Request Trans from WLU (auto)",
-    "Description": "Request Trans from WLU (auto)",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "WelshResponseAwaitingReview",
-    "PostConditionState": "BOTranslationRequestedAuto",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "boWelshReviewTransResolved",
     "Name": "Welsh Translation Resolved",
     "Description": "Welsh Translation Resolved",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "BOTranslationRequestedAuto",
+    "PreConditionState(s)": "BOTranslationRequested;WelshResponseAwaitingReview",
     "PostConditionState": "*",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-continue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/welsh-state-intercept",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/welsh-event-intercept",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -76,7 +56,7 @@
     "Name": "AOS Received (undefended)",
     "Description": "AOS Received (undefended)",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequestedAuto",
+    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequested;WelshResponseAwaitingReview",
     "PostConditionState": "AwaitingDecreeNisi",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
@@ -91,7 +71,7 @@
     "Name": "AOS Received (no ad/con)",
     "Description": "AOS Received (no admission/consent)",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequestedAuto",
+    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequested;WelshResponseAwaitingReview",
     "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
@@ -106,7 +86,7 @@
     "Name": "AOS Submitted (defending)",
     "Description": "AOS Submitted (defending)",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequestedAuto",
+    "PreConditionState(s)": "AosStarted;AosOverdue;BOTranslationRequested;WelshResponseAwaitingReview",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
@@ -152,5 +132,33 @@
     "PreConditionState(s)": "WelshDNiRefusedTransRequested",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
+  },
+  {
+  "LiveFrom": "01/01/2017",
+  "CaseTypeID": "DIVORCE",
+  "ID": "hwfCreate",
+  "Name": "Apply for a divorce",
+  "Description": "Apply for a divorce",
+  "DisplayOrder": 2,
+  "PostConditionState": "AwaitingHWFDecision",
+  "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-submitted",
+  "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
+  "RetriesTimeoutURLSubmittedEvent": "120,120",
+  "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorCreate",
+    "Name": "Apply for a divorce",
+    "Description": "Apply for a divorce",
+    "DisplayOrder": 1,
+    "PostConditionState": "SOTAgreementPayAndSubmitRequired",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Petition"
   }
 ]
