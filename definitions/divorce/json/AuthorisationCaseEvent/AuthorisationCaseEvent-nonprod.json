@@ -226,41 +226,6 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnRefusedReceivedTranslationFromWLU",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnRefusedReceivedTranslationFromWLU",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnRefusedReceivedTranslationFromWLU",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnRefusedReceivedTranslationFromWLU",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "dnRefusedReceivedTranslationFromWLU",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnRefusedRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
