@@ -3,8 +3,8 @@ const { expect, assert } = require('chai');
 const { find } = require('lodash');
 
 const caseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
-const caseField = Object.assign(require('definitions/divorce/json/CaseField'), []);
-const caseEventToFeilds = Object.assign(require('definitions/divorce/json/CaseEventToFields'), []);
+const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []);
+const caseEventToFeilds = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 
 describe('CaseEventToFields', () => {
   it('should contain valid event IDs', () => {
