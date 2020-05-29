@@ -212,6 +212,21 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosSubmittedDefended",
+    "Name": "AOS Submitted (defending)",
+    "Description": "AOS Submitted (defending)",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue",
+    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCstarted",
@@ -1122,6 +1137,36 @@
     "DisplayOrder": 8,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+  "LiveFrom": "01/01/2017",
+  "CaseTypeID": "DIVORCE",
+  "ID": "aosSubmittedUndefended",
+  "Name": "AOS Received (undefended)",
+  "Description": "AOS Received (undefended)",
+  "DisplayOrder": 1,
+  "PreConditionState(s)": "AosStarted;AosOverdue",
+  "PostConditionState": "AwaitingDecreeNisi",
+  "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+  "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+  "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+  "RetriesTimeoutURLSubmittedEvent": "120,120",
+  "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosReceivedNoAdConStarted",
+    "Name": "AOS Received (no ad/con)",
+    "Description": "AOS Received (no admission/consent)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted;AosOverdue",
+    "PostConditionState": "AosCompleted",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
