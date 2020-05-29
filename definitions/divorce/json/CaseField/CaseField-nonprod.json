@@ -11,7 +11,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "CoRespondentSolicitorName",
-    "Label": "Co-respondent's solicitor's name",
+    "Label": "Co-respondent solicitor's name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -19,7 +19,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "CoRespondentSolicitorAddress",
-    "Label": "Co-respondent's solicitor's address",
+    "Label": "Co-respondent solicitor's address",
     "FieldType": "AddressBaseUk",
     "SecurityClassification": "Public"
   },
@@ -27,7 +27,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "CoRespondentSolicitorPhone",
-    "Label": "Co-respondent's solicitor's Phone number",
+    "Label": "Co-respondent solicitor's Phone number",
     "FieldType": "Text",
     "RegularExpression": "^[0-9 +().-]{9,}$",
     "SecurityClassification": "Public"
@@ -36,7 +36,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "CoRespondentSolicitorEmail",
-    "Label": "Co-respondent's solicitor's Email",
+    "Label": "Co-respondent solicitor's Email",
     "FieldType": "Email",
     "SecurityClassification": "Public"
   },
@@ -44,7 +44,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "DerivedCoRespondentSolicitorAddr",
-    "Label": "Co-respondent's solicitor's firm/ DX address",
+    "Label": "Co-respondent solicitor's firm/ DX address",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
