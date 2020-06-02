@@ -25,7 +25,7 @@ Scenario('add all the roles', I => {
 
 Scenario('upload divorce config file', I => {
   I.loginToAdminConsole();
-  I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
+  I.uploadConfig('../../definitions/divorce/xlsx/div-6313-ccd-config-aat.xlsx');
   I.see('Case Definition data successfully imported');
 }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
