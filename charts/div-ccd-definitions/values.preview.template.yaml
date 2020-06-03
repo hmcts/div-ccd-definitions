@@ -1,5 +1,5 @@
 tags:
-  chart-idam-pr: true
+  ccd-idam-pr: true
 
 nodejs:
   # Don't modify below here
@@ -12,7 +12,7 @@ ccd:
   consulIP: ${CONSUL_LB_IP}
 
   idam-pr:
-    releaseNameOverride: ${SERVICE_NAME}-chart-idam-pr
+    releaseNameOverride: ${SERVICE_NAME}-ccd-idam-pr
     redirect_uris:
       CCD:
         - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
