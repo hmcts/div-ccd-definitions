@@ -51,7 +51,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
+    "ID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
     "Label": "Translated To?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "FL_typeOfTraslatedTo",
@@ -68,7 +68,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "D8ReasonForDivorceBehaviourDetailsTransLang-1",
+    "ID": "D8ReasonForDivorceBehaviourDetailsTransLang",
     "Label": "Translated To?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "FL_typeOfTraslatedTo",
