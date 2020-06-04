@@ -45,6 +45,9 @@
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LanguagePreferenceWelsh",
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondentSolicitorRepresented",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -122,6 +125,9 @@
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "WelshRefusalRejectionAdditionalInfo",
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondentSolicitorName",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -200,6 +206,38 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "WelshPreviousState",
     "UserRole": "caseworker-divorce-systemupdate",
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondentSolicitorAddress",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondentSolicitorPhone",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondentSolicitorEmail",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespSolAOSSOT",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   }
 ]

@@ -112,7 +112,7 @@ describe('CaseTypeTab', () => {
       'notes',
       'marriageCertificate',
       'coRespondent',
-      'SolicitorCoRespondent',
+      // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
       'LinkedCase'
     ]);
   });

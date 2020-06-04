@@ -45,6 +45,9 @@
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "UpdateLanguage",
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosStarted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -101,6 +104,9 @@
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boRequestTranslationFromWLU",
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -115,6 +121,9 @@
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boWelshReviewTransResolved",
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_Respondent_fromAosOverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -171,6 +180,9 @@
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boWelshReview",
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosStarted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -269,6 +281,23 @@
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "AddWelshRefusalAdditionalInfo",
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "IssueAOSOffline_CoRespondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "EnterAOSOffline_Respondent_fromAosAwaiting",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "EnterAOSOffline_Respondent_fromAosStarted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -446,6 +475,20 @@
       "CaseTypeID": "DIVORCE",
       "CaseEventID": "boWelshAosSubmittedDefended",
       "UserRole": "caseworker-divorce-systemupdate",
+      "CRUD": "CRU"
+    },
+    {
+      "LiveFrom": "20/09/2019",
+      "CaseTypeID": "DIVORCE",
+      "CaseEventID": "EnterAOSOffline_Respondent_fromAosOverdue",
+      "UserRole": "caseworker-divorce-courtadmin_beta",
+      "CRUD": "CRU"
+    },
+    {
+      "LiveFrom": "20/09/2019",
+      "CaseTypeID": "DIVORCE",
+      "CaseEventID": "EnterAOSOffline_CoRespondent",
+      "UserRole": "caseworker-divorce-courtadmin_beta",
       "CRUD": "CRU"
     }
 ]
