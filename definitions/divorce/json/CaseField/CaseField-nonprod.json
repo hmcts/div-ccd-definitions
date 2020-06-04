@@ -34,7 +34,7 @@
     "ID": "WelshRefusalRejectionAdditionalInfo",
     "Label": "Welsh Rejection additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
     "ID": "CoRespondentSolicitorAddress",
     "Label": "Co-respondent solicitor's address",
     "FieldType": "AddressBaseUk",
