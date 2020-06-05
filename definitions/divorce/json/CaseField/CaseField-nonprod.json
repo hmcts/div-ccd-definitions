@@ -89,5 +89,544 @@
     "Label": "Welsh Rejection additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dbPetitionerDetails",
+    "Label": "## Petitioner's details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8PetitionerNameChangedHowOtherDetailsTrans",
+    "Label": "Provide details of how they changed their name (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceBehaviourDetailsTrans",
+    "Label": "Behaviour details (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceBehaviourDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-1",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-2",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-3",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-4",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-5",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-6",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-7",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-8",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-9",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-10",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-11",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-12",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-13",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-14",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-15",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-16",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-17",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-18",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOLineSeparator-19",
+    "Label": "------------------------------------------------------------------------",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryDetailsTrans",
+    "Label": "Adultery details (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryWhenDetailsTrans",
+    "Label": "When the adultery took place (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryWhenDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryWhereDetailsTrans",
+    "Label": "Details of where the adultery took place (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdulteryWhereDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdultery2ndHandDetailsTrans",
+    "Label": "Second hand information details (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceAdultery2ndHandDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceDesertionDetailsTrans",
+    "Label": "Desertion details (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8ReasonForDivorceDesertionDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8LegalProceedingsDetailsTrans",
+    "Label": "Legal proceeding details (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8LegalProceedingsDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "dbRespondentDetails",
+    "Label": "## Respondent details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespJurisdictionDisagreeReasonTrans",
+    "Label": "Reason respondent disagreed to claimed jurisdiction (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespJurisdictionDisagreeReasonTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespLegalProceedingsDescriptionTrans",
+    "Label": "Legal proceedings details (respondent) (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespLegalProceedingsDescriptionTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespCostsReasonTrans",
+    "Label": "Respondent's costs reason (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespCostsReasonTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespCostsReasonTrans",
+    "Label": "Co-respondent's reason not to pay costs (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespCostsReasonTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BODecreeNisiDetails",
+    "Label": "## Decree Nisi details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionChangedDetailsDNTrans",
+    "Label": "Description of changes to petition at DN stage (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionChangedDetailsDNTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AdulteryTimeLivedTogetherDetailsDNTrans",
+    "Label": "Additional details of the living arrangements since finding out about the adultery (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AdulteryTimeLivedTogetherDetailsDNTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BehaviourTimeLivedTogetherDetailsDNTrans",
+    "Label": "Additional details of the living arrangements since the the most recent example of the behaviour (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BehaviourTimeLivedTogetherDetailsDNTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionTimeLivedTogetherDetailsDNTrans",
+    "Label": "Additional living arrangements since the divorce application (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionTimeLivedTogetherDetailsDNTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CostsDifferentDetailsTrans",
+    "Label": "State what the petitioner wants to claim and why (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CostsDifferentDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOOutcomeOfDecreeNisi",
+    "Label": "## Outcome Of Decree Nisi",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalRejectionAdditionalInfoWelsh",
+    "Label": "Rejection additional information (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RefusalClarificationAdditionalInfoWelsh",
+    "Label": "Clarification additional information (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PreviousRefusalRejectionAdditionalInfoWelsh",
+    "Label": "Previous refusal rejection information (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CostsOrderAdditionalInfoWelsh",
+    "Label": "Additional info (Costs Order) (Translated)",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNDetailsTrans",
+    "Label": "Please give reasons why they refused: (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DesertionAskedToResumeDNDetailsTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SeparationTimeLivedTogetherDetailsDNTrans",
+    "Label": "Additional details of the living arrangements since the divorce application. (Translated)",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SeparationTimeLivedTogetherDetailsDNTransLang",
+    "Label": "Translated To?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
   }
 ]
