@@ -25,14 +25,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "WelshRefusalRejectionAdditionalInfo",
-    "Label": "Welsh Rejection additional information",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "dbPetitionerDetails",
