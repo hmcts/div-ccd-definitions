@@ -1,0 +1,9 @@
+[
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  }
+]

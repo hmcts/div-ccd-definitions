@@ -4,5 +4,17 @@
         "ID": "d8documentsReceivedEnum",
         "ListElementCode": "Welsh-translation",
         "ListElement": "Welsh Translation"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "ID": "FL_typeOfTraslatedTo",
+        "ListElementCode": "EN",
+        "ListElement": "English"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "ID": "FL_typeOfTraslatedTo",
+        "ListElementCode": "CY",
+        "ListElement": "Welsh"
     }
 ]

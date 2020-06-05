@@ -148,5 +148,17 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Petition"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boAddTranslations",
+    "Name": "Add Translations",
+    "Description": "Add Welsh Translations Received From WLU",
+    "DisplayOrder": 10,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
