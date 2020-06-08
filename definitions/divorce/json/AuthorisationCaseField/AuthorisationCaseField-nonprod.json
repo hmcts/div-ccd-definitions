@@ -235,7 +235,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "dbPetitionerDetails",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -270,7 +270,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "dbRespondentDetails",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -305,7 +305,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTrans",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -340,7 +340,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTrans",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -375,7 +375,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespJurisdictionDisagreeReasonTrans",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -410,7 +410,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -445,7 +445,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-1",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -480,7 +480,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -515,7 +515,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-2",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -550,7 +550,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-3",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -585,7 +585,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-4",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -620,7 +620,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-5",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -655,7 +655,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-6",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -690,7 +690,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BOLineSeparator-7",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
