@@ -68,17 +68,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "AddWelshRefusalAdditionalInfo",
-    "Name": "Welsh Refusal Additional Info",
-    "Description": "Welsh Refusal Additional Info",
-    "DisplayOrder": 12,
-    "PreConditionState(s)": "BOTranslationRequested",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "boWelshAosSubmittedUndefended",
     "Name": "AOS Received (undefended)",
     "Description": "AOS Received (undefended)",
