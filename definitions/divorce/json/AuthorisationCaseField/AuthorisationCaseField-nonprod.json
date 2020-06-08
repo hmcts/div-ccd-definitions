@@ -394,35 +394,35 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "07/10/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang",
+    "CaseFieldID": "D8PetitionerNameChangedHowOtherDetailsTransLang-1",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
@@ -464,21 +464,21 @@
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang",
+    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang-1",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang",
+    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang-1",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang",
+    "CaseFieldID": "D8ReasonForDivorceBehaviourDetailsTransLang-1",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
@@ -2810,7 +2810,42 @@
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RefusalClarificationAdditionalInfo",
     "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CostsOrderAdditionalInfo",
+    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
