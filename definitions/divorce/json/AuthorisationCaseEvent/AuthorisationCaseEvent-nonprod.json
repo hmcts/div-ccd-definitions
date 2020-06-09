@@ -291,7 +291,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boWelshDnReceivedReview",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
@@ -333,7 +333,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boWelshDnReceivedReview",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",

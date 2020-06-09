@@ -97,7 +97,7 @@
     "Name": "DN application received",
     "Description": "Decree Nisi application received",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "BOTranslationRequested;WelshDNReceived",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingLegalAdvisorReferral",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-submitted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
