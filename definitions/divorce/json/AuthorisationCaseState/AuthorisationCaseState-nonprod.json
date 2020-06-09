@@ -147,38 +147,45 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshDNiRefusedTransRequested",
+    "CaseStateID": "WelshDNReceived",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshDNiRefusedTransRequested",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "RU"
+    "CaseStateID": "WelshDNReceived",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshDNiRefusedTransRequested",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshDNiRefusedTransRequested",
+    "CaseStateID": "WelshDNReceived",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "WelshDNiRefusedTransRequested",
-    "UserRole": "caseworker-divorce-bulkscan",
+    "CaseStateID": "WelshDNReceived",
+    "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "WelshDNReceived",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "WelshDNReceived",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
