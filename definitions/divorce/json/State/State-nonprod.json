@@ -28,9 +28,9 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "WelshDNiRefusedTransRequested",
-    "Name": "Translation Requested - DN Ref",
-    "Description": "Translation Requested - DN Refused",
+    "ID": "WelshDNReceived",
+    "Name": "Welsh DN Received",
+    "Description": "Welsh DN Received",
     "DisplayOrder": 31,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
