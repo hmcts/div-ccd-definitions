@@ -37,21 +37,7 @@
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_Respondent_fromAosAwaiting",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_Respondent_fromAosStarted",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_Respondent_fromAosOverdue",
+    "CaseEventID": "EnterAOSOffline_Respondent",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
