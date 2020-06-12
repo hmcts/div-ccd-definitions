@@ -322,5 +322,70 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "D8DerivedRespondentHomeAddress",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "D8DerivedReasonForDivorceAdultery3rdAddr",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
