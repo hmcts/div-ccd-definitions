@@ -124,7 +124,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "boWelshAosSubmittedUndefended"
+    "ID": "boWelshAosSubmittedUndefended",
     "Name": "AOS Received (undefended)",
     "Description": "AOS Received (undefended)",
     "DisplayOrder": 1,
