@@ -56,5 +56,13 @@
     "HintText": "The solicitor believes that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespAgreeToCosts",
+    "Label": "Does co-respondent agree to pay costs?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
