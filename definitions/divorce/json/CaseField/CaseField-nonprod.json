@@ -43,6 +43,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorCompany",
+    "Label": "Name of Co-respondent solicitor's firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "DerivedCoRespondentSolicitorAddr",
     "Label": "Co-respondent solicitor's firm/ DX address",
     "FieldType": "TextArea",
