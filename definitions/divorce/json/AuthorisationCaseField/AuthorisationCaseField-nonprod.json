@@ -61,33 +61,5 @@
     "CaseFieldID": "CoRespondentSolicitorCompany",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorCompany",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorCompany",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorCompany",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorCompany",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
   }
 ]
