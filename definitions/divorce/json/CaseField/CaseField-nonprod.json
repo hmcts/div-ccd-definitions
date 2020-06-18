@@ -64,29 +64,5 @@
     "HintText": "The solicitor believes that the facts stated in this response are true",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "CoRespAgreeToCosts",
-    "Label": "Does co-respondent agree to pay costs?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "CoRespStatementOfTruth",
-    "Label": "Co-respondent agreed to statement of truth?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "coRespondentContactDetailsConfidential",
-    "Label": "Keep the Co-Respondent's contact details private from the petitioner?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
   }
 ]
