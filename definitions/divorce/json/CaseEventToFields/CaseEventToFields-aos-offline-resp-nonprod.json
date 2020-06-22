@@ -300,7 +300,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "21/06/2020",
+    "LiveFrom": "20/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent",
     "CaseFieldID": "D8RespondentPhoneNumber",
@@ -314,7 +314,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "21/06/2020",
+    "LiveFrom": "20/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "EnterAOSOffline_Respondent",
     "CaseFieldID": "RespondentContactDetailsConfidential",
