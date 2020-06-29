@@ -11,7 +11,7 @@ const caseEvent = caseEvents.concat(caseEventProd);
 describe('CaseEventToFields', () => {
   it('should contain valid event IDs', () => {
     const errors = [];
-    caseEventToFeilds.forEach(caseEventToFieldsEntry => {
+    caseEventToFields.forEach(caseEventToFieldsEntry => {
       try {
         expect(find(caseEvent, ['ID', caseEventToFieldsEntry.CaseEventID])).to.be.an('object');
       } catch (error) {
@@ -24,7 +24,7 @@ describe('CaseEventToFields', () => {
   });
   it('should contain valid field IDs', () => {
     const errors = [];
-    caseEventToFeilds.forEach(caseEventToFieldsEntry => {
+    caseEventToFields.forEach(caseEventToFieldsEntry => {
       try {
         expect(find(caseField, ['ID', caseEventToFieldsEntry.CaseFieldID])).to.be.an('object');
       } catch (error) {
