@@ -54,5 +54,12 @@
     "CaseEventID": "tempEditDerivedAddresses",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
   }
 ]
