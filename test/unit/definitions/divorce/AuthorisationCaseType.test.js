@@ -15,7 +15,7 @@ function mergeJsonFilesFor(whatFolder, nonProdStartsWith) {
   const authCaseTypeNonProd = [];
 
   files.forEach(filename => {
-    const filenameRegEx = new RegExp(`${nonProdStartsWith}.*\.json`, 'i');
+    const filenameRegEx = new RegExp(`${nonProdStartsWith}.*.json`, 'i');
     if (filename.match(filenameRegEx)) {
        const nonProdFile = Object
           .assign(load(`${whatFolder}/${filename}`), {});
