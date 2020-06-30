@@ -56,28 +56,28 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "29/07/2020",
+    "LiveFrom": "29/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "29/07/2020",
+    "LiveFrom": "29/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "29/07/2020",
+    "LiveFrom": "29/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "29/07/2020",
+    "LiveFrom": "29/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "caseworker-divorce-courtadmin-la",
