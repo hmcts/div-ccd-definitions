@@ -2428,7 +2428,7 @@
     "LiveFrom": "25/10/2018",
     "CaseTypeID": "DIVORCE",
     "ID": "D8ReasonForDivorce2YearSepConsentGiven",
-    "Label": "Petitioner has written consent for 2-year Separation",
+    "Label": "Has your wife/husband given their consent to a divorce (agreed to it)?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
