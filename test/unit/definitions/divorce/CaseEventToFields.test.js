@@ -4,12 +4,12 @@ const { find } = require('lodash');
 
 const caseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
 const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []);
-const caseEventToFeilds = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
+const caseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 
 describe('CaseEventToFields', () => {
   it('should contain valid event IDs', () => {
     const errors = [];
-    caseEventToFeilds.forEach(caseEventToFieldsEntry => {
+    caseEventToFields.forEach(caseEventToFieldsEntry => {
       try {
         expect(find(caseEvent, ['ID', caseEventToFieldsEntry.CaseEventID])).to.be.an('object');
       } catch (error) {
@@ -22,7 +22,7 @@ describe('CaseEventToFields', () => {
   });
   it('should contain valid field IDs', () => {
     const errors = [];
-    caseEventToFeilds.forEach(caseEventToFieldsEntry => {
+    caseEventToFields.forEach(caseEventToFieldsEntry => {
       try {
         expect(find(caseField, ['ID', caseEventToFieldsEntry.CaseFieldID])).to.be.an('object');
       } catch (error) {
