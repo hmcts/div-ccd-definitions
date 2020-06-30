@@ -69,7 +69,7 @@
     "LiveFrom": "11/10/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelAmendPetitionForRefusalSol",
-    "Label": "### Submit amended application\r\n",
+    "Label": "## Submit amended application",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
