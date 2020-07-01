@@ -2678,6 +2678,17 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "amendPetitionForRefusalSol",
+    "Name": "Submit amended application",
+    "Description": "Submit amended application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "DNisRefused",
+    "PostConditionState": "AmendPetition",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "createCase",

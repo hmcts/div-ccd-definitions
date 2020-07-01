@@ -2,8 +2,8 @@ const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
 
 const CaseType = Object.assign(require('definitions/divorce/json/CaseType'), []);
-const AuthorisationCaseType = Object.assign(require('definitions/divorce/json/AuthorisationCaseType'), []);
-const State = Object.assign(require('definitions/divorce/json/State/State'), []);
+const AuthorisationCaseType = Object.assign(require('definitions/divorce/json/AuthorisationCaseType/AuthorisationCaseType'), []);
+const State = Object.assign(require('definitions/divorce/json/State'), []);
 const AuthorisationCaseState = Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), []);
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
