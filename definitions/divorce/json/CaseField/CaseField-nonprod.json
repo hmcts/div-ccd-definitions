@@ -69,7 +69,7 @@
     "LiveFrom": "11/10/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "labelAmendPetitionForRefusalSol",
-    "Label": "## Submit amended application",
+    "Label": "#Submit amended application",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -77,7 +77,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "labelAmendPetitionForRefusalSolPara-1",
-    "Label": "If you’ve been asked to submit an amended application by the courts, this must be completed for the divorce to proceed. Until this application has been completed no further action can be taken.\r\n\r\n",
+    "Label": "##Before you start\r\nIf you’ve been asked to submit an amended application by the courts, this must be completed for the divorce to proceed. Until this application has been completed no further action can be taken.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
