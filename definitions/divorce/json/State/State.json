@@ -339,5 +339,40 @@
     "Description": "Awaiting admin clarification",
     "DisplayOrder": 22,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {"LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BOTranslationRequested",
+    "Name": "Translation Requested",
+    "Description": "Translation Requested",
+    "DisplayOrder": 23,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshResponseAwaitingReview",
+    "Name": "Welsh AOS",
+    "Description": "Welsh AOS",
+    "DisplayOrder": 28,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshLADecision",
+    "Name": "Welsh LA Decision",
+    "Description": "Welsh LA Decision",
+    "DisplayOrder": 30,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "WelshDNReceived",
+    "Name": "Welsh DN Received",
+    "Description": "Welsh DN Received",
+    "DisplayOrder": 31,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]

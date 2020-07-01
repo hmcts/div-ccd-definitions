@@ -113,7 +113,8 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
-      'LinkedCase'
+      'LinkedCase',
+      'Language'
     ]);
   });
   it('should contain a valid case field IDs', () => {

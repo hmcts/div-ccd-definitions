@@ -26,5 +26,12 @@
     "CaseFieldID": "ApplyForDecreeAbsolute",
     "Label": "Case on digital DA",
     "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "10/10/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LanguagePreferenceWelsh",
+    "Label": "Welsh Language",
+    "DisplayOrder": 5
   }
 ]
