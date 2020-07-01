@@ -1,0 +1,16 @@
+[
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PetitionerPcqId",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CoRespondantPcqId",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  }
+]

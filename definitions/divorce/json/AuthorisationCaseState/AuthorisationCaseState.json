@@ -998,7 +998,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNisRefused",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "RU"
   },
   {
     "LiveFrom": "01/01/2019",
