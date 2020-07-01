@@ -9,7 +9,7 @@ const Config = {
   AuthorisationCaseState: Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), []),
   AuthorisationCaseType: Object.assign(require('definitions/divorce/json/AuthorisationCaseType/AuthorisationCaseType'), []),
   AuthorisationComplexType: Object.assign(require('definitions/divorce/json/AuthorisationComplexType'), []),
-  CaseEvent: Object.assign(require('definitions/divorce/json/CaseEvent'), []),
+  CaseEvent: Object.assign(require('definitions/divorce/json/CaseEvent/CaseEvent'), []),
   CaseEventToComplexTypes: Object.assign(require('definitions/divorce/json/CaseEventToComplexTypes'), []),
   CaseEventToFields: Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []),
   CaseField: Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []),
@@ -17,14 +17,14 @@ const Config = {
   CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
   CaseTypeTab: Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), []),
   ComplexTypes: Object.assign(require('definitions/divorce/json/ComplexTypes'), []),
-  FixedLists: Object.assign(require('definitions/divorce/json/FixedLists'), []),
+  FixedLists: Object.assign(require('definitions/divorce/json/FixedLists/FixedLists'), []),
   Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
   SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
   SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
   SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
-  State: Object.assign(require('definitions/divorce/json/State'), []),
+  State: Object.assign(require('definitions/divorce/json/State/State'), []),
   UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
-  WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields'), []),
+  WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
   WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
 };
 
