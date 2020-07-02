@@ -6229,5 +6229,11 @@
     "CaseEventID": "attachScannedDocsWithOcr",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
+  },  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   }
 ]
