@@ -68,7 +68,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-1",
+    "ID": "LabelAmendPetitionForRefusalSolPara-1",
     "Label": "## Before you start\r\nIf you’ve been asked to submit an amended application by the courts, this must be completed for the divorce to proceed. Until this application has been completed no further action can be taken.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -76,7 +76,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-2",
+    "ID": "LabelAmendPetitionForRefusalSolPara-2",
     "Label": "You can also submit an amended application if you’ve made a mistake in the application, but the case has not progressed beyond the ‘acknowledgement of service’ stage.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -84,7 +84,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-3",
+    "ID": "LabelAmendPetitionForRefusalSolPara-3",
     "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. You’ll still be able to access the old case by clicking on the ‘linked’ cases tab in the new case.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -92,7 +92,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-4",
+    "ID": "LabelAmendPetitionForRefusalSolPara-4",
     "Label": "The new case will be automatically populated with information from the old case. Please update the parts of the application that need to be different.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -100,7 +100,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-5",
+    "ID": "LabelAmendPetitionForRefusalSolPara-5",
     "Label": "The fee for an amended application is £95.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -108,7 +108,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "labelAmendPetitionForRefusalSolPara-6",
+    "ID": "LabelAmendPetitionForRefusalSolPara-6",
     "Label": "Once the amended application has been submitted, it will be checked by the courts before being issued to the petitioner’s husband/wife so they can respond.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"

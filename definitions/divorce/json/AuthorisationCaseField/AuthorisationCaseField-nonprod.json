@@ -65,42 +65,42 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-1",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-1",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-2",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-2",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-3",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-3",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-4",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-4",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-5",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-5",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelAmendPetitionForRefusalSolPara-6",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-6",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   }
