@@ -82,5 +82,33 @@
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
