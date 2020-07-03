@@ -59,7 +59,6 @@
     "LiveFrom": "15/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondantPcqId",
-    "CaseFieldID": "CoRespondantPcqId",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
