@@ -14,5 +14,13 @@
     "Label": "Respondent PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondantPcqId",
+    "Label": "Co-Respondent PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
