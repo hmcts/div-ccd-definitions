@@ -19,7 +19,7 @@
     "LiveFrom": "15/06/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "CoRespondantPcqId",
-    "Label": "Co-Respondent PCQ ID",
+    "Label": "Co-respondent PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   }
