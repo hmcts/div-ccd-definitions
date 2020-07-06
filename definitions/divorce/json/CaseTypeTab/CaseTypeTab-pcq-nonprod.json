@@ -10,6 +10,16 @@
         "TabFieldDisplayOrder": 115
     },
     {
+      "LiveFrom": "01/01/2017",
+      "CaseTypeID": "DIVORCE",
+      "Channel": "CaseWorker",
+      "TabID": "coRespondent",
+      "TabLabel": "Co-Respondent",
+      "TabDisplayOrder": 22,
+      "CaseFieldID": "CoRespondantPcqId",
+      "TabFieldDisplayOrder": 33
+    },
+    {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "DIVORCE",
         "Channel": "CaseWorker",
@@ -18,15 +28,5 @@
         "TabDisplayOrder": 3,
         "CaseFieldID": "RespondantPcqId",
         "TabFieldDisplayOrder": 30
-    },
-    {
-      "LiveFrom": "15/06/2020",
-      "CaseTypeID": "DIVORCE",
-      "Channel": "CaseWorker",
-      "TabID": "coRespondent",
-      "TabLabel": "Co-Respondent",
-      "TabDisplayOrder": 22,
-      "CaseFieldID": "CoRespondantPcqId",
-      "TabFieldDisplayOrder": 33
     }
 ]
