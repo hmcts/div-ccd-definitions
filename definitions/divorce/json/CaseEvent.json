@@ -2710,7 +2710,7 @@
     "Name": "Submit amended application",
     "Description": "Submit amended application",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "DNisRefused",
+    "PreConditionState(s)": "DNisRefused;AwaitingHWFDecision;Submitted;Issued;Rejected;PendingRejection;solicitorAwaitingPaymentConfirmation;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
     "PostConditionState": "AmendPetition",
     "SecurityClassification": "Public"
   },
