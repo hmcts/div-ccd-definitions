@@ -2,13 +2,6 @@
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "EnterAOSOffline_Respondent",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "tempEditDerivedAddresses",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
