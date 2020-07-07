@@ -18,14 +18,14 @@ function mergeJsonFilesFor(whatEnvs) {
 }
 
 describe('AuthorisationCaseState', () => {
-    it('should contain a unique case state, case event ID and role (no duplicates) for non-prod', () => {
+    it('should contain a unique case state, case type ID and role (no duplicates) for nonprod files', () => {
         const nonProd = mergeJsonFilesFor('nonprod');
         const uniqResult = uniqWith(nonProd, isDuplicated);
 
         expect(uniqResult).to.eql(nonProd);
     });
 
-    it('should contain a unique case state, case event ID and role (no duplicates) for prod only', () => {
+    it('should contain a unique case state ID, case type ID and role (no duplicates) for prod file', () => {
         const prodOnly = mergeJsonFilesFor('prod');
         const uniqResult = uniqWith(prodOnly, isDuplicated);
 
