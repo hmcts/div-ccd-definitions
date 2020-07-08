@@ -58,6 +58,62 @@
   {
     "LiveFrom": "15/06/2020",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CoRespondantPcqId",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -115,6 +171,13 @@
     "LiveFrom": "15/06/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerPcqId",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondantPcqId",
     "UserRole": "caseworker-divorce-pcqextractor",
     "CRUD": "R"
   },
