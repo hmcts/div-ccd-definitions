@@ -64,5 +64,6 @@ withPipeline("nodejs", product, component) {
 
   after('functionalTest:preview') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
+    env.CCD_ADMIN_URL="https://ccd-admin-web.aat.platform.hmcts.net"
   }
 }
