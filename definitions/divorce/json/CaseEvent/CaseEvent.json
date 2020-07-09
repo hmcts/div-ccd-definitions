@@ -227,6 +227,21 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosSubmittedUndefended",
+    "Name": "AOS Received (undefended)",
+    "Description": "AOS Received (undefended)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted;AosOverdue",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCstarted",
@@ -1138,21 +1153,6 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
-  },
-  {
-  "LiveFrom": "01/01/2017",
-  "CaseTypeID": "DIVORCE",
-  "ID": "aosSubmittedUndefended",
-  "Name": "AOS Received (undefended)",
-  "Description": "AOS Received (undefended)",
-  "DisplayOrder": 1,
-  "PreConditionState(s)": "AosStarted;AosOverdue",
-  "PostConditionState": "AwaitingDecreeNisi",
-  "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-  "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-  "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-  "RetriesTimeoutURLSubmittedEvent": "120,120",
-  "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "13/11/2018",
@@ -2718,6 +2718,17 @@
     "DisplayOrder": 22,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "allowPetitionerToAmend",
+    "Name": "Allow Petitioner to amend",
+    "Description": "Allow Petitioner to amend",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "AwaitingHWFDecision;Submitted;Issued;Rejected;PendingRejection;solicitorAwaitingPaymentConfirmation;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
+    "PostConditionState": "AwaitingAmendCase",
     "SecurityClassification": "Public"
   },
   {
