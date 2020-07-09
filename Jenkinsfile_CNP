@@ -60,9 +60,14 @@ withPipeline("nodejs", product, component) {
     yarnBuilder.yarn('setup')
     yarnBuilder.yarn('generate-excel-all')
     yarnBuilder.yarn('generate-bulk-excel-all')
+    env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
   }
 
   after('functionalTest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
+  }
+
+  before('functionalTest:aat') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/*'
     env.CCD_ADMIN_URL="https://ccd-admin-web.aat.platform.hmcts.net"
   }
