@@ -16,7 +16,7 @@
       "TabID": "coRespondent",
       "TabLabel": "Co-Respondent",
       "TabDisplayOrder": 22,
-      "CaseFieldID": "CoRespondantPcqId",
+      "CaseFieldID": "CoRespondentPcqId",
       "TabFieldDisplayOrder": 33
     },
     {
@@ -26,7 +26,7 @@
         "TabID": "aosDetails",
         "TabLabel": "AOS",
         "TabDisplayOrder": 3,
-        "CaseFieldID": "RespondantPcqId",
+        "CaseFieldID": "RespondentPcqId",
         "TabFieldDisplayOrder": 30
     }
 ]
