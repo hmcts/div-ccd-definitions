@@ -432,6 +432,19 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
+    "LiveFrom": "20/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "PreviousCaseId",
+    "PageFieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
@@ -441,7 +454,9 @@
     "PageID": "amendpetitionstart",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
