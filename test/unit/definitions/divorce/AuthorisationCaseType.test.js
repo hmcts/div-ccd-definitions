@@ -17,9 +17,9 @@ function mergeJsonFilesFor(whatFolder, nonProdStartsWith) {
   files.forEach(filename => {
     const filenameRegEx = new RegExp(`${nonProdStartsWith}.*.json`, 'i');
     if (filename.match(filenameRegEx)) {
-       const nonProdFile = Object
-          .assign(load(`${whatFolder}/${filename}`), {});
-       authCaseTypeNonProd.push(...nonProdFile);
+      const nonProdFile = Object
+        .assign(load(`${whatFolder}/${filename}`), {});
+      authCaseTypeNonProd.push(...nonProdFile);
     }
   });
 
@@ -27,13 +27,13 @@ function mergeJsonFilesFor(whatFolder, nonProdStartsWith) {
 }
 
 describe('AuthorisationCaseType', () => {
-  if (fs.existsSync('definitions/divorce/json/AuthorisationCaseType/')){
-     it('should contain a unique case type ID and role (no duplicates) for non prod files', () => {
-        const jsonConfigFiles = mergeJsonFilesFor('definitions/divorce/json/AuthorisationCaseType/', 'AuthorisationCaseType-');
-        const uniqResult = uniqWith(jsonConfigFiles, isDuplicated);
+  if (fs.existsSync('definitions/divorce/json/AuthorisationCaseType/')) {
+    it('should contain a unique case type ID and role (no duplicates) for non prod files', () => {
+      const jsonConfigFiles = mergeJsonFilesFor('definitions/divorce/json/AuthorisationCaseType/', 'AuthorisationCaseType-');
+      const uniqResult = uniqWith(jsonConfigFiles, isDuplicated);
 
-        expect(uniqResult).to.eql(jsonConfigFiles);
-     });
+      expect(uniqResult).to.eql(jsonConfigFiles);
+    });
   }
 
   it('should contain a unique case type ID and role (no duplicates) for prod file', () => {

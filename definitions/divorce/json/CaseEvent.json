@@ -2745,5 +2745,18 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "allowPetitionerToAmend",
+    "Name": "Allow Petitioner to amend",
+    "Description": "Allow Petitioner to amend",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "AwaitingHWFDecision;Submitted;Issued;Rejected;PendingRejection;solicitorAwaitingPaymentConfirmation;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
+    "PostConditionState": "AwaitingAmendCase",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/amend-application",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
