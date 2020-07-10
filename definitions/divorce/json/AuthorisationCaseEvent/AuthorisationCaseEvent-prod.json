@@ -47,12 +47,5 @@
     "CaseEventID": "EnterAOSOffline_CoRespondent",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "amendPetitionForRefusalRejection",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
   }
 ]

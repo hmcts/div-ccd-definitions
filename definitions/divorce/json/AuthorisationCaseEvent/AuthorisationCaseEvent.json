@@ -6175,6 +6175,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalRejection",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "createCase",
