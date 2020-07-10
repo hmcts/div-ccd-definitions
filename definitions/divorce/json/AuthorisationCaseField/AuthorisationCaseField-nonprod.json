@@ -103,19 +103,5 @@
     "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-6",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "06/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8Cohort",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "06/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PreviousIssueDate",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
   }
 ]
