@@ -2755,6 +2755,8 @@
     "DisplayOrder": 23,
     "PreConditionState(s)": "AwaitingHWFDecision;Submitted;Issued;Rejected;PendingRejection;solicitorAwaitingPaymentConfirmation;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
     "PostConditionState": "AwaitingAmendCase",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/amend-application",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
