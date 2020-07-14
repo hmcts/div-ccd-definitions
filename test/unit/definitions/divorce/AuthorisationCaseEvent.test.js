@@ -24,11 +24,4 @@ describe('AuthorisationCaseEvent', () => {
 
     expect(uniqResult).to.eql(nonProd);
   });
-
-  it('should contain a unique case type, case event ID and role (no duplicates) for prod only', () => {
-    const prodOnly = mergeJsonFilesFor('prod');
-    const uniqResult = uniqWith(prodOnly, isDuplicated);
-
-    expect(uniqResult).to.eql(prodOnly);
-  });
 });
