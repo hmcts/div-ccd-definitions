@@ -37,13 +37,7 @@ describe('AuthorisationCaseType', () => {
   }
 
   it('should contain a unique case type ID and role (no duplicates) for prod file', () => {
-    const uniqResult = uniqWith(
-      authCaseType,
-      (field1, field2) => {
-        return field1.CaseTypeID === field2.CaseTypeID
-                   && field1.UserRole === field2.UserRole;
-      }
-    );
+    const uniqResult = uniqWith(authCaseType,isDuplicated);
 
     expect(uniqResult).to.eql(authCaseType);
   });

@@ -1,15 +1,10 @@
 const expect = require('chai').expect;
 const { uniqWith } = require('lodash');
 const fs = require('fs');
+const isFieldDuplicated = require('../utils').isFieldDuplicated
 
 const load = require;
 const authCaseField = Object.assign(require('definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField'), {});
-
-function isDuplicated(field1, field2) {
-  return field1.CaseTypeID === field2.CaseTypeID
-    && field1.CaseFieldID === field2.CaseFieldID
-    && field1.UserRole === field2.UserRole;
-}
 
 function mergeJsonFilesFor(whatFolder, nonProdStartsWith) {
   const files = fs.readdirSync(whatFolder);
@@ -30,21 +25,14 @@ describe('AuthorisationCaseField', () => {
   if (fs.existsSync('definitions/divorce/json/AuthorisationCaseField/')) {
     it('should contain a unique case field ID, case type ID and role (no duplicates) for non prod files', () => {
       const jsonConfigFiles = mergeJsonFilesFor('definitions/divorce/json/AuthorisationCaseField/', 'AuthorisationCaseField-');
-      const uniqResult = uniqWith(jsonConfigFiles, isDuplicated);
+      const uniqResult = uniqWith(jsonConfigFiles, isFieldDuplicated('CaseFieldID'));
 
       expect(uniqResult).to.eql(jsonConfigFiles);
     });
   }
 
   it('should contain a unique case field ID, case type ID and role (no duplicates) for prod file', () => {
-    const uniqResult = uniqWith(
-      authCaseField,
-      (field1, field2) => {
-        return field1.CaseTypeID === field2.CaseTypeID
-                   && field1.CaseFieldID === field2.CaseFieldID
-                   && field1.UserRole === field2.UserRole;
-      }
-    );
+    const uniqResult = uniqWith(authCaseField, isFieldDuplicated('CaseFieldID'));
 
     expect(uniqResult).to.eql(authCaseField);
   });
