@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const { uniqWith } = require('lodash');
-const isFieldDuplicated = require('../utils').isFieldDuplicated
+const isFieldDuplicated = require('../../utils/utils').isFieldDuplicated
 
 const load = require;
 const authCaseStateCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), {});
