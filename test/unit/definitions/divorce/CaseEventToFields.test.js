@@ -1,9 +1,9 @@
 const { expect, assert } = require('chai');
-
 const { find } = require('lodash');
 
-const caseEvents = Object.assign(require('definitions/divorce/json/CaseEvent/CaseEvent'), []);
-const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []);
+const caseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
+const caseField = [].concat(require('definitions/divorce/json/CaseField/CaseField.json'))
+  .concat(require('definitions/divorce/json/CaseField/CaseField-prod.json'));
 const caseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 
 describe('CaseEventToFields', () => {
@@ -11,7 +11,7 @@ describe('CaseEventToFields', () => {
     const errors = [];
     caseEventToFields.forEach(caseEventToFieldsEntry => {
       try {
-        expect(find(caseEvents, ['ID', caseEventToFieldsEntry.CaseEventID])).to.be.an('object');
+        expect(find(caseEvent, ['ID', caseEventToFieldsEntry.CaseEventID])).to.be.an('object');
       } catch (error) {
         errors.push(`Event ID ${caseEventToFieldsEntry.CaseEventID} is not valid`);
       }

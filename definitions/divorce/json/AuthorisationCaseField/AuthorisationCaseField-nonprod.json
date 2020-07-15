@@ -2,64 +2,8 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorRepresented",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorName",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorAddress",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorPhone",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorEmail",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespSolAOSSOT",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "CoRespondentSolicitorCompany",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
@@ -101,20 +45,6 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-6",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "06/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8Cohort",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "06/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PreviousIssueDate",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   }

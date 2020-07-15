@@ -1744,14 +1744,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolPaymentPara-1",
-    "Label": "Amount to pay: **£550**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "SolPaymentHowToPay",
     "Label": "How will payment be made?",
     "FieldType": "FixedList",
@@ -1910,6 +1902,14 @@
     "ID": "solApplicationFeeOrderSummary",
     "Label": "Here are your order details",
     "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solApplicationFeeInPounds",
+    "Label": "Solicitor application fee (in pounds)",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -3986,6 +3986,120 @@
     "CaseTypeID": "DIVORCE",
     "ID": "LabelSolAboutEditingApplication-UploadMarriageCert",
     "Label": "You can make changes at the end of your application.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorRepresented",
+    "Label": "Is the co-respondent represented by a solicitor?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorName",
+    "Label": "Co-respondent solicitor's name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorAddress",
+    "Label": "Co-respondent solicitor's address",
+    "FieldType": "AddressBaseUk",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorPhone",
+    "Label": "Co-respondent solicitor's Phone number",
+    "FieldType": "Text",
+    "RegularExpression": "^[0-9 +().-]{9,}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorEmail",
+    "Label": "Co-respondent solicitor's Email",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentSolicitorCompany",
+    "Label": "Name of Co-respondent solicitor's firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DerivedCoRespondentSolicitorAddr",
+    "Label": "Co-respondent solicitor's firm/ DX address",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespSolAOSSOT",
+    "Label": "Solicitor Statement of Truth",
+    "HintText": "The solicitor believes that the facts stated in this response are true",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-1",
+    "Label": "## Before you start\r\nIf you’ve been asked to submit an amended application by the courts, this must be completed for the divorce to proceed. Until this application has been completed no further action can be taken.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-2",
+    "Label": "You can also submit an amended application if you’ve made a mistake in the application, but the case has not progressed beyond the ‘acknowledgement of service’ stage.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-3",
+    "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. You’ll still be able to access the old case by clicking on the ‘linked’ cases tab in the new case.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-4",
+    "Label": "The new case will be automatically populated with information from the old case. Please update the parts of the application that need to be different.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-5",
+    "Label": "The fee for an amended application is £95.\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelAmendPetitionForRefusalSolPara-6",
+    "Label": "Once the amended application has been submitted, it will be checked by the courts before being issued to the petitioner’s husband/wife so they can respond.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
