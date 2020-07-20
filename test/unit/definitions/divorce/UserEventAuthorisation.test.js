@@ -4,7 +4,7 @@ const { differenceWith, intersectionWith, concat } = require('lodash');
 const AuthorisationCaseEvent = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), []);
 const AuthorisationCaseField = Object.assign(require('definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField'), []);
 const AuthorisationCaseState = Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), []);
-const CaseEvent = Object.assign(require('definitions/divorce/json/CaseEvent'), []);
+const CaseEvent = Object.assign(require('definitions/divorce/json/CaseEvent/CaseEvent'), []);
 const CaseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 const CaseRoles = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
 

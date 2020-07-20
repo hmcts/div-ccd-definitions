@@ -36,7 +36,7 @@
     "reset-ccd-submodule": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
     "setup": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
     "lint": "eslint --fix .",
-    "test": "NODE_PATH=. mocha test/unit/**/*.js",
+    "test": "NODE_PATH=. mocha test/unit/definitions/**/*.js",
     "test:coverage": "echo test:coverage",
     "test:a11y": "echo test:a11y",
     "test:smoke": "echo smoke",
