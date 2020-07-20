@@ -4075,7 +4075,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelAmendPetitionForRefusalSolPara-3",
-    "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. You’ll still be able to access the old case by clicking on the ‘linked’ cases tab in the new case.\r\n\r\n",
+    "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. To access the new case go to the 'Linked cases' tab, click on the link to the new case and then select the next step 'Amend divorce application'.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

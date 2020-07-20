@@ -2686,6 +2686,8 @@
     "DisplayOrder": 3,
     "PreConditionState(s)": "DNisRefused;AwaitingHWFDecision;Submitted;Issued;Rejected;PendingRejection;solicitorAwaitingPaymentConfirmation;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
     "PostConditionState": "AmendPetition",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {

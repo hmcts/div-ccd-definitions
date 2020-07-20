@@ -6,5 +6,13 @@
     "Label": "Amount to pay: **£${solApplicationFeeInPounds}**",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AmendedCaseId",
+    "Label": "Case ID for Amended case",
+    "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
   }
 ]

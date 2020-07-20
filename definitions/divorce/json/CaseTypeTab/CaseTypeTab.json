@@ -2976,17 +2976,6 @@
     "TabID": "LinkedCase",
     "TabLabel": "Linked Cases",
     "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousCaseId",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
     "CaseFieldID": "PreviousReasonsForDivorce",
     "TabFieldDisplayOrder": 2,
     "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
