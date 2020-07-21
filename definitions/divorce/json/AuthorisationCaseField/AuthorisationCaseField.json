@@ -18893,5 +18893,68 @@
     "CaseFieldID": "CostsOrderAdditionalInfoWelsh",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "06/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8Cohort",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "06/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PreviousIssueDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "solApplicationFeeInPounds",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "AmendedCaseId",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
   }
 ]
