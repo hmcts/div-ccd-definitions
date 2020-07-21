@@ -2252,5 +2252,12 @@
     "CaseStateID": "WelshDNReceived",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DNisRefused",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
