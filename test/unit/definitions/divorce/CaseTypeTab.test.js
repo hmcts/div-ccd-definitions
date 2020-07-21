@@ -92,6 +92,7 @@ describe('CaseTypeTab', () => {
     serviceApplication: 23,
     LinkedCase: 24,
     Language: 25,
+    ConfidentialDocuments: 26,
     General: 1
   };
 
@@ -133,7 +134,8 @@ describe('CaseTypeTab', () => {
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
       'serviceApplication',
       'LinkedCase',
-      'Language'
+      'Language',
+      'ConfidentialDocuments'
     ]);
   });
 
