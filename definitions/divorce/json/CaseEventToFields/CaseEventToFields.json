@@ -935,6 +935,18 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "uploadConfidentialDocument",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "uploadConfidentialDocuments",
+    "PageLabel": "Upload Confidential Documents",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseToNewRDC",
     "CaseFieldID": "D8DivorceUnit",
     "PageFieldDisplayOrder": 1,
@@ -4591,6 +4603,15 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "create",
     "CaseFieldID": "D8DocumentsUploaded",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "create",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1
