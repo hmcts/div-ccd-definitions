@@ -68,6 +68,17 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "uploadConfidentialDocument",
+    "Name": "Upload confidential document",
+    "Description": "Upload confidential document",
+    "DisplayOrder": 24,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "rejected",
     "Name": "Reject",
     "Description": "Reject petition",
