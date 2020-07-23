@@ -1213,5 +1213,17 @@
     "ID": "FL_typeOfTraslatedTo",
     "ListElementCode": "CY",
     "ListElement": "Welsh"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "ServiceApplicationTypeEnum",
+    "ListElementCode": "deemed",
+    "ListElement": "Deemed as served"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "ServiceApplicationTypeEnum",
+    "ListElementCode": "dispensed",
+    "ListElement": "Dispensed with service"
   }
 ]

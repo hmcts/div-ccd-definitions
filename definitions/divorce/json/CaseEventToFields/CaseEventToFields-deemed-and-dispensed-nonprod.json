@@ -1,0 +1,28 @@
+[
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serviceApplicationReceived",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serviceApplicationReceived",
+    "CaseFieldID": "D8DerivedRespondentHomeAddress",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  }
+]
