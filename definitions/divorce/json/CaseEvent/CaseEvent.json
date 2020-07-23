@@ -2943,7 +2943,7 @@
     "ShowSummary": "Y"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "07/23/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "serviceApplicationReceived",
     "Name": "Service application received",
@@ -2951,6 +2951,8 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "AosStarted;AosOverdue",
     "PostConditionState": "awaitingServicePayment",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
