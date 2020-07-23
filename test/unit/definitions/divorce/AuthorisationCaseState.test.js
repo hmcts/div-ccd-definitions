@@ -3,25 +3,33 @@ const { uniqWith } = require('lodash');
 const isFieldDuplicated = require('../../utils/utils').isFieldDuplicated
 
 const load = require;
-const authCaseStateCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), {});
 
-function mergeJsonFilesFor(whatEnvs) {
-  const authCaseForSpecificEnvs = Object
-    .assign(load(`definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState-${whatEnvs}`), {});
+function loadAllFiles(files) {
+  let definitions = [];
 
-  return [...authCaseStateCommon, ...authCaseForSpecificEnvs];
+  files.forEach(file => {
+    definitions = definitions
+      .concat(load(`definitions/divorce/json/AuthorisationCaseState/${file}.json`));
+  });
+
+  return definitions;
 }
 
 describe('AuthorisationCaseState', () => {
   it('should contain a unique case state, case type ID and role (no duplicates) for nonprod files', () => {
-    const nonProd = mergeJsonFilesFor('nonprod');
+    const nonProd = loadAllFiles(
+      ['AuthorisationCaseState', 'AuthorisationCaseState-nonprod', 'AuthorisationCaseState-deemed-and-dispensed-nonprod']
+    );
     const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseStateID'));
 
     expect(uniqResult).to.eql(nonProd);
   });
 
   it('should contain a unique case state ID, case type ID and role (no duplicates) for prod file', () => {
-    const prodOnly = mergeJsonFilesFor('prod');
+    const prodOnly = loadAllFiles(
+      ['AuthorisationCaseState', 'AuthorisationCaseState-prod', 'AuthorisationCaseState-deemed-and-dispensed-prod']
+    );
+
     const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseStateID'));
 
     expect(uniqResult).to.eql(prodOnly);
