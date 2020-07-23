@@ -4685,6 +4685,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolPaymentPara-1",
+    "Label": "Amount to pay: **£${solApplicationFeeInPounds}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationType",
