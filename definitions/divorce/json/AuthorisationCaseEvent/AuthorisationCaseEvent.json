@@ -1344,7 +1344,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "09/11/2018",
+    "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "testAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin_beta",
