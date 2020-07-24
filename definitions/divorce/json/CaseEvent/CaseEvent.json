@@ -2951,8 +2951,8 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "AosStarted;AosOverdue",
     "PostConditionState": "awaitingServicePayment",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
