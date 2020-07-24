@@ -4667,7 +4667,6 @@
     "FieldTypeParameter": "FL_typeOfTraslatedTo",
     "SecurityClassification": "Public"
   },
-
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
@@ -4682,6 +4681,32 @@
     "ID": "AmendedCaseId",
     "Label": "Case ID for Amended case",
     "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationType",
+    "Label": "Service application type",
+    "HintText": "What type of service application has been received?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReceivedServiceApplicationDate",
+    "Label": "Application date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReceivedServiceAddedDate",
+    "Label": "Added date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]

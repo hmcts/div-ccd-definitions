@@ -1,0 +1,28 @@
+[
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serviceApplicationReceived",
+    "CaseFieldID": "ReceivedServiceApplicationDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "serviceApplicationReceived1",
+    "PageLabel": "Service application received",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serviceApplicationReceived",
+    "CaseFieldID": "ServiceApplicationType",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "serviceApplicationReceived1",
+    "PageLabel": "Service application received",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  }
+]
