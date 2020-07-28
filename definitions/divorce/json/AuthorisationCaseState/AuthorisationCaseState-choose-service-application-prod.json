@@ -1,0 +1,23 @@
+[
+  {
+    "LiveFrom": "27/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "serviceApplicationNotApproved",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "27/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "serviceApplicationNotApproved",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "27/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "serviceApplicationNotApproved",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  }
+]
