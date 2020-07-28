@@ -89,5 +89,18 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseFieldID": "dueDate",
+    "PageFieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "tempEditDerivedAddresses",
+    "PageLabel": "Temporary - Edit derived addresses",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
