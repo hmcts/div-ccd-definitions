@@ -391,5 +391,21 @@
     "Name": "Awaiting service payment",
     "Description": "Awaiting service payment",
     "DisplayOrder": 32
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationNotApproved",
+    "Name": "Service Application Not Approved",
+    "Description": "Service Application Not Approved",
+    "DisplayOrder": 33
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingDNApplication",
+    "Name": "Awaiting DN Application",
+    "Description": "Awaiting DN Application",
+    "DisplayOrder": 34
   }
 ]
