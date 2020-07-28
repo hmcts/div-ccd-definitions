@@ -2956,15 +2956,16 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "27/07/2020",
+    "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "makeServiceDecision",
-    "Name": "Make service decision",
-    "Description": "Make service decision",
+    "Name": "Make Service Decision",
+    "Description": "Make Service Decision",
     "DisplayOrder": 12,
-    "PreConditionState(s)": "awaitingServiceConsideration",
-    "PostConditionState": "serviceApplicationNotApproved",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "PreConditionState(s)": "awaitingServicePayment",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public"
   }
 ]

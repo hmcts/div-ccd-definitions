@@ -1,0 +1,18 @@
+[
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serviceApplicationGranted",
+    "Label": "Service Application Granted",
+    "FieldType": "yesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serviceApplicationDecisionDate",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  }
+]
