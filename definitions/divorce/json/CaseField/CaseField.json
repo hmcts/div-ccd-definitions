@@ -4712,7 +4712,7 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "serviceApplicationGranted",
+    "ID": "ServiceApplicationGranted",
     "Label": "Service Application Granted",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
@@ -4720,7 +4720,7 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "serviceApplicationDecisionDate",
+    "ID": "ServiceApplicationDecisionDate",
     "Label": "Service Application Decision Date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
