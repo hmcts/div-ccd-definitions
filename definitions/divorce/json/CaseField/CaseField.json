@@ -4708,5 +4708,21 @@
     "Label": "Added date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serviceApplicationGranted",
+    "Label": "Service Application Granted",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serviceApplicationDecisionDate",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]
