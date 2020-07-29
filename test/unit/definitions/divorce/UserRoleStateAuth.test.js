@@ -1,8 +1,9 @@
 const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
+
 const load = require;
 
-function loadAllFiles (files) {
+function loadAllFiles(files) {
   let definitions = [];
 
   files.forEach(file => {
@@ -19,19 +20,19 @@ const State = Object.assign(require('definitions/divorce/json/State/State'), [])
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'DNisRefused', 'solicitorAwaitingPaymentConfirmation', 'AwaitingAmendCase'];
 
-function byCaseType (caseType) {
+function byCaseType(caseType) {
   return entry => {
     return entry.CaseTypeID === caseType;
   };
 }
 
-function byStateName (stateEntry) {
+function byStateName(stateEntry) {
   return stateAuth => {
     return stateAuth.CaseStateID === stateEntry.ID;
   };
 }
 
-function mapErrorArray (caseType) {
+function mapErrorArray(caseType) {
   return entry => {
     return {
       UserRole: entry.UserRole,
@@ -40,11 +41,11 @@ function mapErrorArray (caseType) {
   };
 }
 
-function checkPerms (entry) {
+function checkPerms(entry) {
   expect(entry.CRUD).to.match(MINIMUM_READ_PERMISSIONS);
 }
 
-function runTest (authorisationCaseState) {
+function runTest(authorisationCaseState) {
   // iterate each case type
   // get all state auths for case type
   // get all roles for case type
