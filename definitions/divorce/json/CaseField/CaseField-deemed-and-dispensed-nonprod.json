@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "serviceApplicationGranted",
     "Label": "Service Application Granted",
-    "FieldType": "yesOrNo",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
