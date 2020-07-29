@@ -7,6 +7,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "awaitingServicePayment",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "27/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",

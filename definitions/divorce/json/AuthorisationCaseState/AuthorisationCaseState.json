@@ -2278,13 +2278,6 @@
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "awaitingServicePayment",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "awaitingServicePayment",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
