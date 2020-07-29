@@ -1,0 +1,13 @@
+[
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "DIVORCE",
+        "ID": "amendPetition",
+        "Name": "Amend Petition",
+        "Description": "Amend Petition",
+        "DisplayOrder": 2,
+        "PreConditionState(s)": "AosCompleted;AwaitingAmendCase",
+        "PostConditionState": "AmendPetition",
+        "SecurityClassification": "Public"
+    }
+]
