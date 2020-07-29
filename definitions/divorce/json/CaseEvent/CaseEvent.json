@@ -1314,7 +1314,7 @@
     "Name": "Amend Petition",
     "Description": "Amend Petition",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "AosCompleted",
+    "PreConditionState(s)": "AosCompleted;AwaitingAmendCase",
     "PostConditionState": "AmendPetition",
     "SecurityClassification": "Public"
   },
