@@ -37,18 +37,5 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "29/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "makeServiceDecision",
-    "CaseFieldID": "ServiceApplicationDecisionDate",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "PageID": "makeServiceDecision1",
-    "PageLabel": "Make Service Decision",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
   }
 ]
