@@ -292,12 +292,5 @@
     "CaseStateID": "awaitingServicePayment",
     "UserRole": "caseworker-divorce-pcqextractor",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingAmendCase",
-    "UserRole": "caseworker-divorce-pcqextractor",
-    "CRUD": "R"
   }
 ]
