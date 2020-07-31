@@ -9,7 +9,7 @@
   {
     "LiveFrom": "31/07/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testASPToAwaitingServiceConfirmation",
+    "CaseEventID": "testASPToAwaitServiceConfirm",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   }
