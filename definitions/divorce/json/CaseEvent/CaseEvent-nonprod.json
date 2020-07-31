@@ -2,7 +2,7 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConfirmation",
+    "ID": "testASPToAwaitingServiceConfirmation",
     "Name": "TEST ONLY: AwaitingServicePayment to AwaitingServiceConfirmation",
     "Description": "AwaitingServicePayment to AwaitingServiceConfirmation",
     "DisplayOrder": 12,
