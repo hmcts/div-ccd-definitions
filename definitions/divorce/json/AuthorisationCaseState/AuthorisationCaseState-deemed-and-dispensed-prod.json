@@ -26,5 +26,12 @@
     "CaseStateID": "AwaitingDNApplication",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
   }
 ]

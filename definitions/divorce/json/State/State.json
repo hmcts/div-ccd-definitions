@@ -379,9 +379,17 @@
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "awaitingServicePayment",
-    "Name": "Awaiting service payment",
+    "Name": "Awaiting Service Payment",
     "Description": "Awaiting service payment",
     "DisplayOrder": 32
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingServiceConfirmation",
+    "Name": "Awaiting Service Confirmation",
+    "Description": "Awaiting Service Confirmation",
+    "DisplayOrder": 33
   },
   {
     "LiveFrom": "23/07/2020",
@@ -389,7 +397,7 @@
     "ID": "ServiceApplicationNotApproved",
     "Name": "Service Application Not Approved",
     "Description": "Service Application Not Approved",
-    "DisplayOrder": 33
+    "DisplayOrder": 34
   },
   {
     "LiveFrom": "23/07/2020",
@@ -397,6 +405,6 @@
     "ID": "AwaitingDNApplication",
     "Name": "Awaiting DN Application",
     "Description": "Awaiting DN Application",
-    "DisplayOrder": 34
+    "DisplayOrder": 35
   }
 ]

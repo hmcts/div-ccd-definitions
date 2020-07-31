@@ -2303,6 +2303,55 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",

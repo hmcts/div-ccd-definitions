@@ -5,5 +5,12 @@
     "CaseEventID": "tempEditDerivedAddresses",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConfirmation",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
