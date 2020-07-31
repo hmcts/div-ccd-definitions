@@ -2,9 +2,9 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "testASPToAwaitServiceConfirm",
-    "Name": "TEST ONLY: AwaitingServicePayment to AwaitingServiceConfirmation",
-    "Description": "AwaitingServicePayment to AwaitingServiceConfirmation",
+    "ID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConfirmation",
+    "Name": "Move to AwaitServiceConfirm",
+    "Description": "TEST ONLY: AwaitingServicePayment to AwaitingServiceConfirmation",
     "DisplayOrder": 12,
     "PreConditionState(s)": "awaitingServicePayment",
     "PostConditionState": "AwaitingServiceConfirmation",
