@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "LiveFrom": "27/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "awaitingServicePayment",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  }
+]
