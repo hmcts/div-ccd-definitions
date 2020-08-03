@@ -49,7 +49,7 @@
     "PageLabel": "Reason for refusal - Make Service Decision",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ServiceApplicationGranted=\"No\"",
+    "PageShowCondition": "ServiceApplicationGranted=\"No\"",
     "ShowSummaryChangeOption": "No"
   }
 ]
