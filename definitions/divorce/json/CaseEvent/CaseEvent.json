@@ -2938,7 +2938,7 @@
     "Name": "Make Service Decision",
     "Description": "Make Service Decision",
     "DisplayOrder": 12,
-    "PreConditionState(s)": "AwaitingServiceConfirmation",
+    "PreConditionState(s)": "AwaitingServiceConsideration",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",

@@ -16,7 +16,7 @@
   {
     "LiveFrom": "31/07/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingServiceConfirmation",
+    "CaseStateID": "AwaitingServiceConsideration",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },

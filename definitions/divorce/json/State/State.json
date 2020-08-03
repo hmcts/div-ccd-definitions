@@ -386,7 +386,7 @@
   {
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "AwaitingServiceConfirmation",
+    "ID": "AwaitingServiceConsideration",
     "Name": "Awaiting Service Confirmation",
     "Description": "Awaiting Service Confirmation",
     "DisplayOrder": 33
