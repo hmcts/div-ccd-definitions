@@ -42,7 +42,7 @@
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "makeServiceDecision",
-    "CaseFieldID": "ServiceApplicationGranted",
+    "CaseFieldID": "ServiceApplicationRefusalReason",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "makeServiceDecision2",
