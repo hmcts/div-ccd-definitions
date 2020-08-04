@@ -3351,5 +3351,57 @@
     "TabDisplayOrder": 25,
     "CaseFieldID": "CostsOrderAdditionalInfoWelsh",
     "TabFieldDisplayOrder": 24
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousCaseId",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\" OR AmendedCaseId.CaseReference=\"*\""
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "AmendedCaseId",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "AmendedCaseId.CaseReference=\"*\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "PetitionerPcqId",
+    "TabFieldDisplayOrder": 115
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "coRespondent",
+    "TabLabel": "Co-Respondent",
+    "TabDisplayOrder": 22,
+    "CaseFieldID": "CoRespondentPcqId",
+    "TabFieldDisplayOrder": 33
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "aosDetails",
+    "TabLabel": "AOS",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "RespondentPcqId",
+    "TabFieldDisplayOrder": 30
   }
 ]
