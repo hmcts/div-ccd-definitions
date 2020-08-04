@@ -5,16 +5,27 @@ const { isFieldDuplicated }  = require('../../utils/utils');
 const load = require;
 const authCaseEventCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), {});
 
-function mergeJsonFilesFor(whatEnvs) {
-  const authCaseForSpecificEnvs = Object
-    .assign(load(`definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-${whatEnvs}`), {});
+function mergeJsonNonProdFiles() {
 
-  return [...authCaseEventCommon, ...authCaseForSpecificEnvs];
+  var definitions = []
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-deemed-and-dispensed-nonprod.json'))
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'))
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-pet-amend-nonprod.json'));
+
+  return [...authCaseEventCommon, ...definitions];
+}
+
+function mergeJsonProdFiles() {
+
+  var definitions = []
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-prod.json'));
+
+  return [...authCaseEventCommon, ...definitions];
 }
 
 describe('AuthorisationCaseEvent', () => {
   it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
-    const nonProd = mergeJsonFilesFor('nonprod');
+    const nonProd = mergeJsonNonProdFiles();
     const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseEventID'));
 
     expect(uniqResult).to.eql(nonProd);
@@ -23,7 +34,7 @@ describe('AuthorisationCaseEvent', () => {
 
 describe('AuthorisationCaseEvent', () => {
   it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
-    const prodOnly = mergeJsonFilesFor('prod');
+    const prodOnly = mergeJsonProdFiles();
     const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseEventID'));
 
     expect(uniqResult).to.eql(prodOnly);
