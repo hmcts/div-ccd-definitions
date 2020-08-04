@@ -233,28 +233,28 @@
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "servicePayment",
+    "CaseStateID": "ServicePayment",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "servicePayment",
+    "CaseStateID": "ServicePayment",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "servicePayment",
+    "CaseStateID": "ServicePayment",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "servicePayment",
+    "CaseStateID": "ServicePayment",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   }

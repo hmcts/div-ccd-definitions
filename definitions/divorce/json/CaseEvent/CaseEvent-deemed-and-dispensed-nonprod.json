@@ -32,8 +32,8 @@
     "Name": "Service payment exists",
     "Description": "Service payment exists",
     "DisplayOrder": 13,
-    "PreConditionState(s)": "AwaitingServicePayment",
-    "PostConditionState": "AwaitingServiceConsideration",
+    "PreConditionState(s)": "AwaitingPayment",
+    "PostConditionState": "*",
     "SecurityClassification": "Public"
   }
 ]
