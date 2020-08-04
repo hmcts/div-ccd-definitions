@@ -70,7 +70,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationPaymentType",
     "Label": "Service Application Decision Date",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -86,7 +86,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationApprovalDate",
     "Label": "Service Application Decision Date",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]
