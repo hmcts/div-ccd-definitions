@@ -6,6 +6,17 @@ let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/Ca
 let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
 const tabIds = uniq(map(caseTypeTab, 'TabID'));
 
+function loadAllFilesIn(location, files) {
+  let definitions = [];
+
+  files.forEach(file => {
+    definitions = definitions
+        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
+  });
+
+  return definitions;
+}
+
 const nonProdCaseTypeTab = loadAllFilesIn('CaseTypeTab',
     ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod']
 );
@@ -144,13 +155,3 @@ describe('CaseTypeTab', () => {
   });
 });
 
-function loadAllFilesIn(location, files) {
-  let definitions = [];
-
-  files.forEach(file => {
-    definitions = definitions
-        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
-  });
-
-  return definitions;
-}
