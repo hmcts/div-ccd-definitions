@@ -16,7 +16,7 @@
     "TabID": "serviceApplication",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "AddedServiceApplicationDate",
+    "CaseFieldID": "ReceivedServiceAddedDate",
     "TabFieldDisplayOrder": 2
   },
   {
@@ -36,7 +36,7 @@
     "TabID": "serviceApplication",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPaymentType",
+    "CaseFieldID": "serviceApplicationPaymentType",
     "TabFieldDisplayOrder": 4
   },
   {
@@ -48,7 +48,7 @@
     "TabDisplayOrder": 23,
     "CaseFieldID": "LabelOutcomeOfServiceApplication",
     "TabFieldDisplayOrder": 5,
-    "FieldShowCondition" : "serviceApplicationApprovalDate != \"*\""
+    "FieldShowCondition" : "ServiceApplicationDecisionDate != \"*\""
 
   },
   {
@@ -58,7 +58,7 @@
     "TabID": "serviceApplication",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationApprovalDate",
+    "CaseFieldID": "ServiceApplicationDecisionDate",
     "TabFieldDisplayOrder": 6
   },
   {

@@ -60,33 +60,9 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "AddedServiceApplicationDate",
-    "Label": "Service Application Decision Date",
-    "FieldType": "Date",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "28/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentType",
-    "Label": "Service Application Decision Date",
-    "FieldType": "Date",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "28/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentType",
-    "Label": "Service Application Decision Date",
+    "ID": "serviceApplicationPaymentType",
+    "Label": "How will payment be made?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "28/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationApprovalDate",
-    "Label": "Service Application Decision Date",
-    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]
