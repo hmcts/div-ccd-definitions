@@ -285,5 +285,89 @@
     "CaseFieldID": "ServiceApplicationPayment",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin-beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin_la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin-beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin_la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]

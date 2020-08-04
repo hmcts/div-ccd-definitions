@@ -58,5 +58,23 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PBANumber",
+    "Label": "Enter your account number",
+    "HintText": "Example: PBA0896124",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PBAReference",
+    "Label": "Enter your reference",
+    "HintText": "This will appear on your statement to help identify your payment",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
