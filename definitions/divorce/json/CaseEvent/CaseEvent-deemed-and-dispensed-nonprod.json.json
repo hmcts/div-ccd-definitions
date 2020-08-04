@@ -2,12 +2,25 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "servicePayment",
+    "ID": "ServicePayment",
     "Name": "Service payment exists",
     "Description": "Service payment exists",
     "DisplayOrder": 2,
     "PreConditionState(s)": "serviceApplicationReceived",
     "PostConditionState": "AwaitingServiceConsideration",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "07/23/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serviceApplicationReceived",
+    "Name": "Service application received",
+    "Description": "Service application received",
+    "DisplayOrder": 12,
+    "PreConditionState(s)": "awaitingServicePayment",
+    "PostConditionState": "",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/service-payment",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]

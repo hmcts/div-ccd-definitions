@@ -24,5 +24,18 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServiceApplicationPaymentType",
+    "CaseFieldID": "ServiceApplicationPaymentTypeEnum",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ServiceApplicationPayment1",
+    "PageLabel": "Service application payment",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
   }
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServicePayment",
+    "Label": "Service payment type",
+    "HintText": "How will the payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "SecurityClassification": "Public"
+  }
+]
