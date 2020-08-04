@@ -1,6 +1,7 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
+const load = require;
 
 let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
 let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
@@ -11,7 +12,7 @@ function loadAllFilesIn(location, files) {
 
   files.forEach(file => {
     definitions = definitions
-        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
+        .concat(load(`definitions/divorce/json/${location}/${file}.json`));
   });
 
   return definitions;
