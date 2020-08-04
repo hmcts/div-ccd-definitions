@@ -1,0 +1,12 @@
+[
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "DecreeNisiGranted",
+    "TabFieldDisplayOrder": 1
+  }
+]

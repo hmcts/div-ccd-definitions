@@ -2,12 +2,30 @@ const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
 
-const caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
+let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
 const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
-
 const tabIds = uniq(map(caseTypeTab, 'TabID'));
 
+
+function loadAllFiles(location, files) {
+  let definitions = [];
+
+  files.forEach(file => {
+    definitions = definitions
+        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
+  });
+
+  return definitions;
+}
+
+const nonProdCaseTypeTab = loadAllFiles('CaseTypeTab',
+    ['CaseTypeTab-deemed-and-dispensed-nonprod']
+);
+
+
 describe('CaseTypeTab', () => {
+  caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
+
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
     const uniqResult = uniqWith(
       caseTypeTab,
@@ -72,7 +90,7 @@ describe('CaseTypeTab', () => {
     notes: 20,
     marriageCertificate: 21,
     coRespondent: 22,
-    SolicitorCoRespondent: 23,
+    serviceApplication: 23,
     LinkedCase: 24,
     Language: 25,
     General: 1
@@ -113,6 +131,7 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
+      // 'serviceApplication',
       'LinkedCase',
       'Language'
     ]);
