@@ -3,28 +3,24 @@ const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
 
 let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
-const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
+let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
 const tabIds = uniq(map(caseTypeTab, 'TabID'));
 
+const nonProdCaseTypeTab = loadAllFilesIn('CaseTypeTab',
+    ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod']
+);
 
-function loadAllFiles(location, files) {
-  let definitions = [];
-
-  files.forEach(file => {
-    definitions = definitions
-        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
-  });
-
-  return definitions;
-}
-
-const nonProdCaseTypeTab = loadAllFiles('CaseTypeTab',
-    ['CaseTypeTab-deemed-and-dispensed-nonprod']
+const nonProdCaseFields = loadAllFilesIn('CaseField',
+    ['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod']
 );
 
 
 describe('CaseTypeTab', () => {
-  caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
+
+  before(() => {
+    caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
+    caseField = [...caseField, ...nonProdCaseFields];
+  })
 
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
     const uniqResult = uniqWith(
@@ -35,6 +31,7 @@ describe('CaseTypeTab', () => {
     );
     expect(uniqResult).to.eql(caseTypeTab);
   });
+
   it('should contain a unique tab field display order ID field tab ID (no duplicate field order in a tab)', () => {
     tabIds.forEach(tabId => {
       const allFieldsPerTab = filter(caseTypeTab, field => {
@@ -49,6 +46,7 @@ describe('CaseTypeTab', () => {
       expect(uniqResults).to.eql(allFieldsPerTab);
     });
   });
+
   it('should contain a proper sequence for TabFieldDisplayOrder with no gaps', () => {
     tabIds.forEach(tabId => {
       const allFieldsPerTab = filter(caseTypeTab, field => {
@@ -136,6 +134,7 @@ describe('CaseTypeTab', () => {
       'Language'
     ]);
   });
+
   it('should contain a valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
     const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
@@ -144,3 +143,14 @@ describe('CaseTypeTab', () => {
     expect(objectsWithInvalidCaseId).to.eql([]);
   });
 });
+
+function loadAllFilesIn(location, files) {
+  let definitions = [];
+
+  files.forEach(file => {
+    definitions = definitions
+        .concat(require(`definitions/divorce/json/${location}/${file}.json`));
+  });
+
+  return definitions;
+}

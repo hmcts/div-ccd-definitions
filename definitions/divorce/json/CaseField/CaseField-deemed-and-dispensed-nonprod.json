@@ -48,5 +48,45 @@
     "Label": "Reason for refusal",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelOutcomeOfServiceApplication",
+    "Label": "**Outcome of service application**",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AddedServiceApplicationDate",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentType",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentType",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationApprovalDate",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
