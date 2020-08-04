@@ -50,11 +50,11 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServicePayment",
-    "Label": "Service payment type",
-    "HintText": "How will the payment be made?",
+    "ID": "ServiceApplicationPayment",
+    "Label": "How will payment be made?",
+    "HintText": "How will payment be made?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
     "SecurityClassification": "Public"
