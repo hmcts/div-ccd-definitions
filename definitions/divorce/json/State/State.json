@@ -374,13 +374,5 @@
     "Description": "Welsh DN Received",
     "DisplayOrder": 31,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "awaitingServicePayment",
-    "Name": "Awaiting service payment",
-    "Description": "Awaiting service payment",
-    "DisplayOrder": 32
   }
 ]
