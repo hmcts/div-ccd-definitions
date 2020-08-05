@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
-const { uniq, uniqWith, map, filter } = require('lodash');
+const { uniq, uniqWith, map, filter, sortBy } = require('lodash');
 const { loadAllFiles } = require('../../utils/utils');
 
 const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
@@ -21,10 +21,14 @@ const caseField = getAllCaseFieldDefinitions(
 let tabIds = [];
 
 describe('CaseTypeTab', () => {
+
   before(() => {
-    console.log('---------', uniq(map([caseTypeTab], 'TabID')));
-    tabIds = uniq(map([caseTypeTab], 'TabID'));
+    const tabsByDisplayId = sortBy(caseTypeTab, (tab) => {
+      return tab.TabDisplayOrder;
+    });
+    tabIds = uniq(map(tabsByDisplayId, 'TabID'));
   });
+
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
     const uniqResult = uniqWith(
       caseTypeTab,
@@ -68,7 +72,7 @@ describe('CaseTypeTab', () => {
     });
   });
 
-  describe('Validaion of tab fields', () => {
+  describe('Case Tab Order Validation', () => {
     const expected = {
       History: 1,
       petitionDetails: 2,
@@ -97,6 +101,7 @@ describe('CaseTypeTab', () => {
       Language: 25,
       General: 1
     };
+
     tabIds.forEach(tabId => {
       it(`all ${tabId} fields should have the expected tab order ${expected[tabId]}`, () => {
         const allTabFields = uniq(filter(caseTypeTab, field => {
@@ -109,7 +114,6 @@ describe('CaseTypeTab', () => {
   });
 
   it('should contain a valid Tab IDs', () => {
-    console.log('tabIds', tabIds);
     expect(tabIds).to.eql([
       'History',
       'General',
