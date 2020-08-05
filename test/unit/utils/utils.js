@@ -1,29 +1,27 @@
 const load = require;
 
 function isFieldDuplicated(field) {
-    return function isDuplicated(field1, field2) {
-        return field1.CaseTypeID === field2.CaseTypeID
+  return function isDuplicated(field1, field2) {
+    return field1.CaseTypeID === field2.CaseTypeID
             && field1[field] === field2[field]
             && field1.UserRole === field2.UserRole;
-    };
+  };
 }
 
 function loadAllFilesIn(location, featureFiles) {
-    return function loadFeatureFiles()
-    {
-        let definitions = [];
+  return function loadFeatureFiles() {
+    let definitions = [];
 
-        featureFiles.forEach(featureFile => {
-            definitions = definitions
-                .concat(load(`definitions/divorce/json/${location}/${featureFile}.json`));
-        });
+    featureFiles.forEach(featureFile => {
+      definitions = definitions
+        .concat(load(`definitions/divorce/json/${location}/${featureFile}.json`));
+    });
 
-        return definitions;
-    }
+    return definitions;
+  };
 }
 
 module.exports = {
-    isFieldDuplicated,
-    loadAllFilesIn
+  isFieldDuplicated,
+  loadAllFilesIn
 };
-
