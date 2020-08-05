@@ -9,7 +9,7 @@ function isFieldDuplicated(field) {
 }
 
 function loadAllFilesIn(location, featureFiles) {
-    return function()
+    return function loadFeatureFiles()
     {
         let definitions = [];
 
