@@ -103,5 +103,17 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServicePayment",
+    "CaseFieldID": "paymentSummary",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ServiceApplicationPayment2",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   }
 ]

@@ -84,5 +84,13 @@
     "Label": "Enter your HWF reference",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "paymentSummary",
+    "Label": "Here are your payment summary",
+    "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
   }
 ]
