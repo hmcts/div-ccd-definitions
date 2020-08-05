@@ -10,6 +10,7 @@ const caseTypeTab = getAllCaseTypeTabDefinitions(
     'CaseTypeTab-prod',
     'CaseTypeTab-deemed-and-dispensed-nonprod'
   ]);
+
 const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
 const caseField = getAllCaseFieldDefinitions(
   [
