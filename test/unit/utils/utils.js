@@ -1,4 +1,5 @@
 const load = require;
+const { sortBy } = require('lodash');
 
 function isFieldDuplicated(field) {
   return function isDuplicated(field1, field2) {
@@ -21,7 +22,14 @@ function loadAllFiles(location) {
   };
 }
 
+function sortCaseTypeTabs(caseTypeTab) {
+  return sortBy(caseTypeTab, tab => {
+    return tab.TabDisplayOrder;
+  });
+}
+
 module.exports = {
   isFieldDuplicated,
-  loadAllFiles
+  loadAllFiles,
+  sortCaseTypeTabs
 };
