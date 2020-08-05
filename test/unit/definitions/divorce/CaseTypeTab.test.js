@@ -21,9 +21,8 @@ const caseField = getAllCaseFieldDefinitions(
 let tabIds = [];
 
 describe('CaseTypeTab', () => {
-
   before(() => {
-    const tabsByDisplayId = sortBy(caseTypeTab, (tab) => {
+    const tabsByDisplayId = sortBy(caseTypeTab, tab => {
       return tab.TabDisplayOrder;
     });
     tabIds = uniq(map(tabsByDisplayId, 'TabID'));
