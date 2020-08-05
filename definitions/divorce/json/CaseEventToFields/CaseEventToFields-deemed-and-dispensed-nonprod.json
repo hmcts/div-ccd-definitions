@@ -72,7 +72,7 @@
     "CaseFieldID": "PBANumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": 1,
+    "PageID": "ServiceApplicationPayment1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
@@ -85,10 +85,23 @@
     "CaseFieldID": "PBAReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
-    "PageID": 1,
+    "PageID": "ServiceApplicationPayment1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServicePayment",
+    "CaseFieldID": "HWFReference",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "ServiceApplicationPayment1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
     "ShowSummaryChangeOption": "Y"
   }
 ]

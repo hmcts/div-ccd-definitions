@@ -76,5 +76,13 @@
     "HintText": "This will appear on your statement to help identify your payment",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "HWFReference",
+    "Label": "Enter your HWF reference",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
