@@ -5,7 +5,7 @@ const load = require;
 
 let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
 let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
-const tabIds = uniq(map(caseTypeTab, 'TabID'));
+let tabIds = uniq(map(caseTypeTab, 'TabID'));
 
 function loadAllFilesIn(location, files) {
   let definitions = [];
@@ -22,7 +22,7 @@ const nonProdCaseTypeTab = loadAllFilesIn('CaseTypeTab',
     ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod']
 );
 
-const nonProdCaseFields = loadAllFilesIn('CaseField',
+const nonProdCaseField = loadAllFilesIn('CaseField',
     ['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod']
 );
 
@@ -31,7 +31,8 @@ describe('CaseTypeTab', () => {
 
   before(() => {
     caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
-    caseField = [...caseField, ...nonProdCaseFields];
+    caseField = [...caseField, ...nonProdCaseField];
+    tabIds = uniq(map(caseTypeTab, 'TabID'));
   })
 
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
@@ -141,9 +142,9 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
-      // 'serviceApplication',
       'LinkedCase',
-      'Language'
+      'Language',
+      'serviceApplication'
     ]);
   });
 
