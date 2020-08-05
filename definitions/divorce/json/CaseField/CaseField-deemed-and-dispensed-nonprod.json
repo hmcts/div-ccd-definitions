@@ -60,7 +60,7 @@
   {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "serviceApplicationPaymentType",
+    "ID": "ServiceApplicationPayment",
     "Label": "How will payment be made?",
     "FieldType": "Text",
     "SecurityClassification": "Public"

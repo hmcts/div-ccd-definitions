@@ -36,7 +36,7 @@
     "TabID": "serviceApplication",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "serviceApplicationPaymentType",
+    "CaseFieldID": "ServiceApplicationPayment",
     "TabFieldDisplayOrder": 4
   },
   {
