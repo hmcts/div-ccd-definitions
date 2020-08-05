@@ -48,7 +48,7 @@
     "TabDisplayOrder": 23,
     "CaseFieldID": "LabelOutcomeOfServiceApplication",
     "TabFieldDisplayOrder": 5,
-    "FieldShowCondition" : "ServiceApplicationDecisionDate != \"*\""
+    "FieldShowCondition" : "ServiceApplicationDecisionDate = \"*\""
 
   },
   {
