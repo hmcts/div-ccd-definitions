@@ -19,8 +19,8 @@ const caseField = getAllCaseFieldDefinitions(
     'CaseField-deemed-and-dispensed-nonprod'
   ]);
 
-const tabsByDisplayId = sortCaseTypeTabs(caseTypeTab);
-const tabIds = uniq(map(tabsByDisplayId, 'TabID'));
+const sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
+const tabIds = uniq(map(sortedCaseTabs, 'TabID'));
 
 describe('CaseTypeTab', () => {
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
