@@ -9,19 +9,18 @@ let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseFi
 let tabIds = uniq(map(caseTypeTab, 'TabID'));
 
 const nonProdCaseTypeTab = loadAllFilesIn('CaseTypeTab',
-    ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod'])();
+  ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod'])();
 
 const nonProdCaseField = loadAllFilesIn('CaseField',
-    ['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod'])();
+  ['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod'])();
 
 
 describe('CaseTypeTab', () => {
-
   before(() => {
     caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
     caseField = [...caseField, ...nonProdCaseField];
     tabIds = uniq(map(caseTypeTab, 'TabID'));
-  })
+  });
 
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
     const uniqResult = uniqWith(
@@ -144,4 +143,3 @@ describe('CaseTypeTab', () => {
     expect(objectsWithInvalidCaseId).to.eql([]);
   });
 });
-

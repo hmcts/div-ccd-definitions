@@ -1,13 +1,12 @@
 const expect = require('chai').expect;
 const { uniqWith } = require('lodash');
-const { isFieldDuplicated }  = require('../../utils/utils');
+const { isFieldDuplicated } = require('../../utils/utils');
 
 const load = require;
 const authCaseEventCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), {});
 
 function mergeJsonNonProdFiles() {
-
-  var definitions = []
+  const definitions = []
     .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'))
     .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-pet-amend-nonprod.json'));
@@ -16,8 +15,7 @@ function mergeJsonNonProdFiles() {
 }
 
 function mergeJsonProdFiles() {
-
-  var definitions = []
+  const definitions = []
     .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-prod.json'));
 
   return [...authCaseEventCommon, ...definitions];
