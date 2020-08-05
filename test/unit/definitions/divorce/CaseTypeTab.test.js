@@ -1,18 +1,18 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
-const { loadAllFilesIn } = require('../../utils/utils');
+const { loadAllFiles } = require('../../utils/utils');
 
 let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
 let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
 
 let tabIds = uniq(map(caseTypeTab, 'TabID'));
 
-const nonProdCaseTypeTab = loadAllFilesIn('CaseTypeTab',
-  ['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod'])();
+const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const nonProdCaseTypeTab = getAllCaseTypeTabDefinitions(['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod']);
 
-const nonProdCaseField = loadAllFilesIn('CaseField',
-  ['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod'])();
+const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
+const nonProdCaseField = getAllCaseFieldDefinitions(['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod']);
 
 
 describe('CaseTypeTab', () => {

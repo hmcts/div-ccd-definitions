@@ -8,8 +8,8 @@ function isFieldDuplicated(field) {
   };
 }
 
-function loadAllFilesIn(location, featureFiles) {
-  return function loadFeatureFiles() {
+function loadAllFiles(location) {
+  return function loadFeatureFiles(featureFiles) {
     let definitions = [];
 
     featureFiles.forEach(featureFile => {
@@ -23,5 +23,5 @@ function loadAllFilesIn(location, featureFiles) {
 
 module.exports = {
   isFieldDuplicated,
-  loadAllFilesIn
+  loadAllFiles
 };
