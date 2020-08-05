@@ -3,25 +3,28 @@ const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
 const { loadAllFiles } = require('../../utils/utils');
 
-let caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
-let caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
-
-let tabIds = uniq(map(caseTypeTab, 'TabID'));
-
 const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
-const nonProdCaseTypeTab = getAllCaseTypeTabDefinitions(['CaseTypeTab-prod', 'CaseTypeTab-deemed-and-dispensed-nonprod']);
-
+const caseTypeTab = getAllCaseTypeTabDefinitions(
+  [
+    'CaseTypeTab',
+    'CaseTypeTab-prod',
+    'CaseTypeTab-deemed-and-dispensed-nonprod'
+  ]);
 const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
-const nonProdCaseField = getAllCaseFieldDefinitions(['CaseField-prod', 'CaseField-deemed-and-dispensed-nonprod']);
+const caseField = getAllCaseFieldDefinitions(
+  [
+    'CaseField',
+    'CaseField-prod',
+    'CaseField-deemed-and-dispensed-nonprod'
+  ]);
 
+let tabIds = [];
 
 describe('CaseTypeTab', () => {
   before(() => {
-    caseTypeTab = [...caseTypeTab, ...nonProdCaseTypeTab];
-    caseField = [...caseField, ...nonProdCaseField];
-    tabIds = uniq(map(caseTypeTab, 'TabID'));
+    console.log('---------', uniq(map([caseTypeTab], 'TabID')));
+    tabIds = uniq(map([caseTypeTab], 'TabID'));
   });
-
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
     const uniqResult = uniqWith(
       caseTypeTab,
@@ -65,45 +68,48 @@ describe('CaseTypeTab', () => {
     });
   });
 
-  const expected = {
-    History: 1,
-    petitionDetails: 2,
-    aosDetails: 3,
-    dnDetails: 4,
-    outcomeOfDnDetails: 5,
-    DecreeAbsolute: 6,
-    paymentDetailsCourtAdmin: 7,
-    paymentDetailsCourtAdminBeta: 8,
-    paymentDetailsCourtAdminLa: 9,
-    documents: 10,
-    confidentialPetitionerCourtAdmin: 11,
-    confidentialPetitionerCourtAdminBeta: 12,
-    confidentialPetitionerCourtAdminLa: 13,
-    confidentialRespondentCourtAdmin: 14,
-    confidentialRespondentCourtAdminBeta: 15,
-    confidentialRespondentCourtAdminLa: 16,
-    confidentialCoRespondentCourtAdmin: 17,
-    confidentialCoRespondentCourtAdminBeta: 18,
-    confidentialCoRespondentCourtAdminLa: 19,
-    notes: 20,
-    marriageCertificate: 21,
-    coRespondent: 22,
-    serviceApplication: 23,
-    LinkedCase: 24,
-    Language: 25,
-    General: 1
-  };
-  tabIds.forEach(tabId => {
-    it(`all ${tabId} fields should have the expected tab order ${expected[tabId]}`, () => {
-      const allTabFields = uniq(filter(caseTypeTab, field => {
-        return field.TabID === tabId;
-      }));
-      const allTabOrders = uniq(map(allTabFields, 'TabDisplayOrder'));
-      expect(allTabOrders).to.eql([expected[tabId]]);
+  describe('Validaion of tab fields', () => {
+    const expected = {
+      History: 1,
+      petitionDetails: 2,
+      aosDetails: 3,
+      dnDetails: 4,
+      outcomeOfDnDetails: 5,
+      DecreeAbsolute: 6,
+      paymentDetailsCourtAdmin: 7,
+      paymentDetailsCourtAdminBeta: 8,
+      paymentDetailsCourtAdminLa: 9,
+      documents: 10,
+      confidentialPetitionerCourtAdmin: 11,
+      confidentialPetitionerCourtAdminBeta: 12,
+      confidentialPetitionerCourtAdminLa: 13,
+      confidentialRespondentCourtAdmin: 14,
+      confidentialRespondentCourtAdminBeta: 15,
+      confidentialRespondentCourtAdminLa: 16,
+      confidentialCoRespondentCourtAdmin: 17,
+      confidentialCoRespondentCourtAdminBeta: 18,
+      confidentialCoRespondentCourtAdminLa: 19,
+      notes: 20,
+      marriageCertificate: 21,
+      coRespondent: 22,
+      serviceApplication: 23,
+      LinkedCase: 24,
+      Language: 25,
+      General: 1
+    };
+    tabIds.forEach(tabId => {
+      it(`all ${tabId} fields should have the expected tab order ${expected[tabId]}`, () => {
+        const allTabFields = uniq(filter(caseTypeTab, field => {
+          return field.TabID === tabId;
+        }));
+        const allTabOrders = uniq(map(allTabFields, 'TabDisplayOrder'));
+        expect(allTabOrders).to.eql([expected[tabId]]);
+      });
     });
   });
 
   it('should contain a valid Tab IDs', () => {
+    console.log('tabIds', tabIds);
     expect(tabIds).to.eql([
       'History',
       'General',
@@ -129,9 +135,9 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
+      'serviceApplication',
       'LinkedCase',
-      'Language',
-      'serviceApplication'
+      'Language'
     ]);
   });
 
