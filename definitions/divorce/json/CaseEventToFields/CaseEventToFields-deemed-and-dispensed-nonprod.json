@@ -114,6 +114,6 @@
     "PageID": "ServiceApplicationPayment2",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "No"
   }
 ]
