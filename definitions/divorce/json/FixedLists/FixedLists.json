@@ -444,6 +444,12 @@
     "ListElement": "Dispense with service granted"
   },
   {
+    "LiveFrom": "06/08/2020",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "deemedAsServedGranted",
+    "ListElement": "Deemed as service granted"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "ID": "feeIdEnum",
     "ListElementCode": "X0165",
