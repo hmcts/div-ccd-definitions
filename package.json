@@ -4,7 +4,6 @@
   "description": "Utility to help creating CCD config definitions",
   "main": "index.js",
   "repository": "git@github.com:hmcts/div-ccd-definitions.git",
-  "author": "Hosain <hosain.alahmad@hmcts.net>",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -66,7 +65,7 @@
   ],
   "dependencies": {
     "@hmcts/nodejs-healthcheck": "1.5.1",
-    "@hmcts/properties-volume": "0.0.8",
+    "@hmcts/properties-volume": "0.0.9",
     "codeceptjs": "^2.2.0",
     "config": "^3.0.1",
     "eslint-plugin-codeceptjs": "^1.0.0",

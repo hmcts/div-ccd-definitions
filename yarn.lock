@@ -41,14 +41,13 @@
     on-finished "^2.3.0"
     winston "^2.4.1"
 
-"@hmcts/properties-volume@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@hmcts/properties-volume/-/properties-volume-0.0.8.tgz#baf98be4aa9b11115fc23e20e7e14b2589922788"
-  integrity sha512-2mnFxMxo6kh3rgq8lVXda1iTF408GUmW1qCbksj9llG9l4BCnqM3U6enNzPuT9gYcHFflQ50j7KjG2yZixKOKQ==
+"@hmcts/properties-volume@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@hmcts/properties-volume/-/properties-volume-0.0.9.tgz#1c2b29a563fcad9041231442476a4a3b7a8abf7d"
+  integrity sha512-qW6XDDnJT8wPfSrrFNFkoQXbtWS/KE55ifeRzXeHAXB8CB9r8e8H33jCql/3WYz/LX6PGQRlrZrU27mtQaNQ4g==
   dependencies:
     "@hmcts/nodejs-logging" "^3.0.0"
-    "@types/lodash.merge" "^4.6.5"
-    lodash.merge "^4.6.1"
+    lodash "^4.17.11"
     path "^0.12.7"
 
 "@shinnn/eslint-config-node@^6.0.2":
@@ -69,18 +68,6 @@
     eslint-plugin-promise "^4.1.1"
     is-resolvable "^1.1.0"
     lodash "^4.17.11"
-
-"@types/lodash.merge@^4.6.5":
-  version "4.6.6"
-  resolved "https://registry.yarnpkg.com/@types/lodash.merge/-/lodash.merge-4.6.6.tgz#b84b403c1d31bc42d51772d1cd5557fa008cd3d6"
-  integrity sha512-IB90krzMf7YpfgP3u/EvZEdXVvm4e3gJbUvh5ieuI+o+XqiNEt6fCzqNRaiLlPVScLI59RxIGZMQ3+Ko/DJ8vQ==
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash@*":
-  version "4.14.135"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.135.tgz#d2607c35dd68f70c2b35ba020c667493dedd8447"
-  integrity sha512-Ed+tSZ9qM1oYpi5kzdsBuOzcAIn1wDW+e8TFJ50IMJMlSopGdJgKAbhHzN6h1E1OfjlGOr2JepzEWtg9NIfoNg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
