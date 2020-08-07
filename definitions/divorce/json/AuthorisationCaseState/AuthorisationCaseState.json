@@ -2551,6 +2551,20 @@
     "LiveFrom": "03/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAmendCase",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAmendCase",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAmendCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
