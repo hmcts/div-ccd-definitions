@@ -24,5 +24,16 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "servicePayment",
+    "Name": "Service payment exists",
+    "Description": "Service payment exists",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "serviceApplicationReceived",
+    "PostConditionState": "AwaitingServiceConsideration",
+    "SecurityClassification": "Public"
   }
 ]
