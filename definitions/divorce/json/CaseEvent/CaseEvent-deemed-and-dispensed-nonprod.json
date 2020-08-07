@@ -32,7 +32,7 @@
     "Name": "Service payment exists",
     "Description": "Service payment exists",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "serviceApplicationReceived",
+    "PreConditionState(s)": "AwaitingServicePayment",
     "PostConditionState": "AwaitingServiceConsideration",
     "SecurityClassification": "Public"
   }
