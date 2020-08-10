@@ -88,7 +88,7 @@
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "paymentSummary",
+    "ID": "generalApplicationWithoutNoticeFeeSummary",
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
     "SecurityClassification": "Public"

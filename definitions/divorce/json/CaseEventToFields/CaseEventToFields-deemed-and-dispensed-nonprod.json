@@ -108,7 +108,7 @@
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "ServicePayment",
-    "CaseFieldID": "paymentSummary",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "ServiceApplicationPayment2",
