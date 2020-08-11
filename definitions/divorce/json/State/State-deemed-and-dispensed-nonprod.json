@@ -42,7 +42,7 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServicePayment",
+    "ID": "ServicePaymentState",
     "Name": "Service Payment",
     "Description": "Service Payment",
     "DisplayOrder": 37
