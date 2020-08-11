@@ -24,5 +24,32 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeServiceDecision",
+    "CaseFieldID": "ServiceApplicationGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeServiceDecision1",
+    "PageLabel": "Make Service Decision",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeServiceDecision",
+    "CaseFieldID": "ServiceApplicationRefusalReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeServiceDecision2",
+    "PageLabel": "Reason for refusal - Make Service Decision",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "ServiceApplicationGranted=\"No\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
