@@ -95,7 +95,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "ServicePayment",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "RU"
   },
   {
     "LiveFrom": "03/08/2020",
