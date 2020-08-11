@@ -23,6 +23,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary":  "Y"
   }
 ]

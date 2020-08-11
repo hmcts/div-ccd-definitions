@@ -36,7 +36,8 @@
     "PageLabel": "Make Service Decision",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes",
+    "ShowSummaryContentOption": "Yes"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -50,6 +51,21 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationGranted=\"No\"",
+    "ShowSummaryChangeOption": "Yes",
+    "ShowSummaryContentOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeServiceDecision",
+    "CaseFieldID": "ServiceRefusalDraft",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "makeServiceDecision3",
+    "PageLabel": "Reason for refusal - Make Service Decision",
+    "PageDisplayOrder": 3,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
     "ShowSummaryChangeOption": "No"
   }
 ]

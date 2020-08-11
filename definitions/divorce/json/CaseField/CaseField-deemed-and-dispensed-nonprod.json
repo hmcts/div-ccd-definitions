@@ -48,5 +48,13 @@
     "Label": "Reason for refusal",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceRefusalDraft",
+    "Label": "Service Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
   }
 ]
