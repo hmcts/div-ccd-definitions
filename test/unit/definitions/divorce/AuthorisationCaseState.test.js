@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const { uniqWith } = require('lodash');
-const isFieldDuplicated = require('../../utils/utils').isFieldDuplicated;
+const { isFieldDuplicated } = require('../../utils/utils');
 
 const load = require;
 

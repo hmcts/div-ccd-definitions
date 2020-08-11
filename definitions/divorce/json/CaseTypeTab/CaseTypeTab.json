@@ -2970,50 +2970,6 @@
     "TabFieldDisplayOrder": 25
   },
   {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousReasonsForDivorce",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousReasonsForDivorceRefusal",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "PreviousReasonsForDivorceRefusal=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousRefusalRejectionReason",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "PreviousRefusalRejectionReason=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
-    "TabFieldDisplayOrder": 5,
-    "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -3089,6 +3045,72 @@
     "CaseFieldID": "CoRespSolAOSSOT",
     "TabFieldDisplayOrder": 32,
     "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousReasonsForDivorce",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousReasonsForDivorceRefusal",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "PreviousReasonsForDivorceRefusal=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionReason",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "PreviousRefusalRejectionReason=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousCaseId",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\" OR AmendedCaseId.CaseReference=\"*\""
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "AmendedCaseId",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "AmendedCaseId.CaseReference=\"*\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3329,28 +3351,5 @@
     "TabDisplayOrder": 25,
     "CaseFieldID": "CostsOrderAdditionalInfoWelsh",
     "TabFieldDisplayOrder": 24
-  },
-
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousCaseId",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\" OR AmendedCaseId.CaseReference=\"*\""
-  },
-  {
-    "LiveFrom": "14/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "AmendedCaseId",
-    "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "AmendedCaseId.CaseReference=\"*\""
   }
 ]
