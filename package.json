@@ -4,7 +4,6 @@
   "description": "Utility to help creating CCD config definitions",
   "main": "index.js",
   "repository": "git@github.com:hmcts/div-ccd-definitions.git",
-  "author": "Hosain <hosain.alahmad@hmcts.net>",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -51,7 +50,6 @@
     "generate-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-excel -e *-nonprod.json",
     "generate-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-${DIV_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-ithc && yarn generate-excel-prod",
-
     "generate-bulk-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/bulk-action/json -i ../definitions/bulk-action/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-bulk-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-bulk-excel",
@@ -66,7 +64,7 @@
   ],
   "dependencies": {
     "@hmcts/nodejs-healthcheck": "1.5.1",
-    "@hmcts/properties-volume": "0.0.8",
+    "@hmcts/properties-volume": "0.0.9",
     "codeceptjs": "^2.2.0",
     "config": "^3.0.1",
     "eslint-plugin-codeceptjs": "^1.0.0",
@@ -75,12 +73,11 @@
   },
   "devDependencies": {
     "@hmcts/eslint-config": "^1.4.0",
-    "@shinnn/eslint-config-node": "^6.0.2",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-plugin-mocha": "^5.3.0",
     "husky": "^2.2.0",
-    "loadsh": "^0.0.4",
+    "lodash": "^4.17.19",
     "mocha": "^8.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.17.0",
