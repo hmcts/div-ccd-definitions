@@ -34,17 +34,9 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "AwaitingServicePayment",
-    "Name": "Awaiting Service Payment",
-    "Description": "Awaiting Service Payment",
-    "DisplayOrder": 36
-  },
-  {
-    "LiveFrom": "04/08/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "ServicePaymentState",
     "Name": "Service Payment",
     "Description": "Service Payment",
-    "DisplayOrder": 37
+    "DisplayOrder": 36
   }
 ]
