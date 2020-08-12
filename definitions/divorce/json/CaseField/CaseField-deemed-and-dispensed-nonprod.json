@@ -68,16 +68,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "04/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPayment",
-    "Label": "How will payment be made?",
-    "HintText": "How will payment be made?",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "PBANumber",
