@@ -100,5 +100,29 @@
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentLabel",
+    "Label": "Payment Method: **${ServiceApplicationPayment}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PBAReferenceLabel",
+    "Label": "Your pay account reference: **${PBAReference}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "HWFReferenceLabel",
+    "Label": "Fee account reference **${HWFReference}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

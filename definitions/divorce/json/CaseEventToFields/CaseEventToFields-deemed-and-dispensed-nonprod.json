@@ -115,5 +115,43 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServicePayment",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ServiceApplicationPayment2",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServicePayment",
+    "CaseFieldID": "PBAReferenceLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ServiceApplicationPayment2",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "ServicePayment",
+    "CaseFieldID": "HWFReferenceLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "ServiceApplicationPayment2",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
