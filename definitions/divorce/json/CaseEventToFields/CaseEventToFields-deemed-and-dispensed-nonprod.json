@@ -120,7 +120,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "ServicePayment",
-    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "CaseFieldID": "ServiceApplicationPaymentLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "ServiceApplicationPayment2",
