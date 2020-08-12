@@ -7,7 +7,7 @@
     "Description": "Service application received",
     "DisplayOrder": 11,
     "PreConditionState(s)": "AosStarted;AosOverdue",
-    "PostConditionState": "awaitingServicePayment",
+    "PostConditionState": "AwaitingServicePayment",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
@@ -33,7 +33,7 @@
     "Description": "Service payment exists",
     "DisplayOrder": 13,
     "PreConditionState(s)": "AwaitingPayment",
-    "PostConditionState": "*",
+    "PostConditionState": "AwaitingServiceConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/fee-summary",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public"
