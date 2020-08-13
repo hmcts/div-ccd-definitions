@@ -65,7 +65,7 @@
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-refusal-draft",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-decision-made/draft",
     "RetriesTimeoutURLMidEvent": "120,120"
   }
 ]
