@@ -104,8 +104,32 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentLabel",
-    "Label": "Payment Method: **${ServiceApplicationPayment}**",
+    "ID": "ServiceApplicationPaymentFeeAccountLabel",
+    "Label": "Payment Method: Fee Account",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentHWFLabel",
+    "Label": "Payment Method: Help with fees",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentTelephoneLabel",
+    "Label": "Payment Method: Telephone",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentChequeLabel",
+    "Label": "Payment Method: Cheque",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -113,7 +137,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "PBAReferenceLabel",
-    "Label": "Your pay account reference: **${PBAReference}**",
+    "Label": "Your pay account reference: ${PBAReference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -121,7 +145,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "PBANumberLabel",
-    "Label": "Fee account number: **${PBANumber}**",
+    "Label": "Fee account number: ${PBANumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -129,7 +153,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "HWFReferenceLabel",
-    "Label": "Fee account reference **${HWFReference}**",
+    "Label": "Fee account reference ${HWFReference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
