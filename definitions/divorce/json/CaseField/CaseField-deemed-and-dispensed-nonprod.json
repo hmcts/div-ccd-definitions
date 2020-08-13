@@ -120,6 +120,14 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
+    "ID": "PBANumberLabel",
+    "Label": "Fee account number: **${PBANumber}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
     "ID": "HWFReferenceLabel",
     "Label": "Fee account reference **${HWFReference}**",
     "FieldType": "Label",
