@@ -6,7 +6,7 @@
     "Name": "Move to AwaitServiceConsid",
     "Description": "TEST ONLY: AwaitingServicePayment to AwaitingServiceConsideration",
     "DisplayOrder": 12,
-    "PreConditionState(s)": "awaitingServicePayment",
+    "PreConditionState(s)": "AwaitingServicePayment",
     "PostConditionState": "AwaitingServiceConsideration",
     "SecurityClassification": "Public"
   }
