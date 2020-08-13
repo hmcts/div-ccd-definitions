@@ -36,8 +36,7 @@
     "PageLabel": "Make Service Decision",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes",
-    "ShowSummaryContentOption": "Yes"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -47,12 +46,11 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "makeServiceDecision2",
-    "PageLabel": "Reason for refusal - Make Service Decision",
+    "PageLabel": "Reason for refusal",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationGranted=\"No\"",
-    "ShowSummaryChangeOption": "Yes",
-    "ShowSummaryContentOption": "Yes"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -62,10 +60,12 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": "makeServiceDecision3",
-    "PageLabel": "Reason for refusal - Make Service Decision",
+    "PageLabel": "Refusal order draft",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-refusal-draft",
+    "RetriesTimeoutURLMidEvent": "120,120"
   }
 ]
