@@ -459,7 +459,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/08/2020",
@@ -494,7 +494,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PBAReferenceLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/08/2020",
@@ -529,7 +529,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "HWFReferenceLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/08/2020",
