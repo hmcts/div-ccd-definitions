@@ -385,11 +385,11 @@
     "CRUD": "R"
   },
   {
-  "LiveFrom": "05/08/2020",
-  "CaseTypeID": "DIVORCE",
-  "CaseFieldID": "HWFReference",
-  "UserRole": "caseworker-divorce-courtadmin_beta",
-  "CRUD": "CRU"
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",

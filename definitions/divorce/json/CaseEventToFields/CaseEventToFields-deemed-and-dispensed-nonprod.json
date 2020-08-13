@@ -73,7 +73,7 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "ServiceApplicationPayment1",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
     "ShowSummaryChangeOption": "Y"
@@ -86,7 +86,7 @@
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
     "PageID": "ServiceApplicationPayment1",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
     "ShowSummaryChangeOption": "Y"
@@ -99,7 +99,7 @@
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL",
     "PageID": "ServiceApplicationPayment1",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
     "ShowSummaryChangeOption": "Y"
@@ -112,7 +112,7 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "ServiceApplicationPayment2",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
   },
@@ -122,7 +122,7 @@
     "CaseEventID": "ServicePayment",
     "CaseFieldID": "ServiceApplicationPaymentLabel",
     "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "ServiceApplicationPayment2",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
@@ -134,9 +134,9 @@
     "CaseEventID": "ServicePayment",
     "CaseFieldID": "PBAReferenceLabel",
     "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "ServiceApplicationPayment2",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"feeAccount\"",
     "ShowSummaryChangeOption": "No"
@@ -147,9 +147,9 @@
     "CaseEventID": "ServicePayment",
     "CaseFieldID": "HWFReferenceLabel",
     "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "ServiceApplicationPayment2",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
     "ShowSummaryChangeOption": "No"
