@@ -1,11 +1,26 @@
 const expect = require('chai').expect;
 const assert = require('chai').assert;
 const { uniq, uniqWith, map, filter } = require('lodash');
+const { loadAllFiles, sortCaseTypeTabs } = require('../../utils/utils');
 
-const caseTypeTab = Object.assign(require('definitions/divorce/json/CaseTypeTab/CaseTypeTab'), {});
-const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField'), {});
+const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const caseTypeTab = getAllCaseTypeTabDefinitions(
+  [
+    'CaseTypeTab',
+    'CaseTypeTab-prod',
+    'CaseTypeTab-deemed-and-dispensed-nonprod'
+  ]);
 
-const tabIds = uniq(map(caseTypeTab, 'TabID'));
+const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
+const caseField = getAllCaseFieldDefinitions(
+  [
+    'CaseField',
+    'CaseField-prod',
+    'CaseField-deemed-and-dispensed-nonprod'
+  ]);
+
+const sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
+const tabIds = uniq(map(sortedCaseTabs, 'TabID'));
 
 describe('CaseTypeTab', () => {
   it('should contain a unique case field ID per tab ID (no duplicate field in a tab)', () => {
@@ -17,6 +32,7 @@ describe('CaseTypeTab', () => {
     );
     expect(uniqResult).to.eql(caseTypeTab);
   });
+
   it('should contain a unique tab field display order ID field tab ID (no duplicate field order in a tab)', () => {
     tabIds.forEach(tabId => {
       const allFieldsPerTab = filter(caseTypeTab, field => {
@@ -31,6 +47,7 @@ describe('CaseTypeTab', () => {
       expect(uniqResults).to.eql(allFieldsPerTab);
     });
   });
+
   it('should contain a proper sequence for TabFieldDisplayOrder with no gaps', () => {
     tabIds.forEach(tabId => {
       const allFieldsPerTab = filter(caseTypeTab, field => {
@@ -72,11 +89,12 @@ describe('CaseTypeTab', () => {
     notes: 20,
     marriageCertificate: 21,
     coRespondent: 22,
-    SolicitorCoRespondent: 23,
+    serviceApplication: 23,
     LinkedCase: 24,
     Language: 25,
     General: 1
   };
+
   tabIds.forEach(tabId => {
     it(`all ${tabId} fields should have the expected tab order ${expected[tabId]}`, () => {
       const allTabFields = uniq(filter(caseTypeTab, field => {
@@ -113,10 +131,12 @@ describe('CaseTypeTab', () => {
       'marriageCertificate',
       'coRespondent',
       // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
+      'serviceApplication',
       'LinkedCase',
       'Language'
     ]);
   });
+
   it('should contain a valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
     const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
