@@ -320,5 +320,425 @@
     "CaseFieldID": "ServiceRefusalDraft",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPayment",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPayment",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPayment",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumber",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReference",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReference",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReferenceLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBAReferenceLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+  "LiveFrom": "05/08/2020",
+  "CaseTypeID": "DIVORCE",
+  "CaseFieldID": "PBANumberLabel",
+  "UserRole": "caseworker-divorce-courtadmin_beta",
+  "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumberLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumberLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumberLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PBANumberLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReferenceLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReferenceLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "HWFReferenceLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
