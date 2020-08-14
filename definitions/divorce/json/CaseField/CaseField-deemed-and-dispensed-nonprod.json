@@ -70,15 +70,6 @@
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "PBANumber",
-    "Label": "Enter your account number",
-    "HintText": "Example: PBA0896124",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "PBAReference",
     "Label": "Enter your reference",
     "HintText": "This will appear on your statement to help identify your payment",
@@ -138,14 +129,6 @@
     "CaseTypeID": "DIVORCE",
     "ID": "PBAReferenceLabel",
     "Label": "Your pay account reference: ${PBAReference}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "12/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "PBANumberLabel",
-    "Label": "Fee account number: ${PBANumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
