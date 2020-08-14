@@ -26,14 +26,16 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "servicePayment",
-    "Name": "Service payment exists",
-    "Description": "Service payment exists",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "AwaitingServicePayment",
+    "ID": "ConfirmServicePayment",
+    "Name": "Confirm service payment",
+    "Description": "Confirm service payment",
+    "DisplayOrder": 13,
+    "PreConditionState(s)": "AwaitingPayment",
     "PostConditionState": "AwaitingServiceConsideration",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
