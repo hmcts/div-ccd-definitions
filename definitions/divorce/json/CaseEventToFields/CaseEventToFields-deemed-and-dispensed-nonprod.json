@@ -172,7 +172,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "ConfirmServicePayment",
-    "CaseFieldID": "LabelFeeAccountReference",
+    "CaseFieldID": "LabelSolicitorReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
     "PageID": "ServiceApplicationPayment2",
