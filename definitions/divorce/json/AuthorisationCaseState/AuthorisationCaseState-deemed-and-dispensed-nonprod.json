@@ -166,12 +166,5 @@
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "27/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingDNApplication",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
   }
 ]
