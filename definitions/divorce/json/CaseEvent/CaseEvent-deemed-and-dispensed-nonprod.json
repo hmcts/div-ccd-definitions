@@ -28,13 +28,13 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServicePayment",
-    "Name": "Service payment exists",
-    "Description": "Service payment exists",
+    "ID": "ConfirmServicePayment",
+    "Name": "Confirm service payment",
+    "Description": "Confirm service payment",
     "DisplayOrder": 13,
     "PreConditionState(s)": "AwaitingPayment",
     "PostConditionState": "AwaitingServiceConsideration",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/fee-lookup",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-service-payment-event",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public"
   }

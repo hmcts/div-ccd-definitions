@@ -55,7 +55,7 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "ServiceApplicationPayment",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -68,7 +68,7 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "PBANumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -81,7 +81,7 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "PBAReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
@@ -94,7 +94,7 @@
   {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "HWFReference",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL",
@@ -107,7 +107,7 @@
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -119,7 +119,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "ServiceApplicationPaymentFeeAccountLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -132,7 +132,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "ServiceApplicationPaymentHWFLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -145,7 +145,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "ServiceApplicationPaymentTelephoneLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -158,7 +158,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "ServiceApplicationPaymentChequeLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -171,7 +171,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "PBAReferenceLabel",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
@@ -184,7 +184,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "PBANumberLabel",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
@@ -197,7 +197,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "ServicePayment",
+    "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "HWFReferenceLabel",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",

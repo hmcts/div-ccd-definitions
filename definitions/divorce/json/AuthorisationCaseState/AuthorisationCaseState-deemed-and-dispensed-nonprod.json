@@ -173,40 +173,5 @@
     "CaseStateID": "AwaitingDNApplication",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "ServicePaymentState",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "ServicePaymentState",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "ServicePaymentState",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "ServicePaymentState",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "ServicePaymentState",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
   }
 ]

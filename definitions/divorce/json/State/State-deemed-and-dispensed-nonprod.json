@@ -30,13 +30,5 @@
     "Name": "Awaiting DN Application",
     "Description": "Awaiting DN Application",
     "DisplayOrder": 35
-  },
-  {
-    "LiveFrom": "04/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServicePaymentState",
-    "Name": "Service Payment",
-    "Description": "Service Payment",
-    "DisplayOrder": 36
   }
 ]
