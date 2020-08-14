@@ -68,14 +68,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "HWFReference",
-    "Label": "Enter your HWF reference",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "generalApplicationWithoutNoticeFeeSummary",
@@ -112,14 +104,6 @@
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationPaymentChequeLabel",
     "Label": "Payment Method: Cheque",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "12/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "HWFReferenceLabel",
-    "Label": "Fee account reference ${HWFReference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
