@@ -70,15 +70,6 @@
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "PBAReference",
-    "Label": "Enter your reference",
-    "HintText": "This will appear on your statement to help identify your payment",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "HWFReference",
     "Label": "Enter your HWF reference",
     "FieldType": "TextArea",
@@ -121,14 +112,6 @@
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationPaymentChequeLabel",
     "Label": "Payment Method: Cheque",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "12/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "PBAReferenceLabel",
-    "Label": "Your pay account reference: ${PBAReference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
