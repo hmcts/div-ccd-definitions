@@ -35,7 +35,7 @@
     "Name": "Confirm service payment",
     "Description": "Confirm service payment",
     "DisplayOrder": 13,
-    "PreConditionState(s)": "AwaitingPayment",
+    "PreConditionState(s)": "AwaitingServicePayment",
     "PostConditionState": "AwaitingServiceConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
