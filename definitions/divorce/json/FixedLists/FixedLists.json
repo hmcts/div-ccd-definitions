@@ -1265,5 +1265,17 @@
     "ListElementCode": "cheque",
     "ListElement": "Cheque",
     "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "DocumentType",
+    "ListElementCode": "DispenseWithServiceRefused",
+    "ListElement": "Dispense with service refused"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "DocumentType",
+    "ListElementCode": "DeemedServiceRefused",
+    "ListElement": "Deemed service refused"
   }
 ]

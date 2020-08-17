@@ -68,6 +68,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/09/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceRefusalDraft",
+    "Label": "Service Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "PBANumber",

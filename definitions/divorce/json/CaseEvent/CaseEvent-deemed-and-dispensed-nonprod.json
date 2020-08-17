@@ -23,7 +23,10 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
-    "SecurityClassification": "Public"
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/service-decision-made/final",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary":  "Y"
   },
   {
     "LiveFrom": "04/08/2020",
