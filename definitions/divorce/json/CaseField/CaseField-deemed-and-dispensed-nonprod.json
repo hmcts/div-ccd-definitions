@@ -68,6 +68,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "17/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceRefusalDraft",
+    "Label": "Service Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "generalApplicationWithoutNoticeFeeSummary",
