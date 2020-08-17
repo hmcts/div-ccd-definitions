@@ -106,5 +106,29 @@
     "Label": "Payment Method: Cheque",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelPBAReference",
+    "Label": "Your pay account reference: ${FeeAccountReference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelPBANumber",
+    "Label": "Fee account number: ${SolicitorFeeAccountNumber}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelHWFReference",
+    "Label": "Fee account reference ${D8HelpWithFeesReferenceNumber}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
