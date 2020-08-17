@@ -68,37 +68,11 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/09/2019",
+    "LiveFrom": "17/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceRefusalDraft",
     "Label": "Service Refusal draft",
     "FieldType": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "PBANumber",
-    "Label": "Enter your account number",
-    "HintText": "Example: PBA0896124",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "PBAReference",
-    "Label": "Enter your reference",
-    "HintText": "This will appear on your statement to help identify your payment",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "HWFReference",
-    "Label": "Enter your HWF reference",
-    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -144,24 +118,24 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "PBAReferenceLabel",
-    "Label": "Your pay account reference: ${PBAReference}",
+    "ID": "LabelPBAReference",
+    "Label": "Your pay account reference: ${FeeAccountReference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "PBANumberLabel",
-    "Label": "Fee account number: ${PBANumber}",
+    "ID": "LabelPBANumber",
+    "Label": "Fee account number: ${SolicitorFeeAccountNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "HWFReferenceLabel",
-    "Label": "Fee account reference ${HWFReference}",
+    "ID": "LabelHWFReference",
+    "Label": "Fee account reference ${D8HelpWithFeesReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
