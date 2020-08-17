@@ -113,7 +113,7 @@
     "CaseEventID": "ConfirmServicePayment",
     "CaseFieldID": "D8HelpWithFeesReferenceNumber",
     "PageFieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": "ServiceApplicationPayment1",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
