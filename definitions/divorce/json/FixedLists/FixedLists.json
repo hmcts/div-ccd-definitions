@@ -1268,13 +1268,13 @@
   },
   {
     "LiveFrom": "23/07/2020",
-    "ID": "DocumentType",
+    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "DispenseWithServiceRefused",
     "ListElement": "Dispense with service refused"
   },
   {
     "LiveFrom": "23/07/2020",
-    "ID": "DocumentType",
+    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "DeemedServiceRefused",
     "ListElement": "Deemed service refused"
   }
