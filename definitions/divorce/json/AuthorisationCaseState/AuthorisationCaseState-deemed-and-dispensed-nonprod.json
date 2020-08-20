@@ -102,7 +102,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
