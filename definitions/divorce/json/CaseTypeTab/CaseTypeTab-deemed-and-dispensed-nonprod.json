@@ -41,16 +41,6 @@
     "TabFieldDisplayOrder": 4
   },
   {
-    "LiveFrom": "17/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
-    "TabFieldDisplayOrder": 5
-  },
-  {
     "LiveFrom": "12/12/2019",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -91,5 +81,15 @@
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplicationRefusalReason",
     "TabFieldDisplayOrder": 9
+  },
+  {
+    "LiveFrom": "17/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "paymentDetailsCourtAdmin",
+    "TabLabel": "Payment",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "TabFieldDisplayOrder": 7
   }
 ]
