@@ -1,0 +1,570 @@
+{
+  "id": 1597938612050607,
+  "jurisdiction": "DIVORCE",
+  "state": "AwaitingServiceConsideration",
+  "version": 6,
+  "case_type_id": "DIVORCE",
+  "created_date": "2020-08-20T15:50:12.017047",
+  "last_modified": "2020-08-20T15:53:44.344358",
+  "last_state_modified_date": "2020-08-20T15:53:44.344298",
+  "security_classification": "PUBLIC",
+  "case_data": {
+    "D8DerivedRespondentHomeAddress": "Eum laboris aut erro",
+    "D8DerivedPetitionerHomeAddress": "Eum laboris aut erro",
+    "D8RespondentHomeAddress": {
+      "County": null,
+      "Country": null,
+      "PostCode": null,
+      "PostTown": null,
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "AddressLine3": null
+    },
+    "dueDate": "1981-09-04",
+    "D8ScreenHasRespondentAddress": "YES",
+    "D8DivorceCostsClaim": "NO",
+    "D8ScreenHasMarriageCert": "YES",
+    "D8PetitionerHomeAddress": {
+      "County": null,
+      "Country": null,
+      "PostCode": null,
+      "PostTown": null,
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "AddressLine3": null
+    },
+    "D8ScreenHasMarriageBroken": "YES",
+    "D8InferredRespondentGender": "female",
+    "ReceivedAosFromCoRespDate": null,
+    "D8ReasonForDivorceEnableAdultery": "YES",
+    "D8ReasonForDivorceShowAdultery": "YES",
+    "D8DerivedStatementOfCase": "Est iusto cupidatat \nProvident quis volu\nSint consequuntur co",
+    "D8LivingArrangementsLiveTogether": "YES",
+    "D8ReasonForDivorceHasMarriage": "YES",
+    "ReceivedServiceApplicationDate": "1979-08-23",
+    "D8JurisdictionConfidentLegal": "YES",
+    "D8RespondentCorrespondenceUseHomeAddress": "Yes",
+    "D8Connections": {
+      "A": "The Petitioner and the Respondent are habitually resident in England and Wales",
+      "B": null,
+      "C": "The Respondent is habitually resident in England and Wales",
+      "D": null,
+      "E": null,
+      "F": null,
+      "G": null
+    },
+    "LanguagePreferenceWelsh": "NO",
+    "PetitionerPcqId": "4c1948da-5eb5-49d5-accd-0a7109b7ff10",
+    "D8PetitionerCorrespondenceAddress": {
+      "County": null,
+      "Country": null,
+      "PostCode": null,
+      "PostTown": null,
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "AddressLine3": null
+    },
+    "D8RespondentLastName": "Haley",
+    "D8PetitionerNameDifferentToMarriageCert": "NO",
+    "D8JurisdictionConnection": [
+      "A",
+      "C"
+    ],
+    "D8PetitionerLastName": "Key",
+    "ReceivedAOSfromRespDate": "1998-11-11",
+    "D8ReasonForDivorceShowTwoYearsSeparation": "YES",
+    "D8StatementOfTruth": "YES",
+    "D8PetitionerCorrespondenceUseHomeAddress": "YES",
+    "D8DocumentsGenerated": [
+      {
+        "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+        "value": {
+          "DocumentLink": {
+            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/03ecd6b1-9396-4d9f-833f-2f375dded08b",
+            "document_filename": "d8petition1597938612050607.pdf",
+            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/03ecd6b1-9396-4d9f-833f-2f375dded08b/binary"
+          },
+          "DocumentType": "petition",
+          "DocumentComment": null,
+          "DocumentFileName": "d8petition1597938612050607",
+          "DocumentDateAdded": null,
+          "DocumentEmailContent": null
+        }
+      },
+      {
+        "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+        "value": {
+          "DocumentLink": {
+            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/444aefb2-c629-4335-b197-5c144f8481f6",
+            "document_filename": "aosinvitation1597938612050607.pdf",
+            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/444aefb2-c629-4335-b197-5c144f8481f6/binary"
+          },
+          "DocumentType": "aos",
+          "DocumentComment": null,
+          "DocumentFileName": "aosinvitation1597938612050607",
+          "DocumentDateAdded": null,
+          "DocumentEmailContent": null
+        }
+      }
+    ],
+    "ServiceApplicationPayment": "helpWithFees",
+    "ReceivedAOSfromResp": "Yes",
+    "ReceivedAosFromCoResp": null,
+    "generalApplicationWithoutNoticeFeeSummary": {
+      "Fees": [
+        {
+          "id": "4844f4db-3ba5-4a52-8857-019463a6a029",
+          "value": {
+            "FeeCode": "FEE0228",
+            "FeeAmount": "5000",
+            "FeeVersion": "1",
+            "FeeDescription": "Application (without notice)"
+          }
+        }
+      ],
+      "PaymentTotal": "5000",
+      "PaymentReference": null
+    },
+    "ReceivedServiceAddedDate": "2020-08-20",
+    "D8DerivedRespondentCurrentName": "Victor Haley",
+    "D8ReasonForDivorceLimitReasons": "NO",
+    "D8HelpWithFeesAppliedForFees": "YES",
+    "D8PetitionerEmail": "sum002@mailinator.com",
+    "D8ReasonForDivorceBehaviourDetails": "Est iusto cupidatat \nProvident quis volu\nSint consequuntur co",
+    "D8HelpWithFeesReferenceNumber": "HWF-123-111",
+    "AosLetterHolderId": "b20dfb4a-41e6-4d15-8ed3-00599126935a",
+    "CoRespLinkedToCase": null,
+    "D8PetitionerConsent": "YES",
+    "D8DivorceUnit": "serviceCentre",
+    "D8ReasonForDivorceShowDesertion": "YES",
+    "D8DerivedRespondentCorrespondenceAddr": "Eum laboris aut erro",
+    "D8MarriagePetitionerName": "Lisandra Kerr",
+    "D8Cohort": "onlineSubmissionPrivateBeta",
+    "ServiceApplicationType": "dispensed",
+    "D8MarriageIsSameSexCouple": "NO",
+    "D8FinancialOrder": "NO",
+    "D8ReasonForDivorceShowFiveYearsSeparatio": "YES",
+    "D8MarriageDate": "2013-06-19",
+    "D8caseReference": "LV17D80000",
+    "D8HelpWithFeesNeedHelp": "YES",
+    "D8JurisdictionRespondentResidence": "YES",
+    "D8DivorceWho": "wife",
+    "D8MarriageCanDivorce": "YES",
+    "CoRespLinkedToCaseDate": null,
+    "D8RespondentFirstName": "Victor",
+    "D8ReasonForDivorceShowUnreasonableBehavi": "YES",
+    "D8DocumentsUploaded": [],
+    "CoRespEmailAddress": null,
+    "D8DerivedPetitionerCorrespondenceAddr": "Eum laboris aut erro",
+    "D8JurisdictionPetitionerResidence": "YES",
+    "IssueDate": "2020-08-20",
+    "D8MarriedInUk": "YES",
+    "D8PetitionerFirstName": "Sonia",
+    "D8MarriageRespondentName": "Len Brooks",
+    "D8PetitionerContactDetailsConfidential": "share",
+    "D8LegalProceedings": "NO",
+    "createdDate": "2020-08-20",
+    "D8JurisdictionPath": [
+      "JurisdictionHabitualResidence",
+      "JurisdictionInterstitial"
+    ],
+    "D8MarriagePlaceOfMarriage": "London",
+    "D8RespondentCorrespondenceAddress": {
+      "County": null,
+      "Country": null,
+      "PostCode": null,
+      "PostTown": null,
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "AddressLine3": null
+    },
+    "D8ReasonForDivorce": "unreasonable-behaviour",
+    "D8DerivedPetitionerCurrentFullName": "Sonia Key",
+    "RespEmailAddress": "xeminived@mailinator.net",
+    "RespondentContactDetailsConfidential": "share",
+    "D8InferredPetitionerGender": "male"
+  },
+  "data_classification": {
+    "D8DerivedRespondentHomeAddress": "PUBLIC",
+    "D8DerivedPetitionerHomeAddress": "PUBLIC",
+    "D8RespondentHomeAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "dueDate": "PUBLIC",
+    "D8ScreenHasRespondentAddress": "PUBLIC",
+    "D8DivorceCostsClaim": "PUBLIC",
+    "D8ScreenHasMarriageCert": "PUBLIC",
+    "D8PetitionerHomeAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8ScreenHasMarriageBroken": "PUBLIC",
+    "D8InferredRespondentGender": "PUBLIC",
+    "ReceivedAosFromCoRespDate": "PUBLIC",
+    "D8ReasonForDivorceEnableAdultery": "PUBLIC",
+    "D8ReasonForDivorceShowAdultery": "PUBLIC",
+    "D8DerivedStatementOfCase": "PUBLIC",
+    "D8LivingArrangementsLiveTogether": "PUBLIC",
+    "D8ReasonForDivorceHasMarriage": "PUBLIC",
+    "ReceivedServiceApplicationDate": "PUBLIC",
+    "D8JurisdictionConfidentLegal": "PUBLIC",
+    "D8RespondentCorrespondenceUseHomeAddress": "PUBLIC",
+    "D8Connections": {
+      "value": {
+        "A": "PUBLIC",
+        "B": "PUBLIC",
+        "C": "PUBLIC",
+        "D": "PUBLIC",
+        "E": "PUBLIC",
+        "F": "PUBLIC",
+        "G": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "LanguagePreferenceWelsh": "PUBLIC",
+    "PetitionerPcqId": "PUBLIC",
+    "D8PetitionerCorrespondenceAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8RespondentLastName": "PUBLIC",
+    "D8PetitionerNameDifferentToMarriageCert": "PUBLIC",
+    "D8JurisdictionConnection": "PUBLIC",
+    "D8PetitionerLastName": "PUBLIC",
+    "ReceivedAOSfromRespDate": "PUBLIC",
+    "D8ReasonForDivorceShowTwoYearsSeparation": "PUBLIC",
+    "D8StatementOfTruth": "PUBLIC",
+    "D8PetitionerCorrespondenceUseHomeAddress": "PUBLIC",
+    "D8DocumentsGenerated": {
+      "value": [
+        {
+          "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+          "value": {
+            "DocumentLink": "PUBLIC",
+            "DocumentType": "PUBLIC",
+            "DocumentComment": "PUBLIC",
+            "DocumentFileName": "PUBLIC",
+            "DocumentDateAdded": "PUBLIC",
+            "DocumentEmailContent": "PUBLIC"
+          }
+        },
+        {
+          "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+          "value": {
+            "DocumentLink": "PUBLIC",
+            "DocumentType": "PUBLIC",
+            "DocumentComment": "PUBLIC",
+            "DocumentFileName": "PUBLIC",
+            "DocumentDateAdded": "PUBLIC",
+            "DocumentEmailContent": "PUBLIC"
+          }
+        }
+      ],
+      "classification": "PUBLIC"
+    },
+    "ServiceApplicationPayment": "PUBLIC",
+    "ReceivedAOSfromResp": "PUBLIC",
+    "ReceivedAosFromCoResp": "PUBLIC",
+    "generalApplicationWithoutNoticeFeeSummary": {
+      "value": {
+        "Fees": {
+          "value": [
+            {
+              "id": "4844f4db-3ba5-4a52-8857-019463a6a029",
+              "value": {
+                "FeeCode": "PUBLIC",
+                "FeeAmount": "PUBLIC",
+                "FeeVersion": "PUBLIC",
+                "FeeDescription": "PUBLIC"
+              }
+            }
+          ],
+          "classification": "PUBLIC"
+        },
+        "PaymentTotal": "PUBLIC",
+        "PaymentReference": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "ReceivedServiceAddedDate": "PUBLIC",
+    "D8DerivedRespondentCurrentName": "PUBLIC",
+    "D8ReasonForDivorceLimitReasons": "PUBLIC",
+    "D8HelpWithFeesAppliedForFees": "PUBLIC",
+    "D8PetitionerEmail": "PUBLIC",
+    "D8ReasonForDivorceBehaviourDetails": "PUBLIC",
+    "D8HelpWithFeesReferenceNumber": "PUBLIC",
+    "AosLetterHolderId": "PUBLIC",
+    "CoRespLinkedToCase": "PUBLIC",
+    "D8PetitionerConsent": "PUBLIC",
+    "D8DivorceUnit": "PUBLIC",
+    "D8ReasonForDivorceShowDesertion": "PUBLIC",
+    "D8DerivedRespondentCorrespondenceAddr": "PUBLIC",
+    "D8MarriagePetitionerName": "PUBLIC",
+    "D8Cohort": "PUBLIC",
+    "ServiceApplicationType": "PUBLIC",
+    "D8MarriageIsSameSexCouple": "PUBLIC",
+    "D8FinancialOrder": "PUBLIC",
+    "D8ReasonForDivorceShowFiveYearsSeparatio": "PUBLIC",
+    "D8MarriageDate": "PUBLIC",
+    "D8caseReference": "PUBLIC",
+    "D8HelpWithFeesNeedHelp": "PUBLIC",
+    "D8JurisdictionRespondentResidence": "PUBLIC",
+    "D8DivorceWho": "PUBLIC",
+    "D8MarriageCanDivorce": "PUBLIC",
+    "CoRespLinkedToCaseDate": "PUBLIC",
+    "D8RespondentFirstName": "PUBLIC",
+    "D8ReasonForDivorceShowUnreasonableBehavi": "PUBLIC",
+    "D8DocumentsUploaded": {
+      "value": [],
+      "classification": "PUBLIC"
+    },
+    "CoRespEmailAddress": "PUBLIC",
+    "D8DerivedPetitionerCorrespondenceAddr": "PUBLIC",
+    "D8JurisdictionPetitionerResidence": "PUBLIC",
+    "IssueDate": "PUBLIC",
+    "D8MarriedInUk": "PUBLIC",
+    "D8PetitionerFirstName": "PUBLIC",
+    "D8MarriageRespondentName": "PUBLIC",
+    "D8PetitionerContactDetailsConfidential": "PUBLIC",
+    "D8LegalProceedings": "PUBLIC",
+    "createdDate": "PUBLIC",
+    "D8JurisdictionPath": "PUBLIC",
+    "D8MarriagePlaceOfMarriage": "PUBLIC",
+    "D8RespondentCorrespondenceAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8ReasonForDivorce": "PUBLIC",
+    "D8DerivedPetitionerCurrentFullName": "PUBLIC",
+    "RespEmailAddress": "PUBLIC",
+    "RespondentContactDetailsConfidential": "PUBLIC",
+    "D8InferredPetitionerGender": "PUBLIC"
+  },
+  "after_submit_callback_response": null,
+  "callback_response_status_code": null,
+  "callback_response_status": null,
+  "delete_draft_response_status_code": null,
+  "delete_draft_response_status": null,
+  "security_classifications": {
+    "D8DerivedRespondentHomeAddress": "PUBLIC",
+    "D8DerivedPetitionerHomeAddress": "PUBLIC",
+    "D8RespondentHomeAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "dueDate": "PUBLIC",
+    "D8ScreenHasRespondentAddress": "PUBLIC",
+    "D8DivorceCostsClaim": "PUBLIC",
+    "D8ScreenHasMarriageCert": "PUBLIC",
+    "D8PetitionerHomeAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8ScreenHasMarriageBroken": "PUBLIC",
+    "D8InferredRespondentGender": "PUBLIC",
+    "ReceivedAosFromCoRespDate": "PUBLIC",
+    "D8ReasonForDivorceEnableAdultery": "PUBLIC",
+    "D8ReasonForDivorceShowAdultery": "PUBLIC",
+    "D8DerivedStatementOfCase": "PUBLIC",
+    "D8LivingArrangementsLiveTogether": "PUBLIC",
+    "D8ReasonForDivorceHasMarriage": "PUBLIC",
+    "ReceivedServiceApplicationDate": "PUBLIC",
+    "D8JurisdictionConfidentLegal": "PUBLIC",
+    "D8RespondentCorrespondenceUseHomeAddress": "PUBLIC",
+    "D8Connections": {
+      "value": {
+        "A": "PUBLIC",
+        "B": "PUBLIC",
+        "C": "PUBLIC",
+        "D": "PUBLIC",
+        "E": "PUBLIC",
+        "F": "PUBLIC",
+        "G": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "LanguagePreferenceWelsh": "PUBLIC",
+    "PetitionerPcqId": "PUBLIC",
+    "D8PetitionerCorrespondenceAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8RespondentLastName": "PUBLIC",
+    "D8PetitionerNameDifferentToMarriageCert": "PUBLIC",
+    "D8JurisdictionConnection": "PUBLIC",
+    "D8PetitionerLastName": "PUBLIC",
+    "ReceivedAOSfromRespDate": "PUBLIC",
+    "D8ReasonForDivorceShowTwoYearsSeparation": "PUBLIC",
+    "D8StatementOfTruth": "PUBLIC",
+    "D8PetitionerCorrespondenceUseHomeAddress": "PUBLIC",
+    "D8DocumentsGenerated": {
+      "value": [
+        {
+          "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+          "value": {
+            "DocumentLink": "PUBLIC",
+            "DocumentType": "PUBLIC",
+            "DocumentComment": "PUBLIC",
+            "DocumentFileName": "PUBLIC",
+            "DocumentDateAdded": "PUBLIC",
+            "DocumentEmailContent": "PUBLIC"
+          }
+        },
+        {
+          "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+          "value": {
+            "DocumentLink": "PUBLIC",
+            "DocumentType": "PUBLIC",
+            "DocumentComment": "PUBLIC",
+            "DocumentFileName": "PUBLIC",
+            "DocumentDateAdded": "PUBLIC",
+            "DocumentEmailContent": "PUBLIC"
+          }
+        }
+      ],
+      "classification": "PUBLIC"
+    },
+    "ServiceApplicationPayment": "PUBLIC",
+    "ReceivedAOSfromResp": "PUBLIC",
+    "ReceivedAosFromCoResp": "PUBLIC",
+    "generalApplicationWithoutNoticeFeeSummary": {
+      "value": {
+        "Fees": {
+          "value": [
+            {
+              "id": "4844f4db-3ba5-4a52-8857-019463a6a029",
+              "value": {
+                "FeeCode": "PUBLIC",
+                "FeeAmount": "PUBLIC",
+                "FeeVersion": "PUBLIC",
+                "FeeDescription": "PUBLIC"
+              }
+            }
+          ],
+          "classification": "PUBLIC"
+        },
+        "PaymentTotal": "PUBLIC",
+        "PaymentReference": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "ReceivedServiceAddedDate": "PUBLIC",
+    "D8DerivedRespondentCurrentName": "PUBLIC",
+    "D8ReasonForDivorceLimitReasons": "PUBLIC",
+    "D8HelpWithFeesAppliedForFees": "PUBLIC",
+    "D8PetitionerEmail": "PUBLIC",
+    "D8ReasonForDivorceBehaviourDetails": "PUBLIC",
+    "D8HelpWithFeesReferenceNumber": "PUBLIC",
+    "AosLetterHolderId": "PUBLIC",
+    "CoRespLinkedToCase": "PUBLIC",
+    "D8PetitionerConsent": "PUBLIC",
+    "D8DivorceUnit": "PUBLIC",
+    "D8ReasonForDivorceShowDesertion": "PUBLIC",
+    "D8DerivedRespondentCorrespondenceAddr": "PUBLIC",
+    "D8MarriagePetitionerName": "PUBLIC",
+    "D8Cohort": "PUBLIC",
+    "ServiceApplicationType": "PUBLIC",
+    "D8MarriageIsSameSexCouple": "PUBLIC",
+    "D8FinancialOrder": "PUBLIC",
+    "D8ReasonForDivorceShowFiveYearsSeparatio": "PUBLIC",
+    "D8MarriageDate": "PUBLIC",
+    "D8caseReference": "PUBLIC",
+    "D8HelpWithFeesNeedHelp": "PUBLIC",
+    "D8JurisdictionRespondentResidence": "PUBLIC",
+    "D8DivorceWho": "PUBLIC",
+    "D8MarriageCanDivorce": "PUBLIC",
+    "CoRespLinkedToCaseDate": "PUBLIC",
+    "D8RespondentFirstName": "PUBLIC",
+    "D8ReasonForDivorceShowUnreasonableBehavi": "PUBLIC",
+    "D8DocumentsUploaded": {
+      "value": [],
+      "classification": "PUBLIC"
+    },
+    "CoRespEmailAddress": "PUBLIC",
+    "D8DerivedPetitionerCorrespondenceAddr": "PUBLIC",
+    "D8JurisdictionPetitionerResidence": "PUBLIC",
+    "IssueDate": "PUBLIC",
+    "D8MarriedInUk": "PUBLIC",
+    "D8PetitionerFirstName": "PUBLIC",
+    "D8MarriageRespondentName": "PUBLIC",
+    "D8PetitionerContactDetailsConfidential": "PUBLIC",
+    "D8LegalProceedings": "PUBLIC",
+    "createdDate": "PUBLIC",
+    "D8JurisdictionPath": "PUBLIC",
+    "D8MarriagePlaceOfMarriage": "PUBLIC",
+    "D8RespondentCorrespondenceAddress": {
+      "value": {
+        "County": "PUBLIC",
+        "Country": "PUBLIC",
+        "PostCode": "PUBLIC",
+        "PostTown": "PUBLIC",
+        "AddressLine1": "PUBLIC",
+        "AddressLine2": "PUBLIC",
+        "AddressLine3": "PUBLIC"
+      },
+      "classification": "PUBLIC"
+    },
+    "D8ReasonForDivorce": "PUBLIC",
+    "D8DerivedPetitionerCurrentFullName": "PUBLIC",
+    "RespEmailAddress": "PUBLIC",
+    "RespondentContactDetailsConfidential": "PUBLIC",
+    "D8InferredPetitionerGender": "PUBLIC"
+  }
+}
