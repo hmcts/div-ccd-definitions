@@ -1,12 +1,12 @@
 {
   "id": 1597938612050607,
   "jurisdiction": "DIVORCE",
-  "state": "AwaitingServiceConsideration",
-  "version": 6,
+  "state": "AwaitingServicePayment",
+  "version": 11,
   "case_type_id": "DIVORCE",
   "created_date": "2020-08-20T15:50:12.017047",
-  "last_modified": "2020-08-20T15:53:44.344358",
-  "last_state_modified_date": "2020-08-20T15:53:44.344298",
+  "last_modified": "2020-08-20T15:56:01.174397",
+  "last_state_modified_date": "2020-08-20T15:56:01.174322",
   "security_classification": "PUBLIC",
   "case_data": {
     "D8DerivedRespondentHomeAddress": "Eum laboris aut erro",
@@ -20,7 +20,7 @@
       "AddressLine2": null,
       "AddressLine3": null
     },
-    "dueDate": "1981-09-04",
+    "dueDate": "1991-04-17",
     "D8ScreenHasRespondentAddress": "YES",
     "D8DivorceCostsClaim": "NO",
     "D8ScreenHasMarriageCert": "YES",
@@ -71,18 +71,18 @@
       "C"
     ],
     "D8PetitionerLastName": "Key",
-    "ReceivedAOSfromRespDate": "1998-11-11",
+    "ReceivedAOSfromRespDate": "1984-08-16",
     "D8ReasonForDivorceShowTwoYearsSeparation": "YES",
     "D8StatementOfTruth": "YES",
     "D8PetitionerCorrespondenceUseHomeAddress": "YES",
     "D8DocumentsGenerated": [
       {
-        "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+        "id": "7dcf2000-9f38-42cb-be6f-cdd8f9136a10",
         "value": {
           "DocumentLink": {
-            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/03ecd6b1-9396-4d9f-833f-2f375dded08b",
+            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/a9df9194-2390-4f90-bb31-176688510269",
             "document_filename": "d8petition1597938612050607.pdf",
-            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/03ecd6b1-9396-4d9f-833f-2f375dded08b/binary"
+            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/a9df9194-2390-4f90-bb31-176688510269/binary"
           },
           "DocumentType": "petition",
           "DocumentComment": null,
@@ -92,12 +92,12 @@
         }
       },
       {
-        "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+        "id": "26602fd9-8ed9-4d28-990a-62d830686bb7",
         "value": {
           "DocumentLink": {
-            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/444aefb2-c629-4335-b197-5c144f8481f6",
+            "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/16a9f92d-61c2-4caa-862b-91657d7b0341",
             "document_filename": "aosinvitation1597938612050607.pdf",
-            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/444aefb2-c629-4335-b197-5c144f8481f6/binary"
+            "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/16a9f92d-61c2-4caa-862b-91657d7b0341/binary"
           },
           "DocumentType": "aos",
           "DocumentComment": null,
@@ -132,7 +132,7 @@
     "D8PetitionerEmail": "sum002@mailinator.com",
     "D8ReasonForDivorceBehaviourDetails": "Est iusto cupidatat \nProvident quis volu\nSint consequuntur co",
     "D8HelpWithFeesReferenceNumber": "HWF-123-111",
-    "AosLetterHolderId": "b20dfb4a-41e6-4d15-8ed3-00599126935a",
+    "AosLetterHolderId": "efe7e668-16a0-4d1a-88c2-3828deaa9dee",
     "CoRespLinkedToCase": null,
     "D8PetitionerConsent": "YES",
     "D8DivorceUnit": "serviceCentre",
@@ -180,7 +180,7 @@
     },
     "D8ReasonForDivorce": "unreasonable-behaviour",
     "D8DerivedPetitionerCurrentFullName": "Sonia Key",
-    "RespEmailAddress": "xeminived@mailinator.net",
+    "RespEmailAddress": "zupuf@mailinator.net",
     "RespondentContactDetailsConfidential": "share",
     "D8InferredPetitionerGender": "male"
   },
@@ -263,7 +263,7 @@
     "D8DocumentsGenerated": {
       "value": [
         {
-          "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+          "id": "7dcf2000-9f38-42cb-be6f-cdd8f9136a10",
           "value": {
             "DocumentLink": "PUBLIC",
             "DocumentType": "PUBLIC",
@@ -274,7 +274,7 @@
           }
         },
         {
-          "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+          "id": "26602fd9-8ed9-4d28-990a-62d830686bb7",
           "value": {
             "DocumentLink": "PUBLIC",
             "DocumentType": "PUBLIC",
@@ -457,7 +457,7 @@
     "D8DocumentsGenerated": {
       "value": [
         {
-          "id": "b7f8441b-86e9-43dc-8391-edfa72649ac8",
+          "id": "7dcf2000-9f38-42cb-be6f-cdd8f9136a10",
           "value": {
             "DocumentLink": "PUBLIC",
             "DocumentType": "PUBLIC",
@@ -468,7 +468,7 @@
           }
         },
         {
-          "id": "8d915e21-1a1d-4ace-adec-80addb9dc704",
+          "id": "26602fd9-8ed9-4d28-990a-62d830686bb7",
           "value": {
             "DocumentLink": "PUBLIC",
             "DocumentType": "PUBLIC",
