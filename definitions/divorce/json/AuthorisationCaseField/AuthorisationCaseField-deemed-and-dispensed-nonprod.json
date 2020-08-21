@@ -298,7 +298,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceRefusalDraft",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",

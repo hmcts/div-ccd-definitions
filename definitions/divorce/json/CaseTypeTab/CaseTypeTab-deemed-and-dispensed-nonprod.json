@@ -41,16 +41,6 @@
     "TabFieldDisplayOrder": 4
   },
   {
-    "LiveFrom": "17/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
-    "TabFieldDisplayOrder": 5
-  },
-  {
     "LiveFrom": "12/12/2019",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -58,7 +48,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "LabelOutcomeOfServiceApplication",
-    "TabFieldDisplayOrder": 6,
+    "TabFieldDisplayOrder": 5,
     "FieldShowCondition" : "ServiceApplicationDecisionDate != \"\""
 
   },
@@ -70,7 +60,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplicationDecisionDate",
-    "TabFieldDisplayOrder": 7
+    "TabFieldDisplayOrder": 6
   },
   {
     "LiveFrom": "12/12/2019",
@@ -80,7 +70,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplicationGranted",
-    "TabFieldDisplayOrder": 8
+    "TabFieldDisplayOrder": 7
   },
   {
     "LiveFrom": "12/12/2019",
@@ -90,6 +80,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplicationRefusalReason",
-    "TabFieldDisplayOrder": 9
+    "TabFieldDisplayOrder": 8
   }
 ]
