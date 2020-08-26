@@ -50,6 +50,7 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationGranted=\"No\"",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-decision-made/draft",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -65,7 +66,6 @@
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-decision-made/draft",
     "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
