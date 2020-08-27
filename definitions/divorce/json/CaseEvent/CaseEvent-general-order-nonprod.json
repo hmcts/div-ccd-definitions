@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "createGeneralOrder",
+    "Name": "Create general order",
+    "Description": "Create general order",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  }
+]
