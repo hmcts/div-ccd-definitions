@@ -40,5 +40,19 @@
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceived",
+    "Name": "AOS Not Received within SLA",
+    "Description": "AOS Not Received within SLA",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AosOverdue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/prepare-aos-not-received-for-submission",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
