@@ -1,0 +1,29 @@
+[
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "invalidaction",
+    "PageLabel": "Invalid action",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "PetitionerSolicitorEmail=\"*\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "allowPetitionerToAmend",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "invalidaction",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "LabelCannotAllowPetToAmendForSolicitorCase=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  }
+]

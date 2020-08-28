@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "Label": "Because the current case has a solicitor representing the petitioner, this event cannot be used to allow the petitioner to amend this case. Instead, the petitioner's solicitor should amend this case themselves using the event: Submit amended application",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
+]

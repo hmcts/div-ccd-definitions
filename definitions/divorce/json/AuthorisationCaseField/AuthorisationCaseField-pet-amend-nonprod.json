@@ -1,0 +1,44 @@
+[
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelCannotAllowPetToAmendForSolicitorCase",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  }
+]
