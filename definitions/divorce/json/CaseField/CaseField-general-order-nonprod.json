@@ -1,0 +1,54 @@
+[
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderDate",
+    "Label": "Court order date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderParties",
+    "Label": "Who is the general order for?",
+    "HintText": "Select all parties the general order should be made available to",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "GeneralOrderPartiesEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderRecitals",
+    "Label": "Recitals",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeType",
+    "Label": "Select Judge",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralOrderJudgeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeName",
+    "Label": "Name of Judge",
+    "HintText": "Surname of Judge",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderDetails",
+    "Label": "General order details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  }
+]
