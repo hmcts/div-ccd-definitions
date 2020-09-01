@@ -138,5 +138,60 @@
     "Label": "Fee account reference ${D8HelpWithFeesReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralLetterDate",
+    "Label": "General letter date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralLetterParties",
+    "Label": "Address to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralLettersPartiesEnum"
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralLetterOtherRecipientName",
+    "Label": "Recipient's name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralLetterOtherRecipientAddress",
+    "Label": "??",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderRecitals",
+    "Label": "Recitals",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderDetails",
+    "Label": "Please provide details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]

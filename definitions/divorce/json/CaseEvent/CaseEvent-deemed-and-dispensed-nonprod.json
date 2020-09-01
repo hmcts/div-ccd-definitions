@@ -40,5 +40,16 @@
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "createGeneralLetter",
+    "Name": "Create general letter",
+    "Description": "Create general letter",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
   }
 ]

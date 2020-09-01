@@ -635,5 +635,180 @@
     "CaseFieldID": "LabelHWFReference",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterDate",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterDate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterParties",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterParties",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterParties",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterParties",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterParties",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterOtherRecipientName",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterOtherRecipientName",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterOtherRecipientName",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterOtherRecipientName",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralLetterOtherRecipientName",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderRecitals",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderRecitals",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderRecitals",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderRecitals",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderRecitals",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderDetails",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderDetails",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderDetails",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderDetails",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrderDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
