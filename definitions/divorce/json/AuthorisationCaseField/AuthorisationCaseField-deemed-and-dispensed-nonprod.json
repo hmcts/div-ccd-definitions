@@ -637,6 +637,76 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "GeneralLetterDate",

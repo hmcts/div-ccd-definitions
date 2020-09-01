@@ -140,6 +140,22 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfDeemedAccepted",
+    "Label": "Because the court accepted the application for 'deemed service', you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfDispensedAccepted",
+    "Label": "Because the court accepted the application to 'dispense with service’, you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralLetterDate",
@@ -147,17 +163,15 @@
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
-
   {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralLetterParties",
     "Label": "Address to",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "GeneralLettersPartiesEnum"
+    "FieldTypeParameter": "GeneralLettersPartiesEnum",
     "SecurityClassification": "Public"
   },
-
   {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
@@ -166,7 +180,6 @@
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
-
   {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
@@ -175,7 +188,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
@@ -184,8 +196,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
-
   {
     "LiveFrom": "01/09/2020",
     "CaseTypeID": "DIVORCE",
