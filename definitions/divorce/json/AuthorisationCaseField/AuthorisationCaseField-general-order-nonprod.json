@@ -251,8 +251,6 @@
     "UserRole": "citizen",
     "CRUD": "R"
   },
-
-
   {
     "LiveFrom": "03/09/2020",
     "CaseTypeID": "DIVORCE",
@@ -292,6 +290,48 @@
     "LiveFrom": "03/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "GeneralOrderDraft",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralOrders",
     "UserRole": "citizen",
     "CRUD": "R"
   }
