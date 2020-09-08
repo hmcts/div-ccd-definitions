@@ -11,7 +11,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAmendCase",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/07/2020",
