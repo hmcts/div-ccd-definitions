@@ -10,6 +10,8 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/create-general-order/draft",
+    "RetriesTimeoutURLMidEvent": "120,120",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -75,8 +77,6 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/create-general-order/draft",
-    "RetriesTimeoutURLMidEvent": "120,120",
     "ShowSummaryChangeOption": "Yes"
   },
   {
