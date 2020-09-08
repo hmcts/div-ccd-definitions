@@ -10,7 +10,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "27/08/2020",
@@ -23,7 +23,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "27/08/2020",
@@ -36,7 +36,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "27/08/2020",
@@ -49,7 +49,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "27/08/2020",
@@ -62,7 +62,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "27/08/2020",
@@ -75,7 +75,7 @@
     "PageLabel": "General order",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "03/09/2020",
@@ -90,6 +90,6 @@
     "PageColumnNumber": 1,
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/create-general-order/draft",
     "RetriesTimeoutURLMidEvent": "120,120",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
