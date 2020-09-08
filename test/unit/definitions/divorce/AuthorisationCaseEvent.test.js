@@ -31,7 +31,7 @@ describe('AuthorisationCaseEvent', () => {
 });
 
 describe('AuthorisationCaseEvent', () => {
-  it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
+  it('should contain a unique case type, case event ID and role (no duplicates) for prod', () => {
     const prodOnly = mergeJsonProdFiles();
     const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseEventID'));
 
