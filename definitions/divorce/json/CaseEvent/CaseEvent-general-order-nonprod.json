@@ -8,6 +8,8 @@
     "DisplayOrder": 14,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/create-general-order/final",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]

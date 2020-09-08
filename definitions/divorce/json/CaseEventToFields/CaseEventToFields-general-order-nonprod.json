@@ -76,5 +76,20 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "createGeneralOrder",
+    "CaseFieldID": "GeneralOrderDraft",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "generalorderdraft",
+    "PageLabel": "General order",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/create-general-order/draft",
+    "RetriesTimeoutURLMidEvent": "120,120",
+    "ShowSummaryChangeOption": "No"
   }
 ]

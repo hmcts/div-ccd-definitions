@@ -50,5 +50,22 @@
     "Label": "General order details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrderDraft",
+    "Label": "General Order Draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralOrders",
+    "Label": "General Orders",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
   }
 ]
