@@ -1679,7 +1679,8 @@
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1741,7 +1742,8 @@
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3329,7 +3331,8 @@
     "PageDisplayOrder": 12,
     "PageShowCondition": "D8ReasonForDivorce=\"desertion\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3391,7 +3394,8 @@
     "PageDisplayOrder": 13,
     "PageShowCondition": "D8ReasonForDivorce=\"separation-*\"",
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/calculate-separation-fields",
+    "RetriesTimeoutURLMidEvent": "120,120"
   },
   {
     "LiveFrom": "05/06/2019",
