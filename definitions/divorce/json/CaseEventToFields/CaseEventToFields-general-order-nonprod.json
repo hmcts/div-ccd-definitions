@@ -85,7 +85,7 @@
     "CaseEventID": "createGeneralOrder",
     "CaseFieldID": "GeneralOrderDraft",
     "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "generalorderdraft",
     "PageLabel": "General order",
     "PageDisplayOrder": 2,
