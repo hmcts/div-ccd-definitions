@@ -6,7 +6,7 @@ const caseEvent = Object.assign(require('definitions/divorce/json/CaseEvent/Case
 const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField.json'), []);
 const caseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
 
-function mergeCaseEventJsonNonProdFiles () {
+function mergeCaseEventJsonNonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
@@ -17,14 +17,14 @@ function mergeCaseEventJsonNonProdFiles () {
   return [...caseEvent, ...definitions];
 }
 
-function mergeCaseEventJsonProdFiles () {
+function mergeCaseEventJsonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-prod.json'));
 
   return [...caseEvent, ...definitions];
 }
 
-function mergeCaseFieldJsonNonProdFiles () {
+function mergeCaseFieldJsonNonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'))
@@ -34,14 +34,14 @@ function mergeCaseFieldJsonNonProdFiles () {
   return [...caseField, ...definitions];
 }
 
-function mergeCaseFieldJsonProdFiles () {
+function mergeCaseFieldJsonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseField/CaseField-prod.json'));
 
   return [...caseField, ...definitions];
 }
 
-function mergeCaseEventToFieldsJsonNonProdFiles () {
+function mergeCaseEventToFieldsJsonNonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-general-order-nonprod.json'))
@@ -51,14 +51,14 @@ function mergeCaseEventToFieldsJsonNonProdFiles () {
   return [...caseEventToFields, ...definitions];
 }
 
-function mergeCaseEventToFieldsJsonProdFiles () {
+function mergeCaseEventToFieldsJsonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-prod.json'));
 
   return [...caseEventToFields, ...definitions];
 }
 
-function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
+function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -72,7 +72,7 @@ function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
   }
 }
 
-function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
+function assertHasOnlyValidFieldIds(caseEventToFieldsFile, caseFieldFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -86,7 +86,7 @@ function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
   }
 }
 
-function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
+function assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -95,6 +95,22 @@ function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
       }
     } catch (error) {
       errors.push(`Field ID ${caseEventToFieldsEntry.CaseFieldID} defines callback, but is not the first field`);
+    }
+  });
+
+  if (errors.length) {
+    assert.fail(`Found invalid field IDs - ${errors}`);
+  }
+}
+
+function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsFile) {
+  const errors = [];
+  caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
+    try {
+      // this field is ignored by CCD
+      expect(caseEventToFieldsEntry.RetriesTimeoutURLMidEvent).not.to.be.an('string');
+    } catch (error) {
+      errors.push(`Field ID ${caseEventToFieldsEntry.CaseFieldID} defines callback without RetriesTimeoutURLMidEvent\n`);
     }
   });
 
@@ -113,8 +129,13 @@ describe('CaseEventToFields (non-prod)', () => {
     const caseFieldNonProd = mergeCaseFieldJsonNonProdFiles();
     assertHasOnlyValidFieldIds(caseEventToFieldsNonProd, caseFieldNonProd);
   });
-  it('CallBackURLMidEvent if defined is added to the first field on page', () => {
-    assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsNonProd);
+  describe('CallBackURLMidEvent', () => {
+    it('(if defined) is added to the first field on page', () => {
+      assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsNonProd);
+    });
+    it('RetriesTimeoutURLMidEvent is never defined', () => {
+      assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsNonProd);
+    });
   });
 });
 
@@ -128,7 +149,12 @@ describe('CaseEventToFields (prod)', () => {
     const caseFieldProd = mergeCaseFieldJsonProdFiles();
     assertHasOnlyValidFieldIds(caseEventToFieldsProd, caseFieldProd);
   });
-  it('CallBackURLMidEvent if defined is added to the first field on page', () => {
-    assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsProd);
+  describe('CallBackURLMidEvent', () => {
+    it('(if defined) is added to the first field on page', () => {
+      assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsProd);
+    });
+    it('RetriesTimeoutURLMidEvent is never defined', () => {
+      assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsProd);
+    });
   });
 });

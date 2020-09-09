@@ -6366,8 +6366,7 @@
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6394,8 +6393,7 @@
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6638,8 +6636,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7179,8 +7176,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7709,8 +7705,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
