@@ -51,6 +51,7 @@
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationGranted=\"No\"",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/service-decision-made/draft",
+    "RetriesTimeoutURLMidEvent": "120,120",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -65,8 +66,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
-    "ShowSummaryChangeOption": "No",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "04/08/2020",
