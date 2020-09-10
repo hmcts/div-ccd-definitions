@@ -1269,18 +1269,6 @@
   {
     "LiveFrom": "23/07/2020",
     "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "DispenseWithServiceRefused",
-    "ListElement": "Dispense with service refused"
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "DeemedServiceRefused",
-    "ListElement": "Deemed service refused"
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "ID": "d8documentsReceivedEnum",
     "ListElementCode": "aosOverdueCoverLetter",
     "ListElement": "AOS Overdue Cover Letter"
   }
