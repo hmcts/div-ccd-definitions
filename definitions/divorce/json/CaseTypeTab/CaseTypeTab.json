@@ -3353,7 +3353,7 @@
     "TabFieldDisplayOrder": 24
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "14/09/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "petitionDetails",
@@ -3363,7 +3363,7 @@
     "TabFieldDisplayOrder": 115
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "14/09/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "coRespondent",
@@ -3373,7 +3373,7 @@
     "TabFieldDisplayOrder": 33
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "14/09/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "aosDetails",
