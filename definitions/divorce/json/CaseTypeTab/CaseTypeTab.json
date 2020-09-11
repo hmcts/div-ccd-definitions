@@ -3351,5 +3351,35 @@
     "TabDisplayOrder": 25,
     "CaseFieldID": "CostsOrderAdditionalInfoWelsh",
     "TabFieldDisplayOrder": 24
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "PetitionerPcqId",
+    "TabFieldDisplayOrder": 115
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "coRespondent",
+    "TabLabel": "Co-Respondent",
+    "TabDisplayOrder": 22,
+    "CaseFieldID": "CoRespondentPcqId",
+    "TabFieldDisplayOrder": 33
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "aosDetails",
+    "TabLabel": "AOS",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "RespondentPcqId",
+    "TabFieldDisplayOrder": 30
   }
 ]
