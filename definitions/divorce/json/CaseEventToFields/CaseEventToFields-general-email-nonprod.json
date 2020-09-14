@@ -10,7 +10,7 @@
     "PageLabel": "Create general email",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "28/09/2020",
@@ -20,11 +20,11 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "creategeneralemail",
-    "PageLabel": "General order",
+    "PageLabel": "Create general email",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralEmailParties=\"other\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "28/09/2020",
@@ -34,11 +34,11 @@
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "creategeneralemail",
-    "PageLabel": "General order",
+    "PageLabel": "Create general email",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralEmailParties=\"other\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "28/09/2020",
@@ -48,9 +48,9 @@
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "creategeneralemail",
-    "PageLabel": "General order",
+    "PageLabel": "Create general email",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
