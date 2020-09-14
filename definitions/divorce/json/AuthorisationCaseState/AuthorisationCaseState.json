@@ -2259,5 +2259,299 @@
     "CaseStateID": "DNisRefused",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AmendPetition",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosAwaiting",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosOverdue",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosStarted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosSubmittedAwaitingAnswer",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingClarification",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingConsideration",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDecreeAbsolute",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DNPronounced",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDecreeNisi",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDocuments",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingHWFDecision",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingLegalAdvisorReferral",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingPayment",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingPronouncement",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingReissue",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DefendedDivorce",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DivorceGranted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Issued",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "PendingRejection",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Withdrawn",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosCompleted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DNisRefused",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosAwaitingSol",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosPreSubmit",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DARequested",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAOverdue",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DNDrafted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AosDrafted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "RemovedFromBulkCaseList",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingService",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "ClarificationSubmitted",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAdminClarification",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "BOTranslationRequested",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "WelshResponseAwaitingReview",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "WelshLADecision",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "WelshDNReceived",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServicePayment",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
   }
 ]

@@ -4682,5 +4682,29 @@
     "Label": "Case ID for Amended case",
     "FieldType": "CaseLink",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerPcqId",
+    "Label": "Petitioner PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentPcqId",
+    "Label": "Respondent PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentPcqId",
+    "Label": "Co-respondent PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
