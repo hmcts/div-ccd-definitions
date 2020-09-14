@@ -2546,12 +2546,5 @@
     "CaseStateID": "WelshDNReceived",
     "UserRole": "caseworker-divorce-pcqextractor",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "14/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingServicePayment",
-    "UserRole": "caseworker-divorce-pcqextractor",
-    "CRUD": "R"
   }
 ]
