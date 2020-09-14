@@ -4,7 +4,7 @@ const { isFieldDuplicated } = require('../../utils/utils');
 
 const load = require;
 
-const states = load(`definitions/divorce/json/State/State.json`);
+const states = load('definitions/divorce/json/State/State.json');
 
 function loadAllFiles(files) {
   let definitions = [];
@@ -16,14 +16,14 @@ function loadAllFiles(files) {
   return definitions;
 }
 
-function assertStateExists (authorisations, states) {
+function assertStateExists(authorisations, allStatesDefinedForEnv) {
   const errors = [];
 
   authorisations.forEach(authDefinition => {
     try {
-      expect(find(states, ['ID', authDefinition.CaseStateID])).to.exist;
+      expect(find(allStatesDefinedForEnv, ['ID', authDefinition.CaseStateID])).to.be.an('object');
     } catch (error) {
-      errors.push(`\nState ${authDefinition.CaseStateID}  is not defined`);
+      errors.push(`\nState ${authDefinition.CaseStateID} is not defined`);
     }
   });
 
@@ -50,8 +50,8 @@ describe('AuthorisationCaseState', () => {
 
     it('use existing states', () => {
       const nonProdStates = states
-        .concat(load(`definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json`))
-        .concat(load(`definitions/divorce/json/State/State-pet-amend-nonprod.json`));
+        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'))
+        .concat(load('definitions/divorce/json/State/State-pet-amend-nonprod.json'));
 
       assertStateExists(nonProd, nonProdStates);
     });
