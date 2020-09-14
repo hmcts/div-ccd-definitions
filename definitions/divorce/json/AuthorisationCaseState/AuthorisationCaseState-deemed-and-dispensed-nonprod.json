@@ -173,5 +173,19 @@
     "CaseStateID": "AwaitingServicePayment",
     "UserRole": "caseworker-divorce-pcqextractor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "ServiceApplicationNotApproved",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
   }
 ]
