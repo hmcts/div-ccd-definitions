@@ -61,8 +61,7 @@ describe('AuthorisationCaseState', () => {
     const prod = loadAllFiles(
       [
         'AuthorisationCaseState',
-        'AuthorisationCaseState-prod',
-        'AuthorisationCaseState-pet-amend-prod'
+        'AuthorisationCaseState-prod'
       ]
     );
 
