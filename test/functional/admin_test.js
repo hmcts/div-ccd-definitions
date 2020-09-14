@@ -31,6 +31,15 @@ Scenario('upload divorce config file', I => {
   I.see('Case Definition data successfully imported');
 }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
+// this should be only executed for PRs and not master
+if (process.env.IMPORT_PROD_LIKE) {
+  Scenario('upload prod-like divorce config file', I => {
+    I.loginToAdminConsole();
+    I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat-prod-like.xlsx');
+    I.see('Case Definition data successfully imported');
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+}
+
 Scenario('upload bulk action config file', I => {
   I.loginToAdminConsole();
   I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
