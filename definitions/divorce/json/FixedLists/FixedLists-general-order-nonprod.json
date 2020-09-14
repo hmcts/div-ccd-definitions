@@ -50,7 +50,7 @@
   {
     "LiveFrom": "27/08/2020",
     "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "GeneralOrder",
+    "ListElementCode": "generalOrder",
     "ListElement": "General Order"
   }
 ]
