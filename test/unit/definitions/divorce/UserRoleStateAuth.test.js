@@ -84,8 +84,7 @@ describe('UserRole authorisations for CaseState', () => {
         [
           'AuthorisationCaseState',
           'AuthorisationCaseState-nonprod',
-          'AuthorisationCaseState-deemed-and-dispensed-nonprod',
-          'AuthorisationCaseState-pet-amend-nonprod'
+          'AuthorisationCaseState-deemed-and-dispensed-nonprod'
         ]
       );
 
