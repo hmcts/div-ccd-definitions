@@ -56,19 +56,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "29/06/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "amendPetitionForRefusalSol",
-    "Name": "Submit amended application",
-    "Description": "Submit amended application",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "ServiceApplicationNotApproved;DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingAmendCase",
-    "PostConditionState": "AmendPetition",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "aosSubmittedUndefended",
