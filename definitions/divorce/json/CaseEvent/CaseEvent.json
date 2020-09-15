@@ -2426,8 +2426,8 @@
     "DisplayOrder": 7,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "PUBLIC",
-    "ShowSummary": "Yes"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "23/09/2019",
@@ -2454,7 +2454,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "PUBLIC",
+    "SecurityClassification": "Public",
     "ShowSummary": "N"
   },
   {
