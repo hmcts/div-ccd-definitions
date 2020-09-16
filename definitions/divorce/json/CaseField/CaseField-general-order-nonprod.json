@@ -65,7 +65,7 @@
     "ID": "GeneralOrders",
     "Label": "General Orders",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DivorceDocument",
+    "FieldTypeParameter": "DivorceGeneralOrder",
     "SecurityClassification": "Public"
   }
 ]
