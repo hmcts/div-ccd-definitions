@@ -63,20 +63,18 @@
     "Description": "AOS Not Received within SLA",
     "DisplayOrder": 4,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AOsOverdue",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "PostConditionState": "AosOverdue",
     "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "16/09/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "solaosNotReceivedFromServiceAppRejected",
+    "ID": "solAosNotReceivedFromServiceAppRejected",
     "Name": "AOS Not Received within SLA",
     "Description": "AOS Not Received within SLA",
     "DisplayOrder": 5,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AOsOverdue",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "PostConditionState": "AosOverdue",
     "SecurityClassification": "Public"
   },
   {
@@ -87,8 +85,7 @@
     "Description": "AOS started",
     "DisplayOrder": 6,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AOSStarted",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "PostConditionState": "AosStarted",
     "SecurityClassification": "Public"
   },
   {
@@ -100,7 +97,6 @@
     "DisplayOrder": 7,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "DefendedDivorce",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
     "SecurityClassification": "Public"
   },
   {
@@ -112,7 +108,6 @@
     "DisplayOrder": 8,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "ServiceApplicationNotApproved",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "SecurityClassification": "Public"
   },
   {
@@ -124,7 +119,6 @@
     "DisplayOrder": 9,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -137,7 +131,6 @@
     "DisplayOrder": 10,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "ServiceApplicationNotApproved",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -150,8 +143,6 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
