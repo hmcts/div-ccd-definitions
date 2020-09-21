@@ -1,39 +1,15 @@
 [
-    {
-        "LiveFrom": "01/01/2017",
-        "CaseTypeID": "DIVORCE",
-        "ID": "amendPetition",
-        "Name": "Amend Petition",
-        "Description": "Amend Petition",
-        "DisplayOrder": 2,
-        "PreConditionState(s)": "AosCompleted",
-        "PostConditionState": "AmendPetition",
-        "SecurityClassification": "Public"
-    },
-    {
-      "LiveFrom": "01/01/2017",
-      "CaseTypeID": "DIVORCE",
-      "ID": "aosNotReceived",
-      "Name": "AOS Not Received within SLA",
-      "Description": "AOS Not Received within SLA",
-      "DisplayOrder": 3,
-      "PreConditionState(s)": "AosAwaiting",
-      "PostConditionState": "AosOverdue",
-      "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
-      "RetriesTimeoutURLSubmittedEvent": "120,120",
-      "SecurityClassification": "Public"
-    },
-    {
-      "LiveFrom": "29/06/2020",
-      "CaseTypeID": "DIVORCE",
-      "ID": "amendPetitionForRefusalSol",
-      "Name": "Submit amended application",
-      "Description": "Submit amended application",
-      "DisplayOrder": 3,
-      "PreConditionState(s)": "DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
-      "PostConditionState": "AmendPetition",
-      "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
-      "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-      "SecurityClassification": "Public"
-    }
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceived",
+    "Name": "AOS Not Received within SLA",
+    "Description": "AOS Not Received within SLA",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AosOverdue",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  }
 ]
