@@ -16,7 +16,7 @@
   {
     "LiveFrom": "08/09/2020",
     "ID": "GeneralEmailPartiesEnum",
-    "ListElementCode": "correspondent",
+    "ListElementCode": "corespondent",
     "ListElement": "Co-respondent / Co-respondent's Solicitor",
     "DisplayOrder": 3
   },
