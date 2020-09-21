@@ -1,6 +1,7 @@
-const { expect, assert } = require('chai');
-const { uniqWith, find } = require('lodash');
+const { expect } = require('chai');
+const { uniqWith } = require('lodash');
 const { isFieldDuplicated } = require('../../utils/utils');
+const { createAssertExists } = require('../../utils/assertBuilders');
 
 const load = require;
 
@@ -16,21 +17,7 @@ function loadAllFiles(files) {
   return definitions;
 }
 
-function assertStateExists(authorisations, allStatesDefinedForEnv) {
-  const errors = [];
-
-  authorisations.forEach(authDefinition => {
-    try {
-      expect(find(allStatesDefinedForEnv, ['ID', authDefinition.CaseStateID])).to.be.an('object');
-    } catch (error) {
-      errors.push(`\nState ${authDefinition.CaseStateID} is not defined`);
-    }
-  });
-
-  if (errors.length) {
-    assert.fail(`Broken tests: ${errors}`);
-  }
-}
+const assertStateExists = createAssertExists('State');
 
 describe('AuthorisationCaseState', () => {
   describe('for nonprod files all definitions should', () => {
@@ -38,8 +25,7 @@ describe('AuthorisationCaseState', () => {
       [
         'AuthorisationCaseState',
         'AuthorisationCaseState-nonprod',
-        'AuthorisationCaseState-deemed-and-dispensed-nonprod',
-        'AuthorisationCaseState-pet-amend-nonprod'
+        'AuthorisationCaseState-deemed-and-dispensed-nonprod'
       ]
     );
 
@@ -50,8 +36,7 @@ describe('AuthorisationCaseState', () => {
 
     it('use existing states', () => {
       const nonProdStates = states
-        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'))
-        .concat(load('definitions/divorce/json/State/State-pet-amend-nonprod.json'));
+        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'));
 
       assertStateExists(nonProd, nonProdStates);
     });
