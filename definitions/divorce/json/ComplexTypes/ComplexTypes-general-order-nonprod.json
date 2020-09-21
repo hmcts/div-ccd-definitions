@@ -11,7 +11,7 @@
     "LiveFrom": "16/09/2020",
     "ID": "DivorceGeneralOrder",
     "ListElementCode": "GeneralOrderParties",
-    "FieldType": "FixedList",
+    "FieldType": "MultiSelectList",
     "FieldTypeParameter": "GeneralOrderPartiesEnum",
     "ElementLabel": "General Order Parties",
     "SecurityClassification": "Public"
