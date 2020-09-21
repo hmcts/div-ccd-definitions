@@ -126,7 +126,7 @@
     "LiveFrom": "16/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "IssueAOSOffline_CoRespondent_FromServiceAppRejected",
-    "Name": "Issue AOS pack to Co-respondent",
+    "Name": "Issue AOS pack - Co-respondent",
     "Description": "Answer received",
     "DisplayOrder": 10,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
