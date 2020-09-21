@@ -14,8 +14,7 @@ const assertEventExists = createAssertExists('Event');
 function mergeJsonNonProdFiles() {
   const definitions = []
     .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-deemed-and-dispensed-nonprod.json'))
-    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'))
-    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-pet-amend-nonprod.json'));
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'));
 
   return [...authCaseEventCommon, ...definitions];
 }
@@ -42,7 +41,6 @@ describe('AuthorisationCaseEvent', () => {
         .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-email-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-pet-amend-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-nonprod.json'));
 
       assertEventExists(nonProd, allEventsForNonProd);
