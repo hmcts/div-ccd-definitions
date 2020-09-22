@@ -141,5 +141,16 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "startAosFromServiceAppRejected",
+    "Name": "AOS started",
+    "Description": "AOS started",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "ServiceApplicationNotApproved",
+    "PostConditionState": "AosStarted",
+    "SecurityClassification": "Public"
   }
 ]
