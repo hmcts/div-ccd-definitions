@@ -1267,15 +1267,237 @@
     "DisplayOrder": 4
   },
   {
-    "LiveFrom": "23/07/2020",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "DispenseWithServiceRefused",
-    "ListElement": "Dispense with service refused"
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "aos",
+    "ListElement": "Confidential - Acknowledgement of Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "aoscr",
+    "ListElement": "Confidential - Acknowledgement of Service (Co-Respondent)"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "annexa",
+    "ListElement": "Confidential - Annex A"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "baliffService",
+    "ListElement": "Confidential - Bailiff Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "coe",
+    "ListElement": "Confidential - Certificate Of Entitlement"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "coRespondentAnswers",
+    "ListElement": "Confidential - Co-Respondent Answers"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "correspondence",
+    "ListElement": "Confidential - Correspondence"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "costs",
+    "ListElement": "Confidential - Costs"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "costsOrder",
+    "ListElement": "Confidential - Costs Order"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "daApplication",
+    "ListElement": "Confidential - Decree Absolute application"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "daGranted",
+    "ListElement": "Confidential - Decree Absolute Granted"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "dnApplication",
+    "ListElement": "Confidential - Decree Nisi application (D84/D80)"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "dnGranted",
+    "ListElement": "Confidential - Decree Nisi Granted"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "deemedService",
+    "ListElement": "Confidential - Deemed Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "dispenseWithService",
+    "ListElement": "Confidential - Dispense with Service "
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "d30",
+    "ListElement": "Confidential - D30 - Consideration of applications for DN"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "d79",
+    "ListElement": "Confidential - D79 - Notice of refusal of entitlement to a DN"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "d84a",
+    "ListElement": "Confidential - D84A"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "d9d",
+    "ListElement": "Confidential - D9D"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "d9h",
+    "ListElement": "Confidential - D9H"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "email",
+    "ListElement": "Confidential - Email"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "marriageCert",
+    "ListElement": "Confidential - Marriage certificate"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "marriageCertTranslation",
+    "ListElement": "Confidential - Marriage certificate translation"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "nameChange",
+    "ListElement": "Confidential - Name change evidence"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "petition",
+    "ListElement": "Confidential - Petition"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "respondentAnswers",
+    "ListElement": "Confidential - Respondent Answers"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "dnAnswers",
+    "ListElement": "Confidential - Decree Nisi Answers"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "other",
+    "ListElement": "Confidential - Other"
+  },
+  {
+    "LiveFrom": "09/08/2019",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "personalService",
+    "ListElement": "Confidential - Personal Service"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "aosinvitationletter-offline-resp",
+    "ListElement": "Confidential - AOS Offline Invitation Letter Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "aosinvitationletter-offline-co-resp",
+    "ListElement": "Confidential - AOS Offline Invitation Letter Co-respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "two-year-separation-aos-form",
+    "ListElement": "Confidential - AOS Offline Two Year Separation Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "five-year-separation-aos-form",
+    "ListElement": "Confidential - AOS Offline Five Year Separation Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "behaviour-desertion-aos-form",
+    "ListElement": "Confidential - AOS Offline Unreasonable Behaviour / Desertion Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "adultery-respondent-aos-form",
+    "ListElement": "Confidential - AOS Offline Adultery Form Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "adultery-co-respondent-aos-form",
+    "ListElement": "Confidential - AOS Offline Adultery Form Co-Respondent"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "dnRefusalClarificationResponse",
+    "ListElement": "Confidential - Decree Nisi Refusal - Clarification Response"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialD8documentsReceivedEnum",
+    "ListElementCode": "Welsh-translation",
+    "ListElement": "Confidential - Welsh Translation"
   },
   {
     "LiveFrom": "23/07/2020",
     "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "DeemedServiceRefused",
-    "ListElement": "Deemed service refused"
+    "ListElementCode": "aosOverdueCoverLetter",
+    "ListElement": "AOS Overdue Cover Letter"
   }
 ]

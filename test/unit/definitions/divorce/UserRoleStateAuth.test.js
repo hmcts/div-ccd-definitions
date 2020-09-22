@@ -84,8 +84,7 @@ describe('UserRole authorisations for CaseState', () => {
         [
           'AuthorisationCaseState',
           'AuthorisationCaseState-nonprod',
-          'AuthorisationCaseState-deemed-and-dispensed-nonprod',
-          'AuthorisationCaseState-pet-amend-nonprod'
+          'AuthorisationCaseState-deemed-and-dispensed-nonprod'
         ]
       );
 
@@ -96,8 +95,7 @@ describe('UserRole authorisations for CaseState', () => {
       const prod = loadAllFiles(
         [
           'AuthorisationCaseState',
-          'AuthorisationCaseState-prod',
-          'AuthorisationCaseState-pet-amend-prod'
+          'AuthorisationCaseState-prod'
         ]
       );
 

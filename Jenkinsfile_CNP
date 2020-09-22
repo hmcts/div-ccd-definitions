@@ -58,6 +58,8 @@ withPipeline("nodejs", product, component) {
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
     env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+
+    env.IMPORT_PROD_LIKE=true
   }
 
   before('functionalTest:aat') {
@@ -72,6 +74,7 @@ withPipeline("nodejs", product, component) {
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
     env.CCD_ADMIN_URL="https://ccd-admin-web.aat.platform.hmcts.net"
+    env.IMPORT_PROD_LIKE=false
   }
 
   after('functionalTest:aat') {

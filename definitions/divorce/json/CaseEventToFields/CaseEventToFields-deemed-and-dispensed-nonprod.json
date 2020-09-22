@@ -65,8 +65,7 @@
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "PageShowCondition": "ServiceApplicationRefusalReason=\"*\"",
-    "ShowSummaryChangeOption": "No",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "04/08/2020",
@@ -221,6 +220,62 @@
     "PageDisplayOrder": 5,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ServiceApplicationPayment=\"helpWithFees\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"deemed\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"dispensed\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "ServiceApplicationGranted",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "ServiceApplicationType",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"NeverShow\"",
     "ShowSummaryChangeOption": "No"
   }
 ]

@@ -102,21 +102,21 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
@@ -137,14 +137,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -166,5 +166,26 @@
     "CaseStateID": "ServiceApplicationNotApproved",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServicePayment",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "ServiceApplicationNotApproved",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
   }
 ]

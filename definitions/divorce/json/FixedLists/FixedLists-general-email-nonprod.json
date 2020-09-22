@@ -1,0 +1,30 @@
+[
+  {
+    "LiveFrom": "08/09/2020",
+    "ID": "GeneralEmailPartiesEnum",
+    "ListElementCode": "petitioner",
+    "ListElement": "Petitioner / Petitioner's Solicitor",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "ID": "GeneralEmailPartiesEnum",
+    "ListElementCode": "respondent",
+    "ListElement": "Respondent / Respondent's Solicitor",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "ID": "GeneralEmailPartiesEnum",
+    "ListElementCode": "corespondent",
+    "ListElement": "Co-respondent / Co-respondent's Solicitor",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "ID": "GeneralEmailPartiesEnum",
+    "ListElementCode": "other",
+    "ListElement": "Other",
+    "DisplayOrder": 4
+  }
+]
