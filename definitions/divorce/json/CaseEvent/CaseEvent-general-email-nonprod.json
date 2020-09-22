@@ -8,6 +8,8 @@
     "DisplayOrder": 15,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/create-general-email",
+    "ShowSummary": "Y",
     "SecurityClassification": "Public"
   }
 ]

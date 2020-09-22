@@ -205,6 +205,55 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ConfidentialD8documentsReceivedEnum",
+    "ElementLabel": "Type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentEmailContent",
+    "FieldType": "TextArea",
+    "ElementLabel": "Email content",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentLink",
+    "FieldType": "Document",
+    "ElementLabel": "Document Url",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentDateAdded",
+    "FieldType": "Date",
+    "ElementLabel": "Date added",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentComment",
+    "FieldType": "Text",
+    "ElementLabel": "Comment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "ConfidentialDivorceDocument",
+    "ListElementCode": "DocumentFileName",
+    "FieldType": "Text",
+    "ElementLabel": "File name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "Connections",
     "ListElementCode": "A",
     "FieldType": "Text",
@@ -289,7 +338,7 @@
     "ListElementCode": "key",
     "FieldType": "Text",
     "ElementLabel": "Key",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -297,7 +346,7 @@
     "ListElementCode": "value",
     "FieldType": "Text",
     "ElementLabel": "Value",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -305,7 +354,7 @@
     "ListElementCode": "# Record Meta data",
     "FieldType": "Label",
     "ElementLabel": "Scanned Records",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -314,7 +363,7 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "ScannedDocumentType",
     "ElementLabel": "Document Type",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -322,7 +371,7 @@
     "ListElementCode": "subtype",
     "FieldType": "Text",
     "ElementLabel": "Document Subtype",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -330,7 +379,7 @@
     "ListElementCode": "url",
     "FieldType": "Document",
     "ElementLabel": "Scanned document url",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -338,7 +387,7 @@
     "ListElementCode": "controlNumber",
     "FieldType": "Text",
     "ElementLabel": "Document Control Number",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -346,7 +395,7 @@
     "ListElementCode": "fileName",
     "FieldType": "Text",
     "ElementLabel": "File Name",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -354,7 +403,7 @@
     "ListElementCode": "scannedDate",
     "FieldType": "DateTime",
     "ElementLabel": "Scanned Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2018",
@@ -362,7 +411,7 @@
     "ListElementCode": "deliveryDate",
     "FieldType": "DateTime",
     "ElementLabel": "Delivery Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",

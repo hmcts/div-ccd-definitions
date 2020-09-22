@@ -9,6 +9,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/create-general-order/final",
+    "ShowSummary": "Y",
     "SecurityClassification": "Public"
   }
 ]

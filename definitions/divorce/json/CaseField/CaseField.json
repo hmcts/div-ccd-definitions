@@ -945,6 +945,15 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8ConfidentialDocumentsUploaded",
+    "Label": "Confidential documents uploaded",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ConfidentialDivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8RejectDocumentsUploaded",
     "Label": "Reject documents uploaded",
     "FieldType": "TextArea",
@@ -4681,6 +4690,30 @@
     "ID": "AmendedCaseId",
     "Label": "Case ID for Amended case",
     "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerPcqId",
+    "Label": "Petitioner PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentPcqId",
+    "Label": "Respondent PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentPcqId",
+    "Label": "Co-respondent PCQ ID",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]
