@@ -1,5 +1,6 @@
 const load = require;
 const { sortBy } = require('lodash');
+const { expect } = require('chai');
 
 function isFieldDuplicated(field) {
   return function isDuplicated(field1, field2) {
@@ -7,6 +8,32 @@ function isFieldDuplicated(field) {
             && field1[field] === field2[field]
             && field1.UserRole === field2.UserRole;
   };
+}
+
+function isNotEmpty() {
+  return v => {
+    return v !== null && v.length > 0;
+  };
+}
+
+function isNotLongerThan(maxLength) {
+  return v => {
+    return v !== null && v.length > 0 && v.length <= maxLength;
+  };
+}
+
+function whenPopulated(key) {
+  return {
+    expect: satisfyCallback => {
+      if (key) {
+        expect(key).to.be.a('string').and.satisfy(satisfyCallback);
+      }
+    }
+  };
+}
+
+function noDuplicateFound(a, b) {
+  return a.CaseTypeID === b.CaseTypeID && a.ID === b.ID;
 }
 
 function loadAllFiles(location) {
@@ -31,5 +58,9 @@ function sortCaseTypeTabs(caseTypeTab) {
 module.exports = {
   isFieldDuplicated,
   loadAllFiles,
-  sortCaseTypeTabs
+  sortCaseTypeTabs,
+  noDuplicateFound,
+  isNotEmpty,
+  isNotLongerThan,
+  whenPopulated
 };

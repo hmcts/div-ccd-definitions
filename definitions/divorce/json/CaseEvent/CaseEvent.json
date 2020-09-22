@@ -199,36 +199,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosSubmittedDefended",
-    "Name": "AOS Submitted (defending)",
-    "Description": "AOS Submitted (defending)",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "AosStarted;AosOverdue",
-    "PostConditionState": "AosSubmittedAwaitingAnswer",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosSubmittedUndefended",
-    "Name": "AOS Received (undefended)",
-    "Description": "AOS Received (undefended)",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue",
-    "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCstarted",
@@ -1139,21 +1109,6 @@
     "DisplayOrder": 8,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "13/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosReceivedNoAdConStarted",
-    "Name": "AOS Received (no ad/con)",
-    "Description": "AOS Received (no admission/consent)",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue",
-    "PostConditionState": "AosCompleted",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2426,8 +2381,8 @@
     "DisplayOrder": 7,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "PUBLIC",
-    "ShowSummary": "Yes"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "23/09/2019",
@@ -2454,7 +2409,7 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "PUBLIC",
+    "SecurityClassification": "Public",
     "ShowSummary": "N"
   },
   {
@@ -2482,22 +2437,6 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "20/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "EnterAOSOffline_Respondent",
-    "Name": "Received AOS offline-Resp",
-    "Description": "Received AOS offline for respondent from AosAwaiting",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaiting;AosStarted;AosOverdue",
-    "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "EndButtonLabel": "Submit AOS Response"
   },
   {
     "LiveFrom": "20/09/2019",
@@ -2891,5 +2830,16 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "amendPetition",
+    "Name": "Amend Petition",
+    "Description": "Amend Petition",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosCompleted;AwaitingAmendCase",
+    "PostConditionState": "AmendPetition",
+    "SecurityClassification": "Public"
   }
 ]
