@@ -611,6 +611,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DocumentsUploaded",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRUD"
@@ -5917,6 +5924,13 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8FinancialOrder",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -8185,6 +8199,13 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8FinancialOrder",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -10209,6 +10230,13 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DocumentsUploaded",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRUD"
   },

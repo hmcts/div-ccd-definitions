@@ -945,6 +945,15 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8ConfidentialDocumentsUploaded",
+    "Label": "Confidential documents uploaded",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ConfidentialDivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8RejectDocumentsUploaded",
     "Label": "Reject documents uploaded",
     "FieldType": "TextArea",

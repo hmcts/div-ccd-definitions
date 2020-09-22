@@ -3381,5 +3381,15 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "RespondentPcqId",
     "TabFieldDisplayOrder": 30
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "ConfidentialDocuments",
+    "TabLabel": "Confidential Documents",
+    "TabDisplayOrder": 26,
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "TabFieldDisplayOrder": 1
   }
 ]
