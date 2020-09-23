@@ -145,97 +145,6 @@
   {
     "LiveFrom": "16/09/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "aosNotReceivedFromServiceAppRejected",
-    "Name": "AOS Not Received within SLA",
-    "Description": "AOS Not Received within SLA",
-    "DisplayOrder": 4,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AosOverdue",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "solAosNotReceivedFromServiceAppRejected",
-    "Name": "AOS Not Received within SLA",
-    "Description": "AOS Not Received within SLA",
-    "DisplayOrder": 5,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AosOverdue",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "startAosFromServiceAppRejected",
-    "Name": "AOS started",
-    "Description": "AOS started",
-    "DisplayOrder": 6,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AosStarted",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "answerReceivedFromServiceAppRejected",
-    "Name": "Answer received",
-    "Description": "Answer received",
-    "DisplayOrder": 7,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "DefendedDivorce",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "coRespAnswerReceivedFromServiceAppRejected",
-    "Name": "Answer received",
-    "Description": "Answer received",
-    "DisplayOrder": 8,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "ServiceApplicationNotApproved",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "IssueAOSOffline_Respondent_FromServiceAppRejected",
-    "Name": "Issue AOS pack to respondent",
-    "Description": "Answer received",
-    "DisplayOrder": 9,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AosAwaiting",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "IssueAOSOffline_CoRespondent_FromServiceAppRejected",
-    "Name": "Issue AOS pack - Co-respondent",
-    "Description": "Answer received",
-    "DisplayOrder": 10,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "ServiceApplicationNotApproved",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "reissueFromServiceAppRejected",
-    "Name": "Reissue petition",
-    "Description": "Reissue petition",
-    "DisplayOrder": 11,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AwaitingReissue",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromServiceAppRejected",
     "Name": "Transfer from CTSC to RDC",
     "Description": "Transfer from CTSC to RDC",
@@ -280,17 +189,6 @@
   {
     "LiveFrom": "16/09/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "startAosFromServiceAppRejected",
-    "Name": "AOS started",
-    "Description": "AOS started",
-    "DisplayOrder": 6,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "AosStarted",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "answerReceivedFromServiceAppRejected",
     "Name": "Answer received",
     "Description": "Answer received",
@@ -345,16 +243,5 @@
     "PostConditionState": "AwaitingReissue",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "16/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "transferCaseFromServiceAppRejected",
-    "Name": "Transfer from CTSC to RDC",
-    "Description": "Transfer from CTSC to RDC",
-    "DisplayOrder": 12,
-    "PreConditionState(s)": "ServiceApplicationNotApproved",
-    "PostConditionState": "Issued",
-    "SecurityClassification": "Public"
   }
 ]
