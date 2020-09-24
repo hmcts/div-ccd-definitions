@@ -2843,7 +2843,7 @@
     "ShowSummary": "Y"
   },
   {
-    "LiveFrom": "01/01/2019",
+    "LiveFrom": "15/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "allowPetitionerToAmend",
     "Name": "Allow Petitioner to amend",
