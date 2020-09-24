@@ -10,7 +10,7 @@
     "TabFieldDisplayOrder": 3
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "documents",
@@ -28,6 +28,16 @@
     "TabDisplayOrder": 10,
     "CaseFieldID": "DocumentsUploadedDN",
     "TabFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "DocumentsUploadedDnClarification",
+    "TabFieldDisplayOrder": 6
   },
   {
     "LiveFrom": "12/12/2019",
