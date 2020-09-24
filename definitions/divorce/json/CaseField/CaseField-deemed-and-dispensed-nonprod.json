@@ -1,5 +1,14 @@
 [
   {
+    "LiveFrom": "24/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationDocuments",
+    "Label": "Service Application Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceServiceApplicationDocument",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationType",
