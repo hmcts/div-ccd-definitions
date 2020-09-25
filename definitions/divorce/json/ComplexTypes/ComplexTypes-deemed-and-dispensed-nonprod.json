@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "24/09/2020",
+    "ID": "DivorceServiceApplicationDocument",
+    "ListElementCode": "Document",
+    "FieldType": "DivorceDocument",
+    "ElementLabel": "Service Application",
+    "SecurityClassification": "Public"
+  }
+]
