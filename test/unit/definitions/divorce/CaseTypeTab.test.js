@@ -1,14 +1,15 @@
 const { expect, assert } = require('chai');
 const { uniq, uniqWith, map, filter } = require('lodash');
 const {
-  loadAllFiles, sortCaseTypeTabs,
-  validateUniqueTabDisplayOrder, validateTabFieldDisplayOrder
+  loadAllFiles, sortCaseTypeTabs
 } = require('../../utils/utils');
 const {
   nonProdTabDisplayOrder,
   nonProdTabIds,
   prodTabDisplayOrder,
-  prodTabIds
+  prodTabIds,
+  validateUniqueTabDisplayOrder,
+  validateTabFieldDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 
 const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
