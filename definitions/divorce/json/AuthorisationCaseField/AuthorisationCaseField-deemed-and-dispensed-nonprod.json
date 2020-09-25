@@ -732,7 +732,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/09/2020",
