@@ -1,5 +1,5 @@
 const load = require;
-const { sortBy} = require('lodash');
+const { sortBy } = require('lodash');
 const { expect } = require('chai');
 
 function isFieldDuplicated(field) {

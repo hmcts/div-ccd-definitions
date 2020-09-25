@@ -138,10 +138,10 @@ function validateUniqueTabDisplayOrder(tabIds, caseTypeTab) {
     });
 
     uniqResults = uniqWith(
-        allFieldsPerTab,
-        (field1, field2) => {
-          return field1.TabFieldDisplayOrder === field2.TabFieldDisplayOrder;
-        });
+      allFieldsPerTab,
+      (field1, field2) => {
+        return field1.TabFieldDisplayOrder === field2.TabFieldDisplayOrder;
+      });
 
     if (!isEqual(allFieldsPerTab, uniqResults)) {
       errors.push(uniqResults);
@@ -168,9 +168,9 @@ function validateTabFieldDisplayOrder(tabIds, caseTypeTab) {
     allTabFieldDisplayOrderNumbers = map(allFieldsPerTab, field => {
       return field.TabFieldDisplayOrder;
     })
-        .sort((a, b) => {
-          return a - b;
-        });
+      .sort((a, b) => {
+        return a - b;
+      });
     for (let i = 1; i < allTabFieldDisplayOrderNumbers.length; i++) {
       if (allTabFieldDisplayOrderNumbers[i] - allTabFieldDisplayOrderNumbers[i - 1] !== 1) {
         assert.fail(`Missing/unordered TabFieldDisplayOrder sequence number in TabID ${tabId} - expected ${allTabFieldDisplayOrderNumbers[i - 1] + 1} but got ${allTabFieldDisplayOrderNumbers[i]}`);

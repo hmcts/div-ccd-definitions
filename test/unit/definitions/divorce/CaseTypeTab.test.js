@@ -1,8 +1,6 @@
 const { expect, assert } = require('chai');
 const { uniq, uniqWith, map, filter } = require('lodash');
-const {
-  loadAllFiles, sortCaseTypeTabs
-} = require('../../utils/utils');
+const { loadAllFiles, sortCaseTypeTabs } = require('../../utils/utils');
 const {
   nonProdTabDisplayOrder,
   nonProdTabIds,
