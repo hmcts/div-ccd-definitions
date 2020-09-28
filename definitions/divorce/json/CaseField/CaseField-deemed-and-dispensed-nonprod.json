@@ -5,7 +5,7 @@
     "ID": "ServiceApplicationDocuments",
     "Label": "Service Application Documents",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DivorceServiceApplicationDocument",
+    "FieldTypeParameter": "DivorceDocument",
     "SecurityClassification": "Public"
   },
   {
