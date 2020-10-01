@@ -2178,7 +2178,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2190,7 +2190,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2215,7 +2215,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2227,7 +2227,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2239,7 +2239,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2287,7 +2287,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2299,7 +2299,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2372,7 +2372,7 @@
     "PageID": "SolPayment",
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2385,7 +2385,7 @@
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
     "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2398,7 +2398,7 @@
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
     "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
