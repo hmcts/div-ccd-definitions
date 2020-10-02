@@ -14,7 +14,7 @@
     "Label": "Who is the general order for?",
     "HintText": "Select all parties the general order should be made available to",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "GeneralOrderPartiesEnum",
+    "FieldTypeParameter": "DivorcePartiesEnum",
     "SecurityClassification": "Public"
   },
   {
