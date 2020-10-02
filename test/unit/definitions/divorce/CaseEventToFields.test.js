@@ -25,6 +25,7 @@ function mergeCaseEventJsonProdFiles() {
 
 function mergeCaseFieldJsonNonProdFiles() {
   const definitions = []
+    .concat(load('definitions/divorce/json/CaseField/CaseField-payment-by-account-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'));
@@ -41,6 +42,7 @@ function mergeCaseFieldJsonProdFiles() {
 
 function mergeCaseEventToFieldsJsonNonProdFiles() {
   const definitions = []
+    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-payment-by-account-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-deemed-and-dispensed-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-general-order-nonprod.json'))
     .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-general-email-nonprod.json'))
