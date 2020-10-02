@@ -1688,14 +1688,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "LabelSolStatementOTruthPara-4",
-    "Label": "## Payment",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "SolStatementOfReconciliationCertify",
     "Label": "I have discussed the possibility of a reconciliation with the petitioner.",
     "FieldType": "YesOrNo",

@@ -9,7 +9,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -21,7 +21,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -33,7 +33,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -45,7 +45,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -57,7 +57,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -69,7 +69,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -81,25 +81,25 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
+    "CaseFieldID": "LabelSolStatementOTruthPara-4",
+    "PageFieldDisplayOrder": 18,
+    "DisplayContext": "READONLY",
+    "PageID": "SolStatementOfTruth",
+    "PageLabel": "Statement of truth and reconciliation",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolStatementOTruthPara-7",
-    "PageFieldDisplayOrder": 18,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolStatementOTruthPara-8",
     "PageFieldDisplayOrder": 19,
     "DisplayContext": "READONLY",
     "PageID": "SolStatementOfTruth",
@@ -111,8 +111,20 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "StatementOfReconciliationComments",
+    "CaseFieldID": "LabelSolStatementOTruthPara-8",
     "PageFieldDisplayOrder": 20,
+    "DisplayContext": "READONLY",
+    "PageID": "SolStatementOfTruth",
+    "PageLabel": "Statement of truth and reconciliation",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
+    "CaseFieldID": "StatementOfReconciliationComments",
+    "PageFieldDisplayOrder": 21,
     "DisplayContext": "OPTIONAL",
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
@@ -124,7 +136,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "solApplicationFeeInPounds",
-    "PageFieldDisplayOrder": 21,
+    "PageFieldDisplayOrder": 22,
     "DisplayContext": "READONLY",
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
@@ -142,7 +154,7 @@
     "PageID": "SolPayment",
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -155,7 +167,7 @@
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
     "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -168,7 +180,7 @@
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
     "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -181,6 +193,6 @@
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
     "FieldShowCondition": "SolPaymentHowToPay=\"feesHelpWith\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
