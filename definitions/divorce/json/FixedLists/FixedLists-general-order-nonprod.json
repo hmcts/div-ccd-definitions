@@ -1,19 +1,19 @@
 [
   {
     "LiveFrom": "27/08/2020",
-    "ID": "GeneralOrderPartiesEnum",
+    "ID": "DivorcePartiesEnum",
     "ListElementCode": "corespondent",
     "ListElement": "Co-respondent"
   },
   {
     "LiveFrom": "27/08/2020",
-    "ID": "GeneralOrderPartiesEnum",
+    "ID": "DivorcePartiesEnum",
     "ListElementCode": "respondent",
     "ListElement": "Respondent"
   },
   {
     "LiveFrom": "27/08/2020",
-    "ID": "GeneralOrderPartiesEnum",
+    "ID": "DivorcePartiesEnum",
     "ListElementCode": "petitioner",
     "ListElement": "Petitioner"
   },

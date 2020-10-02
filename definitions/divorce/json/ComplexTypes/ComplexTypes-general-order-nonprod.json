@@ -12,7 +12,7 @@
     "ID": "DivorceGeneralOrder",
     "ListElementCode": "GeneralOrderParties",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "GeneralOrderPartiesEnum",
+    "FieldTypeParameter": "DivorcePartiesEnum",
     "ElementLabel": "General Order Parties",
     "SecurityClassification": "Public"
   }
