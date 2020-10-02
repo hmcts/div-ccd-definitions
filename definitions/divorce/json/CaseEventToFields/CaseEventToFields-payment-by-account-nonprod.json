@@ -1,6 +1,6 @@
 [
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolServiceMethod",
@@ -12,7 +12,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolServiceMethod",
@@ -24,7 +24,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolStatementOTruthPara-3",
@@ -36,7 +36,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolStatementOfReconciliationCertify",
@@ -48,7 +48,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
@@ -60,7 +60,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolStatementOfReconciliationName",
@@ -72,7 +72,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolStatementOfReconciliationFirm",
@@ -96,7 +96,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolStatementOTruthPara-7",
@@ -108,7 +108,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolStatementOTruthPara-8",
@@ -120,7 +120,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "StatementOfReconciliationComments",
@@ -132,7 +132,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "solApplicationFeeInPounds",
@@ -145,7 +145,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolPaymentHowToPay",
@@ -157,7 +157,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolicitorFeeAccountNumber",
@@ -170,7 +170,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "FeeAccountReference",
@@ -183,7 +183,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "02/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "D8HelpWithFeesReferenceNumber",
