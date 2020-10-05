@@ -2,7 +2,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "receivedDate",
+    "ListElementCode": "ReceivedDate",
     "FieldType": "Date",
     "ElementLabel": "Application date",
     "SecurityClassification": "Public"
@@ -10,7 +10,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "addedDate",
+    "ListElementCode": "AddedDate",
     "FieldType": "Date",
     "ElementLabel": "Added date",
     "SecurityClassification": "Public"
@@ -18,7 +18,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "type",
+    "ListElementCode": "Type",
     "FieldType": "FixedList",
     "FieldTypeParameter": "ServiceApplicationTypeEnum",
     "ElementLabel": "What type of service application has been received?",
@@ -27,7 +27,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "payment",
+    "ListElementCode": "Payment",
     "FieldType": "FixedList",
     "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
     "ElementLabel": "How will payment be made?",
@@ -44,7 +44,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "applicationGranted",
+    "ListElementCode": "ApplicationGranted",
     "FieldType": "YesOrNo",
     "ElementLabel": "Service Application Granted",
     "SecurityClassification": "Public"
@@ -52,7 +52,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "decisionDate",
+    "ListElementCode": "DecisionDate",
     "FieldType": "Date",
     "ElementLabel": "Service Application Decision Date",
     "SecurityClassification": "Public"
@@ -60,7 +60,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "refusalReason",
+    "ListElementCode": "RefusalReason",
     "FieldType": "TextArea",
     "ElementLabel": "Reason for refusal",
     "SecurityClassification": "Public"
