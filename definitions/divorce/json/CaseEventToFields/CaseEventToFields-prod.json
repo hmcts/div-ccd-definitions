@@ -63,6 +63,18 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
+    "CaseFieldID": "LabelSolStatementOfTruthPara-2",
+    "PageFieldDisplayOrder": 13,
+    "DisplayContext": "READONLY",
+    "PageID": "SolStatementOfTruth",
+    "PageLabel": "Statement of truth and reconciliation",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolStatementOfReconciliationName",
     "PageFieldDisplayOrder": 16,
     "DisplayContext": "MANDATORY",
