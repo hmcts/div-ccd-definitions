@@ -747,5 +747,47 @@
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplications",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]

@@ -1,0 +1,68 @@
+[
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ReceivedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Application date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ReceivedServiceAddedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Added date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceApplicationType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "ElementLabel": "What type of service application has been received?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceApplicationPayment",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "ElementLabel": "How will payment be made?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "## Outcome of service application",
+    "FieldType": "Label",
+    "ElementLabel": "## Outcome of service application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceApplicationGranted",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Service Application Granted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceApplicationDecisionDate",
+    "FieldType": "Date",
+    "ElementLabel": "Service Application Decision Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceApplicationRefusalReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Reason for refusal",
+    "SecurityClassification": "Public"
+  }
+]
