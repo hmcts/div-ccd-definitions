@@ -14,6 +14,7 @@ describe('AuthorisationCaseField', () => {
 
   describe('for non-prod should', () => {
     const nonProd = authCaseField
+      .concat(load(`${path}-payment-by-account-nonprod.json`))
       .concat(load(`${path}-deemed-and-dispensed-nonprod.json`))
       .concat(load(`${path}-general-email-nonprod.json`))
       .concat(load(`${path}-general-order-nonprod.json`))
@@ -27,6 +28,7 @@ describe('AuthorisationCaseField', () => {
 
     it('use existing fields', () => {
       const allFieldsForNonProd = coreFields
+        .concat(load('definitions/divorce/json/CaseField/CaseField-payment-by-account-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'))
         .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'));
@@ -36,10 +38,7 @@ describe('AuthorisationCaseField', () => {
 
   describe('for prod should', () => {
     const prod = authCaseField
-      .concat(load(`${path}-deemed-and-dispensed-nonprod.json`))
-      .concat(load(`${path}-general-email-nonprod.json`))
-      .concat(load(`${path}-general-order-nonprod.json`))
-      .concat(load(`${path}-nonprod.json`));
+      .concat(load(`${path}-prod.json`));
 
     it('contain a unique case field ID, case type ID and role (no duplicates)', () => {
       const uniqResult = uniqWith(prod, isFieldDuplicated('CaseFieldID'));
@@ -49,9 +48,7 @@ describe('AuthorisationCaseField', () => {
 
     it('use existing fields', () => {
       const allFieldsForNonProd = coreFields
-        .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'));
+        .concat(load('definitions/divorce/json/CaseField/CaseField-prod.json'));
       assertFieldExists(prod, allFieldsForNonProd);
     });
   });
