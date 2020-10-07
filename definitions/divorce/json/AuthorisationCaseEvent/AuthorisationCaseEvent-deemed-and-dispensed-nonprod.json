@@ -481,12 +481,5 @@
     "CaseEventID": "transferCaseFromServiceAppRejected",
     "UserRole": "citizen",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "07/10/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
   }
 ]

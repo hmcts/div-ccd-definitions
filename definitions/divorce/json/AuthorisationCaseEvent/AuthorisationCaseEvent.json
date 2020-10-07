@@ -7049,5 +7049,12 @@
     "CaseEventID": "allowPetitionerToAmend",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "07/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
   }
 ]
