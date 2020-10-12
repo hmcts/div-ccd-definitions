@@ -36,7 +36,7 @@
   {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "## Outcome of service application",
+    "ListElementCode": "ServiceDecisionLabel",
     "FieldType": "Label",
     "ElementLabel": "## Outcome of service application",
     "SecurityClassification": "Public"
