@@ -1,14 +1,15 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const { isNotEmpty, isNotLongerThan, noDuplicateFound, whenPopulated } = require('../../utils/utils');
+const {
+  isNotEmpty, isNotLongerThan, noDuplicateFound,
+  whenPopulated, loadAllFiles
+} = require('../../utils/utils');
 
 const SHORT_STRING = 30;
 const MEDIUM_STRING = 70;
 const LONG_STRING = 100;
 
-const load = require;
-
-const coreEvents = load('definitions/divorce/json/CaseEvent/CaseEvent.json');
+const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 
 function assertEventDefinitionIsValid(row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
@@ -27,35 +28,51 @@ function assertEventDefinitionIsValid(row) {
 }
 
 describe('CaseEvent', () => {
-  describe('for nonprod should', () => {
-    const nonProd = coreEvents
-      .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
-      .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-email-nonprod.json'))
-      .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
-      .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-nonprod.json'));
+  describe('NonProd:', () => {
+    let nonProd = [];
+    let uniqResult = [];
 
-    const uniqResult = uniqWith(nonProd, noDuplicateFound);
+    before(() => {
+      nonProd = getCaseEventDefinitions([
+        'CaseEvent',
+        'CaseEvent-deemed-and-dispensed-nonprod',
+        'CaseEvent-general-email-nonprod',
+        'CaseEvent-general-order-nonprod',
+        'CaseEvent-general-referral-nonprod',
+        'CaseEvent-nonprod'
+      ]);
 
-    it('not contain duplicated definitions of the same event', () => {
+      uniqResult = uniqWith(nonProd, noDuplicateFound);
+    });
+
+    it('should not contain duplicated definitions of the same event', () => {
       expect(uniqResult).to.eql(nonProd);
     });
 
-    it('have only valid definitions', () => {
+    it('should have only valid definitions', () => {
       uniqResult.forEach(assertEventDefinitionIsValid);
     });
   });
 
-  describe('for prod should', () => {
-    const prodOnly = coreEvents
-      .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-prod.json'));
+  describe('Prod:', () => {
+    let prodOnly = [];
+    let uniqResult = [];
 
-    const uniqResult = uniqWith(prodOnly, noDuplicateFound);
+    before(() => {
+      prodOnly = getCaseEventDefinitions(
+        [
+          'CaseEvent',
+          'CaseEvent-prod'
+        ]);
 
-    it('not contain duplicated definitions of the same event', () => {
+      uniqResult = uniqWith(prodOnly, noDuplicateFound);
+    });
+
+    it('should not contain duplicated definitions of the same event', () => {
       expect(uniqResult).to.eql(prodOnly);
     });
 
-    it('have only valid definitions', () => {
+    it('should have only valid definitions', () => {
       uniqResult.forEach(assertEventDefinitionIsValid);
     });
   });

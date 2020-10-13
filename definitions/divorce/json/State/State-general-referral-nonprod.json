@@ -1,0 +1,20 @@
+[
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingGeneralReferralPayment",
+    "Name": "Awaiting General Referral Payment",
+    "Description": "Awaiting General Referral Payment",
+    "DisplayOrder": 35,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingGeneralConsideration",
+    "Name": "Awaiting General Consideration",
+    "Description": "Awaiting General Consideration",
+    "DisplayOrder": 36,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  }
+]
