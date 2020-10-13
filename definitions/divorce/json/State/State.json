@@ -340,15 +340,6 @@
     "DisplayOrder": 22,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
-  {
-    "LiveFrom": "02/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "AwaitingAmendCase",
-    "Name": "Awaiting Amend Case",
-    "Description": "Awaiting Amend Case",
-    "DisplayOrder": 24,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
-  },
   {"LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "BOTranslationRequested",
@@ -382,6 +373,15 @@
     "Name": "Welsh DN Received",
     "Description": "Welsh DN Received",
     "DisplayOrder": 31,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingAmendCase",
+    "Name": "Awaiting Amend Case",
+    "Description": "Awaiting Amend Case",
+    "DisplayOrder": 24,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]

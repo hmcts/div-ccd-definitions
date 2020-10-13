@@ -1,29 +1,62 @@
-const expect = require('chai').expect;
+const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const isFieldDuplicated = require('../../utils/utils').isFieldDuplicated
+const { isFieldDuplicated } = require('../../utils/utils');
+const { createAssertExists } = require('../../utils/assertBuilders');
 
 const load = require;
-const authCaseStateCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState'), {});
 
-function mergeJsonFilesFor(whatEnvs) {
-  const authCaseForSpecificEnvs = Object
-    .assign(load(`definitions/divorce/json/AuthorisationCaseState/AuthorisationCaseState-${whatEnvs}`), {});
+const states = load('definitions/divorce/json/State/State.json');
 
-  return [...authCaseStateCommon, ...authCaseForSpecificEnvs];
-}
+function loadAllFiles(files) {
+  let definitions = [];
 
-describe('AuthorisationCaseState', () => {
-  it('should contain a unique case state, case type ID and role (no duplicates) for nonprod files', () => {
-    const nonProd = mergeJsonFilesFor('nonprod');
-    const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseStateID'));
-
-    expect(uniqResult).to.eql(nonProd);
+  files.forEach(file => {
+    definitions = definitions.concat(load(`definitions/divorce/json/AuthorisationCaseState/${file}.json`));
   });
 
-  it('should contain a unique case state ID, case type ID and role (no duplicates) for prod file', () => {
-    const prodOnly = mergeJsonFilesFor('prod');
-    const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseStateID'));
+  return definitions;
+}
 
-    expect(uniqResult).to.eql(prodOnly);
+const assertStateExists = createAssertExists('State');
+
+describe('AuthorisationCaseState', () => {
+  describe('for nonprod files all definitions should', () => {
+    const nonProd = loadAllFiles(
+      [
+        'AuthorisationCaseState',
+        'AuthorisationCaseState-nonprod',
+        'AuthorisationCaseState-deemed-and-dispensed-nonprod'
+      ]
+    );
+
+    it('contain a unique case state, case type ID and role (no duplicates) for nonprod files', () => {
+      const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseStateID'));
+      expect(uniqResult).to.eql(nonProd);
+    });
+
+    it('use existing states', () => {
+      const nonProdStates = states
+        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'));
+
+      assertStateExists(nonProd, nonProdStates);
+    });
+  });
+
+  describe('for prod files all definitions should', () => {
+    const prod = loadAllFiles(
+      [
+        'AuthorisationCaseState',
+        'AuthorisationCaseState-prod'
+      ]
+    );
+
+    it('contain a unique case state, case type ID and role (no duplicates)', () => {
+      const uniqResult = uniqWith(prod, isFieldDuplicated('CaseStateID'));
+      expect(uniqResult).to.eql(prod);
+    });
+
+    it('use existing states ', () => {
+      assertStateExists(prod, states);
+    });
   });
 });

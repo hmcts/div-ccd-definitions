@@ -2239,36 +2239,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "scannedDocuments",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "DocumentsUploadedDN",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "DocumentsUploadedDnClarification",
-    "TabFieldDisplayOrder": 5
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdmin",
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 11,
@@ -2970,61 +2940,6 @@
     "TabFieldDisplayOrder": 25
   },
   {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousCaseId",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousReasonsForDivorce",
-    "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousReasonsForDivorceRefusal",
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "PreviousReasonsForDivorceRefusal=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousRefusalRejectionReason",
-    "TabFieldDisplayOrder": 4,
-    "FieldShowCondition": "PreviousRefusalRejectionReason=\"*\""
-  },
-  {
-    "LiveFrom": "22/02/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "LinkedCase",
-    "TabLabel": "Linked Cases",
-    "TabDisplayOrder": 24,
-    "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
-    "TabFieldDisplayOrder": 5,
-    "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -3100,6 +3015,72 @@
     "CaseFieldID": "CoRespSolAOSSOT",
     "TabFieldDisplayOrder": 32,
     "FieldShowCondition": "CoRespondentSolicitorRepresented=\"Y*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousReasonsForDivorce",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "PreviousReasonsForDivorce=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousReasonsForDivorceRefusal",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "PreviousReasonsForDivorceRefusal=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionReason",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "PreviousRefusalRejectionReason=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousRefusalRejectionAdditionalInfo",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "PreviousRefusalRejectionAdditionalInfo=\"*\""
+  },
+  {
+    "LiveFrom": "22/02/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "PreviousCaseId",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "PreviousCaseId.CaseReference=\"*\" OR AmendedCaseId.CaseReference=\"*\""
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "LinkedCase",
+    "TabLabel": "Linked Cases",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "AmendedCaseId",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "AmendedCaseId.CaseReference=\"*\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3340,5 +3321,45 @@
     "TabDisplayOrder": 25,
     "CaseFieldID": "CostsOrderAdditionalInfoWelsh",
     "TabFieldDisplayOrder": 24
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "PetitionerPcqId",
+    "TabFieldDisplayOrder": 115
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "coRespondent",
+    "TabLabel": "Co-Respondent",
+    "TabDisplayOrder": 22,
+    "CaseFieldID": "CoRespondentPcqId",
+    "TabFieldDisplayOrder": 33
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "aosDetails",
+    "TabLabel": "AOS",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "RespondentPcqId",
+    "TabFieldDisplayOrder": 30
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "ConfidentialDocuments",
+    "TabLabel": "Confidential Documents",
+    "TabDisplayOrder": 26,
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "TabFieldDisplayOrder": 1
   }
 ]

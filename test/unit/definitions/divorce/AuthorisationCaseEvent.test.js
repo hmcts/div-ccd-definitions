@@ -1,31 +1,66 @@
-const expect = require('chai').expect;
+const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const isFieldDuplicated = require('../../utils/utils').isFieldDuplicated
+const { isFieldDuplicated } = require('../../utils/utils');
+const { createAssertExists } = require('../../utils/assertBuilders');
 
 const load = require;
+
+const coreEvents = load('definitions/divorce/json/CaseEvent/CaseEvent.json');
+
 const authCaseEventCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), {});
 
-function mergeJsonFilesFor(whatEnvs) {
-  const authCaseForSpecificEnvs = Object
-    .assign(load(`definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-${whatEnvs}`), {});
+const assertEventExists = createAssertExists('Event');
 
-  return [...authCaseEventCommon, ...authCaseForSpecificEnvs];
+function mergeJsonNonProdFiles() {
+  const definitions = []
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-deemed-and-dispensed-nonprod.json'))
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'));
+
+  return [...authCaseEventCommon, ...definitions];
+}
+
+function mergeJsonProdFiles() {
+  const definitions = []
+    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-prod.json'));
+
+  return [...authCaseEventCommon, ...definitions];
 }
 
 describe('AuthorisationCaseEvent', () => {
-  it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
-    const nonProd = mergeJsonFilesFor('nonprod');
-    const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseEventID'));
+  describe('for nonprod should', () => {
+    const nonProd = mergeJsonNonProdFiles();
 
-    expect(uniqResult).to.eql(nonProd);
+    it('contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
+      const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseEventID'));
+
+      expect(uniqResult).to.eql(nonProd);
+    });
+
+    it('use existing events', () => {
+      const allEventsForNonProd = coreEvents
+        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
+        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-email-nonprod.json'))
+        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
+        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-nonprod.json'));
+
+      assertEventExists(nonProd, allEventsForNonProd);
+    });
   });
-});
 
-describe('AuthorisationCaseEvent', () => {
-  it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
-    const prodOnly = mergeJsonFilesFor('prod');
-    const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseEventID'));
+  describe('for prod should', () => {
+    const prodOnly = mergeJsonProdFiles();
 
-    expect(uniqResult).to.eql(prodOnly);
+    it('contain a unique case type, case event ID and role (no duplicates)', () => {
+      const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseEventID'));
+
+      expect(uniqResult).to.eql(prodOnly);
+    });
+
+    it('use existing events', () => {
+      const allEventsForProd = coreEvents
+        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-prod.json'));
+
+      assertEventExists(prodOnly, allEventsForProd);
+    });
   });
 });

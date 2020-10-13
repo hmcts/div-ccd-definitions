@@ -935,6 +935,18 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "uploadConfidentialDocument",
+    "CaseFieldID": "D8ConfidentialDocumentsUploaded",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "uploadConfidentialDocuments",
+    "PageLabel": "Upload Confidential Documents",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseToNewRDC",
     "CaseFieldID": "D8DivorceUnit",
     "PageFieldDisplayOrder": 1,
@@ -2160,30 +2172,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolServiceMethod",
-    "PageFieldDisplayOrder": 7,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolServiceMethod",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolPersonalService",
     "PageFieldDisplayOrder": 9,
     "DisplayContext": "READONLY",
@@ -2191,54 +2179,6 @@
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
     "FieldShowCondition": "SolServiceMethod=\"personalService\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolStatementOTruthPara-3",
-    "PageFieldDisplayOrder": 10,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolStatementOfReconciliationCertify",
-    "PageFieldDisplayOrder": 11,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolStatementOfReconciliationDiscussed",
-    "PageFieldDisplayOrder": 12,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolStatementOfTruthPara-2",
-    "PageFieldDisplayOrder": 13,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2269,136 +2209,12 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolStatementOfReconciliationName",
-    "PageFieldDisplayOrder": 16,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolStatementOfReconciliationFirm",
-    "PageFieldDisplayOrder": 17,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolStatementOTruthPara-7",
-    "PageFieldDisplayOrder": 18,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "LabelSolStatementOTruthPara-8",
-    "PageFieldDisplayOrder": 19,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "StatementOfReconciliationComments",
-    "PageFieldDisplayOrder": 20,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "solApplicationFeeInPounds",
-    "PageFieldDisplayOrder": 21,
-    "DisplayContext": "READONLY",
-    "PageID": "SolStatementOfTruth",
-    "PageLabel": "Statement of truth and reconciliation",
-    "PageDisplayOrder": 1,
-    "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "LabelSolPaymentPara-1",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": "SolPayment",
     "PageLabel": "Payment",
     "PageDisplayOrder": 2,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolPaymentHowToPay",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolPayment",
-    "PageLabel": "Payment",
-    "PageDisplayOrder": 2,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "SolicitorFeeAccountNumber",
-    "PageFieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolPayment",
-    "PageLabel": "Payment",
-    "PageDisplayOrder": 2,
-    "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "FeeAccountReference",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolPayment",
-    "PageLabel": "Payment",
-    "PageDisplayOrder": 2,
-    "FieldShowCondition": "SolPaymentHowToPay=\"feePayByAccount\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "CaseFieldID": "D8HelpWithFeesReferenceNumber",
-    "PageFieldDisplayOrder": 5,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolPayment",
-    "PageLabel": "Payment",
-    "PageDisplayOrder": 2,
-    "FieldShowCondition": "SolPaymentHowToPay=\"feesHelpWith\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -6366,8 +6182,7 @@
     "PageDisplayOrder": 3,
     "PageShowCondition": "RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6394,8 +6209,7 @@
     "PageDisplayOrder": 4,
     "PageShowCondition": "RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -6638,8 +6452,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7179,8 +6992,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -7709,8 +7521,7 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
-    "RetriesTimeoutURLMidEvent": "120,120"
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -12146,5 +11957,78 @@
     "PageDisplayOrder": 4,
     "FieldShowCondition": "CostsOrderAdditionalInfo!=\"\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-1",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-2",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-3",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-4",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-5",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "CaseFieldID": "LabelAmendPetitionForRefusalSolPara-6",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "READONLY",
+    "PageID": "amendpetitionstart",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
   }
 ]

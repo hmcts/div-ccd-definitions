@@ -945,6 +945,15 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8ConfidentialDocumentsUploaded",
+    "Label": "Confidential documents uploaded",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ConfidentialDivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8RejectDocumentsUploaded",
     "Label": "Reject documents uploaded",
     "FieldType": "TextArea",
@@ -1672,7 +1681,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelSolStatementOTruthPara-3",
-    "Label": "## Statement of Reconciliation",
+    "Label": "## Statement of reconciliation",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4075,7 +4084,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelAmendPetitionForRefusalSolPara-3",
-    "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. You’ll still be able to access the old case by clicking on the ‘linked’ cases tab in the new case.\r\n\r\n",
+    "Label": "When you start an amended application, the old divorce case will be stopped and a new case will be created. To access the new case go to the 'Linked cases' tab, click on the link to the new case and then select the next step 'Amend divorce application'.\r\n\r\n",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4665,6 +4674,46 @@
     "Label": "Translated To?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "FL_typeOfTraslatedTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelSolPaymentPara-1",
+    "Label": "Amount to pay: **£${solApplicationFeeInPounds}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AmendedCaseId",
+    "Label": "Case ID for Amended case",
+    "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerPcqId",
+    "Label": "Petitioner PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentPcqId",
+    "Label": "Respondent PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "14/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CoRespondentPcqId",
+    "Label": "Co-respondent PCQ ID",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]

@@ -1,0 +1,19 @@
+[
+  {
+    "LiveFrom": "16/09/2020",
+    "ID": "DivorceGeneralOrder",
+    "ListElementCode": "Document",
+    "FieldType": "DivorceDocument",
+    "ElementLabel": "General Order",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/09/2020",
+    "ID": "DivorceGeneralOrder",
+    "ListElementCode": "GeneralOrderParties",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "DivorcePartiesEnum",
+    "ElementLabel": "General Order Parties",
+    "SecurityClassification": "Public"
+  }
+]
