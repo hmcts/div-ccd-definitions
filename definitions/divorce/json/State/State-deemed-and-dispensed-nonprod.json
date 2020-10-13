@@ -22,13 +22,5 @@
     "Name": "Service Application Not Approved",
     "Description": "Service Application Not Approved",
     "DisplayOrder": 34
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "AwaitingBailiffService",
-    "Name": "Awaiting Bailiff Service",
-    "Description": "Awaiting Bailiff Service",
-    "DisplayOrder": 35
   }
 ]
