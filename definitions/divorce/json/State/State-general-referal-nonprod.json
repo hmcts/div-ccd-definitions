@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingGeneralConsideration",
+    "Name": "Awaiting General Consideration",
+    "Description": "Awaiting General Consideration",
+    "DisplayOrder": 35
+  }
+]
