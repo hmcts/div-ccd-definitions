@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralPayment",
+    "Name": "General Referral Payment",
+    "Description": "General Referral Payment",
+    "DisplayOrder": 20,
+    "PreConditionState(s)": "AwaitingGeneralReferralPayment",
+    "PostConditionState": "AwaitingGeneralConsideration",
+    "SecurityClassification": "Public"
+  }
+]
