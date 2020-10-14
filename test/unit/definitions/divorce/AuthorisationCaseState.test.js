@@ -25,7 +25,8 @@ describe('AuthorisationCaseState', () => {
       [
         'AuthorisationCaseState',
         'AuthorisationCaseState-nonprod',
-        'AuthorisationCaseState-deemed-and-dispensed-nonprod'
+        'AuthorisationCaseState-deemed-and-dispensed-nonprod',
+        'AuthorisationCaseState-general-referral-nonprod'
       ]
     );
 
@@ -36,7 +37,8 @@ describe('AuthorisationCaseState', () => {
 
     it('use existing states', () => {
       const nonProdStates = states
-        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'));
+        .concat(load('definitions/divorce/json/State/State-deemed-and-dispensed-nonprod.json'))
+        .concat(load('definitions/divorce/json/State/State-general-referral-nonprod.json'));
 
       assertStateExists(nonProd, nonProdStates);
     });
