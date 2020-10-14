@@ -10,7 +10,6 @@
     "PostConditionState": "AwaitingGeneralReferralPayment;AwaitingGeneralConsideration",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-referral",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "SecurityClassification": "Public"
   }
 ]
