@@ -7,7 +7,7 @@
     "Description": "General referral",
     "DisplayOrder": 16,
     "PreConditionState(s)": "*",
-    "PostConditionState": "AwaitingGeneralReferralPayment;AwaitingGeneralConsideration",
+    "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-referral",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
