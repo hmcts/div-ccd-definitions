@@ -14,7 +14,7 @@
     "ID": "GeneralApplicationFrom",
     "Label": "Application from",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "GeneralApplicationFromEnum",
+    "FieldTypeParameter": "GeneralPartiesEnum",
     "SecurityClassification": "Public"
   },
   {
