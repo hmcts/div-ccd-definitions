@@ -7,7 +7,6 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
@@ -20,7 +19,6 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralReason=\"generalApplicationReferral\"",
@@ -34,7 +32,6 @@
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
@@ -47,7 +44,6 @@
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
@@ -60,7 +56,6 @@
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition":"GeneralReferralType=\"alternativeServiceApplication\"",
@@ -74,7 +69,6 @@
     "PageFieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
@@ -87,7 +81,6 @@
     "PageFieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY",
     "PageID": "generalreferral",
-    "PageLabel": "General Referral",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
