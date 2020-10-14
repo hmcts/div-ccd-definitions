@@ -1240,28 +1240,28 @@
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "feeAccount",
     "ListElement": "Fee account",
     "DisplayOrder": 1
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "helpWithFees",
     "ListElement": "Help with Fees",
     "DisplayOrder": 2
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "telephone",
     "ListElement": "Telephone",
     "DisplayOrder": 3
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "cheque",
     "ListElement": "Cheque",
     "DisplayOrder": 4
