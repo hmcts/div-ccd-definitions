@@ -29,7 +29,7 @@
     "ID": "DivorceServiceApplication",
     "ListElementCode": "Payment",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "FieldTypeParameter": "PaymentTypeEnum",
     "ElementLabel": "How will payment be made?",
     "SecurityClassification": "Public"
   },

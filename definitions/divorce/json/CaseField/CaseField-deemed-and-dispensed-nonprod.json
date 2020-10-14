@@ -73,7 +73,7 @@
     "Label": "How will payment be made?",
     "HintText": "How will payment be made?",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "FieldTypeParameter": "PaymentTypeEnum",
     "SecurityClassification": "Public"
   },
   {
