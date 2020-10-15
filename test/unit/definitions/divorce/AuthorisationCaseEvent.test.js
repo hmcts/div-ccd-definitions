@@ -1,65 +1,71 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const { isFieldDuplicated } = require('../../utils/utils');
+const { isFieldDuplicated, loadAllFiles } = require('../../utils/utils');
 const { createAssertExists } = require('../../utils/assertBuilders');
-
-const load = require;
-
-const coreEvents = load('definitions/divorce/json/CaseEvent/CaseEvent.json');
-
-const authCaseEventCommon = Object.assign(require('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent'), {});
 
 const assertEventExists = createAssertExists('Event');
 
-function mergeJsonNonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-deemed-and-dispensed-nonprod.json'))
-    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-nonprod.json'));
-
-  return [...authCaseEventCommon, ...definitions];
-}
-
-function mergeJsonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/AuthorisationCaseEvent/AuthorisationCaseEvent-prod.json'));
-
-  return [...authCaseEventCommon, ...definitions];
-}
+const getAuthorisationCaseEventDefinitions = loadAllFiles('AuthorisationCaseEvent');
+const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 
 describe('AuthorisationCaseEvent', () => {
-  describe('for nonprod should', () => {
-    const nonProd = mergeJsonNonProdFiles();
+  describe('NonProd:', () => {
+    let nonProd = [];
+    let allEventsForNonProd = [];
 
-    it('contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
+    before(() => {
+      nonProd = getAuthorisationCaseEventDefinitions([
+        'AuthorisationCaseEvent',
+        'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
+        'AuthorisationCaseEvent-general-referral-nonprod',
+        'AuthorisationCaseEvent-nonprod'
+      ]);
+
+      allEventsForNonProd = getCaseEventDefinitions([
+        'CaseEvent',
+        'CaseEvent-deemed-and-dispensed-nonprod',
+        'CaseEvent-general-email-nonprod',
+        'CaseEvent-general-order-nonprod',
+        'CaseEvent-general-referral-nonprod',
+        'CaseEvent-nonprod'
+      ]);
+    });
+
+    it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
       const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseEventID'));
 
       expect(uniqResult).to.eql(nonProd);
     });
 
-    it('use existing events', () => {
-      const allEventsForNonProd = coreEvents
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-email-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-nonprod.json'));
-
+    it('should use existing events', () => {
       assertEventExists(nonProd, allEventsForNonProd);
     });
   });
 
-  describe('for prod should', () => {
-    const prodOnly = mergeJsonProdFiles();
+  describe('Prod:', () => {
+    let prodOnly = [];
+    let allEventsForProd = [];
 
-    it('contain a unique case type, case event ID and role (no duplicates)', () => {
+    before(() => {
+      prodOnly = getAuthorisationCaseEventDefinitions([
+        'AuthorisationCaseEvent',
+        'AuthorisationCaseEvent-prod'
+      ]);
+
+      allEventsForProd = getCaseEventDefinitions(
+        [
+          'CaseEvent',
+          'CaseEvent-prod'
+        ]);
+    });
+
+    it('should contain a unique case type, case event ID and role (no duplicates)', () => {
       const uniqResult = uniqWith(prodOnly, isFieldDuplicated('CaseEventID'));
 
       expect(uniqResult).to.eql(prodOnly);
     });
 
-    it('use existing events', () => {
-      const allEventsForProd = coreEvents
-        .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-prod.json'));
-
+    it('should use existing events', () => {
       assertEventExists(prodOnly, allEventsForProd);
     });
   });
