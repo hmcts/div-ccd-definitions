@@ -73,7 +73,7 @@
     "Label": "How will payment be made?",
     "HintText": "How will payment be made?",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "FieldTypeParameter": "PaymentTypeEnum",
     "SecurityClassification": "Public"
   },
   {
@@ -162,6 +162,15 @@
     "ID": "LabelContinueBecauseOfDispensedAccepted",
     "Label": "Because the court accepted the application to 'dispense with service’, you are able to continue with the divorce without seeing the respondent answers.",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplications",
+    "Label": "Service Applications",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceServiceApplication",
     "SecurityClassification": "Public"
   }
 ]

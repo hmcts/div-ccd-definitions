@@ -40,86 +40,13 @@
     "TabFieldDisplayOrder": 6
   },
   {
-    "LiveFrom": "12/12/2019",
+    "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
     "TabID": "serviceApplication",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ReceivedServiceApplicationDate",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "ReceivedServiceApplicationDate=\"*\""
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ReceivedServiceAddedDate",
-    "TabFieldDisplayOrder": 2
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationType",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPayment",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "LabelOutcomeOfServiceApplication",
-    "TabFieldDisplayOrder": 5,
-    "FieldShowCondition" : "ServiceApplicationDecisionDate != \"\""
-
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationDecisionDate",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationGranted",
-    "TabFieldDisplayOrder": 7
-  },
-  {
-    "LiveFrom": "12/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplication",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationRefusalReason",
-    "TabFieldDisplayOrder": 8
+    "CaseFieldID": "ServiceApplications",
+    "TabFieldDisplayOrder": 1
   }
 ]

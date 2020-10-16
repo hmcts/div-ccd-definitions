@@ -1,0 +1,62 @@
+[
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralReason",
+    "Label": "Reason for referral?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "GeneralReferralReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationFrom",
+    "Label": "Application from",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralPartiesEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationReferralDate",
+    "Label": "Application or referral date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralType",
+    "Label": "Type of referral",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralReferralTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AlternativeServiceMedium",
+    "Label": "Medium requested for alternative service",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "AlternativeServiceTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDetails",
+    "Label": "Further details for Judge or Legal Advisor",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralFee",
+    "Label": "Is fee payment required?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  }
+]
