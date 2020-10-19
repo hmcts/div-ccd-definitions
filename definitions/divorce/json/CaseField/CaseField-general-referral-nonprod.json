@@ -81,6 +81,7 @@
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralReferralDecisionDate",
+    "Label": "General referral decision date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   }
