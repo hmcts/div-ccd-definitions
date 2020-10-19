@@ -1,0 +1,12 @@
+[
+  {
+    "LiveFrom": "14/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralPayment",
+    "Label": "How will payment be made?",
+    "HintText": "How will payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "SecurityClassification": "Public"
+  }
+]
