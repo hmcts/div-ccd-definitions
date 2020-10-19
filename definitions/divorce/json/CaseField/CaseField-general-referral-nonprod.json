@@ -68,5 +68,14 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "PaymentTypeEnum",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralPaymentDetails",
+    "Label": "How will payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "SecurityClassification": "Public"
   }
 ]

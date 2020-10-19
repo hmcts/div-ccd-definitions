@@ -84,5 +84,42 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "GeneralReferralPaymentDetails",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "GeneralReferralPayment1",
+    "PageLabel": "General referral payment 2.0",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "SolicitorFeeAccountNumber",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "GeneralReferralPayment1",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "FeeAccountReference",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "GeneralReferralPayment1",
+    "PageDisplayOrder": 3,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   }
 ]

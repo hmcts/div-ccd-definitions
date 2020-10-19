@@ -17,9 +17,9 @@
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralReferralPayment",
     "Name": "General Referral Payment",
-    "Description": "General Referral Payment",
+    "Description": "General Referral Payment 1.1",
     "DisplayOrder": 20,
-    "PreConditionState(s)": "AwaitingGeneralReferralPayment",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingGeneralConsideration",
     "SecurityClassification": "Public"
   }
