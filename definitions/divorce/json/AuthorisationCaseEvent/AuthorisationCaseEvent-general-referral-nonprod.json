@@ -38,6 +38,10 @@
     "LiveFrom": "08/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferral",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "13/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
