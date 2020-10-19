@@ -11,5 +11,17 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-referral",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalConsideration",
+    "Name": "General consideration",
+    "Description": "General consideration",
+    "DisplayOrder": 17,
+    "PreConditionState(s)": "AwaitingGeneralConsideration",
+    "PostConditionState": "GeneralConsiderationComplete",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
