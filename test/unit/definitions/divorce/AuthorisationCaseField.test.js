@@ -15,6 +15,7 @@ describe('AuthorisationCaseField', () => {
 
     before(() => {
       nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
+        'AuthorisationCaseField-payment-by-account-nonprod',
         'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-order-nonprod',
@@ -27,7 +28,8 @@ describe('AuthorisationCaseField', () => {
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-order-nonprod',
-        'CaseField-general-referral-nonprod'
+        'CaseField-general-referral-nonprod',
+        'CaseField-payment-by-account-nonprod'
       ]);
     });
 
@@ -44,7 +46,7 @@ describe('AuthorisationCaseField', () => {
 
   describe('Prod:', () => {
     let prodAuthorisationCaseField = [];
-    let allFieldsForNonProd = [];
+    let allFieldsForProd = [];
 
     before(() => {
       prodAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
@@ -52,7 +54,7 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField-prod'
       ]);
 
-      allFieldsForNonProd = getCaseFieldDefinitions([
+      allFieldsForProd = getCaseFieldDefinitions([
         'CaseField',
         'CaseField-prod'
       ]);
@@ -65,7 +67,7 @@ describe('AuthorisationCaseField', () => {
     });
 
     it('should use existing fields', () => {
-      assertFieldExists(prodAuthorisationCaseField, allFieldsForNonProd);
+      assertFieldExists(prodAuthorisationCaseField, allFieldsForProd);
     });
   });
 });

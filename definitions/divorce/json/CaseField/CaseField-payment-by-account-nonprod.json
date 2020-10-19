@@ -6,5 +6,13 @@
     "Label": "## Payment",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PbaNumbers",
+    "Label": "Account number",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
   }
 ]
