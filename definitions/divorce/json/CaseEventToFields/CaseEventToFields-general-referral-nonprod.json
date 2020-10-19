@@ -105,7 +105,7 @@
     "CaseFieldID": "SolicitorFeeAccountNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "GeneralReferralPayment1",
+    "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
@@ -117,9 +117,21 @@
     "CaseFieldID": "FeeAccountReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
-    "PageID": "GeneralReferralPayment1",
+    "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "D8HelpWithFeesReferenceNumber",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 4,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
   }
 ]
