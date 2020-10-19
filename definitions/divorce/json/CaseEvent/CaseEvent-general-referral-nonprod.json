@@ -21,6 +21,7 @@
     "DisplayOrder": 20,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingGeneralConsideration",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
     "SecurityClassification": "Public"
   }
 ]
