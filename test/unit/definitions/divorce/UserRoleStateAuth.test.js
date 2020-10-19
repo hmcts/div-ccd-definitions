@@ -1,21 +1,14 @@
 const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
-
-const load = require;
-
-function loadAllFiles(files) {
-  let definitions = [];
-
-  files.forEach(file => {
-    definitions = definitions.concat(load(`definitions/divorce/json/AuthorisationCaseState/${file}.json`));
-  });
-
-  return definitions;
-}
+const { loadAllFiles } = require('../../utils/utils');
 
 const CaseType = Object.assign(require('definitions/divorce/json/CaseType'), []);
-const AuthorisationCaseType = Object.assign(require('definitions/divorce/json/AuthorisationCaseType/AuthorisationCaseType'), []);
-const State = Object.assign(require('definitions/divorce/json/State/State'), []);
+const getAuthorisationCaseStateDefinitions = loadAllFiles('AuthorisationCaseState');
+const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
+const getStatesDefinitions = loadAllFiles('State');
+
+const AuthorisationCaseType = getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']);
+const State = getStatesDefinitions(['State']);
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation'];
@@ -78,27 +71,31 @@ function runTest(authorisationCaseState) {
 }
 
 describe('UserRole authorisations for CaseState', () => {
+  let nonprod = [];
+  let prod = [];
+
+  before(() => {
+    nonprod = getAuthorisationCaseStateDefinitions(
+      [
+        'AuthorisationCaseState',
+        'AuthorisationCaseState-nonprod',
+        'AuthorisationCaseState-deemed-and-dispensed-nonprod',
+        'AuthorisationCaseState-general-referral-nonprod'
+      ]);
+
+    prod = getAuthorisationCaseStateDefinitions(
+      [
+        'AuthorisationCaseState',
+        'AuthorisationCaseState-prod'
+      ]);
+  });
+
   context('should allow minimum R access for all Case States per User Role ', () => {
     it('(non-prod)', () => {
-      const nonprod = loadAllFiles(
-        [
-          'AuthorisationCaseState',
-          'AuthorisationCaseState-nonprod',
-          'AuthorisationCaseState-deemed-and-dispensed-nonprod'
-        ]
-      );
-
       runTest(nonprod);
     });
 
     it('(prod)', () => {
-      const prod = loadAllFiles(
-        [
-          'AuthorisationCaseState',
-          'AuthorisationCaseState-prod'
-        ]
-      );
-
       runTest(prod);
     });
   });

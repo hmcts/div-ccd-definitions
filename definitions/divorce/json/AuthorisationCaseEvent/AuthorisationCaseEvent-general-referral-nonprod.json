@@ -1,5 +1,43 @@
 [
   {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferral",
     "LiveFrom": "13/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",

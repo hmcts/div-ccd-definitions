@@ -10,10 +10,10 @@ const {
   validateTabFieldDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 
-const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
 let caseTypeTab = [];
 
-const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
 let caseField = [];
 
 let sortedCaseTabs = [];
@@ -21,14 +21,14 @@ let tabIds = [];
 
 describe('CaseTypeTab (nonprod)', () => {
   before(() => {
-    caseTypeTab = getAllCaseTypeTabDefinitions(
+    caseTypeTab = getCaseTypeTabDefinitions(
       [
         'CaseTypeTab',
         'CaseTypeTab-general-order-nonprod',
         'CaseTypeTab-deemed-and-dispensed-nonprod'
       ]);
 
-    caseField = getAllCaseFieldDefinitions(
+    caseField = getCaseFieldDefinitions(
       [
         'CaseField',
         'CaseField-general-order-nonprod',
@@ -85,7 +85,7 @@ describe('CaseTypeTab duplicate checks (nonprod)', () => {
 
   describe('General Order - CaseTypeTab check', () => {
     before(() => {
-      caseTypeTab = getAllCaseTypeTabDefinitions(
+      caseTypeTab = getCaseTypeTabDefinitions(
         [
           'CaseTypeTab',
           'CaseTypeTab-prod',
@@ -108,7 +108,7 @@ describe('CaseTypeTab duplicate checks (nonprod)', () => {
 
   describe('Deemed and Dispensed - CaseTypeTab check', () => {
     before(() => {
-      caseTypeTab = getAllCaseTypeTabDefinitions(
+      caseTypeTab = getCaseTypeTabDefinitions(
         [
           'CaseTypeTab',
           'CaseTypeTab-deemed-and-dispensed-nonprod'
@@ -131,13 +131,13 @@ describe('CaseTypeTab duplicate checks (nonprod)', () => {
 
 describe('CaseTypeTab (prod)', () => {
   before(() => {
-    caseTypeTab = getAllCaseTypeTabDefinitions(
+    caseTypeTab = getCaseTypeTabDefinitions(
       [
         'CaseTypeTab',
         'CaseTypeTab-prod'
       ]);
 
-    caseField = getAllCaseFieldDefinitions(
+    caseField = getCaseFieldDefinitions(
       [
         'CaseField',
         'CaseField-prod'
