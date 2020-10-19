@@ -16,5 +16,14 @@
     "Description": "Awaiting General Consideration",
     "DisplayOrder": 36,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralConsiderationComplete",
+    "Name": "General consideration complete",
+    "Description": "General consideration complete",
+    "DisplayOrder": 37,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]

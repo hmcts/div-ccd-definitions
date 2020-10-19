@@ -82,5 +82,26 @@
     "ListElementCode": "other",
     "ListElement": "Other",
     "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "ID": "GeneralReferralDecisionEnum",
+    "ListElementCode": "approve",
+    "ListElement": "Approve",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "ID": "GeneralReferralDecisionEnum",
+    "ListElementCode": "refuse",
+    "ListElement": "Refuse",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "ID": "GeneralReferralDecisionEnum",
+    "ListElementCode": "other",
+    "ListElement": "Other response",
+    "DisplayOrder": 3
   }
 ]
