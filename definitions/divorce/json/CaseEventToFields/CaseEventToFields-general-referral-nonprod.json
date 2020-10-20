@@ -216,5 +216,29 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "PaymentTelephoneLabel",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"telephone\""
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "PaymentChequeLabel",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"cheque\""
   }
 ]
