@@ -78,7 +78,7 @@
     "TabID": "generalReferral",
     "TabLabel": "General Referral",
     "TabDisplayOrder": 24,
-    "CaseFieldID": "GeneralReferralPayment",
+    "CaseFieldID": "GeneralReferralPaymentType",
     "TabFieldDisplayOrder": 8
   },
   {
