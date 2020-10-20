@@ -58,5 +58,31 @@
     "Label": "Is fee payment required?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecision",
+    "Label": "Approve general referral?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "GeneralReferralDecisionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecisionReason",
+    "Label": "Please provide further details",
+    "HintText": "Provide direction for any general orders or general letters to be created by caseworkers.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecisionDate",
+    "Label": "General referral decision date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]
