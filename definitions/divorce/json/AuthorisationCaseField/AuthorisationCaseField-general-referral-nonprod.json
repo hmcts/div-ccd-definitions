@@ -464,42 +464,42 @@
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "UserRole": "citizen",
     "CRUD": "R"
   }

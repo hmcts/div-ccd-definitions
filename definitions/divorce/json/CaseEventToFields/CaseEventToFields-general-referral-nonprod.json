@@ -112,7 +112,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "GeneralReferralPaymentDetails",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -125,7 +125,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "SolicitorFeeAccountNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -137,7 +137,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "FeeAccountReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
@@ -149,7 +149,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "D8HelpWithFeesReferenceNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -161,8 +161,8 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
-    "CaseFieldID": "generalReferralPaymentFeeSummary",
+    "CaseEventID": "generalReferralPayment",
+    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment2",
@@ -172,7 +172,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "PaymentFeeAccountLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -184,7 +184,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "LabelPBAReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
@@ -196,7 +196,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "LabelPBANumber",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
@@ -208,7 +208,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "LabelHWFReference",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
@@ -220,7 +220,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "PaymentTelephoneLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -232,7 +232,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "GeneralReferralPayment",
+    "CaseEventID": "generalReferralPayment",
     "CaseFieldID": "PaymentChequeLabel",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",

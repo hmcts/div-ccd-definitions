@@ -27,7 +27,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "GeneralReferralPayment",
+    "ID": "generalReferralPayment",
     "Name": "General Referral Payment",
     "Description": "General Referral Payment",
     "DisplayOrder": 18,

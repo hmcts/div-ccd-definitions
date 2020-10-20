@@ -97,7 +97,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "generalReferralPaymentFeeSummary",
+    "ID": "GeneralReferralPaymentFeeSummary",
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
     "SecurityClassification": "Public"
@@ -105,7 +105,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "GeneralReferralPayment",
+    "ID": "generalReferralPayment",
     "Label": "How will payment be made?",
     "HintText": "How will payment be made?",
     "FieldType": "FixedList",
