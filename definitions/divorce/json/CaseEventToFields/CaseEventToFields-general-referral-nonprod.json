@@ -204,5 +204,17 @@
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "GeneralReferralPayment",
+    "CaseFieldID": "LabelHWFReference",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 4,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
   }
 ]
