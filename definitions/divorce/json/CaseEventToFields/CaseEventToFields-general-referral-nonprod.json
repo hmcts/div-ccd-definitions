@@ -129,7 +129,7 @@
     "CaseFieldID": "SolicitorFeeAccountNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "GeneralReferralPayment2",
+    "PageID": "GeneralReferralPayment1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
@@ -139,10 +139,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "FeeAccountReference",
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
-    "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 2,
+    "PageID": "GeneralReferralPayment1",
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
