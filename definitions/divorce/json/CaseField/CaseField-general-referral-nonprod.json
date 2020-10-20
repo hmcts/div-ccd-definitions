@@ -101,5 +101,22 @@
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralPaymentType",
+    "Label": "How will payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationAddedDate",
+    "Label": "General application added date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]
