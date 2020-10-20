@@ -86,7 +86,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralReferralPaymentDetails",
     "Label": "How will payment be made?",
@@ -95,7 +95,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "generalReferralPaymentFeeSummary",
     "Label": "Here are your payment details",
@@ -103,7 +103,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "14/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralReferralPayment",
     "Label": "How will payment be made?",

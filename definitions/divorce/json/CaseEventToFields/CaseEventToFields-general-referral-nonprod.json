@@ -110,7 +110,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "GeneralReferralPaymentDetails",
@@ -123,7 +123,7 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "SolicitorFeeAccountNumber",
@@ -135,7 +135,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "FeeAccountReference",
@@ -147,7 +147,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "D8HelpWithFeesReferenceNumber",
@@ -159,7 +159,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "generalReferralPaymentFeeSummary",
@@ -170,7 +170,7 @@
     "PageColumnNumber": 1
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "PaymentFeeAccountLabel",
@@ -182,7 +182,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "LabelPBAReference",
@@ -194,7 +194,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "LabelPBANumber",
@@ -206,7 +206,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "LabelHWFReference",
@@ -218,7 +218,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "PaymentTelephoneLabel",
@@ -230,7 +230,7 @@
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"telephone\""
   },
   {
-    "LiveFrom": "19/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "PaymentChequeLabel",

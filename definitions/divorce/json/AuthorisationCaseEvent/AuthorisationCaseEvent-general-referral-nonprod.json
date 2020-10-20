@@ -84,42 +84,42 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "13/10/2020",
+    "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "UserRole": "citizen",
