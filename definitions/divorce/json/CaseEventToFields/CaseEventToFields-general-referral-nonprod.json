@@ -153,7 +153,7 @@
     "CaseFieldID": "D8HelpWithFeesReferenceNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "GeneralReferralPayment2",
+    "PageID": "GeneralReferralPayment1",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
