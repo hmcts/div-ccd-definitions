@@ -163,10 +163,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "generalReferralPaymentFeeSummary",
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
-    "PageID": "GeneralReferralPayment3",
-    "PageDisplayOrder": 3,
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1
   },
   {
@@ -174,10 +174,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "PaymentFeeAccountLabel",
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
-    "PageID": "ServiceApplicationPayment3",
-    "PageDisplayOrder": 3,
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   },
@@ -188,7 +188,7 @@
     "CaseFieldID": "LabelPBAReference",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
-    "PageID": "GeneralReferralPaymentDetails3",
+    "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
@@ -198,10 +198,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GeneralReferralPayment",
     "CaseFieldID": "LabelPBANumber",
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
-    "PageID": "GeneralReferralPaymentDetails3",
-    "PageDisplayOrder": 3,
+    "PageID": "GeneralReferralPayment2",
+    "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
   }
