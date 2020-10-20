@@ -162,7 +162,7 @@
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
-    "CaseFieldID": "GeneralReferralPaymentFeeSummary",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment2",
