@@ -88,7 +88,7 @@
   {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "GeneralReferralPaymentDetails",
+    "ID": "GeneralReferralPaymentType",
     "Label": "How will payment be made?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "PaymentTypeEnum",
@@ -100,16 +100,6 @@
     "ID": "GeneralReferralPaymentFeeSummary",
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "20/10/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "generalReferralPayment",
-    "Label": "How will payment be made?",
-    "HintText": "How will payment be made?",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "PaymentTypeEnum",
     "SecurityClassification": "Public"
   }
 ]

@@ -113,7 +113,7 @@
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
-    "CaseFieldID": "GeneralReferralPaymentDetails",
+    "CaseFieldID": "GeneralReferralPaymentType",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment1",
@@ -132,7 +132,7 @@
     "PageID": "GeneralReferralPayment1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -144,7 +144,7 @@
     "PageID": "GeneralReferralPayment1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -156,7 +156,7 @@
     "PageID": "GeneralReferralPayment1",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"helpWithFees\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -179,7 +179,7 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -191,7 +191,7 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -203,7 +203,7 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"feeAccount\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -215,7 +215,7 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 4,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"helpWithFees\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"helpWithFees\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -227,7 +227,7 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"telephone\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"telephone\""
   },
   {
     "LiveFrom": "20/10/2020",
@@ -239,6 +239,6 @@
     "PageID": "GeneralReferralPayment2",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "GeneralReferralPaymentDetails=\"cheque\""
+    "FieldShowCondition": "GeneralReferralPaymentType=\"cheque\""
   }
 ]
