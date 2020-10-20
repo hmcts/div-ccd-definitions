@@ -21,6 +21,7 @@
     "DisplayOrder": 17,
     "PreConditionState(s)": "AwaitingGeneralConsideration",
     "PostConditionState": "GeneralConsiderationComplete",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-consideration",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   }
