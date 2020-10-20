@@ -117,7 +117,7 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment1",
-    "PageLabel": "General referral payment 2.0",
+    "PageLabel": "General referral payment",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
