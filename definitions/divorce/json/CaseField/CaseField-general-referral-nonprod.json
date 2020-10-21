@@ -101,5 +101,13 @@
     "Label": "General application added date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalReferralWithoutNoticeFeeSummary",
+    "Label": "Here are your payment details",
+    "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
   }
 ]
