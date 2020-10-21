@@ -32,14 +32,14 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "CaseList",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "CaseAcceptedList",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -102,14 +102,14 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "CaseList",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "CaseAcceptedList",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2019",
@@ -158,14 +158,14 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "HasJudgePronounced",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "11/10/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "CaseFieldID": "HasJudgePronounced",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "11/10/2019",
