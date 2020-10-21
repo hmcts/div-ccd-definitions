@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationType",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -25,7 +25,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationType",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -46,7 +46,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedServiceApplicationDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -67,7 +67,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedServiceApplicationDate",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -88,7 +88,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedServiceAddedDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -109,7 +109,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReceivedServiceAddedDate",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -130,14 +130,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationGranted",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationGranted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
@@ -172,14 +172,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDecisionDate",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDecisionDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "29/07/2020",
@@ -207,14 +207,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationRefusalReason",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationRefusalReason",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -256,7 +256,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelOutcomeOfServiceApplication",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -291,14 +291,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceRefusalDraft",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceRefusalDraft",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -326,14 +326,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPayment",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPayment",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "03/08/2020",
@@ -361,19 +361,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "generalApplicationWithoutNoticeFeeSummary",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -396,19 +396,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentFeeAccountLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PaymentFeeAccountLabel",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentFeeAccountLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PaymentFeeAccountLabel",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -431,19 +431,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentHWFLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PaymentHWFLabel",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentHWFLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PaymentHWFLabel",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -466,19 +466,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentTelephoneLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PaymentTelephoneLabel",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentTelephoneLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PaymentTelephoneLabel",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -501,19 +501,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentChequeLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PaymentChequeLabel",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PaymentChequeLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PaymentChequeLabel",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -536,19 +536,19 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelPBAReference",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "05/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelPBAReference",
-    "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelPBAReference",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelPBAReference",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -571,7 +571,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelPBANumber",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
@@ -606,7 +606,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelHWFReference",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2020",
@@ -641,7 +641,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelContinueBecauseOfDeemedAccepted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/08/2020",
@@ -676,7 +676,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelContinueBecauseOfDispensedAccepted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/08/2020",
@@ -711,49 +711,49 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/09/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationDocuments",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplications",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/10/2020",
