@@ -34,7 +34,7 @@
     "DisplayOrder": 18,
     "PreConditionState(s)": "AwaitingGeneralReferralPayment",
     "PostConditionState": "AwaitingGeneralConsideration",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-order-summary/without-notice-fee",
     "SecurityClassification": "Public"
   }
 ]
