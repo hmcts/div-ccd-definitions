@@ -110,6 +110,18 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
+    "LiveFrom": "22/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "generalReferralPayment",
+    "CaseFieldID": "ReferralAmountToPayGeneralLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "GeneralReferralPayment1",
+    "PageLabel": "General referral payment",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "20/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
@@ -119,7 +131,7 @@
     "PageID": "GeneralReferralPayment1",
     "PageLabel": "General referral payment",
     "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
+    "PageColumnNumber": 2,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -154,7 +166,7 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment1",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"helpWithFees\""
   },
@@ -166,7 +178,7 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1
   },
   {
@@ -189,7 +201,7 @@
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 3,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
@@ -201,7 +213,7 @@
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
@@ -213,7 +225,7 @@
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 4,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"helpWithFees\""
   },
@@ -225,7 +237,7 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"telephone\""
   },
@@ -237,7 +249,7 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
     "PageID": "GeneralReferralPayment2",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"cheque\""
   }

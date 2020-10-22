@@ -109,5 +109,13 @@
     "Label": "Here are your payment details",
     "FieldType": "OrderSummary",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReferralAmountToPayGeneralLabel",
+    "Label": "Amount to pay: **£${solApplicationFeeInPounds}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

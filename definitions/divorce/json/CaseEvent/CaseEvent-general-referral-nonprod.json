@@ -32,7 +32,7 @@
     "Name": "General Referral Payment",
     "Description": "General Referral Payment",
     "DisplayOrder": 18,
-    "PreConditionState(s)": "AwaitingGeneralReferralPayment",
+    "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingGeneralConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-order-summary/without-notice-fee",
     "SecurityClassification": "Public"
