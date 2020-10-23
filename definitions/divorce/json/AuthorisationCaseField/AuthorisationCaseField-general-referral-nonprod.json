@@ -186,14 +186,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "AlternativeServiceMedium",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "13/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "AlternativeServiceMedium",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "13/10/2020",
