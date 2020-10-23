@@ -43,11 +43,37 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "AlternativeServiceMedium",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "AlternativeServiceTypeEnum",
+    "ElementLabel": "Medium requested for alternative service",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "20/10/2020",
     "ID": "DivorceGeneralReferral",
     "ListElementCode": "GeneralReferralDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Further details for Judge or Legal Advisor",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralFee",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is fee payment required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralPaymentType",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "ElementLabel": "How will payment be made?",
     "SecurityClassification": "Public"
   },
   {
