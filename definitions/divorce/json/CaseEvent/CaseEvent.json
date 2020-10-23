@@ -979,7 +979,7 @@
     "Description": "Agree Statement of Truth, Pay & Submit",
     "DisplayOrder": 1,
     "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
-    "PostConditionState": "solicitorAwaitingPaymentConfirmation",
+    "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
