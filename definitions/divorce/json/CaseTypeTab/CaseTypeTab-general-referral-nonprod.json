@@ -8,5 +8,127 @@
     "TabDisplayOrder": 24,
     "CaseFieldID": "GeneralReferrals",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralReason",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralApplicationFrom",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "GeneralApplicationFrom=\"*\""
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralApplicationReferralDate",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "GeneralApplicationReferralDate=\"*\""
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralApplicationAddedDate",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralType",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "LiveFrom": "22/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "AlternativeServiceMedium",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralDetails",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralFee",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralPaymentType",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralDecisionDate",
+    "TabFieldDisplayOrder": 11
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralDecision",
+    "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferralDecisionReason",
+    "TabFieldDisplayOrder": 13
   }
 ]

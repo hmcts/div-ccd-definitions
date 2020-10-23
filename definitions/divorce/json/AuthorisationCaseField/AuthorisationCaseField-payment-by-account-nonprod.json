@@ -1,12 +1,5 @@
 [
   {
-    "LiveFrom": "02/10/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelSolStatementOTruthPara-4",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PbaNumbers",
