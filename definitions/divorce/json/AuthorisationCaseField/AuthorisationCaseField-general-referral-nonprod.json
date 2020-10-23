@@ -537,5 +537,19 @@
     "CaseFieldID": "ReferralAmountToPayGeneralLabel",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "FeeAmountWithoutNotice",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "FeeAmountWithoutNotice",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
   }
 ]

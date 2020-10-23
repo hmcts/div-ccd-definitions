@@ -111,11 +111,19 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "23/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ReferralAmountToPayGeneralLabel",
-    "Label": "Amount to pay: **£${solApplicationFeeInPounds}**",
+    "Label": "Amount to pay: **£${FeeAmountWithoutNotice}**",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FeeAmountWithoutNotice",
+    "Label": "Application fee (in pounds)",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]
