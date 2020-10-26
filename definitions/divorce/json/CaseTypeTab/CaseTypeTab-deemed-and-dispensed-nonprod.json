@@ -40,6 +40,61 @@
     "TabFieldDisplayOrder": 6
   },
   {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "LabelOutcomeOfServiceApplication",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition" : "ReceivedServiceApplicationDate = \"*\""
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReceivedServiceApplicationDate",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "ReceivedServiceApplicationDate=\"*\""
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReceivedServiceAddedDate",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "ReceivedServiceAddedDate=\"*\""
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationType",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "ServiceApplicationType=\"*\""
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplication",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationPayment",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "ServiceApplicationPayment=\"*\""
+  },
+  {
     "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -47,6 +102,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 6
   }
 ]

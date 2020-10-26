@@ -62,7 +62,7 @@
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelOutcomeOfServiceApplication",
-    "Label": "## Outcome of service application",
+    "Label": "## Application in progress",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
