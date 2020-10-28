@@ -75,7 +75,6 @@ describe('CaseEventToFields (non-prod)', () => {
   before(() => {
     caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-payment-by-account-nonprod',
       'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-order-nonprod',
       'CaseEventToFields-general-email-nonprod',
@@ -94,7 +93,6 @@ describe('CaseEventToFields (non-prod)', () => {
 
     caseFieldNonProd = getCaseFieldDefinitions([
       'CaseField',
-      'CaseField-payment-by-account-nonprod',
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-order-nonprod',
       'CaseField-general-email-nonprod',

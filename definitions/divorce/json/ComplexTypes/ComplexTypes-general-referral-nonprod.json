@@ -39,7 +39,7 @@
     "ListElementCode": "GeneralReferralType",
     "FieldType": "FixedList",
     "FieldTypeParameter": "GeneralReferralTypeEnum",
-    "ElementLabel": "Application or referral date",
+    "ElementLabel": "Type of referral",
     "SecurityClassification": "Public"
   },
   {
