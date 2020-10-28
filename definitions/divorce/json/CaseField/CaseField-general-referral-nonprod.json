@@ -101,5 +101,29 @@
     "Label": "General application added date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalReferralWithoutNoticeFeeSummary",
+    "Label": "Here are your payment details",
+    "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReferralAmountToPayGeneralLabel",
+    "Label": "Amount to pay: **£${FeeAmountWithoutNotice}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FeeAmountWithoutNotice",
+    "Label": "Application fee (in pounds)",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

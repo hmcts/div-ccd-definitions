@@ -13,7 +13,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "19/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "generalConsideration",
     "Name": "General consideration",
@@ -24,5 +24,17 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-consideration",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalReferralPayment",
+    "Name": "General Referral Payment",
+    "Description": "General Referral Payment",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingGeneralConsideration",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-order-summary/without-notice-fee",
+    "SecurityClassification": "Public"
   }
 ]
