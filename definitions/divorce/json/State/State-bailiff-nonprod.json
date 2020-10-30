@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingBailiffService",
+    "Name": "Awaiting Bailiff Service",
+    "Description": "Awaiting Bailiff Service",
+    "DisplayOrder": 35
+  }
+]
