@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingDWPResponse",
+    "Name": "Awaiting DWP response",
+    "Description": "Awaiting DWP response",
+    "DisplayOrder": 40,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  }
+]
