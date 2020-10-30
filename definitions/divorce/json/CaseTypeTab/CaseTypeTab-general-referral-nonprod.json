@@ -120,5 +120,15 @@
     "TabDisplayOrder": 24,
     "CaseFieldID": "GeneralReferralDecisionReason",
     "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "generalReferral",
+    "TabLabel": "General Referral",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "GeneralReferrals",
+    "TabFieldDisplayOrder": 13
   }
 ]
