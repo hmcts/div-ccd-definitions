@@ -1,58 +1,71 @@
-const expect = require('chai').expect;
+const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const { isFieldDuplicated } = require('../../utils/utils');
+const { isFieldDuplicated, loadAllFiles } = require('../../utils/utils');
 const { createAssertExists } = require('../../utils/assertBuilders');
 
-const load = require;
-const authCaseField = Object.assign(require('definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField'), {});
-
-const coreFields = load('definitions/divorce/json/CaseField/CaseField.json');
 const assertFieldExists = createAssertExists('Field');
 
+const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseField');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
+
 describe('AuthorisationCaseField', () => {
-  const path = 'definitions/divorce/json/AuthorisationCaseField/AuthorisationCaseField';
+  describe('Non-prod:', () => {
+    let nonProdAuthorisationCaseField = [];
+    let allFieldsForNonProd = [];
 
-  describe('for non-prod should', () => {
-    const nonProd = authCaseField
-      .concat(load(`${path}-deemed-and-dispensed-nonprod.json`))
-      .concat(load(`${path}-general-email-nonprod.json`))
-      .concat(load(`${path}-general-order-nonprod.json`))
-      .concat(load(`${path}-nonprod.json`));
+    before(() => {
+      nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
+        'AuthorisationCaseField-deemed-and-dispensed-nonprod',
+        'AuthorisationCaseField-general-email-nonprod',
+        'AuthorisationCaseField-general-order-nonprod',
+        'AuthorisationCaseField-general-referral-nonprod',
+        'AuthorisationCaseField-nonprod'
+      ]);
 
-    it('contain a unique case field ID, case type ID and role (no duplicates)', () => {
-      const uniqResult = uniqWith(nonProd, isFieldDuplicated('CaseFieldID'));
-
-      expect(uniqResult).to.eql(nonProd);
+      allFieldsForNonProd = getCaseFieldDefinitions([
+        'CaseField',
+        'CaseField-deemed-and-dispensed-nonprod',
+        'CaseField-general-email-nonprod',
+        'CaseField-general-order-nonprod',
+        'CaseField-general-referral-nonprod'
+      ]);
     });
 
-    it('use existing fields', () => {
-      const allFieldsForNonProd = coreFields
-        .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'));
-      assertFieldExists(nonProd, allFieldsForNonProd);
+    it('should contain a unique case field ID, case type ID and role (no duplicates)', () => {
+      const uniqResult = uniqWith(nonProdAuthorisationCaseField, isFieldDuplicated('CaseFieldID'));
+
+      expect(uniqResult).to.eql(nonProdAuthorisationCaseField);
+    });
+
+    it('should use existing fields', () => {
+      assertFieldExists(nonProdAuthorisationCaseField, allFieldsForNonProd);
     });
   });
 
-  describe('for prod should', () => {
-    const prod = authCaseField
-      .concat(load(`${path}-deemed-and-dispensed-nonprod.json`))
-      .concat(load(`${path}-general-email-nonprod.json`))
-      .concat(load(`${path}-general-order-nonprod.json`))
-      .concat(load(`${path}-nonprod.json`));
+  describe('Prod:', () => {
+    let prodAuthorisationCaseField = [];
+    let allFieldsForProd = [];
 
-    it('contain a unique case field ID, case type ID and role (no duplicates)', () => {
-      const uniqResult = uniqWith(prod, isFieldDuplicated('CaseFieldID'));
+    before(() => {
+      prodAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
+        'AuthorisationCaseField',
+        'AuthorisationCaseField-prod'
+      ]);
 
-      expect(uniqResult).to.eql(prod);
+      allFieldsForProd = getCaseFieldDefinitions([
+        'CaseField',
+        'CaseField-prod'
+      ]);
     });
 
-    it('use existing fields', () => {
-      const allFieldsForNonProd = coreFields
-        .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'))
-        .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'));
-      assertFieldExists(prod, allFieldsForNonProd);
+    it('should contain a unique case field ID, case type ID and role (no duplicates)', () => {
+      const uniqResult = uniqWith(prodAuthorisationCaseField, isFieldDuplicated('CaseFieldID'));
+
+      expect(uniqResult).to.eql(prodAuthorisationCaseField);
+    });
+
+    it('should use existing fields', () => {
+      assertFieldExists(prodAuthorisationCaseField, allFieldsForProd);
     });
   });
 });
