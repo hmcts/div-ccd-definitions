@@ -1,30 +1,44 @@
 [
   {
-    "LiveFrom": "20/09/2019",
+    "LiveFrom": "30/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "tempEditDerivedAddresses",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "31/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConsideration",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConsideration",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CaseEventID": "serveByAlternativeMethod",
+    "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "03/08/2020",
+    "LiveFrom": "30/10/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConsideration",
+    "CaseEventID": "serveByAlternativeMethod",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByAlternativeMethod",
     "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByAlternativeMethod",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByAlternativeMethod",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByAlternativeMethod",
+    "UserRole": "citizen",
     "CRUD": "R"
   }
 ]

@@ -29,7 +29,7 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-general-order-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod.json',
+        'CaseEvent-served-by-alternative-method-nonprod'
       ]);
     });
 

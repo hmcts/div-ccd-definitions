@@ -5,7 +5,7 @@
     "ID": "AwaitingAlternativeService",
     "Name": "Awaiting alternative service",
     "Description": "Awaiting alternative service",
-    "DisplayOrder": 36,
+    "DisplayOrder": 39,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
