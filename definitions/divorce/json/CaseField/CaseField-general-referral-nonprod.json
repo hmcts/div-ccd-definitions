@@ -103,6 +103,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferrals",
+    "Label": "General Referrals",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceGeneralReferral",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "21/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "generalReferralWithoutNoticeFeeSummary",
