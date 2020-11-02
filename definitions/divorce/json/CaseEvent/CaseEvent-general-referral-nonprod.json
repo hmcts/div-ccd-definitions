@@ -36,5 +36,17 @@
     "PostConditionState": "AwaitingGeneralConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-order-summary/without-notice-fee",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "returnToStateBeforeGeneralReferral",
+    "Name": "Rollback state",
+    "Description": "Rollback state",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "GeneralConsiderationComplete",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/state-before-general-referral",
+    "SecurityClassification": "Public"
   }
 ]

@@ -134,5 +134,13 @@
     "Label": "Application fee (in pounds)",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CaseStateBeforeGeneralReferral",
+    "Label": "Previous case state",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
