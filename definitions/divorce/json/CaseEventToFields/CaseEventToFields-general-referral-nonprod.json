@@ -110,18 +110,6 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "02/11/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "generalReferralPayment",
-    "CaseFieldID": "FeeAmountWithoutNotice",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "READONLY",
-    "PageID": "GeneralReferralPayment1",
-    "PageLabel": "General referral payment",
-    "PageDisplayOrder": 1,
-    "FieldShowCondition": "GeneralReferralPaymentType=\"hiddenfield\""
-  },
-  {
     "LiveFrom": "22/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
