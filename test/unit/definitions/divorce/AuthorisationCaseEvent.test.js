@@ -18,8 +18,8 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent',
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-nonprod',
-        'AuthorisationCaseEvent-served-by-alternative-method-nonprod'
+        'AuthorisationCaseEvent-served-by-alternative-method-nonprod',
+        'AuthorisationCaseEvent-nonprod'
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
