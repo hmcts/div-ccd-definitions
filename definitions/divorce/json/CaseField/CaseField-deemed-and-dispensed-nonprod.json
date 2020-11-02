@@ -168,7 +168,7 @@
     "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplications",
-    "Label": "Service Applications",
+    "Label": "Previous service applications",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceServiceApplication",
     "SecurityClassification": "Public"
