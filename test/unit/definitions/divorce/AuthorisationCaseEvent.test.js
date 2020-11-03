@@ -20,6 +20,7 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-nonprod',
         'AuthorisationCaseEvent-served-by-alternative-method-nonprod',
+        'AuthorisationCaseEvent-alternative-service-nonprod'
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
@@ -29,7 +30,8 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-general-order-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod'
+        'CaseEvent-served-by-alternative-method-nonprod',
+        'CaseEvent-alternative-service-nonprod'
       ]);
     });
 

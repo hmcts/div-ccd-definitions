@@ -791,13 +791,6 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "rejected",
@@ -1990,34 +1983,6 @@
   {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromRejected",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromIssued",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosAwaiting",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosStarted",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissueFromIssuedRDC",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
@@ -2632,13 +2597,6 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "rejected",
@@ -3167,34 +3125,6 @@
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedDefended",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromRejected",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromIssued",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosAwaiting",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosStarted",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
@@ -3880,13 +3810,6 @@
   {
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "rejected",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
@@ -4434,34 +4357,6 @@
     "LiveFrom": "23/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "coRespAnswerReceivedDefended",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromRejected",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromIssued",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosAwaiting",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosStarted",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
@@ -5021,35 +4916,7 @@
   {
     "LiveFrom": "03/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromRejected",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "03/09/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromIssued",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "03/09/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissueFromIssuedRDC",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosAwaiting",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromAosStarted",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },

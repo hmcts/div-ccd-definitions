@@ -1,0 +1,16 @@
+[
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissue",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting; AosStarted; Overdue; Rejected; Issued; AwaitingPetitioner",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  }
+]
