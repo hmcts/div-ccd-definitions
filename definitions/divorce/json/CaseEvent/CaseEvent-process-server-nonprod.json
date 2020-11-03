@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmProcessServerService",
+    "Name": "Confirm process server service",
+    "Description": "Confirm process server service",
+    "DisplayOrder": 32,
+    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PostConditionState": "AwaitingAOS",
+    "SecurityClassification": "Public"
+  }
+]
