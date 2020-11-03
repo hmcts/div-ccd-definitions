@@ -5,10 +5,34 @@
     "ID": "serveByAlternativeMethod",
     "Name": "Serve by alternative method",
     "Description": "Serve by alternative method",
-    "DisplayOrder": "20",
+    "DisplayOrder": "19",
     "PreConditionState(s)": "GeneralConsiderationComplete",
     "PostConditionState": "AwaitingAlternativeService",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "requestDWPDisclosure",
+    "Name": "Request DWP disclosure",
+    "Description": "Request DWP disclosure",
+    "DisplayOrder": 20,
+    "PreConditionState(s)": "GeneralConsiderationComplete",
+    "PostConditionState": "AwaitingDWPResponse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAwaitingDWPResponse",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 21,
+    "PreConditionState(s)": "AwaitingDWPResponse",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "03/11/2020",
