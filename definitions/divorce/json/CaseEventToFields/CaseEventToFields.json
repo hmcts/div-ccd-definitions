@@ -4314,52 +4314,6 @@
     "PageDisplayOrder": 1
   },
   {
-    "LiveFrom": "05/12/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "CaseFieldID": "RespEmailAddress",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageLabel": "AOS Completed",
-    "PageDisplayOrder": 1
-  },
-  {
-    "LiveFrom": "05/12/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "CaseFieldID": "ReceivedAOSfromResp",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageLabel": "AOS Completed",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "05/12/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "CaseFieldID": "ReceivedAOSfromRespDate",
-    "PageFieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageLabel": "AOS Completed",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "05/12/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "CaseFieldID": "dueDate",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageLabel": "AOS Completed",
-    "PageDisplayOrder": 1
-  },
-  {
     "LiveFrom": "25/09/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "aosSubmittedDefended",

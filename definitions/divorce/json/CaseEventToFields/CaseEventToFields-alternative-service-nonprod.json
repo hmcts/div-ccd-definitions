@@ -2,7 +2,7 @@
   {
     "LiveFrom": "05/12/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
+    "CaseEventID": "reissue",
     "CaseFieldID": "RespEmailAddress",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
@@ -13,7 +13,7 @@
   {
     "LiveFrom": "05/12/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
+    "CaseEventID": "reissue",
     "CaseFieldID": "ReceivedAOSfromResp",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
@@ -25,7 +25,7 @@
   {
     "LiveFrom": "05/12/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
+    "CaseEventID": "reissue",
     "CaseFieldID": "ReceivedAOSfromRespDate",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
@@ -37,7 +37,7 @@
   {
     "LiveFrom": "05/12/2018",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
+    "CaseEventID": "reissue",
     "CaseFieldID": "dueDate",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
