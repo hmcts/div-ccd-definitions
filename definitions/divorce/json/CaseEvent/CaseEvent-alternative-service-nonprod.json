@@ -17,7 +17,7 @@
     "Name": "Reissue petition",
     "Description": "Reissue petition",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "AosAwaiting;AosStarted;AosOverdue;Rejected;Issued;AwaitingPetitioner",
+    "PreConditionState(s)": "AosAwaiting;AosStarted;AosOverdue;Rejected;Issued;AwaitingDocuments",
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
