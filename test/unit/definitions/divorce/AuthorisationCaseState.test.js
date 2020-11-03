@@ -20,6 +20,7 @@ describe('AuthorisationCaseState', () => {
           'AuthorisationCaseState-deemed-and-dispensed-nonprod',
           'AuthorisationCaseState-general-referral-nonprod',
           'AuthorisationCaseState-served-by-alternative-method-nonprod',
+          'AuthorisationCaseState-process-server-nonprod',
           'AuthorisationCaseState-bailiff-nonprod'
         ]
       );
@@ -28,6 +29,7 @@ describe('AuthorisationCaseState', () => {
         'State-deemed-and-dispensed-nonprod',
         'State-general-referral-nonprod',
         'State-served-by-alternative-method-nonprod',
+        'State-process-server-nonprod',
         'State-bailiff-nonprod'
       ]);
     });
