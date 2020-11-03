@@ -160,6 +160,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromOverdue",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosOverdue",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCoverdue",

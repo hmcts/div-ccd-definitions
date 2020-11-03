@@ -56,27 +56,6 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "09/11/2018",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "23/05/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "reissueFromOverdue",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissueFromRejected",
