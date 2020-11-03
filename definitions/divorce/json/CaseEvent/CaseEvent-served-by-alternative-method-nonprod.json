@@ -20,5 +20,18 @@
     "PreConditionState(s)": "GeneralConsiderationComplete",
     "PostConditionState": "AwaitingDWPResponse",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAwaitingDWPResponse",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 21,
+    "PreConditionState(s)": "AwaitingDWPResponse",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
