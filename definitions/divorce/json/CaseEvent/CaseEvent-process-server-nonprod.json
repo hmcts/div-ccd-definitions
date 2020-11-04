@@ -7,7 +7,7 @@
     "Description": "Confirm process server service",
     "DisplayOrder": 32,
     "PreConditionState(s)": "AwaitingProcessServerService",
-    "PostConditionState": "AwaitingAOS",
+    "PostConditionState": "AosAwaiting",
     "SecurityClassification": "Public"
   }
 ]
