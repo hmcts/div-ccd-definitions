@@ -33,5 +33,17 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmAlternativeService",
+    "Name": "Confirm alternative service",
+    "Description": "Confirm alternative service",
+    "DisplayOrder": 25,
+    "PreConditionState(s)": "AwaitingAlternativeService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
+    "SecurityClassification": "Public"
   }
 ]
