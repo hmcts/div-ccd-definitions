@@ -168,7 +168,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "04/11/2019",
+    "LiveFrom": "04/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
@@ -182,21 +182,21 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "04/11/2019",
+    "LiveFrom": "04/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "04/11/2019",
+    "LiveFrom": "04/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "04/11/2019",
+    "LiveFrom": "04/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
     "UserRole": "caseworker-divorce-solicitor",
