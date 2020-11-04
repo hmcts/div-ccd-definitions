@@ -168,7 +168,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "04/1/2019",
+    "LiveFrom": "04/11/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
