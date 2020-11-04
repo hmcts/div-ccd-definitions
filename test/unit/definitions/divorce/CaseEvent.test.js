@@ -37,10 +37,9 @@ describe('CaseEvent', () => {
         'CaseEvent',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
-        'CaseEvent-general-order-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod',
-        'CaseEvent-nonprod'
+        'CaseEvent-nonprod',
+        'CaseEvent-served-by-alternative-method-nonprod'
       ]);
 
       uniqResult = uniqWith(nonProd, noDuplicateFound);
