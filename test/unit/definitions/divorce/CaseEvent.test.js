@@ -35,11 +35,11 @@ describe('CaseEvent', () => {
     before(() => {
       nonProd = getCaseEventDefinitions([
         'CaseEvent',
+        'CaseEvent-alternative-service-nonprod',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod'
+        'CaseEvent-nonprod'
       ]);
 
       uniqResult = uniqWith(nonProd, noDuplicateFound);

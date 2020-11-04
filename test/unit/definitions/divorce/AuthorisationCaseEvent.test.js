@@ -19,8 +19,8 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-nonprod',
-        'AuthorisationCaseEvent-served-by-alternative-method-nonprod'
+        'AuthorisationCaseEvent-alternative-service-nonprod',
+        'AuthorisationCaseEvent-nonprod'
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
@@ -29,7 +29,7 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod'
+        'CaseEvent-alternative-service-nonprod'
       ]);
     });
 
