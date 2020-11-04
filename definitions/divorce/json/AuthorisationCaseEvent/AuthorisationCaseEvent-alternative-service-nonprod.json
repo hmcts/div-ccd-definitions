@@ -166,5 +166,33 @@
     "CaseEventID": "confirmAlternativeService",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/1/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissue",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/11/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissue",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/11/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissue",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/11/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissue",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
