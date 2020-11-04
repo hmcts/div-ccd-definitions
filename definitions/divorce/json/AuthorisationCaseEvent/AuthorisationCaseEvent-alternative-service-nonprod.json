@@ -175,6 +175,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "reissue",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "04/11/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissue",
