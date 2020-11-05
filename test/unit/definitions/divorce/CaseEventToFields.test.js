@@ -96,7 +96,8 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-order-nonprod',
       'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
+      'CaseField-general-referral-nonprod',
+      'CaseField-deemed-and-dispensed-nonprod'
     ]);
   });
 

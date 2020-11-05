@@ -1,0 +1,11 @@
+[
+  {
+    "LiveFrom": "05/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ProcessServerServiceCaseField",
+    "Label": "Process Server Certificate of Service",
+    "FieldType": "YesOrNo",
+    "FieldTypeParameter": "confirmProcessServerService",
+    "SecurityClassification": "Public"
+  }
+]

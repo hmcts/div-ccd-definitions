@@ -1,14 +1,6 @@
 [
   {
     "LiveFrom": "05/11/2020",
-    "ID": "confirmProcessServerService",
-    "ListElementCode": "ProcessServerService",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Process Server Certificate of Service",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "05/11/2020",
     "ID": "confirmProcessServerServiceDate",
     "ListElementCode": "ProcessServerServiceDate",
     "FieldType": "Date",
