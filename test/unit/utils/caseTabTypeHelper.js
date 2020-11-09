@@ -58,6 +58,7 @@ const nonProdTabIds = [
   // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
   'serviceApplication',
   'LinkedCase',
+  'generalReferral',
   'Language',
   'ConfidentialDocuments'
 ];
