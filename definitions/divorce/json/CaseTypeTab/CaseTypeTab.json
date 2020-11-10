@@ -3361,5 +3361,15 @@
     "TabDisplayOrder": 26,
     "CaseFieldID": "D8ConfidentialDocumentsUploaded",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "GeneralOrders",
+    "TabFieldDisplayOrder": 6
   }
 ]
