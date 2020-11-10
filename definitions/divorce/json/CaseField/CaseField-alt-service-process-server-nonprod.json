@@ -5,7 +5,14 @@
     "ID": "ProcessServerServiceCaseField",
     "Label": "Process Server Certificate of Service",
     "FieldType": "YesOrNo",
-    "FieldTypeParameter": "confirmProcessServerService",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ConfirmProcessServerServiceDate",
+    "Label": "Confirm Process Server Certificate of Service Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]
