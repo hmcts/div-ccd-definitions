@@ -2,42 +2,84 @@
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "05/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "ProcessServerServiceCaseField",
+    "CaseFieldID": "ProcessServerServiceDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ConfirmProcessServerServiceDate",
     "UserRole": "citizen",
     "CRUD": "R"
   }
