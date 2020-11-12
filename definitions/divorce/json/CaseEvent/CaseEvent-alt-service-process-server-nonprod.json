@@ -5,7 +5,7 @@
     "ID": "serveByAlternativeMethod",
     "Name": "Serve by alternative method",
     "Description": "Serve by alternative method",
-    "DisplayOrder": "20",
+    "DisplayOrder": "19",
     "PreConditionState(s)": "GeneralConsiderationComplete",
     "PostConditionState": "AwaitingAlternativeService",
     "SecurityClassification": "Public"

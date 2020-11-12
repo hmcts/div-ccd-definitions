@@ -15,9 +15,9 @@ describe('AuthorisationCaseField', () => {
 
     before(() => {
       nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
+        'AuthorisationCaseField',
         'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
-        'AuthorisationCaseField-general-order-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-nonprod'
       ]);
@@ -26,7 +26,6 @@ describe('AuthorisationCaseField', () => {
         'CaseField',
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
-        'CaseField-general-order-nonprod',
         'CaseField-general-referral-nonprod'
       ]);
     });

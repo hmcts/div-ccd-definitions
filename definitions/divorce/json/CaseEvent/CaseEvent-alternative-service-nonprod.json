@@ -1,0 +1,52 @@
+[
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "requestDWPDisclosure",
+    "Name": "Request DWP disclosure",
+    "Description": "Request DWP disclosure",
+    "DisplayOrder": 20,
+    "PreConditionState(s)": "GeneralConsiderationComplete",
+    "PostConditionState": "AwaitingDWPResponse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAwaitingDWPResponse",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 21,
+    "PreConditionState(s)": "AwaitingDWPResponse",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissue",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting;AosStarted;Rejected;Issued;AwaitingDocuments",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmAlternativeService",
+    "Name": "Confirm alternative service",
+    "Description": "Confirm alternative service",
+    "DisplayOrder": 25,
+    "PreConditionState(s)": "AwaitingAlternativeService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
+    "SecurityClassification": "Public"
+  }
+]
