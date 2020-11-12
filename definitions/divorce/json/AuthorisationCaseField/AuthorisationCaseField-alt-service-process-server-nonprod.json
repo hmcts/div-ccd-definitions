@@ -11,7 +11,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ProcessServerServiceDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/11/2020",
@@ -53,7 +53,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ConfirmProcessServerServiceDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "10/11/2020",
