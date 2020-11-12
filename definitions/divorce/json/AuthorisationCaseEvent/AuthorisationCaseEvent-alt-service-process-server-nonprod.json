@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "serveByProcessServer",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/11/2020",
