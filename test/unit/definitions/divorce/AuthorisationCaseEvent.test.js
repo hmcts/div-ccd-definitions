@@ -19,7 +19,7 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-nonprod',
-        'AuthorisationCaseEvent-served-by-alternative-method-nonprod',
+        'AuthorisationCaseEvent-alt-service-process-server-nonprod',
         'AuthorisationCaseEvent-process-server-nonprod'
       ]);
 
@@ -30,7 +30,7 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-general-order-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-nonprod',
-        'CaseEvent-served-by-alternative-method-nonprod',
+        'CaseEvent-alt-service-process-server-nonprod',
         'CaseEvent-process-server-nonprod'
       ]);
     });
