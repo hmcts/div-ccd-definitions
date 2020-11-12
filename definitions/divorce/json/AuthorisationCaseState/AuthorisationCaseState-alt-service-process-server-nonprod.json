@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingProcessServerService",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/11/2020",
