@@ -1678,62 +1678,6 @@
   {
     "LiveFrom": "01/03/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "reissueFromRejected",
-    "Name": "Reissue petition",
-    "Description": "Reissue petition",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "Rejected",
-    "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "reissueFromIssued",
-    "Name": "Reissue petition",
-    "Description": "Reissue petition",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "Issued",
-    "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "reissueFromAosAwaiting",
-    "Name": "Reissue petition",
-    "Description": "Reissue petition",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "AosAwaiting",
-    "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
-    "ID": "reissueFromAosStarted",
-    "Name": "Reissue petition",
-    "Description": "Reissue petition",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "AosStarted",
-    "PostConditionState": "AwaitingReissue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y"
-  },
-  {
-    "LiveFrom": "01/03/2019",
-    "CaseTypeID": "DIVORCE",
     "ID": "reissueFromIssuedRDC",
     "Name": "Reissue petition",
     "Description": "Reissue petition",
@@ -2851,6 +2795,19 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosCompleted;AwaitingAmendCase",
     "PostConditionState": "AmendPetition",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "createGeneralOrder",
+    "Name": "Create general order",
+    "Description": "Create general order",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/create-general-order/final",
+    "ShowSummary": "Y",
     "SecurityClassification": "Public"
   }
 ]
