@@ -136,11 +136,27 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "02/11/2020",
+    "LiveFrom": "16/11/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "CaseStateBeforeGeneralReferral",
+    "ID": "StateBeforeGeneralReferral",
     "Label": "Previous case state",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelReturnToPreviousStatePara-1",
+    "Label": "‘Return to previous state’ should be used when a Judge has rejected a general referral.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelReturnToPreviousStatePara-2",
+    "Label": "This event returns the case to the state it was in before the general referral was made e.g. if the case was in ‘Awaiting DN application’ when the general referral was created, then it will be returned to ‘Awaiting DN application’.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]

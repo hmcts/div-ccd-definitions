@@ -38,15 +38,15 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "02/11/2020",
+    "LiveFrom": "16/11/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "returnToStateBeforeGeneralReferral",
-    "Name": "Rollback state",
-    "Description": "Rollback state",
+    "Name": "Return to previous state",
+    "Description": "Return to previous state",
     "DisplayOrder": 18,
     "PreConditionState(s)": "GeneralConsiderationComplete",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/state-before-general-referral",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/return-to-state-before-general-referral",
     "SecurityClassification": "Public"
   }
 ]

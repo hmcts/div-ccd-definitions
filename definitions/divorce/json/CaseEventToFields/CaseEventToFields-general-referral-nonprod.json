@@ -250,5 +250,27 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "GeneralReferralPaymentType=\"cheque\""
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "returnToStateBeforeGeneralReferral",
+    "CaseFieldID": "LabelReturnToPreviousStatePara-1",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "ReturnToPreviousState1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "returnToStateBeforeGeneralReferral",
+    "CaseFieldID": "LabelReturnToPreviousStatePara-2",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "ReturnToPreviousState1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1
   }
 ]
