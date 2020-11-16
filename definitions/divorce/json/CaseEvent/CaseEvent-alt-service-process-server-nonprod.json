@@ -5,9 +5,21 @@
     "ID": "serveByProcessServer",
     "Name": "Serve by process server",
     "Description": "Serve by process server",
-    "DisplayOrder": "19",
+    "DisplayOrder": "30",
     "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosStarted;AosOverdue;Issued;AwaitingDocuments",
     "PostConditionState": "AwaitingProcessServerService",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmProcessServerService",
+    "Name": "Confirm process server",
+    "Description": "Confirm process server",
+    "DisplayOrder": "31",
+    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
     "SecurityClassification": "Public"
   }
 ]
