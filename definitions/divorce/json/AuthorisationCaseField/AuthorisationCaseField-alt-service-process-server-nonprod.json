@@ -1,0 +1,51 @@
+[
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "servedByProcessServer",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  }
+]
