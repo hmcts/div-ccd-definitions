@@ -131,8 +131,8 @@ describe('CaseTypeTab (prod)', () => {
 
   it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
     assert.doesNotThrow(() => {
-        validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-      },
-      /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
+      validateTabFieldDisplayOrder(tabIds, caseTypeTab);
+    },
+    /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
   });
 });
