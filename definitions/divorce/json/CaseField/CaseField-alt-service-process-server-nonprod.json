@@ -2,7 +2,7 @@
   {
     "LiveFrom": "17/11/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "servedByProcessServer",
+    "ID": "ServedByProcessServer",
     "Label": "Served by process server",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
