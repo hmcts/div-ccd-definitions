@@ -19,6 +19,7 @@
     "DisplayOrder": "20",
     "PreConditionState(s)": "AosAwaiting",
     "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-not-received-for-process-server",
     "SecurityClassification": "Public"
   }
 ]
