@@ -31,6 +31,7 @@
     "DisplayOrder": 32,
     "PreConditionState(s)": "AwaitingProcessServerService",
     "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
     "SecurityClassification": "Public"
   }
 ]
