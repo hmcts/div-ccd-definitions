@@ -36,5 +36,17 @@
     "PostConditionState": "AwaitingGeneralConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-order-summary/without-notice-fee",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "returnToStateBeforeGeneralReferral",
+    "Name": "Return to previous state",
+    "Description": "Return to previous state",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "GeneralConsiderationComplete",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/return-to-state-before-general-referral",
+    "SecurityClassification": "Public"
   }
 ]
