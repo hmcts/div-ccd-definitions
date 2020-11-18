@@ -25,17 +25,6 @@
   {
     "LiveFrom": "03/11/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "serveByProcessServer",
-    "Name": "Serve by process server",
-    "Description": "Serve by process server",
-    "DisplayOrder": 30,
-    "PreConditionState(s)": "GeneralConsiderationComplete",
-    "PostConditionState": "AwaitingProcessServerService",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/11/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "confirmProcessServerService",
     "Name": "Confirm process server service",
     "Description": "Confirm process server service",
