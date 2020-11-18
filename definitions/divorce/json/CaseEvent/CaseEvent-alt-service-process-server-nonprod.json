@@ -82,5 +82,16 @@
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmProcessServerService",
+    "Name": "Confirm process server service",
+    "Description": "Confirm process server service",
+    "DisplayOrder": 32,
+    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PostConditionState": "AosAwaiting",
+    "SecurityClassification": "Public"
   }
 ]

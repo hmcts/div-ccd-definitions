@@ -25,5 +25,14 @@
     "Description": "Awaiting DWP response",
     "DisplayOrder": 40,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingProcessServerService",
+    "Name": "Awaiting process server service",
+    "Description": "Awaiting process server service",
+    "DisplayOrder": 41,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
