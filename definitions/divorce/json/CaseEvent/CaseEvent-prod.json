@@ -98,5 +98,61 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromRejected",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "Rejected",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromIssued",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "Issued",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosAwaiting",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosStarted",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

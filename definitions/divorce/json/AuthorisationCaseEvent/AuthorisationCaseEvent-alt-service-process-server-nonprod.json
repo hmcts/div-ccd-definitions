@@ -1,0 +1,93 @@
+[
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serveByProcessServer",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForProcessServer",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  }
+]

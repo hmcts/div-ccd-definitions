@@ -73,7 +73,7 @@
     "Label": "How will payment be made?",
     "HintText": "How will payment be made?",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "ServiceApplicationPaymentTypeEnum",
+    "FieldTypeParameter": "PaymentTypeEnum",
     "SecurityClassification": "Public"
   },
   {
@@ -95,7 +95,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentFeeAccountLabel",
+    "ID": "PaymentFeeAccountLabel",
     "Label": "Payment Method: Fee Account",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -103,7 +103,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentHWFLabel",
+    "ID": "PaymentHWFLabel",
     "Label": "Payment Method: Help with fees",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -111,7 +111,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentTelephoneLabel",
+    "ID": "PaymentTelephoneLabel",
     "Label": "Payment Method: Telephone",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -119,7 +119,7 @@
   {
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationPaymentChequeLabel",
+    "ID": "PaymentChequeLabel",
     "Label": "Payment Method: Cheque",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -168,7 +168,7 @@
     "LiveFrom": "05/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplications",
-    "Label": "Service Applications",
+    "Label": "Previous service applications",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceServiceApplication",
     "SecurityClassification": "Public"

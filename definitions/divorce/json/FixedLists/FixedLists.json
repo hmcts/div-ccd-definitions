@@ -1240,28 +1240,28 @@
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "feeAccount",
     "ListElement": "Fee account",
     "DisplayOrder": 1
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "helpWithFees",
     "ListElement": "Help with Fees",
     "DisplayOrder": 2
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "telephone",
     "ListElement": "Telephone",
     "DisplayOrder": 3
   },
   {
     "LiveFrom": "03/08/2020",
-    "ID": "ServiceApplicationPaymentTypeEnum",
+    "ID": "PaymentTypeEnum",
     "ListElementCode": "cheque",
     "ListElement": "Cheque",
     "DisplayOrder": 4
@@ -1499,5 +1499,59 @@
     "ID": "d8documentsReceivedEnum",
     "ListElementCode": "aosOverdueCoverLetter",
     "ListElement": "AOS Overdue Cover Letter"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "DivorcePartiesEnum",
+    "ListElementCode": "co-respondent",
+    "ListElement": "Co-respondent"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "DivorcePartiesEnum",
+    "ListElementCode": "respondent",
+    "ListElement": "Respondent"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "DivorcePartiesEnum",
+    "ListElementCode": "petitioner",
+    "ListElement": "Petitioner"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "GeneralOrderJudgeEnum",
+    "ListElementCode": "recorder",
+    "ListElement": "Recorder"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "GeneralOrderJudgeEnum",
+    "ListElementCode": "herhonourjudge",
+    "ListElement": "Her Honour Judge"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "GeneralOrderJudgeEnum",
+    "ListElementCode": "hishonourjudge",
+    "ListElement": "His Honour Judge"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "GeneralOrderJudgeEnum",
+    "ListElementCode": "deputydistrictjudge",
+    "ListElement": "Deputy District Judge"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "GeneralOrderJudgeEnum",
+    "ListElementCode": "districtjudge",
+    "ListElement": "District Judge"
+  },
+  {
+    "LiveFrom": "27/08/2020",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "generalOrder",
+    "ListElement": "General Order"
   }
 ]

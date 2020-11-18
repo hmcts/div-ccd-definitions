@@ -10,30 +10,29 @@ const {
   validateTabFieldDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 
-const getAllCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
-let caseTypeTab = [];
-
-const getAllCaseFieldDefinitions = loadAllFiles('CaseField');
-let caseField = [];
-
-let sortedCaseTabs = [];
-let tabIds = [];
+const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
 
 describe('CaseTypeTab (nonprod)', () => {
-  before(() => {
-    caseTypeTab = getAllCaseTypeTabDefinitions(
-      [
-        'CaseTypeTab',
-        'CaseTypeTab-general-order-nonprod',
-        'CaseTypeTab-deemed-and-dispensed-nonprod'
-      ]);
+  let caseField = [];
+  let caseTypeTab = [];
+  let sortedCaseTabs = [];
+  let tabIds = [];
 
-    caseField = getAllCaseFieldDefinitions(
-      [
-        'CaseField',
-        'CaseField-general-order-nonprod',
-        'CaseField-deemed-and-dispensed-nonprod'
-      ]);
+  before(() => {
+    caseTypeTab = getCaseTypeTabDefinitions([
+      'CaseTypeTab',
+      'CaseTypeTab-deemed-and-dispensed-nonprod',
+      'CaseTypeTab-general-referral-nonprod'
+    ]);
+
+    caseField = getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-deemed-and-dispensed-nonprod',
+      'CaseField-general-email-nonprod',
+      'CaseField-general-referral-nonprod'
+    ]);
+
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
   });
@@ -71,73 +70,20 @@ describe('CaseTypeTab (nonprod)', () => {
   });
 });
 
-/**
- * This suite (and sub suites) checks to make sure that there are no duplicate TabDisplayOrder or
- * TabFieldDisplayOrder in the concatenated release definition.
- * Note: As a post release activity the related release describe block can be removed
- * as the feature file would no longer exist
- */
-describe('CaseTypeTab duplicate checks (nonprod)', () => {
-  before(() => {
-    sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
-    tabIds = uniq(map(sortedCaseTabs, 'TabID'));
-  });
-
-  describe('General Order - CaseTypeTab check', () => {
-    before(() => {
-      caseTypeTab = getAllCaseTypeTabDefinitions(
-        [
-          'CaseTypeTab',
-          'CaseTypeTab-prod',
-          'CaseTypeTab-general-order-nonprod'
-        ]);
-    });
-
-    it('should contain unique tab field display order ID field tab ID (no duplicate field order in a tab)', () => {
-      const validationErrors = validateUniqueTabDisplayOrder(tabIds, caseTypeTab);
-      expect(validationErrors).to.have.lengthOf(0);
-    });
-
-    it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
-      assert.doesNotThrow(() => {
-        validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-      },
-      /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
-    });
-  });
-
-  describe('Deemed and Dispensed - CaseTypeTab check', () => {
-    before(() => {
-      caseTypeTab = getAllCaseTypeTabDefinitions(
-        [
-          'CaseTypeTab',
-          'CaseTypeTab-deemed-and-dispensed-nonprod'
-        ]);
-    });
-
-    it('should contain unique tab field display order ID field tab ID (no duplicate field order in a tab)', () => {
-      const validationErrors = validateUniqueTabDisplayOrder(tabIds, caseTypeTab);
-      expect(validationErrors).to.have.lengthOf(0);
-    });
-
-    it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
-      assert.doesNotThrow(() => {
-        validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-      },
-      /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
-    });
-  });
-});
-
 describe('CaseTypeTab (prod)', () => {
+  let caseField = [];
+  let caseTypeTab = [];
+  let sortedCaseTabs = [];
+  let tabIds = [];
+
   before(() => {
-    caseTypeTab = getAllCaseTypeTabDefinitions(
+    caseTypeTab = getCaseTypeTabDefinitions(
       [
         'CaseTypeTab',
         'CaseTypeTab-prod'
       ]);
 
-    caseField = getAllCaseFieldDefinitions(
+    caseField = getCaseFieldDefinitions(
       [
         'CaseField',
         'CaseField-prod'

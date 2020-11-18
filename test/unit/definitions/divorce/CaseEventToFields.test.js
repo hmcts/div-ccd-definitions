@@ -1,62 +1,10 @@
 const { expect, assert } = require('chai');
 const { find } = require('lodash');
+const { loadAllFiles } = require('../../utils/utils');
 
-const load = require;
-const caseEvent = Object.assign(require('definitions/divorce/json/CaseEvent/CaseEvent'), []);
-const caseField = Object.assign(require('definitions/divorce/json/CaseField/CaseField.json'), []);
-const caseEventToFields = Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []);
-
-function mergeCaseEventJsonNonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-deemed-and-dispensed-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-order-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-general-email-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-nonprod.json'));
-
-  return [...caseEvent, ...definitions];
-}
-
-function mergeCaseEventJsonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseEvent/CaseEvent-prod.json'));
-
-  return [...caseEvent, ...definitions];
-}
-
-function mergeCaseFieldJsonNonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseField/CaseField-payment-by-account-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseField/CaseField-deemed-and-dispensed-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseField/CaseField-general-order-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseField/CaseField-general-email-nonprod.json'));
-
-  return [...caseField, ...definitions];
-}
-
-function mergeCaseFieldJsonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseField/CaseField-prod.json'));
-
-  return [...caseField, ...definitions];
-}
-
-function mergeCaseEventToFieldsJsonNonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-payment-by-account-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-deemed-and-dispensed-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-general-order-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-general-email-nonprod.json'))
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-nonprod.json'));
-
-  return [...caseEventToFields, ...definitions];
-}
-
-function mergeCaseEventToFieldsJsonProdFiles() {
-  const definitions = []
-    .concat(load('definitions/divorce/json/CaseEventToFields/CaseEventToFields-prod.json'));
-
-  return [...caseEventToFields, ...definitions];
-}
+const getCaseEventToFieldDefinitions = loadAllFiles('CaseEventToFields');
+const getCaseEventDefinitions = loadAllFiles('CaseEvent');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
 
 function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
@@ -120,19 +68,49 @@ function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFields
 }
 
 describe('CaseEventToFields (non-prod)', () => {
-  const caseEventToFieldsNonProd = mergeCaseEventToFieldsJsonNonProdFiles();
+  let caseEventToFieldsNonProd = [];
+  let caseEventNonProd = [];
+  let caseFieldNonProd = [];
+
+  before(() => {
+    caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
+      'CaseEventToFields',
+      'CaseEventToFields-deemed-and-dispensed-nonprod',
+      'CaseEventToFields-general-email-nonprod',
+      'CaseEventToFields-general-referral-nonprod',
+      'CaseEventToFields-nonprod'
+    ]);
+
+    caseEventNonProd = getCaseEventDefinitions([
+      'CaseEvent',
+      'CaseEvent-alternative-service-nonprod',
+      'CaseEvent-deemed-and-dispensed-nonprod',
+      'CaseEvent-general-email-nonprod',
+      'CaseEvent-general-referral-nonprod',
+      'CaseEvent-nonprod'
+    ]);
+
+    caseFieldNonProd = getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-deemed-and-dispensed-nonprod',
+      'CaseField-general-email-nonprod',
+      'CaseField-general-referral-nonprod'
+    ]);
+  });
+
   it('should contain valid event IDs', () => {
-    const caseEventNonProd = mergeCaseEventJsonNonProdFiles();
     assertHasOnlyValidEventIds(caseEventToFieldsNonProd, caseEventNonProd);
   });
+
   it('should contain valid field IDs', () => {
-    const caseFieldNonProd = mergeCaseFieldJsonNonProdFiles();
     assertHasOnlyValidFieldIds(caseEventToFieldsNonProd, caseFieldNonProd);
   });
+
   describe('CallBackURLMidEvent', () => {
     it('(if defined) is added to the first field on page', () => {
       assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsNonProd);
     });
+
     it('RetriesTimeoutURLMidEvent is never defined', () => {
       assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsNonProd);
     });
@@ -140,19 +118,40 @@ describe('CaseEventToFields (non-prod)', () => {
 });
 
 describe('CaseEventToFields (prod)', () => {
-  const caseEventToFieldsProd = mergeCaseEventToFieldsJsonProdFiles();
+  let caseEventToFieldsProd = [];
+  let caseEventProd = [];
+  let caseFieldProd = [];
+
+  before(() => {
+    caseEventToFieldsProd = getCaseEventToFieldDefinitions([
+      'CaseEventToFields',
+      'CaseEventToFields-prod'
+    ]);
+
+    caseEventProd = getCaseEventDefinitions([
+      'CaseEvent',
+      'CaseEvent-prod'
+    ]);
+
+    caseFieldProd = getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-prod'
+    ]);
+  });
+
   it('should contain valid event IDs', () => {
-    const caseEventProd = mergeCaseEventJsonProdFiles();
     assertHasOnlyValidEventIds(caseEventToFieldsProd, caseEventProd);
   });
+
   it('should contain valid field IDs', () => {
-    const caseFieldProd = mergeCaseFieldJsonProdFiles();
     assertHasOnlyValidFieldIds(caseEventToFieldsProd, caseFieldProd);
   });
+
   describe('CallBackURLMidEvent', () => {
     it('(if defined) is added to the first field on page', () => {
       assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsProd);
     });
+
     it('RetriesTimeoutURLMidEvent is never defined', () => {
       assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsProd);
     });
