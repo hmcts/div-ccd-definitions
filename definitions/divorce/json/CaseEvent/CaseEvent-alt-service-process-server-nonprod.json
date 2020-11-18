@@ -21,5 +21,17 @@
     "PostConditionState": "AwaitingDecreeNisi",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-not-received-for-process-server",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmProcessServerService",
+    "Name": "Confirm process server service",
+    "Description": "Confirm process server service",
+    "DisplayOrder": 32,
+    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
+    "SecurityClassification": "Public"
   }
 ]
