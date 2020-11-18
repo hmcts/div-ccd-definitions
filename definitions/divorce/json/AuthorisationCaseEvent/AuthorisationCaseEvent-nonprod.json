@@ -2,7 +2,7 @@
   {
     "LiveFrom": "20/09/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "tempEditDerivedAddresses",
+    "CaseEventID": "tempSuperUserTestEvent",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },

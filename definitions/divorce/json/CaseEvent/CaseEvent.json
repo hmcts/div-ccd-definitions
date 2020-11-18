@@ -2571,7 +2571,7 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
-    "ID": "tempEditDerivedAddresses",
+    "ID": "tempSuperUserTestEvent",
     "Name": "Temp - Edit derived addresses",
     "Description": "Temporary - enable us to edit derived addresses until a story solves this problem",
     "DisplayOrder": 22,
