@@ -16,22 +16,20 @@ describe('AuthorisationCaseEvent', () => {
     before(() => {
       nonProd = getAuthorisationCaseEventDefinitions([
         'AuthorisationCaseEvent',
+        'AuthorisationCaseEvent-alt-service-process-server-nonprod',
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-alternative-service-nonprod',
-        'AuthorisationCaseEvent-alt-service-process-server-nonprod',
         'AuthorisationCaseEvent-nonprod'
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
         'CaseEvent',
+        'CaseEvent-alt-service-process-server-nonprod',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-nonprod',
-        'CaseEvent-alt-service-process-server-nonprod',
-        'CaseEvent-alternative-service-nonprod'
+        'CaseEvent-nonprod'
       ]);
     });
 

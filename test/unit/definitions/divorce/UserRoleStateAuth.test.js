@@ -13,19 +13,19 @@ const State = getStatesDefinitions(['State']);
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation'];
 
-function byCaseType(caseType) {
+function byCaseType (caseType) {
   return entry => {
     return entry.CaseTypeID === caseType;
   };
 }
 
-function byStateName(stateEntry) {
+function byStateName (stateEntry) {
   return stateAuth => {
     return stateAuth.CaseStateID === stateEntry.ID;
   };
 }
 
-function mapErrorArray(caseType) {
+function mapErrorArray (caseType) {
   return entry => {
     return {
       UserRole: entry.UserRole,
@@ -34,11 +34,11 @@ function mapErrorArray(caseType) {
   };
 }
 
-function checkPerms(entry) {
+function checkPerms (entry) {
   expect(entry.CRUD).to.match(MINIMUM_READ_PERMISSIONS);
 }
 
-function runTest(authorisationCaseState) {
+function runTest (authorisationCaseState) {
   // iterate each case type
   // get all state auths for case type
   // get all roles for case type
@@ -78,10 +78,10 @@ describe('UserRole authorisations for CaseState', () => {
     nonprod = getAuthorisationCaseStateDefinitions(
       [
         'AuthorisationCaseState',
-        'AuthorisationCaseState-nonprod',
+        'AuthorisationCaseState-alt-service-process-server-nonprod',
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
-        'AuthorisationCaseState-alternative-service-nonprod'
+        'AuthorisationCaseState-nonprod',
       ]);
 
     prod = getAuthorisationCaseStateDefinitions(
