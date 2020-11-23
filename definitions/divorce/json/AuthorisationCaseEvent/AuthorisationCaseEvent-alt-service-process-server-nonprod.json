@@ -67,7 +67,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "aosNotReceivedForProcessServer",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/11/2020",
