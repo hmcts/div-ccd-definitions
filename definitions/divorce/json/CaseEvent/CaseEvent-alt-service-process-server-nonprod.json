@@ -26,7 +26,7 @@
     "LiveFrom": "03/11/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "confirmProcessServerService",
-    "Name": "Confirm process server service",
+    "Name": "Confirm process server",
     "Description": "Confirm process server service",
     "DisplayOrder": 32,
     "PreConditionState(s)": "AwaitingProcessServerService",
