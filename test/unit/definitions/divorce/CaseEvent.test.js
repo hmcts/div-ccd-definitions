@@ -39,6 +39,7 @@ describe('CaseEvent', () => {
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
+        'CaseEvent-caseworker-LA-Baliff-journey-nonprod',
         'CaseEvent-nonprod'
       ]);
 

@@ -1,0 +1,17 @@
+[
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosSubmittedDefended",
+    "Name": "AOS Submitted (defending)",
+    "Description": "AOS Submitted (defending)",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  }
+]
