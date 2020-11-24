@@ -93,84 +93,84 @@
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherFeeAccountReferenceNumbers",
+    "CaseFieldID": "FurtherPBAReferenceNumbers",
     "UserRole": "citizen",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "FurtherHelpWithFeesReferenceNumbers",
+    "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "citizen",
     "CRUD": "R"
   }

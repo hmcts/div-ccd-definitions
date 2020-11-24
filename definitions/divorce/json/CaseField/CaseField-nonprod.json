@@ -21,7 +21,7 @@
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "FurtherFeeAccountReferenceNumbers",
+    "ID": "FurtherPBAReferenceNumbers",
     "Label": "Further Fee account numbers",
     "FieldType": "Collection",
     "FieldTypeParameter": "ReferenceNumber",
@@ -30,7 +30,7 @@
   {
     "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "FurtherHelpWithFeesReferenceNumbers",
+    "ID": "FurtherHWFReferenceNumbers",
     "Label": "Further HWF references",
     "FieldType": "Collection",
     "FieldTypeParameter": "ReferenceNumber",
