@@ -792,7 +792,7 @@
     "Name": "Issue Personal Service Pack",
     "Description": "Migrate case to and issue Personal Service Pack to petitioner's solicitor",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosOverdue",
+    "PreConditionState(s)": "AosOverdue;AosAwaiting",
     "PostConditionState": "AwaitingService",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/personal-service-pack-from-aos-overdue",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
