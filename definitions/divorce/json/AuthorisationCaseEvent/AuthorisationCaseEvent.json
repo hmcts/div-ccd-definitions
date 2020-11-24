@@ -1353,6 +1353,13 @@
   {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAosStarted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "09/11/2018",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "testAosAwaiting",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -1362,7 +1369,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "testAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "09/11/2018",
