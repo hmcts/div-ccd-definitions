@@ -19,14 +19,18 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
-        'AuthorisationCaseField-nonprod'
+        'AuthorisationCaseField-nonprod',
+        'AuthorisationCaseField-alt-service-process-server-nonprod',
+        'AuthorisationCaseField-alt-service-alt-method-nonprod'
       ]);
 
       allFieldsForNonProd = getCaseFieldDefinitions([
         'CaseField',
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
-        'CaseField-general-referral-nonprod'
+        'CaseField-general-referral-nonprod',
+        'CaseField-alt-service-alt-method-nonprod',
+        'CaseField-alt-service-process-server-nonprod'
       ]);
     });
 

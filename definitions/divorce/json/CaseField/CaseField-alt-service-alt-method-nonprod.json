@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "24/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServedByAlternativeMethod",
+    "Label": "Served by alternative method",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  }
+]
