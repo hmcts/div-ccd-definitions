@@ -133,10 +133,10 @@
     "PageDisplayOrder": 1
   },
   {
-    "LiveFrom": "20/10/2020",
+    "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
-    "CaseFieldID": "SolicitorFeeAccountNumber",
+    "CaseFieldID": "FeeAccountReferenceNumber",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment1",
@@ -157,10 +157,10 @@
     "FieldShowCondition": "GeneralReferralPaymentType=\"feeAccount\""
   },
   {
-    "LiveFrom": "20/10/2020",
+    "LiveFrom": "23/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "generalReferralPayment",
-    "CaseFieldID": "D8HelpWithFeesReferenceNumber",
+    "CaseFieldID": "HelpWithFeesReferenceNumber",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "GeneralReferralPayment1",

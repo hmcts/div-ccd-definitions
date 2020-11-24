@@ -26,7 +26,8 @@ describe('AuthorisationCaseField', () => {
         'CaseField',
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
-        'CaseField-general-referral-nonprod'
+        'CaseField-general-referral-nonprod',
+        'CaseField-nonprod'
       ]);
     });
 

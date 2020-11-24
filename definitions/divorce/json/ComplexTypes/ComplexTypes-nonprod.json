@@ -1,0 +1,10 @@
+[
+  {
+    "LiveFrom": "23/11/2020",
+    "ID": "ReferenceNumber",
+    "ListElementCode": "PaymentReferenceNumber",
+    "FieldType": "Text",
+    "ElementLabel": "Payment reference number",
+    "SecurityClassification": "Public"
+  }
+]
