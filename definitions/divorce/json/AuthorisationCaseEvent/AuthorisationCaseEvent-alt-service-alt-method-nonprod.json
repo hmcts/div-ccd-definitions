@@ -1,0 +1,44 @@
+[
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "confirmServiceByAlternativeMethod",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  }
+]

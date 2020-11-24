@@ -1,0 +1,14 @@
+[
+  {
+    "LiveFrom": "24/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmServiceByAlternativeMethod",
+    "Name": "Confirm alternative method",
+    "Description": "Confirm alternative method",
+    "DisplayOrder": 33,
+    "PreConditionState(s)": "AwaitingGeneralConsideration",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-method",
+    "SecurityClassification": "Public"
+  }
+]
