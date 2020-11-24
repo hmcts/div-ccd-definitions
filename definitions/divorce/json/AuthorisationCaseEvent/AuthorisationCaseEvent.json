@@ -1369,7 +1369,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "testAosAwaiting",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "09/11/2018",
