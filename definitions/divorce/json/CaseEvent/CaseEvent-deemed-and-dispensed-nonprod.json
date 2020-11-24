@@ -38,6 +38,7 @@
     "PreConditionState(s)": "AwaitingServicePayment",
     "PostConditionState": "AwaitingServiceConsideration",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
