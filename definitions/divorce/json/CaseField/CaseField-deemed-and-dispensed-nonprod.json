@@ -136,7 +136,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelPBANumber",
-    "Label": "Fee account number: ${SolicitorFeeAccountNumber}",
+    "Label": "Fee account number: ${FeeAccountReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -144,7 +144,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelHWFReference",
-    "Label": "Fee account reference ${D8HelpWithFeesReferenceNumber}",
+    "Label": "Fee account reference ${HelpWithFeesReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
