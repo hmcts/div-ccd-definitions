@@ -136,7 +136,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelPBANumber",
-    "Label": "Fee account number: ${SolicitorFeeAccountNumber}",
+    "Label": "Fee account number: ${FeeAccountReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -144,7 +144,7 @@
     "LiveFrom": "12/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelHWFReference",
-    "Label": "Fee account reference ${D8HelpWithFeesReferenceNumber}",
+    "Label": "Fee account reference ${HelpWithFeesReferenceNumber}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -171,6 +171,43 @@
     "Label": "Previous service applications",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceServiceApplication",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "HelpWithFeesReferenceNumber",
+    "Label": "Help with fees reference",
+    "FieldType": "Text",
+    "RegularExpression": "([Hh][Ww][Ff]-?)?[0-9a-zA-Z]{3}-?[0-9a-zA-Z]{3}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FeeAccountReferenceNumber",
+    "Label": "Enter your account number",
+    "HintText": "Example: PBA0896366",
+    "FieldType": "Text",
+    "RegularExpression": "^([Pp][Bb][Aa])\\d{7}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FurtherPBAReferenceNumbers",
+    "Label": "Further Fee account numbers",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ReferenceNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FurtherHWFReferenceNumbers",
+    "Label": "Further HWF references",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ReferenceNumber",
     "SecurityClassification": "Public"
   }
 ]
