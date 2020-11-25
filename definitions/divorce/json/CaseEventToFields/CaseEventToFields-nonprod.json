@@ -102,18 +102,5 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "18/11/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "tempSuperUserTestEvent",
-    "CaseFieldID": "ServedByProcessServer",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL",
-    "PageID": "tempSuperUserTestEvent",
-    "PageLabel": "Temporary (non-prod) test event",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
   }
 ]

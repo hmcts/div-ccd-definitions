@@ -16,6 +16,8 @@ describe('AuthorisationCaseField', () => {
     before(() => {
       nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
         'AuthorisationCaseField',
+        'AuthorisationCaseField-alternative-service-nonprod',
+        'AuthorisationCaseField-alt-service-process-server-nonprod',
         'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
@@ -24,6 +26,8 @@ describe('AuthorisationCaseField', () => {
 
       allFieldsForNonProd = getCaseFieldDefinitions([
         'CaseField',
+        'CaseField-alternative-service-nonprod',
+        'CaseField-alt-service-process-server-nonprod',
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-referral-nonprod'
