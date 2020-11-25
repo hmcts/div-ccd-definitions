@@ -17,7 +17,7 @@
     "Name": "Move to awaiting DN",
     "Description": "Move to awaiting DN",
     "DisplayOrder": "20",
-    "PreConditionState(s)": "AosAwaiting",
+    "PreConditionState(s)": "AosAwaiting;AosStarted",
     "PostConditionState": "AwaitingDecreeNisi",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-not-received-for-process-server",
     "SecurityClassification": "Public"
