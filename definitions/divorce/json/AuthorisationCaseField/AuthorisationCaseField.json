@@ -19039,7 +19039,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerPcqId",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "14/09/2020",
@@ -19095,7 +19095,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentPcqId",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "14/09/2020",
@@ -19151,7 +19151,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CoRespondentPcqId",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "14/09/2020",
