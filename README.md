@@ -1,6 +1,6 @@
 # div-ccd-definitions
 Divorce configuration definitions for CCD
- 
+
 ## Setup
 
 ### Pre-requirements 
@@ -113,7 +113,6 @@ yarn reset-ccd-submodule
 You need to use this if you have accidentally change this pointer reference to something other than what you intended (you can instead modify the above command to package.json to check out a specific commit/version of that submodule)
 
 It's also important to note that once you update to a new reference (i.e you commit a change to the `ccd-definition-processor` _file_) you need to make sure everyone else runs `yarn setup` again to get the updated reference as well.
-
 
 ## Release
 
