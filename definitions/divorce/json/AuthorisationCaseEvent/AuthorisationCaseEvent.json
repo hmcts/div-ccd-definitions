@@ -1316,13 +1316,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "AddNote",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "09/11/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "startAos",
