@@ -60,5 +60,16 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForAltMethod",
+    "Name": "Move to awaiting DN",
+    "Description": "Move to awaiting DN",
+    "DisplayOrder": 26,
+    "PreConditionState(s)": "AosAwaiting;AosStarted",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "SecurityClassification": "Public"
   }
 ]
