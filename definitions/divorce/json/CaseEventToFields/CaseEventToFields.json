@@ -1278,7 +1278,7 @@
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
     "PageFieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": "SolAboutTheRespondent",
     "PageLabel": "About the respondent",
     "PageDisplayOrder": 3,
