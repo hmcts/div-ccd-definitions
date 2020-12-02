@@ -18,7 +18,6 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField',
         'AuthorisationCaseField-alternative-service-nonprod',
         'AuthorisationCaseField-alt-service-process-server-nonprod',
-        'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-nonprod'
@@ -28,7 +27,6 @@ describe('AuthorisationCaseField', () => {
         'CaseField',
         'CaseField-alternative-service-nonprod',
         'CaseField-alt-service-process-server-nonprod',
-        'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-referral-nonprod'
       ]);

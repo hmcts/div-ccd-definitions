@@ -22,13 +22,11 @@ describe('CaseTypeTab (nonprod)', () => {
   before(() => {
     caseTypeTab = getCaseTypeTabDefinitions([
       'CaseTypeTab',
-      'CaseTypeTab-deemed-and-dispensed-nonprod',
       'CaseTypeTab-general-referral-nonprod'
     ]);
 
     caseField = getCaseFieldDefinitions([
       'CaseField',
-      'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod'
     ]);
@@ -78,10 +76,7 @@ describe('CaseTypeTab (prod)', () => {
 
   before(() => {
     caseTypeTab = getCaseTypeTabDefinitions(
-      [
-        'CaseTypeTab',
-        'CaseTypeTab-prod'
-      ]);
+      ['CaseTypeTab']);
 
     caseField = getCaseFieldDefinitions(
       [

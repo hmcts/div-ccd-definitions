@@ -116,6 +116,7 @@ const prodTabIds = [
   'notes',
   'marriageCertificate',
   'coRespondent',
+  'serviceApplication',
   // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
   'LinkedCase',
   'Language',
