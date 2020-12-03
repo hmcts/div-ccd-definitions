@@ -71,5 +71,61 @@
     "PreConditionState(s)": "AosAwaiting;AosStarted",
     "PostConditionState": "AwaitingDecreeNisi",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "startAos",
+    "Name": "AOS started",
+    "Description": "AOS started",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
+    "PostConditionState": "AosStarted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "09/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "co-RespAOSReceivedFromAwaitingAlternativeService",
+    "Name": "AOS Received (Co-Respondent)",
+    "Description": "AOS Received (Co-Respondent)",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingAlternativeService",
+    "PostConditionState": "AwaitingAlternativeService",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "09/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "co-RespAOSReceivedFromAwaitingProcessServerService",
+    "Name": "AOS Received (Co-Respondent)",
+    "Description": "AOS Received (Co-Respondent)",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PostConditionState": "AwaitingProcessServerService",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "09/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "co-RespAOSReceivedFromAwaitingDWPResponse",
+    "Name": "AOS Received (Co-Respondent)",
+    "Description": "AOS Received (Co-Respondent)",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AwaitingDWPResponse",
+    "PostConditionState": "AwaitingDWPResponse",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-generate-answers",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]

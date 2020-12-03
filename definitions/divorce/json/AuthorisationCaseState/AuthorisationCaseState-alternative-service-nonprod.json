@@ -39,7 +39,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAlternativeService",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "30/10/2020",
@@ -81,6 +81,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDWPResponse",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRU"
   }
 ]
