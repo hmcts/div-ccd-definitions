@@ -5668,7 +5668,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "migratePersonalAos",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/08/2019",
