@@ -107,30 +107,37 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCase",
+    "Label": "Urgent Case",
+    "DisplayOrder": 16
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolPaymentHowToPay",
     "Label": "Solicitor Payment Method",
-    "DisplayOrder": 16
+    "DisplayOrder": 17
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "evidenceHandled",
     "Label": "Supplementary evidence handled",
-    "DisplayOrder": 17
+    "DisplayOrder": 18
   },
   {
     "LiveFrom": "10/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "DnOutcomeCase",
     "Label": "Case on digital Decree Nisi Outcome",
-    "DisplayOrder": 18
+    "DisplayOrder": 19
   },
   {
     "LiveFrom": "10/10/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ApplyForDecreeAbsolute",
     "Label": "Case on digital Decree Absolute",
-    "DisplayOrder": 19
+    "DisplayOrder": 20
   },
   {
     "LiveFrom": "31/05/2019",
