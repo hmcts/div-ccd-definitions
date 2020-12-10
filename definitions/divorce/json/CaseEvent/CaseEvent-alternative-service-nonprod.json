@@ -58,7 +58,6 @@
     "PreConditionState(s)": "AwaitingAlternativeService",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
   },
   {
@@ -70,6 +69,7 @@
     "DisplayOrder": 26,
     "PreConditionState(s)": "AosAwaiting;AosStarted",
     "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
   }
 ]
