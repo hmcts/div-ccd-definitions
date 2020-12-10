@@ -244,5 +244,16 @@
     "PostConditionState": "AwaitingReissue",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "10/12/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boWelshReview",
+    "Name": "Welsh Translation Review",
+    "Description": "Welsh Translation Review",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved",
+    "PostConditionState": "WelshResponseAwaitingReview",
+    "SecurityClassification": "Public"
   }
 ]

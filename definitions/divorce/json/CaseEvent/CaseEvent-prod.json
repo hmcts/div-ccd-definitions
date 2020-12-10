@@ -154,5 +154,16 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "boWelshReview",
+    "Name": "Welsh Translation Review",
+    "Description": "Welsh Translation Review",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue",
+    "PostConditionState": "WelshResponseAwaitingReview",
+    "SecurityClassification": "Public"
   }
 ]
