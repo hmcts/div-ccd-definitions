@@ -7030,6 +7030,20 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCase",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCaseSupportingInformation",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -9340,6 +9354,20 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCase",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCaseSupportingInformation",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolStatementOfReconciliationDiscussed",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -11329,6 +11357,20 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolStatementOfReconciliationCertify",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCase",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SolUrgentCaseSupportingInformation",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },

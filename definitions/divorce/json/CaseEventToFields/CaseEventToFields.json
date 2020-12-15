@@ -2160,7 +2160,7 @@
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "CaseFieldID": "SolUrgentCaseSupportingInformation",
     "PageFieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
