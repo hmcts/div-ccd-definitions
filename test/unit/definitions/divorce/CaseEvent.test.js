@@ -35,6 +35,7 @@ describe('CaseEvent', () => {
     before(() => {
       nonProd = getCaseEventDefinitions([
         'CaseEvent',
+        'CaseEvent-amend-court-orders-nonprod',
         'CaseEvent-alternative-service-nonprod',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
