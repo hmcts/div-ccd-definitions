@@ -75,6 +75,7 @@ describe('CaseEventToFields (non-prod)', () => {
   before(() => {
     caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
       'CaseEventToFields',
+      'CaseEventToFields-amend-court-orders-nonprod',
       'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
@@ -83,6 +84,7 @@ describe('CaseEventToFields (non-prod)', () => {
 
     caseEventNonProd = getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-amend-court-orders-nonprod',
       'CaseEvent-alternative-service-nonprod',
       'CaseEvent-deemed-and-dispensed-nonprod',
       'CaseEvent-general-email-nonprod',
@@ -92,6 +94,7 @@ describe('CaseEventToFields (non-prod)', () => {
 
     caseFieldNonProd = getCaseFieldDefinitions([
       'CaseField',
+      'CaseField-amend-court-orders-nonprod',
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',

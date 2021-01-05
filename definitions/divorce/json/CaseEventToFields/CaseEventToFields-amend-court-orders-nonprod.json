@@ -1,0 +1,15 @@
+[
+  {
+    "LiveFrom": "01/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateCourtOrderDocuments",
+    "CaseFieldID": "LabelUpdateCourtOrderDocuments",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "updateCourtOrderDocumentsExplanation",
+    "PageLabel": "Regenerate Court Orders",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  }
+]

@@ -16,6 +16,7 @@ describe('AuthorisationCaseEvent', () => {
     before(() => {
       nonProd = getAuthorisationCaseEventDefinitions([
         'AuthorisationCaseEvent',
+        'AuthorisationCaseEvent-amend-court-orders-nonprod',
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
@@ -26,6 +27,7 @@ describe('AuthorisationCaseEvent', () => {
 
       allEventsForNonProd = getCaseEventDefinitions([
         'CaseEvent',
+        'CaseEvent-amend-court-orders-nonprod',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
