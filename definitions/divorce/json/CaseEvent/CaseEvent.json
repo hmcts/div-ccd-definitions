@@ -1734,7 +1734,7 @@
     "DisplayOrder": 21,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingPronouncement",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00020.docx&documentType=coe&filename=certificateOfEntitlement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/update-bulk-case-hearing-details",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/case-linked-for-hearing",
     "RetriesTimeoutURLSubmittedEvent": "120,120",

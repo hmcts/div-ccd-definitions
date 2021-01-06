@@ -114,7 +114,7 @@
     "PreConditionState(s)": "Listed",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-document?templateId=FL-DIV-GNO-ENG-00059.docx&documentType=caseListForPronouncement&filename=caseListForPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/prepare-to-print-for-pronouncement",
     "ShowSummary": "Y"
   },
   {
