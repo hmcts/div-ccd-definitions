@@ -1655,6 +1655,22 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "SolUrgentCase",
+    "Label": "Is this an urgent jurisdiction case?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SolUrgentCaseSupportingInformation",
+    "Label": "Any supporting information or instructions?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "LabelSolServiceMethod",
     "Label": "## Service method",
     "FieldType": "Label",
