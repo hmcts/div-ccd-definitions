@@ -76,7 +76,6 @@ describe('CaseEventToFields (non-prod)', () => {
     caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-amend-court-orders-nonprod',
-      'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-nonprod'
