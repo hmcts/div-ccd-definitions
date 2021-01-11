@@ -78,7 +78,9 @@ describe('UserRole authorisations for CaseState', () => {
     nonprod = getAuthorisationCaseStateDefinitions(
       [
         'AuthorisationCaseState',
+        'AuthorisationCaseState-alt-service-process-server-nonprod',
         'AuthorisationCaseState-alternative-service-nonprod',
+        'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
         'AuthorisationCaseState-nonprod'
       ]);
