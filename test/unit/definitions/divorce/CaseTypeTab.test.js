@@ -22,12 +22,14 @@ describe('CaseTypeTab (nonprod)', () => {
   before(() => {
     caseTypeTab = getCaseTypeTabDefinitions([
       'CaseTypeTab',
-      'CaseTypeTab-deemed-and-dispensed-nonprod',
       'CaseTypeTab-general-referral-nonprod'
     ]);
 
     caseField = getCaseFieldDefinitions([
       'CaseField',
+      'CaseField-alt-service-process-server-nonprod',
+      'CaseField-alternative-service-nonprod',
+      'CaseField-amend-court-orders-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod'
     ]);
