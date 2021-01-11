@@ -519,5 +519,13 @@
     "FieldType": "TextArea",
     "ElementLabel": "Reason for refusal",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "ID": "ReferenceNumber",
+    "ListElementCode": "Reference",
+    "FieldType": "Text",
+    "ElementLabel": "Payment reference number",
+    "SecurityClassification": "Public"
   }
 ]
