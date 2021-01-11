@@ -52,7 +52,9 @@ function getEventsForEventName(eventName, caseType) {
 
 function getAuthStateForUserRole(state, userRole, caseType) {
   return entry => {
-    return entry.CaseStateID === state && entry.UserRole === userRole && entry.CaseTypeID === caseType;
+    return entry.CaseStateID === state
+      && entry.UserRole === userRole
+      && entry.CaseTypeID === caseType;
   };
 }
 
@@ -78,7 +80,11 @@ function checkAuthStateConfig(conditionState, allAuthForEvent, caseType, eventNa
 describe('Events authorisation validation', () => {
   before(() => {
     AuthCaseEventsActive = AuthorisationCaseEvent.filter(entry => {
-      return entry.CRUD === 'CRU' || entry.CRUD === 'RU';
+      if (entry.CRUD === 'CRU' || entry.CRUD === 'RU') {
+        return true;
+      }
+
+      return false;
     });
 
     // we need to exclude the Case Roles events as its not used for Field Authorisation (is User Role only)
