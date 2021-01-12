@@ -957,5 +957,47 @@
     "CaseFieldID": "FurtherHWFReferenceNumbers",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplication",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]

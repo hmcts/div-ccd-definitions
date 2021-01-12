@@ -233,7 +233,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"deemed\"",
+    "FieldShowCondition": "LastServiceApplication.ApplicationGranted=\"Yes\" AND LastServiceApplication.Type=\"deemed\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -247,7 +247,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"dispensed\"",
+    "FieldShowCondition": "LastServiceApplication.ApplicationGranted=\"Yes\" AND LastServiceApplication.Type=\"dispensed\"",
     "ShowSummaryChangeOption": "No"
   },
   {
