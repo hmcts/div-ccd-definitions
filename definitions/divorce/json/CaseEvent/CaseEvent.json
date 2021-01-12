@@ -2366,7 +2366,7 @@
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-confirm-service",
     "SecurityClassification": "Public"
   },
   {
