@@ -233,7 +233,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"deemed\"",
+    "FieldShowCondition": "LastServiceApplication.ApplicationGranted=\"Yes\" AND LastServiceApplication.Type=\"deemed\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -247,7 +247,7 @@
     "PageLabel": "Review Acknowledgement of Service",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "ServiceApplicationGranted=\"Yes\" AND ServiceApplicationType=\"dispensed\"",
+    "FieldShowCondition": "LastServiceApplication.ApplicationGranted=\"Yes\" AND LastServiceApplication.Type=\"dispensed\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -276,6 +276,20 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "FieldShowCondition": "DNApplyForDecreeNisi=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "LastServiceApplication",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"Nevershow\"",
     "ShowSummaryChangeOption": "No"
   }
 ]

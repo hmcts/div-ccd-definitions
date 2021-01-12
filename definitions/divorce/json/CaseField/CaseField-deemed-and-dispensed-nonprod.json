@@ -209,5 +209,13 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "ReferenceNumber",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LastServiceApplication",
+    "Label": "Last service application",
+    "FieldType": "DivorceServiceApplication",
+    "SecurityClassification": "Public"
   }
 ]
