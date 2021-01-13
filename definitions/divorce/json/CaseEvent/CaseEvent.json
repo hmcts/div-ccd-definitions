@@ -782,8 +782,8 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosOverdue;AosAwaiting",
     "PostConditionState": "Issued",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/migrate-to-personal-service-pack",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/migrate-to-personal-service-pack",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
