@@ -12598,20 +12598,6 @@
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "25/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorApplyForDN",
-    "CaseFieldID": "ServiceApplicationType",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "READONLY",
-    "PageID": "dnreviewaos",
-    "PageLabel": "Review Acknowledgement of Service",
-    "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "DNApplyForDecreeNisi=\"NeverShow\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
     "LiveFrom": "12/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
