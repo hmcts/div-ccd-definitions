@@ -171,7 +171,19 @@
     "LiveFrom": "01/01/2017",
     "ID": "jurisdictionConnectionsEnum",
     "ListElementCode": "G",
-    "ListElement": "The courts of England and Wales have residual jurisdiction"
+    "ListElement": "The courts of England and Wales have residual jurisdiction (same sex married couple)"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "jurisdictionConnectionsEnum",
+    "ListElementCode": "H",
+    "ListElement": "The Petitioner is domiciled in England and Wales"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "jurisdictionConnectionsEnum",
+    "ListElementCode": "I",
+    "ListElement": "The Respondent is domiciled in England and Wales"
   },
   {
     "LiveFrom": "01/01/2017",
