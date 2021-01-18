@@ -1,0 +1,15 @@
+[
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "ApplicantOrganisationPolicy",
+    "PageFieldDisplayOrder": 20,
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "applicantRepresented=\"Yes\" OR  isAdmin=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  }
+]

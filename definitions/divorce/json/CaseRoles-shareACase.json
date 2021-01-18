@@ -1,0 +1,9 @@
+[
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "[caseworker-caa]",
+    "Name": "Petitioner's Solicitor",
+    "Description": "Role to isolate events available for Petitioner's Solicitor"
+  }
+]

@@ -12,5 +12,12 @@
     "ID": "[PETSOLICITOR]",
     "Name": "Petitioner's Solicitor",
     "Description": "Role to isolate events available for Petitioner's Solicitor"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "[PETSOLICITOR]",
+    "Name": "Petitioner's Solicitor",
+    "Description": "Role to isolate events available for Petitioner's Solicitor"
   }
 ]
