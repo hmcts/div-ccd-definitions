@@ -2,42 +2,42 @@
   {
     "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
       "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
       "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
   {
       "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },
   {
       "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
       "LiveFrom": "19/01/2021",
     "CaseTypeID": "Benefit",
-    "CaseFieldID": "petitionerOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   }

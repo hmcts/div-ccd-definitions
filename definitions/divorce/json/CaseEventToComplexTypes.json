@@ -1,12 +1,1 @@
-[
-  {
-    "LiveFrom": "18/01/2021",
-    "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "petitionerOrganisationPolicy",
-    "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[PETSOLICITOR]",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
-  }
-]
+[]

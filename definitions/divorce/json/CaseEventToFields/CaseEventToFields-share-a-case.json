@@ -6,9 +6,8 @@
     "CaseFieldID": "petitionerOrganisationPolicy",
     "PageFieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageColumnNumber": 1,
+    "PageID": "SolAboutTheSolicitor",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y"
   }
 ]
