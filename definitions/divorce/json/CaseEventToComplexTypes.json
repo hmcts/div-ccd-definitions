@@ -1,13 +1,22 @@
 [
   {
     "LiveFrom": "18/01/2021",
-    "ID": "solicitorCreateComplexType",
+    "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
     "DefaultValue": "[PETSOLICITOR]",
-    "EventElementLabel": "Petitioner Organisation Policy",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "19/01/2021",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[RESPSOLICITOR]",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   }
 ]
