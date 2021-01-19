@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "19/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "PageFieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolAboutTheSolicitor",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  }
+]
