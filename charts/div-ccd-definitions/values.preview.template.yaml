@@ -42,7 +42,7 @@ ccd:
         - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
       CCD Admin:
         - https://admin-web-${SERVICE_FQDN}/oauth2redirect
-        -
+
   xui-webapp:
     enabled: true
     nodejs:
