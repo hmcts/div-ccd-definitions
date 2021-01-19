@@ -3,7 +3,7 @@
     "LiveFrom": "18/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "ApplicantOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "PageFieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
