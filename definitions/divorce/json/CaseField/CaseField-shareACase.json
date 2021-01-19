@@ -3,7 +3,15 @@
     "LiveFrom": "18/01/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "PetitionerOrganisationPolicy",
-    "Label": "Petitioner Organisation Policy",
+    "Label": "Petitioner Solicitor Details",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentOrganisationPolicy",
+    "Label": "Respondent Solicitor Details",
     "FieldType": "OrganisationPolicy",
     "SecurityClassification": "Public"
   }
