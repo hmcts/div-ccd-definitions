@@ -22,6 +22,17 @@ xui-webapp:
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
 
+idam-pr:
+  releaseNameOverride: ${SERVICE_NAME}-ccd-idam-pr
+  enabled: true
+  redirect_uris:
+    XUI:
+      - https://xui-${SERVICE_FQDN}/oauth2/callback
+    CCD:
+      - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
+    CCD Admin:
+      - https://admin-web-${SERVICE_FQDN}/oauth2redirect
+
 ccd:
   ccd:
     definitionImporter:
@@ -47,17 +58,6 @@ ccd:
     postgresUsername: hmcts
     postgresPassword: hmcts
     s2sUrl: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
-
-  idam-pr:
-    releaseNameOverride: ${SERVICE_NAME}-ccd-idam-pr
-    enabled: true
-    redirect_uris:
-      XUI:
-        - https://xui-${SERVICE_FQDN}/oauth2/callback
-      CCD:
-        - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
-      CCD Admin:
-        - https://admin-web-${SERVICE_FQDN}/oauth2redirect
 
   ccd-user-profile-api:
     java:
