@@ -1,36 +1,43 @@
 [
   {
-    "LiveFrom": "18/01/2021",
+    "LiveFrom": "19/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "GeneralReferralReason",
+    "CaseFieldID": "petitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "18/01/2021",
+      "LiveFrom": "19/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "GeneralReferralReason",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRUD"
+    "CaseFieldID": "petitionerOrganisationPolicy",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   },
   {
-    "LiveFrom": "18/01/2021",
+      "LiveFrom": "19/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "GeneralReferralReason",
+    "CaseFieldID": "petitionerOrganisationPolicy",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+      "LiveFrom": "19/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "petitionerOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+      "LiveFrom": "19/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "petitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "18/01/2021",
+      "LiveFrom": "19/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "GeneralReferralReason",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "18/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "GeneralReferralReason",
+    "CaseFieldID": "petitionerOrganisationPolicy",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   }

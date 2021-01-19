@@ -159,5 +159,12 @@
     "CaseFieldID": "[STATE]",
     "Label": "Case status",
     "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "19/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "[STATE]",
+    "Label": "Case status",
+    "DisplayOrder": 3
   }
 ]
