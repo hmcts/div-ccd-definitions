@@ -3,10 +3,10 @@
     "LiveFrom": "18/01/2021",
     "ID": "solicitorCreateComplexType",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "ApplicantOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
     "DefaultValue": "[PETSOLICITOR]",
-    "EventElementLabel": "Applicant Organisation Policy",
+    "EventElementLabel": "Petitioner Organisation Policy",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   }
