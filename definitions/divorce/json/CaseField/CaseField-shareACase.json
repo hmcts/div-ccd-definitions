@@ -1,10 +1,9 @@
 [
   {
     "LiveFrom": "19/01/2021",
-    "CaseTypeID": "Benefit",
-    "ID": "petitionerOrganisationPolicy",
+    "ID": "petitionerSolicitor",
     "Label": "Petitioner Solicitor Details",
-    "FieldType": "OrganisationPolicy",
+    "FieldType": "Litigant",
     "SecurityClassification": "Public"
   }
 ]

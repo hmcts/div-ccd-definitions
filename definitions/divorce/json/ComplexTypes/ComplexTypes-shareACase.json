@@ -1,0 +1,11 @@
+[
+  {
+    "LiveFrom": "19/01/2021",
+    "CaseTypeID": "Benefit",
+    "ID": "Litigant",
+    "ListElementCode": "OrganisationPolicy",
+    "FieldType": "OrganisationPolicy",
+    "ElementLabel": "Solicitor Details",
+    "SecurityClassification": "Public"
+  }
+]
