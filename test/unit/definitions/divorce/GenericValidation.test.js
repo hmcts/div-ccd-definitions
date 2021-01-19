@@ -10,7 +10,7 @@ const Config = {
   AuthorisationCaseType: Object.assign(require('definitions/divorce/json/AuthorisationCaseType/AuthorisationCaseType'), []),
   AuthorisationComplexType: Object.assign(require('definitions/divorce/json/AuthorisationComplexType'), []),
   CaseEvent: Object.assign(require('definitions/divorce/json/CaseEvent/CaseEvent'), []),
-  CaseEventToComplexTypes: Object.assign(require('definitions/divorce/json/CaseEventToComplexTypes'), []),
+  CaseEventToComplexTypes: Object.assign(require('definitions/divorce/json/CaseEventToComplexTypes/CaseEventToComplexTypes'), []),
   CaseEventToFields: Object.assign(require('definitions/divorce/json/CaseEventToFields/CaseEventToFields'), []),
   CaseField: Object.assign(require('definitions/divorce/json/CaseField/CaseField'), []),
   CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
