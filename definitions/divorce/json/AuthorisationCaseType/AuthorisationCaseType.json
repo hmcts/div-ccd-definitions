@@ -48,12 +48,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "14/09/2020",
     "CaseTypeID": "DIVORCE",
     "UserRole": "caseworker-divorce-pcqextractor",

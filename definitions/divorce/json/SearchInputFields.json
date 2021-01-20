@@ -138,26 +138,5 @@
     "CaseFieldID": "ApplyForDecreeAbsolute",
     "Label": "Case on digital Decree Absolute",
     "DisplayOrder": 20
-  },
-  {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseFieldID": "[CASE_REFERENCE]",
-    "Label": "CCD Reference",
-    "DisplayOrder": 1
-  },
-  {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseFieldID": "[CREATED_DATE]",
-    "Label": "Case created date",
-    "DisplayOrder": 2
-  },
-  {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseFieldID": "[STATE]",
-    "Label": "Case status",
-    "DisplayOrder": 3
   }
 ]

@@ -7217,42 +7217,6 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "CaseFieldID": "LinkRespondentName",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "PageID": "CreateCase",
-    "PageLabel": "Create a Notice of Acting",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "CaseFieldID": "RespondentSolicitorCaseNo",
-    "PageFieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "PageID": "CreateCase",
-    "PageLabel": "Create a Notice of Acting",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "CaseFieldID": "RespondentSolicitorPin",
-    "PageFieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY",
-    "PageID": "CreateCase",
-    "PageLabel": "Create a Notice of Acting",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "GrantDecreeAbsolute",
