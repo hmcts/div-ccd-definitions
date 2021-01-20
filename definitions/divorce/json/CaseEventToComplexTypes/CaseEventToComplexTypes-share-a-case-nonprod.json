@@ -1,0 +1,32 @@
+[
+  {
+    "LiveFrom": "20/01/2021",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[PETSOLICITOR]",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "OPTIONAL"
+  }
+]
