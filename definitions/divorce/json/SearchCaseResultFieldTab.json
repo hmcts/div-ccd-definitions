@@ -1,0 +1,22 @@
+[
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "caseworker_caa",
+    "CaseFieldID": "Petitioner.Surname",
+    "Label": "Petitioner Surname",
+    "DisplayOrder": "1",
+    "ResultsOrdering": "1",
+    "UseCase": "Orgcases"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "caseworker_caa",
+    "CaseFieldID": "Respondent.Surname",
+    "Label": "Respondent Surname",
+    "DisplayOrder": "2",
+    "ResultsOrdering": "2",
+    "UseCase": "Orgcases"
+  }
+]
