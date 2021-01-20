@@ -30,5 +30,37 @@
     "ListElementCode": "Organisation.OrganisationID",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "Organisation",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   }
 ]
