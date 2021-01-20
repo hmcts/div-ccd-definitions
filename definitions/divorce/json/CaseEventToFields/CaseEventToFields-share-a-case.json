@@ -5,7 +5,7 @@
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "PageFieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "COMPLEX",
     "PageID": "SolAboutTheSolicitor",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
