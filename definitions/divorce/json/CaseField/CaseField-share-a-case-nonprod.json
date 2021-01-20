@@ -1,0 +1,11 @@
+[
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerOrganisationPolicy",
+    "Label": "Petitioner Organisation Policy",
+    "HintText": "Petitioner Organisation Details",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  }
+]
