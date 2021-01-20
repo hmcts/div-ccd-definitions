@@ -21,6 +21,7 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField-amend-court-orders-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
+        'AuthorisationCaseField-share-a-case-nonprod',
         'AuthorisationCaseField-nonprod'
       ]);
 
@@ -30,7 +31,8 @@ describe('AuthorisationCaseField', () => {
         'CaseField-alt-service-process-server-nonprod',
         'CaseField-amend-court-orders-nonprod',
         'CaseField-general-email-nonprod',
-        'CaseField-general-referral-nonprod'
+        'CaseField-general-referral-nonprod',
+        'CaseField-share-a-case-nonprod'
       ]);
     });
 
