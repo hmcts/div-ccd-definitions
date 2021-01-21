@@ -1,16 +1,7 @@
 [
   {
     "LiveFrom": "20/01/2021",
-    "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[PETSOLICITOR]",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
@@ -21,12 +12,24 @@
   },
   {
     "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[PETSOLICITOR]",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "EventElementLabel": "",
-    "FieldDisplayOrder": "",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
   }
 ]
