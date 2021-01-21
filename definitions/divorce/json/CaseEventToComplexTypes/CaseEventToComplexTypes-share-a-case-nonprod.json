@@ -8,7 +8,7 @@
     "ListElementCode": "OrgPolicyCaseAssignedRole",
     "DefaultValue": "[PETSOLICITOR]",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "MANDATORY"
   },
   {
     "LiveFrom": "20/01/2021",
@@ -18,8 +18,8 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "Organisation.OrganisationID",
     "EventElementLabel": "",
-    "FieldDisplayOrder": "",
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "LiveFrom": "20/01/2021",
@@ -29,7 +29,7 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "EventElementLabel": "",
-    "FieldDisplayOrder": "",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   }
 ]
