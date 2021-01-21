@@ -1,13 +1,11 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const {
-  isNotEmpty, isNotLongerThan, noDuplicateFound,
-  whenPopulated, loadAllFiles
+const { SHORT_STRING,
+        MEDIUM_STRING,
+        LONG_STRING,
+        isNotEmpty, isNotLongerThan, noDuplicateFound,
+        whenPopulated, loadAllFiles
 } = require('../../utils/utils');
-
-const SHORT_STRING = 30;
-const MEDIUM_STRING = 70;
-const LONG_STRING = 100;
 
 const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 

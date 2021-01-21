@@ -1,6 +1,7 @@
 [
   {
     "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
@@ -11,6 +12,7 @@
   },
   {
     "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
@@ -21,6 +23,7 @@
   },
   {
     "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
