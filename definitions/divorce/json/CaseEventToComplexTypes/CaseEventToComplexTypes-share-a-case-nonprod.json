@@ -5,9 +5,9 @@
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[PETSOLICITOR]",
-    "FieldDisplayOrder": 1,
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
     "DisplayContext": "MANDATORY"
   },
   {
@@ -16,9 +16,8 @@
     "ID": "OrganisationPolicy",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "Organisation.OrganisationID",
-    "EventElementLabel": "",
-    "FieldDisplayOrder": 2,
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[PETSOLICITOR]",
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -29,7 +28,6 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "EventElementLabel": "",
-    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   }
 ]
