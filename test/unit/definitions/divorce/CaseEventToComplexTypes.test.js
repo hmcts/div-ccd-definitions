@@ -18,7 +18,7 @@ function assertEventToComplexTypesDefinitionIsValid(row) {
   expect(DISPLAY_CONTEXTS).to.includes(row.DisplayContext);
 }
 
-describe.only('CaseEventToComplexTypes', () => {
+describe('CaseEventToComplexTypes', () => {
   describe('NonProd:', () => {
     let nonProdDefinitions = [];
 
