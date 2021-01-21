@@ -1,7 +1,5 @@
 const { expect } = require('chai');
-const { MEDIUM_STRING, isNotLongerThan,
-  whenPopulated, loadAllFiles
-} = require('../../utils/utils');
+const { MEDIUM_STRING, isNotLongerThan, loadAllFiles } = require('../../utils/utils');
 
 const DISPLAY_CONTEXTS = ['MANDATORY', 'READONLY', 'OPTIONAL'];
 
@@ -27,7 +25,6 @@ describe('CaseEventToComplexTypes', () => {
         'CaseEventToComplexTypes',
         'CaseEventToComplexTypes-share-a-case-nonprod'
       ]);
-
     });
 
     it('should have only valid definitions', () => {
@@ -40,10 +37,7 @@ describe('CaseEventToComplexTypes', () => {
 
     before(() => {
       prodOnlyDefinitions = getCaseEventToComplexTypesDefinitions(
-        [
-          'CaseEventToComplexTypes'
-        ]);
-
+        ['CaseEventToComplexTypes']);
     });
 
     it('should have only valid definitions', () => {

@@ -60,7 +60,9 @@ function sortCaseTypeTabs(caseTypeTab) {
 }
 
 function getUniqValues(objectArray, property) {
-  return map(uniqBy(objectArray, property), (obj) => obj[property]);
+  return map(uniqBy(objectArray, property), obj => {
+    return obj[property];
+  });
 }
 
 module.exports = {

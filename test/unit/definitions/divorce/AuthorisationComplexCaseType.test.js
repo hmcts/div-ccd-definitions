@@ -10,13 +10,9 @@ describe('AuthorisationComplexType', () => {
     let allFieldsForNonProd = [];
 
     before(() => {
-      nonProdAuthorisationComplexType = getAuthorisationComplexTypeDefinitions([
-        'AuthorisationComplexType-share-a-case-nonprod'
-      ]);
+      nonProdAuthorisationComplexType = getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType-share-a-case-nonprod']);
 
-      allFieldsForNonProd = getCaseFieldDefinitions([
-        'CaseField-share-a-case-nonprod'
-      ]);
+      allFieldsForNonProd = getCaseFieldDefinitions(['CaseField-share-a-case-nonprod']);
     });
 
     it('should have a list of ComplexType IDs that exist in CaseFields', () => {
@@ -25,7 +21,6 @@ describe('AuthorisationComplexType', () => {
 
       expect(uniqNonProdCaseFieldID).to.include.members(uniqNonProdComplexTypeCaseFieldID);
     });
-
   });
 
   describe('Prod:', () => {
@@ -33,9 +28,7 @@ describe('AuthorisationComplexType', () => {
     let allFieldsForProd = [];
 
     before(() => {
-      prodAuthorisationComplexType = getAuthorisationComplexTypeDefinitions([
-        'AuthorisationComplexType'
-      ]);
+      prodAuthorisationComplexType = getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']);
 
       allFieldsForProd = getCaseFieldDefinitions([
         'CaseField',
@@ -49,6 +42,5 @@ describe('AuthorisationComplexType', () => {
 
       expect(uniqProdCaseFieldID).to.include.members(uniqProdComplexTypeCaseFieldID);
     });
-
   });
 });
