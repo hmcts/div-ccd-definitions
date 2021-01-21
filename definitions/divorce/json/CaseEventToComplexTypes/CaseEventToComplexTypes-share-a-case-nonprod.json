@@ -18,6 +18,7 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
     "DefaultValue": "[PETSOLICITOR]",
+    "FieldShowCondition": "divorceCaseNumber=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -28,6 +29,7 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "EventElementLabel": "",
+    "FieldShowCondition": "divorceCaseNumber=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
   }
 ]
