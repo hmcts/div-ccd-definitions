@@ -16,12 +16,9 @@ function assertEventToComplexTypesDefinitionIsValid(row) {
   expect(row.CaseEventID).to.be.a('string').and.satisfy(isNotLongerThan(MEDIUM_STRING));
   expect(row.ListElementCode).to.be.a('string').and.satisfy(isNotLongerThan(MEDIUM_STRING));
   expect(DISPLAY_CONTEXTS).to.includes(row.DisplayContext);
-  whenPopulated(row.FieldShowCondition).expect(v => {
-    return ['Y', 'N'].includes(v);
-  });
 }
 
-describe('CaseEventToComplexTypes', () => {
+describe.only('CaseEventToComplexTypes', () => {
   describe('NonProd:', () => {
     let nonProdDefinitions = [];
 
