@@ -1,6 +1,10 @@
 const load = require;
-const { sortBy } = require('lodash');
+const { sortBy, uniqBy, map } = require('lodash');
 const { expect } = require('chai');
+
+const SHORT_STRING = 30;
+const MEDIUM_STRING = 70;
+const LONG_STRING = 100;
 
 function isFieldDuplicated(field) {
   return function isDuplicated(field1, field2) {
@@ -55,12 +59,22 @@ function sortCaseTypeTabs(caseTypeTab) {
   });
 }
 
+function getUniqValues(objectArray, property) {
+  return map(uniqBy(objectArray, property), obj => {
+    return obj[property];
+  });
+}
+
 module.exports = {
+  SHORT_STRING,
+  MEDIUM_STRING,
+  LONG_STRING,
   isFieldDuplicated,
   loadAllFiles,
   sortCaseTypeTabs,
   noDuplicateFound,
   isNotEmpty,
   isNotLongerThan,
-  whenPopulated
+  whenPopulated,
+  getUniqValues
 };
