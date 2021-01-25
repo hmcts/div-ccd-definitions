@@ -53,14 +53,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelContinueBecauseOfServedByAlternativeMethod",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelContinueBecauseOfServedByAlternativeMethod",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/01/2021",
@@ -81,7 +81,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LabelContinueBecauseOfServedByAlternativeMethod",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/01/2021",
