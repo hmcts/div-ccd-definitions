@@ -79,6 +79,8 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
+      'CaseEventToFields-alt-service-process-server-nonprod',
+      'CaseEventToFields-alternative-service-nonprod',
       'CaseEventToFields-nonprod'
     ]);
 
@@ -89,6 +91,7 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseEvent-deemed-and-dispensed-nonprod',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
+      'CaseEvent-alt-service-process-server-nonprod',
       'CaseEvent-nonprod'
     ]);
 
@@ -98,7 +101,8 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
+      'CaseField-general-referral-nonprod',
+      'CaseField-alternative-service-nonprod'
     ]);
   });
 
