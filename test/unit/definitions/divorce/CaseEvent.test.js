@@ -36,10 +36,10 @@ describe('CaseEvent', () => {
         'CaseEvent',
         'CaseEvent-amend-court-orders-nonprod',
         'CaseEvent-alternative-service-nonprod',
+        'CaseEvent-alt-service-process-server-nonprod',
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-alt-service-process-server-nonprod',
         'CaseEvent-nonprod'
       ]);
 
