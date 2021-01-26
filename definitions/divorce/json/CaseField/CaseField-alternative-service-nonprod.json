@@ -11,7 +11,7 @@
     "LiveFrom": "25/01/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelContinueBecauseOfServedByAlternativeMethod",
-    "Label": "Because the court accepted the application for ’service by alternative method’, you are able to continue with the divorce without seeing the respondent answers.",
+    "Label": "Because the court accepted the application for 'service by alternative method', you are able to continue with the divorce without seeing the respondent answers.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
