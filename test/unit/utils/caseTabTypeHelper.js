@@ -33,7 +33,6 @@ const nonProdTabDisplayOrder = {
 
 const nonProdTabIds = [
   'History',
-  'General',
   'petitionDetails',
   'aosDetails',
   'dnDetails',
@@ -89,12 +88,10 @@ const prodTabDisplayOrder = {
   LinkedCase: 23,
   Language: 24,
   ConfidentialDocuments: 25,
-  General: 1
 };
 
 const prodTabIds = [
   'History',
-  'General',
   'petitionDetails',
   'aosDetails',
   'dnDetails',

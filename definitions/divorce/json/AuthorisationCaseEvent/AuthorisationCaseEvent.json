@@ -4606,41 +4606,6 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "CaseEventID": "create",
-    "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
-  },
-  {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "MakeEligibleForDA_Petitioner",

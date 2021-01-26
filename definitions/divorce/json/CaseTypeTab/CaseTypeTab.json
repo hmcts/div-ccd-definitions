@@ -10,16 +10,6 @@
     "TabFieldDisplayOrder": 1
   },
   {
-    "LiveFrom": "31/05/2019",
-    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
-    "Channel": "CaseWorker",
-    "TabID": "General",
-    "TabLabel": "General",
-    "TabDisplayOrder": 1,
-    "CaseFieldID": "RespondentSolicitorCaseNo",
-    "TabFieldDisplayOrder": 1
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
