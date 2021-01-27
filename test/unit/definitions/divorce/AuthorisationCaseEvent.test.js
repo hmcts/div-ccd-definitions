@@ -22,6 +22,7 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-alternative-service-nonprod',
         'AuthorisationCaseEvent-alt-service-process-server-nonprod',
+        'AuthorisationCaseEvent-caseworker-and-la-bailiff-journey-nonprod',
         'AuthorisationCaseEvent-nonprod'
       ]);
 
@@ -31,9 +32,10 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-nonprod',
+        'CaseEvent-alternative-service-nonprod',
         'CaseEvent-alt-service-process-server-nonprod',
-        'CaseEvent-alternative-service-nonprod'
+        'CaseEvent-caseworker-and-la-bailiff-journey-nonprod',
+        'CaseEvent-nonprod'
       ]);
     });
 

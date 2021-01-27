@@ -1,0 +1,37 @@
+[
+  {
+    "LiveFrom": "27/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "27/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosSubmittedUndefended",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "27/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "27/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "27/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  }
+]
