@@ -16,25 +16,27 @@ describe('AuthorisationCaseField', () => {
     before(() => {
       nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
         'AuthorisationCaseField',
-        'AuthorisationCaseField-amend-court-orders-nonprod',
-        'AuthorisationCaseField-alternative-service-nonprod',
+        'AuthorisationCaseField-nonprod',
         'AuthorisationCaseField-alt-service-process-server-nonprod',
+        'AuthorisationCaseField-alternative-service-nonprod',
+        'AuthorisationCaseField-amend-court-orders-nonprod',
         'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
-        'AuthorisationCaseField-share-a-case-nonprod',
-        'AuthorisationCaseField-nonprod'
+        'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
+        'AuthorisationCaseField-share-a-case-nonprod'
       ]);
 
       allFieldsForNonProd = getCaseFieldDefinitions([
         'CaseField',
-        'CaseField-amend-court-orders-nonprod',
-        'CaseField-alternative-service-nonprod',
+        'CaseField-share-a-case-nonprod',
         'CaseField-alt-service-process-server-nonprod',
+        'CaseField-alternative-service-nonprod',
+        'CaseField-amend-court-orders-nonprod',
         'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-referral-nonprod',
-        'CaseField-share-a-case-nonprod'
+        'CaseField-resp-journey-roles-and-permissions-nonprod'
       ]);
     });
 
