@@ -89,5 +89,15 @@
     "TabDisplayOrder": 8,
     "CaseFieldID": "PaymentHistory",
     "TabFieldDisplayOrder": 6
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notes",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "TabFieldDisplayOrder": 1
   }
 ]
