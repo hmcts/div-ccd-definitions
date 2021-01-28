@@ -3,14 +3,14 @@
     "LiveFrom": "18/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerOrganisationPolicy",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "18/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerOrganisationPolicy",
-    "UserRole": "caseworker-caa",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
