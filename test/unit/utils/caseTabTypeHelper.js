@@ -50,6 +50,7 @@ const nonProdTabIds = [
   'confidentialRespondentCourtAdmin',
   'confidentialRespondentCourtAdminBeta',
   'confidentialRespondentCourtAdminLa',
+  'confidentialRespondentForRespSol',
   'confidentialCoRespondentCourtAdmin',
   'confidentialCoRespondentCourtAdminBeta',
   'confidentialCoRespondentCourtAdminLa',
