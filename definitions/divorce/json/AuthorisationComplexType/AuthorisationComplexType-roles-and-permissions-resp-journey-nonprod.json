@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "UserRole": "[RESPSOLICITOR]",
+    "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
@@ -12,7 +12,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
-    "UserRole": "[RESPSOLICITOR]",
+    "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
@@ -20,7 +20,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "Organisation",
-    "UserRole": "[RESPSOLICITOR]",
+    "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
@@ -28,7 +28,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "Organisation.OrganisationID",
-    "UserRole": "[RESPSOLICITOR]",
+    "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   }
 ]
