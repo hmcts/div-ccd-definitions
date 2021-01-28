@@ -1,0 +1,132 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
+    "UserRole": "[PETSOLICITOR]",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8PetitionerPhoneNumber",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8PetitionerEmail",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8DerivedPetitionerHomeAddress",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesCitizen",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "citizen",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesCourtAdmin",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesCourtAdminBeta",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesSysUpdate",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesBulkScan",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesCourtAdminLa",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesSuperUser",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-superuser",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "notesPcqExtractor",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 20,
+    "CaseFieldID": "CaseNotes",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "TabFieldDisplayOrder": 1
+  }
+]
