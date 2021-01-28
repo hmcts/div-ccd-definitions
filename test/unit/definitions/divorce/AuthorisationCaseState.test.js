@@ -17,19 +17,19 @@ describe('AuthorisationCaseState', () => {
         [
           'AuthorisationCaseState',
           'AuthorisationCaseState-alternative-service-nonprod',
+          'AuthorisationCaseState-alt-service-process-server-nonprod',
           'AuthorisationCaseState-bailiff-nonprod',
           'AuthorisationCaseState-deemed-and-dispensed-nonprod',
           'AuthorisationCaseState-general-referral-nonprod',
-          'AuthorisationCaseState-alt-service-process-server-nonprod',
           'AuthorisationCaseState-nonprod'
         ]
       );
       nonProdStates = getStateDefinitions([
         'State',
         'State-alternative-service-nonprod',
+        'State-alt-service-process-server-nonprod',
         'State-bailiff-nonprod',
         'State-deemed-and-dispensed-nonprod',
-        'State-alt-service-process-server-nonprod',
         'State-general-referral-nonprod'
       ]);
     });
