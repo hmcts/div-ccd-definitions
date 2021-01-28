@@ -3,14 +3,21 @@
     "LiveFrom": "26/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "26/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
-    "UserRole": "caseworker-caa",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
@@ -46,6 +53,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRU"
   }
 ]
