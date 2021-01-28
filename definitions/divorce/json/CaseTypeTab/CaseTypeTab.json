@@ -2253,7 +2253,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminBeta",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "TabFieldDisplayOrder": 1,
@@ -2265,7 +2265,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminBeta",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerPhoneNumber",
     "TabFieldDisplayOrder": 2
   },
@@ -2275,7 +2275,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminBeta",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerEmail",
     "TabFieldDisplayOrder": 3
   },
@@ -2285,7 +2285,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminBeta",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
     "TabFieldDisplayOrder": 4
   },
@@ -2295,7 +2295,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminLa",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "TabFieldDisplayOrder": 1,
@@ -2307,7 +2307,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminLa",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerPhoneNumber",
     "TabFieldDisplayOrder": 2
   },
@@ -2317,7 +2317,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminLa",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8PetitionerEmail",
     "TabFieldDisplayOrder": 3
   },
@@ -2327,7 +2327,7 @@
     "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdminLa",
     "TabLabel": "Confidential Petitioner",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "D8DerivedPetitionerHomeAddress",
     "TabFieldDisplayOrder": 4
   },
