@@ -23,7 +23,8 @@ describe('CaseTypeTab (nonprod)', () => {
     caseTypeTab = getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-deemed-and-dispensed-nonprod',
-      'CaseTypeTab-general-referral-nonprod'
+      'CaseTypeTab-general-referral-nonprod',
+      'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
     ]);
 
     caseField = getCaseFieldDefinitions([

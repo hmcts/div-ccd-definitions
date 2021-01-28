@@ -1,0 +1,44 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8DerivedPetitionerCorrespondenceAddr",
+    "UserRole": "[PETSOLICITOR]",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "D8PetitionerContactDetailsConfidential=\"keep\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8PetitionerPhoneNumber",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8PetitionerEmail",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialPetitionerForPetSol",
+    "TabLabel": "Confidential Petitioner",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "D8DerivedPetitionerHomeAddress",
+    "TabFieldDisplayOrder": 4
+  }
+]
