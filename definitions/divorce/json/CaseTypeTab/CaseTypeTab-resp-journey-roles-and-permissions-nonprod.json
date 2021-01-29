@@ -45,6 +45,48 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
+    "TabID": "confidentialRespondentForRespSol",
+    "TabLabel": "Confidential Respondent",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "D8DerivedRespondentHomeAddress",
+    "UserRole": "[RESPSOLICITOR]",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "RespondentContactDetailsConfidential=\"keep\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialRespondentForRespSol",
+    "TabLabel": "Confidential Respondent",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "D8DerivedRespondentCorrespondenceAddr",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialRespondentForRespSol",
+    "TabLabel": "Confidential Respondent",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "RespEmailAddress",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "confidentialRespondentForRespSol",
+    "TabLabel": "Confidential Respondent",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "RespPhoneNumber",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
     "TabID": "notesCitizen",
     "TabLabel": "Notes",
     "TabDisplayOrder": 20,
