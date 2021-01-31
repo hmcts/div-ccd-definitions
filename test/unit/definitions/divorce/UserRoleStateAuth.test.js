@@ -82,6 +82,7 @@ describe('UserRole authorisations for CaseState', () => {
         'AuthorisationCaseState-alternative-service-nonprod',
         'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
+        'AuthorisationCaseState-share-a-case-nonprod',
         'AuthorisationCaseState-nonprod'
       ]);
 

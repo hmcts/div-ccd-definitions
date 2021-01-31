@@ -1,0 +1,58 @@
+[
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  }
+]

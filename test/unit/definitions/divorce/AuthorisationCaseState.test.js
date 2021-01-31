@@ -20,6 +20,7 @@ describe('AuthorisationCaseState', () => {
           'AuthorisationCaseState-alt-service-process-server-nonprod',
           'AuthorisationCaseState-bailiff-nonprod',
           'AuthorisationCaseState-general-referral-nonprod',
+          'AuthorisationCaseState-share-a-case-nonprod',
           'AuthorisationCaseState-nonprod'
         ]
       );

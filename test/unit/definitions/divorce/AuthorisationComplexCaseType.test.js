@@ -10,9 +10,15 @@ describe('AuthorisationComplexType', () => {
     let allFieldsForNonProd = [];
 
     before(() => {
-      nonProdAuthorisationComplexType = getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType-share-a-case-nonprod']);
+      nonProdAuthorisationComplexType = getAuthorisationComplexTypeDefinitions([
+        'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
+        'AuthorisationComplexType-share-a-case-nonprod'
+      ]);
 
-      allFieldsForNonProd = getCaseFieldDefinitions(['CaseField-share-a-case-nonprod']);
+      allFieldsForNonProd = getCaseFieldDefinitions([
+        'CaseField-resp-journey-roles-and-permissions-nonprod',
+        'CaseField-share-a-case-nonprod'
+      ]);
     });
 
     it('should have a list of ComplexType IDs that exist in CaseFields', () => {

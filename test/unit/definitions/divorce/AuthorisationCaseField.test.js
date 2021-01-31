@@ -21,6 +21,7 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField-amend-court-orders-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
+        'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseField-share-a-case-nonprod',
         'AuthorisationCaseField-nonprod'
       ]);
@@ -32,6 +33,7 @@ describe('AuthorisationCaseField', () => {
         'CaseField-amend-court-orders-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-referral-nonprod',
+        'CaseField-resp-journey-roles-and-permissions-nonprod',
         'CaseField-share-a-case-nonprod'
       ]);
     });

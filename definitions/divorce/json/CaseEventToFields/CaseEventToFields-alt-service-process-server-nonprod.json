@@ -1,0 +1,30 @@
+[
+  {
+  "LiveFrom": "25/08/2020",
+  "CaseTypeID": "DIVORCE",
+  "CaseEventID": "solicitorApplyForDN",
+  "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+  "PageFieldDisplayOrder": 1,
+  "DisplayContext": "READONLY",
+  "PageID": "dnreviewaos",
+  "PageLabel": "Review Acknowledgement of Service",
+  "PageDisplayOrder": 1,
+  "PageColumnNumber": 1,
+  "FieldShowCondition": "ServedByProcessServer=\"Yes\"",
+  "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "ServedByProcessServer",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"NeverShow\"",
+    "ShowSummaryChangeOption": "No"
+  }
+]

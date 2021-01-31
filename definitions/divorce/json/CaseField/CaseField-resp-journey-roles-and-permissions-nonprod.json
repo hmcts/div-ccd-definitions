@@ -1,0 +1,11 @@
+[
+  {
+  "LiveFrom": "26/01/2021",
+  "CaseTypeID": "DIVORCE",
+  "ID": "RespondentOrganisationPolicy",
+  "Label": "Respondent Organisation Policy",
+  "HintText": "Respondent Organisation Details",
+  "FieldType": "OrganisationPolicy",
+  "SecurityClassification": "Public"
+  }
+]
