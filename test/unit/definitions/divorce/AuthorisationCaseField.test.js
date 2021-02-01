@@ -16,15 +16,14 @@ describe('AuthorisationCaseField', () => {
     before(() => {
       nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
         'AuthorisationCaseField',
-        'AuthorisationCaseField-nonprod',
         'AuthorisationCaseField-alt-service-process-server-nonprod',
         'AuthorisationCaseField-alternative-service-nonprod',
         'AuthorisationCaseField-amend-court-orders-nonprod',
-        'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseField-share-a-case-nonprod'
+        'AuthorisationCaseField-share-a-case-nonprod',
+        'AuthorisationCaseField-nonprod',
       ]);
 
       allFieldsForNonProd = getCaseFieldDefinitions([
