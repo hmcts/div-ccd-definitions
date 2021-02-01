@@ -6,7 +6,7 @@ const getCaseEventToFieldDefinitions = loadAllFiles('CaseEventToFields');
 const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseFieldDefinitions = loadAllFiles('CaseField');
 
-function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
+function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -20,7 +20,7 @@ function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
   }
 }
 
-function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
+function assertHasOnlyValidFieldIds(caseEventToFieldsFile, caseFieldFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -34,7 +34,7 @@ function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
   }
 }
 
-function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
+function assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -51,7 +51,7 @@ function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
   }
 }
 
-function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks (caseEventToFieldsFile) {
+function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -78,9 +78,9 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseEventToFields-alt-service-process-server-nonprod',
       'CaseEventToFields-alternative-service-nonprod',
       'CaseEventToFields-amend-court-orders-nonprod',
-      'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
+      'CaseEventToFields-share-a-case-nonprod',
       'CaseEventToFields-nonprod'
     ]);
 
