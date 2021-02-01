@@ -29,7 +29,6 @@ describe('AuthorisationCaseState', () => {
         'State-alternative-service-nonprod',
         'State-alt-service-process-server-nonprod',
         'State-bailiff-nonprod',
-        'State-deemed-and-dispensed-nonprod',
         'State-general-referral-nonprod'
       ]);
     });
