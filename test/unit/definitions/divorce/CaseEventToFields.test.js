@@ -96,12 +96,13 @@ describe('CaseEventToFields (non-prod)', () => {
 
     caseFieldNonProd = getCaseFieldDefinitions([
       'CaseField',
-      'CaseField-amend-court-orders-nonprod',
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-alternative-service-nonprod',
-      'CaseField-deemed-and-dispensed-nonprod',
+      'CaseField-amend-court-orders-nonprod',
       'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
+      'CaseField-general-referral-nonprod',
+      'CaseField-resp-journey-roles-and-permissions-nonprod',
+      'CaseField-share-a-case-nonprod'
     ]);
   });
 

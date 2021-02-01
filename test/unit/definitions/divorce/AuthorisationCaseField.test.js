@@ -28,14 +28,13 @@ describe('AuthorisationCaseField', () => {
 
       allFieldsForNonProd = getCaseFieldDefinitions([
         'CaseField',
-        'CaseField-share-a-case-nonprod',
         'CaseField-alt-service-process-server-nonprod',
         'CaseField-alternative-service-nonprod',
         'CaseField-amend-court-orders-nonprod',
-        'CaseField-deemed-and-dispensed-nonprod',
         'CaseField-general-email-nonprod',
         'CaseField-general-referral-nonprod',
-        'CaseField-resp-journey-roles-and-permissions-nonprod'
+        'CaseField-resp-journey-roles-and-permissions-nonprod',
+        'CaseField-share-a-case-nonprod'
       ]);
     });
 
