@@ -23,7 +23,7 @@ describe('AuthorisationCaseField', () => {
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseField-share-a-case-nonprod',
-        'AuthorisationCaseField-nonprod',
+        'AuthorisationCaseField-nonprod'
       ]);
 
       allFieldsForNonProd = getCaseFieldDefinitions([
