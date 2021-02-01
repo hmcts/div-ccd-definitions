@@ -6291,7 +6291,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
