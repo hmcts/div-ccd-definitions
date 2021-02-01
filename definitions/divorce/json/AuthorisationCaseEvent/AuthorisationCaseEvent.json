@@ -6684,7 +6684,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boAddTranslations",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "18/12/2019",
