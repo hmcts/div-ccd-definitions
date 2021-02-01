@@ -5618,13 +5618,6 @@
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solConfirmPersonalService",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "25/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solConfirmPersonalService",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "R"
   },

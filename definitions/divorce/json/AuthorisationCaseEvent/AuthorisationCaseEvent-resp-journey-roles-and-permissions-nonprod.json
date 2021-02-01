@@ -26,5 +26,19 @@
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solConfirmPersonalService",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solConfirmPersonalService",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
   }
 ]
