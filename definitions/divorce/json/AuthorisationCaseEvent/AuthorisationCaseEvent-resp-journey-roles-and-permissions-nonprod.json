@@ -82,6 +82,12 @@
     "CaseEventID": "solApplyForDA",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
-
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosNotReceivedFromServiceAppRejected",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
