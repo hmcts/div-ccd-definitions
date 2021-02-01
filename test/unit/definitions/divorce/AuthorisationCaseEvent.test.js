@@ -19,7 +19,6 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-alternative-service-nonprod',
         'AuthorisationCaseEvent-alt-service-process-server-nonprod',
         'AuthorisationCaseEvent-amend-court-orders-nonprod',
-        'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-nonprod'
