@@ -72,6 +72,13 @@
   {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdateDN",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
