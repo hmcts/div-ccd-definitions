@@ -40,5 +40,12 @@
     "CaseEventID": "solConfirmPersonalService",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "R"
   }
 ]
