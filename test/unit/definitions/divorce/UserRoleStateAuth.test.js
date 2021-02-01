@@ -11,7 +11,7 @@ const AuthorisationCaseType = getAuthorisationCaseTypeDefinitions(['Authorisatio
 const State = getStatesDefinitions(['State']);
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
-const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation'];
+const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation', 'Submitted'];
 
 function byCaseType(caseType) {
   return entry => {
