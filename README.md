@@ -21,7 +21,7 @@ the production file "AuthorisationCaseEvent.json" and you create another one wit
 yet (eg. AuthorisationCaseEvent-noprod.json, but can be any name such as "definitions-for-bsp-ABC-nonprod.json").
 
 When "toggled off" definitions can be released, just move them to the prod file and remove them from nonprod file.
-Then follow the typical release process.
+Then follow the typical release process. 
 
 Please read more here:
 https://tools.hmcts.net/confluence/display/BSP/Feature+toggle+for+CCD+definition
