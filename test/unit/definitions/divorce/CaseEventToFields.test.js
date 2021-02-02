@@ -91,6 +91,7 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseEvent-amend-court-orders-nonprod',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
+      'CaseEvent-share-a-case-nonprod',
       'CaseEvent-nonprod'
     ]);
 

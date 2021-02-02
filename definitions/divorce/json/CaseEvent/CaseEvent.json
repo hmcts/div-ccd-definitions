@@ -963,23 +963,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "ID": "solicitorStatementOfTruthPaySubmit",
-    "Name": "Case submission",
-    "Description": "Agree Statement of Truth, Pay & Submit",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
-    "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
-    "RetriesTimeoutAboutToStartEvent": "120,120",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "EndButtonLabel": "Submit Petition"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "ID": "awaitingDocuments",
     "Name": "Awaiting petitioner",
     "Description": "Awaiting petitioner",
@@ -2747,7 +2730,6 @@
     "PostConditionState": "SOTAgreementPayAndSubmitRequired",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-create",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Petition"
