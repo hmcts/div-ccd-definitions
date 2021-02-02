@@ -6279,13 +6279,7 @@
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
-  {
-    "LiveFrom": "18/12/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "boRequestTranslationFromWLU",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
+
   {
     "LiveFrom": "18/12/2019",
     "CaseTypeID": "DIVORCE",
