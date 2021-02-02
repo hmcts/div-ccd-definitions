@@ -23,13 +23,6 @@
   {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solConfirmPersonalService",
-    "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/02/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
@@ -115,6 +108,13 @@
     "LiveFrom": "02/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "02/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solConfirmPersonalService",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   }

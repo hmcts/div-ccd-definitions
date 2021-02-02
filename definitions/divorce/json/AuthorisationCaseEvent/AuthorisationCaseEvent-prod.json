@@ -145,5 +145,12 @@
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solConfirmPersonalService",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
