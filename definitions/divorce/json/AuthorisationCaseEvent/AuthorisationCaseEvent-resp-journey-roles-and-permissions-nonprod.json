@@ -117,5 +117,12 @@
     "CaseEventID": "solConfirmPersonalService",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "02/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdateLanguage",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]

@@ -152,5 +152,12 @@
     "CaseEventID": "solConfirmPersonalService",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdateLanguage",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
