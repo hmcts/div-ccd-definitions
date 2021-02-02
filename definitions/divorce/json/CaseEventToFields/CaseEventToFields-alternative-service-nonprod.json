@@ -4,7 +4,7 @@
   "CaseTypeID": "DIVORCE",
   "CaseEventID": "solicitorApplyForDN",
   "CaseFieldID": "LabelContinueBecauseOfServedByAlternativeMethod",
-  "PageFieldDisplayOrder": 1,
+  "PageFieldDisplayOrder": 2,
   "DisplayContext": "READONLY",
   "PageID": "dnreviewaos",
   "PageLabel": "Review Acknowledgement of Service",
