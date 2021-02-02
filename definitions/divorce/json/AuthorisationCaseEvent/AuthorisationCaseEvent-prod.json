@@ -166,5 +166,12 @@
     "CaseEventID": "boRequestTranslationFromWLU",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "boAddTranslations",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
   }
 ]
