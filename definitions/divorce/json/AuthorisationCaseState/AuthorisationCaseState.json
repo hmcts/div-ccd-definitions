@@ -1682,7 +1682,7 @@
   {
     "LiveFrom": "25/06/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingDecreeNisi",
+    "CaseStateID": "AosSubmittedAwaitingAnswer",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "RU"
   },
