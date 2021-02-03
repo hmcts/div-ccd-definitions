@@ -166,5 +166,19 @@
     "CaseEventID": "linkRespondent",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "29/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
   }
 ]

@@ -6052,13 +6052,6 @@
     "LiveFrom": "18/07/2019",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
-    "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "18/07/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "submitDnClarification",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
@@ -6853,13 +6846,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "boDnReceived",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "29/06/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "amendPetitionForRefusalSol",
-    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
