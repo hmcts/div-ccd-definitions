@@ -56,7 +56,7 @@ describe('AuthorisationCaseEvent', () => {
     before(() => {
       prodOnly = getAuthorisationCaseEventDefinitions([
         'AuthorisationCaseEvent',
-        'AuthorisationCaseEvent-prod'
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
       ]);
 
       allEventsForProd = getCaseEventDefinitions(
