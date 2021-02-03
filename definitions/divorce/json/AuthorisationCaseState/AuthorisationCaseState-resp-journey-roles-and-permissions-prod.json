@@ -1,0 +1,9 @@
+[
+  {
+    "LiveFrom": "25/06/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDecreeNisi",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "RU"
+  }
+]
