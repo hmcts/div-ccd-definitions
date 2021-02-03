@@ -10,7 +10,6 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/allow-share-a-case",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit Petition"
