@@ -1386,13 +1386,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "24/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "linkRespondent",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "linkRespondent",

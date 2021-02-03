@@ -117,5 +117,12 @@
     "CaseEventID": "boAddTranslations",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "linkRespondent",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
