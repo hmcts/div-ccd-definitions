@@ -197,7 +197,7 @@ function loadDefinitionsForNonProd() {
   ]);
 }
 
-function atLeastCruOrRuForAllMandatoryOptionalAndReradonlyShowHideEventFields() {
+function atLeastCruOrRuForAllMandatoryOptionalAndReadonlyShowHideEventFields() {
   AuthCaseEventsActive.forEach(eventAuth => {
     const userRole = eventAuth.UserRole;
     const eventName = eventAuth.CaseEventID;
@@ -270,7 +270,7 @@ function minimumCrForAllPostConditionStatesWhichHaveEmptyPreConditionStates() {
 function runAllTests() {
   it(
     'should have at least CRU or RU access level for all MANDATORY, OPTIONAL and READONLY show/hide event fields',
-    atLeastCruOrRuForAllMandatoryOptionalAndReradonlyShowHideEventFields
+    atLeastCruOrRuForAllMandatoryOptionalAndReadonlyShowHideEventFields
   );
 
   it(
