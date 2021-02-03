@@ -54,5 +54,19 @@
     "CaseFieldID": "RespondentOrganisationPolicy",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PetitionerLastName",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentLastName",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   }
 ]
