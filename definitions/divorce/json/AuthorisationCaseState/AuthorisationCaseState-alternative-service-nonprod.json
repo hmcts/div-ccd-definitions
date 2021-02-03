@@ -42,6 +42,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAlternativeService",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "RU"
+  },
+  {
     "LiveFrom": "30/10/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDWPResponse",
@@ -82,5 +89,12 @@
     "CaseStateID": "AwaitingDWPResponse",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDWPResponse",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "RU"
   }
 ]
