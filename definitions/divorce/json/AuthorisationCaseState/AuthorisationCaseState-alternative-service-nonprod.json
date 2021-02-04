@@ -82,5 +82,19 @@
     "CaseStateID": "AwaitingDWPResponse",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAlternativeService",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDWPResponse",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "RU"
   }
 ]
