@@ -21,7 +21,8 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-amend-court-orders-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-nonprod'
+        'AuthorisationCaseEvent-nonprod',
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod'
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
@@ -54,7 +55,7 @@ describe('AuthorisationCaseEvent', () => {
     before(() => {
       prodOnly = getAuthorisationCaseEventDefinitions([
         'AuthorisationCaseEvent',
-        'AuthorisationCaseEvent-prod'
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
       ]);
 
       allEventsForProd = getCaseEventDefinitions(
