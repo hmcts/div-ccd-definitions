@@ -1607,7 +1607,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetition",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2153,7 +2153,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAmend",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/05/2019",
@@ -6109,7 +6109,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalRejection",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
