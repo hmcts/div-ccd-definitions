@@ -23,6 +23,7 @@ describe('CaseEventToComplexTypes', () => {
     before(() => {
       nonProdDefinitions = getCaseEventToComplexTypesDefinitions([
         'CaseEventToComplexTypes',
+        'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
         'CaseEventToComplexTypes-share-a-case-nonprod'
       ]);
     });
