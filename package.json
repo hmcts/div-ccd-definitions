@@ -65,7 +65,7 @@
     "lint"
   ],
   "dependencies": {
-    "@hmcts/nodejs-healthcheck": "1.5.1",
+    "@hmcts/nodejs-healthcheck": "1.7.0",
     "@hmcts/properties-volume": "0.0.9",
     "codeceptjs": "^2.2.0",
     "config": "^3.0.1",
