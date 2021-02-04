@@ -84,15 +84,13 @@ describe('UserRole authorisations for CaseState', () => {
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
         'AuthorisationCaseState-share-a-case-nonprod',
-        'AuthorisationCaseState-nonprod',
-        'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod'
+        'AuthorisationCaseState-nonprod'
       ]);
 
     prod = getAuthorisationCaseStateDefinitions(
       [
         'AuthorisationCaseState',
-        'AuthorisationCaseState-prod',
-        'AuthorisationCaseState-resp-journey-roles-and-permissions-prod'
+        'AuthorisationCaseState-prod'
       ]);
   });
 

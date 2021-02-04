@@ -22,8 +22,7 @@ describe('AuthorisationCaseState', () => {
           'AuthorisationCaseState-deemed-and-dispensed-nonprod',
           'AuthorisationCaseState-general-referral-nonprod',
           'AuthorisationCaseState-share-a-case-nonprod',
-          'AuthorisationCaseState-nonprod',
-          'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod'
+          'AuthorisationCaseState-nonprod'
         ]
       );
       nonProdStates = getStateDefinitions([
@@ -54,8 +53,7 @@ describe('AuthorisationCaseState', () => {
       prod = getAuthorisationCaseStateDefinitions(
         [
           'AuthorisationCaseState',
-          'AuthorisationCaseState-prod',
-          'AuthorisationCaseState-resp-journey-roles-and-permissions-prod'
+          'AuthorisationCaseState-prod'
         ]
       );
       prodStates = getStateDefinitions(['State']);
