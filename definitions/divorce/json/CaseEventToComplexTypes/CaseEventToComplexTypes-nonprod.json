@@ -1,0 +1,33 @@
+[
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "tempSuperUserTestEvent",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "tempSuperUserTestEvent",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[RESPSOLICITOR]",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "tempSuperUserTestEvent",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "DisplayContext": "OPTIONAL"
+  }
+]
