@@ -94,17 +94,5 @@
         "PageLabel": "About the Solicitor",
         "PageDisplayOrder": 1,
         "ShowSummaryChangeOption": "Yes"
-    },
-    {
-        "LiveFrom": "01/01/2017",
-        "CaseTypeID": "DIVORCE",
-        "CaseEventID": "solicitorCreate",
-        "CaseFieldID": "PetitionerOrganisationPolicy",
-        "PageFieldDisplayOrder": 8,
-        "DisplayContext": "MANDATORY",
-        "PageID": "SolAboutTheSolicitor",
-        "PageLabel": "About the Solicitor",
-        "PageDisplayOrder": 1,
-        "ShowSummaryChangeOption": "Yes"
     }
 ]
