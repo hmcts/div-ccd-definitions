@@ -99,7 +99,10 @@ function loadDefinitionsForProd() {
   );
 
   AuthorisationCaseEvent = getAuthorisationCaseEventDefinitions(
-    ['AuthorisationCaseEvent']
+    [
+      'AuthorisationCaseEvent',
+      'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
+    ]
   );
 
   AuthorisationCaseField = getAuthorisationCaseFieldDefinitions(
@@ -128,7 +131,6 @@ function loadDefinitionsForNonProd() {
       'AuthorisationCaseState-alternative-service-nonprod',
       'AuthorisationCaseState-alt-service-process-server-nonprod',
       'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-deemed-and-dispensed-nonprod',
       'AuthorisationCaseState-general-referral-nonprod',
       'AuthorisationCaseState-share-a-case-nonprod',
       'AuthorisationCaseState-nonprod'
@@ -141,7 +143,6 @@ function loadDefinitionsForNonProd() {
       'AuthorisationCaseEvent-alternative-service-nonprod',
       'AuthorisationCaseEvent-alt-service-process-server-nonprod',
       'AuthorisationCaseEvent-amend-court-orders-nonprod',
-      'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
       'AuthorisationCaseEvent-general-email-nonprod',
       'AuthorisationCaseEvent-general-referral-nonprod',
       'AuthorisationCaseEvent-nonprod'
@@ -154,7 +155,6 @@ function loadDefinitionsForNonProd() {
       'AuthorisationCaseField-alt-service-process-server-nonprod',
       'AuthorisationCaseField-alternative-service-nonprod',
       'AuthorisationCaseField-amend-court-orders-nonprod',
-      'AuthorisationCaseField-deemed-and-dispensed-nonprod',
       'AuthorisationCaseField-general-email-nonprod',
       'AuthorisationCaseField-general-referral-nonprod',
       'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
@@ -169,7 +169,6 @@ function loadDefinitionsForNonProd() {
       'CaseEvent-alt-service-process-server-nonprod',
       'CaseEvent-alternative-service-nonprod',
       'CaseEvent-amend-court-orders-nonprod',
-      'CaseEvent-deemed-and-dispensed-nonprod',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
       'CaseEvent-nonprod'
@@ -180,7 +179,6 @@ function loadDefinitionsForNonProd() {
     'CaseEventToFields-alt-service-process-server-nonprod',
     'CaseEventToFields-alternative-service-nonprod',
     'CaseEventToFields-amend-court-orders-nonprod',
-    'CaseEventToFields-deemed-and-dispensed-nonprod',
     'CaseEventToFields-general-email-nonprod',
     'CaseEventToFields-general-referral-nonprod',
     'CaseEventToFields-nonprod'
