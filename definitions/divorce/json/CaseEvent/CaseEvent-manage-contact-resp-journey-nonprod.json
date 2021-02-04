@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "UpdatePetSolContactDetails",
+    "Name": "Update petitioner solicitor details",
+    "Description": "Update petitioner solicitor details",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  }
+]

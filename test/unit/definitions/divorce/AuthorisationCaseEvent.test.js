@@ -23,7 +23,8 @@ describe('AuthorisationCaseEvent', () => {
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-nonprod',
-        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod'
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
+        'AuthorisationCaseEvent-manage-contact-resp-journey-nonprod',
       ]);
 
       allEventsForNonProd = getCaseEventDefinitions([
@@ -35,6 +36,7 @@ describe('AuthorisationCaseEvent', () => {
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-share-a-case-nonprod',
+        'CaseEvent-manage-contact-resp-journey-nonprod',
         'CaseEvent-nonprod'
       ]);
     });
