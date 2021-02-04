@@ -467,6 +467,11 @@ buffer-crc32@^0.2.1, buffer-crc32@^0.2.13, buffer-crc32@~0.2.3:
   resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
   integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
 
+buffer-equal@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/buffer-equal/-/buffer-equal-1.0.0.tgz#59616b498304d556abd466966b22eeda3eca5fbe"
+  integrity sha1-WWFrSYME1Var1GaWayLu2j7KX74=
+
 buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
@@ -969,6 +974,14 @@ diff@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+
+dir-compare@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/dir-compare/-/dir-compare-3.0.0.tgz#89998450c1b6d688dc27d15156a2b19f1c5f5a25"
+  integrity sha512-47M6hlSLa9xOe7TtpkkMD3QVd5KZn1rBNaYZmycEb//A7/FZwAu6N2BtEUuvvC0iv8TxEN28t9mjcaA/ammjNA==
+  dependencies:
+    buffer-equal "^1.0.0"
+    minimatch "^3.0.4"
 
 doctrine@^3.0.0:
   version "3.0.0"

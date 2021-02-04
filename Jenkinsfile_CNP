@@ -54,12 +54,22 @@ withPipeline("nodejs", product, component) {
     }
   }
 
-  before('functionalTest:preview') {
+  before('smokeTest:preview') {
     yarnBuilder.yarn('setup')
 
     stage('Generate Divorce Case excel file') {
       yarnBuilder.yarn('generate-excel-all')
     }
+
+    yarnBuilder.yarn('test:smoke')
+  }
+
+  before('functionalTest:preview') {
+    yarnBuilder.yarn('setup')
+
+//    stage('Generate Divorce Case excel file') {
+//      yarnBuilder.yarn('generate-excel-all')
+//    }
     stage('Generate Bulk Case excel file') {
       yarnBuilder.yarn('generate-bulk-excel-all')
     }

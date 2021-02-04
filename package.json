@@ -37,8 +37,8 @@
     "lint": "eslint --fix .",
     "test": "NODE_PATH=. mocha test/unit/definitions/**/*.js",
     "test:coverage": "echo test:coverage",
-    "test:a11y": "echo test:a11y",
-    "test:smoke": "echo smoke",
+    "test:a11y": "node test/smoke/index.js",
+    "test:smoke": "yarn current-prod-to-json && yarn latest-prod-to-json && node test/smoke/index.js",
     "test:functional": "codeceptjs run --steps -c test/functional/codecept.conf.js",
     "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
@@ -52,6 +52,8 @@
     "generate-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-excel -e *-nonprod.json",
     "generate-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-${DIV_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-aat && yarn generate-excel-aat-prod-like && yarn generate-excel-demo && yarn generate-excel-demo-prod-like && yarn generate-excel-ithc && yarn generate-excel-prod",
+    "current-prod-to-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../test/smoke/temp/current-build -i ../definitions/divorce/xlsx/ccd-config-prod.xlsx",
+    "latest-prod-to-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../test/smoke/temp/latest-prod -i ../definitions/divorce/xlsx/ccd-config-aat.xlsx",
     "generate-bulk-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/bulk-action/json -i ../definitions/bulk-action/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-bulk-excel-local": "DIV_ENV=local CCD_DEF_COS_URL=$npm_package_config_local_cosUrl CCD_DEF_CCD_URL=$npm_package_config_local_ccdUrl yarn run generate-bulk-excel",
     "generate-bulk-excel-demo": "DIV_ENV=demo CCD_DEF_COS_URL=$npm_package_config_demo_cosUrl CCD_DEF_CCD_URL=$npm_package_config_demo_ccdUrl yarn run generate-bulk-excel",
@@ -76,6 +78,7 @@
   "devDependencies": {
     "@hmcts/eslint-config": "^1.4.0",
     "chai": "^4.2.0",
+    "dir-compare": "^3.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-mocha": "^5.3.0",
     "husky": "^2.2.0",
@@ -95,6 +98,6 @@
     "minimist": "^1.2.3",
     "bl": "1.2.3",
     "ini": "1.3.6",
-    "axios":  "0.21.1"
+    "axios": "0.21.1"
   }
 }
