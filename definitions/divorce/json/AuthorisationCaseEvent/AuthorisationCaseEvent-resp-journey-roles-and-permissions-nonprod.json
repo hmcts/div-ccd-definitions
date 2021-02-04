@@ -166,5 +166,12 @@
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosNotReceivedFromServiceAppRejected",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
