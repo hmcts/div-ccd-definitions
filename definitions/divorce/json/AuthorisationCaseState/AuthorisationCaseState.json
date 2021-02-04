@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AmendPetition",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
@@ -1047,7 +1047,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AmendPetition",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
