@@ -130,7 +130,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "GeneralConsiderationComplete",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "19/10/2020",
