@@ -61,7 +61,14 @@ withPipeline("nodejs", product, component) {
       yarnBuilder.yarn('generate-excel-all')
     }
 
+    script{
+      def lastSuccessBuildName = Jenkins.instance.getItem(env.JOB_NAME).lastSuccessfulBuild.displayName
+      echo "Last Success Build Name: ${lastSuccessBuildName}"
+      echo "Last Success Build Name: ${Jenkins.instance.getItem(env.JOB_NAME).lastSuccessfulBuild}"
+    }
+
     yarnBuilder.yarn('test:smoke')
+    steps.archiveArtifacts allowEmptyArchive: false
   }
 
   before('functionalTest:preview') {
