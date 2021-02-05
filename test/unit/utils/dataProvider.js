@@ -5,6 +5,7 @@ const getAuthorisationCaseEventDefinitions = loadAllFiles('AuthorisationCaseEven
 const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseField');
 const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
+const getStateDefinitions = loadAllFiles('State');
 
 module.exports = {
   prod: {
@@ -24,7 +25,8 @@ module.exports = {
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-prod'
-    ])
+    ]),
+    State: getStateDefinitions(['State'])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -77,7 +79,6 @@ module.exports = {
         'CaseEvent-share-a-case-nonprod',
         'CaseEvent-nonprod'
       ]),
-
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-alt-service-process-server-nonprod',
@@ -87,6 +88,14 @@ module.exports = {
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-nonprod'
+    ]),
+    State: getStateDefinitions([
+      'State',
+      'State-alternative-service-nonprod',
+      'State-alt-service-process-server-nonprod',
+      'State-bailiff-nonprod',
+      'State-deemed-and-dispensed-nonprod',
+      'State-general-referral-nonprod'
     ])
   }
 };
