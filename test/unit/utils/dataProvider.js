@@ -24,7 +24,7 @@ module.exports = {
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-prod'
-    ]),
+    ])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -74,8 +74,10 @@ module.exports = {
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
+        'CaseEvent-share-a-case-nonprod',
         'CaseEvent-nonprod'
       ]),
+
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-alt-service-process-server-nonprod',
