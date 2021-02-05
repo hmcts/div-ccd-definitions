@@ -1,0 +1,50 @@
+[
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorPhone",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "DIV-6723-TODO",
+    "PageLabel": "Update petitioner solicitor details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "DIV-6723-TODO",
+    "PageLabel": "Update petitioner solicitor details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "SolicitorAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "DIV-6723-TODO",
+    "PageLabel": "Update petitioner solicitor details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "DIV-6723-TODO",
+    "PageLabel": "Update petitioner solicitor details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  }
+]
