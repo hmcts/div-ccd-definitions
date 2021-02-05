@@ -1,12 +1,6 @@
 const expect = require('chai').expect;
 const { differenceWith, intersectionWith, concat } = require('lodash');
-const { loadAllFiles } = require('../../utils/utils');
-
-const getAuthorisationCaseStateDefinitions = loadAllFiles('AuthorisationCaseState');
-const getAuthorisationCaseEventDefinitions = loadAllFiles('AuthorisationCaseEvent');
-const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseField');
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
-const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 const CaseRoles = Object.assign(require('definitions/divorce/json/CaseRoles'), []);
 
@@ -94,98 +88,19 @@ function filterActivePermissions(authorisationCaseEvent) {
 }
 
 function loadDefinitionsForProd() {
-  AuthorisationCaseState = getAuthorisationCaseStateDefinitions(
-    ['AuthorisationCaseState']
-  );
-
-  AuthorisationCaseEvent = getAuthorisationCaseEventDefinitions(
-    ['AuthorisationCaseEvent']
-  );
-
-  AuthorisationCaseField = getAuthorisationCaseFieldDefinitions(
-    [
-      'AuthorisationCaseField',
-      'AuthorisationCaseField-prod'
-    ]
-  );
-
-  CaseEvent = getCaseEventDefinitions(
-    [
-      'CaseEvent',
-      'CaseEvent-prod'
-    ]);
-
-  CaseEventToFields = getCaseEventToFieldsDefinitions([
-    'CaseEventToFields',
-    'CaseEventToFields-resp-journey-roles-and-permissions-prod'
-  ]);
+  AuthorisationCaseState = prod.AuthorisationCaseState;
+  AuthorisationCaseEvent = prod.AuthorisationCaseEvent;
+  AuthorisationCaseField = prod.AuthorisationCaseField;
+  CaseEvent = prod.CaseEvent;
+  CaseEventToFields = prod.CaseEventToFields;
 }
 
 function loadDefinitionsForNonProd() {
-  AuthorisationCaseState = getAuthorisationCaseStateDefinitions(
-    [
-      'AuthorisationCaseState',
-      'AuthorisationCaseState-alternative-service-nonprod',
-      'AuthorisationCaseState-alt-service-process-server-nonprod',
-      'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-deemed-and-dispensed-nonprod',
-      'AuthorisationCaseState-general-referral-nonprod',
-      'AuthorisationCaseState-share-a-case-nonprod',
-      'AuthorisationCaseState-nonprod'
-    ]
-  );
-
-  AuthorisationCaseEvent = getAuthorisationCaseEventDefinitions(
-    [
-      'AuthorisationCaseEvent',
-      'AuthorisationCaseEvent-alternative-service-nonprod',
-      'AuthorisationCaseEvent-alt-service-process-server-nonprod',
-      'AuthorisationCaseEvent-amend-court-orders-nonprod',
-      'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
-      'AuthorisationCaseEvent-general-email-nonprod',
-      'AuthorisationCaseEvent-general-referral-nonprod',
-      'AuthorisationCaseEvent-nonprod'
-    ]
-  );
-
-  AuthorisationCaseField = getAuthorisationCaseFieldDefinitions(
-    [
-      'AuthorisationCaseField',
-      'AuthorisationCaseField-alt-service-process-server-nonprod',
-      'AuthorisationCaseField-alternative-service-nonprod',
-      'AuthorisationCaseField-amend-court-orders-nonprod',
-      'AuthorisationCaseField-deemed-and-dispensed-nonprod',
-      'AuthorisationCaseField-general-email-nonprod',
-      'AuthorisationCaseField-general-referral-nonprod',
-      'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-      'AuthorisationCaseField-share-a-case-nonprod',
-      'AuthorisationCaseField-nonprod'
-    ]
-  );
-
-  CaseEvent = getCaseEventDefinitions(
-    [
-      'CaseEvent',
-      'CaseEvent-alt-service-process-server-nonprod',
-      'CaseEvent-alternative-service-nonprod',
-      'CaseEvent-amend-court-orders-nonprod',
-      'CaseEvent-deemed-and-dispensed-nonprod',
-      'CaseEvent-general-email-nonprod',
-      'CaseEvent-general-referral-nonprod',
-      'CaseEvent-nonprod'
-    ]);
-
-  CaseEventToFields = getCaseEventToFieldsDefinitions([
-    'CaseEventToFields',
-    'CaseEventToFields-alt-service-process-server-nonprod',
-    'CaseEventToFields-alternative-service-nonprod',
-    'CaseEventToFields-amend-court-orders-nonprod',
-    'CaseEventToFields-deemed-and-dispensed-nonprod',
-    'CaseEventToFields-general-email-nonprod',
-    'CaseEventToFields-general-referral-nonprod',
-    'CaseEventToFields-resp-journey-roles-and-permissions-nonprod',
-    'CaseEventToFields-nonprod'
-  ]);
+  AuthorisationCaseState = nonprod.AuthorisationCaseState;
+  AuthorisationCaseEvent = nonprod.AuthorisationCaseEvent;
+  AuthorisationCaseField = nonprod.AuthorisationCaseField;
+  CaseEvent = nonprod.CaseEvent;
+  CaseEventToFields = nonprod.CaseEventToFields;
 }
 
 function atLeastCruOrRuForAllMandatoryOptionalAndReadonlyShowHideEventFields() {
