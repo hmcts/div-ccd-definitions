@@ -7,6 +7,7 @@ const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
 const getStateDefinitions = loadAllFiles('State');
 const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComplexType');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
 
 module.exports = {
   prod: {
@@ -29,7 +30,12 @@ module.exports = {
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
     State: getStateDefinitions(['State']),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType'])
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
+
+    CaseField: getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-prod'
+    ])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -104,6 +110,17 @@ module.exports = {
       'AuthorisationComplexType',
       'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
       'AuthorisationComplexType-share-a-case-nonprod'
+    ]),
+    CaseField: getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-alt-service-process-server-nonprod',
+      'CaseField-alternative-service-nonprod',
+      'CaseField-amend-court-orders-nonprod',
+      'CaseField-deemed-and-dispensed-nonprod',
+      'CaseField-general-email-nonprod',
+      'CaseField-general-referral-nonprod',
+      'CaseField-resp-journey-roles-and-permissions-nonprod',
+      'CaseField-share-a-case-nonprod'
     ])
   }
 };
