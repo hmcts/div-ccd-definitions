@@ -1,8 +1,6 @@
 const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
-const { prod, nonprod } = require('../../utils/dataProvider');
-
-const CaseType = Object.assign(require('definitions/divorce/json/CaseType'), []);
+const { prod } = require('../../utils/dataProvider');
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation', 'Submitted'];
