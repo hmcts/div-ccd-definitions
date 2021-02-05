@@ -63,27 +63,17 @@ function runTest (authorisationCaseState, authorisationCaseType, state, caseType
 }
 
 describe('UserRole authorisations for CaseState', () => {
-  // we need to find out if caa idam role should get R to all states. It seems to be required
 
-  // context('nonprod', () => {
-  //   it('should allow minimum R access for all Case States per User Role ', () => {
-  //     runTest(nonprod.AuthorisationCaseState, nonprod.AuthorisationCaseType, nonprod.State, nonprod.CaseType);
-  //   });
-  // });
+  /**
+   * There should be non-prod test here as well. After fixing those unit tests it turned out idam role:
+   * `caseworker-caa` has no R for a lot of states.
+   *
+   * We need to find out if it should. If so - add it. If not - change the logic of unit test.
+   * */
 
   context('prod', () => {
     it('should allow minimum R access for all Case States per User Role ', () => {
       runTest(prod.AuthorisationCaseState, prod.AuthorisationCaseType, prod.State, prod.CaseType);
     });
   });
-
-  // context('should allow minimum R access for all Case States per User Role ', () => {
-  //   it('(non-prod)', () => {
-  //     runTest(authorisationCaseStateNonProd);
-  //   });
-  //
-  //   it('(prod)', () => {
-  //     runTest(authorisationCaseStateProd);
-  //   });
-  // });
 });
