@@ -230,13 +230,6 @@ describe('CaseTypeTab (prod)', () => {
     expect(validationErrors).to.have.lengthOf(0);
   });
 
-  it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
-    assert.doesNotThrow(() => {
-      validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-    },
-    /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
-  });
-
   it('should be visible to specific users', () => {
     assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', caseworkerBetaUserRole);
     assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Payment', caseworkerBetaUserRole);
