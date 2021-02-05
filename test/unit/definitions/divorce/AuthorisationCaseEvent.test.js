@@ -1,12 +1,10 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const { isFieldDuplicated, loadAllFiles } = require('../../utils/utils');
+const { isFieldDuplicated } = require('../../utils/utils');
 const { createAssertExists } = require('../../utils/assertBuilders');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 const assertEventExists = createAssertExists('Event');
-
-const getAuthorisationCaseEventDefinitions = loadAllFiles('AuthorisationCaseEvent');
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 
 describe('AuthorisationCaseEvent', () => {
   describe('NonProd:', () => {
@@ -14,27 +12,8 @@ describe('AuthorisationCaseEvent', () => {
     let allEventsForNonProd = [];
 
     before(() => {
-      nonProd = getAuthorisationCaseEventDefinitions([
-        'AuthorisationCaseEvent',
-        'AuthorisationCaseEvent-alternative-service-nonprod',
-        'AuthorisationCaseEvent-alt-service-process-server-nonprod',
-        'AuthorisationCaseEvent-amend-court-orders-nonprod',
-        'AuthorisationCaseEvent-general-email-nonprod',
-        'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-nonprod',
-        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod'
-      ]);
-
-      allEventsForNonProd = getCaseEventDefinitions([
-        'CaseEvent',
-        'CaseEvent-alt-service-process-server-nonprod',
-        'CaseEvent-alternative-service-nonprod',
-        'CaseEvent-amend-court-orders-nonprod',
-        'CaseEvent-general-email-nonprod',
-        'CaseEvent-general-referral-nonprod',
-        'CaseEvent-share-a-case-nonprod',
-        'CaseEvent-nonprod'
-      ]);
+      nonProd = nonprod.AuthorisationCaseEvent;
+      allEventsForNonProd = nonprod.CaseEvent;
     });
 
     it('should contain a unique case type, case event ID and role (no duplicates) for non-prod', () => {
@@ -53,16 +32,8 @@ describe('AuthorisationCaseEvent', () => {
     let allEventsForProd = [];
 
     before(() => {
-      prodOnly = getAuthorisationCaseEventDefinitions([
-        'AuthorisationCaseEvent',
-        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
-      ]);
-
-      allEventsForProd = getCaseEventDefinitions(
-        [
-          'CaseEvent',
-          'CaseEvent-prod'
-        ]);
+      prodOnly = prod.AuthorisationCaseEvent;
+      allEventsForProd = prod.CaseEvent;
     });
 
     it('should contain a unique case type, case event ID and role (no duplicates)', () => {
