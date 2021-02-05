@@ -25,7 +25,8 @@ module.exports = {
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-prod'
+      'CaseEventToFields-pet-sol-selects-own-org-prod',
+      'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
     State: getStateDefinitions(['State']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
@@ -91,7 +92,7 @@ module.exports = {
       'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
-      'CaseEventToFields-nonprod'
+      'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
     ]),
     State: getStateDefinitions([
       'State',
