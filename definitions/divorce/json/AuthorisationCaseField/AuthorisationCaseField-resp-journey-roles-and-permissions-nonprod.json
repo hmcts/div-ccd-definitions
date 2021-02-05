@@ -103,5 +103,12 @@
     "CaseFieldID": "RespSolDigital",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespondentServiceDetails-DigitalOrPaper",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
   }
 ]
