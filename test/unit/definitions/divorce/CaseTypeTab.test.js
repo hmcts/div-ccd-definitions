@@ -1,6 +1,6 @@
 const { expect, assert } = require('chai');
 const { uniq, uniqWith, map, filter } = require('lodash');
-const { loadAllFiles, sortCaseTypeTabs } = require('../../utils/utils');
+const { sortCaseTypeTabs } = require('../../utils/utils');
 const {
   nonProdTabDisplayOrder,
   nonProdTabIds,
@@ -9,9 +9,7 @@ const {
   validateUniqueTabDisplayOrder,
   validateTabFieldDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
-
-const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 const caseworkerBetaUserRole = 'caseworker-divorce-courtadmin_beta';
 const solicitorUserRole = 'caseworker-divorce-solicitor';
@@ -75,22 +73,8 @@ describe('CaseTypeTab (nonprod)', () => {
   let tabIds = [];
 
   before(() => {
-    caseTypeTab = getCaseTypeTabDefinitions([
-      'CaseTypeTab',
-      'CaseTypeTab-deemed-and-dispensed-nonprod',
-      'CaseTypeTab-general-referral-nonprod',
-      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
-      'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
-    ]);
-
-    caseField = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-deemed-and-dispensed-nonprod',
-      'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod',
-      'CaseField-resp-journey-roles-and-permissions-nonprod',
-      'CaseField-share-a-case-nonprod'
-    ]);
+    caseTypeTab = nonprod.CaseTypeTab;
+    caseField = nonprod.CaseField;
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
@@ -178,17 +162,9 @@ describe('CaseTypeTab (prod)', () => {
   let tabIds = [];
 
   before(() => {
-    caseTypeTab = getCaseTypeTabDefinitions(
-      [
-        'CaseTypeTab',
-        'CaseTypeTab-prod'
-      ]);
+    caseTypeTab = prod.CaseTypeTab;
+    caseField = prod.CaseField;
 
-    caseField = getCaseFieldDefinitions(
-      [
-        'CaseField',
-        'CaseField-prod'
-      ]);
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
   });

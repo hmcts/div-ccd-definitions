@@ -1,12 +1,10 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
-const { isFieldDuplicated, loadAllFiles } = require('../../utils/utils');
+const { isFieldDuplicated } = require('../../utils/utils');
 const { createAssertExists } = require('../../utils/assertBuilders');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 const assertFieldExists = createAssertExists('Field');
-
-const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseField');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
 
 describe('AuthorisationCaseField', () => {
   describe('Non-prod:', () => {
@@ -14,30 +12,8 @@ describe('AuthorisationCaseField', () => {
     let allFieldsForNonProd = [];
 
     before(() => {
-      nonProdAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
-        'AuthorisationCaseField',
-        'AuthorisationCaseField-nonprod',
-        'AuthorisationCaseField-alt-service-process-server-nonprod',
-        'AuthorisationCaseField-alternative-service-nonprod',
-        'AuthorisationCaseField-amend-court-orders-nonprod',
-        'AuthorisationCaseField-deemed-and-dispensed-nonprod',
-        'AuthorisationCaseField-general-email-nonprod',
-        'AuthorisationCaseField-general-referral-nonprod',
-        'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseField-share-a-case-nonprod'
-      ]);
-
-      allFieldsForNonProd = getCaseFieldDefinitions([
-        'CaseField',
-        'CaseField-share-a-case-nonprod',
-        'CaseField-alt-service-process-server-nonprod',
-        'CaseField-alternative-service-nonprod',
-        'CaseField-amend-court-orders-nonprod',
-        'CaseField-deemed-and-dispensed-nonprod',
-        'CaseField-general-email-nonprod',
-        'CaseField-general-referral-nonprod',
-        'CaseField-resp-journey-roles-and-permissions-nonprod'
-      ]);
+      nonProdAuthorisationCaseField = nonprod.AuthorisationCaseField;
+      allFieldsForNonProd = nonprod.CaseField;
     });
 
     it('should contain a unique case field ID, case type ID and role (no duplicates)', () => {
@@ -56,15 +32,8 @@ describe('AuthorisationCaseField', () => {
     let allFieldsForProd = [];
 
     before(() => {
-      prodAuthorisationCaseField = getAuthorisationCaseFieldDefinitions([
-        'AuthorisationCaseField',
-        'AuthorisationCaseField-prod'
-      ]);
-
-      allFieldsForProd = getCaseFieldDefinitions([
-        'CaseField',
-        'CaseField-prod'
-      ]);
+      prodAuthorisationCaseField = prod.AuthorisationCaseField;
+      allFieldsForProd = prod.CaseField;
     });
 
     it('should contain a unique case field ID, case type ID and role (no duplicates)', () => {
