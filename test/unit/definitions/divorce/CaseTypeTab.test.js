@@ -6,8 +6,7 @@ const {
   nonProdTabIds,
   prodTabDisplayOrder,
   prodTabIds,
-  validateUniqueTabDisplayOrder,
-  validateTabFieldDisplayOrder
+  validateUniqueTabDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 const { prod, nonprod } = require('../../utils/dataProvider');
 
@@ -204,13 +203,6 @@ describe('CaseTypeTab (prod)', () => {
   it('should contain unique tab field display order ID field tab ID (no duplicate field order in a tab)', () => {
     const validationErrors = validateUniqueTabDisplayOrder(tabIds, caseTypeTab);
     expect(validationErrors).to.have.lengthOf(0);
-  });
-
-  it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
-    assert.doesNotThrow(() => {
-      validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-    },
-    /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
   });
 
   it('should be visible to specific users', () => {
