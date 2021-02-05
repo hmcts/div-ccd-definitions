@@ -6,7 +6,7 @@
     "CaseFieldID": "PetitionerSolicitorPhone",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
-    "PageID": "DIV-6723-TODO",
+    "PageID": "updatePetSolContactDetails",
     "PageLabel": "Update petitioner solicitor details",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
@@ -18,7 +18,7 @@
     "CaseFieldID": "PetitionerSolicitorEmail",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "DIV-6723-TODO",
+    "PageID": "updatePetSolContactDetails",
     "PageLabel": "Update petitioner solicitor details",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
@@ -30,7 +30,7 @@
     "CaseFieldID": "SolicitorAgreeToReceiveEmails",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
-    "PageID": "DIV-6723-TODO",
+    "PageID": "updatePetSolContactDetails",
     "PageLabel": "Update petitioner solicitor details",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
@@ -42,7 +42,7 @@
     "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
-    "PageID": "DIV-6723-TODO",
+    "PageID": "updatePetSolContactDetails",
     "PageLabel": "Update petitioner solicitor details",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
