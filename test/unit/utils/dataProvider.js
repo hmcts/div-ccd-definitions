@@ -6,7 +6,7 @@ const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseFiel
 const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
 const getStateDefinitions = loadAllFiles('State');
-const getAuthorisationComplexTypeDefinitions =  loadAllFiles('AuthorisationComplexType');
+const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComplexType');
 
 module.exports = {
   prod: {
@@ -29,9 +29,7 @@ module.exports = {
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
     State: getStateDefinitions(['State']),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
-      'AuthorisationComplexType'
-    ])
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType'])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(

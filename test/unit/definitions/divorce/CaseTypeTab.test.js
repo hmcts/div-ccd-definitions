@@ -78,6 +78,7 @@ describe('CaseTypeTab (nonprod)', () => {
     caseTypeTab = getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-general-referral-nonprod',
+      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
     ]);
 
@@ -122,10 +123,10 @@ describe('CaseTypeTab (nonprod)', () => {
 
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
-    const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
+    const objectsWithInvalidCaseFieldId = filter(caseTypeTab, field => {
       return validFields.indexOf(field.CaseFieldID) === -1;
     });
-    expect(objectsWithInvalidCaseId).to.eql([]);
+    expect(objectsWithInvalidCaseFieldId).to.eql([]);
   });
 
   it('should be visible to specific users', () => {

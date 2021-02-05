@@ -80,6 +80,7 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseEventToFields-amend-court-orders-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
+      'CaseEventToFields-pet-sol-selects-own-org-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod',
       'CaseEventToFields-share-a-case-nonprod',
       'CaseEventToFields-nonprod'
@@ -135,6 +136,7 @@ describe('CaseEventToFields (prod)', () => {
   before(() => {
     caseEventToFieldsProd = getCaseEventToFieldDefinitions([
       'CaseEventToFields',
+      'CaseEventToFields-pet-sol-selects-own-org-prod',
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]);
 
