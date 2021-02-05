@@ -105,8 +105,7 @@ describe('CaseEventToFields (non-prod)', () => {
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod',
-      'CaseField-resp-journey-roles-and-permissions-nonprod',
-      'CaseField-share-a-case-nonprod'
+      'CaseField-resp-journey-roles-and-permissions-nonprod'
     ]);
   });
 
