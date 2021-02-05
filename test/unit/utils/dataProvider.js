@@ -10,6 +10,9 @@ const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComple
 const getCaseFieldDefinitions = loadAllFiles('CaseField');
 const getCaseEventToComplexTypesDefinitions = loadAllFiles('CaseEventToComplexTypes');
 const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
+const getComplexTypesDefinitions = loadAllFiles('ComplexTypes');
+const getFixedListsDefinitions = loadAllFiles('FixedLists');
 
 module.exports = {
   prod: {
@@ -22,6 +25,7 @@ module.exports = {
       'AuthorisationCaseField',
       'AuthorisationCaseField-prod'
     ]),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-prod'
@@ -33,16 +37,26 @@ module.exports = {
     ]),
     State: getStateDefinitions(['State']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
-
     CaseField: getCaseFieldDefinitions([
       'CaseField',
       'CaseField-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
+    CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
+    CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-prod'
-    ])
+    ]),
+    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
+    FixedLists: getFixedListsDefinitions(['FixedLists']),
+    Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -83,6 +97,10 @@ module.exports = {
         'AuthorisationCaseField-nonprod'
       ]
     ),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
+      'AuthorisationCaseType',
+      'AuthorisationCaseType-resp-journey-roles-and-permissions-nonprod'
+    ]),
     CaseEvent: getCaseEventDefinitions(
       [
         'CaseEvent',
@@ -105,6 +123,7 @@ module.exports = {
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
     ]),
+    CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
     State: getStateDefinitions([
       'State',
       'State-alternative-service-nonprod',
@@ -135,12 +154,33 @@ module.exports = {
       'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
       'CaseEventToComplexTypes-share-a-case-nonprod'
     ]),
+    ComplexTypes: getComplexTypesDefinitions([
+      'ComplexTypes',
+      'ComplexTypes-deemed-and-dispensed-nonprod',
+      'ComplexTypes-general-referral-nonprod',
+      'ComplexTypes-nonprod'
+    ]),
+    CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-deemed-and-dispensed-nonprod',
       'CaseTypeTab-general-referral-nonprod',
       'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
-    ])
+    ]),
+    FixedLists: getFixedListsDefinitions([
+      'FixedLists',
+      'FixedLists-bailiff-nonprod',
+      'FixedLists-deemed-and-dispensed-nonprod',
+      'FixedLists-general-email-nonprod',
+      'FixedLists-general-referral-nonprod'
+    ]),
+    Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
   }
 };
