@@ -9,6 +9,7 @@ const getStateDefinitions = loadAllFiles('State');
 const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComplexType');
 const getCaseFieldDefinitions = loadAllFiles('CaseField');
 const getCaseEventToComplexTypesDefinitions = loadAllFiles('CaseEventToComplexTypes');
+const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
 
 module.exports = {
   prod: {
@@ -37,8 +38,10 @@ module.exports = {
       'CaseField',
       'CaseField-prod'
     ]),
-    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
-      'CaseEventToComplexTypes'
+    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
+    CaseTypeTab: getCaseTypeTabDefinitions([
+      'CaseTypeTab',
+      'CaseTypeTab-prod'
     ])
   },
   nonprod: {
@@ -131,6 +134,13 @@ module.exports = {
       'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
       'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
       'CaseEventToComplexTypes-share-a-case-nonprod'
+    ]),
+    CaseTypeTab: getCaseTypeTabDefinitions([
+      'CaseTypeTab',
+      'CaseTypeTab-deemed-and-dispensed-nonprod',
+      'CaseTypeTab-general-referral-nonprod',
+      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
+      'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
     ])
   }
 };

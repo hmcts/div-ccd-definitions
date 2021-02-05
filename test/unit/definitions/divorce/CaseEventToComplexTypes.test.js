@@ -4,7 +4,7 @@ const { prod, nonprod } = require('../../utils/dataProvider');
 
 const DISPLAY_CONTEXTS = ['MANDATORY', 'READONLY', 'OPTIONAL'];
 
-function assertEventToComplexTypesDefinitionIsValid (row) {
+function assertEventToComplexTypesDefinitionIsValid(row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
     return v.startsWith('DIVORCE');
   });
