@@ -23,6 +23,7 @@ describe('CaseEventToComplexTypes', () => {
     before(() => {
       nonProdDefinitions = getCaseEventToComplexTypesDefinitions([
         'CaseEventToComplexTypes',
+        'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
         'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
       ]);
     });

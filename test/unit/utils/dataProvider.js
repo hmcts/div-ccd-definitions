@@ -29,9 +29,7 @@ module.exports = {
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
     State: getStateDefinitions(['State']),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
-      'AuthorisationComplexType'
-    ])
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType'])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
