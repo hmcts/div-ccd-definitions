@@ -22,8 +22,7 @@ describe('CaseEventToComplexTypes', () => {
 
     before(() => {
       nonProdDefinitions = getCaseEventToComplexTypesDefinitions([
-        'CaseEventToComplexTypes',
-        'CaseEventToComplexTypes-share-a-case-nonprod'
+        'CaseEventToComplexTypes'
       ]);
     });
 

@@ -130,7 +130,6 @@ function loadDefinitionsForNonProd() {
       'AuthorisationCaseState-bailiff-nonprod',
       'AuthorisationCaseState-deemed-and-dispensed-nonprod',
       'AuthorisationCaseState-general-referral-nonprod',
-      'AuthorisationCaseState-share-a-case-nonprod',
       'AuthorisationCaseState-nonprod'
     ]
   );
@@ -158,7 +157,6 @@ function loadDefinitionsForNonProd() {
       'AuthorisationCaseField-general-email-nonprod',
       'AuthorisationCaseField-general-referral-nonprod',
       'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-      'AuthorisationCaseField-share-a-case-nonprod',
       'AuthorisationCaseField-nonprod'
     ]
   );
