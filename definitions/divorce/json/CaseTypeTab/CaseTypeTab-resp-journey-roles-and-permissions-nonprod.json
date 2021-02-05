@@ -170,5 +170,15 @@
     "CaseFieldID": "CaseNotes",
     "UserRole": "caseworker-divorce-pcqextractor",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "TabFieldDisplayOrder": 44
   }
 ]

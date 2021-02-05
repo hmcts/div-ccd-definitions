@@ -79,6 +79,7 @@ describe('CaseTypeTab (nonprod)', () => {
       'CaseTypeTab',
       'CaseTypeTab-deemed-and-dispensed-nonprod',
       'CaseTypeTab-general-referral-nonprod',
+      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
     ]);
 
@@ -86,7 +87,9 @@ describe('CaseTypeTab (nonprod)', () => {
       'CaseField',
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
+      'CaseField-general-referral-nonprod',
+      'CaseField-resp-journey-roles-and-permissions-nonprod',
+      'CaseField-share-a-case-nonprod'
     ]);
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
@@ -119,10 +122,10 @@ describe('CaseTypeTab (nonprod)', () => {
 
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
-    const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
+    const objectsWithInvalidCaseFieldId = filter(caseTypeTab, field => {
       return validFields.indexOf(field.CaseFieldID) === -1;
     });
-    expect(objectsWithInvalidCaseId).to.eql([]);
+    expect(objectsWithInvalidCaseFieldId).to.eql([]);
   });
 
   it('should be visible to specific users', () => {
