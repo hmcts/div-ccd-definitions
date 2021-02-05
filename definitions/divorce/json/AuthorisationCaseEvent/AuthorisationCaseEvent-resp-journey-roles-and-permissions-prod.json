@@ -179,6 +179,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
+    "CRUD": "R"
   }
 ]
