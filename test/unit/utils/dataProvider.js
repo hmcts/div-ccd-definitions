@@ -6,6 +6,7 @@ const getAuthorisationCaseFieldDefinitions = loadAllFiles('AuthorisationCaseFiel
 const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
 const getStateDefinitions = loadAllFiles('State');
+const getAuthorisationComplexTypeDefinitions =  loadAllFiles('AuthorisationComplexType');
 
 module.exports = {
   prod: {
@@ -26,7 +27,10 @@ module.exports = {
       'CaseEventToFields',
       'CaseEventToFields-prod'
     ]),
-    State: getStateDefinitions(['State'])
+    State: getStateDefinitions(['State']),
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
+      'AuthorisationComplexType'
+    ])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -96,6 +100,11 @@ module.exports = {
       'State-bailiff-nonprod',
       'State-deemed-and-dispensed-nonprod',
       'State-general-referral-nonprod'
+    ]),
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
+      'AuthorisationComplexType',
+      'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
+      'AuthorisationComplexType-share-a-case-nonprod'
     ])
   }
 };
