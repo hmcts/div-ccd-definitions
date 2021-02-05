@@ -86,7 +86,8 @@ describe('CaseTypeTab (nonprod)', () => {
       'CaseField',
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
+      'CaseField-general-referral-nonprod',
+      'CaseField-resp-journey-roles-and-permissions-nonprod'
     ]);
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);

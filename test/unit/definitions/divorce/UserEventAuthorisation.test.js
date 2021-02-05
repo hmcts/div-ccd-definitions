@@ -117,7 +117,7 @@ function loadDefinitionsForProd() {
 
   CaseEventToFields = getCaseEventToFieldsDefinitions([
     'CaseEventToFields',
-    'CaseEventToFields-prod'
+    'CaseEventToFields-resp-journey-roles-and-permissions-prod'
   ]);
 }
 
@@ -181,6 +181,7 @@ function loadDefinitionsForNonProd() {
     'CaseEventToFields-deemed-and-dispensed-nonprod',
     'CaseEventToFields-general-email-nonprod',
     'CaseEventToFields-general-referral-nonprod',
+    'CaseEventToFields-resp-journey-roles-and-permissions-nonprod',
     'CaseEventToFields-nonprod'
   ]);
 }
