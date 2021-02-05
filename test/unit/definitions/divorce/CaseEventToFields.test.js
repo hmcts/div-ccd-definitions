@@ -139,8 +139,7 @@ describe('CaseEventToFields (prod)', () => {
     caseEventToFieldsProd = getCaseEventToFieldDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-pet-sol-selects-own-org-prod',
-      'CaseEventToFields-resp-journey-roles-and-permissions-prod',
-      'CaseEventToFields-prod'
+      'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]);
 
     caseEventProd = getCaseEventDefinitions([
