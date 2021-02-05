@@ -1,3 +1,4 @@
+const load = require;
 const { loadAllFiles } = require('./utils');
 
 const getAuthorisationCaseStateDefinitions = loadAllFiles('AuthorisationCaseState');
@@ -42,21 +43,21 @@ module.exports = {
       'CaseField-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
-    CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
-    CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
+    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-prod'
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions(['FixedLists']),
-    Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
-    SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
-    SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
-    UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
-    WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
-    WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
+    Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -123,7 +124,7 @@ module.exports = {
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
     ]),
-    CaseRoles: Object.assign(require('definitions/divorce/json/CaseRoles'), []),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     State: getStateDefinitions([
       'State',
       'State-alternative-service-nonprod',
@@ -160,7 +161,7 @@ module.exports = {
       'ComplexTypes-general-referral-nonprod',
       'ComplexTypes-nonprod'
     ]),
-    CaseType: Object.assign(require('definitions/divorce/json/CaseType'), []),
+    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-deemed-and-dispensed-nonprod',
@@ -175,12 +176,12 @@ module.exports = {
       'FixedLists-general-email-nonprod',
       'FixedLists-general-referral-nonprod'
     ]),
-    Jurisdiction: Object.assign(require('definitions/divorce/json/Jurisdiction'), []),
-    SearchAlias: Object.assign(require('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(require('definitions/divorce/json/SearchInputFields'), []),
-    SearchResultFields: Object.assign(require('definitions/divorce/json/SearchResultFields'), []),
-    UserProfile: Object.assign(require('definitions/divorce/json/UserProfile'), []),
-    WorkBasketInputFields: Object.assign(require('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
-    WorkBasketResultFields: Object.assign(require('definitions/divorce/json/WorkBasketResultFields'), [])
+    Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
   }
 };
