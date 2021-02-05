@@ -1,5 +1,12 @@
 [
   {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "26/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
@@ -32,7 +39,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "26/01/2021",
@@ -68,5 +75,54 @@
     "CaseFieldID": "D8RespondentLastName",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespondentServiceDetails-DigitalOrPaper",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
   }
 ]
