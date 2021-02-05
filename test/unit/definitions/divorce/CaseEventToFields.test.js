@@ -1,10 +1,6 @@
 const { expect, assert } = require('chai');
 const { find } = require('lodash');
-const { loadAllFiles } = require('../../utils/utils');
-
-const getCaseEventToFieldDefinitions = loadAllFiles('CaseEventToFields');
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
@@ -73,40 +69,9 @@ describe('CaseEventToFields (non-prod)', () => {
   let caseFieldNonProd = [];
 
   before(() => {
-    caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-alt-service-process-server-nonprod',
-      'CaseEventToFields-alternative-service-nonprod',
-      'CaseEventToFields-amend-court-orders-nonprod',
-      'CaseEventToFields-general-email-nonprod',
-      'CaseEventToFields-general-referral-nonprod',
-      'CaseEventToFields-pet-sol-selects-own-org-nonprod',
-      'CaseEventToFields-resp-journey-roles-and-permissions-nonprod',
-      'CaseEventToFields-share-a-case-nonprod',
-      'CaseEventToFields-nonprod'
-    ]);
-
-    caseEventNonProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-alternative-service-nonprod',
-      'CaseEvent-alt-service-process-server-nonprod',
-      'CaseEvent-amend-court-orders-nonprod',
-      'CaseEvent-general-email-nonprod',
-      'CaseEvent-general-referral-nonprod',
-      'CaseEvent-share-a-case-nonprod',
-      'CaseEvent-nonprod'
-    ]);
-
-    caseFieldNonProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-alt-service-process-server-nonprod',
-      'CaseField-alternative-service-nonprod',
-      'CaseField-amend-court-orders-nonprod',
-      'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod',
-      'CaseField-resp-journey-roles-and-permissions-nonprod',
-      'CaseField-share-a-case-nonprod'
-    ]);
+    caseEventToFieldsNonProd = nonprod.CaseEventToFields;
+    caseEventNonProd = nonprod.CaseEvent;
+    caseFieldNonProd = nonprod.CaseField;
   });
 
   it('should contain valid event IDs', () => {
@@ -134,21 +99,9 @@ describe('CaseEventToFields (prod)', () => {
   let caseFieldProd = [];
 
   before(() => {
-    caseEventToFieldsProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-pet-sol-selects-own-org-prod',
-      'CaseEventToFields-resp-journey-roles-and-permissions-prod'
-    ]);
-
-    caseEventProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-prod'
-    ]);
-
-    caseFieldProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-prod'
-    ]);
+    caseEventToFieldsProd = prod.CaseEventToFields;
+    caseEventProd = prod.CaseEvent;
+    caseFieldProd = prod.CaseField;
   });
 
   it('should contain valid event IDs', () => {
