@@ -180,7 +180,7 @@ describe('CaseTypeTab (prod)', () => {
     caseTypeTab = getCaseTypeTabDefinitions(
       [
         'CaseTypeTab',
-        'CaseTypeTab-resp-journey-roles-and-permissions-prod'
+        'CaseTypeTab-prod'
       ]);
 
     caseField = getCaseFieldDefinitions(
