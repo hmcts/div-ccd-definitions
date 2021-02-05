@@ -6,8 +6,7 @@ const {
   nonProdTabIds,
   prodTabDisplayOrder,
   prodTabIds,
-  validateUniqueTabDisplayOrder,
-  validateTabFieldDisplayOrder
+  validateUniqueTabDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 
 const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
