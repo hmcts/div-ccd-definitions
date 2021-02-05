@@ -1,3 +1,4 @@
+const load = require;
 const { loadAllFiles } = require('./utils');
 
 const getAuthorisationCaseStateDefinitions = loadAllFiles('AuthorisationCaseState');
@@ -7,6 +8,12 @@ const getCaseEventDefinitions = loadAllFiles('CaseEvent');
 const getCaseEventToFieldsDefinitions = loadAllFiles('CaseEventToFields');
 const getStateDefinitions = loadAllFiles('State');
 const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComplexType');
+const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const getCaseEventToComplexTypesDefinitions = loadAllFiles('CaseEventToComplexTypes');
+const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
+const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
+const getComplexTypesDefinitions = loadAllFiles('ComplexTypes');
+const getFixedListsDefinitions = loadAllFiles('FixedLists');
 
 module.exports = {
   prod: {
@@ -19,6 +26,7 @@ module.exports = {
       'AuthorisationCaseField',
       'AuthorisationCaseField-prod'
     ]),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-prod'
@@ -29,17 +37,38 @@ module.exports = {
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
     State: getStateDefinitions(['State']),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType'])
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
+    CaseField: getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-prod'
+    ]),
+    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
+    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
+    CaseTypeTab: getCaseTypeTabDefinitions([
+      'CaseTypeTab',
+      'CaseTypeTab-prod'
+    ]),
+    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
+    FixedLists: getFixedListsDefinitions(['FixedLists']),
+    Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
   },
   nonprod: {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
       [
         'AuthorisationCaseState',
-        'AuthorisationCaseState-alternative-service-nonprod',
         'AuthorisationCaseState-alt-service-process-server-nonprod',
+        'AuthorisationCaseState-alternative-service-nonprod',
         'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
+        'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseState-nonprod'
       ]
     ),
@@ -68,6 +97,10 @@ module.exports = {
         'AuthorisationCaseField-nonprod'
       ]
     ),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
+      'AuthorisationCaseType',
+      'AuthorisationCaseType-resp-journey-roles-and-permissions-nonprod'
+    ]),
     CaseEvent: getCaseEventDefinitions(
       [
         'CaseEvent',
@@ -89,6 +122,7 @@ module.exports = {
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
     ]),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     State: getStateDefinitions([
       'State',
       'State-alternative-service-nonprod',
@@ -100,6 +134,49 @@ module.exports = {
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
       'AuthorisationComplexType',
       'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod'
-    ])
+    ]),
+    CaseField: getCaseFieldDefinitions([
+      'CaseField',
+      'CaseField-alt-service-process-server-nonprod',
+      'CaseField-alternative-service-nonprod',
+      'CaseField-amend-court-orders-nonprod',
+      'CaseField-deemed-and-dispensed-nonprod',
+      'CaseField-general-email-nonprod',
+      'CaseField-general-referral-nonprod',
+      'CaseField-resp-journey-roles-and-permissions-nonprod'
+    ]),
+    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
+      'CaseEventToComplexTypes',
+      'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
+      'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod'
+    ]),
+    ComplexTypes: getComplexTypesDefinitions([
+      'ComplexTypes',
+      'ComplexTypes-deemed-and-dispensed-nonprod',
+      'ComplexTypes-general-referral-nonprod',
+      'ComplexTypes-nonprod'
+    ]),
+    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
+    CaseTypeTab: getCaseTypeTabDefinitions([
+      'CaseTypeTab',
+      'CaseTypeTab-deemed-and-dispensed-nonprod',
+      'CaseTypeTab-general-referral-nonprod',
+      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
+      'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
+    ]),
+    FixedLists: getFixedListsDefinitions([
+      'FixedLists',
+      'FixedLists-bailiff-nonprod',
+      'FixedLists-deemed-and-dispensed-nonprod',
+      'FixedLists-general-email-nonprod',
+      'FixedLists-general-referral-nonprod'
+    ]),
+    Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
+    SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
+    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
+    WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
+    WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
   }
 };

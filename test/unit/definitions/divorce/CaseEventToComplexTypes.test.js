@@ -1,9 +1,8 @@
 const { expect } = require('chai');
-const { MEDIUM_STRING, isNotLongerThan, loadAllFiles } = require('../../utils/utils');
+const { MEDIUM_STRING, isNotLongerThan } = require('../../utils/utils');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 const DISPLAY_CONTEXTS = ['MANDATORY', 'READONLY', 'OPTIONAL'];
-
-const getCaseEventToComplexTypesDefinitions = loadAllFiles('CaseEventToComplexTypes');
 
 function assertEventToComplexTypesDefinitionIsValid(row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
@@ -21,11 +20,7 @@ describe('CaseEventToComplexTypes', () => {
     let nonProdDefinitions = [];
 
     before(() => {
-      nonProdDefinitions = getCaseEventToComplexTypesDefinitions([
-        'CaseEventToComplexTypes',
-        'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
-        'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
-      ]);
+      nonProdDefinitions = nonprod.CaseEventToComplexTypes;
     });
 
     it('should have only valid definitions', () => {
@@ -37,8 +32,7 @@ describe('CaseEventToComplexTypes', () => {
     let prodOnlyDefinitions = [];
 
     before(() => {
-      prodOnlyDefinitions = getCaseEventToComplexTypesDefinitions(
-        ['CaseEventToComplexTypes']);
+      prodOnlyDefinitions = prod.CaseEventToComplexTypes;
     });
 
     it('should have only valid definitions', () => {
