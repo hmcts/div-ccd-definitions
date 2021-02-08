@@ -1,8 +1,6 @@
 const { expect } = require('chai');
-const { getUniqValues, loadAllFiles } = require('../../utils/utils');
-
-const getAuthorisationComplexTypeDefinitions = loadAllFiles('AuthorisationComplexType');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const { getUniqValues } = require('../../utils/utils');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 describe('AuthorisationComplexType', () => {
   describe('Non-prod:', () => {
@@ -10,15 +8,8 @@ describe('AuthorisationComplexType', () => {
     let allFieldsForNonProd = [];
 
     before(() => {
-      nonProdAuthorisationComplexType = getAuthorisationComplexTypeDefinitions([
-        'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationComplexType-share-a-case-nonprod'
-      ]);
-
-      allFieldsForNonProd = getCaseFieldDefinitions([
-        'CaseField-resp-journey-roles-and-permissions-nonprod',
-        'CaseField-share-a-case-nonprod'
-      ]);
+      nonProdAuthorisationComplexType = nonprod.AuthorisationComplexType;
+      allFieldsForNonProd = nonprod.CaseField;
     });
 
     it('should have a list of ComplexType IDs that exist in CaseFields', () => {
@@ -34,12 +25,8 @@ describe('AuthorisationComplexType', () => {
     let allFieldsForProd = [];
 
     before(() => {
-      prodAuthorisationComplexType = getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']);
-
-      allFieldsForProd = getCaseFieldDefinitions([
-        'CaseField',
-        'CaseField-prod'
-      ]);
+      prodAuthorisationComplexType = prod.AuthorisationComplexType;
+      allFieldsForProd = prod.CaseField;
     });
 
     it('should have a list of ComplexType IDs that exist in CaseFields', () => {

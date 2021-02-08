@@ -1,12 +1,5 @@
 [
   {
-    "LiveFrom": "18/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "26/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
