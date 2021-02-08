@@ -11103,5 +11103,16 @@
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "PageFieldDisplayOrder": 9,
+    "DisplayContext": "COMPLEX",
+    "PageID": "SolAboutTheSolicitor",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

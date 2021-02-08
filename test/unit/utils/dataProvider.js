@@ -68,7 +68,6 @@ module.exports = {
         'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
-        'AuthorisationCaseState-share-a-case-nonprod',
         'AuthorisationCaseState-nonprod'
       ]
     ),
@@ -94,7 +93,6 @@ module.exports = {
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseField-share-a-case-nonprod',
         'AuthorisationCaseField-nonprod'
       ]
     ),
@@ -110,7 +108,6 @@ module.exports = {
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
-        'CaseEvent-share-a-case-nonprod',
         'CaseEvent-nonprod'
       ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
@@ -134,8 +131,7 @@ module.exports = {
     ]),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
       'AuthorisationComplexType',
-      'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
-      'AuthorisationComplexType-share-a-case-nonprod'
+      'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod'
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
@@ -145,14 +141,12 @@ module.exports = {
       'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod',
-      'CaseField-resp-journey-roles-and-permissions-nonprod',
-      'CaseField-share-a-case-nonprod'
+      'CaseField-resp-journey-roles-and-permissions-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
       'CaseEventToComplexTypes',
       'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
-      'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
-      'CaseEventToComplexTypes-share-a-case-nonprod'
+      'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
       'ComplexTypes',
