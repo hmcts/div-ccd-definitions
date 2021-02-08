@@ -68,7 +68,6 @@ module.exports = {
         'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
-        'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseState-nonprod'
       ]
     ),
@@ -98,8 +97,7 @@ module.exports = {
       ]
     ),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
-      'AuthorisationCaseType',
-      'AuthorisationCaseType-resp-journey-roles-and-permissions-nonprod'
+      'AuthorisationCaseType'
     ]),
     CaseEvent: getCaseEventDefinitions(
       [

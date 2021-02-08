@@ -19789,5 +19789,12 @@
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   }
 ]
