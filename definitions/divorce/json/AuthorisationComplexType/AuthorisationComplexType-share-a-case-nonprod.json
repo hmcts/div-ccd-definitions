@@ -1,32 +1,32 @@
 [
   {
-    "LiveFrom": "26/01/2021",
+    "LiveFrom": "20/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespondentOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "26/01/2021",
+    "LiveFrom": "20/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespondentOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "26/01/2021",
+    "LiveFrom": "20/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespondentOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "Organisation",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "26/01/2021",
+    "LiveFrom": "20/01/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "RespondentOrganisationPolicy",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
     "ListElementCode": "Organisation.OrganisationID",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
