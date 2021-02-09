@@ -31,5 +31,38 @@
     "EventElementLabel": "",
     "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[RESPSOLICITOR]",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
   }
 ]
