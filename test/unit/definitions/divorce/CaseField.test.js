@@ -1,7 +1,6 @@
 const { expect } = require('chai');
 const { uniqWith } = require('lodash');
 const {
-  SHORT_STRING,
   MEDIUM_STRING,
   isNotEmpty,
   isNotLongerThan,
