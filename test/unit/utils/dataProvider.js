@@ -81,7 +81,7 @@ module.exports = {
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-manage-contact-resp-journey-nonprod',
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseEvent-nonprod'
       ]
     ),
@@ -112,7 +112,7 @@ module.exports = {
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-share-a-case-nonprod',
-        'CaseEvent-manage-contact-resp-journey-nonprod',
+        'CaseEvent-resp-journey-roles-and-permissions-nonprod',
         'CaseEvent-nonprod'
       ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([

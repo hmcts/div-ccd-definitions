@@ -166,5 +166,54 @@
     "CaseEventID": "amendPetitionForRefusalSol",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]
