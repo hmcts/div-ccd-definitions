@@ -2246,5 +2246,65 @@
     "PageLabel": "Upload the marriage certificate",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "10/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updatePetSolContactDetails",
+    "PageLabel": "Update contact details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "10/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorPhone",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updatePetSolContactDetails",
+    "PageLabel": "Update contact details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "10/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageLabel": "Update contact details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "10/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "SolicitorAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageLabel": "Update contact details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "10/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageLabel": "Update contact details",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
