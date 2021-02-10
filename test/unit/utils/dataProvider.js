@@ -98,9 +98,7 @@ module.exports = {
         'AuthorisationCaseField-nonprod'
       ]
     ),
-    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
-      'AuthorisationCaseType'
-    ]),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions(
       [
         'CaseEvent',
