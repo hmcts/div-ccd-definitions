@@ -2571,7 +2571,7 @@
     "ID": "labelOtherProceedingsPetitioner",
     "Label": "### Petitioner's other proceedings:",
     "FieldType": "Label",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2579,7 +2579,7 @@
     "ID": "labelOtherProceedingsRespondent",
     "Label": "### Respondent's other proceedings:",
     "FieldType": "Label",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2588,7 +2588,7 @@
     "Label": "How does the respondent want to proceed?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "RespondentWillDefendEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3786,7 +3786,7 @@
     "ID": "bulkScanCaseReference",
     "Label": "Exception Record Reference",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3794,7 +3794,7 @@
     "ID": "D8ApplicationToIssueWithoutCertificate",
     "Label": "Is Petitioner making separate application to issue without their marriage or civil partnership certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3802,7 +3802,7 @@
     "ID": "D8MarriageCertificateCorrect",
     "Label": "Are the details set out in the marriage or civil partnership correct?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3810,7 +3810,7 @@
     "ID": "D8MarriageCertificateCorrectExplain",
     "Label": "Explanation of why marriage or civl partnership details are not correct",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "23/12/2019",
@@ -3818,7 +3818,7 @@
     "ID": "D8ReasonForDivorceDetails",
     "Label": "Brief details to support the reasons for your application",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "18/12/2019",
@@ -3826,7 +3826,7 @@
     "ID": "D8LegalProceedingsDetailsCaseNumber",
     "Label": "Case number(s)",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "02/01/2020",
@@ -3834,7 +3834,7 @@
     "ID": "RespStatementofTruthSignedDate",
     "Label": "Date Respondent statement of truth signed",
     "FieldType": "Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3843,7 +3843,7 @@
     "Label": "The Petitioner applies for the following:",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "D8AppliesForStatementOfTruthEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3852,7 +3852,7 @@
     "Label": "That a financial order may be granted for",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "financialOrderForEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3860,7 +3860,7 @@
     "ID": "D8FullNameStatementOfTruth",
     "Label": "Full name on Statement of Truth",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3868,7 +3868,7 @@
     "ID": "D8StatementOfTruthSignature",
     "Label": "Has the statement of truth been signed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3876,7 +3876,7 @@
     "ID": "D8StatementOfTruthDate",
     "Label": "Statement of Truth Date",
     "FieldType": "Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3884,7 +3884,7 @@
     "ID": "D8SolicitorsFirmStatementOfTruth",
     "Label": "Name of solicitor's firm on Statement of Truth",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "07/04/2020",
