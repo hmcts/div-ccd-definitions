@@ -112,7 +112,7 @@ module.exports = {
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-share-a-case-nonprod',
-        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
+        'CaseEvent-resp-journey-roles-and-permissions-nonprod',
         'CaseEvent-nonprod'
       ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
