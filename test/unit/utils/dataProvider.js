@@ -29,6 +29,7 @@ module.exports = {
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-resp-journey-roles-and-permissions-prod',
       'CaseEvent-prod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
