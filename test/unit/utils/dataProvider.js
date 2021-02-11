@@ -69,6 +69,7 @@ module.exports = {
         'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
         'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
+        'AuthorisationCaseState-share-a-case-nonprod',
         'AuthorisationCaseState-nonprod'
       ]
     ),
