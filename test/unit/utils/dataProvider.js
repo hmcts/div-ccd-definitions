@@ -81,6 +81,7 @@ module.exports = {
         'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseEvent-nonprod'
       ]
     ),
