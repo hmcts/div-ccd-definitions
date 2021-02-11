@@ -2295,7 +2295,9 @@
     "CaseFieldID": "D8DivorceClaimFrom",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
-    "PageDisplayOrder": 1
+    "PageDisplayOrder": 1,
+    "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/01/2017",
