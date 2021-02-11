@@ -117,5 +117,47 @@
     "CaseFieldID": "LabelRespondentServiceDetails-DigitalOrPaper",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]
