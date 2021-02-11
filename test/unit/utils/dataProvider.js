@@ -110,6 +110,7 @@ module.exports = {
         'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
+        'CaseEvent-resp-journey-roles-and-permissions-nonprod',
         'CaseEvent-share-a-case-nonprod',
         'CaseEvent-nonprod'
       ]),
