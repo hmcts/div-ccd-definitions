@@ -8,6 +8,7 @@
     "DisplayOrder": 8,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
