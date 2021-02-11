@@ -79,6 +79,7 @@ module.exports = {
         'AuthorisationCaseEvent-amend-court-orders-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
+        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseEvent-nonprod'
       ]
     ),
@@ -106,6 +107,7 @@ module.exports = {
         'CaseEvent-amend-court-orders-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
+        'CaseEvent-resp-journey-roles-and-permissions-nonprod',
         'CaseEvent-share-a-case-nonprod',
         'CaseEvent-nonprod'
       ]),
