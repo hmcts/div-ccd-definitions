@@ -2253,7 +2253,7 @@
     "CaseEventID": "UpdatePetSolContactDetails",
     "CaseFieldID": "PetitionerSolicitorName",
     "PageFieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": "updatePetSolContactDetails",
     "PageLabel": "Update contact details",
     "PageDisplayOrder": 1,
