@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "updateRespSolContactDetails",
+    "Name": "Update contact details",
+    "Description": "Update contact details",
+    "DisplayOrder": 8,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public"
+  }
+]

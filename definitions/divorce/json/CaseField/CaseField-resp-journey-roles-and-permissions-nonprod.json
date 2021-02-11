@@ -23,5 +23,13 @@
     "Label": "If the respondent solicitor's firm is registered with MyHMCTS, you can assign the case to them. This will allow the respondent solicitor to respond digitally. If you cannot find the respondent solicitor, a paper AOS pack will be sent to the respondent's solicitor's address entered above.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolAgreeToReceiveEmails",
+    "Label": "I confirm I am willing to accept service of all correspondence and orders by email at the email address stated above.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
