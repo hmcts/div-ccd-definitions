@@ -1,6 +1,6 @@
 [
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "NewLegalConnectionPolicy",
@@ -9,11 +9,11 @@
     "PageID": "SolJurisdiction",
     "PageLabel": "Jurisdiction",
     "PageDisplayOrder": 5,
-    "FieldShowCondition": "PetitionerSolicitorName=\"\"",
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "CaseFieldID": "D8JurisdictionConnectionNewPolicy",
@@ -25,7 +25,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "NewLegalConnectionPolicy",
@@ -34,11 +34,11 @@
     "PageID": "SolJurisdictionUpdate",
     "PageLabel": "Jurisdiction",
     "PageDisplayOrder": 6,
-    "FieldShowCondition": "PetitionerSolicitorName=\"\"",
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
     "ShowSummaryChangeOption": "No"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
     "CaseFieldID": "D8JurisdictionConnectionNewPolicy",

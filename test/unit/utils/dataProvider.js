@@ -40,7 +40,8 @@ module.exports = {
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
-      'CaseField-prod'
+      'CaseField-prod',
+      'CaseField-sol-brexit-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
@@ -100,9 +101,7 @@ module.exports = {
         'AuthorisationCaseField-nonprod'
       ]
     ),
-    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
-      'AuthorisationCaseType'
-    ]),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions(
       [
         'CaseEvent',
