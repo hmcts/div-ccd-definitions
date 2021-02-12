@@ -12149,14 +12149,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNWarningContinueDN",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNWarningPetitionRead",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/06/2019",
