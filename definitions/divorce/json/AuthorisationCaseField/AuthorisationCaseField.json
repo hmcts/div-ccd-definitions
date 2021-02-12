@@ -3985,13 +3985,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelResidualJurisdictionPara-1",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelResidualJurisdictionPara-2",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
