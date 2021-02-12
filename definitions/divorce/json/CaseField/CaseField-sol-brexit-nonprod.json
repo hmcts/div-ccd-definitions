@@ -1,6 +1,6 @@
 [
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "NewLegalConnectionPolicy",
     "Label": "Determine which legal connection wording to use.",
@@ -8,7 +8,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "D8JurisdictionConnectionNewPolicy",
     "Label": "Legal connections",
