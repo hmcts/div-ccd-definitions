@@ -2,6 +2,10 @@ tags:
   ccd-idam-pr: true
 
 nodejs:
+  keyVaults:
+    ccd:
+      secrets:
+        - AppInsightsInstrumentationKey
   # Don't modify below here
   image: ${IMAGE_NAME}
   ingressHost: ${SERVICE_FQDN}
