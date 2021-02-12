@@ -11631,28 +11631,28 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNAdulteryMustIntolerate",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNRespCostReview",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNRespCostAgree",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNRespCostDisagree",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -12149,14 +12149,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNWarningContinueDN",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/06/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelSolDNWarningPetitionRead",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/06/2019",
