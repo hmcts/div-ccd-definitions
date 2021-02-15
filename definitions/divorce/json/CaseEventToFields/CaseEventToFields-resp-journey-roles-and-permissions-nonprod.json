@@ -2246,5 +2246,115 @@
     "PageLabel": "Upload the marriage certificate",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorPhone",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "updatePetSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "PetitionerSolicitorEmail",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "SolicitorAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "UpdatePetSolContactDetails",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "PageID": "updatePetSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateRespSolContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "RespSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateRespSolContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "RespSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateRespSolContactDetails",
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "RespSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateRespSolContactDetails",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "RespSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "updateRespSolContactDetails",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "PageID": "RespSolContactDetails",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]
