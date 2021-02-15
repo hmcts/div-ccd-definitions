@@ -1,2 +1,6 @@
 nodejs:
   applicationPort: 3000
+  devmemoryRequests: 512Mi
+  devcpuRequests: "1000m"
+  devmemoryLimits: 1024Mi
+  devcpuLimits: "2500m"
