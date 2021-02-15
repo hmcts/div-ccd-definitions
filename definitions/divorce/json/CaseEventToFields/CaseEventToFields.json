@@ -10382,5 +10382,17 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "DNApplyForDecreeNisi=\"Nevershow\"",
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "changeServiceMethod",
+    "CaseFieldID": "SolServiceMethod",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "changeServiceMethod",
+    "PageLabel": "Update Solicitor Service Method",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
   }
 ]
