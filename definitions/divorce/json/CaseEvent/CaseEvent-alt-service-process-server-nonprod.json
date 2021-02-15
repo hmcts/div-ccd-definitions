@@ -29,7 +29,7 @@
     "Name": "Confirm process service",
     "Description": "Confirm process service",
     "DisplayOrder": 32,
-    "PreConditionState(s)": "AwaitingProcessServerService",
+    "PreConditionState(s)": "AwaitingProcessServerService;AosDrafted",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
     "SecurityClassification": "Public"
