@@ -29,6 +29,7 @@ module.exports = {
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-resp-journey-roles-and-permissions-prod',
       'CaseEvent-prod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
@@ -66,7 +67,6 @@ module.exports = {
         'AuthorisationCaseState-alt-service-process-server-nonprod',
         'AuthorisationCaseState-alternative-service-nonprod',
         'AuthorisationCaseState-bailiff-nonprod',
-        'AuthorisationCaseState-deemed-and-dispensed-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
         'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
         'AuthorisationCaseState-share-a-case-nonprod',
@@ -79,7 +79,6 @@ module.exports = {
         'AuthorisationCaseEvent-alternative-service-nonprod',
         'AuthorisationCaseEvent-alt-service-process-server-nonprod',
         'AuthorisationCaseEvent-amend-court-orders-nonprod',
-        'AuthorisationCaseEvent-deemed-and-dispensed-nonprod',
         'AuthorisationCaseEvent-general-email-nonprod',
         'AuthorisationCaseEvent-general-referral-nonprod',
         'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
@@ -92,7 +91,6 @@ module.exports = {
         'AuthorisationCaseField-alt-service-process-server-nonprod',
         'AuthorisationCaseField-alternative-service-nonprod',
         'AuthorisationCaseField-amend-court-orders-nonprod',
-        'AuthorisationCaseField-deemed-and-dispensed-nonprod',
         'AuthorisationCaseField-general-email-nonprod',
         'AuthorisationCaseField-general-referral-nonprod',
         'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
@@ -109,7 +107,6 @@ module.exports = {
         'CaseEvent-alt-service-process-server-nonprod',
         'CaseEvent-alternative-service-nonprod',
         'CaseEvent-amend-court-orders-nonprod',
-        'CaseEvent-deemed-and-dispensed-nonprod',
         'CaseEvent-general-email-nonprod',
         'CaseEvent-general-referral-nonprod',
         'CaseEvent-resp-journey-roles-and-permissions-nonprod',
@@ -121,7 +118,6 @@ module.exports = {
       'CaseEventToFields-alt-service-process-server-nonprod',
       'CaseEventToFields-alternative-service-nonprod',
       'CaseEventToFields-amend-court-orders-nonprod',
-      'CaseEventToFields-deemed-and-dispensed-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
@@ -132,7 +128,6 @@ module.exports = {
       'State-alternative-service-nonprod',
       'State-alt-service-process-server-nonprod',
       'State-bailiff-nonprod',
-      'State-deemed-and-dispensed-nonprod',
       'State-general-referral-nonprod'
     ]),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
@@ -145,7 +140,6 @@ module.exports = {
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-alternative-service-nonprod',
       'CaseField-amend-court-orders-nonprod',
-      'CaseField-deemed-and-dispensed-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod',
       'CaseField-resp-journey-roles-and-permissions-nonprod',
@@ -159,14 +153,12 @@ module.exports = {
     ]),
     ComplexTypes: getComplexTypesDefinitions([
       'ComplexTypes',
-      'ComplexTypes-deemed-and-dispensed-nonprod',
       'ComplexTypes-general-referral-nonprod',
       'ComplexTypes-nonprod'
     ]),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
-      'CaseTypeTab-deemed-and-dispensed-nonprod',
       'CaseTypeTab-general-referral-nonprod',
       'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
@@ -174,7 +166,6 @@ module.exports = {
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
       'FixedLists-bailiff-nonprod',
-      'FixedLists-deemed-and-dispensed-nonprod',
       'FixedLists-general-email-nonprod',
       'FixedLists-general-referral-nonprod'
     ]),
