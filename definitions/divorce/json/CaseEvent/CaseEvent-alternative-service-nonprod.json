@@ -127,55 +127,5 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/co-respondent-received",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "15/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosSubmittedUndefended",
-    "Name": "AOS Received (undefended)",
-    "Description": "AOS Received (undefended)",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
-    "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "15/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosSubmittedDefended",
-    "Name": "AOS Submitted (defending)",
-    "Description": "AOS Submitted (defending)",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
-    "PostConditionState": "AosSubmittedAwaitingAnswer",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "15/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosReceivedNoAdConStarted",
-    "Name": "AOS Received (no ad/con)",
-    "Description": "AOS Received (no admission/consent)",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
-    "PostConditionState": "AosCompleted",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "09/12/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "boWelshReview",
-    "Name": "Welsh Translation Review",
-    "Description": "Welsh Translation Review",
-    "DisplayOrder": 2,
-    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
-    "PostConditionState": "WelshResponseAwaitingReview",
-    "SecurityClassification": "Public"
   }
 ]
