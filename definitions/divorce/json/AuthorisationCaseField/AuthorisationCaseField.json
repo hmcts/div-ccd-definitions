@@ -13290,7 +13290,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolServiceMethod",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",
@@ -13318,7 +13318,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SolServiceMethod",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "19/07/2019",

@@ -10307,6 +10307,18 @@
     "PageColumnNumber": 1
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "changeServiceMethod",
+    "CaseFieldID": "SolServiceMethod",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "changeServiceMethod",
+    "PageLabel": "Change the solicitor service method",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "20/01/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
