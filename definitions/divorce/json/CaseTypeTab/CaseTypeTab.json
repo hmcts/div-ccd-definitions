@@ -808,16 +808,6 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8JurisdictionConnection",
-    "TabFieldDisplayOrder": 77
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedLivingArrangementsLastLivedAddr",
     "TabFieldDisplayOrder": 79
   },

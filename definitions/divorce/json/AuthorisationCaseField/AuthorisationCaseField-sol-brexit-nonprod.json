@@ -32,7 +32,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "NewLegalConnectionPolicy",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "15/02/2021",
