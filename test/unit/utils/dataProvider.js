@@ -43,7 +43,6 @@ module.exports = {
     ),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-pet-sol-selects-own-org-prod',
       'CaseEventToFields-resp-journey-prod'
     ]),
     CaseField: getCaseFieldDefinitions([
@@ -127,7 +126,6 @@ module.exports = {
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
       'CaseEventToComplexTypes',
-      'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
       'CaseEventToComplexTypes-resp-journey-nonprod',
       'CaseEventToComplexTypes-share-a-case-nonprod'
     ]),
@@ -146,7 +144,6 @@ module.exports = {
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-general-referral-nonprod',
-      'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
