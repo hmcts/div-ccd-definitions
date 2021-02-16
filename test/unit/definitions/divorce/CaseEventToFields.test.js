@@ -1,10 +1,6 @@
 const { expect, assert } = require('chai');
 const { find } = require('lodash');
-const { loadAllFiles } = require('../../utils/utils');
-
-const getCaseEventToFieldDefinitions = loadAllFiles('CaseEventToFields');
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
@@ -73,33 +69,9 @@ describe('CaseEventToFields (non-prod)', () => {
   let caseFieldNonProd = [];
 
   before(() => {
-    caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-amend-court-orders-nonprod',
-      'CaseEventToFields-deemed-and-dispensed-nonprod',
-      'CaseEventToFields-general-email-nonprod',
-      'CaseEventToFields-general-referral-nonprod',
-      'CaseEventToFields-nonprod'
-    ]);
-
-    caseEventNonProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-amend-court-orders-nonprod',
-      'CaseEvent-alternative-service-nonprod',
-      'CaseEvent-deemed-and-dispensed-nonprod',
-      'CaseEvent-general-email-nonprod',
-      'CaseEvent-general-referral-nonprod',
-      'CaseEvent-nonprod'
-    ]);
-
-    caseFieldNonProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-amend-court-orders-nonprod',
-      'CaseField-alt-service-process-server-nonprod',
-      'CaseField-deemed-and-dispensed-nonprod',
-      'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
-    ]);
+    caseEventToFieldsNonProd = nonprod.CaseEventToFields;
+    caseEventNonProd = nonprod.CaseEvent;
+    caseFieldNonProd = nonprod.CaseField;
   });
 
   it('should contain valid event IDs', () => {
@@ -127,20 +99,9 @@ describe('CaseEventToFields (prod)', () => {
   let caseFieldProd = [];
 
   before(() => {
-    caseEventToFieldsProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-prod'
-    ]);
-
-    caseEventProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-prod'
-    ]);
-
-    caseFieldProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-prod'
-    ]);
+    caseEventToFieldsProd = prod.CaseEventToFields;
+    caseEventProd = prod.CaseEvent;
+    caseFieldProd = prod.CaseField;
   });
 
   it('should contain valid event IDs', () => {

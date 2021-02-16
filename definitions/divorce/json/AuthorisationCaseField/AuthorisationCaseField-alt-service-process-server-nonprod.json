@@ -47,5 +47,54 @@
     "CaseFieldID": "ServedByProcessServer",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfServedByProcessServer",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
   }
 ]

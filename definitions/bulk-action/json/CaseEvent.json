@@ -152,7 +152,7 @@
     "DisplayOrder": 9,
     "PreConditionState(s)": "Listed",
     "PostConditionState": "ScheduledForListing",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk/edit/listing?templateId=FL-DIV-GNO-ENG-00059.docx&documentType=caseListForPronouncement&filename=caseListForPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/about-to-edit-bulk-case",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk/schedule/listing",
     "RetriesTimeoutURLSubmittedEvent": "120,120",

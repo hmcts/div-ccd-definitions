@@ -1,17 +1,69 @@
 const { expect, assert } = require('chai');
 const { uniq, uniqWith, map, filter } = require('lodash');
-const { loadAllFiles, sortCaseTypeTabs } = require('../../utils/utils');
+const { sortCaseTypeTabs } = require('../../utils/utils');
 const {
   nonProdTabDisplayOrder,
   nonProdTabIds,
   prodTabDisplayOrder,
   prodTabIds,
-  validateUniqueTabDisplayOrder,
-  validateTabFieldDisplayOrder
+  validateUniqueTabDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
-const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const caseworkerBetaUserRole = 'caseworker-divorce-courtadmin_beta';
+const solicitorUserRole = 'caseworker-divorce-solicitor';
+const petSolicitorUserRole = '[PETSOLICITOR]';
+const respSolicitorUserRole = '[RESPSOLICITOR]';
+
+function assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, shouldBeVisibleToUserRole) {
+  const tabElementsWithLabel = caseTypeTabs.filter(t => {
+    return t.TabLabel === tabLabel;
+  });
+
+  if (tabElementsWithLabel.length === 0) {
+    assert.fail(`Could not find specified tab elements with label '${tabLabel}'`);
+  } else {
+    let visibleToUserRole = true;
+
+    const uniqueTabIds = [
+      ...new Set(tabElementsWithLabel.map(tab => {
+        return tab.TabID;
+      }))
+    ];
+    const separatedTabElements = uniqueTabIds.map(id => {
+      return tabElementsWithLabel.filter(tabElement => {
+        return tabElement.TabID === id;
+      });
+    });
+    const firstElementOfEachTab = separatedTabElements.map(tabElement => {
+      return tabElement[0];
+    });
+
+    const hasTabWithoutUserRole = firstElementOfEachTab.find(tabElement => {
+      return !('UserRole' in tabElement);
+    });
+    if (!hasTabWithoutUserRole) {
+      const userRoleExplicitlyAllowed = firstElementOfEachTab.find(tabElement => {
+        return tabElement.UserRole === userRole;
+      });
+      if (!userRoleExplicitlyAllowed) {
+        visibleToUserRole = false;
+      }
+    }
+
+    if (visibleToUserRole !== shouldBeVisibleToUserRole) {
+      assert.fail(`User role '${userRole}' does not have the expected access to tab with label '${tabLabel}'. Visible: '${visibleToUserRole}'; Expected to be visible: '${shouldBeVisibleToUserRole}'`);
+    }
+  }
+}
+
+function assertTabIsVisibleForGivenUserRole(caseTypeTabs, tabLabel, userRole) {
+  assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, true);
+}
+
+function assertTabIsNotVisibleForGivenUserRole(caseTypeTabs, tabLabel, userRole) {
+  assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, false);
+}
 
 describe('CaseTypeTab (nonprod)', () => {
   let caseField = [];
@@ -20,18 +72,8 @@ describe('CaseTypeTab (nonprod)', () => {
   let tabIds = [];
 
   before(() => {
-    caseTypeTab = getCaseTypeTabDefinitions([
-      'CaseTypeTab',
-      'CaseTypeTab-deemed-and-dispensed-nonprod',
-      'CaseTypeTab-general-referral-nonprod'
-    ]);
-
-    caseField = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-deemed-and-dispensed-nonprod',
-      'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
-    ]);
+    caseTypeTab = nonprod.CaseTypeTab;
+    caseField = nonprod.CaseField;
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
@@ -63,10 +105,52 @@ describe('CaseTypeTab (nonprod)', () => {
 
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
-    const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
+    const objectsWithInvalidCaseFieldId = filter(caseTypeTab, field => {
       return validFields.indexOf(field.CaseFieldID) === -1;
     });
-    expect(objectsWithInvalidCaseId).to.eql([]);
+    expect(objectsWithInvalidCaseFieldId).to.eql([]);
+  });
+
+  it('should be visible to specific users', () => {
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Petition', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'AOS', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Nisi', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Outcome of Decree Nisi', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Absolute', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Documents', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Confidential Petitioner', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Marriage Certificate', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Co-Respondent', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Language', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Linked Cases', petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'General Referral', petSolicitorUserRole);
+
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Petition', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'AOS', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Nisi', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Outcome of Decree Nisi', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Absolute', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Documents', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Confidential Respondent', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Marriage Certificate', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Co-Respondent', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Language', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Linked Cases', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'General Referral', respSolicitorUserRole);
+  });
+
+  it('should not be visible to specific users', () => {
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Respondent', petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Co-Respondent', petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Notes', petSolicitorUserRole);
+
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Petitioner', respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Co-Respondent', respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Notes', respSolicitorUserRole);
   });
 });
 
@@ -77,17 +161,9 @@ describe('CaseTypeTab (prod)', () => {
   let tabIds = [];
 
   before(() => {
-    caseTypeTab = getCaseTypeTabDefinitions(
-      [
-        'CaseTypeTab',
-        'CaseTypeTab-prod'
-      ]);
+    caseTypeTab = prod.CaseTypeTab;
+    caseField = prod.CaseField;
 
-    caseField = getCaseFieldDefinitions(
-      [
-        'CaseField',
-        'CaseField-prod'
-      ]);
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
   });
@@ -129,10 +205,12 @@ describe('CaseTypeTab (prod)', () => {
     expect(validationErrors).to.have.lengthOf(0);
   });
 
-  it('should contain proper sequence for TabFieldDisplayOrder with no gaps', () => {
-    assert.doesNotThrow(() => {
-      validateTabFieldDisplayOrder(tabIds, caseTypeTab);
-    },
-    /Missing\/unordered TabFieldDisplayOrder sequence number in TabID/);
+  it('should be visible to specific users', () => {
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', caseworkerBetaUserRole);
+    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Payment', caseworkerBetaUserRole);
+  });
+
+  it('should not be visible to specific users', () => {
+    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', solicitorUserRole);
   });
 });
