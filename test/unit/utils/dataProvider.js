@@ -23,14 +23,13 @@ module.exports = {
       'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
-      'AuthorisationCaseField',
-      'AuthorisationCaseField-prod'
+      'AuthorisationCaseField'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-resp-journey-roles-and-permissions-prod',
-      'CaseEvent-prod'
+      'CaseEvent-share-a-case-prod',
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
@@ -40,15 +39,14 @@ module.exports = {
     State: getStateDefinitions(['State']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
     CaseField: getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-prod'
+      'CaseField'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
-      'CaseTypeTab-prod'
+      'CaseTypeTab-resp-journey-roles-and-permissions-prod'
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions(['FixedLists']),
@@ -69,8 +67,7 @@ module.exports = {
         'AuthorisationCaseState-bailiff-nonprod',
         'AuthorisationCaseState-general-referral-nonprod',
         'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseState-share-a-case-nonprod',
-        'AuthorisationCaseState-nonprod'
+        'AuthorisationCaseState-share-a-case-nonprod'
       ]
     ),
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions(
@@ -153,8 +150,7 @@ module.exports = {
     ]),
     ComplexTypes: getComplexTypesDefinitions([
       'ComplexTypes',
-      'ComplexTypes-general-referral-nonprod',
-      'ComplexTypes-nonprod'
+      'ComplexTypes-general-referral-nonprod'
     ]),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
