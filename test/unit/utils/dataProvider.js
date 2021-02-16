@@ -17,7 +17,6 @@ const getFixedListsDefinitions = loadAllFiles('FixedLists');
 
 module.exports = {
   prod: {
-    AuthorisationCaseState: getAuthorisationCaseStateDefinitions(['AuthorisationCaseState']),
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-resp-journey-roles-and-permissions-prod'
@@ -25,23 +24,31 @@ module.exports = {
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField'
     ]),
-    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
+    AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
+      ['AuthorisationCaseState']
+    ),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(
+      ['AuthorisationCaseType']
+    ),
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(
+      ['AuthorisationComplexType']
+    ),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-resp-journey-roles-and-permissions-prod',
       'CaseEvent-share-a-case-prod',
     ]),
+    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
+      ['CaseEventToComplexTypes']
+    ),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-pet-sol-selects-own-org-prod',
       'CaseEventToFields-resp-journey-roles-and-permissions-prod'
     ]),
-    State: getStateDefinitions(['State']),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
     CaseField: getCaseFieldDefinitions([
       'CaseField'
     ]),
-    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
@@ -54,62 +61,61 @@ module.exports = {
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
     SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    State: getStateDefinitions(['State']),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
     WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
     WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
   },
   nonprod: {
-    AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
-      [
-        'AuthorisationCaseState',
-        'AuthorisationCaseState-alt-service-process-server-nonprod',
-        'AuthorisationCaseState-alternative-service-nonprod',
-        'AuthorisationCaseState-bailiff-nonprod',
-        'AuthorisationCaseState-general-referral-nonprod',
-        'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseState-share-a-case-nonprod'
-      ]
-    ),
-    AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions(
-      [
-        'AuthorisationCaseEvent',
-        'AuthorisationCaseEvent-alternative-service-nonprod',
-        'AuthorisationCaseEvent-alt-service-process-server-nonprod',
-        'AuthorisationCaseEvent-amend-court-orders-nonprod',
-        'AuthorisationCaseEvent-general-email-nonprod',
-        'AuthorisationCaseEvent-general-referral-nonprod',
-        'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseEvent-nonprod'
-      ]
-    ),
-    AuthorisationCaseField: getAuthorisationCaseFieldDefinitions(
-      [
-        'AuthorisationCaseField',
-        'AuthorisationCaseField-alt-service-process-server-nonprod',
-        'AuthorisationCaseField-alternative-service-nonprod',
-        'AuthorisationCaseField-amend-court-orders-nonprod',
-        'AuthorisationCaseField-general-email-nonprod',
-        'AuthorisationCaseField-general-referral-nonprod',
-        'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
-        'AuthorisationCaseField-share-a-case-nonprod',
-        'AuthorisationCaseField-nonprod'
-      ]
-    ),
+    AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
+      'AuthorisationCaseEvent',
+      'AuthorisationCaseEvent-alternative-service-nonprod',
+      'AuthorisationCaseEvent-alt-service-process-server-nonprod',
+      'AuthorisationCaseEvent-amend-court-orders-nonprod',
+      'AuthorisationCaseEvent-general-email-nonprod',
+      'AuthorisationCaseEvent-general-referral-nonprod',
+      'AuthorisationCaseEvent-resp-journey-roles-and-permissions-nonprod',
+      'AuthorisationCaseEvent-nonprod'
+    ]),
+    AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
+      'AuthorisationCaseField',
+      'AuthorisationCaseField-alt-service-process-server-nonprod',
+      'AuthorisationCaseField-alternative-service-nonprod',
+      'AuthorisationCaseField-amend-court-orders-nonprod',
+      'AuthorisationCaseField-general-email-nonprod',
+      'AuthorisationCaseField-general-referral-nonprod',
+      'AuthorisationCaseField-resp-journey-roles-and-permissions-nonprod',
+      'AuthorisationCaseField-share-a-case-nonprod',
+      'AuthorisationCaseField-nonprod'
+    ]),
+    AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
+      'AuthorisationCaseState',
+      'AuthorisationCaseState-alt-service-process-server-nonprod',
+      'AuthorisationCaseState-alternative-service-nonprod',
+      'AuthorisationCaseState-bailiff-nonprod',
+      'AuthorisationCaseState-general-referral-nonprod',
+      'AuthorisationCaseState-resp-journey-roles-and-permissions-nonprod',
+      'AuthorisationCaseState-share-a-case-nonprod'
+    ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
       'AuthorisationCaseType'
     ]),
-    CaseEvent: getCaseEventDefinitions(
-      [
-        'CaseEvent',
-        'CaseEvent-alt-service-process-server-nonprod',
-        'CaseEvent-alternative-service-nonprod',
-        'CaseEvent-amend-court-orders-nonprod',
-        'CaseEvent-general-email-nonprod',
-        'CaseEvent-general-referral-nonprod',
-        'CaseEvent-resp-journey-roles-and-permissions-nonprod',
-        'CaseEvent-share-a-case-nonprod',
-        'CaseEvent-nonprod'
-      ]),
+    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
+      'AuthorisationComplexType',
+      'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
+      'AuthorisationComplexType-share-a-case-nonprod'
+    ]),
+    CaseEvent: getCaseEventDefinitions([
+      'CaseEvent',
+      'CaseEvent-alt-service-process-server-nonprod',
+      'CaseEvent-alternative-service-nonprod',
+      'CaseEvent-amend-court-orders-nonprod',
+      'CaseEvent-general-email-nonprod',
+      'CaseEvent-general-referral-nonprod',
+      'CaseEvent-resp-journey-roles-and-permissions-nonprod',
+      'CaseEvent-share-a-case-nonprod',
+      'CaseEvent-nonprod'
+    ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-alt-service-process-server-nonprod',
@@ -119,18 +125,11 @@ module.exports = {
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-roles-and-permissions-nonprod'
     ]),
-    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
-    State: getStateDefinitions([
-      'State',
-      'State-alternative-service-nonprod',
-      'State-alt-service-process-server-nonprod',
-      'State-bailiff-nonprod',
-      'State-general-referral-nonprod'
-    ]),
-    AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
-      'AuthorisationComplexType',
-      'AuthorisationComplexType-resp-journey-roles-and-permissions-nonprod',
-      'AuthorisationComplexType-share-a-case-nonprod'
+    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
+      'CaseEventToComplexTypes',
+      'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
+      'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
+      'CaseEventToComplexTypes-share-a-case-nonprod'
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
@@ -142,22 +141,17 @@ module.exports = {
       'CaseField-resp-journey-roles-and-permissions-nonprod',
       'CaseField-share-a-case-nonprod'
     ]),
-    CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
-      'CaseEventToComplexTypes',
-      'CaseEventToComplexTypes-pet-sol-selects-own-org-nonprod',
-      'CaseEventToComplexTypes-resp-journey-roles-and-permissions-nonprod',
-      'CaseEventToComplexTypes-share-a-case-nonprod'
-    ]),
-    ComplexTypes: getComplexTypesDefinitions([
-      'ComplexTypes',
-      'ComplexTypes-general-referral-nonprod'
-    ]),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-general-referral-nonprod',
       'CaseTypeTab-pet-sol-selects-own-org-nonprod',
       'CaseTypeTab-resp-journey-roles-and-permissions-nonprod'
+    ]),
+    ComplexTypes: getComplexTypesDefinitions([
+      'ComplexTypes',
+      'ComplexTypes-general-referral-nonprod'
     ]),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
@@ -169,6 +163,13 @@ module.exports = {
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
     SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
+    State: getStateDefinitions([
+      'State',
+      'State-alternative-service-nonprod',
+      'State-alt-service-process-server-nonprod',
+      'State-bailiff-nonprod',
+      'State-general-referral-nonprod'
+    ]),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
     WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
     WorkBasketResultFields: Object.assign(load('definitions/divorce/json/WorkBasketResultFields'), [])
