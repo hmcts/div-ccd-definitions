@@ -11629,34 +11629,6 @@
   {
     "LiveFrom": "16/04/2019",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelSolDNAdulteryMustIntolerate",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelSolDNRespCostReview",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelSolDNRespCostAgree",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "labelSolDNRespCostDisagree",
-    "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "16/04/2019",
-    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "solDNSOTName",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
