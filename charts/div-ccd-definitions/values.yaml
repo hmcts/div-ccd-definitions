@@ -8,3 +8,8 @@ nodejs:
   devcpuRequests: "1000m"
   devmemoryLimits: 1024Mi
   devcpuLimits: "2500m"
+  keyVaults:
+    "div":
+      resourceGroup: div
+      secrets:
+        - AppInsightsInstrumentationKey
