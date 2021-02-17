@@ -1,0 +1,69 @@
+[
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "PageFieldDisplayOrder": "1",
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
+    "PageFieldDisplayOrder": "2",
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "LabelRespSolEmailHeader",
+    "PageFieldDisplayOrder": "3",
+    "DisplayContext": "",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "LabelRespSolEmail",
+    "PageFieldDisplayOrder": "4",
+    "DisplayContext": "",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "PageFieldDisplayOrder": "5",
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "PageFieldDisplayOrder": "6",
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolicitorDraftAOS1",
+    "PageDisplayOrder": "1",
+    "ShowSummaryChangeOption": "No"
+  }
+]
+
