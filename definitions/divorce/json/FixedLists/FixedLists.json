@@ -592,13 +592,7 @@
     "ID": "solHowToPay",
     "ListElementCode": "feesHelpWith",
     "ListElement": "Help with fees"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "solHowToPay",
-    "ListElementCode": "cheque",
-    "ListElement": "Cheque (DO NOT USE)"
-  },
+  } ,
   {
     "LiveFrom": "31/08/2018",
     "ID": "AOSResponseEnum",
@@ -1553,5 +1547,17 @@
     "ID": "d8documentsReceivedEnum",
     "ListElementCode": "generalOrder",
     "ListElement": "General Order"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "dispenseWithServiceRefused",
+    "ListElement": "Dispense with service refused"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "ID": "d8documentsReceivedEnum",
+    "ListElementCode": "deemedServiceRefused",
+    "ListElement": "Deemed service refused"
   }
 ]

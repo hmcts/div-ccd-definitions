@@ -2571,7 +2571,7 @@
     "ID": "labelOtherProceedingsPetitioner",
     "Label": "### Petitioner's other proceedings:",
     "FieldType": "Label",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2579,7 +2579,7 @@
     "ID": "labelOtherProceedingsRespondent",
     "Label": "### Respondent's other proceedings:",
     "FieldType": "Label",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2588,7 +2588,7 @@
     "Label": "How does the respondent want to proceed?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "RespondentWillDefendEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3786,7 +3786,7 @@
     "ID": "bulkScanCaseReference",
     "Label": "Exception Record Reference",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3794,7 +3794,7 @@
     "ID": "D8ApplicationToIssueWithoutCertificate",
     "Label": "Is Petitioner making separate application to issue without their marriage or civil partnership certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3802,7 +3802,7 @@
     "ID": "D8MarriageCertificateCorrect",
     "Label": "Are the details set out in the marriage or civil partnership correct?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "12/12/2019",
@@ -3810,7 +3810,7 @@
     "ID": "D8MarriageCertificateCorrectExplain",
     "Label": "Explanation of why marriage or civl partnership details are not correct",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "23/12/2019",
@@ -3818,7 +3818,7 @@
     "ID": "D8ReasonForDivorceDetails",
     "Label": "Brief details to support the reasons for your application",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "18/12/2019",
@@ -3826,7 +3826,7 @@
     "ID": "D8LegalProceedingsDetailsCaseNumber",
     "Label": "Case number(s)",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "02/01/2020",
@@ -3834,7 +3834,7 @@
     "ID": "RespStatementofTruthSignedDate",
     "Label": "Date Respondent statement of truth signed",
     "FieldType": "Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3843,7 +3843,7 @@
     "Label": "The Petitioner applies for the following:",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "D8AppliesForStatementOfTruthEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3852,7 +3852,7 @@
     "Label": "That a financial order may be granted for",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "financialOrderForEnum",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3860,7 +3860,7 @@
     "ID": "D8FullNameStatementOfTruth",
     "Label": "Full name on Statement of Truth",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3868,7 +3868,7 @@
     "ID": "D8StatementOfTruthSignature",
     "Label": "Has the statement of truth been signed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3876,7 +3876,7 @@
     "ID": "D8StatementOfTruthDate",
     "Label": "Statement of Truth Date",
     "FieldType": "Date",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "14/01/2020",
@@ -3884,7 +3884,7 @@
     "ID": "D8SolicitorsFirmStatementOfTruth",
     "Label": "Name of solicitor's firm on Statement of Truth",
     "FieldType": "Text",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "07/04/2020",
@@ -4815,6 +4815,225 @@
     "Label": "General Orders",
     "FieldType": "Collection",
     "FieldTypeParameter": "DivorceGeneralOrder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "24/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationDocuments",
+    "Label": "Service Application Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationType",
+    "Label": "Service application type",
+    "HintText": "What type of service application has been received?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReceivedServiceApplicationDate",
+    "Label": "Application date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReceivedServiceAddedDate",
+    "Label": "Added date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationGranted",
+    "Label": "Service Application Granted",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationDecisionDate",
+    "Label": "Service Application Decision Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationRefusalReason",
+    "Label": "Reason for refusal",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelOutcomeOfServiceApplication",
+    "Label": "## Outcome of service application",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPayment",
+    "Label": "How will payment be made?",
+    "HintText": "How will payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceRefusalDraft",
+    "Label": "Service Refusal draft",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalApplicationWithoutNoticeFeeSummary",
+    "Label": "Here are your payment details",
+    "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PaymentFeeAccountLabel",
+    "Label": "Payment Method: Fee Account",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PaymentHWFLabel",
+    "Label": "Payment Method: Help with fees",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PaymentTelephoneLabel",
+    "Label": "Payment Method: Telephone",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PaymentChequeLabel",
+    "Label": "Payment Method: Cheque",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelPBAReference",
+    "Label": "Your pay account reference: ${FeeAccountReference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelPBANumber",
+    "Label": "Fee account number: ${FeeAccountReferenceNumber}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelHWFReference",
+    "Label": "Fee account reference ${HelpWithFeesReferenceNumber}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfDeemedAccepted",
+    "Label": "Because the court accepted the application for 'deemed service', you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfDispensedAccepted",
+    "Label": "Because the court accepted the application to 'dispense with service’, you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplications",
+    "Label": "Previous service applications",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceServiceApplication",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "HelpWithFeesReferenceNumber",
+    "Label": "Help with fees reference",
+    "FieldType": "Text",
+    "RegularExpression": "([Hh][Ww][Ff]-?)?[0-9a-zA-Z]{3}-?[0-9a-zA-Z]{3}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FeeAccountReferenceNumber",
+    "Label": "Enter your account number",
+    "HintText": "Example: PBA0896366",
+    "FieldType": "Text",
+    "RegularExpression": "^([Pp][Bb][Aa])\\d{7}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FurtherPBAReferenceNumbers",
+    "Label": "Further Fee account numbers",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ReferenceNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FurtherHWFReferenceNumbers",
+    "Label": "Further HWF references",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ReferenceNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LastServiceApplication",
+    "Label": "Last service application",
+    "FieldType": "DivorceServiceApplication",
     "SecurityClassification": "Public"
   }
 ]

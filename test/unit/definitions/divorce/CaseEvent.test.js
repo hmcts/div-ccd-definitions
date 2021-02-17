@@ -5,12 +5,11 @@ const {
   MEDIUM_STRING,
   LONG_STRING,
   isNotEmpty, isNotLongerThan, noDuplicateFound,
-  whenPopulated, loadAllFiles
+  whenPopulated
 } = require('../../utils/utils');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
-
-function assertEventDefinitionIsValid(row) {
+function assertEventDefinitionIsValid (row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
     return v.startsWith('DIVORCE');
   });
@@ -32,17 +31,7 @@ describe('CaseEvent', () => {
     let uniqResult = [];
 
     before(() => {
-      nonProd = getCaseEventDefinitions([
-        'CaseEvent',
-        'CaseEvent-amend-court-orders-nonprod',
-        'CaseEvent-alternative-service-nonprod',
-        'CaseEvent-alt-service-process-server-nonprod',
-        'CaseEvent-deemed-and-dispensed-nonprod',
-        'CaseEvent-general-email-nonprod',
-        'CaseEvent-general-referral-nonprod',
-        'CaseEvent-nonprod'
-      ]);
-
+      nonProd = nonprod.CaseEvent;
       uniqResult = uniqWith(nonProd, noDuplicateFound);
     });
 
@@ -60,11 +49,7 @@ describe('CaseEvent', () => {
     let uniqResult = [];
 
     before(() => {
-      prodOnly = getCaseEventDefinitions(
-        [
-          'CaseEvent',
-          'CaseEvent-prod'
-        ]);
+      prodOnly = prod.CaseEvent;
 
       uniqResult = uniqWith(prodOnly, noDuplicateFound);
     });

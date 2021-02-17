@@ -1,20 +1,20 @@
 [
   {
-    "LiveFrom": "30/10/2020",
+    "LiveFrom": "10/02/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "SOTAgreementPayAndSubmitRequired",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "30/10/2020",
+    "LiveFrom": "10/02/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "10/02/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "solicitorAwaitingPaymentConfirmation",
     "UserRole": "caseworker-caa",
