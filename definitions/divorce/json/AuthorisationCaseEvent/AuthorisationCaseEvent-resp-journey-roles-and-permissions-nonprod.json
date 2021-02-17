@@ -46,7 +46,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
     "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/02/2021",
