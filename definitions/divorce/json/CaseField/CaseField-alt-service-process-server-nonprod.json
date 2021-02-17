@@ -1,18 +1,3 @@
 [
-  {
-    "LiveFrom": "17/11/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServedByProcessServer",
-    "Label": "Served by process server",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "25/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "LabelContinueBecauseOfServedByProcessServer",
-    "Label": "Because the court accepted the application for 'service by process server' you are able to continue with the divorce without seeing the respondent answers.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  }
+
 ]

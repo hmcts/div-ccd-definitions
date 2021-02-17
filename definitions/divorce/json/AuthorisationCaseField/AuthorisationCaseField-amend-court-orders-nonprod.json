@@ -1,9 +1,3 @@
 [
-  {
-    "LiveFrom": "01/05/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LabelUpdateCourtOrderDocuments",
-    "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
-  }
+
 ]
