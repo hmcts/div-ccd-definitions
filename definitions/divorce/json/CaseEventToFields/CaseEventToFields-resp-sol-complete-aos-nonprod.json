@@ -27,7 +27,7 @@
     "CaseEventID": "solicitorDraftAOS",
     "CaseFieldID": "LabelRespSolEmailHeader",
     "PageFieldDisplayOrder": "3",
-    "DisplayContext": "",
+    "DisplayContext": "READONLY",
     "PageID": "SolicitorDraftAOS1",
     "PageDisplayOrder": "1",
     "ShowSummaryChangeOption": "No"
@@ -38,7 +38,7 @@
     "CaseEventID": "solicitorDraftAOS",
     "CaseFieldID": "LabelRespSolEmail",
     "PageFieldDisplayOrder": "4",
-    "DisplayContext": "",
+    "DisplayContext": "READONLY",
     "PageID": "SolicitorDraftAOS1",
     "PageDisplayOrder": "1",
     "ShowSummaryChangeOption": "No"
