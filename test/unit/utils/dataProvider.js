@@ -35,7 +35,6 @@ module.exports = {
     ),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
-      'CaseEvent-prod',
       'CaseEvent-resp-journey-prod',
       'CaseEvent-share-a-case-prod',
     ]),
@@ -114,7 +113,6 @@ module.exports = {
       'CaseEvent-general-referral-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-share-a-case-nonprod',
-      'CaseEvent-resp-sol-complete-aos-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([

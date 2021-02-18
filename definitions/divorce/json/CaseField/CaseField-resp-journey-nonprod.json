@@ -31,5 +31,21 @@
     "Label": "I confirm I am willing to accept service of all correspondence and orders by email at the email address stated above.",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmailHeader",
+    "Label": "Email contact details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmail",
+    "Label": "Email address will be used to send updates.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
