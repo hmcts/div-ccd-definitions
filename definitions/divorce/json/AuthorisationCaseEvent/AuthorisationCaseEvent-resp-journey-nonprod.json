@@ -264,5 +264,12 @@
     "CaseEventID": "updateRespSolContactDetails",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solAosNotReceivedFromServiceAppRejected",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
