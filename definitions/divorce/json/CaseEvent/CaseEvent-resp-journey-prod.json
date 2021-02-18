@@ -11,5 +11,20 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorDraftAOS",
+    "Name": "Draft AoS",
+    "Description": "Draft Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting",
+    "PostConditionState": "AosDrafted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutAboutToStartEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save AOS Response"
   }
 ]
