@@ -2788,20 +2788,6 @@
     "ShowSummary":  "Y"
   },
   {
-    "LiveFrom": "04/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ConfirmServicePayment",
-    "Name": "Confirm service payment",
-    "Description": "Confirm service payment",
-    "DisplayOrder": 13,
-    "PreConditionState(s)": "AwaitingServicePayment",
-    "PostConditionState": "AwaitingServiceConsideration",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service-payment",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "15/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "aosNotReceived",
