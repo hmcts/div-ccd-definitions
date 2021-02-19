@@ -1,8 +1,9 @@
 const { expect, assert } = require('chai');
 const { find } = require('lodash');
+const { isPositiveNumber, whenPopulated } = require('../../utils/utils');
 const { prod, nonprod } = require('../../utils/dataProvider');
 
-function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
+function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -16,7 +17,7 @@ function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   }
 }
 
-function assertHasOnlyValidFieldIds(caseEventToFieldsFile, caseFieldFile) {
+function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -30,7 +31,7 @@ function assertHasOnlyValidFieldIds(caseEventToFieldsFile, caseFieldFile) {
   }
 }
 
-function assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsFile) {
+function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -47,7 +48,7 @@ function assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsFile) {
   }
 }
 
-function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsFile) {
+function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks (caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -60,6 +61,36 @@ function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFields
 
   if (errors.length) {
     assert.fail(`Found invalid field IDs - ${errors}`);
+  }
+}
+
+function assertPageFieldDisplayOrder (row) {
+  try {
+    whenPopulated(row.PageFieldDisplayOrder, 'number').expect(isPositiveNumber());
+  } catch (e) {
+    console.log('Invalid PageFieldDisplayOrder in ', row);
+    console.error(e);
+    throw e;
+  }
+}
+
+function assertPageDisplayOrder (row) {
+  try {
+    whenPopulated(row.PageDisplayOrder, 'number').expect(isPositiveNumber());
+  } catch (e) {
+    console.log('Invalid PageDisplayOrder in ', row);
+    console.error(e);
+    throw e;
+  }
+}
+
+function assertPageColumnNumber (row) {
+  try {
+    whenPopulated(row.PageColumnNumber, 'number').expect(isPositiveNumber());
+  } catch (e) {
+    console.log('Invalid PageColumnNumber in ', row);
+    console.error(e);
+    throw e;
   }
 }
 
@@ -80,6 +111,14 @@ describe('CaseEventToFields (non-prod)', () => {
 
   it('should contain valid field IDs', () => {
     assertHasOnlyValidFieldIds(caseEventToFieldsNonProd, caseFieldNonProd);
+  });
+
+  it('should contain valid order fields', () => {
+    caseEventToFieldsNonProd.forEach(row => {
+      assertPageFieldDisplayOrder(row);
+      assertPageDisplayOrder(row);
+      assertPageColumnNumber(row);
+    });
   });
 
   describe('CallBackURLMidEvent', () => {
@@ -110,6 +149,14 @@ describe('CaseEventToFields (prod)', () => {
 
   it('should contain valid field IDs', () => {
     assertHasOnlyValidFieldIds(caseEventToFieldsProd, caseFieldProd);
+  });
+
+  it('should contain valid order fields', () => {
+    caseEventToFieldsProd.forEach(row => {
+      assertPageFieldDisplayOrder(row);
+      assertPageDisplayOrder(row);
+      assertPageColumnNumber(row);
+    });
   });
 
   describe('CallBackURLMidEvent', () => {
