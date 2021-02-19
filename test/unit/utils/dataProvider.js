@@ -109,6 +109,8 @@ module.exports = {
       'CaseEvent-alt-service-process-server-nonprod',
       'CaseEvent-alternative-service-nonprod',
       'CaseEvent-amend-court-orders-nonprod',
+      'CaseEvent-bailiff-nonprod.json',
+      'CaseEvent-bailiff-prod.json',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
       'CaseEvent-resp-journey-nonprod',
