@@ -2569,6 +2569,7 @@
     "PageFieldDisplayOrder": "1",
     "DisplayContext": "MANDATORY",
     "PageID": "SolicitorDraftAOS1",
+    "PageLabel": "Confirm contact details",
     "PageDisplayOrder": "1",
     "ShowSummaryChangeOption": "No"
   },
