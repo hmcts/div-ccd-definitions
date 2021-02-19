@@ -2570,7 +2570,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolicitorDraftAOS1",
     "PageLabel": "Confirm contact details",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2581,7 +2581,7 @@
     "PageFieldDisplayOrder": "2",
     "DisplayContext": "OPTIONAL",
     "PageID": "SolicitorDraftAOS1",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2592,7 +2592,7 @@
     "PageFieldDisplayOrder": "3",
     "DisplayContext": "READONLY",
     "PageID": "SolicitorDraftAOS1",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2603,7 +2603,7 @@
     "PageFieldDisplayOrder": "4",
     "DisplayContext": "READONLY",
     "PageID": "SolicitorDraftAOS1",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2614,7 +2614,7 @@
     "PageFieldDisplayOrder": "5",
     "DisplayContext": "MANDATORY",
     "PageID": "SolicitorDraftAOS1",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2625,7 +2625,7 @@
     "PageFieldDisplayOrder": "6",
     "DisplayContext": "MANDATORY",
     "PageID": "SolicitorDraftAOS1",
-    "PageDisplayOrder": "1",
+    "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "No"
   },
   {
