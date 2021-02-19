@@ -33,11 +33,11 @@ function isPositiveNumber() {
 }
 
 function whenPopulated(key, type) {
-  type = type || 'string';
+  const myType = type || 'string';
   return {
     expect: satisfyCallback => {
       if (key) {
-          expect(key).to.be.a(type).and.satisfy(satisfyCallback);
+        expect(key).to.be.a(myType).and.satisfy(satisfyCallback);
       }
     }
   };

@@ -3,7 +3,7 @@ const { find } = require('lodash');
 const { isPositiveNumber, whenPopulated } = require('../../utils/utils');
 const { prod, nonprod } = require('../../utils/dataProvider');
 
-function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
+function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -17,7 +17,7 @@ function assertHasOnlyValidEventIds (caseEventToFieldsFile, caseEventFile) {
   }
 }
 
-function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
+function assertHasOnlyValidFieldIds(caseEventToFieldsFile, caseFieldFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -31,7 +31,7 @@ function assertHasOnlyValidFieldIds (caseEventToFieldsFile, caseFieldFile) {
   }
 }
 
-function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
+function assertEventCallBacksDefinedInTheFirstField(caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -48,7 +48,7 @@ function assertEventCallBacksDefinedInTheFirstField (caseEventToFieldsFile) {
   }
 }
 
-function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks (caseEventToFieldsFile) {
+function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFieldsFile) {
   const errors = [];
   caseEventToFieldsFile.forEach(caseEventToFieldsEntry => {
     try {
@@ -64,33 +64,33 @@ function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks (caseEventToField
   }
 }
 
-function assertPageFieldDisplayOrder (row) {
+function assertPageFieldDisplayOrder(row) {
   try {
     whenPopulated(row.PageFieldDisplayOrder, 'number').expect(isPositiveNumber());
-  } catch (e) {
+  } catch (error) {
     console.log('Invalid PageFieldDisplayOrder in ', row);
-    console.error(e);
-    throw e;
+    console.error(error);
+    throw error;
   }
 }
 
-function assertPageDisplayOrder (row) {
+function assertPageDisplayOrder(row) {
   try {
     whenPopulated(row.PageDisplayOrder, 'number').expect(isPositiveNumber());
-  } catch (e) {
+  } catch (error) {
     console.log('Invalid PageDisplayOrder in ', row);
-    console.error(e);
-    throw e;
+    console.error(error);
+    throw error;
   }
 }
 
-function assertPageColumnNumber (row) {
+function assertPageColumnNumber(row) {
   try {
     whenPopulated(row.PageColumnNumber, 'number').expect(isPositiveNumber());
-  } catch (e) {
+  } catch (error) {
     console.log('Invalid PageColumnNumber in ', row);
-    console.error(e);
-    throw e;
+    console.error(error);
+    throw error;
   }
 }
 

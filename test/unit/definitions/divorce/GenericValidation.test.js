@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const { uniq } = require('lodash');
 const { prod, nonprod } = require('../../utils/dataProvider');
 
-function uniqueRows (config) {
+function uniqueRows(config) {
   Object.keys(config).forEach(sheetName => {
     const originalContent = config[sheetName];
     const uniqueList = uniq(originalContent);
@@ -10,7 +10,7 @@ function uniqueRows (config) {
   });
 }
 
-function validateNames (config) {
+function validateNames(config) {
   const accepted = /^[\w|*|\-|.|[|\]]+$/;
   const priorityUserFields = ['CaseFieldID', 'CaseStateID', 'ID', 'CaseEventID'];
   Object.keys(config).forEach(sheetName => {

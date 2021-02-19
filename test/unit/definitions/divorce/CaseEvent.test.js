@@ -9,7 +9,7 @@ const {
 } = require('../../utils/utils');
 const { prod, nonprod } = require('../../utils/dataProvider');
 
-function assertEventDefinitionIsValid (row) {
+function assertEventDefinitionIsValid(row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
     return v.startsWith('DIVORCE');
   });
