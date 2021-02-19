@@ -64,34 +64,26 @@ function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFields
   }
 }
 
-function assertPageFieldDisplayOrder(row) {
+function assertOrderField(row, field) {
   try {
-    whenPopulated(row.PageFieldDisplayOrder, 'number').expect(isPositiveNumber());
+    whenPopulated(row[field], 'number').expect(isPositiveNumber());
   } catch (error) {
-    console.log('Invalid PageFieldDisplayOrder in ', row);
+    console.log(`Invalid ${field} in `, row);
     console.error(error);
     throw error;
   }
+}
+
+function assertPageFieldDisplayOrder(row) {
+  assertOrderField(row, 'PageFieldDisplayOrder');
 }
 
 function assertPageDisplayOrder(row) {
-  try {
-    whenPopulated(row.PageDisplayOrder, 'number').expect(isPositiveNumber());
-  } catch (error) {
-    console.log('Invalid PageDisplayOrder in ', row);
-    console.error(error);
-    throw error;
-  }
+  assertOrderField(row, 'PageDisplayOrder');
 }
 
 function assertPageColumnNumber(row) {
-  try {
-    whenPopulated(row.PageColumnNumber, 'number').expect(isPositiveNumber());
-  } catch (error) {
-    console.log('Invalid PageColumnNumber in ', row);
-    console.error(error);
-    throw error;
-  }
+  assertOrderField(row, 'PageColumnNumber');
 }
 
 describe('CaseEventToFields (non-prod)', () => {
