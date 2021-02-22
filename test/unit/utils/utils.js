@@ -26,11 +26,18 @@ function isNotLongerThan(maxLength) {
   };
 }
 
-function whenPopulated(key) {
+function isPositiveNumber() {
+  return v => {
+    return typeof v === 'number' && v > 0;
+  };
+}
+
+function whenPopulated(key, type) {
+  const myType = type || 'string';
   return {
     expect: satisfyCallback => {
       if (key) {
-        expect(key).to.be.a('string').and.satisfy(satisfyCallback);
+        expect(key).to.be.a(myType).and.satisfy(satisfyCallback);
       }
     }
   };
@@ -75,6 +82,7 @@ module.exports = {
   noDuplicateFound,
   isNotEmpty,
   isNotLongerThan,
+  isPositiveNumber,
   whenPopulated,
   getUniqValues
 };

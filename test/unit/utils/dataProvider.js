@@ -21,9 +21,7 @@ module.exports = {
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-resp-journey-prod'
     ]),
-    AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
-      'AuthorisationCaseField'
-    ]),
+    AuthorisationCaseField: getAuthorisationCaseFieldDefinitions(['AuthorisationCaseField']),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
       ['AuthorisationCaseState']
     ),
@@ -37,6 +35,7 @@ module.exports = {
       'CaseEvent',
       'CaseEvent-resp-journey-prod',
       'CaseEvent-share-a-case-prod',
+      'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']
@@ -45,9 +44,7 @@ module.exports = {
       'CaseEventToFields',
       'CaseEventToFields-resp-journey-prod'
     ]),
-    CaseField: getCaseFieldDefinitions([
-      'CaseField'
-    ]),
+    CaseField: getCaseFieldDefinitions(['CaseField']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
@@ -96,9 +93,7 @@ module.exports = {
       'AuthorisationCaseState-resp-journey-nonprod',
       'AuthorisationCaseState-share-a-case-nonprod'
     ]),
-    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions([
-      'AuthorisationCaseType'
-    ]),
+    AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
       'AuthorisationComplexType',
       'AuthorisationComplexType-resp-journey-nonprod',
@@ -109,6 +104,7 @@ module.exports = {
       'CaseEvent-alt-service-process-server-nonprod',
       'CaseEvent-alternative-service-nonprod',
       'CaseEvent-amend-court-orders-nonprod',
+      'CaseEvent-bailiff-nonprod',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
       'CaseEvent-resp-journey-nonprod',
