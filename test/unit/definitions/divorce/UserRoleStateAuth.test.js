@@ -5,19 +5,19 @@ const { nonprod, prod } = require('../../utils/dataProvider');
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation', 'Submitted'];
 
-function byCaseType (caseType) {
+function byCaseType(caseType) {
   return entry => {
     return entry.CaseTypeID === caseType;
   };
 }
 
-function byStateName (stateEntry) {
+function byStateName(stateEntry) {
   return stateAuth => {
     return stateAuth.CaseStateID === stateEntry.ID;
   };
 }
 
-function mapErrorArray (caseType) {
+function mapErrorArray(caseType) {
   return entry => {
     return {
       UserRole: entry.UserRole,
@@ -26,11 +26,11 @@ function mapErrorArray (caseType) {
   };
 }
 
-function checkPerms (entry) {
+function checkPerms(entry) {
   expect(entry.CRUD).to.match(MINIMUM_READ_PERMISSIONS);
 }
 
-function runTest (authorisationCaseState, authorisationCaseType, state, caseType) {
+function runTest(authorisationCaseState, authorisationCaseType, state, caseType) {
   // iterate each case type
   // get all state auths for case type
   // get all roles for case type
