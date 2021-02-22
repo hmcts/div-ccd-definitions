@@ -651,7 +651,7 @@
     "Description": "DN Pronounced",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingPronouncement",
-    "PostConditionState": "AwaitingDecreeAbsolute",
+    "PostConditionState": "DNPronounced",
     "SecurityClassification": "Public"
   },
   {
