@@ -172,7 +172,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "29/06/2020",
