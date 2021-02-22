@@ -187,5 +187,12 @@
     "CaseEventID": "solAosNotReceivedFromServiceAppRejected",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
   }
 ]
