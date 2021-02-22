@@ -1,0 +1,14 @@
+[
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issueBailiffPack",
+    "Name": "Issue Bailiff Pack",
+    "Description": "Issue Bailiff Pack",
+    "DisplayOrder": 100,
+    "PreConditionState(s)": "AwaitingBailiffService",
+    "PostConditionState": "IssuedToBailiff",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/update-court-order-documents",
+    "SecurityClassification": "Public"
+  }
+]
