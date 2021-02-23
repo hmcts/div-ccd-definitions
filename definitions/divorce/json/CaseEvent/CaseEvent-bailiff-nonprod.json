@@ -22,7 +22,7 @@
     "DisplayOrder": 14,
     "PreConditionState(s)": "AwaitingBailiffReferral",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-bailiff-decision",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public",
     "ShowSummary":  "Y"
