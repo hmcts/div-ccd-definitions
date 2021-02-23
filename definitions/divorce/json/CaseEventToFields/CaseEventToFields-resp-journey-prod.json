@@ -743,8 +743,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolApplyToClaimCosts",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 17,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
+    "PageDisplayOrder": 18,
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\" AND D8DivorceCostsClaim=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -1755,8 +1755,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 17,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\"",
+    "PageDisplayOrder": 18,
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\" AND D8DivorceCostsClaim=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
