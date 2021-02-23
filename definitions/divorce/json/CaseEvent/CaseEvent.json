@@ -2184,7 +2184,6 @@
     "Name": "Revert Solicitor AoS submit",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
-    "PreConditionState(s)": "*",
     "PostConditionState": "AosDrafted",
     "SecurityClassification": "Public",
     "ShowSummary": "N"
