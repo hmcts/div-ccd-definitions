@@ -49,11 +49,25 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdateAOS",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdateAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/02/2021",
