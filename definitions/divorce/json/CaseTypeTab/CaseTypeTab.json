@@ -3492,5 +3492,15 @@
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
     "TabFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "12/12/2019",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "levTab",
+    "TabLabel": "Life Event Verification",
+    "TabDisplayOrder": 24,
+    "CaseFieldID": "D8caseReference",
+    "TabFieldDisplayOrder": 1
   }
 ]
