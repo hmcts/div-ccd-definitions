@@ -1935,7 +1935,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "DerivedPetitionerSolicitorAddr",
-    "Label": "Firm address/DX address",
+    "Label": "Petitioner Solicitor's Firm address/DX address",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
