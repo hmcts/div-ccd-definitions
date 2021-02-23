@@ -53,7 +53,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/02/2021",
