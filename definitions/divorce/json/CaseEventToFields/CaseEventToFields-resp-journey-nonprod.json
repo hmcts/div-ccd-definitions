@@ -869,6 +869,19 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolApplyToClaimCosts",
+    "PageLabel": "Claim for costs",
+    "PageDisplayOrder": 19,
+    "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
     "CaseFieldID": "LabelSolUploadDocsPara-1",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1993,6 +2006,19 @@
     "PageLabel": "Claim for costs",
     "PageDisplayOrder": 18,
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Yes\" AND D8DivorceCostsClaim=\"Yes\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolApplyToClaimCostsUpdate",
+    "PageLabel": "Claim for costs",
+    "PageDisplayOrder": 19,
+    "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {

@@ -205,6 +205,13 @@
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PetitionerFirstName",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"

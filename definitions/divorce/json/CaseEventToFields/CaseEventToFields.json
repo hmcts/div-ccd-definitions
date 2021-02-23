@@ -2301,6 +2301,15 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "create",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "create",
     "CaseFieldID": "D8JurisdictionConfidentLegal",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
