@@ -69,7 +69,8 @@ const nonProdTabIds = [
   'LinkedCase',
   'generalReferral',
   'Language',
-  'ConfidentialDocuments'
+  'ConfidentialDocuments',
+  'LifeEventsVerification'
 ];
 
 const prodTabDisplayOrder = {
@@ -129,7 +130,8 @@ const prodTabIds = [
   'serviceApplication',
   'LinkedCase',
   'Language',
-  'ConfidentialDocuments'
+  'ConfidentialDocuments',
+  'LifeEventsVerification'
 ];
 
 /**

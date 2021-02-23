@@ -3497,9 +3497,9 @@
     "LiveFrom": "12/12/2019",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "levTab",
+    "TabID": "LifeEventsVerification",
     "TabLabel": "Life Event Verification",
-    "TabDisplayOrder": 24,
+    "TabDisplayOrder": 29,
     "CaseFieldID": "D8caseReference",
     "TabFieldDisplayOrder": 1
   }
