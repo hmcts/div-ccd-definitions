@@ -79,6 +79,7 @@ module.exports = {
       'AuthorisationCaseField-alternative-service-nonprod',
       'AuthorisationCaseField-amend-court-orders-nonprod',
       'AuthorisationCaseField-general-email-nonprod',
+      'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-general-referral-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
       'AuthorisationCaseField-share-a-case-nonprod',
@@ -116,6 +117,7 @@ module.exports = {
       'CaseEventToFields-alt-service-process-server-nonprod',
       'CaseEventToFields-alternative-service-nonprod',
       'CaseEventToFields-amend-court-orders-nonprod',
+      'CaseEventToFields-bailiff-nonprod',
       'CaseEventToFields-general-email-nonprod',
       'CaseEventToFields-general-referral-nonprod',
       'CaseEventToFields-resp-journey-nonprod'
@@ -130,6 +132,7 @@ module.exports = {
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-alternative-service-nonprod',
       'CaseField-amend-court-orders-nonprod',
+      'CaseField-bailiff-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod',
       'CaseField-resp-journey-nonprod',
