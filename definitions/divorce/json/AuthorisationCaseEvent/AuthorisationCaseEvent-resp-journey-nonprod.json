@@ -77,6 +77,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSubmitAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
