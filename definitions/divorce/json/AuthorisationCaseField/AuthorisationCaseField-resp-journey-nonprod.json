@@ -327,5 +327,75 @@
     "CaseFieldID": "RespCostsReason",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAOS2yrConsent",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespWillDefendDivorce",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDefenseResponse",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDescription",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespConsiderFinancialSituation",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespJurisdictionDisagreeReason",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespLegalProceedingsDescription",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespSolEmailHeader",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespSolEmail",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
   }
 ]
