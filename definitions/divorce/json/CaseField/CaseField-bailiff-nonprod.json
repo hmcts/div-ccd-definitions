@@ -36,7 +36,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "CertificateOfServiceDocument",
     "Label": "Certificate of Service",
-    "FieldType": "Document",
+    "FieldType": "DivorceDocument",
     "SecurityClassification": "Public"
   }
 ]
