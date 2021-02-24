@@ -10,5 +10,17 @@
     "PostConditionState": "IssuedToBailiff",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/update-court-order-documents",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "addBailiffReturn",
+    "Name": "Add Bailiff Return",
+    "Description": "Add Bailiff Return",
+    "DisplayOrder": 101,
+    "PreConditionState(s)": "IssuedToBailiff",
+    "PostConditionState": "AwaitingAOS",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
+    "SecurityClassification": "Public"
   }
 ]

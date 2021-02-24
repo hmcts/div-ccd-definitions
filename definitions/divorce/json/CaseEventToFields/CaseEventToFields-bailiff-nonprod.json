@@ -1,0 +1,42 @@
+[
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "ServiceApplicationGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageLabel": "Add Bailiff Return",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "BailiffServiceSuccessful",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageLabel": "Add Bailiff Return",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationRefusalReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageLabel": "Add Bailiff Return",
+    "PageDisplayOrder": 3,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "BailiffServiceSuccessful=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
+  }
+]
