@@ -8,7 +8,7 @@
     "DisplayOrder": 100,
     "PreConditionState(s)": "AwaitingBailiffService",
     "PostConditionState": "IssuedToBailiff",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/update-court-order-documents",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-bailiff-pack",
     "SecurityClassification": "Public"
   }
 ]
