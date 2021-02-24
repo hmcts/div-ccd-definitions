@@ -1264,7 +1264,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "uploadDocument",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -7392,6 +7392,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "transferCaseFromServiceAppRejected",
     "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AddNote",
+    "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   }
 ]
