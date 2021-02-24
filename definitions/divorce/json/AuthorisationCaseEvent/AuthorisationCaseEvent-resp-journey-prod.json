@@ -172,7 +172,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "submitDnClarification",
     "UserRole": "[PETSOLICITOR]",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "29/06/2020",
@@ -187,5 +187,19 @@
     "CaseEventID": "solAosNotReceivedFromServiceAppRejected",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdateAOS",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
   }
 ]
