@@ -383,5 +383,19 @@
     "CaseFieldID": "RespLegalProceedingsDescription",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespSolEmailHeader",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespSolEmail",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRUD"
   }
 ]
