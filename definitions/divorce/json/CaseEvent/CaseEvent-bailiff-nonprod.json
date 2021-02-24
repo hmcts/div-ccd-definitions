@@ -20,7 +20,6 @@
     "DisplayOrder": 101,
     "PreConditionState(s)": "IssuedToBailiff",
     "PostConditionState": "AwaitingAOS",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
     "SecurityClassification": "Public"
   }
 ]
