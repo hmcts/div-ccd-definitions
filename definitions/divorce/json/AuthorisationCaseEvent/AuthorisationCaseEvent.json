@@ -7395,7 +7395,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "16/09/2020",
+    "LiveFrom": "24/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "AddNote",
     "UserRole": "caseworker-divorce-solicitor",
