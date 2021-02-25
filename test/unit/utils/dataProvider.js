@@ -67,7 +67,6 @@ module.exports = {
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-alternative-service-nonprod',
       'AuthorisationCaseEvent-alt-service-process-server-nonprod',
-      'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-amend-court-orders-nonprod',
       'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-general-email-nonprod',

@@ -34,7 +34,6 @@
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
   },
-
   {
     "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
