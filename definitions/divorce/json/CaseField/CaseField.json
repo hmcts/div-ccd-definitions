@@ -318,14 +318,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "23/02/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "D8DerivedPetitionerSolicitorAddr",
-    "Label": "Petitioner solicitor's firm/ DX address",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8RespondentNameAsOnMarriageCertificate",
