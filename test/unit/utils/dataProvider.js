@@ -69,6 +69,7 @@ module.exports = {
       'AuthorisationCaseEvent-alt-service-process-server-nonprod',
       'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-amend-court-orders-nonprod',
+      'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-general-email-nonprod',
       'AuthorisationCaseEvent-general-referral-nonprod',
       'AuthorisationCaseEvent-resp-journey-nonprod',
@@ -79,6 +80,7 @@ module.exports = {
       'AuthorisationCaseField-alt-service-process-server-nonprod',
       'AuthorisationCaseField-alternative-service-nonprod',
       'AuthorisationCaseField-amend-court-orders-nonprod',
+      'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-general-email-nonprod',
       'AuthorisationCaseField-general-referral-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
@@ -132,6 +134,7 @@ module.exports = {
       'CaseField-alt-service-process-server-nonprod',
       'CaseField-alternative-service-nonprod',
       'CaseField-amend-court-orders-nonprod',
+      'CaseField-bailiff-nonprod',
       'CaseField-general-email-nonprod',
       'CaseField-general-referral-nonprod',
       'CaseField-resp-journey-nonprod',
@@ -141,6 +144,7 @@ module.exports = {
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
+      'CaseTypeTab-bailiff-nonprod',
       'CaseTypeTab-general-referral-nonprod',
       'CaseTypeTab-resp-journey-nonprod'
     ]),
