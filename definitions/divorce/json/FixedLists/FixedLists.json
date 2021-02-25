@@ -1559,5 +1559,11 @@
     "ID": "d8documentsReceivedEnum",
     "ListElementCode": "deemedServiceRefused",
     "ListElement": "Deemed service refused"
+  },
+  {
+    "LiveFrom": "23/02/2021",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "bury",
+    "ListElement": "Bury St. Edmunds Regional Divorce Centre"
   }
 ]

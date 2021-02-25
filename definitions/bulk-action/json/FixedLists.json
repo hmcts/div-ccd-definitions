@@ -88,5 +88,11 @@
     "ID": "HasJudgePronouncedEnum",
     "ListElementCode": "Yes",
     "ListElement": "Yes"
+  },
+  {
+    "LiveFrom": "23/02/2021",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "bury",
+    "ListElement": "Bury St. Edmunds Regional Divorce Centre"
   }
 ]
