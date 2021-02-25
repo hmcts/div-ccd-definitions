@@ -12,5 +12,19 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service-payment",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "makeBailiffDecision",
+    "Name": "Make Bailiff Decision",
+    "Description": "Make Bailiff Decision",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "AwaitingBailiffReferral",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
+    "SecurityClassification": "Public",
+    "ShowSummary":  "Y"
   }
 ]
