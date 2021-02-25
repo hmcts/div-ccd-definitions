@@ -7,42 +7,42 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosSubmittedUndefended",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solConfirmPersonalService",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solConfirmPersonalService",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
     "UserRole": "[PETSOLICITOR]",
@@ -56,7 +56,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdateAOS",
     "UserRole": "[PETSOLICITOR]",
@@ -70,35 +70,35 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSubmitAOS",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdateDN",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSOTDN",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solApplyForDA",
     "UserRole": "[RESPSOLICITOR]",
