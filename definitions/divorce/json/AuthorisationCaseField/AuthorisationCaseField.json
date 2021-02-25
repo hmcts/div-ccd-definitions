@@ -436,21 +436,21 @@
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
@@ -5903,7 +5903,7 @@
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
   },
@@ -8199,7 +8199,7 @@
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
   },
@@ -10257,7 +10257,7 @@
   {
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },

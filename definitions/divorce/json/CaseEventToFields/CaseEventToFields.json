@@ -803,7 +803,7 @@
     "LiveFrom": "23/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "updateContactDetails",
-    "CaseFieldID": "D8DerivedPetitionerSolicitorAddr",
+    "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "PageFieldDisplayOrder": 44,
     "DisplayContext": "OPTIONAL",
     "PageID": "updateContactDetails",
