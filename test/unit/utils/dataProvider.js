@@ -34,7 +34,8 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-resp-journey-prod',
-      'CaseEvent-share-a-case-prod'
+      'CaseEvent-share-a-case-prod',
+      'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']
@@ -103,6 +104,7 @@ module.exports = {
       'CaseEvent-alt-service-process-server-nonprod',
       'CaseEvent-alternative-service-nonprod',
       'CaseEvent-amend-court-orders-nonprod',
+      'CaseEvent-bailiff-nonprod',
       'CaseEvent-general-email-nonprod',
       'CaseEvent-general-referral-nonprod',
       'CaseEvent-resp-journey-nonprod',
