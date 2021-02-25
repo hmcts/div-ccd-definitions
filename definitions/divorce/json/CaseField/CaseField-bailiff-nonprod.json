@@ -1,6 +1,6 @@
 [
   {
-    "LiveFrom": "01/02/2021",
+    "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LocalCourtDetailsIntro",
     "Label": "Caseworker will send the Bailiff application together with the divorce application, invitation letter for the respondent and a certificate of service to the local court.",
@@ -8,7 +8,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/02/2021",
+    "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LocalCourtDetailsLabel",
     "Label": "### Local court details",
@@ -16,7 +16,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/02/2021",
+    "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LocalCourtAddress",
     "Label": "Court name",
@@ -24,7 +24,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/02/2021",
+    "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LocalCourtEmail",
     "Label": "Email address",
@@ -32,7 +32,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/02/2021",
+    "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "CertificateOfServiceDocument",
     "Label": "Certificate of Service",
