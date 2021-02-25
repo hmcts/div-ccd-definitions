@@ -1,0 +1,14 @@
+[
+  {
+    "LiveFrom": "04/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "updateCourtOrderDocuments",
+    "Name": "Regenerate court orders",
+    "Description": "Regenerate court orders",
+    "DisplayOrder": 15,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/update-court-order-documents",
+    "SecurityClassification": "Public"
+  }
+]
