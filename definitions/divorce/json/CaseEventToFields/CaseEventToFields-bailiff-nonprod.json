@@ -3,7 +3,7 @@
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "addBailiffReturn",
-    "CaseFieldID": "ServiceApplicationGranted",
+    "CaseFieldID": "CertificateOfServiceDate",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
@@ -16,7 +16,7 @@
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "addBailiffReturn",
-    "CaseFieldID": "BailiffServiceSuccessful",
+    "CaseFieldID": "SuccessfulServedByBailiff",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
@@ -28,15 +28,15 @@
   {
     "LiveFrom": "03/08/2020",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "makeBailiffDecision",
-    "CaseFieldID": "ServiceApplicationRefusalReason",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "ReasonFailureToServe",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
     "PageLabel": "Add Bailiff Return",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
-    "PageShowCondition": "BailiffServiceSuccessful=\"No\"",
+    "PageShowCondition": "SuccessfulServedByBailiff=\"No\"",
     "ShowSummaryChangeOption": "Yes"
   }
 ]

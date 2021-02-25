@@ -10,7 +10,15 @@
   {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
-    "ID": "BailiffServiceSuccessful",
+    "ID": "CertificateOfServiceDueDate",
+    "Label": "Certificate of service due date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SuccessfulServedByBailiff",
     "Label": "Did bailiff service successfully?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"

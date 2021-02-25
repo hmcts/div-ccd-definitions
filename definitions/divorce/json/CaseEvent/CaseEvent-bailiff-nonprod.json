@@ -19,7 +19,8 @@
     "Description": "Add Bailiff Return",
     "DisplayOrder": 101,
     "PreConditionState(s)": "IssuedToBailiff",
-    "PostConditionState": "AwaitingAOS",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
     "SecurityClassification": "Public"
   }
 ]
