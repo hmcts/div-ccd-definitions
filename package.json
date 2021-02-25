@@ -54,6 +54,7 @@
     "generate-excel-aat-prod-like": "DIV_ENV=aat-prod-like CCD_DEF_COS_URL=$npm_package_config_aat_cosUrl CCD_DEF_CCD_URL=$npm_package_config_aat_ccdUrl yarn run generate-excel -e *-nonprod.json",
     "generate-excel-perftest": "DIV_ENV=perftest CCD_DEF_COS_URL=$npm_package_config_perftest_cosUrl CCD_DEF_CCD_URL=$npm_package_config_perftest_ccdUrl yarn run generate-excel -e *-prod.json",
     "generate-excel-ithc": "DIV_ENV=ithc CCD_DEF_COS_URL=$npm_package_config_ithc_cosUrl CCD_DEF_CCD_URL=$npm_package_config_ithc_ccdUrl yarn run generate-excel -e *-prod.json",
+    "generate-excel-ithc-prod-like": "DIV_ENV=ithc CCD_DEF_COS_URL=$npm_package_config_ithc_cosUrl CCD_DEF_CCD_URL=$npm_package_config_ithc_ccdUrl yarn run generate-excel -e *-nonprod.json",
     "generate-excel-prod": "DIV_ENV=prod CCD_DEF_COS_URL=$npm_package_config_prod_cosUrl CCD_DEF_CCD_URL=$npm_package_config_prod_ccdUrl yarn run generate-excel -e *-nonprod.json",
     "generate-excel": "yarn --cwd ccd-definition-processor json2xlsx -D ../definitions/divorce/json -o ../definitions/divorce/xlsx/ccd-config-${DIV_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-aat && yarn generate-excel-aat-prod-like && yarn generate-excel-demo && yarn generate-excel-demo-prod-like && yarn generate-excel-ithc && yarn generate-excel-perftest && yarn generate-excel-prod",
