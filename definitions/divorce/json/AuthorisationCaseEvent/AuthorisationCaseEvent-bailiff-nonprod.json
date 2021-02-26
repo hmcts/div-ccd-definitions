@@ -1,0 +1,9 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CR"
+  }
+]

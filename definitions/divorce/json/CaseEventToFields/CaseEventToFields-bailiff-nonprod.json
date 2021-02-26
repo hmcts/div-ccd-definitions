@@ -1,0 +1,29 @@
+[
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationGrantedBailiff",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision1",
+    "PageLabel": "Make Bailiff Decision",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationRefusalReasonBailiff",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision2",
+    "PageLabel": "Reason for refusal",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "ServiceApplicationGrantedBailiff=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
+  }
+]

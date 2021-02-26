@@ -34,7 +34,8 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-resp-journey-prod',
-      'CaseEvent-share-a-case-prod'
+      'CaseEvent-share-a-case-prod',
+      'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']
@@ -87,6 +88,7 @@ module.exports = {
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-bailiff-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-share-a-case-nonprod',
       'CaseEvent-nonprod'
