@@ -1,0 +1,35 @@
+[
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8JurisdictionConnection",
+    "TabFieldDisplayOrder": 77,
+    "FieldShowCondition": "NewLegalConnectionPolicy!=\"Yes\""
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8JurisdictionConnectionNewPolicy",
+    "TabFieldDisplayOrder": 78,
+    "FieldShowCondition": "NewLegalConnectionPolicy=\"Yes\""
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "NewLegalConnectionPolicy",
+    "TabFieldDisplayOrder": 121,
+    "FieldShowCondition": "NewLegalConnectionPolicy=\"NEVERSHOW\""
+  }
+]

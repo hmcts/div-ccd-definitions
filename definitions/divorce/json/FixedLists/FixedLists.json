@@ -133,48 +133,6 @@
   },
   {
     "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "A",
-    "ListElement": "The Petitioner and the Respondent are habitually resident in England and Wales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "B",
-    "ListElement": "The Petitioner and Respondent were last habitually resident in England and Wales and one of them still resides there"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "C",
-    "ListElement": "The Respondent is habitually resident in England and Wales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "D",
-    "ListElement": "The Petitioner is habitually resident in England and Wales and has resided there for at least a year immediately prior to the presentation of the petition"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "E",
-    "ListElement": "The Petitioner is domiciled and habitually resident in England and Wales and has resided there for at least six months immediately prior to the petition"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "F",
-    "ListElement": "The Petitioner and Respondent are both domiciled in England and Wales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "jurisdictionConnectionsEnum",
-    "ListElementCode": "G",
-    "ListElement": "The courts of England and Wales have residual jurisdiction"
-  },
-  {
-    "LiveFrom": "01/01/2017",
     "ID": "RejectReasonList",
     "ListElementCode": "RejectReasonNoInfo",
     "ListElement": "No information"

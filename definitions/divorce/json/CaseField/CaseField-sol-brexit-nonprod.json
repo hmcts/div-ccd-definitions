@@ -1,0 +1,20 @@
+[
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "NewLegalConnectionPolicy",
+    "Label": "Determine which legal connection wording to use.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8JurisdictionConnectionNewPolicy",
+    "Label": "Legal connections",
+    "HintText": "Tick all the reasons that apply:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "jurisdictionConnectionsEnumNewPolicy",
+    "SecurityClassification": "Public"
+  }
+]

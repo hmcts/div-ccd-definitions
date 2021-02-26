@@ -257,30 +257,6 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "D8JurisdictionConnection",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolJurisdiction",
-    "PageLabel": "Jurisdiction",
-    "PageDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "labelResidualJurisdictionPara-1",
-    "PageFieldDisplayOrder": 5,
-    "DisplayContext": "READONLY",
-    "PageID": "SolJurisdiction",
-    "PageLabel": "Jurisdiction",
-    "PageDisplayOrder": 6,
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
     "CaseFieldID": "LabelSolReasonForDivorcePara-1",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1381,30 +1357,6 @@
     "PageLabel": "Jurisdiction",
     "PageDisplayOrder": 6,
     "FieldShowCondition": "D8MarriageIsSameSexCouple=\"Yes\"",
-    "ShowSummaryChangeOption": "No"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "D8JurisdictionConnection",
-    "PageFieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "PageID": "SolJurisdictionUpdate",
-    "PageLabel": "Jurisdiction",
-    "PageDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "labelResidualJurisdictionPara-1",
-    "PageFieldDisplayOrder": 5,
-    "DisplayContext": "READONLY",
-    "PageID": "SolJurisdictionUpdate",
-    "PageLabel": "Jurisdiction",
-    "PageDisplayOrder": 6,
     "ShowSummaryChangeOption": "No"
   },
   {
