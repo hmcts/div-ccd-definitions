@@ -9,6 +9,7 @@
     "PreConditionState(s)": "AwaitingBailiffService",
     "PostConditionState": "IssuedToBailiff",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-bailiff-pack",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
