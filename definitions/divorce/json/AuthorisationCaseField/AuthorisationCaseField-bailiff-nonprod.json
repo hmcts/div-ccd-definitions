@@ -1,5 +1,19 @@
 [
   {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationGrantedBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "16/04/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationRefusalReasonBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CR"
+  },
+  {
     "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LocalCourtAddress",
