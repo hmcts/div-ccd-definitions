@@ -36,8 +36,8 @@
     "LiveFrom": "17/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelRespSolEmailHeader",
-    "Label": "Email contact details",
-    "FieldType": "Text",
+    "Label": "### Email contact details",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
