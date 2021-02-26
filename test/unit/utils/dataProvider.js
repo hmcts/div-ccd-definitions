@@ -65,6 +65,7 @@ module.exports = {
   nonprod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
+      'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-resp-journey-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
@@ -95,7 +96,9 @@ module.exports = {
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-resp-journey-nonprod'
+      'CaseEventToFields-bailiff-nonprod',
+      'CaseEventToFields-resp-journey-nonprod',
+      'CaseEventToFields-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
       'CaseEventToComplexTypes',
