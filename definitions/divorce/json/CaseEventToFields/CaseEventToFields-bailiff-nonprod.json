@@ -37,7 +37,7 @@
     "PageLabel": "Local court details - Issue Bailiff Pack",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -50,7 +50,7 @@
     "PageLabel": "Local court details - Issue Bailiff Pack",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "25/02/2021",
