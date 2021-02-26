@@ -1,0 +1,68 @@
+[
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnum",
+    "ListElementCode": "H",
+    "ListElement": "The Petitioner is domiciled in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnum",
+    "ListElementCode": "I",
+    "ListElement": "The Respondent is domiciled in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "A",
+    "ListElement": "The Petitioner and the Respondent are habitually resident in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "B",
+    "ListElement": "The Petitioner and Respondent were last habitually resident in England and Wales and one of them still resides there"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "C",
+    "ListElement": "The Respondent is habitually resident in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "D",
+    "ListElement": "The Petitioner is habitually resident in England and Wales and has resided there for at least a year immediately prior to the presentation of the petition"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "E",
+    "ListElement": "The Petitioner is domiciled and habitually resident in England and Wales and has resided there for at least six months immediately prior to the petition"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "F",
+    "ListElement": "The Petitioner and Respondent are both domiciled in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "G",
+    "ListElement": "The courts of England and Wales have residual jurisdiction (same sex married couple)"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "H",
+    "ListElement": "The Petitioner is domiciled in England and Wales"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "ID": "jurisdictionConnectionsEnumNewPolicy",
+    "ListElementCode": "I",
+    "ListElement": "The Respondent is domiciled in England and Wales"
+  }
+]

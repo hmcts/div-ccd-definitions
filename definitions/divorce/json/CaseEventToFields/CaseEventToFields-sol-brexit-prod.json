@@ -1,0 +1,50 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "D8JurisdictionConnection",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolJurisdiction",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "labelResidualJurisdictionPara-1",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "SolJurisdiction",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "D8JurisdictionConnection",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SolJurisdictionUpdate",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "labelResidualJurisdictionPara-1",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "SolJurisdictionUpdate",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "ShowSummaryChangeOption": "No"
+  }
+]
