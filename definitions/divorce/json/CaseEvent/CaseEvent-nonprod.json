@@ -14,7 +14,7 @@
     "LiveFrom": "26/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "testAosDrafted",
-    "Name": "Aos Drafted Test",
+    "Name": "AOS Drafted Test",
     "Description": "TEST ONLY: Aos Drafted Test",
     "DisplayOrder": 20,
     "PreConditionState(s)": "*",
