@@ -2804,20 +2804,6 @@
   {
     "LiveFrom": "15/09/2020",
     "CaseTypeID": "DIVORCE",
-    "ID": "aosNotReceived",
-    "Name": "AOS Not Received within SLA",
-    "Description": "AOS Not Received within SLA",
-    "DisplayOrder": 3,
-    "PreConditionState(s)": "AosAwaiting",
-    "PostConditionState": "AosOverdue",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/prepare-aos-not-received-for-submission",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "15/09/2020",
-    "CaseTypeID": "DIVORCE",
     "ID": "EnterAOSOffline_Respondent",
     "Name": "Received AOS offline-Resp",
     "Description": "Received AOS offline for respondent from AosAwaiting",
@@ -2971,18 +2957,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "15/11/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosNotReceivedForProcessServer",
-    "Name": "Move to awaiting DN",
-    "Description": "Move to awaiting DN",
-    "DisplayOrder": "20",
-    "PreConditionState(s)": "AosAwaiting;AosStarted",
-    "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-not-received-for-process-server",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "03/11/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "confirmProcessServerService",
@@ -3053,18 +3027,6 @@
     "PreConditionState(s)": "AwaitingAlternativeService",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-alternative-service",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/12/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "aosNotReceivedForAltMethod",
-    "Name": "Move to awaiting DN",
-    "Description": "Move to awaiting DN",
-    "DisplayOrder": 26,
-    "PreConditionState(s)": "AosAwaiting;AosStarted",
-    "PostConditionState": "AwaitingDecreeNisi",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
   },
   {
