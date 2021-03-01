@@ -116,6 +116,7 @@ module.exports = {
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
+      'CaseTypeTab-bailiff-nonprod',
       'CaseTypeTab-resp-journey-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([

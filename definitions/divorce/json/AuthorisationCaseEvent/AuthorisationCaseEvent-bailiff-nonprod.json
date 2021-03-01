@@ -131,5 +131,47 @@
     "CaseEventID": "makeBailiffDecision",
     "UserRole": "caseworker-divorce-bulkscan",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
