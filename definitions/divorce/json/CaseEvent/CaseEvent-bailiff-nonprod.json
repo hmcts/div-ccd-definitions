@@ -25,6 +25,19 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public",
-    "ShowSummary":  "Y"
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issueBailiffPack",
+    "Name": "Issue Bailiff Pack",
+    "Description": "Issue Bailiff Pack",
+    "DisplayOrder": 100,
+    "PreConditionState(s)": "AwaitingBailiffService",
+    "PostConditionState": "IssuedToBailiff",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-bailiff-pack",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]

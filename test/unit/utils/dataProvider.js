@@ -71,6 +71,7 @@ module.exports = {
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
+      'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
       'AuthorisationCaseField-share-a-case-nonprod',
       'AuthorisationCaseField-nonprod'
@@ -107,6 +108,7 @@ module.exports = {
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
+      'CaseField-bailiff-nonprod',
       'CaseField-resp-journey-nonprod',
       'CaseField-share-a-case-nonprod'
     ]),
@@ -114,6 +116,7 @@ module.exports = {
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
+      'CaseTypeTab-bailiff-nonprod',
       'CaseTypeTab-resp-journey-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
