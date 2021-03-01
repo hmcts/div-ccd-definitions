@@ -22,5 +22,33 @@
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ConfirmServicePayment",
+    "Name": "Confirm service payment",
+    "Description": "Confirm service payment",
+    "DisplayOrder": 13,
+    "PreConditionState(s)": "AwaitingServicePayment",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service-payment",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "makeBailiffDecision",
+    "Name": "Make Bailiff Decision",
+    "Description": "Make Bailiff Decision",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "AwaitingBailiffReferral",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
+    "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
+    "SecurityClassification": "Public",
+    "ShowSummary":  "Y"
   }
 ]

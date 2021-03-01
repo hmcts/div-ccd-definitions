@@ -38,5 +38,32 @@
     "PageColumnNumber": 1,
     "PageShowCondition": "SuccessfulServedByBailiff=\"No\"",
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision1",
+    "PageLabel": "Make Bailiff Decision",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationRefusalReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision2",
+    "PageLabel": "Reason for refusal",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "ServiceApplicationGranted=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

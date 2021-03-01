@@ -5,7 +5,15 @@
     "ID": "AwaitingBailiffService",
     "Name": "Awaiting Bailiff Service",
     "Description": "Awaiting Bailiff Service",
-    "DisplayOrder": 135
+    "DisplayOrder": 35
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingBailiffReferral",
+    "Name": "Awaiting Bailiff Referral",
+    "Description": "Awaiting Bailiff Referral",
+    "DisplayOrder": 36
   },
   {
     "LiveFrom": "1/02/2021",
@@ -13,6 +21,6 @@
     "ID": "IssuedToBailiff",
     "Name": "Issued To Bailiff",
     "Description": "Issued To Bailiff",
-    "DisplayOrder": 136
+    "DisplayOrder": 37
   }
 ]
