@@ -107,5 +107,18 @@
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosDrafted",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
