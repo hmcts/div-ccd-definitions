@@ -389,7 +389,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "reissueFromAosDrafted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/03/2021",
