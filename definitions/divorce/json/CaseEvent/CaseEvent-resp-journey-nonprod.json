@@ -35,5 +35,65 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceived",
+    "Name": "AOS Not Received within SLA",
+    "Description": "AOS Not Received within SLA",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting;AosDrafted",
+    "PostConditionState": "AosOverdue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/prepare-aos-not-received-for-submission",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/petition-updated",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForProcessServer",
+    "Name": "Move to awaiting DN",
+    "Description": "Move to awaiting DN",
+    "DisplayOrder": "20",
+    "PreConditionState(s)": "AosAwaiting;AosStarted;AosDrafted",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-not-received-for-process-server",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForAltMethod",
+    "Name": "Move to awaiting DN",
+    "Description": "Move to awaiting DN",
+    "DisplayOrder": 26,
+    "PreConditionState(s)": "AosAwaiting;AosStarted;AosDrafted",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serveByProcessServer",
+    "Name": "Serve by process server",
+    "Description": "Serve by process server",
+    "DisplayOrder": "19",
+    "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosDrafted;AosStarted;AosOverdue;Issued;AwaitingDocuments",
+    "PostConditionState": "AwaitingProcessServerService",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "transferCaseFromCTSCAosDrafted",
+    "Name": "Transfer from CTSC to RDC",
+    "Description": "Transfer from CTSC to an RDC",
+    "DisplayOrder": 11,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
   }
 ]
