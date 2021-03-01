@@ -118,7 +118,6 @@
     "PreConditionState(s)": "AosDrafted",
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
