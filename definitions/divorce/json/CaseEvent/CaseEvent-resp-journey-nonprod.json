@@ -73,5 +73,27 @@
     "PostConditionState": "AwaitingDecreeNisi",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serveByProcessServer",
+    "Name": "Serve by process server",
+    "Description": "Serve by process server",
+    "DisplayOrder": "19",
+    "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosDrafted;AosStarted;AosOverdue;Issued;AwaitingDocuments",
+    "PostConditionState": "AwaitingProcessServerService",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "transferCaseFromCTSCAosDrafted",
+    "Name": "Transfer from CTSC to RDC",
+    "Description": "Transfer from CTSC to an RDC",
+    "DisplayOrder": 11,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
   }
 ]

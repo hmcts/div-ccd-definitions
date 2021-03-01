@@ -49,5 +49,16 @@
     "PostConditionState": "AwaitingDecreeNisi",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/alternative-service-confirmed",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serveByProcessServer",
+    "Name": "Serve by process server",
+    "Description": "Serve by process server",
+    "DisplayOrder": "19",
+    "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosStarted;AosOverdue;Issued;AwaitingDocuments",
+    "PostConditionState": "AwaitingProcessServerService",
+    "SecurityClassification": "Public"
   }
 ]
