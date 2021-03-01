@@ -2942,18 +2942,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "03/11/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "confirmProcessServerService",
-    "Name": "Confirm process service",
-    "Description": "Confirm process service",
-    "DisplayOrder": 32,
-    "PreConditionState(s)": "AwaitingProcessServerService;AosDrafted",
-    "PostConditionState": "AosAwaiting",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "30/10/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "serveByAlternativeMethod",
