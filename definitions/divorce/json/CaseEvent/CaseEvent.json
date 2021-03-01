@@ -2937,7 +2937,7 @@
     "Name": "Serve by process server",
     "Description": "Serve by process server",
     "DisplayOrder": "19",
-    "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosStarted;AosOverdue;Issued;AwaitingDocuments",
+    "PreConditionState(s)": "GeneralConsiderationComplete;AosAwaiting;AosStarted;AosOverdue;Issued;AwaitingDocuments;AosDrafted",
     "PostConditionState": "AwaitingProcessServerService",
     "SecurityClassification": "Public"
   },
