@@ -64,7 +64,6 @@ const nonProdTabIds = [
   'notesPcqExtractor',
   'marriageCertificate',
   'coRespondent',
-  // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
   'serviceApplicationCourtAdmin',
   'serviceApplicationCourtAdminBeta',
   'serviceApplicationCourtAdminLA',
@@ -131,7 +130,6 @@ const prodTabIds = [
   'notes',
   'marriageCertificate',
   'coRespondent',
-  // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
   'serviceApplicationCourtAdmin',
   'serviceApplicationCourtAdminBeta',
   'serviceApplicationCourtAdminLA',
