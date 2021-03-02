@@ -42,5 +42,22 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Updated AOS Response"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorSubmitAOS",
+    "Name": "Submit AoS",
+    "Description": "Submit Acknowledgement of Service",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "AosPreSubmit",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
   }
 ]
