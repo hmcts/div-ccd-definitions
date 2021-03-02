@@ -7,15 +7,15 @@ nodejs:
   ingressHost: ${SERVICE_FQDN}
 
 idam-pr:
-    releaseNameOverride: ${SERVICE_NAME}-idam-pr
-    enabled: true
-    redirect_uris:
-      XUI:
-        - https://xui-${SERVICE_FQDN}/oauth2/callback
-      CCD:
-        - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
-      CCD Admin:
-        - https://admin-web-${SERVICE_FQDN}/oauth2redirect
+  releaseNameOverride: ${SERVICE_NAME}-idam-pr
+  enabled: true
+  redirect_uris:
+    XUI:
+      - https://xui-${SERVICE_FQDN}/oauth2/callback
+    CCD:
+      - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
+    CCD Admin:
+      - https://admin-web-${SERVICE_FQDN}/oauth2redirect
 
 xui-webapp:
   enabled: true
