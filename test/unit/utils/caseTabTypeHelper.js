@@ -65,9 +65,15 @@ const nonProdTabIds = [
   'marriageCertificate',
   'coRespondent',
   // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
-  'serviceApplication',
+  'serviceApplicationCourtAdmin',
+  'serviceApplicationCourtAdminBeta',
+  'serviceApplicationCourtAdminLA',
+  'serviceApplicationSuperUser',
   'LinkedCase',
-  'generalReferral',
+  'generalReferralCourtAdmin',
+  'generalReferralCourtAdminBeta',
+  'generalReferralCourtAdminLA',
+  'generalReferralSuperUser',
   'Language',
   'ConfidentialDocuments'
 ];
@@ -126,9 +132,15 @@ const prodTabIds = [
   'marriageCertificate',
   'coRespondent',
   // 'SolicitorCoRespondent', - TODO - uncomment this when we go live with AOS pack 2
-  'serviceApplication',
+  'serviceApplicationCourtAdmin',
+  'serviceApplicationCourtAdminBeta',
+  'serviceApplicationCourtAdminLA',
+  'serviceApplicationSuperUser',
   'LinkedCase',
-  'generalReferral',
+  'generalReferralCourtAdmin',
+  'generalReferralCourtAdminBeta',
+  'generalReferralCourtAdminLA',
+  'generalReferralSuperUser',
   'Language',
   'ConfidentialDocuments'
 ];
