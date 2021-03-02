@@ -95,5 +95,29 @@
     "PreConditionState(s)": "AosDrafted",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "confirmProcessServerService",
+    "Name": "Confirm process service",
+    "Description": "Confirm process service",
+    "DisplayOrder": 32,
+    "PreConditionState(s)": "AwaitingProcessServerService;AosDrafted",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-process-server-service",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosDrafted",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "SecurityClassification": "Public"
   }
 ]
