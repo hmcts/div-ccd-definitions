@@ -48,7 +48,6 @@ function runTest(authorisationCaseState, authorisationCaseType, state, caseType)
 }
 
 describe('UserRole authorisations for CaseState', () => {
-
   context('nonprod', () => {
     it('should allow minimum R access for all Case States per User Role ', () => {
       runTest(nonprod.AuthorisationCaseState, nonprod.AuthorisationCaseType, nonprod.State, nonprod.CaseType);

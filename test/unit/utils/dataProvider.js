@@ -119,9 +119,7 @@ module.exports = {
       'CaseTypeTab-bailiff-nonprod',
       'CaseTypeTab-resp-journey-nonprod'
     ]),
-    ComplexTypes: getComplexTypesDefinitions([
-      'ComplexTypes'
-    ]),
+    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
       'FixedLists-bailiff-nonprod'
