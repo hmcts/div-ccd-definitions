@@ -7,7 +7,7 @@ nodejs:
   ingressHost: ${SERVICE_FQDN}
 
 idam-pr:
-    releaseNameOverride: ${SERVICE_NAME}-ccd-pr
+    releaseNameOverride: ${SERVICE_NAME}-idam-pr
     enabled: true
     redirect_uris:
       XUI:
