@@ -24,22 +24,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "28/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationGrantedBailiff",
-    "Label": "Bailiff Service Application Granted",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "03/08/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationRefusalReasonBailiff",
-    "Label": "Reason for refusal",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "25/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LocalCourtDetailsIntro",
