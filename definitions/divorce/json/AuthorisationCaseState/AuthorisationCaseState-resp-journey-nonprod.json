@@ -91,6 +91,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-caa",
+    "CRUD": "RU"
+  },
+  {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DivorceGranted",

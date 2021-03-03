@@ -252,6 +252,15 @@
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAPending",
+    "Name": "DA Pending",
+    "Description": "Pending Decree Absolute",
+    "DisplayOrder": 41,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
     "LiveFrom": "31/05/2019",
     "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "ID": "Created",
