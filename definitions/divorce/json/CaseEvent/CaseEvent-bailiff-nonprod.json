@@ -86,5 +86,31 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "15/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "allowPetitionerToAmend",
+    "Name": "Allow Petitioner to amend",
+    "Description": "Allow Petitioner to amend",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "ServiceApplicationNotApproved;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AwaitingAmendCase",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/amend-application",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "29/06/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "amendPetitionForRefusalSol",
+    "Name": "Submit amended application",
+    "Description": "Submit amended application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "ServiceApplicationNotApproved;DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingAmendCase;AwaitingService;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff\",",
+    "PostConditionState": "AmendPetition",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
