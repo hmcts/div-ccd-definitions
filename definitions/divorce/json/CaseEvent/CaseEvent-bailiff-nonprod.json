@@ -88,7 +88,7 @@
     "EndButtonLabel": "Submit AOS Response"
   },
   {
-    "LiveFrom": "15/09/2020",
+    "LiveFrom": "3/03/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "allowPetitionerToAmend",
     "Name": "Allow Petitioner to amend",
@@ -101,7 +101,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "29/06/2020",
+    "LiveFrom": "3/03/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "amendPetitionForRefusalSol",
     "Name": "Submit amended application",
