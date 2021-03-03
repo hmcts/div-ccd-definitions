@@ -145,5 +145,26 @@
     "CaseStateID": "IssuedToBailiff",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
   }
 ]
