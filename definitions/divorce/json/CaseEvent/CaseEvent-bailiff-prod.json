@@ -67,7 +67,7 @@
     "Name": "Allow Petitioner to amend",
     "Description": "Allow Petitioner to amend",
     "DisplayOrder": 23,
-    "PreConditionState(s)": "ServiceApplicationNotApproved;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted",
+    "PreConditionState(s)": "ServiceApplicationNotApproved;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService",
     "PostConditionState": "AwaitingAmendCase",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/amend-application",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
