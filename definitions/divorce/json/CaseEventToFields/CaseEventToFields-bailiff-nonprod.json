@@ -1,0 +1,81 @@
+[
+  {
+    "LiveFrom": "29/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationGranted",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision1",
+    "PageLabel": "Make Bailiff Decision",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "makeBailiffDecision",
+    "CaseFieldID": "ServiceApplicationRefusalReason",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "makeBailiffDecision2",
+    "PageLabel": "Reason for refusal",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "PageShowCondition": "ServiceApplicationGranted=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "CaseFieldID": "LocalCourtDetailsIntro",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "issue-bailiff-pack",
+    "PageLabel": "Local court details - Issue Bailiff Pack",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "CaseFieldID": "LocalCourtDetailsLabel",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "issue-bailiff-pack",
+    "PageLabel": "Local court details - Issue Bailiff Pack",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "CaseFieldID": "LocalCourtAddress",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "issue-bailiff-pack",
+    "PageLabel": "Local court details - Issue Bailiff Pack",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "issueBailiffPack",
+    "CaseFieldID": "LocalCourtEmail",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": "issue-bailiff-pack",
+    "PageLabel": "Local court details - Issue Bailiff Pack",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  }
+]

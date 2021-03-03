@@ -1,0 +1,58 @@
+[
+  {
+    "LiveFrom": "28/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationGrantedBailiff",
+    "Label": "Bailiff Service Application Granted",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationRefusalReasonBailiff",
+    "Label": "Reason for refusal",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsIntro",
+    "Label": "Caseworker will send the Bailiff application together with the divorce application, invitation letter for the respondent and a certificate of service to the local court.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsLabel",
+    "Label": "### Local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtAddress",
+    "Label": "Court name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtEmail",
+    "Label": "Email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CertificateOfServiceDocument",
+    "Label": "Certificate of Service",
+    "FieldType": "DivorceDocument",
+    "SecurityClassification": "Public"
+  }
+]

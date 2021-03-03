@@ -26,11 +26,18 @@ function isNotLongerThan(maxLength) {
   };
 }
 
-function whenPopulated(key) {
+function isPositiveNumber() {
+  return v => {
+    return typeof v === 'number' && v > 0;
+  };
+}
+
+function whenPopulated(key, type) {
+  const myType = type || 'string';
   return {
     expect: satisfyCallback => {
       if (key) {
-        expect(key).to.be.a('string').and.satisfy(satisfyCallback);
+        expect(key).to.be.a(myType).and.satisfy(satisfyCallback);
       }
     }
   };
@@ -65,6 +72,31 @@ function getUniqValues(objectArray, property) {
   });
 }
 
+function byCaseType(caseType) {
+  return entry => {
+    return entry.CaseTypeID === caseType;
+  };
+}
+
+function byStateName(stateEntry) {
+  return stateAuth => {
+    return stateAuth.CaseStateID === stateEntry.ID;
+  };
+}
+
+function mapErrorArray(caseType) {
+  return entry => {
+    return {
+      UserRole: entry.UserRole,
+      CaseType: caseType
+    };
+  };
+}
+
+function missingAuthorisationsExist(missingAuthCount) {
+  return missingAuthCount > 0;
+}
+
 module.exports = {
   SHORT_STRING,
   MEDIUM_STRING,
@@ -75,6 +107,11 @@ module.exports = {
   noDuplicateFound,
   isNotEmpty,
   isNotLongerThan,
+  isPositiveNumber,
   whenPopulated,
-  getUniqValues
+  getUniqValues,
+  byCaseType,
+  byStateName,
+  mapErrorArray,
+  missingAuthorisationsExist
 };
