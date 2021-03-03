@@ -107,7 +107,7 @@
     "Name": "Submit amended application",
     "Description": "Submit amended application",
     "DisplayOrder": 3,
-    "PreConditionState(s)": "ServiceApplicationNotApproved;DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingAmendCase;AwaitingService;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff\",",
+    "PreConditionState(s)": "ServiceApplicationNotApproved;DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingAmendCase;AwaitingService;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
     "PostConditionState": "AmendPetition",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
