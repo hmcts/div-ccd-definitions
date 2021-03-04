@@ -7,7 +7,6 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
-    "PageLabel": "Add Bailiff Return",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
@@ -20,7 +19,6 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
-    "PageLabel": "Add Bailiff Return",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
@@ -33,7 +31,6 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
-    "PageLabel": "Add Bailiff Return",
     "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "PageShowCondition": "SuccessfulServedByBailiff=\"No\"",
