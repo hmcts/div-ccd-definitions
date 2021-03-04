@@ -16,10 +16,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "addBailiffReturn",
     "CaseFieldID": "SuccessfulServedByBailiff",
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
   },
@@ -28,12 +28,12 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "addBailiffReturn",
     "CaseFieldID": "ReasonFailureToServe",
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "addBailiffReturn1",
-    "PageDisplayOrder": 3,
+    "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageShowCondition": "SuccessfulServedByBailiff=\"No\"",
+    "FieldShowCondition": "SuccessfulServedByBailiff=\"No\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
