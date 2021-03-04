@@ -590,6 +590,12 @@
   {
     "LiveFrom": "01/01/2017",
     "ID": "solHowToPay",
+    "ListElementCode": "cheque",
+    "ListElement": "Cheque (DO NOT USE)"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "solHowToPay",
     "ListElementCode": "feesHelpWith",
     "ListElement": "Help with fees"
   } ,
