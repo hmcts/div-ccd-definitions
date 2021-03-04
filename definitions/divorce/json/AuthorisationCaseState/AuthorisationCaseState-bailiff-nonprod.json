@@ -150,6 +150,27 @@
     "LiveFrom": "02/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
     "UserRole": "[RESPSOLICITOR]",
     "CRUD": "CRU"
   },
