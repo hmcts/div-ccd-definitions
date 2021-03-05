@@ -10,6 +10,16 @@
     "TabFieldDisplayOrder": 8
   },
   {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdmin",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "BailiffApplicationGranted",
+    "TabFieldDisplayOrder": 5
+  },
+  {
     "LiveFrom": "03/03/2021",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -17,7 +27,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffLocalCourtDetailsLabel",
-    "TabFieldDisplayOrder": 5,
+    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "LocalCourtAddress=\"*\" OR LocalCourtEmail=\"*\""
   },
   {
@@ -28,16 +38,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "LocalCourtAddress",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdmin",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "LocalCourtEmail",
     "TabFieldDisplayOrder": 7
   },
   {
@@ -47,8 +47,18 @@
     "TabID": "serviceApplicationCourtAdmin",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
+    "CaseFieldID": "LocalCourtEmail",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdmin",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffReturnLabel",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "CertificateOfServiceDate=\"*\" OR SuccessfulServedByBailiff=\"*\" OR ReasonFailureToServe=\"*\""
   },
   {
@@ -59,16 +69,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CertificateOfServiceDate",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdmin",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 10
   },
   {
@@ -78,8 +78,28 @@
     "TabID": "serviceApplicationCourtAdmin",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ReasonFailureToServe",
+    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 11
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdmin",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReasonFailureToServe",
+    "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminBeta",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "BailiffApplicationGranted",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "03/03/2021",
@@ -89,7 +109,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffLocalCourtDetailsLabel",
-    "TabFieldDisplayOrder": 5,
+    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "LocalCourtAddress=\"*\" OR LocalCourtEmail=\"*\""
   },
   {
@@ -100,16 +120,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "LocalCourtAddress",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdminBeta",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "LocalCourtEmail",
     "TabFieldDisplayOrder": 7
   },
   {
@@ -119,8 +129,18 @@
     "TabID": "serviceApplicationCourtAdminBeta",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
+    "CaseFieldID": "LocalCourtEmail",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminBeta",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffReturnLabel",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "CertificateOfServiceDate=\"*\" OR SuccessfulServedByBailiff=\"*\" OR ReasonFailureToServe=\"*\""
   },
   {
@@ -131,16 +151,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CertificateOfServiceDate",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdminBeta",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 10
   },
   {
@@ -150,8 +160,28 @@
     "TabID": "serviceApplicationCourtAdminBeta",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ReasonFailureToServe",
+    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 11
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminBeta",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReasonFailureToServe",
+    "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminLA",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "BailiffApplicationGranted",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "03/03/2021",
@@ -161,7 +191,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffLocalCourtDetailsLabel",
-    "TabFieldDisplayOrder": 5,
+    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "LocalCourtAddress=\"*\" OR LocalCourtEmail=\"*\""
   },
   {
@@ -172,16 +202,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "LocalCourtAddress",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdminLA",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "LocalCourtEmail",
     "TabFieldDisplayOrder": 7
   },
   {
@@ -191,8 +211,18 @@
     "TabID": "serviceApplicationCourtAdminLA",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
+    "CaseFieldID": "LocalCourtEmail",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminLA",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffReturnLabel",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "CertificateOfServiceDate=\"*\" OR SuccessfulServedByBailiff=\"*\" OR ReasonFailureToServe=\"*\""
   },
   {
@@ -203,16 +233,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CertificateOfServiceDate",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationCourtAdminLA",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 10
   },
   {
@@ -222,8 +242,28 @@
     "TabID": "serviceApplicationCourtAdminLA",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ReasonFailureToServe",
+    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 11
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminLA",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReasonFailureToServe",
+    "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationSuperUser",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "BailiffApplicationGranted",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "03/03/2021",
@@ -233,7 +273,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffLocalCourtDetailsLabel",
-    "TabFieldDisplayOrder": 5,
+    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "LocalCourtAddress=\"*\" OR LocalCourtEmail=\"*\""
   },
   {
@@ -244,16 +284,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "LocalCourtAddress",
-    "TabFieldDisplayOrder": 6
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationSuperUser",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "LocalCourtEmail",
     "TabFieldDisplayOrder": 7
   },
   {
@@ -263,8 +293,18 @@
     "TabID": "serviceApplicationSuperUser",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
+    "CaseFieldID": "LocalCourtEmail",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationSuperUser",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
     "CaseFieldID": "BailiffReturnLabel",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "CertificateOfServiceDate=\"*\" OR SuccessfulServedByBailiff=\"*\" OR ReasonFailureToServe=\"*\""
   },
   {
@@ -275,16 +315,6 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "CertificateOfServiceDate",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "LiveFrom": "03/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "serviceApplicationSuperUser",
-    "TabLabel": "Service Application",
-    "TabDisplayOrder": 23,
-    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 10
   },
   {
@@ -294,7 +324,17 @@
     "TabID": "serviceApplicationSuperUser",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ReasonFailureToServe",
+    "CaseFieldID": "SuccessfulServedByBailiff",
     "TabFieldDisplayOrder": 11
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationSuperUser",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ReasonFailureToServe",
+    "TabFieldDisplayOrder": 12
   }
 ]
