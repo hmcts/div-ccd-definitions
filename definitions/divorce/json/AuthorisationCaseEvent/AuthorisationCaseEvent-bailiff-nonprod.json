@@ -89,5 +89,54 @@
     "CaseEventID": "issueBailiffPack",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "aosNotReceivedForBailiff",
+    "UserRole": "citizen",
+    "CRUD": "R"
   }
 ]

@@ -77,5 +77,16 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "15/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForBailiff",
+    "Name": "Move to awaiting DN",
+    "Description": "Move to awaiting DN",
+    "DisplayOrder": "20",
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "SecurityClassification": "Public"
   }
 ]
