@@ -165,223 +165,223 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorName",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorPhone",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentSolicitorEmail",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespSolAgreeToReceiveEmails",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorce",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DivorceCostsClaim",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PetitionerFirstName",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8PetitionerLastName",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentFirstName",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8RespondentLastName",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceBehaviourDetails",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "minipetitionlink",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespConfirmReadPetition",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceAdulteryWhereDetails",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhere",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhen",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceAdulteryWhenDetails",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8ReasonForDivorceAdulteryDetails",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespAOSAdultery",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespJurisdictionAgree",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespLegalProceedingsExist",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespAgreeToCosts",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespCostsAmount",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespCostsReason",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespAOS2yrConsent",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespWillDefendDivorce",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "UiOnly_RespWillDefendDivorce",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespHardshipDefenseResponse",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespHardshipDescription",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespConsiderFinancialSituation",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespJurisdictionDisagreeReason",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "22/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespLegalProceedingsDescription",
     "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   }
 ]

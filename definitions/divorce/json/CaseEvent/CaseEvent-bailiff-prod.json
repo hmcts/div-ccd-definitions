@@ -1,0 +1,63 @@
+[
+  {
+    "LiveFrom": "04/08/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ConfirmServicePayment",
+    "Name": "Confirm service payment",
+    "Description": "Confirm service payment",
+    "DisplayOrder": 13,
+    "PreConditionState(s)": "AwaitingServicePayment",
+    "PostConditionState": "AwaitingServiceConsideration",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/set-up-confirm-service-payment",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-service-payment",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorDraftAOS",
+    "Name": "Draft AoS",
+    "Description": "Draft Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting",
+    "PostConditionState": "AosDrafted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutAboutToStartEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save AOS Response"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorUpdateAOS",
+    "Name": "Update AoS",
+    "Description": "Update Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "AosDrafted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutAboutToStartEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Updated AOS Response"
+  },
+  {
+    "LiveFrom": "18/07/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorSubmitAOS",
+    "Name": "Submit AoS",
+    "Description": "Submit Acknowledgement of Service",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosDrafted",
+    "PostConditionState": "AosPreSubmit",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  }
+]
