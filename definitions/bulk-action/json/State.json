@@ -60,7 +60,7 @@
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "ScheduledCancelPronouncement",
     "Name": "Scheduled Cancel Pronouncement",
-    "Description": "Schedule case to cancel pronouncment",
+    "Description": "Schedule case to cancel pronouncement",
     "DisplayOrder": 8
   }
 ]
