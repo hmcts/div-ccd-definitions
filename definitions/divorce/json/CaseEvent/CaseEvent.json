@@ -652,6 +652,9 @@
     "DisplayOrder": 1,
     "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "DNPronounced",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/generate-manual-dn-pronouncement-documents",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-pronounced-manual",
     "SecurityClassification": "Public"
   },
   {
