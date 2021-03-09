@@ -88,7 +88,7 @@
     "EndButtonLabel": "Submit AOS Response"
   },
   {
-    "LiveFrom": "15/11/2020",
+    "LiveFrom": "08/03/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "aosNotReceivedForBailiff",
     "Name": "Move to awaiting DN",
