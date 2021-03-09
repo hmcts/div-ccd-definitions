@@ -3512,7 +3512,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 100
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3563,7 +3563,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 100
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3614,7 +3614,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 100
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3665,7 +3665,7 @@
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
     "CaseFieldID": "ServiceApplications",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 100
   },
   {
     "LiveFrom": "20/10/2020",

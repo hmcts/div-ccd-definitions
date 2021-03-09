@@ -62,5 +62,21 @@
     "Label": "Certificate of Service",
     "FieldType": "DivorceDocument",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffLocalCourtDetailsLabel",
+    "Label": "### Bailiff local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffReturnLabel",
+    "Label": "### Bailiff return",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
