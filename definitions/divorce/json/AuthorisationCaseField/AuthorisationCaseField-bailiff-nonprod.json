@@ -375,7 +375,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BailiffApplicationGranted",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/03/2021",
