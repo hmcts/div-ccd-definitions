@@ -1,6 +1,43 @@
 [
   {
-    "LiveFrom": "29/07/2020",
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "addBailiffReturn",
+    "CaseFieldID": "ReasonFailureToServe",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "addBailiffReturn1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "SuccessfulServedByBailiff=\"No\"",
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "26/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "makeBailiffDecision",
     "CaseFieldID": "ServiceApplicationGranted",
@@ -13,7 +50,7 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "03/08/2020",
+    "LiveFrom": "26/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "makeBailiffDecision",
     "CaseFieldID": "ServiceApplicationRefusalReason",
