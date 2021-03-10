@@ -137,14 +137,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "aosNotReceivedForBailiff",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/11/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "aosNotReceivedForBailiff",
     "UserRole": "caseworker-divorce-systemupdate",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "12/11/2020",
@@ -158,7 +158,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "aosNotReceivedForBailiff",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/11/2020",
