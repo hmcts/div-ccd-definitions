@@ -98,5 +98,16 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "08/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForBailiff",
+    "Name": "AOS not received (Bailiff)",
+    "Description": "Move successful bailiff application to Awaiting DN",
+    "DisplayOrder": "20",
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "SecurityClassification": "Public"
   }
 ]
