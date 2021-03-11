@@ -3125,16 +3125,5 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/return-to-state-before-general-referral",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "11/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "judgeCostOrderDecision",
-    "Name": "Judge costs decision",
-    "Description": "Judge costs decision",
-    "DisplayOrder": 30,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "AwaitingPronouncement",
-    "SecurityClassification": "Public"
   }
 ]

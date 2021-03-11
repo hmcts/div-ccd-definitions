@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "judgeCostOrderDecision",
+    "Name": "Judge costs decision",
+    "Description": "Judge costs decision",
+    "DisplayOrder": 30,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AwaitingPronouncement",
+    "SecurityClassification": "Public"
+  }
+]
