@@ -10294,5 +10294,63 @@
     "PageID": "ReturnToPreviousState1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "judgeCostOrderDecision",
+    "CaseFieldID": "JudgeCostsDecision",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": "judgeCostOrderDecision-1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "JudgeCostsDecision=\"NeverShow\""
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "judgeCostOrderDecision",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "judgeCostOrderDecision-1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "judgeCostOrderDecision",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": "judgeCostOrderDecision-1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "judgeCostOrderDecision",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "READONLY",
+    "PageID": "judgeCostOrderDecision-1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "judgeCostOrderDecision",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": "judgeCostOrderDecision-1",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "JudgeTypeCostsDecision=\"additionalInformation\""
   }
 ]

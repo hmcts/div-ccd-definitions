@@ -866,43 +866,50 @@
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
     "ListElementCode": "respondentAndCoRespondent",
-    "ListElement": "Respondent and co-respondent"
+    "ListElement": "Respondent and co-respondent",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
     "ListElementCode": "coRespondent",
-    "ListElement": "Co-respondent"
+    "ListElement": "Co-respondent",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "WhoPaysCostOrderList",
     "ListElementCode": "respondent",
-    "ListElement": "Respondent"
+    "ListElement": "Respondent",
+    "DisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
     "ListElementCode": "additionalInformation",
-    "ListElement": "Additional information / free text order"
+    "ListElement": "Additional information / free text order",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
     "ListElementCode": "subjectToDetailedAssessment",
-    "ListElement": "An amount subject to detailed assessment if not agreed"
+    "ListElement": "An amount subject to detailed assessment if not agreed",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
     "ListElementCode": "half",
-    "ListElement": "To pay half the costs"
+    "ListElement": "To pay half the costs",
+    "DisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2017",
     "ID": "CostOrderList",
     "ListElementCode": "all",
-    "ListElement": "To pay all the costs"
+    "ListElement": "To pay all the costs",
+    "DisplayOrder": 4
   },
   {
     "LiveFrom": "01/01/2019",
@@ -1697,6 +1704,27 @@
     "ID": "GeneralReferralDecisionEnum",
     "ListElementCode": "other",
     "ListElement": "Other response",
+    "DisplayOrder": 3
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "Adjourn",
+    "ListElement": "Adjourn",
     "DisplayOrder": 3
   }
 ]
