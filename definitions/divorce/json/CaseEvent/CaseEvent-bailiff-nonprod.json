@@ -1,5 +1,17 @@
 [
   {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "addBailiffReturn",
+    "Name": "Add Bailiff Return",
+    "Description": "Add Bailiff Return",
+    "DisplayOrder": 101,
+    "PreConditionState(s)": "IssuedToBailiff",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ConfirmServicePayment",
@@ -111,6 +123,17 @@
     "PostConditionState": "AmendPetition",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForBailiff",
+    "Name": "AOS not received (Bailiff)",
+    "Description": "Move successful bailiff application to Awaiting DN",
+    "DisplayOrder": "20",
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingDecreeNisi",
     "SecurityClassification": "Public"
   }
 ]

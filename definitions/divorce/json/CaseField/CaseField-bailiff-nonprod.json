@@ -1,17 +1,25 @@
 [
   {
-    "LiveFrom": "28/07/2020",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationGrantedBailiff",
-    "Label": "Bailiff Service Application Granted",
+    "ID": "CertificateOfServiceDate",
+    "Label": "Certificate of service date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SuccessfulServedByBailiff",
+    "Label": "Did bailiff service successfully?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "03/08/2020",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
-    "ID": "ServiceApplicationRefusalReasonBailiff",
-    "Label": "Reason for refusal",
+    "ID": "ReasonFailureToServe",
+    "Label": "Reason for failure to serve",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -53,6 +61,22 @@
     "ID": "CertificateOfServiceDocument",
     "Label": "Certificate of Service",
     "FieldType": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffLocalCourtDetailsLabel",
+    "Label": "### Bailiff local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffReturnLabel",
+    "Label": "### Bailiff return",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]
