@@ -141,6 +141,7 @@ ccd:
 
   ccd-case-print-service:
     nodejs:
+      keyVaults: []
       environment:
         IDAM_PRINT_SERVICE_KEY: ${PRINT_S2S_KEY}
       ingressHost: ccd-case-print-service-${SERVICE_FQDN}
