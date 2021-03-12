@@ -8,6 +8,7 @@
     "DisplayOrder": 30,
     "PreConditionState(s)": "*",
     "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/judge-costs-decision",
     "SecurityClassification": "Public"
   }
 ]
