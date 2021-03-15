@@ -20775,7 +20775,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServedByProcessServer",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "17/11/2020",
@@ -20873,7 +20873,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServedByAlternativeMethod",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/11/2020",
