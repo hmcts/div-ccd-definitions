@@ -1,5 +1,17 @@
 [
   {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "addBailiffReturn",
+    "Name": "Add Bailiff Return",
+    "Description": "Add Bailiff Return",
+    "DisplayOrder": 101,
+    "PreConditionState(s)": "IssuedToBailiff",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "04/08/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ConfirmServicePayment",
@@ -39,5 +51,89 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-bailiff-pack",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "02/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorDraftAOS",
+    "Name": "Draft AoS",
+    "Description": "Draft Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AosDrafted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutAboutToStartEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save AOS Response"
+  },
+  {
+    "LiveFrom": "02/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorUpdateAOS",
+    "Name": "Update AoS",
+    "Description": "Update Acknowledgement of Service",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosDrafted;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AosDrafted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
+    "RetriesTimeoutAboutToStartEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Save Updated AOS Response"
+  },
+  {
+    "LiveFrom": "02/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorSubmitAOS",
+    "Name": "Submit AoS",
+    "Description": "Submit Acknowledgement of Service",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosDrafted;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AosPreSubmit",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit AOS Response"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "allowPetitionerToAmend",
+    "Name": "Allow Petitioner to amend",
+    "Description": "Allow Petitioner to amend",
+    "DisplayOrder": 23,
+    "PreConditionState(s)": "ServiceApplicationNotApproved;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AwaitingAmendCase",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/amend-application",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "amendPetitionForRefusalSol",
+    "Name": "Submit amended application",
+    "Description": "Submit amended application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "ServiceApplicationNotApproved;DNisRefused;Issued;Rejected;PendingRejection;AosAwaiting;AosStarted;AosSubmittedAwaitingAnswer;AwaitingDecreeNisi;AosOverdue;AwaitingReissue;AosCompleted;AosAwaitingSol;AosPreSubmit;AosDrafted;AwaitingService;AwaitingAmendCase;AwaitingServicePayment;AwaitingServiceConsideration;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PostConditionState": "AmendPetition",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-amend-petition-dn-rejection",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosNotReceivedForBailiff",
+    "Name": "AOS not received (Bailiff)",
+    "Description": "Move successful bailiff application to Awaiting DN",
+    "DisplayOrder": "20",
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "SecurityClassification": "Public"
   }
 ]
