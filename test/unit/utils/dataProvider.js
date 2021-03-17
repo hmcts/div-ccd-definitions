@@ -66,12 +66,14 @@ module.exports = {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-bailiff-nonprod',
+      'AuthorisationCaseEvent-object-to-costs-nonprod',
       'AuthorisationCaseEvent-resp-journey-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
       'AuthorisationCaseField-bailiff-nonprod',
+      'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
       'AuthorisationCaseField-share-a-case-nonprod',
       'AuthorisationCaseField-nonprod'
@@ -91,6 +93,7 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-share-a-case-nonprod',
       'CaseEvent-nonprod'
@@ -98,6 +101,7 @@ module.exports = {
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-bailiff-nonprod',
+      'CaseEventToFields-object-to-costs-nonprod',
       'CaseEventToFields-resp-journey-nonprod',
       'CaseEventToFields-nonprod'
     ]),
@@ -109,6 +113,7 @@ module.exports = {
     CaseField: getCaseFieldDefinitions([
       'CaseField',
       'CaseField-bailiff-nonprod',
+      'CaseField-object-to-costs-nonprod',
       'CaseField-resp-journey-nonprod',
       'CaseField-share-a-case-nonprod'
     ]),
@@ -122,7 +127,8 @@ module.exports = {
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
-      'FixedLists-bailiff-nonprod'
+      'FixedLists-bailiff-nonprod',
+      'FixedLists-object-to-costs-nonprod'
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),

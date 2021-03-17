@@ -1,0 +1,45 @@
+[
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsDecision",
+    "Label": "Judge costs decision made?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsClaimGranted",
+    "Label": "Grant Cost Order?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "judgeCostsClaimGrantedEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeWhoPaysCosts",
+    "Label": "Who should pay?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "WhoPaysCostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeTypeCostsDecision",
+    "Label": "Make a cost order:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "CostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsOrderAdditionalInfo",
+    "Label": "Additional info",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  }
+]
