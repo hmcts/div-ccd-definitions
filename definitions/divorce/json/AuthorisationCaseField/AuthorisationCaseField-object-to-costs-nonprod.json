@@ -214,69 +214,69 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelLegalAdvisorDecision",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelLegalAdvisorDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelLegalAdvisorDecision",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelLegalAdvisorDecision",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelLegalAdvisorDecision",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   }
 ]
