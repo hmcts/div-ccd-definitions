@@ -6,8 +6,9 @@
     "Name": "Judge costs decision",
     "Description": "Judge costs decision",
     "DisplayOrder": 30,
-    "PreConditionState(s)": "*",
+    "PreConditionState(s)": "AwaitingPronouncement",
     "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/judge-costs-decision",
     "SecurityClassification": "Public"
   }
 ]
