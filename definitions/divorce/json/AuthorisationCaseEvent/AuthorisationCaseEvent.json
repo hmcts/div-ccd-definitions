@@ -4687,7 +4687,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "PendingDA",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "02/03/2021",
@@ -4701,14 +4701,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "PendingDA",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "02/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "PendingDA",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/06/2019",
