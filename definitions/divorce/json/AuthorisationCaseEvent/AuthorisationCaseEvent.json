@@ -4694,7 +4694,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "PendingDA",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "02/03/2021",
