@@ -2244,7 +2244,7 @@
     "CaseTypeID": "DIVORCE",
     "ID": "cancelPronouncement",
     "Name": "Cancel pronouncement",
-    "Description": "Cancel case pronouncment",
+    "Description": "Cancel case pronouncement",
     "DisplayOrder": 1,
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "AwaitingPronouncement",
@@ -2738,22 +2738,6 @@
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary":  "Y"
-  },
-  {
-    "LiveFrom": "15/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "EnterAOSOffline_Respondent",
-    "Name": "Received AOS offline-Resp",
-    "Description": "Received AOS offline for respondent from AosAwaiting",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaiting;AosStarted;AosOverdue;ServiceApplicationNotApproved",
-    "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/processAosOfflineAnswers/parties/respondent",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clean-state",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
-    "SecurityClassification": "Public",
-    "ShowSummary": "Y",
-    "EndButtonLabel": "Submit AOS Response"
   },
   {
     "LiveFrom": "16/09/2020",
