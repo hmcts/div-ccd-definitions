@@ -7,7 +7,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "31/07/2020",
+    "LiveFrom": "22/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingBailiffService",
     "UserRole": "caseworker-caa",
@@ -63,7 +63,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "31/07/2020",
+    "LiveFrom": "22/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingBailiffReferral",
     "UserRole": "caseworker-caa",
@@ -119,7 +119,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "25/02/2021",
+    "LiveFrom": "22/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "IssuedToBailiff",
     "UserRole": "caseworker-caa",

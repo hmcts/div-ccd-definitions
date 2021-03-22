@@ -275,13 +275,6 @@
   {
     "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingBailiffService",
-    "UserRole": "caseworker-caa",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/02/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingAlternativeService",
     "UserRole": "caseworker-caa",
     "CRUD": "R"
