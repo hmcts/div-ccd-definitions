@@ -60,9 +60,10 @@
     "Description": "Draft Acknowledgement of Service",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
-    "PostConditionState": "AosDrafted",
+    "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "RetriesTimeoutAboutToStartEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-sol-dn-review",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save AOS Response"
@@ -75,9 +76,10 @@
     "Description": "Update Acknowledgement of Service",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosDrafted;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
-    "PostConditionState": "AosDrafted",
+    "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "RetriesTimeoutAboutToStartEvent": "120,120",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-sol-dn-review",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Save Updated AOS Response"
