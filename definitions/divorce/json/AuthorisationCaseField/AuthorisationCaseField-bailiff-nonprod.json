@@ -390,5 +390,54 @@
     "CaseFieldID": "BailiffApplicationGranted",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
   }
 ]
