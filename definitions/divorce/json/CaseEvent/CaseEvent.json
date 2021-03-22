@@ -2737,7 +2737,7 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/service-decision-made/final",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary":  "Y"
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "16/09/2020",
@@ -3082,6 +3082,18 @@
     "PreConditionState(s)": "GeneralConsiderationComplete",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/return-to-state-before-general-referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "Move_To_ServiceAppRejected",
+    "Name": "Move to service app rejected",
+    "Description": "Move to service app rejected state",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "ServiceApplicationNotApproved",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]
