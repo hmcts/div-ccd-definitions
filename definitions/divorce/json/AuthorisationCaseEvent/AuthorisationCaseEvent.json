@@ -8146,5 +8146,12 @@
     "CaseEventID": "returnToStateBeforeGeneralReferral",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "21/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "Move_To_ServiceAppRejected",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
