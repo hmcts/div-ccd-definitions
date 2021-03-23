@@ -119,5 +119,18 @@
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issueAosFromReissue",
+    "Name": "Issue AOS pack to respondent",
+    "Description": "Issue AOS pack to respondent",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingReissue",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-pack-issued",
+    "SecurityClassification": "Public"
   }
 ]
