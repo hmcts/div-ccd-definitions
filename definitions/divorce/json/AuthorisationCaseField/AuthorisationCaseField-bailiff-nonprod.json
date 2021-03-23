@@ -74,7 +74,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SuccessfulServedByBailiff",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "24/02/2021",

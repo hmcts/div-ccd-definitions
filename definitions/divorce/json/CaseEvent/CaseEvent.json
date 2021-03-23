@@ -2814,6 +2814,7 @@
     "DisplayOrder": 9,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },
@@ -2826,6 +2827,7 @@
     "DisplayOrder": 10,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "ServiceApplicationNotApproved",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
