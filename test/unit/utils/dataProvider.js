@@ -19,7 +19,8 @@ module.exports = {
   prod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
-      'AuthorisationCaseEvent-resp-journey-prod'
+      'AuthorisationCaseEvent-resp-journey-prod',
+      'AuthorisationCaseEvent-temp-prod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions(['AuthorisationCaseField']),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -33,9 +34,10 @@ module.exports = {
     ),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-bailiff-prod',
       'CaseEvent-resp-journey-prod',
       'CaseEvent-share-a-case-prod',
-      'CaseEvent-bailiff-prod'
+      'CaseEvent-temp-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']

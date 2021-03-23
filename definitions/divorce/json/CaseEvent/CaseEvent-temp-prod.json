@@ -1,0 +1,13 @@
+[
+  {
+    "LiveFrom": "21/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "Move_To_ServiceAppRejected",
+    "Name": "Move to service app rejected",
+    "Description": "Move to service app rejected state",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "ServiceApplicationNotApproved",
+    "SecurityClassification": "Public"
+  }
+]
