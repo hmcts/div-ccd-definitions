@@ -114,5 +114,33 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "SuccessfulServedByBailiff=\"Yes\" AND respondentanswerslink !=\"*\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "dnreviewaos",
+    "PageLabel": "Review Acknowledgement of Service",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
+    "ShowSummaryChangeOption": "No"
   }
 ]
