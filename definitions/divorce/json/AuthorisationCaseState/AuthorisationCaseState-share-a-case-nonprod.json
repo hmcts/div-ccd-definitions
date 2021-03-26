@@ -148,7 +148,7 @@
   },
   {
     "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
+    "CaseTypeID": "DIVORCE_NOTICE_OF_ACTING",
     "CaseStateID": "Created",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
