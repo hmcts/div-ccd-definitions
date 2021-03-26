@@ -81,7 +81,6 @@ module.exports = {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
       'AuthorisationCaseState',
       'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-resp-journey-nonprod',
       'AuthorisationCaseState-share-a-case-nonprod'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
