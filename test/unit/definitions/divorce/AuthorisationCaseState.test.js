@@ -24,6 +24,41 @@ describe('AuthorisationCaseState', () => {
     it('should use existing states', () => {
       assertStateExists(nonProd, nonProdStates);
     });
+
+    context("CCA has valid permissions - move it to prod, when Share a Case released", () => {
+      const excludedStates = [
+        "SOTAgreementPayAndSubmitRequired",
+        "Submitted",
+        "solicitorAwaitingPaymentConfirmation",
+        "AwaitingPayment",
+        "AwaitingDocuments",
+        "AwaitingHWFDecision",
+        "Issued"
+      ];
+
+      it("No permissions for excluded states", () => {
+        excludedStates.forEach(state => {
+          nonProd.forEach(authState => {
+            if (authState.UserRole === 'caseworker-caa'
+              && authState.CaseStateID === state
+              && authState.CRUD.startsWith("CRU")) {
+              expect.fail(null, null, `State: ${state} must not have CRU permission for CAA role`);
+            }
+          });
+        });
+      });
+
+      it("CRU permissions for all other states", () => {
+        nonProd.forEach(authState => {
+          if (authState.UserRole === 'caseworker-caa') {
+            if (excludedStates.indexOf(authState.CaseStateID) === -1) {
+              expect(authState.CRUD.startsWith('CRU')).to.eql(true);
+            }
+          }
+        });
+      });
+
+    });
   });
 
   describe('Prod files definitions:', () => {
