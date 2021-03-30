@@ -81,7 +81,6 @@ module.exports = {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
       'AuthorisationCaseState',
       'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-resp-journey-nonprod',
       'AuthorisationCaseState-share-a-case-nonprod'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
@@ -122,7 +121,8 @@ module.exports = {
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-bailiff-nonprod',
-      'CaseTypeTab-resp-journey-nonprod'
+      'CaseTypeTab-resp-journey-nonprod',
+      'CaseTypeTab-object-to-costs-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions([

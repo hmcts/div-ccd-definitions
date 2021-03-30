@@ -142,5 +142,16 @@
     "PageColumnNumber": 1,
     "FieldShowCondition": "DNApplyForDecreeNisi=\"nevershow\"",
     "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "29/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "transferCaseFromCTSCService",
+    "CaseFieldID": "D8DivorceUnit",
+    "DisplayContext": "MANDATORY",
+    "PageID": "Transfer Case",
+    "PageLabel": "Transfer Case",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1
   }
 ]

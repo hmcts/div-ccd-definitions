@@ -59,7 +59,7 @@
     "Name": "Draft AoS",
     "Description": "Draft Acknowledgement of Service",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PreConditionState(s)": "AosOverdue;AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
     "PostConditionState": "AosDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "RetriesTimeoutAboutToStartEvent": "120,120",
@@ -208,5 +208,16 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "29/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "transferCaseFromCTSCService",
+    "Name": "Transfer from CTSC to RDC",
+    "Description": "Transfer from CTSC to an RDC",
+    "DisplayOrder": 11,
+    "PreConditionState(s)": "AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff;AwaitingServiceConsideration;AwaitingServicePayment;AwaitingGeneralReferralPayment;AwaitingGeneralConsideration;GeneralConsiderationComplete;DNPronounced",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
   }
 ]
