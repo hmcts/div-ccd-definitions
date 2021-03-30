@@ -9,7 +9,8 @@
     "PageID": "RespondentServiceDetails",
     "PageLabel": "Respondent service details",
     "PageDisplayOrder": 4,
-    "ShowSummaryChangeOption": "Yes"
+    "ShowSummaryChangeOption": "Yes",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/validate-organisation-policy-field"
   },
   {
     "LiveFrom": "04/02/2021",
@@ -2356,18 +2357,6 @@
     "PageID": "RespSolContactDetails",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "07/04/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "LabelSolAboutEditingApplication-AboutSolicitor",
-    "PageFieldDisplayOrder": 0,
-    "DisplayContext": "READONLY",
-    "PageID": "SolAboutTheSolicitor",
-    "PageLabel": "About the solicitor",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
