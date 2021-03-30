@@ -20,7 +20,7 @@
     "Name": "Draft AoS",
     "Description": "Draft Acknowledgement of Service",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting",
+    "PreConditionState(s)": "AosOverdue;AosAwaitingSol;AosAwaiting",
     "PostConditionState": "AosDrafted",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "RetriesTimeoutAboutToStartEvent": "120,120",
