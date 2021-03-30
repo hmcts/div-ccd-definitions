@@ -9,19 +9,6 @@
     "PageID": "SolAboutTheSolicitor",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "07/04/2020",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "LabelSolAboutEditingApplication-AboutSolicitor",
-    "PageFieldDisplayOrder": 0,
-    "DisplayContext": "READONLY",
-    "PageID": "SolAboutTheSolicitor",
-    "PageLabel": "About the solicitor",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/validate-organisation-policy-field"
   }
 ]
 
