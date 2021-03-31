@@ -9,13 +9,21 @@ const {
   validateUniqueTabDisplayOrder
 } = require('../../utils/caseTabTypeHelper');
 const { prod, nonprod } = require('../../utils/dataProvider');
+const userRoles = require('../../utils/userRoles');
 
-const caseworkerBetaUserRole = 'caseworker-divorce-courtadmin_beta';
-const solicitorUserRole = 'caseworker-divorce-solicitor';
-const petSolicitorUserRole = '[PETSOLICITOR]';
-const respSolicitorUserRole = '[RESPSOLICITOR]';
+function getUsersRolesToTest(givenUserRoles) {
+  const userRolesToTest = [];
+  if (Array.isArray(givenUserRoles)) {
+    givenUserRoles.forEach(it => {
+      userRolesToTest.push(it);
+    });
+  } else {
+    userRolesToTest.push(givenUserRoles);
+  }
+  return userRolesToTest;
+}
 
-function assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, shouldBeVisibleToUserRole) {
+function assertTabVisibilityForGivenUserRoles(caseTypeTabs, tabLabel, givenUserRoles, shouldBeVisibleToUserRole) {
   const tabElementsWithLabel = caseTypeTabs.filter(t => {
     return t.TabLabel === tabLabel;
   });
@@ -42,27 +50,31 @@ function assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, s
     const hasTabWithoutUserRole = firstElementOfEachTab.find(tabElement => {
       return !('UserRole' in tabElement);
     });
-    if (!hasTabWithoutUserRole) {
-      const userRoleExplicitlyAllowed = firstElementOfEachTab.find(tabElement => {
-        return tabElement.UserRole === userRole;
-      });
-      if (!userRoleExplicitlyAllowed) {
-        visibleToUserRole = false;
-      }
-    }
 
-    if (visibleToUserRole !== shouldBeVisibleToUserRole) {
-      assert.fail(`User role '${userRole}' does not have the expected access to tab with label '${tabLabel}'. Visible: '${visibleToUserRole}'; Expected to be visible: '${shouldBeVisibleToUserRole}'`);
+    const userRolesToTest = getUsersRolesToTest(givenUserRoles);
+    for (const userRoleToTest of userRolesToTest) {
+      if (!hasTabWithoutUserRole) {
+        const userRoleExplicitlyAllowed = firstElementOfEachTab.find(tabElement => {
+          return tabElement.UserRole === userRoleToTest;
+        });
+        if (!userRoleExplicitlyAllowed) {
+          visibleToUserRole = false;
+        }
+      }
+
+      if (visibleToUserRole !== shouldBeVisibleToUserRole) {
+        assert.fail(`User role '${userRoleToTest}' does not have the expected access to tab with label '${tabLabel}'. Visible: '${visibleToUserRole}'; Expected to be visible: '${shouldBeVisibleToUserRole}'`);
+      }
     }
   }
 }
 
-function assertTabIsVisibleForGivenUserRole(caseTypeTabs, tabLabel, userRole) {
-  assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, true);
+function assertTabIsVisibleForGivenUserRoles(caseTypeTabs, tabLabel, userRole) {
+  assertTabVisibilityForGivenUserRoles(caseTypeTabs, tabLabel, userRole, true);
 }
 
-function assertTabIsNotVisibleForGivenUserRole(caseTypeTabs, tabLabel, userRole) {
-  assertTabVisibilityForGivenUserRole(caseTypeTabs, tabLabel, userRole, false);
+function assertTabIsNotVisibleForGivenUserRoles(caseTypeTabs, tabLabel, userRole) {
+  assertTabVisibilityForGivenUserRoles(caseTypeTabs, tabLabel, userRole, false);
 }
 
 describe('CaseTypeTab (nonprod)', () => {
@@ -111,46 +123,44 @@ describe('CaseTypeTab (nonprod)', () => {
     expect(objectsWithInvalidCaseFieldId).to.eql([]);
   });
 
-  it('should be visible to specific users', () => {
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Petition', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'AOS', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Nisi', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Outcome of Decree Nisi', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Absolute', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Documents', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Confidential Petitioner', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Marriage Certificate', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Co-Respondent', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Language', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Linked Cases', petSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'General Referral', petSolicitorUserRole);
+  it('should be visible to specific user roles', () => {
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Petition', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'AOS', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Decree Nisi', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Outcome of Decree Nisi', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Decree Absolute', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Documents', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Confidential Petitioner', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Marriage Certificate', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Co-Respondent', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Language', userRoles.petSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Linked Cases', userRoles.petSolicitorUserRole);
 
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Petition', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'AOS', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Nisi', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Outcome of Decree Nisi', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Decree Absolute', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Documents', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Confidential Respondent', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Marriage Certificate', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Co-Respondent', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Language', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Linked Cases', respSolicitorUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'General Referral', respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Petition', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'AOS', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Decree Nisi', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Outcome of Decree Nisi', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Decree Absolute', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Documents', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Confidential Respondent', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Marriage Certificate', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Co-Respondent', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Language', userRoles.respSolicitorUserRole);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Linked Cases', userRoles.respSolicitorUserRole);
+
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'History', userRoles.allHumanCcdUiUserRoles);
   });
 
-  it('should not be visible to specific users', () => {
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', petSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Respondent', petSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Co-Respondent', petSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Notes', petSolicitorUserRole);
+  it('should not be visible to user roles', () => {
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Payment', userRoles.petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Confidential Respondent', userRoles.petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Confidential Co-Respondent', userRoles.petSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Notes', userRoles.petSolicitorUserRole);
 
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', respSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Petitioner', respSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Confidential Co-Respondent', respSolicitorUserRole);
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Notes', respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Payment', userRoles.respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Confidential Petitioner', userRoles.respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Confidential Co-Respondent', userRoles.respSolicitorUserRole);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Notes', userRoles.respSolicitorUserRole);
   });
 });
 
@@ -205,12 +215,19 @@ describe('CaseTypeTab (prod)', () => {
     expect(validationErrors).to.have.lengthOf(0);
   });
 
-  it('should be visible to specific users', () => {
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'History', caseworkerBetaUserRole);
-    assertTabIsVisibleForGivenUserRole(caseTypeTab, 'Payment', caseworkerBetaUserRole);
+  it('should be visible to user roles', () => {
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Service Application', userRoles.allHumanNonSolicitorCcdUiUserRoles);
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'General Referral', userRoles.allHumanNonSolicitorCcdUiUserRoles);
+
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'Payment', userRoles.caseworkerBetaUserRole);
+
+    assertTabIsVisibleForGivenUserRoles(caseTypeTab, 'History', userRoles.allHumanCcdUiUserRoles);
   });
 
-  it('should not be visible to specific users', () => {
-    assertTabIsNotVisibleForGivenUserRole(caseTypeTab, 'Payment', solicitorUserRole);
+  it('should not be visible to user roles', () => {
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Service Application', userRoles.solicitorUserRoles);
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'General Referral', userRoles.solicitorUserRoles);
+
+    assertTabIsNotVisibleForGivenUserRoles(caseTypeTab, 'Payment', userRoles.solicitorUserRole);
   });
 });

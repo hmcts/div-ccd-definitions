@@ -26,5 +26,19 @@
     "CaseEventID": "testMoveCaseFromAwaitingServicePaymentToAwaitingServiceConsideration",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAosDrafted",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAosDrafted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   }
 ]

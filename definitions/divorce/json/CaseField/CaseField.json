@@ -4861,6 +4861,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffApplicationGranted",
+    "Label": "Approve Bailiff application",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationDecisionDate",
@@ -5034,6 +5042,247 @@
     "ID": "LastServiceApplication",
     "Label": "Last service application",
     "FieldType": "DivorceServiceApplication",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServedByProcessServer",
+    "Label": "Served by process server",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfServedByProcessServer",
+    "Label": "Because the court accepted the application for 'service by process server' you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServedByAlternativeMethod",
+    "Label": "Served by alternative method",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfServedByAlternativeMethod",
+    "Label": "Because the court accepted the application for 'service by alternative method', you are able to continue with the divorce without seeing the respondent answers.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelUpdateCourtOrderDocuments",
+    "Label": "Updating court orders recreates the Certificate or Entitlement, cost order, decree nisi and decree absolute, based on the latest case data. Any other court orders e.g. decree nisi refusals, will remain unchanged.\r\n\r\nIf there have been updates to the case data e.g. change of Petitioner name, then these will be reflected in the updated court orders.\r\n\r\nPrevious versions of court orders will not be stored against the case.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailDateTime",
+    "Label": "General letter date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailParties",
+    "Label": "Address to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralPartiesEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailOtherRecipientEmail",
+    "Label": "Recipient's email",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailOtherRecipientName",
+    "Label": "Recipient's name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailDetails",
+    "Label": "Please provide details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralReason",
+    "Label": "Reason for referral?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "GeneralReferralReasonEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationFrom",
+    "Label": "Application from",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralPartiesEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationReferralDate",
+    "Label": "Application or referral date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralType",
+    "Label": "Type of referral",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralReferralTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AlternativeServiceMedium",
+    "Label": "Medium requested for alternative service",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "AlternativeServiceTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDetails",
+    "Label": "Further details for Judge or Legal Advisor",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralFee",
+    "Label": "Is fee payment required?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecision",
+    "Label": "Approve general referral?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "GeneralReferralDecisionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecisionReason",
+    "Label": "Please provide further details",
+    "HintText": "Provide direction for any general orders or general letters to be created by caseworkers.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "19/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralDecisionDate",
+    "Label": "General referral decision date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferralPaymentType",
+    "Label": "How will payment be made?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralApplicationAddedDate",
+    "Label": "General application added date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralReferrals",
+    "Label": "General Referrals",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DivorceGeneralReferral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "21/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "generalReferralWithoutNoticeFeeSummary",
+    "Label": "Here are your payment details",
+    "FieldType": "OrderSummary",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReferralAmountToPayGeneralLabel",
+    "Label": "Amount to pay: **£${FeeAmountWithoutNotice}**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "FeeAmountWithoutNotice",
+    "Label": "Application fee (in pounds)",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "StateBeforeGeneralReferral",
+    "Label": "Previous case state",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelReturnToPreviousStatePara-1",
+    "Label": "‘Return to previous state’ should be used when a Judge has rejected a general referral.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelReturnToPreviousStatePara-2",
+    "Label": "This event returns the case to the state it was in before the general referral was made e.g. if the case was in ‘Awaiting DN application’ when the general referral was created, then it will be returned to ‘Awaiting DN application’.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]
