@@ -4869,6 +4869,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffApplicationGranted",
+    "Label": "Approve Bailiff application",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "28/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ServiceApplicationDecisionDate",

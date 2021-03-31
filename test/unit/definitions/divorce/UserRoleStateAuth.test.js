@@ -1,30 +1,10 @@
 const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
+const { byCaseType, byStateName, mapErrorArray, missingAuthorisationsExist } = require('../../utils/utils');
 const { nonprod, prod } = require('../../utils/dataProvider');
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
 const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation', 'Submitted'];
-
-function byCaseType(caseType) {
-  return entry => {
-    return entry.CaseTypeID === caseType;
-  };
-}
-
-function byStateName(stateEntry) {
-  return stateAuth => {
-    return stateAuth.CaseStateID === stateEntry.ID;
-  };
-}
-
-function mapErrorArray(caseType) {
-  return entry => {
-    return {
-      UserRole: entry.UserRole,
-      CaseType: caseType
-    };
-  };
-}
 
 function checkPerms(entry) {
   expect(entry.CRUD).to.match(MINIMUM_READ_PERMISSIONS);
@@ -47,14 +27,19 @@ function runTest(authorisationCaseState, authorisationCaseType, state, caseType)
       if (EXCLUDED_STATES.includes(stateEntry.ID)) {
         return;
       }
+      let missingAuthCount = 0;
       const authForState = authStatesForCaseType.filter(byStateName(stateEntry));
       if (authForState.length !== authRolesForCaseType.length) {
-        const missingAuthCount = authRolesForCaseType.length - authForState.length;
+        missingAuthCount = authRolesForCaseType.length - authForState.length;
         const diffAuthStates = differenceWith(authRolesForCaseType, authForState, (userRoleEntry, authStateEntry) => {
           return authStateEntry.UserRole === userRoleEntry.UserRole;
         }).map(mapErrorArray(caseTypeId));
-        console.log(`Missing ${missingAuthCount} authorisations for state: ${stateEntry.ID}`);
-        console.dir(diffAuthStates);
+        if (missingAuthorisationsExist(missingAuthCount)) {
+          console.log(`Missing ${missingAuthCount} authorisations for state: ${stateEntry.ID}`);
+          console.dir(diffAuthStates);
+        } else {
+          console.log(`Expected authorisations for state: ${stateEntry.ID}`);
+        }
       }
 
       authForState.forEach(checkPerms);
@@ -63,7 +48,6 @@ function runTest(authorisationCaseState, authorisationCaseType, state, caseType)
 }
 
 describe('UserRole authorisations for CaseState', () => {
-
   context('nonprod', () => {
     it('should allow minimum R access for all Case States per User Role ', () => {
       runTest(nonprod.AuthorisationCaseState, nonprod.AuthorisationCaseType, nonprod.State, nonprod.CaseType);

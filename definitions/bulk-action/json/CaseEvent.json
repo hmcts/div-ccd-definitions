@@ -160,11 +160,11 @@
     "ShowSummary": "Y"
   },
   {
-    "LiveFrom": "1/10/2019",
+    "LiveFrom": "01/10/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "scheduleCancelPronouncement",
     "Name": "Schedule cancel pronouncement",
-    "Description": "Schedule cancel case pronouncment",
+    "Description": "Schedule cancel case pronouncement",
     "DisplayOrder": 10,
     "PreConditionState(s)": "DNPronounced",
     "PostConditionState": "ScheduledCancelPronouncement",
@@ -174,7 +174,7 @@
     "ShowSummary": "Y"
   },
   {
-    "LiveFrom": "1/10/2019",
+    "LiveFrom": "01/10/2019",
     "CaseTypeID": "DIVORCE_BulkAction",
     "ID": "cancelPronouncement",
     "Name": "Cancel pronouncement",
