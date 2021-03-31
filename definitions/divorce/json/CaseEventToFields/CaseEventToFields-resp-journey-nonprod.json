@@ -874,7 +874,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": "SolApplyToClaimCosts",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 19,
+    "PageDisplayOrder": 18,
     "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
@@ -2017,7 +2017,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": "SolApplyToClaimCostsUpdate",
     "PageLabel": "Claim for costs",
-    "PageDisplayOrder": 19,
+    "PageDisplayOrder": 18,
     "FieldShowCondition": "D8DivorceCostsClaim=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
