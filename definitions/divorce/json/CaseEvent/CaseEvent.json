@@ -2873,17 +2873,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "03/12/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "startAos",
-    "Name": "AOS started",
-    "Description": "AOS started",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaiting;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse",
-    "PostConditionState": "AosStarted",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "09/12/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "co-RespAOSReceivedFromAwaitingAlternativeService",
