@@ -247,5 +247,16 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "29/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "transferCaseFromCTSCService",
+    "Name": "Transfer from CTSC to RDC",
+    "Description": "Transfer from CTSC to an RDC",
+    "DisplayOrder": 11,
+    "PreConditionState(s)": "AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff;AwaitingServiceConsideration;AwaitingServicePayment;AwaitingGeneralReferralPayment;AwaitingGeneralConsideration;GeneralConsiderationComplete;DNPronounced",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
   }
 ]
