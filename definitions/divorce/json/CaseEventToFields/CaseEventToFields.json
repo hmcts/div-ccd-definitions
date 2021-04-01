@@ -1177,6 +1177,19 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "NewLegalConnectionPolicy",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolJurisdiction",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
@@ -1521,6 +1534,19 @@
     "PageLabel": "About the respondent",
     "PageDisplayOrder": 3,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "NewLegalConnectionPolicy",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolJurisdictionUpdate",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 6,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -4435,7 +4461,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "DNApplyForDecreeNisi",
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "dnreviewaos",
     "PageLabel": "Review Acknowledgement of Service",
@@ -4448,7 +4474,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "CaseFieldID": "labelSolDNWarningContinueDN",
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
     "DisplayContext": "READONLY",
     "PageID": "dnreviewaos",
     "PageLabel": "Review Acknowledgement of Service",
