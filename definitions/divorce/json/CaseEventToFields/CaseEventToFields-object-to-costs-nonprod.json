@@ -55,7 +55,7 @@
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "judgeCostOrderDecision-2",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "JudgeCostsClaimGranted=\"Y*\""
   },
@@ -64,10 +64,10 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "judgeCostOrderDecision",
     "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
-    "PageFieldDisplayOrder": 14,
+    "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
-    "PageID": "judgeCostOrderDecision-1",
-    "PageDisplayOrder": 1,
+    "PageID": "judgeCostOrderDecision-2",
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
     "FieldShowCondition": "JudgeTypeCostsDecision=\"additionalInformation\""
   }
