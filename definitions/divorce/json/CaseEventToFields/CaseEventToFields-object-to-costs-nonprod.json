@@ -44,7 +44,7 @@
     "PageID": "judgeCostOrderDecision-1",
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
+    "FieldShowCondition": "(D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\") AND JudgeCostsClaimGranted=\"Y*\""
   },
   {
     "LiveFrom": "11/03/2021",
@@ -55,7 +55,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": "judgeCostOrderDecision-1",
     "PageDisplayOrder": 1,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "JudgeCostsClaimGranted=\"Y*\""
   },
   {
     "LiveFrom": "11/03/2021",
