@@ -40,5 +40,19 @@
     "CaseEventID": "testAosDrafted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testIssuedToBailiff",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testIssuedToBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   }
 ]

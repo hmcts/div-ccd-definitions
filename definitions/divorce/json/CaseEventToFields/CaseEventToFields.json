@@ -1177,6 +1177,19 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "NewLegalConnectionPolicy",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolJurisdiction",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 5,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
@@ -1521,6 +1534,19 @@
     "PageLabel": "About the respondent",
     "PageDisplayOrder": 3,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "15/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "NewLegalConnectionPolicy",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "SolJurisdictionUpdate",
+    "PageLabel": "Jurisdiction",
+    "PageDisplayOrder": 6,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
+    "ShowSummaryChangeOption": "No"
   },
   {
     "LiveFrom": "01/01/2017",
