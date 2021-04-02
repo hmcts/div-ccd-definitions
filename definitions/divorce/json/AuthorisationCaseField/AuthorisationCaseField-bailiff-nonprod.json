@@ -4,7 +4,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CertificateOfServiceDate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "24/02/2021",
@@ -46,7 +46,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "SuccessfulServedByBailiff",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "24/02/2021",
@@ -88,7 +88,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ReasonFailureToServe",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -130,7 +130,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LocalCourtAddress",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -172,7 +172,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LocalCourtEmail",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -221,7 +221,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "LocalCourtDetailsLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -312,7 +312,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "BailiffReturnLabel",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "25/02/2021",
