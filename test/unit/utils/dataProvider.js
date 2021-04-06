@@ -33,7 +33,6 @@ module.exports = {
     ),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
-      'CaseEvent-alt-service-more-case-forward-prod',
       'CaseEvent-resp-journey-prod',
       'CaseEvent-share-a-case-prod',
       'CaseEvent-bailiff-prod'
@@ -92,7 +91,6 @@ module.exports = {
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
-      'CaseEvent-alt-service-more-case-forward-nonprod',
       'CaseEvent-bailiff-nonprod',
       'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
