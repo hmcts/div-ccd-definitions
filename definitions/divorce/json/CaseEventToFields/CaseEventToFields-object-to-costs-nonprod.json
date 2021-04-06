@@ -28,7 +28,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "judgeCostOrderDecision",
     "CaseFieldID": "JudgeCostsClaimGranted",
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
     "PageID": "judgeCostOrderDecision-1",
     "PageDisplayOrder": 1,
@@ -42,9 +42,9 @@
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": "judgeCostOrderDecision-2",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "JudgeCostsClaimGranted=\"Y*\"",
+    "PageShowCondition": "JudgeCostsClaimGranted=\"Y*\"",
     "FieldShowCondition": "D8ReasonForDivorceAdulteryWishToName=\"Y*\" OR D8ReasonForDivorceAdulteryIsNamed=\"Y*\""
   },
   {
@@ -57,7 +57,7 @@
     "PageID": "judgeCostOrderDecision-2",
     "PageDisplayOrder": 2,
     "PageColumnNumber": 1,
-    "FieldShowCondition": "JudgeCostsClaimGranted=\"Y*\""
+    "PageShowCondition": "JudgeCostsClaimGranted=\"Y*\""
   },
   {
     "LiveFrom": "11/03/2021",
