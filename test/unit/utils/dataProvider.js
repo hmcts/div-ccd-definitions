@@ -92,6 +92,7 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-bailiff-or-resp-journey-nonprod',
       'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-share-a-case-nonprod',
