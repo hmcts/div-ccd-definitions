@@ -123,7 +123,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "RU"
   },
   {
     "LiveFrom": "09/11/2018",
