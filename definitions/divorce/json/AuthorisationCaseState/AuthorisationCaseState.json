@@ -109,7 +109,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
@@ -123,7 +123,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "citizen",
-    "CRUD": "RU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
@@ -1103,7 +1103,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DNPronounced",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "09/11/2018",
