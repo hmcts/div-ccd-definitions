@@ -1,6 +1,6 @@
 [
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "01/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "AwaitingBailiffService",
     "Name": "Awaiting Bailiff Service",
@@ -16,7 +16,7 @@
     "DisplayOrder": 136
   },
   {
-    "LiveFrom": "1/02/2021",
+    "LiveFrom": "01/03/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "IssuedToBailiff",
     "Name": "Issued To Bailiff",

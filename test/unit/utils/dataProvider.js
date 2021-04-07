@@ -14,6 +14,7 @@ const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
 const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
 const getComplexTypesDefinitions = loadAllFiles('ComplexTypes');
 const getFixedListsDefinitions = loadAllFiles('FixedLists');
+const getSearchInputFieldsDefinitions = loadAllFiles('SearchInputFields');
 
 module.exports = {
   prod: {
@@ -55,7 +56,9 @@ module.exports = {
     FixedLists: getFixedListsDefinitions(['FixedLists']),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions([
+      'SearchInputFields'
+    ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions(['State']),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
@@ -66,12 +69,14 @@ module.exports = {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-bailiff-nonprod',
+      'AuthorisationCaseEvent-object-to-costs-nonprod',
       'AuthorisationCaseEvent-resp-journey-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
       'AuthorisationCaseField-bailiff-nonprod',
+      'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
       'AuthorisationCaseField-share-a-case-nonprod',
       'AuthorisationCaseField-nonprod'
@@ -79,7 +84,6 @@ module.exports = {
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
       'AuthorisationCaseState',
       'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-resp-journey-nonprod',
       'AuthorisationCaseState-share-a-case-nonprod'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
@@ -91,6 +95,8 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-bailiff-or-resp-journey-nonprod',
+      'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-share-a-case-nonprod',
       'CaseEvent-nonprod'
@@ -98,6 +104,7 @@ module.exports = {
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-bailiff-nonprod',
+      'CaseEventToFields-object-to-costs-nonprod',
       'CaseEventToFields-resp-journey-nonprod',
       'CaseEventToFields-nonprod'
     ]),
@@ -109,6 +116,7 @@ module.exports = {
     CaseField: getCaseFieldDefinitions([
       'CaseField',
       'CaseField-bailiff-nonprod',
+      'CaseField-object-to-costs-nonprod',
       'CaseField-resp-journey-nonprod',
       'CaseField-share-a-case-nonprod'
     ]),
@@ -117,16 +125,21 @@ module.exports = {
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-bailiff-nonprod',
-      'CaseTypeTab-resp-journey-nonprod'
+      'CaseTypeTab-resp-journey-nonprod',
+      'CaseTypeTab-object-to-costs-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
-      'FixedLists-bailiff-nonprod'
+      'FixedLists-bailiff-nonprod',
+      'FixedLists-object-to-costs-nonprod'
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions([
+      'SearchInputFields',
+      'SearchInputFields-bailiff-nonprod'
+    ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions([
       'State',

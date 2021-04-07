@@ -10,9 +10,19 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/allow-share-a-case",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EndButtonLabel": "Submit Petition"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serveByAlternativeMethod",
+    "Name": "Serve by alternative method",
+    "Description": "Serve by alternative method",
+    "DisplayOrder": "19",
+    "PreConditionState(s)": "GeneralConsiderationComplete;Issued",
+    "PostConditionState": "AwaitingAlternativeService",
+    "SecurityClassification": "Public"
   }
 ]
