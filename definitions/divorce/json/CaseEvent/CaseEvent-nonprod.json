@@ -9,5 +9,29 @@
     "PreConditionState(s)": "AwaitingServicePayment",
     "PostConditionState": "AwaitingServiceConsideration",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "testAosDrafted",
+    "Name": "AOS Drafted Test",
+    "Description": "TEST ONLY: Aos Drafted Test",
+    "DisplayOrder": 20,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "AosDrafted",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "testIssuedToBailiff",
+    "Name": "Issued To Bailiff Test",
+    "Description": "TEST ONLY: Issued To Bailiff Test",
+    "DisplayOrder": 21,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "IssuedToBailiff",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]

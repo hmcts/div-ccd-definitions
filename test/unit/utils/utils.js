@@ -1,6 +1,10 @@
 const load = require;
-const { sortBy } = require('lodash');
+const { sortBy, uniqBy, map } = require('lodash');
 const { expect } = require('chai');
+
+const SHORT_STRING = 30;
+const MEDIUM_STRING = 70;
+const LONG_STRING = 100;
 
 function isFieldDuplicated(field) {
   return function isDuplicated(field1, field2) {
@@ -22,11 +26,18 @@ function isNotLongerThan(maxLength) {
   };
 }
 
-function whenPopulated(key) {
+function isPositiveNumber() {
+  return v => {
+    return typeof v === 'number' && v > 0;
+  };
+}
+
+function whenPopulated(key, type) {
+  const myType = type || 'string';
   return {
     expect: satisfyCallback => {
       if (key) {
-        expect(key).to.be.a('string').and.satisfy(satisfyCallback);
+        expect(key).to.be.a(myType).and.satisfy(satisfyCallback);
       }
     }
   };
@@ -55,12 +66,52 @@ function sortCaseTypeTabs(caseTypeTab) {
   });
 }
 
+function getUniqValues(objectArray, property) {
+  return map(uniqBy(objectArray, property), obj => {
+    return obj[property];
+  });
+}
+
+function byCaseType(caseType) {
+  return entry => {
+    return entry.CaseTypeID === caseType;
+  };
+}
+
+function byStateName(stateEntry) {
+  return stateAuth => {
+    return stateAuth.CaseStateID === stateEntry.ID;
+  };
+}
+
+function mapErrorArray(caseType) {
+  return entry => {
+    return {
+      UserRole: entry.UserRole,
+      CaseType: caseType
+    };
+  };
+}
+
+function missingAuthorisationsExist(missingAuthCount) {
+  return missingAuthCount > 0;
+}
+
 module.exports = {
+  SHORT_STRING,
+  MEDIUM_STRING,
+  LONG_STRING,
   isFieldDuplicated,
   loadAllFiles,
   sortCaseTypeTabs,
   noDuplicateFound,
   isNotEmpty,
   isNotLongerThan,
-  whenPopulated
+  isPositiveNumber,
+  whenPopulated,
+  getUniqValues,
+  byCaseType,
+  byStateName,
+  mapErrorArray,
+  missingAuthorisationsExist
 };

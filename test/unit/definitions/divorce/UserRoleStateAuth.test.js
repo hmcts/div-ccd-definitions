@@ -1,103 +1,62 @@
 const expect = require('chai').expect;
 const { differenceWith } = require('lodash');
-const { loadAllFiles } = require('../../utils/utils');
-
-const CaseType = Object.assign(require('definitions/divorce/json/CaseType'), []);
-const getAuthorisationCaseStateDefinitions = loadAllFiles('AuthorisationCaseState');
-const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
-const getStatesDefinitions = loadAllFiles('State');
-
-const AuthorisationCaseType = getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']);
-const State = getStatesDefinitions(['State']);
+const { byCaseType, byStateName, mapErrorArray, missingAuthorisationsExist } = require('../../utils/utils');
+const { nonprod, prod } = require('../../utils/dataProvider');
 
 const MINIMUM_READ_PERMISSIONS = /C?RU?D?/;
-const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation'];
-
-function byCaseType(caseType) {
-  return entry => {
-    return entry.CaseTypeID === caseType;
-  };
-}
-
-function byStateName(stateEntry) {
-  return stateAuth => {
-    return stateAuth.CaseStateID === stateEntry.ID;
-  };
-}
-
-function mapErrorArray(caseType) {
-  return entry => {
-    return {
-      UserRole: entry.UserRole,
-      CaseType: caseType
-    };
-  };
-}
+const EXCLUDED_STATES = ['SOTAgreementPayAndSubmitRequired', 'Rejected', 'Withdrawn', 'solicitorAwaitingPaymentConfirmation', 'Submitted'];
 
 function checkPerms(entry) {
   expect(entry.CRUD).to.match(MINIMUM_READ_PERMISSIONS);
 }
 
-function runTest(authorisationCaseState) {
+function runTest(authorisationCaseState, authorisationCaseType, state, caseType) {
   // iterate each case type
   // get all state auths for case type
   // get all roles for case type
   // get all states for case type
   // for each state
   // ensure each role has auth 'R' minimum
-  CaseType.forEach(caseTypeEntry => {
-    const caseType = caseTypeEntry.ID;
-    const authStatesForCaseType = authorisationCaseState.filter(byCaseType(caseType));
-    const authRolesForCaseType = AuthorisationCaseType.filter(byCaseType(caseType));
-    const statesForCaseType = State.filter(byCaseType(caseType));
+  caseType.forEach(caseTypeEntry => {
+    const caseTypeId = caseTypeEntry.ID;
+    const authStatesForCaseType = authorisationCaseState.filter(byCaseType(caseTypeId));
+    const authRolesForCaseType = authorisationCaseType.filter(byCaseType(caseTypeId));
+    const statesForCaseType = state.filter(byCaseType(caseTypeId));
 
     statesForCaseType.forEach(stateEntry => {
       if (EXCLUDED_STATES.includes(stateEntry.ID)) {
         return;
       }
+      let missingAuthCount = 0;
       const authForState = authStatesForCaseType.filter(byStateName(stateEntry));
       if (authForState.length !== authRolesForCaseType.length) {
-        const missingAuthCount = authRolesForCaseType.length - authForState.length;
+        missingAuthCount = authRolesForCaseType.length - authForState.length;
         const diffAuthStates = differenceWith(authRolesForCaseType, authForState, (userRoleEntry, authStateEntry) => {
           return authStateEntry.UserRole === userRoleEntry.UserRole;
-        }).map(mapErrorArray(caseType));
-        console.log(`Missing ${missingAuthCount} authorisations for state: ${stateEntry.ID}`);
-        console.dir(diffAuthStates);
+        }).map(mapErrorArray(caseTypeId));
+        if (missingAuthorisationsExist(missingAuthCount)) {
+          console.log(`Missing ${missingAuthCount} authorisations for state: ${stateEntry.ID}`);
+          console.dir(diffAuthStates);
+        } else {
+          console.log(`Expected authorisations for state: ${stateEntry.ID}`);
+        }
       }
-      expect(authForState.length).to.eql(authRolesForCaseType.length);
+
       authForState.forEach(checkPerms);
     });
   });
 }
 
 describe('UserRole authorisations for CaseState', () => {
-  let nonprod = [];
-  let prod = [];
-
-  before(() => {
-    nonprod = getAuthorisationCaseStateDefinitions(
-      [
-        'AuthorisationCaseState',
-        'AuthorisationCaseState-nonprod',
-        'AuthorisationCaseState-deemed-and-dispensed-nonprod',
-        'AuthorisationCaseState-general-referral-nonprod',
-        'AuthorisationCaseState-alternative-service-nonprod'
-      ]);
-
-    prod = getAuthorisationCaseStateDefinitions(
-      [
-        'AuthorisationCaseState',
-        'AuthorisationCaseState-prod'
-      ]);
+  context('nonprod', () => {
+    it('should allow minimum R access for all Case States per User Role ', () => {
+      runTest(nonprod.AuthorisationCaseState, nonprod.AuthorisationCaseType, nonprod.State, nonprod.CaseType);
+    });
   });
 
-  context('should allow minimum R access for all Case States per User Role ', () => {
-    it('(non-prod)', () => {
-      runTest(nonprod);
-    });
-
-    it('(prod)', () => {
-      runTest(prod);
+  context('prod', () => {
+    it('should allow minimum R access for all Case States per User Role ', () => {
+      runTest(prod.AuthorisationCaseState, prod.AuthorisationCaseType, prod.State, prod.CaseType);
     });
   });
 });

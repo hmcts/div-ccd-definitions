@@ -310,6 +310,22 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "Connections",
+    "ListElementCode": "H",
+    "FieldType": "Text",
+    "ElementLabel": "Connection H",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "Connections",
+    "ListElementCode": "I",
+    "FieldType": "Text",
+    "ElementLabel": "Connection I",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "CaseNote",
     "ListElementCode": "Author",
     "FieldType": "Text",
@@ -452,6 +468,182 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "DivorcePartiesEnum",
     "ElementLabel": "General Order Parties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ReceivedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Application date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "AddedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Added date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "Type",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "ElementLabel": "What type of service application has been received?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "Payment",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "ElementLabel": "How will payment be made?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ServiceDecisionLabel",
+    "FieldType": "Label",
+    "ElementLabel": "## Outcome of service application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ApplicationGranted",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Service Application Granted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "DecisionDate",
+    "FieldType": "Date",
+    "ElementLabel": "Service Application Decision Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/10/2020",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "RefusalReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Reason for refusal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/11/2020",
+    "ID": "ReferenceNumber",
+    "ListElementCode": "Reference",
+    "FieldType": "Text",
+    "ElementLabel": "Payment reference number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralReason",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralReferralReasonEnum",
+    "ElementLabel": "Reason for referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralApplicationFrom",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralPartiesEnum",
+    "ElementLabel": "Application from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralApplicationReferralDate",
+    "FieldType": "Date",
+    "ElementLabel": "Application or referral date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralApplicationAddedDate",
+    "FieldType": "Date",
+    "ElementLabel": "Added date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralType",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralReferralTypeEnum",
+    "ElementLabel": "Type of referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "AlternativeServiceMedium",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "AlternativeServiceTypeEnum",
+    "ElementLabel": "Medium requested for alternative service",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Further details for Judge or Legal Advisor",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralFee",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is fee payment required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralPaymentType",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "PaymentTypeEnum",
+    "ElementLabel": "How will payment be made?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralDecisionDate",
+    "FieldType": "Date",
+    "ElementLabel": "Decision date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralDecision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "GeneralReferralDecisionEnum",
+    "ElementLabel": "Approve general referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/10/2020",
+    "ID": "DivorceGeneralReferral",
+    "ListElementCode": "GeneralReferralDecisionReason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Reason",
     "SecurityClassification": "Public"
   }
 ]

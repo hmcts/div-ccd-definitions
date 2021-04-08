@@ -1,10 +1,7 @@
 const { expect, assert } = require('chai');
 const { find } = require('lodash');
-const { loadAllFiles } = require('../../utils/utils');
-
-const getCaseEventToFieldDefinitions = loadAllFiles('CaseEventToFields');
-const getCaseEventDefinitions = loadAllFiles('CaseEvent');
-const getCaseFieldDefinitions = loadAllFiles('CaseField');
+const { isPositiveNumber, whenPopulated } = require('../../utils/utils');
+const { prod, nonprod } = require('../../utils/dataProvider');
 
 function assertHasOnlyValidEventIds(caseEventToFieldsFile, caseEventFile) {
   const errors = [];
@@ -67,36 +64,37 @@ function assertRetriesTimeoutURLMidEventIsAddedForAllCallbacks(caseEventToFields
   }
 }
 
+function assertOrderField(row, field) {
+  try {
+    whenPopulated(row[field], 'number').expect(isPositiveNumber());
+  } catch (error) {
+    console.log(`Invalid ${field} in `, row);
+    console.error(error);
+    throw error;
+  }
+}
+
+function assertPageFieldDisplayOrder(row) {
+  assertOrderField(row, 'PageFieldDisplayOrder');
+}
+
+function assertPageDisplayOrder(row) {
+  assertOrderField(row, 'PageDisplayOrder');
+}
+
+function assertPageColumnNumber(row) {
+  assertOrderField(row, 'PageColumnNumber');
+}
+
 describe('CaseEventToFields (non-prod)', () => {
   let caseEventToFieldsNonProd = [];
   let caseEventNonProd = [];
   let caseFieldNonProd = [];
 
   before(() => {
-    caseEventToFieldsNonProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-deemed-and-dispensed-nonprod',
-      'CaseEventToFields-general-email-nonprod',
-      'CaseEventToFields-general-referral-nonprod',
-      'CaseEventToFields-nonprod'
-    ]);
-
-    caseEventNonProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-alternative-service-nonprod',
-      'CaseEvent-deemed-and-dispensed-nonprod',
-      'CaseEvent-general-email-nonprod',
-      'CaseEvent-general-referral-nonprod',
-      'CaseEvent-nonprod'
-    ]);
-
-    caseFieldNonProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-alt-service-process-server-nonprod',
-      'CaseField-deemed-and-dispensed-nonprod',
-      'CaseField-general-email-nonprod',
-      'CaseField-general-referral-nonprod'
-    ]);
+    caseEventToFieldsNonProd = nonprod.CaseEventToFields;
+    caseEventNonProd = nonprod.CaseEvent;
+    caseFieldNonProd = nonprod.CaseField;
   });
 
   it('should contain valid event IDs', () => {
@@ -105,6 +103,14 @@ describe('CaseEventToFields (non-prod)', () => {
 
   it('should contain valid field IDs', () => {
     assertHasOnlyValidFieldIds(caseEventToFieldsNonProd, caseFieldNonProd);
+  });
+
+  it('should contain valid order fields', () => {
+    caseEventToFieldsNonProd.forEach(row => {
+      assertPageFieldDisplayOrder(row);
+      assertPageDisplayOrder(row);
+      assertPageColumnNumber(row);
+    });
   });
 
   describe('CallBackURLMidEvent', () => {
@@ -124,20 +130,9 @@ describe('CaseEventToFields (prod)', () => {
   let caseFieldProd = [];
 
   before(() => {
-    caseEventToFieldsProd = getCaseEventToFieldDefinitions([
-      'CaseEventToFields',
-      'CaseEventToFields-prod'
-    ]);
-
-    caseEventProd = getCaseEventDefinitions([
-      'CaseEvent',
-      'CaseEvent-prod'
-    ]);
-
-    caseFieldProd = getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-prod'
-    ]);
+    caseEventToFieldsProd = prod.CaseEventToFields;
+    caseEventProd = prod.CaseEvent;
+    caseFieldProd = prod.CaseField;
   });
 
   it('should contain valid event IDs', () => {
@@ -146,6 +141,14 @@ describe('CaseEventToFields (prod)', () => {
 
   it('should contain valid field IDs', () => {
     assertHasOnlyValidFieldIds(caseEventToFieldsProd, caseFieldProd);
+  });
+
+  it('should contain valid order fields', () => {
+    caseEventToFieldsProd.forEach(row => {
+      assertPageFieldDisplayOrder(row);
+      assertPageDisplayOrder(row);
+      assertPageColumnNumber(row);
+    });
   });
 
   describe('CallBackURLMidEvent', () => {

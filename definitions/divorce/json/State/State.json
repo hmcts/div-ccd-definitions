@@ -383,5 +383,83 @@
     "Description": "Awaiting Amend Case",
     "DisplayOrder": 24,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingServicePayment",
+    "Name": "Awaiting Service Payment",
+    "Description": "Awaiting service payment",
+    "DisplayOrder": 32
+  },
+  {
+    "LiveFrom": "03/08/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingServiceConsideration",
+    "Name": "Awaiting Service Consideration",
+    "Description": "Awaiting Service Consideration",
+    "DisplayOrder": 33
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationNotApproved",
+    "Name": "Service Application Not Approved",
+    "Description": "Service Application Not Approved",
+    "DisplayOrder": 34
+  },
+  {
+    "LiveFrom": "12/11/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingProcessServerService",
+    "Name": "Awaiting process server service",
+    "Description": "Awaiting process server service",
+    "DisplayOrder": 38,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingAlternativeService",
+    "Name": "Awaiting alternative service",
+    "Description": "Awaiting alternative service",
+    "DisplayOrder": 39,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "30/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingDWPResponse",
+    "Name": "Awaiting DWP response",
+    "Description": "Awaiting DWP response",
+    "DisplayOrder": 40,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingGeneralReferralPayment",
+    "Name": "Awaiting General Referral Payment",
+    "Description": "Awaiting General Referral Payment",
+    "DisplayOrder": 35,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "13/10/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingGeneralConsideration",
+    "Name": "Awaiting General Consideration",
+    "Description": "Awaiting General Consideration",
+    "DisplayOrder": 36,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralConsiderationComplete",
+    "Name": "General consideration complete",
+    "Description": "General consideration complete",
+    "DisplayOrder": 37,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   }
 ]
