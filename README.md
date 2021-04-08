@@ -131,3 +131,4 @@ Run full E2E tests on CCD PR or AAT
 
 1) Configure defined env variables , env variables can be found in Azure divorce aat key vault.
 2) `yarn test:functional` will create cases via API (runs on PR and master AAT).
+
