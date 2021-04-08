@@ -125,5 +125,13 @@
   },
   "D8ReasonForDivorce": "unreasonable-behaviour",
   "D8DerivedPetitionerCurrentFullName": "Gary Ford",
-  "D8InferredPetitionerGender": "male"
+  "D8InferredPetitionerGender": "male",
+  "PetitionerOrganisationPolicy": {
+    "Organisation": {
+      "OrganisationID": "M2ZT9Q2",
+      "OrganisationName": "DivPetitionerSolicitorFirm"
+    },
+    "OrgPolicyReference": "DivPetitionerSolicitorFirm",
+    "OrgPolicyCaseAssignedRole": "[PETSOLICITOR]"
+  }
 }
