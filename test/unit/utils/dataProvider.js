@@ -14,6 +14,7 @@ const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
 const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
 const getComplexTypesDefinitions = loadAllFiles('ComplexTypes');
 const getFixedListsDefinitions = loadAllFiles('FixedLists');
+const getSearchInputFieldsDefinitions = loadAllFiles('SearchInputFields');
 
 module.exports = {
   prod: {
@@ -54,7 +55,9 @@ module.exports = {
     FixedLists: getFixedListsDefinitions(['FixedLists']),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions([
+      'SearchInputFields'
+    ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions(['State']),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
@@ -88,6 +91,7 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-bailiff-or-resp-journey-nonprod',
       'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
       'CaseEvent-nonprod'
@@ -125,7 +129,10 @@ module.exports = {
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions([
+      'SearchInputFields',
+      'SearchInputFields-bailiff-nonprod'
+    ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions([
       'State',
