@@ -86,5 +86,13 @@
     "Label": "You are able to continue with the divorce without seeing the respondent answers because the Certificate of Service shows that the Divorce was successfully served by a court bailiff.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LastServiceApplicationType",
+    "Label": "What type of service application has been received?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

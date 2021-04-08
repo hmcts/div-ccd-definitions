@@ -439,5 +439,40 @@
     "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
     "UserRole": "caseworker-divorce-systemupdate",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
   }
 ]
