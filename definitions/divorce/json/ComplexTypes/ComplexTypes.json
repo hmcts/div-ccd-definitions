@@ -310,6 +310,22 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "ID": "Connections",
+    "ListElementCode": "H",
+    "FieldType": "Text",
+    "ElementLabel": "Connection H",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "Connections",
+    "ListElementCode": "I",
+    "FieldType": "Text",
+    "ElementLabel": "Connection I",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "ID": "CaseNote",
     "ListElementCode": "Author",
     "FieldType": "Text",
