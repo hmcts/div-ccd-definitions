@@ -92,7 +92,8 @@
     "CaseTypeID": "DIVORCE",
     "ID": "LastServiceApplicationType",
     "Label": "What type of service application has been received?",
-    "FieldType": "Text",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
     "SecurityClassification": "Public"
   }
 ]
