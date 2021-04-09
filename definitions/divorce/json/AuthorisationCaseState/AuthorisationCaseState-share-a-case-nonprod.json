@@ -16,20 +16,6 @@
   {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Submitted",
-    "UserRole": "caseworker-caa",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
-    "UserRole": "caseworker-caa",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "PendingRejection",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
