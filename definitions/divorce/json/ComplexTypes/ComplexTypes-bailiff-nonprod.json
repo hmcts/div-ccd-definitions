@@ -2,14 +2,6 @@
   {
     "LiveFrom": "02/04/2021",
     "ID": "DivorceServiceApplication",
-    "ListElementCode": "LocalCourtDetailsLabel",
-    "FieldType": "Label",
-    "ElementLabel": "### Local court details",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "02/04/2021",
-    "ID": "DivorceServiceApplication",
     "ListElementCode": "LocalCourtAddress",
     "FieldType": "Text",
     "ElementLabel": "Court name",
@@ -21,14 +13,6 @@
     "ListElementCode": "LocalCourtEmail",
     "FieldType": "Email",
     "ElementLabel": "Email address",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "02/04/2021",
-    "ID": "DivorceServiceApplication",
-    "ListElementCode": "BailiffReturnLabel",
-    "FieldType": "Label",
-    "ElementLabel": "### Bailiff return",
     "SecurityClassification": "Public"
   },
   {
