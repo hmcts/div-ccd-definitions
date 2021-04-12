@@ -6806,7 +6806,7 @@
     "CaseEventID": "solicitorSubmitAOS",
     "CaseFieldID": "solAOSAdditionalComments",
     "PageFieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "aossotsol",
     "PageLabel": "Statement of Truth - Solicitor",
     "PageDisplayOrder": 2,
