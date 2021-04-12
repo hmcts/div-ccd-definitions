@@ -38,25 +38,13 @@ describe('AuthorisationCaseState', () => {
     });
 
     context('CCA has valid permissions - move it to prod, when Share a Case released', () => {
-      const excludedStates = [
-        'SOTAgreementPayAndSubmitRequired',
-        'Submitted',
-        'solicitorAwaitingPaymentConfirmation',
-        'AwaitingPayment',
-        'AwaitingDocuments',
-        'AwaitingHWFDecision',
-        'Issued'
-      ];
-
-      it('No permissions for excluded states', () => {
-        assertCaaHasNoPermissionsForExcludedStates(excludedStates, nonProd);
-      });
-
-      it('CRU permissions for all other states', () => {
+      it('CRU permissions for all states', () => {
         nonProd.forEach(authState => {
           if (authState.UserRole === 'caseworker-caa') {
-            if (excludedStates.indexOf(authState.CaseStateID) === -1) {
+            try {
               expect(authState.CRUD.startsWith('CRU')).to.eql(true);
+            } catch(E) {
+              expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
             }
           }
         });
