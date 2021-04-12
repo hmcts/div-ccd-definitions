@@ -6,18 +6,6 @@ const { prod, nonprod } = require('../../utils/dataProvider');
 
 const assertStateExists = createAssertExists('State');
 
-function assertCaaHasNoPermissionsForExcludedStates(excludedStates, nonProd) {
-  excludedStates.forEach(state => {
-    nonProd.forEach(authState => {
-      if (authState.UserRole === 'caseworker-caa'
-        && authState.CaseStateID === state
-        && authState.CRUD.startsWith('CRU')) {
-        expect.fail(null, null, `State: ${state} must not have CRU permission for CAA role`);
-      }
-    });
-  });
-}
-
 describe('AuthorisationCaseState', () => {
   describe('NonProd files definitions:', () => {
     let nonProd = [];
