@@ -9,6 +9,7 @@
     "PreConditionState(s)": "IssuedToBailiff",
     "PostConditionState": "AosAwaiting",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/add-bailiff-return",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/purge-bailiff-data",
     "SecurityClassification": "Public"
   },
   {
