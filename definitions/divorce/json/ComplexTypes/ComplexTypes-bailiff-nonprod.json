@@ -1,0 +1,42 @@
+[
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "LocalCourtAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Court name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "LocalCourtEmail",
+    "FieldType": "Email",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "CertificateOfServiceDate",
+    "FieldType": "Date",
+    "ElementLabel": "Certificate of service date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "SuccessfulServedByBailiff",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Did bailiff service successfully?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "ReasonFailureToServe",
+    "FieldType": "TextArea",
+    "ElementLabel": "Reason for failure to serve",
+    "SecurityClassification": "Public"
+  }
+]
