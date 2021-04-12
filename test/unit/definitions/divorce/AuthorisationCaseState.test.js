@@ -31,7 +31,7 @@ describe('AuthorisationCaseState', () => {
           if (authState.UserRole === 'caseworker-caa') {
             try {
               expect(authState.CRUD.startsWith('CRU')).to.eql(true);
-            } catch(E) {
+            } catch(error) {
               expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
             }
           }
