@@ -312,7 +312,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "dnPronounced",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
