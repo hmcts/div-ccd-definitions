@@ -55,9 +55,7 @@ module.exports = {
     FixedLists: getFixedListsDefinitions(['FixedLists']),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: getSearchInputFieldsDefinitions([
-      'SearchInputFields'
-    ]),
+    SearchInputFields: getSearchInputFieldsDefinitions(['SearchInputFields']),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions(['State']),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
