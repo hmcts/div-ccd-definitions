@@ -26,6 +26,14 @@
   {
     "LiveFrom": "02/04/2021",
     "ID": "DivorceServiceApplication",
+    "ListElementCode": "BailiffApplicationGranted",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Approve Bailiff application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "02/04/2021",
+    "ID": "DivorceServiceApplication",
     "ListElementCode": "SuccessfulServedByBailiff",
     "FieldType": "YesOrNo",
     "ElementLabel": "Did bailiff service successfully?",
