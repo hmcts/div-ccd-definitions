@@ -25,13 +25,13 @@ describe('AuthorisationCaseState', () => {
       assertStateExists(nonProd, nonProdStates);
     });
 
-    context('CCA has valid permissions - move it to prod, when Share a Case released', () => {
+    context('CCA has valid permissions', () => {
       it('CRU permissions for all states', () => {
         nonProd.forEach(authState => {
           if (authState.UserRole === 'caseworker-caa') {
             try {
               expect(authState.CRUD.startsWith('CRU')).to.eql(true);
-            } catch(error) {
+            } catch (error) {
               expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
             }
           }
@@ -56,6 +56,20 @@ describe('AuthorisationCaseState', () => {
 
     it('should use existing states ', () => {
       assertStateExists(prodOnly, prodStates);
+    });
+
+    context('CCA has valid permissions', () => {
+      it('CRU permissions for all states', () => {
+        prodOnly.forEach(authState => {
+          if (authState.UserRole === 'caseworker-caa') {
+            try {
+              expect(authState.CRUD.startsWith('CRU')).to.eql(true);
+            } catch (error) {
+              expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
+            }
+          }
+        });
+      });
     });
   });
 });
