@@ -10316,5 +10316,17 @@
     "PageID": "SolAboutTheSolicitor",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "13/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "PageFieldDisplayOrder": 8,
+    "DisplayContext": "COMPLEX",
+    "PageID": "SolAboutTheSolicitorUpdate",
+    "PageLabel": "About the Solicitor",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

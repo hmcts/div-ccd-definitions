@@ -2552,18 +2552,6 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "04/02/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "COMPLEX",
-    "PageID": "SolAboutTheSolicitorUpdate",
-    "PageLabel": "About the Solicitor",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
     "LiveFrom": "17/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorDraftAOS",
