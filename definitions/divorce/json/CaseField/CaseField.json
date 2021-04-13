@@ -5294,14 +5294,5 @@
     "Label": "This event returns the case to the state it was in before the general referral was made e.g. if the case was in ‘Awaiting DN application’ when the general referral was created, then it will be returned to ‘Awaiting DN application’.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "18/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "PetitionerOrganisationPolicy",
-    "Label": "Petitioner solicitor's firm",
-    "HintText": "Petitioner solicitor's firm",
-    "FieldType": "OrganisationPolicy",
-    "SecurityClassification": "Public"
   }
 ]

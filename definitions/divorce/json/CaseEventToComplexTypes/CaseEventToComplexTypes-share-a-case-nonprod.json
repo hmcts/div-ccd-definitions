@@ -1,0 +1,68 @@
+[
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[PETSOLICITOR]",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "20/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "12/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "12/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[PETSOLICITOR]",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "12/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  }
+]
