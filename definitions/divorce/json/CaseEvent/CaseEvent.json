@@ -744,6 +744,17 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "19/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "changeServiceMethod",
+    "Name": "Change service method",
+    "Description": "Change the solicitors service method",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosOverdue;AosAwaiting",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "refundOnIssue",
@@ -2272,7 +2283,7 @@
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-confirm-service",
     "SecurityClassification": "Public"
   },
   {
