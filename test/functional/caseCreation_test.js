@@ -17,7 +17,13 @@ Scenario('Case Creation By Caseworker', async I => {
 
 // <<TO-DO: case creation by solicitor can be done only on AAT not on PR level>
 Scenario('Case Creation By Solicitor', async I => {
-  const caseId = await createCaseInCcd(solicitorUserName, solicitorPassword, './test/data/case-creation-basic-data.json', 'DIVORCE', 'solicitorCreate');
+  const caseId = await createCaseInCcd(
+    solicitorUserName,
+    solicitorPassword,
+    './test/data/case-creation-solicitor.json',
+    'DIVORCE',
+    'solicitorCreate'
+  );
   // const paymentMade = await updateCaseInCcd(solicitorUserName, solicitorPassword, caseId, 'DIVORCE', 'solicitorStatementOfTruthPaySubmit', './test/data/case-creation-basic-data.json');
  //  const issue = await updateCaseInCcd(caseWorkerUserName, caseWorkerPassword, caseId, 'DIVORCE', 'issueFromSubmitted', './test/data/case-issue-data.json');
 });

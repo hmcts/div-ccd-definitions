@@ -257,7 +257,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "D8JurisdictionConnection",
+    "CaseFieldID": "D8JurisdictionConnectionNewPolicy",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "SolJurisdiction",
@@ -266,15 +266,16 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "labelResidualJurisdictionPara-1",
+    "CaseFieldID": "NewLegalConnectionPolicy",
     "PageFieldDisplayOrder": 5,
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "SolJurisdiction",
     "PageLabel": "Jurisdiction",
     "PageDisplayOrder": 6,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -1387,7 +1388,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "D8JurisdictionConnection",
+    "CaseFieldID": "D8JurisdictionConnectionNewPolicy",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": "SolJurisdictionUpdate",
@@ -1396,15 +1397,16 @@
     "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "15/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "labelResidualJurisdictionPara-1",
+    "CaseFieldID": "NewLegalConnectionPolicy",
     "PageFieldDisplayOrder": 5,
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": "SolJurisdictionUpdate",
     "PageLabel": "Jurisdiction",
     "PageDisplayOrder": 6,
+    "FieldShowCondition": "D8PetitionerPhoneNumber=\"NEVERSHOW\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -2544,18 +2546,6 @@
     "CaseFieldID": "DerivedPetitionerSolicitorAddr",
     "PageFieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY",
-    "PageID": "SolAboutTheSolicitorUpdate",
-    "PageLabel": "About the Solicitor",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Yes"
-  },
-  {
-    "LiveFrom": "04/02/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "PageFieldDisplayOrder": 8,
-    "DisplayContext": "COMPLEX",
     "PageID": "SolAboutTheSolicitorUpdate",
     "PageLabel": "About the Solicitor",
     "PageDisplayOrder": 1,

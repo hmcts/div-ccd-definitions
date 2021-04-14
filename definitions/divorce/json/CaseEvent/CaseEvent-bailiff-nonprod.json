@@ -59,7 +59,7 @@
     "Name": "Draft AoS",
     "Description": "Draft Acknowledgement of Service",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
+    "PreConditionState(s)": "AosOverdue;AosAwaitingSol;AosAwaiting;AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "RetriesTimeoutAboutToStartEvent": "120,120",
@@ -209,5 +209,66 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "31/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "startAos",
+    "Name": "AOS started",
+    "Description": "AOS started",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosAwaiting;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
+    "PostConditionState": "AosStarted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosSubmittedDefended",
+    "Name": "AOS Submitted (defending)",
+    "Description": "AOS Submitted (defending)",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
+    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosSubmittedUndefended",
+    "Name": "AOS Received (undefended)",
+    "Description": "AOS Received (undefended)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
+    "PostConditionState": "AwaitingDecreeNisi",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "31/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "aosReceivedNoAdConStarted",
+    "Name": "AOS Received (no ad/con)",
+    "Description": "AOS Received (no admission/consent)",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
+    "PostConditionState": "AosCompleted",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "29/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "transferCaseFromCTSCService",
+    "Name": "Transfer from CTSC to RDC",
+    "Description": "Transfer from CTSC to an RDC",
+    "DisplayOrder": 11,
+    "PreConditionState(s)": "AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff;AwaitingServiceConsideration;AwaitingServicePayment;AwaitingGeneralReferralPayment;AwaitingGeneralConsideration;GeneralConsiderationComplete;DNPronounced",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
   }
 ]

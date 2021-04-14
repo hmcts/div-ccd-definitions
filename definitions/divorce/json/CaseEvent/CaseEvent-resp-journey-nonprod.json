@@ -24,19 +24,6 @@
     "ShowSummary": "Y"
   },
   {
-    "LiveFrom": "23/07/2020",
-    "CaseTypeID": "DIVORCE",
-    "ID": "serviceApplicationReceived",
-    "Name": "Service application received",
-    "Description": "Service application received",
-    "DisplayOrder": 11,
-    "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AosAwaiting;AosDrafted",
-    "PostConditionState": "AwaitingServicePayment",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "26/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "aosNotReceived",
@@ -118,6 +105,34 @@
     "PreConditionState(s)": "AosDrafted",
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issueAosFromReissue",
+    "Name": "Issue AOS pack to respondent",
+    "Description": "Issue AOS pack to respondent",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AwaitingReissue",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-pack-issued",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "issueAos",
+    "Name": "Issue AOS pack to respondent",
+    "Description": "Issue AOS pack to respondent",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "Issued",
+    "PostConditionState": "AosAwaiting",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-pack-issued",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   }
 ]

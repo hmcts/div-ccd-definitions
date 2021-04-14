@@ -41,5 +41,21 @@
     "Label": "Additional info",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelLegalAdvisorDecision",
+    "Label": "## Legal advisor decision",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelJudgeCostsDecision",
+    "Label": "## Judge costs decision",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

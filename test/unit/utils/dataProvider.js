@@ -14,6 +14,7 @@ const getCaseTypeTabDefinitions = loadAllFiles('CaseTypeTab');
 const getAuthorisationCaseTypeDefinitions = loadAllFiles('AuthorisationCaseType');
 const getComplexTypesDefinitions = loadAllFiles('ComplexTypes');
 const getFixedListsDefinitions = loadAllFiles('FixedLists');
+const getSearchInputFieldsDefinitions = loadAllFiles('SearchInputFields');
 
 module.exports = {
   prod: {
@@ -34,7 +35,6 @@ module.exports = {
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-resp-journey-prod',
-      'CaseEvent-share-a-case-prod',
       'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
@@ -55,7 +55,7 @@ module.exports = {
     FixedLists: getFixedListsDefinitions(['FixedLists']),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions(['SearchInputFields']),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions(['State']),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
@@ -75,27 +75,23 @@ module.exports = {
       'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-resp-journey-nonprod',
-      'AuthorisationCaseField-share-a-case-nonprod',
       'AuthorisationCaseField-nonprod'
     ]),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
       'AuthorisationCaseState',
-      'AuthorisationCaseState-bailiff-nonprod',
-      'AuthorisationCaseState-resp-journey-nonprod',
-      'AuthorisationCaseState-share-a-case-nonprod'
+      'AuthorisationCaseState-bailiff-nonprod'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
       'AuthorisationComplexType',
-      'AuthorisationComplexType-resp-journey-nonprod',
-      'AuthorisationComplexType-share-a-case-nonprod'
+      'AuthorisationComplexType-resp-journey-nonprod'
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-bailiff-or-resp-journey-nonprod',
       'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-resp-journey-nonprod',
-      'CaseEvent-share-a-case-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
@@ -107,24 +103,26 @@ module.exports = {
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
       'CaseEventToComplexTypes',
-      'CaseEventToComplexTypes-resp-journey-nonprod',
-      'CaseEventToComplexTypes-share-a-case-nonprod'
+      'CaseEventToComplexTypes-resp-journey-nonprod'
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
       'CaseField-bailiff-nonprod',
       'CaseField-object-to-costs-nonprod',
-      'CaseField-resp-journey-nonprod',
-      'CaseField-share-a-case-nonprod'
+      'CaseField-resp-journey-nonprod'
     ]),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-bailiff-nonprod',
-      'CaseTypeTab-resp-journey-nonprod'
+      'CaseTypeTab-resp-journey-nonprod',
+      'CaseTypeTab-object-to-costs-nonprod'
     ]),
-    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
+    ComplexTypes: getComplexTypesDefinitions([
+      'ComplexTypes',
+      'ComplexTypes-bailiff-nonprod'
+    ]),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
       'FixedLists-bailiff-nonprod',
@@ -132,7 +130,10 @@ module.exports = {
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
-    SearchInputFields: Object.assign(load('definitions/divorce/json/SearchInputFields'), []),
+    SearchInputFields: getSearchInputFieldsDefinitions([
+      'SearchInputFields',
+      'SearchInputFields-bailiff-nonprod'
+    ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions([
       'State',
