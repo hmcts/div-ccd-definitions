@@ -18,7 +18,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "RespondentOrganisationPolicy",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "26/01/2021",
