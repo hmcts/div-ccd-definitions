@@ -744,6 +744,17 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "19/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "changeServiceMethod",
+    "Name": "Change service method",
+    "Description": "Change the solicitors service method",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "AosOverdue;AosAwaiting",
+    "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "refundOnIssue",
@@ -2272,7 +2283,7 @@
     "PreConditionState(s)": "AwaitingService",
     "PostConditionState": "AosAwaiting",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/bulk-print",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/solicitor-confirm-service",
     "SecurityClassification": "Public"
   },
   {
@@ -2992,5 +3003,87 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/return-to-state-before-general-referral",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "solicitorStatementOfTruthPaySubmit",
+    "Name": "Case submission",
+    "Description": "Agree Statement of Truth, Pay & Submit",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "SOTAgreementPayAndSubmitRequired",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/petition-issue-fees",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EndButtonLabel": "Submit Petition"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "serveByAlternativeMethod",
+    "Name": "Serve by alternative method",
+    "Description": "Serve by alternative method",
+    "DisplayOrder": "19",
+    "PreConditionState(s)": "GeneralConsiderationComplete;Issued",
+    "PostConditionState": "AwaitingAlternativeService",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromRejected",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "Rejected",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromIssued",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "Issued",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosAwaiting",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosAwaiting",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
+  },
+  {
+    "LiveFrom": "01/03/2019",
+    "CaseTypeID": "DIVORCE",
+    "ID": "reissueFromAosStarted",
+    "Name": "Reissue petition",
+    "Description": "Reissue petition",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "AosStarted",
+    "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   }
 ]
