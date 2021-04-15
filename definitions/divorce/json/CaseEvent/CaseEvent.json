@@ -1877,6 +1877,17 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingDA",
+    "Name": "Awaiting DA Application",
+    "Description": "Awaiting DA application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "DAPending",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUDivGranted",
@@ -1928,6 +1939,17 @@
     "Description": "DA Requested",
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DARequested",
+    "Name": "DA Requested",
+    "Description": "DA Requested",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "DAPending",
     "PostConditionState": "DARequested",
     "SecurityClassification": "Public"
   },
