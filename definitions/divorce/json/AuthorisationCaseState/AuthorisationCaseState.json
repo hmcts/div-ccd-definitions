@@ -3472,11 +3472,39 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAlternativeService",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingAlternativeService",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDWPResponse",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDWPResponse",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingDWPResponse",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
   },
   {
     "LiveFrom": "26/03/2021",
