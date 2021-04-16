@@ -54,5 +54,12 @@
     "CaseEventID": "testIssuedToBailiff",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAddDaRequiredData",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
   }
 ]

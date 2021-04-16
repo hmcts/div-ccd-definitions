@@ -102,5 +102,29 @@
     "PageDisplayOrder": 1,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAddDaRequiredData",
+    "CaseFieldID": "DecreeNisiGrantedDate",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "daRequiredData",
+    "PageLabel": "DA required data",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "testAddDaRequiredData",
+    "CaseFieldID": "PronouncementJudge",
+    "PageID": "daRequiredData",
+    "PageLabel": "DA required data",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes",
+    "DisplayContext": "MANDATORY"
   }
 ]
