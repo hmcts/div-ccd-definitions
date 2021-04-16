@@ -348,5 +348,47 @@
     "CaseEventID": "transferCaseFromCTSCService",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorDraftAOSBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
   }
 ]
