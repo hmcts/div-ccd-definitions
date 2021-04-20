@@ -33,5 +33,17 @@
     "PostConditionState": "IssuedToBailiff",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "16/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "testAddDaRequiredData",
+    "Name": "Data required for DA",
+    "Description": "TEST ONLY: Data required for DA",
+    "DisplayOrder": 22,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "RetriesTimeoutURLSubmittedEvent": "120,120",
+    "SecurityClassification": "Public"
   }
 ]
