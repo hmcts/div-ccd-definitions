@@ -1771,11 +1771,5 @@
     "ListElementCode": "other",
     "ListElement": "Other response",
     "DisplayOrder": 3
-  },
-  {
-    "LiveFrom": "23/02/2021",
-    "ID": "DnCourtEnum",
-    "ListElementCode": "bury",
-    "ListElement": "Bury St. Edmunds Regional Divorce Centre"
   }
 ]
