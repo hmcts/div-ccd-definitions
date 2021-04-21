@@ -6,18 +6,6 @@ const { prod, nonprod } = require('../../utils/dataProvider');
 
 const assertStateExists = createAssertExists('State');
 
-function assertCaaHasNoPermissionsForExcludedStates(excludedStates, nonProd) {
-  excludedStates.forEach(state => {
-    nonProd.forEach(authState => {
-      if (authState.UserRole === 'caseworker-caa'
-        && authState.CaseStateID === state
-        && authState.CRUD.startsWith('CRU')) {
-        expect.fail(null, null, `State: ${state} must not have CRU permission for CAA role`);
-      }
-    });
-  });
-}
-
 describe('AuthorisationCaseState', () => {
   describe('NonProd files definitions:', () => {
     let nonProd = [];
@@ -37,26 +25,14 @@ describe('AuthorisationCaseState', () => {
       assertStateExists(nonProd, nonProdStates);
     });
 
-    context('CCA has valid permissions - move it to prod, when Share a Case released', () => {
-      const excludedStates = [
-        'SOTAgreementPayAndSubmitRequired',
-        'Submitted',
-        'solicitorAwaitingPaymentConfirmation',
-        'AwaitingPayment',
-        'AwaitingDocuments',
-        'AwaitingHWFDecision',
-        'Issued'
-      ];
-
-      it('No permissions for excluded states', () => {
-        assertCaaHasNoPermissionsForExcludedStates(excludedStates, nonProd);
-      });
-
-      it('CRU permissions for all other states', () => {
+    context('CCA has valid permissions', () => {
+      it('CRU permissions for all states', () => {
         nonProd.forEach(authState => {
           if (authState.UserRole === 'caseworker-caa') {
-            if (excludedStates.indexOf(authState.CaseStateID) === -1) {
+            try {
               expect(authState.CRUD.startsWith('CRU')).to.eql(true);
+            } catch (error) {
+              expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
             }
           }
         });
@@ -80,6 +56,20 @@ describe('AuthorisationCaseState', () => {
 
     it('should use existing states ', () => {
       assertStateExists(prodOnly, prodStates);
+    });
+
+    context('CCA has valid permissions', () => {
+      it('CRU permissions for all states', () => {
+        prodOnly.forEach(authState => {
+          if (authState.UserRole === 'caseworker-caa') {
+            try {
+              expect(authState.CRUD.startsWith('CRU')).to.eql(true);
+            } catch (error) {
+              expect.fail(null, null, `State: ${authState.CaseStateID} must have CRU permission for CAA`);
+            }
+          }
+        });
+      });
     });
   });
 });
