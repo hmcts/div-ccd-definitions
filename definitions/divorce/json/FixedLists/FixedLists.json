@@ -559,12 +559,6 @@
   },
   {
     "LiveFrom": "01/01/2017",
-    "ID": "courtEnum",
-    "ListElementCode": "buryStEdmunds",
-    "ListElement": "Bury St Edmunds"
-  },
-  {
-    "LiveFrom": "01/01/2017",
     "ID": "changedNameHowEnum",
     "ListElementCode": "marriageCertificate",
     "ListElement": "Marriage certificate"
