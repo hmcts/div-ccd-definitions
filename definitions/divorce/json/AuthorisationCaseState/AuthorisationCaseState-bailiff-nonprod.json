@@ -7,6 +7,13 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "31/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingBailiffService",
@@ -54,6 +61,13 @@
     "CaseStateID": "AwaitingBailiffReferral",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "31/07/2020",
@@ -103,6 +117,13 @@
     "CaseStateID": "IssuedToBailiff",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -243,26 +264,5 @@
     "CaseStateID": "IssuedToBailiff",
     "UserRole": "caseworker-divorce-pcqextractor",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingBailiffService",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingBailiffReferral",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "IssuedToBailiff",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
   }
 ]
