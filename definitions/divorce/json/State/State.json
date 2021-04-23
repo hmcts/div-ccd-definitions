@@ -249,7 +249,7 @@
     "Name": "AOS PreSubmit",
     "Description": "AOS PreSubmit (Intermediary state)",
     "DisplayOrder": 36,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "31/05/2019",
@@ -329,7 +329,7 @@
     "Name": "Clarification Response Submitted",
     "Description": "Decree Nisi Clarification Response Submitted",
     "DisplayOrder": 22,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -338,7 +338,7 @@
     "Name": "Awaiting admin clarification",
     "Description": "Awaiting admin clarification",
     "DisplayOrder": 22,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {"LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
@@ -346,7 +346,7 @@
     "Name": "Translation Requested",
     "Description": "Translation Requested",
     "DisplayOrder": 23,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -355,7 +355,7 @@
     "Name": "Welsh AOS",
     "Description": "Welsh AOS",
     "DisplayOrder": 28,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -364,7 +364,7 @@
     "Name": "Welsh LA Decision",
     "Description": "Welsh LA Decision",
     "DisplayOrder": 30,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -373,7 +373,7 @@
     "Name": "Welsh DN Received",
     "Description": "Welsh DN Received",
     "DisplayOrder": 31,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "29/07/2020",
@@ -382,7 +382,7 @@
     "Name": "Awaiting Amend Case",
     "Description": "Awaiting Amend Case",
     "DisplayOrder": 24,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -415,7 +415,7 @@
     "Name": "Awaiting process server service",
     "Description": "Awaiting process server service",
     "DisplayOrder": 38,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "13/10/2020",
@@ -424,7 +424,7 @@
     "Name": "Awaiting alternative service",
     "Description": "Awaiting alternative service",
     "DisplayOrder": 39,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "30/10/2020",
@@ -433,7 +433,7 @@
     "Name": "Awaiting DWP response",
     "Description": "Awaiting DWP response",
     "DisplayOrder": 40,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "13/10/2020",
@@ -442,7 +442,7 @@
     "Name": "Awaiting General Referral Payment",
     "Description": "Awaiting General Referral Payment",
     "DisplayOrder": 35,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "13/10/2020",
@@ -451,7 +451,7 @@
     "Name": "Awaiting General Consideration",
     "Description": "Awaiting General Consideration",
     "DisplayOrder": 36,
-    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
     "LiveFrom": "23/07/2020",
@@ -460,6 +460,15 @@
     "Name": "General consideration complete",
     "Description": "General consideration complete",
     "DisplayOrder": 37,
+    "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAPending",
+    "Name": "DA Pending",
+    "Description": "Pending Decree Absolute",
+    "DisplayOrder": 41,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
   {
