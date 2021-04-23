@@ -8183,6 +8183,132 @@
     "CRUD": "R"
   },
   {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DAPending",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "DARequested",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "AwaitingDA",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "03/02/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solAosReceivedNoAdConStarted",

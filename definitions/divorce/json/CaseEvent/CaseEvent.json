@@ -360,9 +360,21 @@
     "Name": "DA Granted",
     "Description": "DA Granted",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PreConditionState(s)": "AwaitingDecreeAbsolute;DAPending",
     "PostConditionState": "DivorceGranted",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DAPending",
+    "Name": "DA Pending",
+    "Description": "Pending Decree Absolute",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AwaitingDecreeAbsolute;DARequested",
+    "PostConditionState": "DAPending",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -1865,6 +1877,17 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "AwaitingDA",
+    "Name": "Awaiting DA Application",
+    "Description": "Awaiting DA application",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "DAPending",
+    "PostConditionState": "AwaitingDecreeAbsolute",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "SUDivGranted",
@@ -1916,6 +1939,17 @@
     "Description": "DA Requested",
     "DisplayOrder": 3,
     "PreConditionState(s)": "*",
+    "PostConditionState": "DARequested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DARequested",
+    "Name": "DA Requested",
+    "Description": "DA Requested",
+    "DisplayOrder": 3,
+    "PreConditionState(s)": "DAPending",
     "PostConditionState": "DARequested",
     "SecurityClassification": "Public"
   },
@@ -2019,12 +2053,10 @@
     "Name": "Request DA",
     "Description": "Request Decree Absolute",
     "DisplayOrder": 23,
-    "PreConditionState(s)": "AwaitingDecreeAbsolute",
+    "PreConditionState(s)": "AwaitingDecreeAbsolute;DAPending",
     "PostConditionState": "DARequested",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/validate-da-request",
-    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
-    "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public"
   },
   {
@@ -2057,7 +2089,7 @@
     "Name": "Grant Decree Absolute",
     "Description": "Grant Decree Absolute",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "DARequested",
+    "PreConditionState(s)": "DARequested;DAPending",
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
