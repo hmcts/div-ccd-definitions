@@ -5303,5 +5303,78 @@
     "HintText": "Petitioner solicitor's firm",
     "FieldType": "OrganisationPolicy",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentOrganisationPolicy",
+    "Label": "Respondent solicitor's firm",
+    "HintText": "Respondent Organisation Details",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolDigital",
+    "Label": "Digital respondent case",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespondentServiceDetails-DigitalOrPaper",
+    "Label": "If the respondent solicitor's firm is registered with MyHMCTS, you can assign the case to them. This will allow the respondent solicitor to respond digitally. If you cannot find the respondent solicitor, a paper AOS pack will be sent to the respondent's solicitor's address entered above.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolAgreeToReceiveEmails",
+    "Label": "I confirm I am willing to accept service of all correspondence and orders by email at the email address stated above.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmailHeader",
+    "Label": "### Email contact details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmail",
+    "Label": "Email address will be used to send case updates.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DigitalNoticeOfProceedings",
+    "Label": "Digital Notice of Proceedings?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "NoticeOfProceedingsEmail",
+    "Label": "Notice of Proceedings email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "NoticeOfProceedingsSolicitorFirm",
+    "Label": "Notice of Proceedings solicitor's firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
