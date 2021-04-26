@@ -1,43 +1,10 @@
 [
   {
-    "LiveFrom": "20/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "Organisation.OrganisationID",
-    "EventElementLabel": "",
-    "FieldDisplayOrder": "",
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "LiveFrom": "20/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[PETSOLICITOR]",
-    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "LiveFrom": "20/01/2021",
-    "CaseTypeID": "DIVORCE",
-    "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorCreate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
-    "ListElementCode": "OrgPolicyReference",
-    "EventElementLabel": "",
-    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
-    "DisplayContext": "OPTIONAL"
-  },
-  {
     "LiveFrom": "04/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "Organisation.OrganisationID",
     "EventElementLabel": "",
     "FieldDisplayOrder": "",
@@ -47,22 +14,55 @@
     "LiveFrom": "04/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[PETSOLICITOR]",
-    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "DefaultValue": "[RESPSOLICITOR]",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
   },
   {
     "LiveFrom": "04/02/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "OrganisationPolicy",
-    "CaseEventID": "solicitorUpdate",
-    "CaseFieldID": "PetitionerOrganisationPolicy",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
     "ListElementCode": "OrgPolicyReference",
     "EventElementLabel": "",
-    "FieldShowCondition": "D8PetitionerNameChangedHow=\"NeverShow\"",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "DefaultValue": "[RESPSOLICITOR]",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "LiveFrom": "09/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "OrganisationPolicy",
+    "CaseEventID": "solicitorUpdate",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "EventElementLabel": "",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"NeverShow\"",
     "DisplayContext": "OPTIONAL"
   }
 ]

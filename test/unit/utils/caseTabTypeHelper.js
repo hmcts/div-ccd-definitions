@@ -77,8 +77,71 @@ const nonProdTabIds = [
   'ConfidentialDocuments'
 ];
 
-const prodTabDisplayOrder = nonProdTabDisplayOrder;
-const prodTabIds = nonProdTabIds;
+const prodTabDisplayOrder = {
+  History: 1,
+  petitionDetails: 2,
+  aosDetails: 3,
+  dnDetails: 4,
+  outcomeOfDnDetails: 5,
+  DecreeAbsolute: 6,
+  paymentDetailsCourtAdmin: 7,
+  paymentDetailsCourtAdminBeta: 8,
+  paymentDetailsCourtAdminLa: 9,
+  documents: 10,
+  confidentialPetitionerCourtAdmin: 11,
+  confidentialPetitionerCourtAdminBeta: 12,
+  confidentialPetitionerCourtAdminLa: 13,
+  confidentialRespondentCourtAdmin: 14,
+  confidentialRespondentCourtAdminBeta: 15,
+  confidentialRespondentCourtAdminLa: 16,
+  confidentialCoRespondentCourtAdmin: 17,
+  confidentialCoRespondentCourtAdminBeta: 18,
+  confidentialCoRespondentCourtAdminLa: 19,
+  notes: 20,
+  marriageCertificate: 21,
+  coRespondent: 22,
+  LinkedCase: 23,
+  Language: 24,
+  ConfidentialDocuments: 25,
+  General: 1
+};
+
+const prodTabIds = [
+  'History',
+  'General',
+  'petitionDetails',
+  'aosDetails',
+  'dnDetails',
+  'outcomeOfDnDetails',
+  'DecreeAbsolute',
+  'paymentDetailsCourtAdmin',
+  'paymentDetailsCourtAdminBeta',
+  'paymentDetailsCourtAdminLa',
+  'documents',
+  'confidentialPetitionerCourtAdmin',
+  'confidentialPetitionerCourtAdminBeta',
+  'confidentialPetitionerCourtAdminLa',
+  'confidentialRespondentCourtAdmin',
+  'confidentialRespondentCourtAdminBeta',
+  'confidentialRespondentCourtAdminLa',
+  'confidentialCoRespondentCourtAdmin',
+  'confidentialCoRespondentCourtAdminBeta',
+  'confidentialCoRespondentCourtAdminLa',
+  'notes',
+  'marriageCertificate',
+  'coRespondent',
+  'serviceApplicationCourtAdmin',
+  'serviceApplicationCourtAdminBeta',
+  'serviceApplicationCourtAdminLA',
+  'serviceApplicationSuperUser',
+  'LinkedCase',
+  'generalReferralCourtAdmin',
+  'generalReferralCourtAdminBeta',
+  'generalReferralCourtAdminLA',
+  'generalReferralSuperUser',
+  'Language',
+  'ConfidentialDocuments'
+];
 
 /**
  * Validates the tab display ids to ensure there are no duplicate in the feature files

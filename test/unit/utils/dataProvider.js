@@ -19,7 +19,8 @@ const getSearchInputFieldsDefinitions = loadAllFiles('SearchInputFields');
 module.exports = {
   prod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
-      'AuthorisationCaseEvent'
+      'AuthorisationCaseEvent',
+      'AuthorisationCaseEvent-resp-journey-prod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions(['AuthorisationCaseField']),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(
@@ -33,19 +34,22 @@ module.exports = {
     ),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-resp-journey-prod',
       'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']
     ),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
-      'CaseEventToFields'
+      'CaseEventToFields',
+      'CaseEventToFields-resp-journey-prod'
     ]),
     CaseField: getCaseFieldDefinitions(['CaseField']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
-      'CaseTypeTab'
+      'CaseTypeTab',
+      'CaseTypeTab-resp-journey-prod'
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions(['FixedLists']),
@@ -63,12 +67,14 @@ module.exports = {
       'AuthorisationCaseEvent',
       'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-object-to-costs-nonprod',
+      'AuthorisationCaseEvent-resp-journey-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
       'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-object-to-costs-nonprod',
+      'AuthorisationCaseField-resp-journey-nonprod',
       'AuthorisationCaseField-nonprod'
     ]),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
@@ -77,33 +83,40 @@ module.exports = {
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
-      'AuthorisationComplexType'
+      'AuthorisationComplexType',
+      'AuthorisationComplexType-resp-journey-nonprod'
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
       'CaseEvent-bailiff-nonprod',
+      'CaseEvent-bailiff-or-resp-journey-nonprod',
       'CaseEvent-object-to-costs-nonprod',
+      'CaseEvent-resp-journey-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
       'CaseEventToFields-bailiff-nonprod',
       'CaseEventToFields-object-to-costs-nonprod',
+      'CaseEventToFields-resp-journey-nonprod',
       'CaseEventToFields-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
-      'CaseEventToComplexTypes'
+      'CaseEventToComplexTypes',
+      'CaseEventToComplexTypes-resp-journey-nonprod'
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
       'CaseField-bailiff-nonprod',
-      'CaseField-object-to-costs-nonprod'
+      'CaseField-object-to-costs-nonprod',
+      'CaseField-resp-journey-nonprod'
     ]),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
       'CaseTypeTab-bailiff-nonprod',
+      'CaseTypeTab-resp-journey-nonprod',
       'CaseTypeTab-object-to-costs-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
