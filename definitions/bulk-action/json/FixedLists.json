@@ -88,5 +88,11 @@
     "ID": "HasJudgePronouncedEnum",
     "ListElementCode": "Yes",
     "ListElement": "Yes"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "buryStEdmunds",
+    "ListElement": "Bury St Edmunds"
   }
 ]
