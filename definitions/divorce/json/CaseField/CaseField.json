@@ -5376,5 +5376,102 @@
     "Label": "Notice of Proceedings solicitor's firm",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CertificateOfServiceDate",
+    "Label": "Certificate of service date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SuccessfulServedByBailiff",
+    "Label": "Did bailiff service successfully?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReasonFailureToServe",
+    "Label": "Reason for failure to serve",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsIntro",
+    "Label": "Caseworker will send the Bailiff application together with the divorce application, invitation letter for the respondent and a certificate of service to the local court.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsLabel",
+    "Label": "### Local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtAddress",
+    "Label": "Court name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtEmail",
+    "Label": "Email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CertificateOfServiceDocument",
+    "Label": "Certificate of Service",
+    "FieldType": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffLocalCourtDetailsLabel",
+    "Label": "### Bailiff local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffReturnLabel",
+    "Label": "### Bailiff return",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "Label": "You are able to continue with the divorce without seeing the respondent answers because the Certificate of Service shows that the Divorce was successfully served by a court bailiff.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LastServiceApplicationType",
+    "Label": "What type of service application has been received?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "SecurityClassification": "Public"
   }
 ]
