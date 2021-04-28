@@ -197,7 +197,7 @@ function runAllTests() {
   describe('Specific permissions for user roles', () => {
     const eventId = 'UpdateLanguage';
     const role = 'caseworker-divorce-solicitor';
-    const stateId = 'solicitorAwaitingPaymentConfirmation'
+    const stateId = 'solicitorAwaitingPaymentConfirmation';
 
     // this means user will be able to see an event on dropdown
     it(`User with role ${role} can trigger ${eventId} on case in ${stateId}`, () => {
@@ -208,36 +208,46 @@ function runAllTests() {
       // get post states
       // assert at least CR
 
-      let testedEvent = CaseEvent.find(event => event.ID === eventId);
+      const testedEvent = CaseEvent.find(event => {
+        return event.ID === eventId;
+      });
+      /* eslint-disable no-unused-expressions */
       expect(testedEvent).not.undefined;
 
-      let eventPermission = AuthorisationCaseEvent.find(auth => auth.CaseEventID === eventId &&
-        auth.UserRole ===  role);
+      /* eslint-disable no-unused-expressions */
+      const eventPermission = AuthorisationCaseEvent
+        .find(auth => {
+          return auth.CaseEventID === eventId && auth.UserRole === role;
+        });
       expect(eventPermission).not.undefined;
 
       expect(eventPermission.CRUD).to.contains('CRU');
       const preConditionStates = testedEvent['PreConditionState(s)'];
-      const stateRegExp = '/\b' + stateId  + '\b/';
+      const stateRegExp = `/\b${stateId}\b/`;
       // `*` is for all states (then it's also for expected state)
       if (preConditionStates === '*' || preConditionStates.to.match(stateRegExp)) {
-        let permissionsForState = AuthorisationCaseState
-          .find(auth => auth.CaseStateID === stateId && auth.UserRole ===  role);
+        /* eslint-disable no-unused-expressions */
+        const permissionsForState = AuthorisationCaseState
+          .find(auth => {
+            return auth.CaseStateID === stateId && auth.UserRole === role;
+          });
         expect(permissionsForState).not.undefined;
         expect(permissionsForState.CRUD).to.contains('RU');
       } else {
-        console.error('no permissions for state');
-        expect(1).to.eq(2);
+        expect.fail(null, null, 'no permissions for state');
       }
 
       const postConditionState = testedEvent.PostConditionState;
       if (preConditionStates === '*' || postConditionState === stateId) {
-        let permissionsForState = AuthorisationCaseState
-          .find(auth => auth.CaseStateID === stateId && auth.UserRole ===  role);
+        /* eslint-disable no-unused-expressions */
+        const permissionsForState = AuthorisationCaseState
+          .find(auth => {
+            return auth.CaseStateID === stateId && auth.UserRole === role;
+          });
         expect(permissionsForState).not.undefined;
         expect(permissionsForState.CRUD).to.contains('CR');
       } else {
-        console.error('no permissions for state');
-        expect(1).to.eq(2);
+        expect.fail(null, null, 'no permissions for state');
       }
     });
   });
