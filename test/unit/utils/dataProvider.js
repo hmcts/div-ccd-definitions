@@ -60,12 +60,10 @@ module.exports = {
   nonprod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
-      'AuthorisationCaseEvent-object-to-costs-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
-      'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-nonprod'
     ]),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
@@ -77,33 +75,28 @@ module.exports = {
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
-      'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-object-to-costs-nonprod',
       'CaseEventToFields-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions([
       'CaseEventToComplexTypes'
     ]),
     CaseField: getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-object-to-costs-nonprod'
+      'CaseField'
     ]),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
-      'CaseTypeTab',
-      'CaseTypeTab-object-to-costs-nonprod'
+      'CaseTypeTab'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
       'ComplexTypes'
     ]),
     FixedLists: getFixedListsDefinitions([
-      'FixedLists',
-      'FixedLists-object-to-costs-nonprod'
+      'FixedLists'
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
