@@ -69,7 +69,7 @@ function checkAuthStateConfig(conditionState, allAuthForEvent, caseType, eventNa
 
     // this is exception, we must do it. Permissions are granted by case roles
     if (eventName === 'solicitorCreate' && userRole === 'caseworker-divorce-solicitor' && conditionState === 'SOTAgreementPayAndSubmitRequired') {
-      console.log(`This is exception. Valid permissions are granted to case roles`);
+      console.log('This is exception. Valid permissions are granted to case roles');
     } else {
       expect(conditionAuthState.length).to.eql(1);
 
