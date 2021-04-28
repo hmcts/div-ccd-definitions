@@ -1771,29 +1771,5 @@
     "ListElementCode": "other",
     "ListElement": "Other response",
     "DisplayOrder": 3
-  },
-  {
-    "LiveFrom": "23/07/2020",
-    "ID": "ServiceApplicationTypeEnum",
-    "ListElementCode": "bailiff",
-    "ListElement": "Bailiff application"
-  },
-  {
-    "LiveFrom": "25/02/2021",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "certificateOfService",
-    "ListElement": "Certificate Of Service"
-  },
-  {
-    "LiveFrom": "07/04/2021",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "bailiffCertificateOfService",
-    "ListElement": "Bailiff Certificate of Service"
-  },
-  {
-    "LiveFrom": "07/04/2021",
-    "ID": "d8documentsReceivedEnum",
-    "ListElementCode": "objectionToCosts",
-    "ListElement": "Objection to Costs"
   }
 ]

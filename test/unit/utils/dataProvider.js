@@ -32,7 +32,8 @@ module.exports = {
       ['AuthorisationComplexType']
     ),
     CaseEvent: getCaseEventDefinitions([
-      'CaseEvent'
+      'CaseEvent',
+      'CaseEvent-bailiff-prod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(
       ['CaseEventToComplexTypes']
@@ -60,16 +61,19 @@ module.exports = {
   nonprod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
+      'AuthorisationCaseEvent-bailiff-nonprod',
       'AuthorisationCaseEvent-object-to-costs-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
+      'AuthorisationCaseField-bailiff-nonprod',
       'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-nonprod'
     ]),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions([
-      'AuthorisationCaseState'
+      'AuthorisationCaseState',
+      'AuthorisationCaseState-bailiff-nonprod'
     ]),
     AuthorisationCaseType: getAuthorisationCaseTypeDefinitions(['AuthorisationCaseType']),
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions([
@@ -77,11 +81,13 @@ module.exports = {
     ]),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
+      'CaseEvent-bailiff-nonprod',
       'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
+      'CaseEventToFields-bailiff-nonprod',
       'CaseEventToFields-object-to-costs-nonprod',
       'CaseEventToFields-nonprod'
     ]),
@@ -90,29 +96,35 @@ module.exports = {
     ]),
     CaseField: getCaseFieldDefinitions([
       'CaseField',
+      'CaseField-bailiff-nonprod',
       'CaseField-object-to-costs-nonprod'
     ]),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
     CaseTypeTab: getCaseTypeTabDefinitions([
       'CaseTypeTab',
+      'CaseTypeTab-bailiff-nonprod',
       'CaseTypeTab-object-to-costs-nonprod'
     ]),
     ComplexTypes: getComplexTypesDefinitions([
-      'ComplexTypes'
+      'ComplexTypes',
+      'ComplexTypes-bailiff-nonprod'
     ]),
     FixedLists: getFixedListsDefinitions([
       'FixedLists',
+      'FixedLists-bailiff-nonprod',
       'FixedLists-object-to-costs-nonprod'
     ]),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
     SearchInputFields: getSearchInputFieldsDefinitions([
-      'SearchInputFields'
+      'SearchInputFields',
+      'SearchInputFields-bailiff-nonprod'
     ]),
     SearchResultFields: Object.assign(load('definitions/divorce/json/SearchResultFields'), []),
     State: getStateDefinitions([
-      'State'
+      'State',
+      'State-bailiff-nonprod'
     ]),
     UserProfile: Object.assign(load('definitions/divorce/json/UserProfile'), []),
     WorkBasketInputFields: Object.assign(load('definitions/divorce/json/WorkBasketInputFields/WorkBasketInputFields'), []),
