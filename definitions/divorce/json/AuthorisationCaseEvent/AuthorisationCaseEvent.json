@@ -854,17 +854,31 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorUpdate",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRU"
   },
   {
@@ -9097,20 +9111,6 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "judgeCostOrderDecision",
     "UserRole": "citizen",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "28/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
-    "UserRole": "[RESPSOLICITOR]",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "28/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "solicitorUpdate",
-    "UserRole": "[RESPSOLICITOR]",
     "CRUD": "R"
   }
 ]

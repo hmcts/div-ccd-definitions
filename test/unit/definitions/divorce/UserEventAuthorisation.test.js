@@ -67,12 +67,18 @@ function checkAuthStateConfig(conditionState, allAuthForEvent, caseType, eventNa
       console.log(`"${eventName}" event for "${userRole}" is missing authorisation for state "${conditionState}"`);
     }
 
-    expect(conditionAuthState.length).to.eql(1);
+    // this is exception, we must do it. Permissions are granted by case roles
+    if (eventName === 'solicitorCreate' && userRole === 'caseworker-divorce-solicitor' && conditionState === 'SOTAgreementPayAndSubmitRequired') {
+      console.log(`This is exception. Valid permissions are granted to case roles`);
+    } else {
+      expect(conditionAuthState.length).to.eql(1);
 
-    if (!conditionAuthState[0].CRUD.match(acceptedPermissions)) {
-      console.log(`"${eventName}" event for "${userRole}" is missing permissions for state "${conditionState}"`);
+      if (!conditionAuthState[0].CRUD.match(acceptedPermissions)) {
+        console.log(`"${eventName}" event for "${userRole}" is missing permissions for state "${conditionState}"`);
+      }
+
+      expect(conditionAuthState[0].CRUD).to.match(acceptedPermissions);
     }
-    expect(conditionAuthState[0].CRUD).to.match(acceptedPermissions);
   });
 }
 
