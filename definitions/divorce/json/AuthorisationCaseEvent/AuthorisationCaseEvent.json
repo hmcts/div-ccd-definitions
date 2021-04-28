@@ -9098,5 +9098,19 @@
     "CaseEventID": "judgeCostOrderDecision",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorStatementOfTruthPaySubmit",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdate",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
   }
 ]
