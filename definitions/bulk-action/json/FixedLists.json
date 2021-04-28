@@ -73,6 +73,13 @@
     "DisplayOrder": 4
   },
   {
+    "LiveFrom": "01/01/2017",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "buryStEdmunds",
+    "ListElement": "Bury St Edmunds",
+    "DisplayOrder": 3
+  },
+  {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "bradford",
@@ -97,12 +104,5 @@
     "ID": "HasJudgePronouncedEnum",
     "ListElementCode": "Yes",
     "ListElement": "Yes"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "ID": "DnCourtEnum",
-    "ListElementCode": "buryStEdmunds",
-    "ListElement": "Bury St Edmunds",
-    "DisplayOrder": 3
   }
 ]
