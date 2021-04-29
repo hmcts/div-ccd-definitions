@@ -4791,5 +4791,66 @@
     "TabDisplayOrder": 23,
     "CaseFieldID": "ReasonFailureToServe",
     "TabFieldDisplayOrder": 12
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "TabFieldDisplayOrder": 25,
+    "FieldShowCondition": "JudgeCostsClaimGranted=\"*\" OR JudgeWhoPaysCosts=\"*\" OR JudgeTypeCostsDecision=\"*\" OR JudgeCostsOrderAdditionalInfo=\"*\""
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "TabFieldDisplayOrder": 26
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "TabFieldDisplayOrder": 28
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "outcomeOfDnDetails",
+    "TabLabel": "Outcome of Decree Nisi",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "TabFieldDisplayOrder": 29
   }
 ]

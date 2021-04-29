@@ -1795,5 +1795,26 @@
     "ID": "d8documentsReceivedEnum",
     "ListElementCode": "objectionToCosts",
     "ListElement": "Objection to Costs"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "ID": "judgeCostsClaimGrantedEnum",
+    "ListElementCode": "Adjourn",
+    "ListElement": "Adjourn",
+    "DisplayOrder": 3
   }
 ]
