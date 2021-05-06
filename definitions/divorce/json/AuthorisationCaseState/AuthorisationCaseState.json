@@ -3194,13 +3194,6 @@
   {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "PendingRejection",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
@@ -3390,13 +3383,6 @@
   {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingService",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "ClarificationSubmitted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
@@ -3505,47 +3491,11 @@
     "CaseStateID": "GeneralConsiderationComplete",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
-  }
-,
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Submitted",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingPayment",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingDocuments",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingHWFDecision",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Issued",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
