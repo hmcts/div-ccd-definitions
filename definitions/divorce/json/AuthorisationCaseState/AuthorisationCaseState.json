@@ -3493,13 +3493,6 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingHWFDecision",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "01/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "DAPending",
