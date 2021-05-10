@@ -3263,8 +3263,8 @@
     "Description": "Service application received",
     "DisplayOrder": 11,
     "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AosAwaiting;AosDrafted;Submitted;Issued;AwaitingDocuments",
-    "PostConditionState": "AwaitingServicePayment",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/received-service-added-date",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/application-service-received",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public"
   },

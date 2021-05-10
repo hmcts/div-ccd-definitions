@@ -9666,6 +9666,19 @@
     "ShowSummaryChangeOption": "No"
   },
   {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "serviceApplicationReceived",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "PageID": "serviceApplicationReceived1",
+    "PageLabel": "Service application received",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "29/07/2020",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "makeServiceDecision",

@@ -3545,8 +3545,18 @@
     "TabID": "serviceApplicationCourtAdmin",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPayment",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
     "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdmin",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationPayment",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3596,8 +3606,18 @@
     "TabID": "serviceApplicationCourtAdminBeta",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPayment",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
     "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminBeta",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationPayment",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3647,8 +3667,18 @@
     "TabID": "serviceApplicationCourtAdminLA",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPayment",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
     "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationCourtAdminLA",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationPayment",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "01/03/2021",
@@ -3698,8 +3728,18 @@
     "TabID": "serviceApplicationSuperUser",
     "TabLabel": "Service Application",
     "TabDisplayOrder": 23,
-    "CaseFieldID": "ServiceApplicationPayment",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
     "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "serviceApplicationSuperUser",
+    "TabLabel": "Service Application",
+    "TabDisplayOrder": 23,
+    "CaseFieldID": "ServiceApplicationPayment",
+    "TabFieldDisplayOrder": 5
   },
   {
     "LiveFrom": "01/03/2021",

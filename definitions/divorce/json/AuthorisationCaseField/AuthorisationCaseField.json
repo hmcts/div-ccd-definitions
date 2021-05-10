@@ -19877,6 +19877,48 @@
   {
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ServiceApplicationPaymentRequired",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "23/07/2020",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationType",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
