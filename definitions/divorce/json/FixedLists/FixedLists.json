@@ -981,55 +981,71 @@
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "wrexham",
-    "ListElement": "Wrexham Divorce Unit"
+    "ListElement": "Wrexham Divorce Unit",
+    "DisplayOrder": 10
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "southampton",
-    "ListElement": "The Family Court at Southampton"
+    "ListElement": "The Family Court at Southampton",
+    "DisplayOrder": 9
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "portTalbot",
-    "ListElement": "Port Talbot Justice Centre"
+    "ListElement": "Port Talbot Justice Centre",
+    "DisplayOrder": 8
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "nottinghamJustice",
-    "ListElement": "Nottingham Justice Centre"
+    "ListElement": "Nottingham Justice Centre",
+    "DisplayOrder": 7
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "nottingham",
-    "ListElement": "Nottingham County Court and Family Court Hearing Centre"
+    "ListElement": "Nottingham County Court and Family Court Hearing Centre",
+    "DisplayOrder": 6
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "newport",
-    "ListElement": "Newport (Gwent) Civil and Family Court"
+    "ListElement": "Newport (Gwent) Civil and Family Court",
+    "DisplayOrder": 5
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "liverpool",
-    "ListElement": "Liverpool Civil and Family Court Hearing Centre"
+    "ListElement": "Liverpool Civil and Family Court Hearing Centre",
+    "DisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "ID": "DnCourtEnum",
+    "ListElementCode": "buryStEdmunds",
+    "ListElement": "Bury St. Edmunds Regional Divorce Centre",
+    "DisplayOrder": 3
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "bradford",
-    "ListElement": "Bradford Law Courts"
+    "ListElement": "Bradford Law Courts",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/01/2019",
     "ID": "DnCourtEnum",
     "ListElementCode": "birmingham",
-    "ListElement": "Birmingham Civil and Family Justice Centre"
+    "ListElement": "Birmingham Civil and Family Justice Centre",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "25/06/2019",
