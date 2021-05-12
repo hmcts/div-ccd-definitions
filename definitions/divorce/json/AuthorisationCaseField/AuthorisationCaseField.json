@@ -19875,42 +19875,42 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRUD"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRUD"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "23/07/2020",
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "ServiceApplicationPaymentRequired",
     "UserRole": "citizen",

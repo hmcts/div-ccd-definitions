@@ -496,7 +496,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "05/10/2020",
+    "LiveFrom": "12/05/2021",
     "ID": "DivorceServiceApplication",
     "ListElementCode": "PaymentRequired",
     "FieldType": "YesOrNo",
