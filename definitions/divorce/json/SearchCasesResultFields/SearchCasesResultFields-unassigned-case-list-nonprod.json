@@ -1,0 +1,93 @@
+[
+  {
+    "LiveFrom": "03/02/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "[CASE_REFERENCE]",
+    "ListElementCode": "",
+    "Label": "Case reference",
+    "DisplayOrder": "1",
+    "ResultsOrdering": "1:ASC",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "12/05/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "D8RespondentSolicitorReference",
+    "ListElementCode": "",
+    "Label": "Respondent Solicitor Reference",
+    "DisplayOrder": "2",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "12/05/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "ListElementCode": "",
+    "Label": "Respondent Solicitor's Name",
+    "DisplayOrder": "3",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "D8PetitionerLastName",
+    "ListElementCode": "",
+    "Label": "Pet. Last name",
+    "DisplayOrder": "4",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "D8RespondentLastName",
+    "ListElementCode": "",
+    "Label": "Resp. Last name",
+    "DisplayOrder": "5",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "12/05/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "dueDate",
+    "ListElementCode": "",
+    "Label": "Due Date",
+    "DisplayOrder": "6",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "LiveTo": "",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "",
+    "CaseFieldID": "[STATE]",
+    "ListElementCode": "",
+    "Label": "Case status",
+    "DisplayOrder": "7",
+    "ResultsOrdering": "",
+    "DisplayContextParameter": "",
+    "UseCase": "orgcases"
+  }
+]
