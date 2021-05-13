@@ -151,7 +151,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDocuments",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -168,11 +168,11 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "13/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingHWFDecision",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
