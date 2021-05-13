@@ -147,7 +147,7 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "13/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDocuments",
     "UserRole": "caseworker-divorce-solicitor",
