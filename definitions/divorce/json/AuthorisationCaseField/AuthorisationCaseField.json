@@ -520,6 +520,27 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DivorceIsNamed",
     "UserRole": "caseworker-divorce-courtadmin",
     "CRUD": "CRU"
@@ -5945,6 +5966,13 @@
   {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DivorceIsNamed",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -8248,6 +8276,13 @@
   {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "16/05/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DivorceIsNamed",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
@@ -10307,6 +10342,13 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DivorceCostsClaim",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaimExplain",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
@@ -22077,6 +22119,1280 @@
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "PetitionerOrganisationPolicy",
     "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespondentOrganisationPolicy",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PetitionerLastName",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "03/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentLastName",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolDigital",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelRespondentServiceDetails-DigitalOrPaper",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CR"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentSolicitorName",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespSolAgreeToReceiveEmails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorce",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8DivorceCostsClaim",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PetitionerFirstName",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8PetitionerLastName",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentFirstName",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentLastName",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceBehaviourDetails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "minipetitionlink",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespConfirmReadPetition",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWhereDetails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhere",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhen",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWhenDetails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryDetails",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAOSAdultery",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespJurisdictionAgree",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespLegalProceedingsExist",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAgreeToCosts",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespCostsAmount",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespCostsReason",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespAOS2yrConsent",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespWillDefendDivorce",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "UiOnly_RespWillDefendDivorce",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDefenseResponse",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespHardshipDescription",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespConsiderFinancialSituation",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespJurisdictionDisagreeReason",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespLegalProceedingsDescription",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DigitalNoticeOfProceedings",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsEmail",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "RespContactMethodIsDigital",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDate",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "24/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "SuccessfulServedByBailiff",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "ReasonFailureToServe",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtAddress",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtEmail",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtDetailsIntro",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffLocalCourtDetailsLabel",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffReturnLabel",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "BailiffApplicationGranted",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LastServiceApplicationType",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsClaimGranted",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeWhoPaysCosts",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeTypeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "JudgeCostsOrderAdditionalInfo",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelLegalAdvisorDecision",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "labelJudgeCostsDecision",
+    "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
   }
 ]

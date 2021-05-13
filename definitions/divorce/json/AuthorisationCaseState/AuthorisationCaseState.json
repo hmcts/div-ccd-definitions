@@ -203,10 +203,10 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPayment",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
   },
   {
@@ -287,10 +287,10 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Issued",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "RU"
   },
   {
@@ -343,17 +343,24 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "solicitorAwaitingPaymentConfirmation",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
@@ -371,10 +378,10 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
@@ -1932,10 +1939,10 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "31/05/2019",
+    "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingService",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "CRU"
   },
   {
@@ -3539,6 +3546,342 @@
     "LiveFrom": "12/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Issued",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "DAPending",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "31/07/2020",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-systemupdate",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-bulkscan",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServicePayment",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingServiceConsideration",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "02/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "3/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
+    "UserRole": "caseworker-divorce-pcqextractor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "26/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffService",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingBailiffReferral",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "26/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "IssuedToBailiff",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   }

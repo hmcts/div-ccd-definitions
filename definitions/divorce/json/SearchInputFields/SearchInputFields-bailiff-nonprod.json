@@ -1,9 +1,0 @@
-[
-  {
-    "LiveFrom": "02/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "LastServiceApplicationType",
-    "Label": "What type of service application has been received?",
-    "DisplayOrder": 21
-  }
-]
