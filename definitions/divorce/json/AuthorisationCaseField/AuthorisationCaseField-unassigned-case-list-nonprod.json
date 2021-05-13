@@ -2725,7 +2725,7 @@
   {
     "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "D8RespondentSolicitorReference",
+    "CaseFieldID": "respondentSolicitorReference",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },

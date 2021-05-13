@@ -17,7 +17,7 @@
     "LiveTo": "",
     "CaseTypeID": "DIVORCE",
     "UserRole": "",
-    "CaseFieldID": "D8RespondentSolicitorReference",
+    "CaseFieldID": "respondentSolicitorReference",
     "ListElementCode": "",
     "Label": "Respondent Solicitor Reference",
     "DisplayOrder": "2",
