@@ -1,0 +1,9 @@
+[
+  {
+    "LiveFrom": "01/01/2019",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  }
+]

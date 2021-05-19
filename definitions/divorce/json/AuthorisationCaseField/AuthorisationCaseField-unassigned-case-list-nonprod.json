@@ -1,12 +1,5 @@
 [
   {
-    "LiveFrom": "01/01/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
-    "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "CRU"
-  },
-  {
     "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "respondentSolicitorReference",
