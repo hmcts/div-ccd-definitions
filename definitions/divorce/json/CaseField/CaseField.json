@@ -5114,7 +5114,7 @@
     "LiveFrom": "08/09/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "GeneralEmailDateTime",
-    "Label": "General letter date",
+    "Label": "General email date",
     "FieldType": "Date",
     "SecurityClassification": "Public"
   },
@@ -5149,6 +5149,15 @@
     "ID": "GeneralEmailDetails",
     "Label": "Please provide details",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "GeneralEmailDetails",
+    "Label": "General emails",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "GeneralEmailDetails",
     "SecurityClassification": "Public"
   },
   {
