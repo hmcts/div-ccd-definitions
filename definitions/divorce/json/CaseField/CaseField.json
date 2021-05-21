@@ -5154,7 +5154,7 @@
   {
     "LiveFrom": "20/05/2021",
     "CaseTypeID": "DIVORCE",
-    "ID": "GeneralEmailDetails",
+    "ID": "GeneralEmailDetailsCollection",
     "Label": "General emails",
     "FieldType": "Collection",
     "FieldTypeParameter": "GeneralEmailDetails",
