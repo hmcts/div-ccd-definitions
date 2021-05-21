@@ -2283,6 +2283,76 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "scannedDocuments",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "LiveFrom": "24/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "ServiceApplicationDocuments",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "DocumentsUploadedDN",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "03/09/2020",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "GeneralOrders",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "DocumentsUploadedDnClarification",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "CertificateOfServiceDocument",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "LiveFrom": "21/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "documents",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "GeneralEmailDetailsCollection",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
     "TabID": "confidentialPetitionerCourtAdmin",
     "TabLabel": "Confidential Petitioner",
     "TabDisplayOrder": 11,
@@ -3377,16 +3447,6 @@
     "TabFieldDisplayOrder": 1
   },
   {
-    "LiveFrom": "03/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "GeneralOrders",
-    "TabFieldDisplayOrder": 6
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
@@ -3466,46 +3526,6 @@
     "TabDisplayOrder": 8,
     "CaseFieldID": "FurtherPBAReferenceNumbers",
     "TabFieldDisplayOrder": 8
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "scannedDocuments",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "LiveFrom": "24/09/2020",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "ServiceApplicationDocuments",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "DocumentsUploadedDN",
-    "TabFieldDisplayOrder": 5
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "DocumentsUploadedDnClarification",
-    "TabFieldDisplayOrder": 7
   },
   {
     "LiveFrom": "01/03/2021",
@@ -4474,16 +4494,6 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "NoticeOfProceedingsSolicitorFirm",
     "TabFieldDisplayOrder": 25
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "documents",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "CertificateOfServiceDocument",
-    "TabFieldDisplayOrder": 8
   },
   {
     "LiveFrom": "05/03/2021",
