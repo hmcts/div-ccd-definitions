@@ -698,7 +698,7 @@
     "LiveFrom": "20/05/2021",
     "ID": "GeneralEmailDetails",
     "ListElementCode": "GeneralEmailDateTime",
-    "FieldType": "Date",
+    "FieldType": "DateTime",
     "ElementLabel": "General email date",
     "SecurityClassification": "Public"
   },
