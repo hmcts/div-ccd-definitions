@@ -2343,7 +2343,7 @@
     "LiveFrom": "21/05/2021",
     "CaseTypeID": "DIVORCE",
     "Channel": "CaseWorker",
-    "TabID": "documents",:
+    "TabID": "documents",
     "TabLabel": "Documents",
     "TabDisplayOrder": 10,
     "CaseFieldID": "GeneralEmailDetailsCollection",
