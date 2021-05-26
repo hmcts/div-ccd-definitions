@@ -808,6 +808,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8DivorceCostsClaimExplain",
+    "Label": "Cost details:",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8DivorceIsNamed",
     "Label": "D8DivorceIsNamed",
     "FieldType": "YesOrNo",
@@ -1935,7 +1943,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "DerivedPetitionerSolicitorAddr",
-    "Label": "Firm address/DX address",
+    "Label": "Petitioner Solicitor's Firm address/DX address",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -5292,6 +5300,244 @@
     "CaseTypeID": "DIVORCE",
     "ID": "LabelReturnToPreviousStatePara-2",
     "Label": "This event returns the case to the state it was in before the general referral was made e.g. if the case was in ‘Awaiting DN application’ when the general referral was created, then it will be returned to ‘Awaiting DN application’.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "18/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "PetitionerOrganisationPolicy",
+    "Label": "Petitioner solicitor's firm",
+    "HintText": "Petitioner solicitor's firm",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "26/01/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespondentOrganisationPolicy",
+    "Label": "Respondent solicitor's firm",
+    "HintText": "Respondent Organisation Details",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "04/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolDigital",
+    "Label": "Digital respondent case",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "05/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespondentServiceDetails-DigitalOrPaper",
+    "Label": "If the respondent solicitor's firm is registered with MyHMCTS, you can assign the case to them. This will allow the respondent solicitor to respond digitally. If you cannot find the respondent solicitor, a paper AOS pack will be sent to the respondent's solicitor's address entered above.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "RespSolAgreeToReceiveEmails",
+    "Label": "I confirm I am willing to accept service of all correspondence and orders by email at the email address stated above.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmailHeader",
+    "Label": "### Email contact details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "17/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelRespSolEmail",
+    "Label": "Email address will be used to send case updates.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "DigitalNoticeOfProceedings",
+    "Label": "Digital Notice of Proceedings?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "NoticeOfProceedingsEmail",
+    "Label": "Notice of Proceedings email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "NoticeOfProceedingsSolicitorFirm",
+    "Label": "Notice of Proceedings solicitor's firm",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CertificateOfServiceDate",
+    "Label": "Certificate of service date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "SuccessfulServedByBailiff",
+    "Label": "Did bailiff service successfully?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ReasonFailureToServe",
+    "Label": "Reason for failure to serve",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsIntro",
+    "Label": "Caseworker will send the Bailiff application together with the divorce application, invitation letter for the respondent and a certificate of service to the local court.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtDetailsLabel",
+    "Label": "### Local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtAddress",
+    "Label": "Court name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LocalCourtEmail",
+    "Label": "Email address",
+    "FieldType": "Email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "25/02/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "CertificateOfServiceDocument",
+    "Label": "Certificate of Service",
+    "FieldType": "DivorceDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffLocalCourtDetailsLabel",
+    "Label": "### Bailiff local court details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "BailiffReturnLabel",
+    "Label": "### Bailiff return",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "22/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelContinueBecauseOfSuccessfulBailiff",
+    "Label": "You are able to continue with the divorce without seeing the respondent answers because the Certificate of Service shows that the Divorce was successfully served by a court bailiff.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "08/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LastServiceApplicationType",
+    "Label": "What type of service application has been received?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "ServiceApplicationTypeEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsDecision",
+    "Label": "Judge costs decision made?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsClaimGranted",
+    "Label": "Grant Cost Order?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "judgeCostsClaimGrantedEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeWhoPaysCosts",
+    "Label": "Who should pay?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "WhoPaysCostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeTypeCostsDecision",
+    "Label": "Make a cost order:",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "CostOrderList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "JudgeCostsOrderAdditionalInfo",
+    "Label": "Additional info",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelLegalAdvisorDecision",
+    "Label": "## Legal advisor decision",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "12/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "labelJudgeCostsDecision",
+    "Label": "## Judge costs decision",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
