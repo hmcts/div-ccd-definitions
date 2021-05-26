@@ -117,8 +117,12 @@ describe('CaseTypeTab (nonprod)', () => {
 
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
+
     const objectsWithInvalidCaseFieldId = filter(caseTypeTab, field => {
-      return validFields.indexOf(field.CaseFieldID) === -1;
+      if (field.CaseFieldID !== '[STATE]') {
+        return validFields.indexOf(field.CaseFieldID) === -1;
+      }
+      return false;
     });
     expect(objectsWithInvalidCaseFieldId).to.eql([]);
   });

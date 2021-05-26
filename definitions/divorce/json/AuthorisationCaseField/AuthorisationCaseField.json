@@ -7248,7 +7248,7 @@
     "LiveFrom": "29/03/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CaseHistory",
-    "UserRole": "caseworker-divorce-solicitor",
+    "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
   },
   {
