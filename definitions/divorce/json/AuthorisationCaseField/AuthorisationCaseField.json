@@ -7254,6 +7254,13 @@
   {
     "LiveFrom": "29/03/2019",
     "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "CaseHistory",
+    "UserRole": "[CREATOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "29/03/2019",
+    "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CoRespLinkedToCase",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
