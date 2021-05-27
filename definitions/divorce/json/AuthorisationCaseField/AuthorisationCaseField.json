@@ -7245,14 +7245,14 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "29/03/2019",
+    "LiveFrom": "27/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CaseHistory",
     "UserRole": "[PETSOLICITOR]",
     "CRUD": "R"
   },
   {
-    "LiveFrom": "29/03/2019",
+    "LiveFrom": "27/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "CaseHistory",
     "UserRole": "[CREATOR]",

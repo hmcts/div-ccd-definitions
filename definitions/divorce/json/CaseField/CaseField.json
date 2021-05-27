@@ -5542,7 +5542,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "27/05/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "LabelState",
     "Label": "#### Case State:  ${[STATE]}",

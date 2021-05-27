@@ -77,13 +77,6 @@ function assertTabIsNotVisibleForGivenUserRoles(caseTypeTabs, tabLabel, userRole
   assertTabVisibilityForGivenUserRoles(caseTypeTabs, tabLabel, userRole, false);
 }
 
-function ignoreMetaDataFields(field, validFields) {
-  if (field.CaseFieldID !== '[STATE]') {
-    return validFields.indexOf(field.CaseFieldID) === -1;
-  }
-  return false;
-}
-
 describe('CaseTypeTab (nonprod)', () => {
   let caseField = [];
   let caseTypeTab = [];
@@ -124,9 +117,8 @@ describe('CaseTypeTab (nonprod)', () => {
 
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
-
     const objectsWithInvalidCaseFieldId = filter(caseTypeTab, field => {
-      return ignoreMetaDataFields(field, validFields);
+      return validFields.indexOf(field.CaseFieldID) === -1;
     });
     expect(objectsWithInvalidCaseFieldId).to.eql([]);
   });
@@ -213,7 +205,7 @@ describe('CaseTypeTab (prod)', () => {
   it('should contain valid case field IDs', () => {
     const validFields = uniq(map(caseField, 'ID'));
     const objectsWithInvalidCaseId = filter(caseTypeTab, field => {
-      return ignoreMetaDataFields(field, validFields);
+      return validFields.indexOf(field.CaseFieldID) === -1;
     });
     expect(objectsWithInvalidCaseId).to.eql([]);
   });
