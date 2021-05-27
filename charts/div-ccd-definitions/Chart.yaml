@@ -1,13 +1,13 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.4
+version: 2.0.5
 dependencies:
   - name: nodejs
     version: ~2.3.4
     repository: '@hmctspublic'
   - name: ccd
-    version: ~5.0.2
+    version: ~5.0.4
     repository: '@hmctspublic'
     tags:
       - ccd-pr
