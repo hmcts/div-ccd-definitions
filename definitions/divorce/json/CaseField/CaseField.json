@@ -5540,5 +5540,13 @@
     "Label": "## Judge costs decision",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelState",
+    "Label": "#### Case State:  ${[STATE]}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

@@ -23394,5 +23394,12 @@
     "CaseFieldID": "labelJudgeCostsDecision",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "LabelState",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "CRU"
   }
 ]
