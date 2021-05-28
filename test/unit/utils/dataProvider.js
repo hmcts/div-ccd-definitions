@@ -70,19 +70,6 @@ module.exports = {
       'CaseEventToFields-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
-    CaseField: getCaseFieldDefinitions([
-      'CaseField'
-    ]),
-    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
-    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
-    CaseTypeTab: getCaseTypeTabDefinitions([
-      'CaseTypeTab',
-      'CaseTypeTab-object-to-costs-nonprod'
-    ]),
-    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
-    FixedLists: getFixedListsDefinitions([
-      'FixedLists'
-    ]),
     CaseField: getCaseFieldDefinitions(['CaseField']),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
