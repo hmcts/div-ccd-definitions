@@ -2851,6 +2851,7 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "AwaitingReissue",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -3535,6 +3536,18 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "AwaitingBailiffReferral;AwaitingBailiffService;IssuedToBailiff;AwaitingServiceConsideration;AwaitingServicePayment;AwaitingGeneralReferralPayment;AwaitingGeneralConsideration;GeneralConsiderationComplete;DNPronounced",
     "PostConditionState": "Issued",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/03/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "judgeCostOrderDecision",
+    "Name": "Judge costs decision",
+    "Description": "Judge costs decision",
+    "DisplayOrder": 30,
+    "PreConditionState(s)": "AwaitingPronouncement",
+    "PostConditionState": "AwaitingPronouncement",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/judge-costs-decision",
     "SecurityClassification": "Public"
   }
 ]

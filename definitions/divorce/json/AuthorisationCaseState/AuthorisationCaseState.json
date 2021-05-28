@@ -147,11 +147,11 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "13/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingDocuments",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -168,11 +168,11 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "13/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingHWFDecision",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -203,7 +203,14 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingPayment",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingPayment",
     "UserRole": "caseworker-divorce-solicitor",
@@ -287,7 +294,14 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Issued",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "RU"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Issued",
     "UserRole": "caseworker-divorce-solicitor",
@@ -343,14 +357,35 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "solicitorAwaitingPaymentConfirmation",
     "UserRole": "caseworker-divorce-solicitor",
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "SOTAgreementPayAndSubmitRequired",
     "UserRole": "caseworker-divorce-solicitor",
@@ -371,7 +406,14 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "01/01/2017",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "Submitted",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-divorce-solicitor",
@@ -1932,7 +1974,14 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "31/05/2019",
+    "LiveFrom": "28/04/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseStateID": "AwaitingService",
+    "UserRole": "[PETSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "12/05/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "AwaitingService",
     "UserRole": "caseworker-divorce-solicitor",
@@ -3187,13 +3236,6 @@
   {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "SOTAgreementPayAndSubmitRequired",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "PendingRejection",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
@@ -3383,13 +3425,6 @@
   {
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingService",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "26/03/2021",
-    "CaseTypeID": "DIVORCE",
     "CaseStateID": "ClarificationSubmitted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
@@ -3496,49 +3531,6 @@
     "LiveFrom": "26/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseStateID": "GeneralConsiderationComplete",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  }
-,
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Submitted",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "solicitorAwaitingPaymentConfirmation",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingPayment",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingDocuments",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "AwaitingHWFDecision",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "12/04/2021",
-    "CaseTypeID": "DIVORCE",
-    "CaseStateID": "Issued",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },

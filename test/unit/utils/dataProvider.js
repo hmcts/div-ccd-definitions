@@ -52,12 +52,10 @@ module.exports = {
   nonprod: {
     AuthorisationCaseEvent: getAuthorisationCaseEventDefinitions([
       'AuthorisationCaseEvent',
-      'AuthorisationCaseEvent-object-to-costs-nonprod',
       'AuthorisationCaseEvent-nonprod'
     ]),
     AuthorisationCaseField: getAuthorisationCaseFieldDefinitions([
       'AuthorisationCaseField',
-      'AuthorisationCaseField-object-to-costs-nonprod',
       'AuthorisationCaseField-nonprod'
     ]),
     AuthorisationCaseState: getAuthorisationCaseStateDefinitions(['AuthorisationCaseState']),
@@ -65,18 +63,15 @@ module.exports = {
     AuthorisationComplexType: getAuthorisationComplexTypeDefinitions(['AuthorisationComplexType']),
     CaseEvent: getCaseEventDefinitions([
       'CaseEvent',
-      'CaseEvent-object-to-costs-nonprod',
       'CaseEvent-nonprod'
     ]),
     CaseEventToFields: getCaseEventToFieldsDefinitions([
       'CaseEventToFields',
-      'CaseEventToFields-object-to-costs-nonprod',
       'CaseEventToFields-nonprod'
     ]),
     CaseEventToComplexTypes: getCaseEventToComplexTypesDefinitions(['CaseEventToComplexTypes']),
     CaseField: getCaseFieldDefinitions([
-      'CaseField',
-      'CaseField-object-to-costs-nonprod'
+      'CaseField'
     ]),
     CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
     CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
@@ -86,9 +81,14 @@ module.exports = {
     ]),
     ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
     FixedLists: getFixedListsDefinitions([
-      'FixedLists',
-      'FixedLists-object-to-costs-nonprod'
+      'FixedLists'
     ]),
+    CaseField: getCaseFieldDefinitions(['CaseField']),
+    CaseRoles: Object.assign(load('definitions/divorce/json/CaseRoles'), []),
+    CaseType: Object.assign(load('definitions/divorce/json/CaseType'), []),
+    CaseTypeTab: getCaseTypeTabDefinitions(['CaseTypeTab']),
+    ComplexTypes: getComplexTypesDefinitions(['ComplexTypes']),
+    FixedLists: getFixedListsDefinitions(['FixedLists']),
     Jurisdiction: Object.assign(load('definitions/divorce/json/Jurisdiction'), []),
     SearchAlias: Object.assign(load('definitions/divorce/json/SearchAlias'), []),
     SearchInputFields: getSearchInputFieldsDefinitions(['SearchInputFields']),
