@@ -67,12 +67,18 @@ function checkAuthStateConfig(conditionState, allAuthForEvent, caseType, eventNa
       console.log(`"${eventName}" event for "${userRole}" is missing authorisation for state "${conditionState}"`);
     }
 
-    expect(conditionAuthState.length).to.eql(1);
+    // this is exception, we must do it. Permissions are granted by case roles
+    if (eventName === 'solicitorCreate' && userRole === 'caseworker-divorce-solicitor' && conditionState === 'SOTAgreementPayAndSubmitRequired') {
+      console.log('This is exception. Valid permissions are granted to case roles');
+    } else {
+      expect(conditionAuthState.length).to.eql(1);
 
-    if (!conditionAuthState[0].CRUD.match(acceptedPermissions)) {
-      console.log(`"${eventName}" event for "${userRole}" is missing permissions for state "${conditionState}"`);
+      if (!conditionAuthState[0].CRUD.match(acceptedPermissions)) {
+        console.log(`"${eventName}" event for "${userRole}" is missing permissions for state "${conditionState}"`);
+      }
+
+      expect(conditionAuthState[0].CRUD).to.match(acceptedPermissions);
     }
-    expect(conditionAuthState[0].CRUD).to.match(acceptedPermissions);
   });
 }
 
@@ -173,6 +179,57 @@ function minimumCrForAllPostConditionStatesWhichHaveEmptyPreConditionStates() {
   });
 }
 
+function assertUserRoleCanTriggerEventOnCaseInState (eventId, role, stateId) {
+  // get permissions user-event
+  // assert at least CRU
+  // get pre states
+  // assert at least RU
+  // get post states
+  // assert at least CR
+
+  const testedEvent = CaseEvent.find(event => {
+    return event.ID === eventId;
+  });
+  /* eslint-disable no-unused-expressions */
+  expect(testedEvent).not.undefined;
+
+  /* eslint-disable no-unused-expressions */
+  const eventPermission = AuthorisationCaseEvent
+    .find(auth => {
+      return auth.CaseEventID === eventId && auth.UserRole === role;
+    });
+  expect(eventPermission).not.undefined;
+
+  expect(eventPermission.CRUD).to.contains('CRU');
+  const preConditionStates = testedEvent['PreConditionState(s)'];
+  const stateRegExp = `/\b${stateId}\b/`;
+  // `*` is for all states (then it's also for expected state)
+  if (preConditionStates === '*' || preConditionStates.to.match(stateRegExp)) {
+    /* eslint-disable no-unused-expressions */
+    const permissionsForState = AuthorisationCaseState
+      .find(auth => {
+        return auth.CaseStateID === stateId && auth.UserRole === role;
+      });
+    expect(permissionsForState).not.undefined;
+    expect(permissionsForState.CRUD).to.contains('RU');
+  } else {
+    expect.fail(null, null, 'no permissions for state');
+  }
+
+  const postConditionState = testedEvent.PostConditionState;
+  if (preConditionStates === '*' || postConditionState === stateId) {
+    /* eslint-disable no-unused-expressions */
+    const permissionsForState = AuthorisationCaseState
+      .find(auth => {
+        return auth.CaseStateID === stateId && auth.UserRole === role;
+      });
+    expect(permissionsForState).not.undefined;
+    expect(permissionsForState.CRUD).to.contains('CR');
+  } else {
+    expect.fail(null, null, 'no permissions for state');
+  }
+}
+
 function runAllTests() {
   it(
     'should have at least CRU or RU access level for all MANDATORY, OPTIONAL and READONLY show/hide event fields',
@@ -192,6 +249,17 @@ function runAllTests() {
   it('should give user minimum CR access for all post-condition states which have empty pre-condition states',
     minimumCrForAllPostConditionStatesWhichHaveEmptyPreConditionStates
   );
+
+  // it's only PoC - code can look much better if this is acceptable way of testing
+  describe('Specific permissions for user roles', () => {
+    const eventId = 'UpdateLanguage';
+    const role = 'caseworker-divorce-solicitor';
+    const stateId = 'solicitorAwaitingPaymentConfirmation';
+
+    it(`User with role ${role} can trigger ${eventId} on case in ${stateId}`, () => {
+      assertUserRoleCanTriggerEventOnCaseInState(eventId, role, stateId);
+    });
+  });
 }
 
 describe('Events authorisation validation', () => {
