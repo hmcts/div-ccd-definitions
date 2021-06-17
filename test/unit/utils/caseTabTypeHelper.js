@@ -2,6 +2,7 @@ const { uniqWith, filter, isEqual, map } = require('lodash');
 const { assert } = require('chai');
 
 const nonProdTabDisplayOrder = {
+  State: 1,
   History: 1,
   petitionDetails: 2,
   aosDetails: 3,
@@ -32,6 +33,7 @@ const nonProdTabDisplayOrder = {
 };
 
 const nonProdTabIds = [
+  'State',
   'History',
   'General',
   'petitionDetails',
