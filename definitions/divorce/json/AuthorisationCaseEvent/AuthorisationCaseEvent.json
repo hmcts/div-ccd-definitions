@@ -9112,5 +9112,54 @@
     "CaseEventID": "judgeCostOrderDecision",
     "UserRole": "citizen",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solConfirmPersonalService",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorApplyForDN",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorUpdateDN",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solicitorSOTDN",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "solApplyForDA",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "submitDnClarification",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "19/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendPetitionForRefusalSol",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRU"
   }
 ]
