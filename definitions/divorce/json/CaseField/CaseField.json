@@ -411,6 +411,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "D8RespondentRepresentedHomeAddress",
+    "Label": "Respondent's home address",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "D8RespondentSolicitorName",
