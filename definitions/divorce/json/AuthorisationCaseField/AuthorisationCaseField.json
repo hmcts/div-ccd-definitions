@@ -399,6 +399,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
@@ -406,9 +413,23 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
+    "UserRole": "caseworker-divorce-solicitor",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
@@ -5929,6 +5950,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
@@ -8246,6 +8274,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "16/05/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
@@ -10314,6 +10349,13 @@
     "LiveFrom": "01/01/2019",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "D8DerivedRespondentHomeAddress",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
     "UserRole": "caseworker-divorce-courtadmin-la",
     "CRUD": "CRU"
   },
