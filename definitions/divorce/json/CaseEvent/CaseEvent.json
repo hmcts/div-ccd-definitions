@@ -2982,6 +2982,8 @@
     "DisplayOrder": 15,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/create-general-email/clear-fields",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/create-general-email/store-fields",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/create-general-email",
     "ShowSummary": "Y",
     "SecurityClassification": "Public"
