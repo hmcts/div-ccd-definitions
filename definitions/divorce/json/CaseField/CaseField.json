@@ -808,6 +808,14 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "ID": "D8DivorceCostsClaimExplain",
+    "Label": "Cost details:",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "ID": "D8DivorceIsNamed",
     "Label": "D8DivorceIsNamed",
     "FieldType": "YesOrNo",
@@ -5530,6 +5538,14 @@
     "CaseTypeID": "DIVORCE",
     "ID": "labelJudgeCostsDecision",
     "Label": "## Judge costs decision",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "LabelState",
+    "Label": "#### Case State:  ${[STATE]}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
