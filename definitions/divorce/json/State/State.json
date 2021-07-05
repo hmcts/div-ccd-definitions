@@ -409,11 +409,11 @@
     "DisplayOrder": 34
   },
   {
-    "LiveFrom": "12/11/2020",
+    "LiveFrom": "07/05/2021",
     "CaseTypeID": "DIVORCE",
     "ID": "AwaitingProcessServerService",
-    "Name": "Awaiting process server service",
-    "Description": "Awaiting process server service",
+    "Name": "Awaiting process service",
+    "Description": "Awaiting process service",
     "DisplayOrder": 38,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
