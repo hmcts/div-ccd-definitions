@@ -9423,7 +9423,8 @@
     "PageID": "SolSummary",
     "PageDisplayOrder": 5,
     "FieldShowCondition": "D8StatementOfTruth=\"Banana\"",
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No",
+    "RetainHiddenValue": "Y"
   },
   {
     "LiveFrom": "01/01/2017",

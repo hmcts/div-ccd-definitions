@@ -83,12 +83,16 @@ describe('CaseTypeTab (nonprod)', () => {
   let sortedCaseTabs = [];
   let tabIds = [];
 
-  before(() => {
+  function initialiseVariablesInsideDescribe() {
     caseTypeTab = nonprod.CaseTypeTab;
     caseField = nonprod.CaseField;
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
+  }
+
+  before(() => {
+    initialiseVariablesInsideDescribe();
   });
 
   it('should contain unique case field ID per tab ID (no duplicate field in a tab)', () => {
@@ -101,6 +105,7 @@ describe('CaseTypeTab (nonprod)', () => {
     expect(uniqResult).to.eql(caseTypeTab);
   });
 
+  initialiseVariablesInsideDescribe();
   tabIds.forEach(tabId => {
     it(`all ${tabId} fields should have the expected tab order ${nonProdTabDisplayOrder[tabId]}`, () => {
       const allTabFields = uniq(filter(caseTypeTab, field => {
@@ -170,12 +175,16 @@ describe('CaseTypeTab (prod)', () => {
   let sortedCaseTabs = [];
   let tabIds = [];
 
-  before(() => {
+  function initialiseVariablesInsideDescribe() {
     caseTypeTab = prod.CaseTypeTab;
     caseField = prod.CaseField;
 
     sortedCaseTabs = sortCaseTypeTabs(caseTypeTab);
     tabIds = uniq(map(sortedCaseTabs, 'TabID'));
+  }
+
+  before(() => {
+    initialiseVariablesInsideDescribe();
   });
 
   it('should contain unique case field ID per tab ID (no duplicate field in a tab)', () => {
@@ -188,6 +197,7 @@ describe('CaseTypeTab (prod)', () => {
     expect(uniqResult).to.eql(caseTypeTab);
   });
 
+  initialiseVariablesInsideDescribe();
   tabIds.forEach(tabId => {
     it(`all ${tabId} fields should have the expected tab order ${prodTabDisplayOrder[tabId]}`, () => {
       const allTabFields = uniq(filter(caseTypeTab, field => {
