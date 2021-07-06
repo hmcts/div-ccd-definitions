@@ -462,7 +462,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8RespondentSolicitorName",
+    "CaseFieldID": "D8RespondentRepresentedHomeAddress",
     "TabFieldDisplayOrder": 42
   },
   {
@@ -472,7 +472,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8RespondentSolicitorCompany",
+    "CaseFieldID": "D8RespondentSolicitorName",
     "TabFieldDisplayOrder": 43
   },
   {
@@ -482,7 +482,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
+    "CaseFieldID": "D8RespondentSolicitorCompany",
     "TabFieldDisplayOrder": 44
   },
   {
@@ -492,8 +492,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "CaseFieldID": "D8DerivedRespondentSolicitorAddr",
     "TabFieldDisplayOrder": 45
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8RespondentSolicitorEmail",
+    "TabFieldDisplayOrder": 46
   },
   {
     "LiveFrom": "05/02/2021",
@@ -503,16 +513,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "RespondentOrganisationPolicy",
-    "TabFieldDisplayOrder": 46
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "D8RespondentSolicitorPhone",
     "TabFieldDisplayOrder": 47
   },
   {
@@ -522,7 +522,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "respondentSolicitorReference",
+    "CaseFieldID": "D8RespondentSolicitorPhone",
     "TabFieldDisplayOrder": 48
   },
   {
@@ -532,7 +532,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorce",
+    "CaseFieldID": "respondentSolicitorReference",
     "TabFieldDisplayOrder": 49
   },
   {
@@ -542,9 +542,8 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryWishToName",
-    "TabFieldDisplayOrder": 50,
-    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
+    "CaseFieldID": "D8ReasonForDivorce",
+    "TabFieldDisplayOrder": 50
   },
   {
     "LiveFrom": "01/01/2017",
@@ -553,7 +552,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryIsNamed",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWishToName",
     "TabFieldDisplayOrder": 51,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -564,7 +563,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryDetails",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryIsNamed",
     "TabFieldDisplayOrder": 52,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -575,7 +574,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryDetails",
     "TabFieldDisplayOrder": 53,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -586,7 +585,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryAnyInfo2ndHand",
     "TabFieldDisplayOrder": 54,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -597,7 +596,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhen",
+    "CaseFieldID": "D8ReasonForDivorceAdultery2ndHandDetails",
     "TabFieldDisplayOrder": 55,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -608,7 +607,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryWhenDetails",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhen",
     "TabFieldDisplayOrder": 56,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -619,7 +618,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhere",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWhenDetails",
     "TabFieldDisplayOrder": 57,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -630,7 +629,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceAdulteryWhereDetails",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryKnowWhere",
     "TabFieldDisplayOrder": 58,
     "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
   },
@@ -641,8 +640,19 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceBehaviourDetails",
+    "CaseFieldID": "D8ReasonForDivorceAdulteryWhereDetails",
     "TabFieldDisplayOrder": 59,
+    "FieldShowCondition": "D8ReasonForDivorce=\"adultery\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8ReasonForDivorceBehaviourDetails",
+    "TabFieldDisplayOrder": 60,
     "FieldShowCondition": "D8ReasonForDivorce=\"unreasonable-behaviour\""
   },
   {
@@ -653,7 +663,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8ReasonForDivorce2YearSepConsentGiven",
-    "TabFieldDisplayOrder": 60,
+    "TabFieldDisplayOrder": 61,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-2-years\""
   },
   {
@@ -664,17 +674,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8MentalSeparationDate",
-    "TabFieldDisplayOrder": 61,
-    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "D8PhysicalSeparationDate",
     "TabFieldDisplayOrder": 62,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -685,7 +684,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceSeperationDate",
+    "CaseFieldID": "D8PhysicalSeparationDate",
     "TabFieldDisplayOrder": 63,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -696,7 +695,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceSeperation",
+    "CaseFieldID": "D8ReasonForDivorceSeperationDate",
     "TabFieldDisplayOrder": 64,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -707,7 +706,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgain",
+    "CaseFieldID": "D8ReasonForDivorceSeperation",
     "TabFieldDisplayOrder": 65,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -718,7 +717,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgainDetails",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgain",
     "TabFieldDisplayOrder": 66,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -729,7 +728,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LivedApartSinceSeparation",
+    "CaseFieldID": "SeparationLivedTogetherAsCoupleAgainDetails",
     "TabFieldDisplayOrder": 67,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -740,7 +739,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
+    "CaseFieldID": "D8LivedApartSinceSeparation",
     "TabFieldDisplayOrder": 68,
     "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
@@ -751,9 +750,9 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceDesertionAgreed",
+    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermitted",
     "TabFieldDisplayOrder": 69,
-    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"separation-*\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -762,7 +761,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceDesertionDetails",
+    "CaseFieldID": "D8ReasonForDivorceDesertionAgreed",
     "TabFieldDisplayOrder": 70,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
@@ -773,7 +772,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8ReasonForDivorceDesertionDate",
+    "CaseFieldID": "D8ReasonForDivorceDesertionDetails",
     "TabFieldDisplayOrder": 71,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
@@ -784,7 +783,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LivedApartSinceDesertion",
+    "CaseFieldID": "D8ReasonForDivorceDesertionDate",
     "TabFieldDisplayOrder": 72,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
@@ -795,7 +794,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
+    "CaseFieldID": "D8LivedApartSinceDesertion",
     "TabFieldDisplayOrder": 73,
     "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
@@ -806,9 +805,9 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DesertionTimeTogetherPermitted",
+    "CaseFieldID": "D8LivedTogetherMoreTimeThanPermittedDesert",
     "TabFieldDisplayOrder": 74,
-    "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\""
+    "FieldShowCondition": "D8ReasonForDivorce=\"desertion\""
   },
   {
     "LiveFrom": "01/01/2017",
@@ -817,7 +816,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8SeparationTimeTogetherPermitted",
+    "CaseFieldID": "D8DesertionTimeTogetherPermitted",
     "TabFieldDisplayOrder": 75,
     "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\""
   },
@@ -828,8 +827,19 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8SeparationReferenceDate",
+    "CaseFieldID": "D8SeparationTimeTogetherPermitted",
     "TabFieldDisplayOrder": 76,
+    "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8SeparationReferenceDate",
+    "TabFieldDisplayOrder": 77,
     "FieldShowCondition": "D8ReasonForDivorce=\"hiddenfield\""
   },
   {
@@ -840,7 +850,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8JurisdictionConnection",
-    "TabFieldDisplayOrder": 77,
+    "TabFieldDisplayOrder": 78,
     "FieldShowCondition": "NewLegalConnectionPolicy!=\"Yes\""
   },
   {
@@ -851,7 +861,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8JurisdictionConnectionNewPolicy",
-    "TabFieldDisplayOrder": 78,
+    "TabFieldDisplayOrder": 79,
     "FieldShowCondition": "NewLegalConnectionPolicy=\"Yes\""
   },
   {
@@ -862,16 +872,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DerivedLivingArrangementsLastLivedAddr",
-    "TabFieldDisplayOrder": 79
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "labelOtherProceedingsPetitioner",
     "TabFieldDisplayOrder": 80
   },
   {
@@ -881,8 +881,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LegalProceedings",
+    "CaseFieldID": "labelOtherProceedingsPetitioner",
     "TabFieldDisplayOrder": 81
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8LegalProceedings",
+    "TabFieldDisplayOrder": 82
   },
   {
     "LiveFrom": "18/12/2019",
@@ -892,16 +902,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8LegalProceedingsDetailsCaseNumber",
-    "TabFieldDisplayOrder": 82
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LegalProceedingsRelated",
     "TabFieldDisplayOrder": 83
   },
   {
@@ -911,7 +911,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8LegalProceedingsDetails",
+    "CaseFieldID": "D8LegalProceedingsRelated",
     "TabFieldDisplayOrder": 84
   },
   {
@@ -921,7 +921,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8FinancialOrder",
+    "CaseFieldID": "D8LegalProceedingsDetails",
     "TabFieldDisplayOrder": 85
   },
   {
@@ -931,7 +931,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8FinancialOrderFor",
+    "CaseFieldID": "D8FinancialOrder",
     "TabFieldDisplayOrder": 86
   },
   {
@@ -941,7 +941,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DivorceCostsClaim",
+    "CaseFieldID": "D8FinancialOrderFor",
     "TabFieldDisplayOrder": 87
   },
   {
@@ -951,8 +951,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DivorceClaimFrom",
+    "CaseFieldID": "D8DivorceCostsClaim",
     "TabFieldDisplayOrder": 88
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "D8DivorceClaimFrom",
+    "TabFieldDisplayOrder": 89
   },
   {
     "LiveFrom": "10/04/2021",
@@ -962,16 +972,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "D8DivorceCostsClaimExplain",
-    "TabFieldDisplayOrder": 89
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "D8StatementOfTruth",
     "TabFieldDisplayOrder": 90
   },
   {
@@ -981,7 +981,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "solSignStatementofTruth",
+    "CaseFieldID": "D8StatementOfTruth",
     "TabFieldDisplayOrder": 91
   },
   {
@@ -991,7 +991,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationCertify",
+    "CaseFieldID": "solSignStatementofTruth",
     "TabFieldDisplayOrder": 92
   },
   {
@@ -1001,7 +1001,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationDiscussed",
+    "CaseFieldID": "SolStatementOfReconciliationCertify",
     "TabFieldDisplayOrder": 93
   },
   {
@@ -1011,7 +1011,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "StatementOfReconciliationComments",
+    "CaseFieldID": "SolStatementOfReconciliationDiscussed",
     "TabFieldDisplayOrder": 94
   },
   {
@@ -1021,7 +1021,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "SolUrgentCase",
+    "CaseFieldID": "StatementOfReconciliationComments",
     "TabFieldDisplayOrder": 95
   },
   {
@@ -1031,8 +1031,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
+    "CaseFieldID": "SolUrgentCase",
+    "TabFieldDisplayOrder": 96
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
     "CaseFieldID": "SolUrgentCaseSupportingInformation",
-    "TabFieldDisplayOrder": 96,
+    "TabFieldDisplayOrder": 97,
     "FieldShowCondition": "SolUrgentCase=\"Yes\""
   },
   {
@@ -1043,16 +1053,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolStatementOfReconciliationName",
-    "TabFieldDisplayOrder": 97
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "SolStatementOfReconciliationFirm",
     "TabFieldDisplayOrder": 98
   },
   {
@@ -1062,7 +1062,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriagePetitionerName",
+    "CaseFieldID": "SolStatementOfReconciliationFirm",
     "TabFieldDisplayOrder": 99
   },
   {
@@ -1072,7 +1072,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriageDate",
+    "CaseFieldID": "D8MarriagePetitionerName",
     "TabFieldDisplayOrder": 100
   },
   {
@@ -1082,7 +1082,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriedInUk",
+    "CaseFieldID": "D8MarriageDate",
     "TabFieldDisplayOrder": 101
   },
   {
@@ -1092,7 +1092,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriagePlaceOfMarriage",
+    "CaseFieldID": "D8MarriedInUk",
     "TabFieldDisplayOrder": 102
   },
   {
@@ -1102,7 +1102,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8CountryName",
+    "CaseFieldID": "D8MarriagePlaceOfMarriage",
     "TabFieldDisplayOrder": 103
   },
   {
@@ -1112,7 +1112,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8DivorceWho",
+    "CaseFieldID": "D8CountryName",
     "TabFieldDisplayOrder": 104
   },
   {
@@ -1122,7 +1122,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8MarriageIsSameSexCouple",
+    "CaseFieldID": "D8DivorceWho",
     "TabFieldDisplayOrder": 105
   },
   {
@@ -1132,7 +1132,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "D8CertificateInEnglish",
+    "CaseFieldID": "D8MarriageIsSameSexCouple",
     "TabFieldDisplayOrder": 106
   },
   {
@@ -1142,8 +1142,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
+    "CaseFieldID": "D8CertificateInEnglish",
+    "TabFieldDisplayOrder": 107
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
     "CaseFieldID": "Label-SolicitorPersonalService",
-    "TabFieldDisplayOrder": 107,
+    "TabFieldDisplayOrder": 108,
     "FieldShowCondition": "SolServiceMethod=\"personalService\""
   },
   {
@@ -1154,7 +1164,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "SolServiceMethod",
-    "TabFieldDisplayOrder": 108,
+    "TabFieldDisplayOrder": 109,
     "FieldShowCondition": "SolServiceMethod=\"*\""
   },
   {
@@ -1165,16 +1175,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "DateOfService",
-    "TabFieldDisplayOrder": 109
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "SendAosPackToResp",
     "TabFieldDisplayOrder": 110
   },
   {
@@ -1184,7 +1184,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "DocumentsServed",
+    "CaseFieldID": "SendAosPackToResp",
     "TabFieldDisplayOrder": 111
   },
   {
@@ -1194,7 +1194,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "OnWhomServed",
+    "CaseFieldID": "DocumentsServed",
     "TabFieldDisplayOrder": 112
   },
   {
@@ -1204,7 +1204,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "HowServed",
+    "CaseFieldID": "OnWhomServed",
     "TabFieldDisplayOrder": 113
   },
   {
@@ -1214,8 +1214,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
+    "CaseFieldID": "HowServed",
+    "TabFieldDisplayOrder": 114
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceDetails",
-    "TabFieldDisplayOrder": 114,
+    "TabFieldDisplayOrder": 115,
     "FieldShowCondition": "HowServed=\"personalHanding\" OR HowServed=\"other\""
   },
   {
@@ -1226,16 +1236,6 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceAddress",
-    "TabFieldDisplayOrder": 115
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "Channel": "CaseWorker",
-    "TabID": "petitionDetails",
-    "TabLabel": "Petition",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "BeingThe",
     "TabFieldDisplayOrder": 116
   },
   {
@@ -1245,7 +1245,7 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
-    "CaseFieldID": "ServiceLocation",
+    "CaseFieldID": "BeingThe",
     "TabFieldDisplayOrder": 117
   },
   {
@@ -1255,8 +1255,18 @@
     "TabID": "petitionDetails",
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
+    "CaseFieldID": "ServiceLocation",
+    "TabFieldDisplayOrder": 118
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "Channel": "CaseWorker",
+    "TabID": "petitionDetails",
+    "TabLabel": "Petition",
+    "TabDisplayOrder": 2,
     "CaseFieldID": "OtherServiceLocation",
-    "TabFieldDisplayOrder": 118,
+    "TabFieldDisplayOrder": 119,
     "FieldShowCondition": "BeingThe=\"Other\""
   },
   {
@@ -1267,7 +1277,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceSOTLabel",
-    "TabFieldDisplayOrder": 119
+    "TabFieldDisplayOrder": 120
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1277,7 +1287,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ServiceSOTName",
-    "TabFieldDisplayOrder": 120
+    "TabFieldDisplayOrder": 121
   },
   {
     "LiveFrom": "14/09/2020",
@@ -1287,7 +1297,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "PetitionerPcqId",
-    "TabFieldDisplayOrder": 121
+    "TabFieldDisplayOrder": 122
   },
   {
     "LiveFrom": "15/02/2021",
@@ -1297,7 +1307,7 @@
     "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "NewLegalConnectionPolicy",
-    "TabFieldDisplayOrder": 122,
+    "TabFieldDisplayOrder": 123,
     "FieldShowCondition": "NewLegalConnectionPolicy=\"NEVERSHOW\""
   },
   {
