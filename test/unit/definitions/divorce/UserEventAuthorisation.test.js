@@ -179,7 +179,7 @@ function minimumCrForAllPostConditionStatesWhichHaveEmptyPreConditionStates() {
   });
 }
 
-function assertUserRoleCanTriggerEventOnCaseInState (eventId, role, stateId) {
+function assertUserRoleCanTriggerEventOnCaseInState(eventId, role, stateId) {
   // get permissions user-event
   // assert at least CRU
   // get pre states
