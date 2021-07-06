@@ -2089,7 +2089,7 @@
     "Name": "Grant Decree Absolute",
     "Description": "Grant Decree Absolute",
     "DisplayOrder": 1,
-    "PreConditionState(s)": "DARequested;DAPending",
+    "PreConditionState(s)": "DARequested;DAPending;GeneralConsiderationComplete",
     "PostConditionState": "DivorceGranted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/da-about-to-be-granted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
