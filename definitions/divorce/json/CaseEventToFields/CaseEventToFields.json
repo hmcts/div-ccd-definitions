@@ -10477,7 +10477,7 @@
     "PageID": "RespondentServiceDetails",
     "PageLabel": "Respondent service details",
     "PageDisplayOrder": 4,
-    "FieldShowCondition": "RespSolDigital=\"Yes\"",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"Yes\" AND RespSolDigital=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -11634,7 +11634,7 @@
     "PageID": "RespondentServiceDetails",
     "PageLabel": "Respondent service details",
     "PageDisplayOrder": 4,
-    "FieldShowCondition": "RespSolDigital=\"Yes\"",
+    "FieldShowCondition": "respondentSolicitorRepresented=\"Yes\" AND RespSolDigital=\"Yes\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
