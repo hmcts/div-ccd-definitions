@@ -4863,6 +4863,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "07/07/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "ServiceApplicationPaymentRequired",
+    "Label": "Is fee payment required?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "23/07/2020",
     "CaseTypeID": "DIVORCE",
     "ID": "ReceivedServiceApplicationDate",

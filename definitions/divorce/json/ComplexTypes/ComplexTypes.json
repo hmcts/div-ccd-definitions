@@ -496,6 +496,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "07/07/2021",
+    "ID": "DivorceServiceApplication",
+    "ListElementCode": "PaymentRequired",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is fee payment required?",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "05/10/2020",
     "ID": "DivorceServiceApplication",
     "ListElementCode": "Payment",
