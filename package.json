@@ -19,7 +19,7 @@
       "ccdUrl": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
     },
     "aat": {
-      "cosUrl": "http://div-cos-aat.service.core-compute-aat.internal",
+      "cosUrl": "http://div-cos-pr-1428.service.core-compute-preview.internal",
       "ccdUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
     },
     "perftest": {
@@ -103,6 +103,7 @@
     "bl": "1.2.3",
     "ini": "1.3.6",
     "axios":  "0.21.1",
-    "ws": "^7.4.6"
+    "ws": "^7.4.6",
+    "glob-parent": "^5.1.2"
   }
 }
