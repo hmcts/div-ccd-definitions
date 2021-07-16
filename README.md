@@ -6,6 +6,7 @@ Divorce configuration definitions for CCD
 ### Pre-requirements 
 Install nvm to manage node from https://github.com/nvm-sh/nvm
 
+Previw test
 
 Install requiered node version using `nvm install`
 
