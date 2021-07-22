@@ -31,7 +31,7 @@ xui-webapp:
       SERVICES_CCD_COMPONENT_API: http://gateway-${SERVICE_FQDN}
       # -div-ccd-definitions-pr-878.service.core-compute-preview.internal
       # http://div-ccd-definitions-pr-878-ccd-data-store-api
-      SERVICES_CCD_DATA_STORE_API: http://ccd-data-store-api-${SERVICE_FQDN}
+      SERVICES_CCD_DATA_STORE_API: "nothing"
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
 
