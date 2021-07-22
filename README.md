@@ -107,7 +107,7 @@ Ideally this should be a published NPM package, so that we can include it in pac
 
 A submodule is simply a pointer to a repo and a commit. If you want to reset that repo to the latest upstream master, run
 
-```
+```bash
 yarn reset-ccd-submodule
 ```
 
