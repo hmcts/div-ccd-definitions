@@ -4431,7 +4431,7 @@
     "CaseEventID": "updateBulkCaseHearingDetails",
     "CaseFieldID": "DateAndTimeOfHearing",
     "PageFieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": "bulkcasehearing",
     "PageLabel": "Bulk Case Court Hearing Details",
     "PageDisplayOrder": 1
