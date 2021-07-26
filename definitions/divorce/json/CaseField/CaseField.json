@@ -2927,7 +2927,7 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DateAndTimeOfHearing",
-    "Label": "Date and time of hearing",
+    "Label": "Date and time of hearing NEW TEXT TEST",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingDateTime",
     "SecurityClassification": "Public",
