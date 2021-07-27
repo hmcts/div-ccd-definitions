@@ -139,6 +139,8 @@ ccd:
         PROXY_PRINT_SERVICE: http://ccd-case-print-service-${SERVICE_FQDN}
         PROXY_DATA: http://ccd-data-store-api-aat.service.core-compute-aat.internal
         PROXY_DEFINITION_IMPORT: http://ccd-definition-store-api-pr-882.service.core-compute-preview.internal
+        PROXY_DEFINITION_DATA: http://ccd-definition-store-api-pr-882.service.core-compute-preview.internal
+        PROXY_DEFINITION_DISPLAY: http://ccd-definition-store-api-pr-882.service.core-compute-preview.internal
         ADDRESS_LOOKUP_TOKEN: ${ADDRESS_LOOKUP_TOKEN}
       ingressHost: gateway-${SERVICE_FQDN}
       ingressIP: ${INGRESS_IP}
