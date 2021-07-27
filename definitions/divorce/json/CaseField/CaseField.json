@@ -2927,7 +2927,7 @@
     "LiveFrom": "25/04/2019",
     "CaseTypeID": "DIVORCE",
     "ID": "DateAndTimeOfHearing",
-    "Label": "Date and time of hearing NEW TEXT TEST",
+    "Label": "Date and time of hearing awtemp NEW TEXT TEST",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingDateTime",
     "SecurityClassification": "Public",
@@ -4151,7 +4151,7 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "LanguagePreferenceWelsh",
-    "Label": "Is the language preference Welsh?",
+    "Label": "Is the language preference Welsh awtemp1234?",
     "HintText": "Select \"No\" for English or \"Yes\" for bilingual",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
