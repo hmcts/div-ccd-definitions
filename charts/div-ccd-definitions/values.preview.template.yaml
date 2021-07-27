@@ -80,7 +80,7 @@ ccd:
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
         IDAM_API_BASE_URL: https://idam-web-public.aat.platform.hmcts.net
         IDAM_OIDC_URL: https://idam-web-public.aat.platform.hmcts.net
-        DEFINITION_STORE_HOST: http://ccd-definition-store-api-pr-882.service.core-compute-preview.internal
+        DEFINITION_STORE_HOST: https://ccd-definition-store-api-pr-882.service.core-compute-preview.internal
       keyVaults: []
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
