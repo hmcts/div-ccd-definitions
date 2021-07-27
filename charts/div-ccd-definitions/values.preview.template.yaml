@@ -75,7 +75,8 @@ ccd:
     java:
       imagePullPolicy: Always
       environment:
-        DATA_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
+        DATA_STORE_DB_HOST: ccd-data-store-api-postgres-db-v11-aat.postgres.database.azure.com
+        DATA_STORE_DB_NAME: ccd_data_store
         DATA_STORE_IDAM_KEY: ${DATA_STORE_S2S_KEY}
         IDAM_API_BASE_URL: https://idam-web-public.aat.platform.hmcts.net
         IDAM_OIDC_URL: https://idam-web-public.aat.platform.hmcts.net
