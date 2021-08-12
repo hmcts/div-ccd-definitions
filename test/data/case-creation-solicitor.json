@@ -94,9 +94,9 @@
       "id": "7678fa8e-3681-4556-a77d-544520259fc2",
       "value": {
         "DocumentLink": {
-          "document_url": "empty",
+          "document_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/91af9dea-8d30-4c47-8bf2-6a00179e80ef",
           "document_filename": "Screenshot 2018-11-01 at 12.13.40.png",
-          "document_binary_url": "empty"
+          "document_binary_url": "http://dm-store-aat.service.core-compute-aat.internal/documents/91af9dea-8d30-4c47-8bf2-6a00179e80ef/binary"
         },
         "DocumentType": "other",
         "DocumentComment": "",
