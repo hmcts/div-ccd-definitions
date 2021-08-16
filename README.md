@@ -4,10 +4,10 @@ Divorce configuration definitions for CCD
 ## Setup
 
 ### Pre-requirements 
+
 Install nvm to manage node from https://github.com/nvm-sh/nvm
 
-
-Install requiered node version using `nvm install`
+Install required node version using `nvm install`
 
 ### Install
 
@@ -97,7 +97,6 @@ This will ensure that callbacks point back to the correct CCD URL.
 * CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
-
 
 ## ccd-definition-processor
 
