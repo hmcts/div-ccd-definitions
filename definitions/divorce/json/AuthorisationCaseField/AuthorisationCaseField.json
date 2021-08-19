@@ -23471,5 +23471,33 @@
     "CaseFieldID": "dueDate",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralEmailDetailsCollection",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralEmailDetailsCollection",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralEmailDetailsCollection",
+    "UserRole": "caseworker-divorce-courtadmin-la",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "GeneralEmailDetailsCollection",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
   }
 ]
