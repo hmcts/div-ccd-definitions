@@ -693,5 +693,54 @@
     "FieldType": "TextArea",
     "ElementLabel": "Reason for failure to serve",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailDateTime",
+    "FieldType": "DateTime",
+    "ElementLabel": "General email date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailParties",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "GeneralPartiesEnum",
+    "ElementLabel": "Address to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailOtherRecipientEmail",
+    "FieldType": "Email",
+    "ElementLabel": "Recipient's email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailOtherRecipientName",
+    "FieldType": "Text",
+    "ElementLabel": "Recipient's name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailCreatedBy",
+    "FieldType": "Text",
+    "ElementLabel": "Email created by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "20/05/2021",
+    "ID": "GeneralEmailDetails",
+    "ListElementCode": "GeneralEmailBody",
+    "FieldType": "TextArea",
+    "ElementLabel": "Body",
+    "SecurityClassification": "Public"
   }
 ]

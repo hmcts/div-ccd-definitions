@@ -4,10 +4,10 @@ Divorce configuration definitions for CCD
 ## Setup
 
 ### Pre-requirements 
+
 Install nvm to manage node from https://github.com/nvm-sh/nvm
 
-
-Install requiered node version using `nvm install`
+Install required node version using `nvm install`
 
 ### Install
 
@@ -98,7 +98,6 @@ This will ensure that callbacks point back to the correct CCD URL.
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
 
-
 ## ccd-definition-processor
 
 This repo makes use of https://github.com/hmcts/ccd-definition-processor to generate the excel file. You may have to update this repo if, for example, you need to add a column to the definitions spreadsheet.
@@ -107,7 +106,7 @@ Ideally this should be a published NPM package, so that we can include it in pac
 
 A submodule is simply a pointer to a repo and a commit. If you want to reset that repo to the latest upstream master, run
 
-```
+```bash
 yarn reset-ccd-submodule
 ```
 
