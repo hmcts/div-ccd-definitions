@@ -88,5 +88,17 @@
     "CaseTypeID": "DIVORCE",
     "UserRole": "caseworker-caa",
     "CRUD": "D"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "[APPSOLICITOR]",
+    "CRUD": "D"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "UserRole": "[RESPSOLICITOR]",
+    "CRUD": "D"
   }
 ]
