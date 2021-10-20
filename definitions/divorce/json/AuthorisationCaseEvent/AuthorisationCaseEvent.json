@@ -3343,7 +3343,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "SUAwaitingLAReferral",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "16/05/2019",
