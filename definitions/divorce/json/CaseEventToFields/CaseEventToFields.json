@@ -4411,7 +4411,7 @@
     "PageID": "refusalOrderDraft",
     "PageLabel": "Refusal order draft",
     "PageDisplayOrder": 5,
-    "PageShowCondition": "DecreeNisiGranted=\"No\" AND (RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\")",
+    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "No"
   },
   {
