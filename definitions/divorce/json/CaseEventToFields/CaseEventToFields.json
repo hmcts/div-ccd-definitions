@@ -4163,7 +4163,7 @@
     "PageID": "refusalAdminError",
     "PageLabel": "Admin error / Send back to caseworker",
     "PageDisplayOrder": 3,
-    "PageShowCondition": "RefusalDecision=\"adminError\"",
+    "PageShowCondition": "DecreeNisiGranted=\"No\" AND RefusalDecision=\"adminError\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4176,7 +4176,7 @@
     "PageID": "refusalRejection",
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
-    "PageShowCondition": "RefusalDecision=\"reject\"",
+    "PageShowCondition": "DecreeNisiGranted=\"No\" AND RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
@@ -4190,7 +4190,7 @@
     "PageID": "refusalRejection",
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
-    "FieldShowCondition": "RefusalRejectionReasonCONTAINS\"other\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"No\" AND RefusalRejectionReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4203,7 +4203,7 @@
     "PageID": "refusalClarification",
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
-    "PageShowCondition": "RefusalDecision=\"moreInfo\"",
+    "PageShowCondition": "DecreeNisiGranted=\"No\" AND RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes",
     "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted"
   },
@@ -4217,7 +4217,7 @@
     "PageID": "refusalClarification",
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
-    "FieldShowCondition": "RefusalClarificationReasonCONTAINS\"other\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"No\" AND RefusalClarificationReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4359,7 +4359,7 @@
     "PageID": "refusalRejection",
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
-    "PageShowCondition": "RefusalDecision=\"reject\"",
+    "PageShowCondition":"DecreeNisiGranted=\"No\" AND RefusalDecision=\"reject\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4372,7 +4372,7 @@
     "PageID": "refusalRejection",
     "PageLabel": "Refusal order: Reject",
     "PageDisplayOrder": 3,
-    "FieldShowCondition": "RefusalRejectionReasonCONTAINS\"other\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"No\" AND RefusalRejectionReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4385,7 +4385,7 @@
     "PageID": "refusalClarification",
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
-    "PageShowCondition": "RefusalDecision=\"moreInfo\"",
+    "PageShowCondition": "DecreeNisiGranted=\"No\" AND RefusalDecision=\"moreInfo\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4398,7 +4398,7 @@
     "PageID": "refusalClarification",
     "PageLabel": "Refusal order: Clarify",
     "PageDisplayOrder": 4,
-    "FieldShowCondition": "RefusalClarificationReasonCONTAINS\"other\"",
+    "FieldShowCondition": "DecreeNisiGranted=\"No\" AND RefusalClarificationReasonCONTAINS\"other\"",
     "ShowSummaryChangeOption": "Yes"
   },
   {
@@ -4411,7 +4411,7 @@
     "PageID": "refusalOrderDraft",
     "PageLabel": "Refusal order draft",
     "PageDisplayOrder": 5,
-    "PageShowCondition": "RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\"",
+    "PageShowCondition": "DecreeNisiGranted=\"No\" AND (RefusalDecision=\"moreInfo\" OR RefusalDecision=\"reject\")",
     "ShowSummaryChangeOption": "No"
   },
   {
