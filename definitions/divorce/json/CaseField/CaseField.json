@@ -2938,7 +2938,8 @@
     "Label": "Date and time of hearing",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingDateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": "1"
   },
   {
     "LiveFrom": "25/04/2019",
