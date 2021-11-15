@@ -10,17 +10,18 @@ idam-pr:
   releaseNameOverride: ${SERVICE_NAME}-idam-pr
   enabled: true
   redirect_uris:
+    divorce:
+      - https://pfe-${SERVICE_FQDN}/authenticated
+      - https://rfe-${SERVICE_FQDN}/authenticated
+      - https://da-${SERVICE_FQDN}/authenticated
+      - https://dn-${SERVICE_FQDN}/authenticated
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
       - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
     CCD Admin:
       - https://admin-web-${SERVICE_FQDN}/oauth2redirect
-    divorce:
-      - https://pfe-${SERVICE_FQDN}/authenticated
-      - https://rfe-${SERVICE_FQDN}/authenticated
-      - https://da-${SERVICE_FQDN}/authenticated
-      - https://dn-${SERVICE_FQDN}/authenticated
+
 xui-webapp:
   enabled: true
   nodejs:
