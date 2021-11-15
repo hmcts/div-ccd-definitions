@@ -39,7 +39,33 @@ div-pfe:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
     image: hmctspublic.azurecr.io/div/pfe:latest
-    ingressHost: div-pfe-${SERVICE_FQDN}
+    ingressHost: pfe-${SERVICE_FQDN}
+      environment:
+        DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
+
+div-rfe:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-rfe
+    image: hmctspublic.azurecr.io/div/rfe:latest
+    ingressHost: rfe-${SERVICE_FQDN}
+
+div-da:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-da
+    image: hmctspublic.azurecr.io/div/da:latest
+    ingressHost: da-${SERVICE_FQDN}
+
+div-dn:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-dn
+    image: hmctspublic.azurecr.io/div/dn:latest
+    ingressHost: dn-${SERVICE_FQDN}
 
 ccd:
   ccd:
