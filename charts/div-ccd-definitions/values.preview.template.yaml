@@ -40,8 +40,8 @@ div-pfe:
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
     image: hmctspublic.azurecr.io/div/pfe:latest
     ingressHost: pfe-${SERVICE_FQDN}
-      environment:
-        DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
+    environment:
+      DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 div-rfe:
   enabled: true
