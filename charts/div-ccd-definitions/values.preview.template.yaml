@@ -13,6 +13,7 @@ idam-pr:
     divorce:
       - https://pfe-${SERVICE_FQDN}/authenticate
       - https://rfe-${SERVICE_FQDN}/authenticate
+      - https://rfe2-${SERVICE_FQDN}/authenticate
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
@@ -36,7 +37,15 @@ xui-webapp:
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
 
-
+div-pfe:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-pfe
+    image: hmctspublic.azurecr.io/div/pfe:latest
+    ingressHost: pfe-${SERVICE_FQDN}
+    environment:
+      DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 ccd:
   ccd:
