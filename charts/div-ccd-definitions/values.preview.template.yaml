@@ -38,7 +38,7 @@ div-pfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
-    image: hmctspublic.azurecr.io/divorce/div-pfe:latest
+    image: hmctspublic.azurecr.io/div/pfe:latest
     ingressHost: div-pfe-${SERVICE_FQDN}
 
 ccd:
