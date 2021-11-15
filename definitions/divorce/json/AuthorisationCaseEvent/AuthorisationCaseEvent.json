@@ -9107,6 +9107,13 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "18/11/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "resendExistingDocuments",
+    "UserRole": "caseworker-divorce-superuser",
+    "CRUD": "CRU"
+  },
+  {
     "LiveFrom": "11/03/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "judgeCostOrderDecision",

@@ -3551,5 +3551,17 @@
     "PostConditionState": "AwaitingPronouncement",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/judge-costs-decision",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "15/11/2021",
+    "CaseTypeID": "DIVORCE",
+    "ID": "resendExistingDocuments",
+    "Name": "Re-send existing documents",
+    "Description": "Re-send existing documents via bulk print",
+    "DisplayOrder": 31,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/resend-existing-documents",
+    "SecurityClassification": "Public"
   }
 ]
