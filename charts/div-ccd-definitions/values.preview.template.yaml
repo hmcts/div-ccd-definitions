@@ -21,6 +21,7 @@ idam-pr:
       - https://rfe-${SERVICE_FQDN}/authenticated
       - https://da-${SERVICE_FQDN}/authenticated
       - https://dn-${SERVICE_FQDN}/authenticated
+
 xui-webapp:
   enabled: true
   nodejs:
