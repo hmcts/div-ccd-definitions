@@ -38,7 +38,7 @@ xui-webapp:
       JURISDICTIONS: DIVORCE
 
 div-pfe:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
