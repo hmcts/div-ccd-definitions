@@ -16,9 +16,11 @@ idam-pr:
       - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
     CCD Admin:
       - https://admin-web-${SERVICE_FQDN}/oauth2redirect
-    PFE:
+    divorce:
       - https://pfe-${SERVICE_FQDN}/authenticated
-
+      - https://rfe-${SERVICE_FQDN}/authenticated
+      - https://da-${SERVICE_FQDN}/authenticated
+      - https://dn-${SERVICE_FQDN}/authenticated
 xui-webapp:
   enabled: true
   nodejs:
