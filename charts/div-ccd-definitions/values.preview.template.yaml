@@ -10,6 +10,8 @@ idam-pr:
   releaseNameOverride: ${SERVICE_NAME}-idam-pr
   enabled: true
   redirect_uris:
+    divorce:
+      - https://pfe-${SERVICE_FQDN}/authenticate
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
