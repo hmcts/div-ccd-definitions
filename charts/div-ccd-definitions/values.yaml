@@ -7,5 +7,8 @@ idam-pr:
 xui-webapp:
   enabled: false
 
+div-pfe:
+  enabled: false
+
 tags:
   ccd-pr: false
