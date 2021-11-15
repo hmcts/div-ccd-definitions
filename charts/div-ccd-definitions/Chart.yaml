@@ -22,4 +22,4 @@ dependencies:
   - name: div-pfe
     version: 2.0.7
     repository: '@hmctspublic'
-    condition: idam-pr.enabled
+    condition: div-pfe.enabled
