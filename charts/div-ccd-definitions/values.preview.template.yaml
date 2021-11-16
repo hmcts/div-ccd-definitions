@@ -37,15 +37,7 @@ xui-webapp:
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
 
-div-pfe:
-  enabled: false
-  nodejs:
-    imagePullPolicy: Always
-    releaseNameOverride: ${SERVICE_NAME}-div-pfe
-    image: hmctspublic.azurecr.io/div/pfe:latest
-    ingressHost: pfe-${SERVICE_FQDN}
-    environment:
-      DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
+
 
 ccd:
   ccd:
