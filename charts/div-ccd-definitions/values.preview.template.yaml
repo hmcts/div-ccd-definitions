@@ -17,6 +17,7 @@ idam-pr:
       - https://xfe-${SERVICE_FQDN}/authenticate
       - https://yfe-${SERVICE_FQDN}/authenticate
       - https://jfe-${SERVICE_FQDN}/authenticate
+      - https://blah-${SERVICE_FQDN}/authenticate
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
