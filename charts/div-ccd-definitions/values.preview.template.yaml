@@ -13,7 +13,7 @@ idam-pr:
     divorce:
       - https://pfe-${SERVICE_FQDN}/authenticate
       - https://rfe-${SERVICE_FQDN}/authenticate
-      - https://rfe2-${SERVICE_FQDN}/authenticate
+      - https://dfe-${SERVICE_FQDN}/authenticate
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
@@ -36,8 +36,6 @@ xui-webapp:
       SERVICES_CCD_DATA_STORE_API: http://${SERVICE_NAME}-ccd-data-store-api
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
-
-
 
 ccd:
   ccd:
