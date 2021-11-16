@@ -9,12 +9,6 @@ xui-webapp:
 
 div-pfe:
   enabled: false
-div-rfe:
-  enabled: false
-div-da:
-  enabled: false
-div-dn:
-  enabled: false
 
 tags:
   ccd-pr: false
