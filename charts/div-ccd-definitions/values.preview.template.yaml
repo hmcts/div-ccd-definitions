@@ -90,6 +90,7 @@ div-cos:
     imagePullPolicy: Always
     environment:
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
+    keyVaults: []
 
 ccd:
   ccd:
