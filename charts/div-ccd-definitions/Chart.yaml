@@ -34,4 +34,8 @@ dependencies:
   - name: div-dn
     version: 2.0.2
     repository: '@hmctspublic'
-    condition: div-dn.enabled    
+    condition: div-dn.enabled
+  - name: div-cos
+    version: 1.5.6
+    repository: '@hmctspublic'
+    condition: div-cos.enabled

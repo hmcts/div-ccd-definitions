@@ -15,5 +15,7 @@ div-da:
   enabled: false
 div-dn:
   enabled: false
+div-cos:
+  enabled: false
 tags:
   ccd-pr: false
