@@ -92,6 +92,7 @@ div-cos:
     keyVaults: []
     environment:
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
+      IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
     ingressHost: cos-${SERVICE_FQDN}
 
 ccd:
