@@ -102,12 +102,6 @@ div-dn:
 div-cos:
   enabled: true
   java:
-    readinessDelay: 120
-    readinessTimeout: 5
-    readinessPeriod: 15
-    livenessDelay: 120
-    livenessTimeout: 5
-    livenessPeriod: 15
     imagePullPolicy: Always
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
