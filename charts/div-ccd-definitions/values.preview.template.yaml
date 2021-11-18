@@ -74,6 +74,12 @@ div-da:
       PETITIONER_FRONTEND_URL: http://${SERVICE_NAME}-div-pfe
       RESPONDENT_FRONTEND_URL: http://${SERVICE_NAME}-div-rfe
       DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
+      ORCHESTRATION_SERVICE_DRAFT_ENDPOINT: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+      ORCHESTRATION_SERVICE_GET_AOS_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-aos-case
+      ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
+      ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-da
+      ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
+
 
 div-dn:
   enabled: true
@@ -86,6 +92,12 @@ div-dn:
       DECREE_ABSOLUTE_FRONTEND_URL: http://${SERVICE_NAME}-div-da
       PETITIONER_FRONTEND_URL: http://${SERVICE_NAME}-div-pfe
       RESPONDENT_FRONTEND_URL: http://${SERVICE_NAME}-div-rfe
+      ORCHESTRATION_SERVICE_AMEND_DN_REJECTION_URL: http://${SERVICE_NAME}-div-cos/amend-petition-dn-rejection
+      ORCHESTRATION_SERVICE_AMEND_PETITION_URL: http://${SERVICE_NAME}-div-cos/amend-petition
+      ORCHESTRATION_SERVICE_DRAFT_ENDPOINT: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+      ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
+      ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-dn
+      ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
 
 div-cos:
   enabled: true
