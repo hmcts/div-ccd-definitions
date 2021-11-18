@@ -94,6 +94,7 @@ div-cos:
     livenessTimeout: 5
     livenessPeriod: 15
     imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     keyVaults: []
     environment:
