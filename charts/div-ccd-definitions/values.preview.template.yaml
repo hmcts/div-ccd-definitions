@@ -1,5 +1,5 @@
 tags:
-  ccd-pr: true
+  ccd-pr: false
 
 nodejs:
   # Don't modify below here
@@ -21,7 +21,7 @@ idam-pr:
       - https://admin-web-${SERVICE_FQDN}/oauth2redirect
 
 xui-webapp:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-xui-webapp
@@ -37,7 +37,7 @@ xui-webapp:
       JURISDICTIONS: DIVORCE
 
 div-pfe:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
@@ -49,7 +49,7 @@ div-pfe:
       RESPONDENT_FRONTEND_URL: http://${SERVICE_NAME}-div-rfe
 
 div-rfe:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-rfe
@@ -61,7 +61,7 @@ div-rfe:
       DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 div-da:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
@@ -73,7 +73,7 @@ div-da:
       DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 div-dn:
-  enabled: true
+  enabled: false
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-dn
@@ -106,13 +106,13 @@ ccd:
     definitionImporter:
       enabled: false
     managementWeb:
-       enabled: true
+       enabled: false
     apiGatewayWeb:
-      enabled: true
+      enabled: false
     s2s:
       enabled: false
     printService:
-      enabled: true
+      enabled: false
 
   ingressHost: ${SERVICE_FQDN}
   ingressIP: ${INGRESS_IP}
