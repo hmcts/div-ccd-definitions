@@ -1,5 +1,5 @@
 tags:
-  ccd-pr: false
+  ccd-pr: true
 
 nodejs:
   # Don't modify below here
@@ -21,7 +21,7 @@ idam-pr:
       - https://admin-web-${SERVICE_FQDN}/oauth2redirect
 
 xui-webapp:
-  enabled: false
+  enabled: true
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-xui-webapp
@@ -37,7 +37,7 @@ xui-webapp:
       JURISDICTIONS: DIVORCE
 
 div-pfe:
-  enabled: false
+  enabled: true
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
@@ -49,7 +49,7 @@ div-pfe:
       RESPONDENT_FRONTEND_URL: http://${SERVICE_NAME}-div-rfe
 
 div-rfe:
-  enabled: false
+  enabled: true
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-rfe
@@ -61,7 +61,7 @@ div-rfe:
       DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 div-da:
-  enabled: false
+  enabled: true
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
@@ -73,7 +73,7 @@ div-da:
       DECREE_NISI_FRONTEND_URL: http://${SERVICE_NAME}-div-dn
 
 div-dn:
-  enabled: false
+  enabled: true
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-dn
@@ -98,6 +98,10 @@ div-cos:
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     keyVaults: []
     environment:
+      DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
+      DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
+      DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
+      DIV_SCHEDULER_DB_PASSWORD: "{{ .Values.postgresql.postgresqlPassword}}"
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
     ingressHost: cos-${SERVICE_FQDN}
@@ -107,13 +111,13 @@ ccd:
     definitionImporter:
       enabled: false
     managementWeb:
-       enabled: false
+       enabled: true
     apiGatewayWeb:
-      enabled: false
+      enabled: true
     s2s:
       enabled: false
     printService:
-      enabled: false
+      enabled: true
 
   ingressHost: ${SERVICE_FQDN}
   ingressIP: ${INGRESS_IP}
