@@ -68,7 +68,7 @@ withPipeline("nodejs", product, component) {
   before('functionalTest:preview') {
     yarnBuilder.yarn('setup')
 
-    println "Change Id: ${CHANGE_ID}"
+    println "Solicitor Name: ${USERNAME_SOLICITOR}"
     println "Notification Key: ${UK_GOV_NOTIFY_API_KEY}"
     env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
     env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
