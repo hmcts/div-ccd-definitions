@@ -119,7 +119,18 @@ div-cos:
       "div":
         resourceGroup: div
         secrets:
+          - ccd-submission-s2s-auth-secret
+          - div-doc-s2s-auth-secret
+          - idam-secret
+          - frontend-secret
+          - idam-citizen-username
+          - idam-citizen-password
+          - idam-caseworker-username
+          - idam-caseworker-password
           - uk-gov-notify-api-key
+          - cos-postgresql-password
+          - AppInsightsInstrumentationKey
+          - spring-mail-password
 
 ccd:
   ccd:
