@@ -113,6 +113,7 @@ div-cos:
       DIV_SCHEDULER_DB_PASSWORD: "{{ .Values.postgresql.postgresqlPassword}}"
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
+      IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
     ingressHost: cos-${SERVICE_FQDN}
 
 ccd:
