@@ -67,7 +67,7 @@ withPipeline("nodejs", product, component) {
   before('functionalTest:preview') {
     yarnBuilder.yarn('setup')
 
-    env.COS_API_URL="http://${CHANGE_ID}-div-cos"
+    env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
     env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     stage('Generate Divorce Case excel file') {
       yarnBuilder.yarn('generate-excel-all')
