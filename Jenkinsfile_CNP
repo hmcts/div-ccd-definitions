@@ -35,6 +35,7 @@ def secrets = [
         secret("ccd-submission-s2s-auth-secret", "AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY"),
         secret("div-doc-s2s-auth-secret", "AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY"),
         secret("frontend-secret", "SERVICE_AUTH_SECRET"),
+        secret("idam-citizen-username", "IDAM_CITIZEN_USERNAME"),
         secret("idam-citizen-password", "IDAM_CITIZEN_PASSWORD"),
         secret("idam-caseworker-password", "IDAM_CASEWORKER_PASSWORD"),
         secret("uk-gov-notify-api-key", "UK_GOV_NOTIFY_API_KEY")
