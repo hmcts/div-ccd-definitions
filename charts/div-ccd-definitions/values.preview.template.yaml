@@ -105,7 +105,6 @@ div-cos:
     imagePullPolicy: Always
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
-    keyVaults: []
     environment:
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
       DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
