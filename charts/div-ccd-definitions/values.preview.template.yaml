@@ -115,6 +115,11 @@ div-cos:
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
     ingressHost: cos-${SERVICE_FQDN}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - uk-gov-notify-api-key
 
 ccd:
   ccd:
