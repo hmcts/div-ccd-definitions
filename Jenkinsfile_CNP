@@ -53,7 +53,6 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
 withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
-  env.UK_GOV_NOTIFY_API_KEY="79162ff16c4fd485ebcfad569d0327fbcc8f4cc772f16e9a6dea5e2acc212e28"
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
@@ -68,8 +67,6 @@ withPipeline("nodejs", product, component) {
   before('functionalTest:preview') {
     yarnBuilder.yarn('setup')
 
-    println "Solicitor Name: ${USERNAME_SOLICITOR}"
-    println "Notification Key: ${UK_GOV_NOTIFY_API_KEY}"
     env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
     env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     stage('Generate Divorce Case excel file') {
