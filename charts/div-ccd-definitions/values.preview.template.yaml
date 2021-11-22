@@ -125,8 +125,6 @@ div-cos:
           - name: idam-citizen-password
             alias: IDAM_CITIZEN_PASSWORD
           - name: ccd-submission-s2s-auth-secret
-            alias: CCD_SUBMIT_S2S_SECRET
-          - name: ccd-submission-s2s-auth-secret
             alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
           - name: div-doc-s2s-auth-secret
             alias: AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY
@@ -144,6 +142,40 @@ div-cos:
             alias: USERNAME_SOLICITOR
           - name: ccd-e2e-solicitor-password
             alias: PASSWORD_SOLICITOR
+
+div-cms:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/cms:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-cms
+    ingressHost: cms-${SERVICE_FQDN}
+    environment:
+      AUTH_PROVIDER_SERVICE_CLIENT_BASEURL: "http://rpe-service-auth-provider-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      DRAFT_STORE_API_BASEURL: "http://draft-store-service-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      CASE_FORMATTER_SERVICE_API_BASEURL: "http://div-cfs-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      IDAM_API_REDIRECT_URL: "https://div-pfe-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal/authenticated"
+      CASE_DATA_STORE_BASEURL: "http://ccd-data-store-api-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      AUTH_PROVIDER_SERVICE_CLIENT_MICROSERVICE: "divorce_ccd_submission"
+      AUTH_PROVIDER_SERVICE_CLIENT_TOKENTIMETOLIVEINSECONDS: "900"
+      LOG_LEVEL: DEBUG
+      MANAGEMENT_ENDPOINT_HEALTH_CACHE_TIMETOLIVE: "30000"
+      DOCUMENTATION_SWAGGER_ENABLED: true
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - name: idam-secret
+            alias: IDAM_CLIENT_SECRET
+          - name: ccd-submission-s2s-auth-secret
+            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
+          - name: draft-store-api-encryption-key
+            alias: DRAFT_STORE_API_ENCRYPTION_KEY_VALUE
+          - name: idam-caseworker-password
+            alias: IDAM_CASEWORKER_PASSWORD
+          - name: idam-caseworker-username
+            alias: IDAM_CASEWORKER_USERNAME
+
 
 ccd:
   ccd:
