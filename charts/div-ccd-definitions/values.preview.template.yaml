@@ -13,6 +13,8 @@ idam-pr:
     divorce:
       - https://pfe-${SERVICE_FQDN}/authenticated
       - https://rfe-${SERVICE_FQDN}/authenticated
+      - https://dn-${SERVICE_FQDN}/authenticated
+      - https://da-${SERVICE_FQDN}/authenticated
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
