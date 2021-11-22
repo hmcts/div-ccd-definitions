@@ -113,6 +113,8 @@ div-cos:
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
+      IDAM_CITIZEN_USERNAME: "DivCitizenUser@AAT.com"
+      IDAM_CITIZEN_PASSWORD: "DivPassword1234"
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
