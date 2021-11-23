@@ -116,6 +116,8 @@ div-cos:
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
+      IDAM_CITIZEN_USERNAME: "DivCitizenUser@AAT.com"
+      IDAM_CITIZEN_PASSWORD: "DivPassword1234"
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
