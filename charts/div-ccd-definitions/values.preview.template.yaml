@@ -123,10 +123,6 @@ div-cos:
       "div":
         resourceGroup: div
         secrets:
-          - name: idam-citizen-username
-            alias: IDAM_CITIZEN_USERNAME
-          - name: idam-citizen-password
-            alias: IDAM_CITIZEN_PASSWORD
           - name: ccd-submission-s2s-auth-secret
             alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
           - name: ccd-submission-s2s-auth-secret
