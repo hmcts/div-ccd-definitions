@@ -113,20 +113,21 @@ div-cos:
       DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
       DIV_SCHEDULER_DB_PASSWORD: "{{ .Values.postgresql.postgresqlPassword}}"
       CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
-      CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
-      IDAM_CITIZEN_USERNAME: "DivCitizenUser@AAT.com"
-      IDAM_CITIZEN_PASSWORD: "DivPassword1234"
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
         resourceGroup: div
         secrets:
-          - name: ccd-submission-s2s-auth-secret
-            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
+          - name: idam-citizen-username
+            alias: IDAM_CITIZEN_USERNAME
+          - name: idam-citizen-password
+            alias: IDAM_CITIZEN_PASSWORD
           - name: ccd-submission-s2s-auth-secret
             alias: CCD_SUBMIT_S2S_SECRET
+          - name: ccd-submission-s2s-auth-secret
+            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
           - name: div-doc-s2s-auth-secret
             alias: AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY
           - name: idam-secret

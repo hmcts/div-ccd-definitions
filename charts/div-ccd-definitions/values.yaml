@@ -17,7 +17,5 @@ div-dn:
   enabled: false
 div-cos:
   enabled: false
-div-cms:
-  enabled: false
 tags:
   ccd-pr: false
