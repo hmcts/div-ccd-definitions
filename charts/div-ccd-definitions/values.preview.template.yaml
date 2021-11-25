@@ -107,6 +107,7 @@ div-cos:
     imagePullPolicy: Always
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
+    keyVaults :[]
     environment:
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
       DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
@@ -116,32 +117,7 @@ div-cos:
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
     ingressHost: cos-${SERVICE_FQDN}
-    keyVaults:
-      "div":
-        resourceGroup: div
-        secrets:
-          - name: idam-citizen-username
-            alias: IDAM_CITIZEN_USERNAME
-          - name: idam-citizen-password
-            alias: IDAM_CITIZEN_PASSWORD
-          - name: ccd-submission-s2s-auth-secret
-            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
-          - name: div-doc-s2s-auth-secret
-            alias: AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY
-          - name: idam-secret
-            alias: IDAM_CLIENT_SECRET
-          - name: frontend-secret
-            alias: SERVICE_AUTH_SECRET
-          - name: idam-caseworker-password
-            alias: IDAM_CASEWORKER_PASSWORD
-          - name: idam-caseworker-username
-            alias: IDAM_CASEWORKER_USERNAME
-          - name: uk-gov-notify-api-key
-            alias: UK_GOV_NOTIFY_API_KEY
-          - name: ccd-e2e-solicitor-email
-            alias: USERNAME_SOLICITOR
-          - name: ccd-e2e-solicitor-password
-            alias: PASSWORD_SOLICITOR
+
 
 div-cms:
   enabled: true
