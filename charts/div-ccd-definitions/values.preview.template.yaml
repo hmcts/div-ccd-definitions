@@ -117,6 +117,8 @@ div-cos:
       IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
       IDAM_CITIZEN_USERNAME: "DivCitizenUser@AAT.com"
       IDAM_CITIZEN_PASSWORD: "DivPassword1234"
+      IDAM_CASEWORKER_USERNAME: "divorce_as_caseworker_beta@mailinator.com"
+      IDAM_CASEWORKER_PASSWORD: "Testing1234"
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
@@ -132,10 +134,6 @@ div-cos:
             alias: IDAM_CLIENT_SECRET
           - name: frontend-secret
             alias: SERVICE_AUTH_SECRET
-          - name: idam-caseworker-password
-            alias: IDAM_CASEWORKER_PASSWORD
-          - name: idam-caseworker-username
-            alias: IDAM_CASEWORKER_USERNAME
           - name: uk-gov-notify-api-key
             alias: UK_GOV_NOTIFY_API_KEY
           - name: ccd-e2e-solicitor-email
