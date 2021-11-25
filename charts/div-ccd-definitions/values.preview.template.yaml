@@ -119,13 +119,16 @@ div-cos:
       IDAM_CITIZEN_PASSWORD: "DivPassword1234"
       IDAM_CASEWORKER_USERNAME: "divorce_as_caseworker_beta@mailinator.com"
       IDAM_CASEWORKER_PASSWORD: "Testing1234"
+      IDAM_CLIENT_SECRET: "thUphEveC2Ekuqedaneh4jEcRuba4t2t"
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
         resourceGroup: div
         secrets:
-          - name: ccd-submission-s2s-auth-secret
-            alias: CCD_SUBMIT_S2S_SECRET
+          - name: idam-citizen-username
+            alias: IDAM_CITIZEN_USERNAME
+          - name: idam-citizen-password
+            alias: IDAM_CITIZEN_PASSWORD
           - name: ccd-submission-s2s-auth-secret
             alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
           - name: div-doc-s2s-auth-secret
@@ -134,6 +137,10 @@ div-cos:
             alias: IDAM_CLIENT_SECRET
           - name: frontend-secret
             alias: SERVICE_AUTH_SECRET
+          - name: idam-caseworker-password
+            alias: IDAM_CASEWORKER_PASSWORD
+          - name: idam-caseworker-username
+            alias: IDAM_CASEWORKER_USERNAME
           - name: uk-gov-notify-api-key
             alias: UK_GOV_NOTIFY_API_KEY
           - name: ccd-e2e-solicitor-email
