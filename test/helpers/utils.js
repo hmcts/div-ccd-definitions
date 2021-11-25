@@ -10,7 +10,7 @@ const env = process.env.RUNNING_ENV || 'aat';
 async function getUserToken(username, password) {
   logger.info('Getting User Token');
   const redirectUri = `https://div-pfe-${env}.service.core-compute-${env}.internal/authenticated`;
-  const idamClientSecret = process.env.IDAM_CLIENT_SECRET;
+  const idamClientSecret = 'thUphEveC2Ekuqedaneh4jEcRuba4t2t';
   logger.info('Creating Case with idamClientSecret ' + idamClientSecret);
   const idamBaseUrl = 'https://idam-api.aat.platform.hmcts.net';
 
@@ -110,8 +110,6 @@ async function getServiceToken() {
 
 async function createCaseInCcd(userName, password, dataLocation, caseType, eventId) {
 
-  logger.info('Creating Case for username ' + userName);
-  logger.info('Creating Case for password ' + password);
   const authToken = await getUserToken(userName, password);
 
   const userId = await getUserId(authToken);
