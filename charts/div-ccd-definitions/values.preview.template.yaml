@@ -105,7 +105,7 @@ div-cos:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cos:pr-1551-91c01d6-20211127090503
+    image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
