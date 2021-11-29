@@ -108,6 +108,7 @@ div-cos:
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
+      CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
       DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
       DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
@@ -172,6 +173,11 @@ div-cms:
       LOG_LEVEL: DEBUG
       MANAGEMENT_ENDPOINT_HEALTH_CACHE_TIMETOLIVE: "30000"
       DOCUMENTATION_SWAGGER_ENABLED: true
+      IDAM_CASEWORKER_USERNAME: ${IDAM_CASEWORKER_USERNAME}
+      IDAM_CASEWORKER_PASSWORD: ${IDAM_CASEWORKER_PASSWORD}
+      IDAM_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY: ${AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY}
+      DRAFT_STORE_API_ENCRYPTION_KEY_VALUE: ${DRAFT_STORE_API_ENCRYPTION_KEY_VALUE}
     keyVaults:
       "div":
         resourceGroup: div
