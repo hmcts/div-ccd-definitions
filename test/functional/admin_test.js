@@ -46,19 +46,16 @@ if (process.env.IMPORT_PROD_LIKE) {
     I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-preview.xlsx');
     I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
-}
-else {
+} else {
   Scenario('upload divorce config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
     I.see('Case Definition data successfully imported');
-  }).retry({retries: 3, minTimeout: 30000}); // eslint-disable-line no-magic-numbers
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
   Scenario('upload bulk action config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
     I.see('Case Definition data successfully imported');
-  }).retry({retries: 3, minTimeout: 30000}); // eslint-disable-line no-magic-numbers
-
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 }
-
