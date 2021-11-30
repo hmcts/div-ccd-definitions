@@ -19,3 +19,5 @@ div-cos:
   enabled: false
 tags:
   ccd-pr: false
+elastic:
+  enabled: false
