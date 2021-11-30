@@ -176,8 +176,9 @@ div-cms:
       DOCUMENTATION_SWAGGER_ENABLED: true
       IDAM_CASEWORKER_USERNAME: ${IDAM_CASEWORKER_USERNAME}
       IDAM_CASEWORKER_PASSWORD: ${IDAM_CASEWORKER_PASSWORD}
-      IDAM_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
-      AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY: ${AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY}
+      AUTH_IDAM_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      AUTH2_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      AUTH_PROVIDER_SERVICE_CLIENT_KEY: ${CCD_SUBMIT_S2S_SECRET}
       DRAFT_STORE_API_ENCRYPTION_KEY_VALUE: ${DRAFT_STORE_API_ENCRYPTION_KEY_VALUE}
     keyVaults:
       "div":
@@ -186,14 +187,13 @@ div-cms:
           - name: idam-secret
             alias: IDAM_CLIENT_SECRET
           - name: ccd-submission-s2s-auth-secret
-            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
+            alias: CCD_SUBMIT_S2S_SECRET
           - name: draft-store-api-encryption-key
             alias: DRAFT_STORE_API_ENCRYPTION_KEY_VALUE
           - name: idam-caseworker-password
             alias: IDAM_CASEWORKER_PASSWORD
           - name: idam-caseworker-username
             alias: IDAM_CASEWORKER_USERNAME
-
 
 ccd:
   ccd:
