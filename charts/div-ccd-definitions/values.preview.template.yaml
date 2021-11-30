@@ -219,7 +219,7 @@ ccd:
     definitionImporter:
       enabled: false
     managementWeb:
-       enabled: true
+      enabled: true
     apiGatewayWeb:
       enabled: true
     s2s:
@@ -247,7 +247,7 @@ ccd:
       imagePullPolicy: Always
       enviroment:
         USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         USER_PROFILE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,ccd_definition,divorce
       ingressHost: ccd-user-profile-api-${SERVICE_FQDN}
@@ -268,13 +268,13 @@ ccd:
         ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
         ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
         CASE_DOCUMENT_AM_URL: http://ccd-case-document-am-api-aat.service.core-compute-aat.internal
-      keyVaults: []
+      keyVaults: [ ]
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
   ccd-definition-store-api:
     java:
       imagePullPolicy: Always
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         DEFINITION_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
         DEFINITION_STORE_IDAM_KEY: ${DEFINITION_STORE_S2S_KEY}
@@ -289,7 +289,7 @@ ccd:
     nodejs:
       image: hmctspublic.azurecr.io/ccd/admin-web:latest
       ingressHost: admin-web-${SERVICE_FQDN}
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
         IDAM_ADMIN_WEB_SERVICE_KEY: ${ADMIN_S2S_KEY}
@@ -321,7 +321,7 @@ ccd:
 
   ccd-api-gateway-web:
     nodejs:
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         IDAM_SERVICE_KEY: ${API_GATEWAY_S2S_KEY}
         IDAM_OAUTH2_CLIENT_SECRET: ${API_GATEWAY_IDAM_SECRET}
@@ -333,7 +333,7 @@ ccd:
 
   ccd-case-print-service:
     nodejs:
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         IDAM_PRINT_SERVICE_KEY: ${PRINT_S2S_KEY}
       ingressHost: ccd-case-print-service-${SERVICE_FQDN}
@@ -357,9 +357,6 @@ ccd:
       userProfileDatabasePassword: hmcts
       userProfileDatabaseName: user-profile
 
-  postgresql:
-    persistence:
-      enabled: false
 
   elastic:
     enabled: true
