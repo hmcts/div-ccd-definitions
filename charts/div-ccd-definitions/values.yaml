@@ -21,3 +21,5 @@ tags:
   divorce-ccd-stack: false
 postgresql:
   enabled: false
+elastic:
+  enabled: false
