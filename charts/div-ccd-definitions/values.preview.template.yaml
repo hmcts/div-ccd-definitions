@@ -207,8 +207,7 @@ ccd:
       enabled: false
     printService:
       enabled: true
-    postgresql:
-      enabled: false
+
 
   ingressHost: ${SERVICE_FQDN}
   ingressIP: ${INGRESS_IP}
