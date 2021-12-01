@@ -1,24 +1,5 @@
 tags:
-  divorce-ccd-stack: true
-
-postgresql:
-  enabled: true
-  image:
-    tag: '11.3.0'
-  resources:
-    requests:
-      cpu: 25m
-  initdbScripts:
-    init.sql: |-
-      CREATE DATABASE "divorce" WITH OWNER = hmcts ENCODING = 'UTF-8' CONNECTION LIMIT = -1;
-      CREATE DATABASE "data-store" WITH OWNER = hmcts ENCODING = 'UTF-8' CONNECTION LIMIT = -1;
-      CREATE DATABASE "definition-store" WITH OWNER = hmcts ENCODING = 'UTF-8' CONNECTION LIMIT = -1;
-      CREATE DATABASE "user-profile" WITH OWNER = hmcts ENCODING = 'UTF-8' CONNECTION LIMIT = -1;
-  postgresqlUsername: hmcts
-  postgresqlPassword: hmcts
-  persistence:
-    enabled: false
-
+  ccd-pr: true
 
 nodejs:
   # Don't modify below here
@@ -267,32 +248,27 @@ ccd:
         IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET: ${IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET}
         IDAM_DATA_STORE_SYSTEM_USER_USERNAME: ${IDAM_DATA_STORE_SYSTEM_USER_USERNAME}
         IDAM_DATA_STORE_SYSTEM_USER_PASSWORD: ${IDAM_DATA_STORE_SYSTEM_USER_PASSWORD}
-        ELASTIC_SEARCH_ENABLED: true
-        ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
-        ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
         CASE_DOCUMENT_AM_URL: http://ccd-case-document-am-api-aat.service.core-compute-aat.internal
-      keyVaults: [ ]
+      keyVaults: []
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
   ccd-definition-store-api:
     java:
       imagePullPolicy: Always
-      keyVaults: [ ]
+      keyVaults: []
       environment:
         DEFINITION_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
         DEFINITION_STORE_IDAM_KEY: ${DEFINITION_STORE_S2S_KEY}
         DEFINITION_STORE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,divorce,ccd_gw,divorce_ccd_submission
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
         OIDC_ISSUER: https://forgerock-am.service.core-compute-idam-aat.internal:8443/openam/oauth2/hmcts
-        ELASTIC_SEARCH_ENABLED: true
-        ELASTIC_SEARCH_HOST: ${SERVICE_NAME}-es-master
       ingressHost: ccd-definition-store-${SERVICE_FQDN}
 
   ccd-admin-web:
     nodejs:
       image: hmctspublic.azurecr.io/ccd/admin-web:latest
       ingressHost: admin-web-${SERVICE_FQDN}
-      keyVaults: [ ]
+      keyVaults: []
       environment:
         USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
         IDAM_ADMIN_WEB_SERVICE_KEY: ${ADMIN_S2S_KEY}
@@ -324,7 +300,7 @@ ccd:
 
   ccd-api-gateway-web:
     nodejs:
-      keyVaults: [ ]
+      keyVaults: []
       environment:
         IDAM_SERVICE_KEY: ${API_GATEWAY_S2S_KEY}
         IDAM_OAUTH2_CLIENT_SECRET: ${API_GATEWAY_IDAM_SECRET}
@@ -336,7 +312,7 @@ ccd:
 
   ccd-case-print-service:
     nodejs:
-      keyVaults: [ ]
+      keyVaults: []
       environment:
         IDAM_PRINT_SERVICE_KEY: ${PRINT_S2S_KEY}
       ingressHost: ccd-case-print-service-${SERVICE_FQDN}
@@ -360,59 +336,6 @@ ccd:
       userProfileDatabasePassword: hmcts
       userProfileDatabaseName: user-profile
 
-elastic:
-  enabled: true
-
-elasticsearch:
-  clusterName: "es"
-  imageTag: "6.4.2"
-  replicas: 1
-  minimumMasterNodes: 1
-  antiAffinity: "soft"
-  esJavaOpts: "-Xmx512m -Xms512m"
-  initResources:
-    limits:
-      cpu: "500m"
-      memory: "512Mi"
-    requests:
-      cpu: "25m"
-      memory: "512Mi"
-  persistence:
-    enabled: false
-  ingress:
-    enabled: true
-    annotations:
-      kubernetes.io/ingress.class: traefik
-    path: /
-    hosts:
-      - es-${SERVICE_FQDN}
-
-logstash:
-  image:
-    repository: hmctspublic.azurecr.io/ccd/logstash
-    tag: latest
-    pullPolicy: Always
-  logstashJavaOpts: -Xmx1g -Xms512m
-  resources:
-    limits:
-      cpu: 2500m
-      memory: 1024Mi
-    requests:
-      cpu: 500m
-      memory: 1024Mi
-  persistence:
-    enabled: false
-  volumeMounts:
-    - name: pipeline
-      mountPath: /usr/share/logstash/files
-  elasticsearch:
-    host: ${SERVICE_NAME}-es-master
-    port: 9200
-  configTpl:
-    xpack.monitoring.enabled: "false"
-    db.url: jdbc:postgresql://${SERVICE_NAME}-postgresql:5432/data-store?ssl=disable&stringtype=unspecified
-    db.user: hmcts
-    db.pwd: hmcts
-    es.data.nodes.url: http://${SERVICE_NAME}-es-master:9200
-  livenessProbe:
-    initialDelaySeconds: 90
+  postgresql:
+    persistence:
+      enabled: false

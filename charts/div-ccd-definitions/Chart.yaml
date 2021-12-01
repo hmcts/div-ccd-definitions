@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.10
+version: 2.0.11
 dependencies:
   - name: nodejs
     version: ~2.3.7
@@ -10,7 +10,7 @@ dependencies:
     version: ~5.0.4
     repository: '@hmctspublic'
     tags:
-      - divorce-ccd-stack
+      - ccd-pr
   - name: xui-webapp
     version: ~0.2.1
     repository: '@hmctspublic'
@@ -43,16 +43,3 @@ dependencies:
     version: 2.0.4
     repository: '@hmctspublic'
     condition: div-cms.enabled
-
-  - name: postgresql
-    version: 8.9.8
-    repository: https://charts.bitnami.com/bitnami
-    condition: postgresql.enabled
-
-  - name: elasticsearch
-    version: 7.8.1
-    repository: '@hmctspublic'
-    condition: elastic.enabled
-  - name: logstash
-    version: ~2.4.1
-    repository: '@hmctspublic'
