@@ -10,7 +10,7 @@ dependencies:
     version: ~5.0.4
     repository: '@hmctspublic'
     tags:
-      - ccd-pr
+      - divorce-ccd-stack
   - name: xui-webapp
     version: ~0.2.1
     repository: '@hmctspublic'
@@ -43,11 +43,15 @@ dependencies:
     version: 2.0.4
     repository: '@hmctspublic'
     condition: div-cms.enabled
+
+  - name: postgresql
+    version: 8.9.8
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled
+
   - name: elasticsearch
-    version: 7.8.1
-    repository: '@hmctspublic'
-    condition: elastic.enabled
+    version: 13.0.2
+    repository: "https://charts.bitnami.com/bitnami"
   - name: logstash
-    version: 2.4.1
+    version: ~2.4.1
     repository: '@hmctspublic'
-    condition: elastic.enabled
