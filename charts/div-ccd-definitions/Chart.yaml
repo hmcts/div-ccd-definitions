@@ -10,7 +10,7 @@ dependencies:
     version: ~5.0.4
     repository: '@hmctspublic'
     tags:
-      - ccd-pr
+      - divorce-ccd-stack
   - name: xui-webapp
     version: ~0.2.1
     repository: '@hmctspublic'

@@ -1,5 +1,5 @@
 tags:
-  ccd-pr: true
+  divorce-ccd-stack: true
 
 nodejs:
   # Don't modify below here
@@ -207,7 +207,8 @@ ccd:
       enabled: false
     printService:
       enabled: true
-
+    elastic:
+      enabled: true
 
   ingressHost: ${SERVICE_FQDN}
   ingressIP: ${INGRESS_IP}
@@ -248,6 +249,9 @@ ccd:
         IDAM_DATA_STORE_SYSTEM_USER_PASSWORD: ${IDAM_DATA_STORE_SYSTEM_USER_PASSWORD}
         CASE_DOCUMENT_AM_URL: http://ccd-case-document-am-api-aat.service.core-compute-aat.internal
         ROLE_ASSIGNMENT_URL: http://am-role-assignment-service-aat.service.core-compute-aat.internal
+        ELASTIC_SEARCH_ENABLED: true
+        ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
+        ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
       keyVaults: []
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
@@ -261,7 +265,11 @@ ccd:
         DEFINITION_STORE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,divorce,ccd_gw,divorce_ccd_submission
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
         OIDC_ISSUER: https://forgerock-am.service.core-compute-idam-aat.internal:8443/openam/oauth2/hmcts
+        ELASTIC_SEARCH_ENABLED: true
+        ELASTIC_SEARCH_HOST: ${SERVICE_NAME}-es-master
       ingressHost: ccd-definition-store-${SERVICE_FQDN}
+
+
 
   ccd-admin-web:
     nodejs:
@@ -338,3 +346,45 @@ ccd:
   postgresql:
     persistence:
       enabled: false
+    postgresConfig:
+      maxConnections: "300"
+
+  elasticsearch:
+    clusterName: "es"
+    imageTag: "6.4.2"
+    replicas: 1
+    minimumMasterNodes: 1
+    antiAffinity: "soft"
+    esJavaOpts: "-Xmx512m -Xms512m"
+    persistence:
+      enabled: false
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: traefik
+      path: /
+      hosts:
+        - es-${SERVICE_FQDN}
+
+  logstash:
+    image:
+      repository: hmctspublic.azurecr.io/ccd/logstash
+      tag: latest
+      pullPolicy: Always
+    logstashJavaOpts: -Xmx1g -Xms512M
+    persistence:
+      enabled: false
+    volumeMounts:
+      - name: pipeline
+        mountPath: /usr/share/logstash/files
+    elasticsearch:
+      host: ${SERVICE_NAME}-es-master
+      port: 9200
+    configTpl:
+      xpack.monitoring.enabled: "false"
+      db.url: jdbc:postgresql://${SERVICE_NAME}-postgresql:5432/data-store?ssl=disable&stringtype=unspecified
+      db.user: hmcts
+      db.pwd: hmcts
+      es.data.nodes.url: http://${SERVICE_NAME}-es-master:9200
+    livenessProbe:
+      initialDelaySeconds: 90
