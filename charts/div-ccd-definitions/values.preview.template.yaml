@@ -223,7 +223,6 @@ ccd:
     postgresUsername: hmcts
     postgresPassword: hmcts
     s2sUrl: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
-    devMode: true
 
   ccd-user-profile-api:
     java:
