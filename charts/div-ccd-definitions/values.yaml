@@ -21,6 +21,8 @@ div-dn:
   enabled: false
 div-cos:
   enabled: false
+div-cms:
+  enabled: false
 div-dgs:
   enabled: false
 
