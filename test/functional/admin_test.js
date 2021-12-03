@@ -25,7 +25,7 @@ Scenario('add all the roles', I => {
   I.see('caseworker-divorce-superuser');
   I.see('caseworker-divorce-pcqextractor');
   I.see('caseworker-caa');
-}).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+}).retry({ retries: 4, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
 // this should be only executed for PRs and not master
 if (process.env.IMPORT_PROD_LIKE) {
