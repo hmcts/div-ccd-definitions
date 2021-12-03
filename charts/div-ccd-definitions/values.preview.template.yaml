@@ -1,5 +1,5 @@
 tags:
-  ccd-pr: true
+  divorce-ccd-stack: true
 
 nodejs:
   # Don't modify below here
@@ -10,6 +10,11 @@ idam-pr:
   releaseNameOverride: ${SERVICE_NAME}-idam-pr
   enabled: true
   redirect_uris:
+    divorce:
+      - https://pfe-${SERVICE_FQDN}/authenticated
+      - https://rfe-${SERVICE_FQDN}/authenticated
+      - https://dn-${SERVICE_FQDN}/authenticated
+      - https://da-${SERVICE_FQDN}/authenticated
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
     CCD:
@@ -33,17 +38,200 @@ xui-webapp:
       SERVICES_TERMS_AND_CONDITIONS: http://xui-terms-and-conditions-${SERVICE_FQDN}.service.core-compute-preview.internal
       JURISDICTIONS: DIVORCE
 
+div-pfe:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-pfe
+    image: hmctspublic.azurecr.io/div/pfe:latest
+    ingressHost: pfe-${SERVICE_FQDN}
+    environment:
+      DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
+      DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
+      RESPONDENT_FRONTEND_URL: http://rfe-${SERVICE_FQDN}
+      CASE_ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
+      CASE_ORCHESTRATION_SERVICE_DRAFT_URL: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+
+div-rfe:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-rfe
+    image: hmctspublic.azurecr.io/div/rfe:latest
+    ingressHost: rfe-${SERVICE_FQDN}
+    environment:
+      DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
+      PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
+      DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
+      COS_BASE_URL: http://${SERVICE_NAME}-div-cos
+
+div-da:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-da
+    image: hmctspublic.azurecr.io/div/da:latest
+    ingressHost: da-${SERVICE_FQDN}
+    environment:
+      PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
+      RESPONDENT_FRONTEND_URL: http://rfe-${SERVICE_FQDN}
+      DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
+      ORCHESTRATION_SERVICE_DRAFT_ENDPOINT: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+      ORCHESTRATION_SERVICE_GET_AOS_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-aos-case
+      ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
+      ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-da
+      ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
+
+
+div-dn:
+  enabled: true
+  nodejs:
+    imagePullPolicy: Always
+    releaseNameOverride: ${SERVICE_NAME}-div-dn
+    image: hmctspublic.azurecr.io/div/dn:latest
+    ingressHost: dn-${SERVICE_FQDN}
+    environment:
+      DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
+      PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
+      RESPONDENT_FRONTEND_URL: http://rfe-${SERVICE_FQDN}
+      ORCHESTRATION_SERVICE_AMEND_DN_REJECTION_URL: http://${SERVICE_NAME}-div-cos/amend-petition-dn-rejection
+      ORCHESTRATION_SERVICE_AMEND_PETITION_URL: http://${SERVICE_NAME}-div-cos/amend-petition
+      ORCHESTRATION_SERVICE_DRAFT_ENDPOINT: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+      ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
+      ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-dn
+      ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
+
+div-cos:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/cos:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-cos
+    environment:
+      CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
+      DOCUMENT_GENERATOR_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-dgs
+      DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
+      DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
+      DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
+      DIV_SCHEDULER_DB_PASSWORD: "{{ .Values.postgresql.postgresqlPassword}}"
+      CCD_DATA_STORE_API_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
+      IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
+      IDAM_API_URL: "https://idam-api.aat.platform.hmcts.net"
+      IDAM_CITIZEN_USERNAME: ${IDAM_CITIZEN_USERNAME}
+      IDAM_CITIZEN_PASSWORD: ${IDAM_CITIZEN_PASSWORD}
+      IDAM_CASEWORKER_USERNAME: ${IDAM_CASEWORKER_USERNAME}
+      IDAM_CASEWORKER_PASSWORD: ${IDAM_CASEWORKER_PASSWORD}
+      AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY: ${AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY}
+      AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY: ${AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY}
+      IDAM_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      SERVICE_AUTH_SECRET: ${SERVICE_AUTH_SECRET}
+      UK_GOV_NOTIFY_API_KEY: ${UK_GOV_NOTIFY_API_KEY}
+      USERNAME_SOLICITOR: ${USERNAME_SOLICITOR}
+      PASSWORD_SOLICITOR: ${PASSWORD_SOLICITOR}
+    ingressHost: cos-${SERVICE_FQDN}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - name: idam-citizen-username
+            alias: IDAM_CITIZEN_USERNAME
+          - name: idam-citizen-password
+            alias: IDAM_CITIZEN_PASSWORD
+          - name: ccd-submission-s2s-auth-secret
+            alias: AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY
+          - name: div-doc-s2s-auth-secret
+            alias: AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY
+          - name: idam-secret
+            alias: IDAM_CLIENT_SECRET
+          - name: frontend-secret
+            alias: SERVICE_AUTH_SECRET
+          - name: idam-caseworker-password
+            alias: IDAM_CASEWORKER_PASSWORD
+          - name: idam-caseworker-username
+            alias: IDAM_CASEWORKER_USERNAME
+          - name: uk-gov-notify-api-key
+            alias: UK_GOV_NOTIFY_API_KEY
+          - name: ccd-e2e-solicitor-email
+            alias: USERNAME_SOLICITOR
+          - name: ccd-e2e-solicitor-password
+            alias: PASSWORD_SOLICITOR
+
+div-cms:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/cms:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-cms
+    ingressHost: cms-${SERVICE_FQDN}
+    environment:
+      AUTH_PROVIDER_SERVICE_CLIENT_BASEURL: "http://rpe-service-auth-provider-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      DRAFT_STORE_API_BASEURL: "http://draft-store-service-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      CASE_FORMATTER_SERVICE_API_BASEURL: "http://div-cfs-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
+      IDAM_API_BASEURL: https://idam-api.aat.platform.hmcts.net
+      CASE_DATA_STORE_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
+      AUTH_PROVIDER_SERVICE_CLIENT_MICROSERVICE: "divorce_ccd_submission"
+      AUTH_PROVIDER_SERVICE_CLIENT_TOKENTIMETOLIVEINSECONDS: "900"
+      LOG_LEVEL: DEBUG
+      MANAGEMENT_ENDPOINT_HEALTH_CACHE_TIMETOLIVE: "30000"
+      DOCUMENTATION_SWAGGER_ENABLED: true
+      IDAM_CASEWORKER_USERNAME: ${IDAM_CASEWORKER_USERNAME}
+      IDAM_CASEWORKER_PASSWORD: ${IDAM_CASEWORKER_PASSWORD}
+      AUTH_IDAM_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      AUTH2_CLIENT_SECRET: ${IDAM_CLIENT_SECRET}
+      AUTH_PROVIDER_SERVICE_CLIENT_KEY: ${CCD_SUBMIT_S2S_SECRET}
+      DRAFT_STORE_API_ENCRYPTION_KEY_VALUE: ${DRAFT_STORE_API_ENCRYPTION_KEY_VALUE}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - name: idam-secret
+            alias: IDAM_CLIENT_SECRET
+          - name: ccd-submission-s2s-auth-secret
+            alias: CCD_SUBMIT_S2S_SECRET
+          - name: draft-store-api-encryption-key
+            alias: DRAFT_STORE_API_ENCRYPTION_KEY_VALUE
+          - name: idam-caseworker-password
+            alias: IDAM_CASEWORKER_PASSWORD
+          - name: idam-caseworker-username
+            alias: IDAM_CASEWORKER_USERNAME
+div-dgs:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/dgs:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-dgs
+    ingressHost: dgs-${SERVICE_FQDN}
+    environment:
+      IDAM_AUTH_SECRET: ${IDAM_AUTH_SECRET}
+      AUTH_IDAM_CLIENT_SECRET: ${AUTH_IDAM_CLIENT_SECRET}
+      DOCMOSIS_SERVICE_ACCESS_KEY: ${DOCMOSIS_SERVICE_ACCESS_KEY}
+      AUTH_PROVIDER_SERVICE_CLIENT_KEY: ${AUTH_PROVIDER_SERVICE_CLIENT_KEY}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - name: div-doc-s2s-auth-secret
+            alias: IDAM_AUTH_SECRET
+          - name: idam-secret
+            alias: AUTH_IDAM_CLIENT_SECRET
+          - name: docmosis-api-key
+            alias: DOCMOSIS_SERVICE_ACCESS_KEY
+          - name: AppInsightsInstrumentationKey
+
 ccd:
   ccd:
     definitionImporter:
       enabled: false
     managementWeb:
-       enabled: true
+      enabled: true
     apiGatewayWeb:
       enabled: true
     s2s:
       enabled: false
     printService:
+      enabled: true
+    elastic:
       enabled: true
 
   ingressHost: ${SERVICE_FQDN}
@@ -66,7 +254,7 @@ ccd:
       imagePullPolicy: Always
       enviroment:
         USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
-      keyVaults: []
+      keyVaults: [ ]
       environment:
         USER_PROFILE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,ccd_definition,divorce
       ingressHost: ccd-user-profile-api-${SERVICE_FQDN}
@@ -77,12 +265,17 @@ ccd:
       environment:
         DATA_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
         DATA_STORE_IDAM_KEY: ${DATA_STORE_S2S_KEY}
+        DATA_STORE_S2S_AUTHORISED_SERVICES: ccd_gw,ccd_gateway,fpl_case_service,ccd_data,ccd_ps,aac_manage_case_assignment,xui_webapp,ccd_case_document_am_api,divorce_ccd_submission
         IDAM_API_BASE_URL: https://idam-api.aat.platform.hmcts.net
         IDAM_OIDC_URL: https://idam-web-public.aat.platform.hmcts.net
         IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET: ${IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET}
         IDAM_DATA_STORE_SYSTEM_USER_USERNAME: ${IDAM_DATA_STORE_SYSTEM_USER_USERNAME}
         IDAM_DATA_STORE_SYSTEM_USER_PASSWORD: ${IDAM_DATA_STORE_SYSTEM_USER_PASSWORD}
         CASE_DOCUMENT_AM_URL: http://ccd-case-document-am-api-aat.service.core-compute-aat.internal
+        ROLE_ASSIGNMENT_URL: http://am-role-assignment-service-aat.service.core-compute-aat.internal
+        ELASTIC_SEARCH_ENABLED: true
+        ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
+        ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
       keyVaults: []
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
@@ -96,7 +289,11 @@ ccd:
         DEFINITION_STORE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,divorce,ccd_gw,divorce_ccd_submission
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
         OIDC_ISSUER: https://forgerock-am.service.core-compute-idam-aat.internal:8443/openam/oauth2/hmcts
+        ELASTIC_SEARCH_ENABLED: true
+        ELASTIC_SEARCH_HOST: ${SERVICE_NAME}-es-master
       ingressHost: ccd-definition-store-${SERVICE_FQDN}
+
+
 
   ccd-admin-web:
     nodejs:
@@ -173,3 +370,45 @@ ccd:
   postgresql:
     persistence:
       enabled: false
+    postgresConfig:
+      maxConnections: "300"
+
+  elasticsearch:
+    clusterName: "es"
+    imageTag: "6.4.2"
+    replicas: 1
+    minimumMasterNodes: 1
+    antiAffinity: "soft"
+    esJavaOpts: "-Xmx512m -Xms512m"
+    persistence:
+      enabled: false
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: traefik
+      path: /
+      hosts:
+        - es-${SERVICE_FQDN}
+
+  logstash:
+    image:
+      repository: hmctspublic.azurecr.io/ccd/logstash
+      tag: ccd-divorce-logstash-latest
+      pullPolicy: Always
+    logstashJavaOpts: -Xmx1g -Xms512M
+    persistence:
+      enabled: false
+    volumeMounts:
+      - name: pipeline
+        mountPath: /usr/share/logstash/files
+    elasticsearch:
+      host: ${SERVICE_NAME}-es-master
+      port: 9200
+    configTpl:
+      xpack.monitoring.enabled: "false"
+      db.url: jdbc:postgresql://${SERVICE_NAME}-postgresql:5432/data-store?ssl=disable&stringtype=unspecified
+      db.user: hmcts
+      db.pwd: hmcts
+      es.data.nodes.url: http://${SERVICE_NAME}-es-master:9200
+    livenessProbe:
+      initialDelaySeconds: 90

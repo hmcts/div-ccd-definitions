@@ -26,12 +26,26 @@ def secrets = [
 
         ],
         'div-${env}'      : [
-        secret('ccd-e2e-solicitor-email', 'USERNAME_SOLICITOR'),
-        secret('ccd-e2e-solicitor-password', 'PASSWORD_SOLICITOR'),
-        secret('ccd-e2e-caseworker-email', 'USERNAME_CASEWORKER'),
-        secret('ccd-e2e-caseworker-password', 'PASSWORD_CASEWORKER'),
-        secret('idam-secret', 'IDAM_CLIENT_SECRET'),
-        secret('ccd-submission-s2s-auth-secret', 'CCD_SUBMIT_S2S_SECRET')
+                secret('ccd-e2e-solicitor-email', 'USERNAME_SOLICITOR'),
+                secret('ccd-e2e-solicitor-password', 'PASSWORD_SOLICITOR'),
+                secret('ccd-e2e-caseworker-email', 'USERNAME_CASEWORKER'),
+                secret('ccd-e2e-caseworker-password', 'PASSWORD_CASEWORKER'),
+                secret('ccd-submission-s2s-auth-secret', 'CCD_SUBMIT_S2S_SECRET'),
+                secret("div-doc-s2s-auth-secret", "AUTH_PROVIDER_DOCUMENTGENERATOR_CLIENT_KEY"),
+                secret("frontend-secret", "SERVICE_AUTH_SECRET"),
+                secret('idam-secret', 'IDAM_CLIENT_SECRET'),
+                secret("idam-citizen-username", "IDAM_CITIZEN_USERNAME"),
+                secret("idam-caseworker-username", "IDAM_CASEWORKER_USERNAME"),
+                secret("idam-citizen-password", "IDAM_CITIZEN_PASSWORD"),
+                secret("idam-caseworker-password", "IDAM_CASEWORKER_PASSWORD"),
+                secret("uk-gov-notify-api-key", "UK_GOV_NOTIFY_API_KEY"),
+                secret("ccd-submission-s2s-auth-secret", "AUTH_PROVIDER_CCDSUBMISSION_CLIENT_KEY"),
+                secret("draft-store-api-encryption-key", "DRAFT_STORE_API_ENCRYPTION_KEY_VALUE"),
+                secret("div-doc-s2s-auth-secret", "IDAM_AUTH_SECRET"),
+                secret("docmosis-api-key", "DOCMOSIS_SERVICE_ACCESS_KEY"),
+                secret("idam-secret", "AUTH_IDAM_CLIENT_SECRET"),
+                secret("div-doc-s2s-auth-secret", "AUTH_PROVIDER_SERVICE_CLIENT_KEY")
+
         ]
 ]
 
@@ -47,7 +61,6 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
 withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
-
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
@@ -62,6 +75,8 @@ withPipeline("nodejs", product, component) {
   before('functionalTest:preview') {
     yarnBuilder.yarn('setup')
 
+    env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
+    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     stage('Generate Divorce Case excel file') {
       yarnBuilder.yarn('generate-excel-all')
     }
@@ -71,7 +86,6 @@ withPipeline("nodejs", product, component) {
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
     env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
-    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     env.CCD_WEB_URL="https://case-management-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal/v2/case/"
     env.IMPORT_PROD_LIKE=true
   }
