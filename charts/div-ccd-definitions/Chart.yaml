@@ -45,4 +45,5 @@ dependencies:
     condition: div-cms.enabled
   - name: div-dgs
     version: 2.0.5
+    repository: '@hmctspublic'
     condition: div-dgs.enabled
