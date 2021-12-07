@@ -208,6 +208,7 @@ div-cms:
             alias: IDAM_CASEWORKER_PASSWORD
           - name: idam-caseworker-username
             alias: IDAM_CASEWORKER_USERNAME
+
 div-dgs:
   enabled: true
   java:
