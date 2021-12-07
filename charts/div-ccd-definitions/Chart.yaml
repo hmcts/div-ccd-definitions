@@ -47,3 +47,7 @@ dependencies:
     version: 2.0.5
     repository: '@hmctspublic'
     condition: div-dgs.enabled
+  - name: div-emca
+    version: 2.0.4
+    repository: '@hmctspublic'
+    condition: div-emca.enabled

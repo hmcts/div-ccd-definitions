@@ -25,4 +25,6 @@ div-cms:
   enabled: false
 div-dgs:
   enabled: false
+div-emca:
+  enabled: false
 
