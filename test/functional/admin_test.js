@@ -28,7 +28,7 @@ Scenario('add all the roles', I => {
 }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
 // this should be only executed for PRs and not master
-if( typeof process.env.IMPORT_PROD_LIKE === 'boolean' && process.env.IMPORT_PROD_LIKE === true) {
+if (typeof process.env.IMPORT_PROD_LIKE === 'boolean' && process.env.IMPORT_PROD_LIKE === true) {
   Scenario('upload prod-like divorce config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat-prod-like.xlsx');
@@ -47,16 +47,16 @@ if( typeof process.env.IMPORT_PROD_LIKE === 'boolean' && process.env.IMPORT_PROD
     I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 }
-if( typeof process.env.IMPORT_PROD_LIKE === 'boolean' && process.env.IMPORT_PROD_LIKE === false) {
+if (typeof process.env.IMPORT_PROD_LIKE === 'boolean' && process.env.IMPORT_PROD_LIKE === false) {
   Scenario('upload divorce config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
     I.see('Case Definition data successfully imported');
-  }).retry({retries: 3, minTimeout: 30000}); // eslint-disable-line no-magic-numbers
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
   Scenario('upload bulk action config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
     I.see('Case Definition data successfully imported');
-  }).retry({retries: 3, minTimeout: 30000}); // eslint-disable-line no-magic-numbers
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 }
