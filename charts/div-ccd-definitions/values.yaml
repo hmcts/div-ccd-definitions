@@ -27,4 +27,5 @@ div-dgs:
   enabled: false
 div-emca:
   enabled: false
-
+div-fps:
+  enabled: false

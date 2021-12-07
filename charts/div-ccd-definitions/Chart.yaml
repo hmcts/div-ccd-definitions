@@ -51,3 +51,7 @@ dependencies:
     version: 2.0.4
     repository: '@hmctspublic'
     condition: div-emca.enabled
+  - name: div-fps
+    version: 3.0.4
+    repository: '@hmctspublic'
+    condition: div-fps.enabled
