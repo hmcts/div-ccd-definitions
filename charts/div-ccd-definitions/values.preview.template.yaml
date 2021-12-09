@@ -105,7 +105,7 @@ div-cos:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cos:pr-1544-ead603a-20211126105335
+    image: hmctspublic.azurecr.io/div/cos:pr-1544
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
