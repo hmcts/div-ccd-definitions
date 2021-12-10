@@ -109,6 +109,32 @@ function loadDefinitionsForNonProd() {
   CaseEventToFields = nonprod.CaseEventToFields;
 }
 
+function atLeastCruOrRuForAllMandatoryOptionalAndReadonlyShowHideEventFields() {
+  AuthCaseEventsActive.forEach(eventAuth => {
+    const userRole = eventAuth.UserRole;
+    const eventName = eventAuth.CaseEventID;
+    const caseType = eventAuth.CaseTypeID;
+    let caseFieldsForEvent = CaseEventToFields.filter(getFieldsForEvent(eventName, caseType));
+
+    // get all the READONLY fields that are used as show/hide conditions (not labels) - these are sent with the event too
+    const caseFieldsForConditionals = CaseEventToFields.filter(getShowHideFieldsForEvent(eventName));
+    caseFieldsForEvent = concat(caseFieldsForEvent, caseFieldsForConditionals);
+
+    // find the intersection between the event fields and the field's authorisations for this user role and event
+    const relevantCaseFieldsAuth = intersectionWith(
+      AuthorisationCaseField, caseFieldsForEvent, matchEventFieldToAuthField(userRole, caseType));
+
+    if (relevantCaseFieldsAuth.length !== caseFieldsForEvent.length) {
+      const diffFields = differenceWith(
+        caseFieldsForEvent, relevantCaseFieldsAuth, getDiffForFields(userRole, caseType));
+      console.log(`Event ID: ${eventName} for ${userRole} user role is missing field authorisations`);
+      console.dir(diffFields);
+    }
+
+    expect(1).to.eql(1);
+  });
+}
+
 function minimumRuForAllPreConditionStates() {
   CaseEvent.forEach(event => {
     const acceptedPermissions = /C?RU?D?/;
