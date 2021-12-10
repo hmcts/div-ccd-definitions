@@ -108,7 +108,6 @@ function loadDefinitionsForNonProd() {
   CaseEvent = nonprod.CaseEvent;
   CaseEventToFields = nonprod.CaseEventToFields;
 }
-}
 
 function minimumRuForAllPreConditionStates() {
   CaseEvent.forEach(event => {
