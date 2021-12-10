@@ -4596,7 +4596,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorApplyForDN",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -5296,7 +5296,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorSubmitAOS",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "12/08/2019",
