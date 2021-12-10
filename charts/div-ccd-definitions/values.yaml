@@ -25,4 +25,5 @@ div-cms:
   enabled: false
 div-dgs:
   enabled: false
-
+aac-mc:
+  enabled: false

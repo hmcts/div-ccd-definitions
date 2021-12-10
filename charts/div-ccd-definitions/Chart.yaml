@@ -47,3 +47,11 @@ dependencies:
     version: 2.0.5
     repository: '@hmctspublic'
     condition: div-dgs.enabled
+  - name: div-dgs
+    version: 2.0.5
+    repository: '@hmctspublic'
+    condition: div-dgs.enabled
+  - name: aac-manage-case-assignment
+    repository: '@hmctspublic'
+    version: 0.1.10
+    condition: aac-mc.enabled
