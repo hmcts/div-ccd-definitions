@@ -91,6 +91,7 @@ div-dn:
     image: hmctspublic.azurecr.io/div/dn:latest
     ingressHost: dn-${SERVICE_FQDN}
     environment:
+      REDISCLOUD_URL: "redis://${SERVICE_NAME}-redis-master:6379"
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
       RESPONDENT_FRONTEND_URL: http://rfe-${SERVICE_FQDN}
@@ -100,6 +101,8 @@ div-dn:
       ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
       ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-dn
       ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
+  pr:
+    enabled: true
 
 div-cos:
   enabled: true
