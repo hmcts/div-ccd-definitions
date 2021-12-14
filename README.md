@@ -32,7 +32,7 @@ https://tools.hmcts.net/confluence/display/BSP/Feature+toggle+for+CCD+definition
 ### For all environments
 
 `yarn generate-excel-all` to generate excel configs for all environments (Demo, AAT and Prod) 
-
+ 
 The generated excel files will be in `defintions/divorce/xlsx`
 
 ### For a specific environment
