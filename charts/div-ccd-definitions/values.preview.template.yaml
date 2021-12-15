@@ -120,21 +120,21 @@ div-cos:
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
-        FEATURE_DN_REFUSAL: "true"
-        FEATURE_RESP_SOLICITOR_DETAILS: "true"
-        SOLICITOR_DN_REJECT_AND_AMEND: "true"
-        FEATURE_SHARE_A_CASE: "true"
-        FEATURE_REPRESENTED_RESPONDENT_JOURNEY: "true"
-        FEATURE_OBJECT_TO_COSTS: "true"
-        FEATURE_BAILIFF_JOURNEY: "true"
-        FEATURE_USE_USER_TOKEN: "true"
-        PAY_BY_ACCOUNT: "true"
-        DATAEXTRACTION_STATUS_DA_EMAILTO: da_data_extraction@sharklasers.com
-        DATAEXTRACTION_STATUS_AOS_EMAILTO: aos_data_extraction@sharklasers.com
-        DATAEXTRACTION_STATUS_DN_EMAILTO: dn_data_extraction@sharklasers.com
-        SCHEDULER_ENABLED: false
-        SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_ENABLED: false
-        SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_CRON: "0 0/10 * ? * * *"#Runs every 10 minutes (if enabled)
+      FEATURE_DN_REFUSAL: "true"
+      FEATURE_RESP_SOLICITOR_DETAILS: "true"
+      SOLICITOR_DN_REJECT_AND_AMEND: "true"
+      FEATURE_SHARE_A_CASE: "false"
+      FEATURE_REPRESENTED_RESPONDENT_JOURNEY: "true"
+      FEATURE_OBJECT_TO_COSTS: "true"
+      FEATURE_BAILIFF_JOURNEY: "true"
+      FEATURE_USE_USER_TOKEN: "true"
+      PAY_BY_ACCOUNT: "true"
+      DATAEXTRACTION_STATUS_DA_EMAILTO: da_data_extraction@sharklasers.com
+      DATAEXTRACTION_STATUS_AOS_EMAILTO: aos_data_extraction@sharklasers.com
+      DATAEXTRACTION_STATUS_DN_EMAILTO: dn_data_extraction@sharklasers.com
+      SCHEDULER_ENABLED: false
+      SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_ENABLED: false
+      SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_CRON: "0 0/10 * ? * * *"#Runs every 10 minutes (if enabled)
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       DOCUMENT_GENERATOR_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-dgs
       FEES_AND_PAYMENTS_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-fps
