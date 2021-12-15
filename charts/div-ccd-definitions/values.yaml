@@ -25,5 +25,7 @@ div-cms:
   enabled: false
 div-dgs:
   enabled: false
-aac-mc:
+div-emca:
+  enabled: false
+div-fps:
   enabled: false

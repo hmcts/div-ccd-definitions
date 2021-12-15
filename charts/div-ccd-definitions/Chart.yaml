@@ -47,11 +47,11 @@ dependencies:
     version: 2.0.5
     repository: '@hmctspublic'
     condition: div-dgs.enabled
-  - name: div-dgs
-    version: 2.0.5
+  - name: div-emca
+    version: 2.0.4
     repository: '@hmctspublic'
-    condition: div-dgs.enabled
-  - name: aac-manage-case-assignment
+    condition: div-emca.enabled
+  - name: div-fps
+    version: 3.0.4
     repository: '@hmctspublic'
-    version: 0.1.10
-    condition: aac-mc.enabled
+    condition: div-fps.enabled
