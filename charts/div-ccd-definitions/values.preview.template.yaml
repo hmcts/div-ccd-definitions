@@ -477,15 +477,3 @@ ccd:
     livenessProbe:
       initialDelaySeconds: 90
 
-aac-mc:
-  enabled: true
-  java:
-    imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/aac/manage-case-assignment:latest
-    releaseNameOverride: ${SERVICE_NAME}-aac-mc
-    ingressHost: aac-mc-${SERVICE_FQDN}
-    environment:
-      CCD_DATA_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-data-store-api
-      CCD_DEFINITION_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-definition-store-api
-    keyVaults: []
-
