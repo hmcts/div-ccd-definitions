@@ -120,7 +120,7 @@ div-cos:
     image: hmctspublic.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
-      FEATURE_DN_REFUSAL: "true"
+        FEATURE_DN_REFUSAL: "true"
         FEATURE_RESP_SOLICITOR_DETAILS: "true"
         SOLICITOR_DN_REJECT_AND_AMEND: "true"
         FEATURE_SHARE_A_CASE: "true"
