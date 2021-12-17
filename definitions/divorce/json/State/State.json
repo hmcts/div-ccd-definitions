@@ -44,7 +44,7 @@
     "DisplayOrder": 5,
     "TitleDisplay": "${[CASE_REFERENCE]}: ${D8PetitionerLastName} vs ${D8RespondentLastName}"
   },
-  {
+  { 
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "Rejected",
