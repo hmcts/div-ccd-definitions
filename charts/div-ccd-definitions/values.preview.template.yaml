@@ -75,7 +75,7 @@ div-da:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
-    image: hmctspublic.azurecr.io/div/da:latest
+    image: hmctspublic.azurecr.io/div/da:pr-161
     ingressHost: da-${SERVICE_FQDN}
     environment:
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
@@ -111,6 +111,7 @@ div-dn:
       CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
+      FEATURE_DYNATRACE: "true"
 
 
 div-cos:
