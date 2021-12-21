@@ -188,7 +188,7 @@ div-cms:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cms:latest
+    image: hmctspublic.azurecr.io/div/cms:pr-550
     releaseNameOverride: ${SERVICE_NAME}-div-cms
     ingressHost: cms-${SERVICE_FQDN}
     environment:
