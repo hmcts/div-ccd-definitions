@@ -51,6 +51,8 @@ div-pfe:
       RESPONDENT_FRONTEND_URL: http://rfe-${SERVICE_FQDN}
       CASE_ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
       CASE_ORCHESTRATION_SERVICE_DRAFT_URL: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
+      EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
+      FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
 
 div-rfe:
   enabled: true
@@ -64,6 +66,9 @@ div-rfe:
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
       DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
       COS_BASE_URL: http://${SERVICE_NAME}-div-cos
+      FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
+      CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
+      EVIDENCE_MANAGEMENT_CLIENT_API_URL:  http://${SERVICE_NAME}-div-emca
 
 div-da:
   enabled: true
@@ -81,7 +86,10 @@ div-da:
       ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
       ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-da
       ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
-
+      CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
+      EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
+      EVIDENCE_MANAGEMENT_CLIENT_API_DOWNLOAD_ENDPOINT: "/emclientapi/version/1/download"
+      FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
 
 div-dn:
   enabled: true
@@ -101,8 +109,9 @@ div-dn:
       ORCHESTRATION_SERVICE_GET_PETITION_URL: http://${SERVICE_NAME}-div-cos/retrieve-case
       ORCHESTRATION_SERVICE_POST_PETITION_URL: http://${SERVICE_NAME}-div-cos/submit-dn
       ORCHESTRATION_SERVICE_URL: http://${SERVICE_NAME}-div-cos
-  pr:
-    enabled: true
+      CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
+      FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
+      EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
 
 div-cos:
   enabled: true
@@ -111,8 +120,24 @@ div-cos:
     image: hmctspublic.azurecr.io/div/cos:pr-1549
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
+      FEATURE_DN_REFUSAL: "true"
+      FEATURE_RESP_SOLICITOR_DETAILS: "true"
+      SOLICITOR_DN_REJECT_AND_AMEND: "true"
+      FEATURE_SHARE_A_CASE: "false"
+      FEATURE_REPRESENTED_RESPONDENT_JOURNEY: "true"
+      FEATURE_OBJECT_TO_COSTS: "true"
+      FEATURE_BAILIFF_JOURNEY: "true"
+      FEATURE_USE_USER_TOKEN: "true"
+      PAY_BY_ACCOUNT: "true"
+      DATAEXTRACTION_STATUS_DA_EMAILTO: da_data_extraction@sharklasers.com
+      DATAEXTRACTION_STATUS_AOS_EMAILTO: aos_data_extraction@sharklasers.com
+      DATAEXTRACTION_STATUS_DN_EMAILTO: dn_data_extraction@sharklasers.com
+      SCHEDULER_ENABLED: false
+      SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_ENABLED: false
+      SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_CRON: "0 0/10 * ? * * *"#Runs every 10 minutes (if enabled)
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       DOCUMENT_GENERATOR_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-dgs
+      FEES_AND_PAYMENTS_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-fps
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
       DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
       DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
@@ -198,6 +223,7 @@ div-cms:
             alias: IDAM_CASEWORKER_PASSWORD
           - name: idam-caseworker-username
             alias: IDAM_CASEWORKER_USERNAME
+
 div-dgs:
   enabled: true
   java:
@@ -210,6 +236,7 @@ div-dgs:
       AUTH_IDAM_CLIENT_SECRET: ${AUTH_IDAM_CLIENT_SECRET}
       DOCMOSIS_SERVICE_ACCESS_KEY: ${DOCMOSIS_SERVICE_ACCESS_KEY}
       AUTH_PROVIDER_SERVICE_CLIENT_KEY: ${AUTH_PROVIDER_SERVICE_CLIENT_KEY}
+      EVIDENCE_MANAGEMENT_CLIENT_API_BASEURL: http://${SERVICE_NAME}-div-emca
     keyVaults:
       "div":
         resourceGroup: div
@@ -220,6 +247,40 @@ div-dgs:
             alias: AUTH_IDAM_CLIENT_SECRET
           - name: docmosis-api-key
             alias: DOCMOSIS_SERVICE_ACCESS_KEY
+          - name: AppInsightsInstrumentationKey
+
+div-emca:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/emca:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-emca
+    ingressHost: emca-${SERVICE_FQDN}
+    environment:
+      IDAM_AUTH_SECRET: ${IDAM_AUTH_SECRET}
+      AUTH_IDAM_CLIENT_SECRET: ${AUTH_IDAM_CLIENT_SECRET}
+      AUTH_PROVIDER_SERVICE_CLIENT_KEY: ${AUTH_PROVIDER_SERVICE_CLIENT_KEY}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
+          - name: div-doc-s2s-auth-secret
+            alias: IDAM_AUTH_SECRET
+          - name: idam-secret
+            alias: AUTH_IDAM_CLIENT_SECRET
+          - name: AppInsightsInstrumentationKey
+
+div-fps:
+  enabled: true
+  java:
+    imagePullPolicy: Always
+    image: hmctspublic.azurecr.io/div/fps:latest
+    releaseNameOverride: ${SERVICE_NAME}-div-fps
+    ingressHost: fps-${SERVICE_FQDN}
+    keyVaults:
+      "div":
+        resourceGroup: div
+        secrets:
           - name: AppInsightsInstrumentationKey
 
 ccd:
