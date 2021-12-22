@@ -3734,7 +3734,7 @@
     "PageID": "amend",
     "PageLabel": "Update Case",
     "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "No"
+    "ShowSummaryChangeOption": "No" 
   },
   {
     "LiveFrom": "01/01/2018",
