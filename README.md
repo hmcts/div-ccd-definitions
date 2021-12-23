@@ -124,6 +124,7 @@ When we want to release config changes to production:
 4) Upload all the generate Excel files to the release and add give it the same version number from (3)
 5) Raise a RDM ticket (e.g. RDM-5372) and add link to the release created in step (7)
 6) Ask tester to sign off the RDM if changes pass and assign the RDM ticket to someone in the RDM team
+7) 
 
 ### Run full E2E Tests for both Journeys:
 
