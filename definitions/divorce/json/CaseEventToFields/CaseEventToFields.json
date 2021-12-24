@@ -3725,6 +3725,18 @@
     "ShowSummaryChangeOption": "No"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "amendCase",
+    "CaseFieldID": "D8PetitionerFirstName",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "amend",
+    "PageLabel": "Update Case",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "attachScannedDocs",
