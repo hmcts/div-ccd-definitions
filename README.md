@@ -90,7 +90,7 @@ To be able to create a case as a solicitor in a CCD PR, you have to create:
 * temperately change config.aat.cosUrl in package.json to point to the COS PR
 
 This will ensure that callbacks point back to the correct CCD URL.
-
+ 
 ## Applications useful urls
 
 * CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
