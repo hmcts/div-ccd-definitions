@@ -43,7 +43,7 @@ div-pfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
-    image: hmctspublic.azurecr.io/div/pfe:pr-895-8b010c3-20220111150559
+    image: hmctspublic.azurecr.io/div/pfe:pr-895-3492e2b-20220111154231
     ingressHost: pfe-${SERVICE_FQDN}
     environment:
       DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
