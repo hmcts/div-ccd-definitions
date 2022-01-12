@@ -60,7 +60,7 @@ div-rfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-rfe
-    image: hmctspublic.azurecr.io/div/rfe:pr-563-e9b9943-20220110170913
+    image: hmctspublic.azurecr.io/div/rfe:pr-563-a0f3bdc-20220112103117
     ingressHost: rfe-${SERVICE_FQDN}
     environment:
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
@@ -78,7 +78,7 @@ div-da:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
-    image: hmctspublic.azurecr.io/div/da:pr-161-1a14d94-20220110171048
+    image: hmctspublic.azurecr.io/div/da:pr-161-1554907-20220112102514
     ingressHost: da-${SERVICE_FQDN}
     environment:
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
@@ -101,7 +101,7 @@ div-dn:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-dn
-    image: hmctspublic.azurecr.io/div/dn:pr-544-2983242-20220110171009
+    image: hmctspublic.azurecr.io/div/dn:pr-544-96c0aa2-20220112102410
     ingressHost: dn-${SERVICE_FQDN}
     environment:
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
