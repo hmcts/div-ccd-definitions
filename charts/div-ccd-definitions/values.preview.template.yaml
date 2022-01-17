@@ -53,7 +53,7 @@ div-pfe:
       CASE_ORCHESTRATION_SERVICE_DRAFT_URL: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
-      FEATURE_DYNATRACE: "false"
+      FEATURE_DYNATRACE: "true"
 
 div-rfe:
   enabled: true
@@ -70,7 +70,7 @@ div-rfe:
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
       CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
       EVIDENCE_MANAGEMENT_CLIENT_API_URL:  http://${SERVICE_NAME}-div-emca
-      FEATURE_DYNATRACE: "false"
+      FEATURE_DYNATRACE: "true"
       FEATURE_PING_REDIS: "true"
 
 div-da:
@@ -93,7 +93,7 @@ div-da:
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
       EVIDENCE_MANAGEMENT_CLIENT_API_DOWNLOAD_ENDPOINT: "/emclientapi/version/1/download"
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
-      FEATURE_DYNATRACE: "false"
+      FEATURE_DYNATRACE: "true"
       FEATURE_PING_REDIS: "true"
 
 div-dn:
@@ -116,7 +116,7 @@ div-dn:
       CASE_MAINTENANCE_BASE_URL: http://${SERVICE_NAME}-div-cms
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
-      FEATURE_DYNATRACE: "false"
+      FEATURE_DYNATRACE: "true"
       FEATURE_PING_REDIS: "true"
 
 div-cos:
