@@ -123,7 +123,7 @@ div-cos:
       FEATURE_DN_REFUSAL: "true"
       FEATURE_RESP_SOLICITOR_DETAILS: "true"
       SOLICITOR_DN_REJECT_AND_AMEND: "true"
-      FEATURE_SHARE_A_CASE: "false"
+      FEATURE_SHARE_A_CASE: "true"
       FEATURE_REPRESENTED_RESPONDENT_JOURNEY: "true"
       FEATURE_OBJECT_TO_COSTS: "true"
       FEATURE_BAILIFF_JOURNEY: "true"
@@ -138,6 +138,7 @@ div-cos:
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
       DOCUMENT_GENERATOR_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-dgs
       FEES_AND_PAYMENTS_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-fps
+      ACA_SERVICE_API_BASEURL: http://${SERVICE_NAME}-aac-manage-case-assignment
       DIV_SCHEDULER_DB_HOST: ${SERVICE_NAME}-postgresql
       DIV_SCHEDULER_DB_NAME: "{{ .Values.postgresql.postgresqlDatabase}}"
       DIV_SCHEDULER_DB_USER_NAME: "{{ .Values.postgresql.postgresqlUsername}}"
@@ -492,7 +493,7 @@ aac-manage-case-assignment:
       S2S_URL: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
       MCA_DS_PROXY_URLS_ALLOWED_LIST: /searchCases.*,/internal/searchCases.*,/internal/cases.*
       MCA_DEF_STORE_PROXY_URLS_ALLOWED_LIST: /api/display/challenge-questions.*
-      MANAGE_CASE_S2S_AUTHORISED_SERVICES: xui_webapp,ccd_data,fpl_case_service
+      MANAGE_CASE_S2S_AUTHORISED_SERVICES: xui_webapp,ccd_data,divorce_frontend
       CCD_DATA_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-data-store-api
       CCD_DEFINITION_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-definition-store
       PRD_HOST: http://rd-professional-api-aat.service.core-compute-aat.internal
