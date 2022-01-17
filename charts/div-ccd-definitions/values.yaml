@@ -10,6 +10,8 @@ xui-webapp:
   enabled: false
 elastic:
   enabled: false
+aac-manage-case-assignment:
+  enabled: false
 
 div-pfe:
   enabled: false
@@ -29,3 +31,4 @@ div-emca:
   enabled: false
 div-fps:
   enabled: false
+
