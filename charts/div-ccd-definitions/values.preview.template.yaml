@@ -48,7 +48,7 @@ xui-mo-webapp:
     ingressHost: xui-mo-${SERVICE_FQDN}
     environment:
       MANAGE_CASE_LINK: https://xui-${SERVICE_FQDN}/cases
-      MANAGE_ORG_LINK: https://xui-mo-${SERVICE_FQDN
+      MANAGE_ORG_LINK: https://xui-mo-${SERVICE_FQDN}
       SERVICES_CCD_DATA_STORE_API: http://${SERVICE_NAME}-ccd-data-store-api
       SERVICES_MCA_PROXY_API: http://${SERVICE_NAME}-aac-manage-case-assignment
 
