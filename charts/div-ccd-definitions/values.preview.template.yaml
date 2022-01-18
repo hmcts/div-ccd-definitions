@@ -17,6 +17,8 @@ idam-pr:
       - https://da-${SERVICE_FQDN}/authenticated
     XUI:
       - https://xui-${SERVICE_FQDN}/oauth2/callback
+    XUIMO:
+      - https://xui-mo-${SERVICE_FQDN}/oauth2/callback
     CCD:
       - https://case-management-web-${SERVICE_FQDN}/oauth2redirect
     CCD Admin:
