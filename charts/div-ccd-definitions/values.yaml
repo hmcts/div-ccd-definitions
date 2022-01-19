@@ -1,11 +1,31 @@
 nodejs:
   applicationPort: 3000
+tags:
+  divorce-ccd-stack: false
 
 idam-pr:
   enabled: false
   
 xui-webapp:
   enabled: false
+elastic:
+  enabled: false
 
-tags:
-  ccd-pr: false
+div-pfe:
+  enabled: false
+div-rfe:
+  enabled: false
+div-da:
+  enabled: false
+div-dn:
+  enabled: false
+div-cos:
+  enabled: false
+div-cms:
+  enabled: false
+div-dgs:
+  enabled: false
+div-emca:
+  enabled: false
+div-fps:
+  enabled: false
