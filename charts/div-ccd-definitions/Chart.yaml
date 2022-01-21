@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.6
+version: 2.0.15
 dependencies:
   - name: nodejs
     version: ~2.3.7
@@ -10,12 +10,56 @@ dependencies:
     version: ~5.0.4
     repository: '@hmctspublic'
     tags:
-      - ccd-pr
+      - divorce-ccd-stack
   - name: xui-webapp
     version: ~0.2.1
     repository: '@hmctspublic'
     condition: xui-webapp.enabled
+  - name: xui-mo-webapp
+    version: ~1.1.0
+    repository: '@hmctspublic'
+    condition: xui-mo-webapp.enabled
+  - name: aac-manage-case-assignment
+    version: ~0.1.6
+    repository: '@hmctspublic'
+    condition: aac-manage-case-assignment.enabled
   - name: idam-pr
     version: 2.2.6
     repository: '@hmctspublic'
     condition: idam-pr.enabled
+  - name: div-pfe
+    version: 2.0.7
+    repository: '@hmctspublic'
+    condition: div-pfe.enabled
+  - name: div-rfe
+    version: 2.0.3
+    repository: '@hmctspublic'
+    condition: div-rfe.enabled
+  - name: div-da
+    version: 2.0.4
+    repository: '@hmctspublic'
+    condition: div-da.enabled
+  - name: div-dn
+    version: 2.0.2
+    repository: '@hmctspublic'
+    condition: div-dn.enabled
+  - name: div-cos
+    version: 1.5.6
+    repository: '@hmctspublic'
+    condition: div-cos.enabled
+  - name: div-cms
+    version: 2.0.4
+    repository: '@hmctspublic'
+    condition: div-cms.enabled
+  - name: div-dgs
+    version: 2.0.5
+    repository: '@hmctspublic'
+    condition: div-dgs.enabled
+  - name: div-emca
+    version: 2.0.4
+    repository: '@hmctspublic'
+    condition: div-emca.enabled
+  - name: div-fps
+    version: 3.0.4
+    repository: '@hmctspublic'
+    condition: div-fps.enabled
