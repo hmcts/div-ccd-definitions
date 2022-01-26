@@ -28,22 +28,35 @@ Scenario('add all the roles', I => {
 }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
 // this should be only executed for PRs and not master
-if (process.env.IMPORT_PROD_LIKE) {
+if (process.env.IMPORT_PREVIEW) {
   Scenario('upload prod-like divorce config file', I => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat-prod-like.xlsx');
     I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+
+  Scenario('upload divorce preview config file', I => {
+    I.loginToAdminConsole();
+    I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-preview.xlsx');
+    I.see('Case Definition data successfully imported');
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+
+  Scenario('upload bulk action preview  config file', I => {
+    I.loginToAdminConsole();
+    I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-preview.xlsx');
+    I.see('Case Definition data successfully imported');
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 }
+if (process.env.IMPORT_AAT) {
+  Scenario('upload divorce config file', I => {
+    I.loginToAdminConsole();
+    I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
+    I.see('Case Definition data successfully imported');
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
 
-Scenario('upload divorce config file', I => {
-  I.loginToAdminConsole();
-  I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
-  I.see('Case Definition data successfully imported');
-}).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
-
-Scenario('upload bulk action config file', I => {
-  I.loginToAdminConsole();
-  I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
-  I.see('Case Definition data successfully imported');
-}).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+  Scenario('upload bulk action config file', I => {
+    I.loginToAdminConsole();
+    I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
+    I.see('Case Definition data successfully imported');
+  }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
+}
