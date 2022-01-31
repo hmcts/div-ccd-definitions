@@ -85,7 +85,7 @@
     "config": "^3.0.1",
     "eslint-plugin-codeceptjs": "^1.0.0",
     "express": "^4.16.4",
-    "puppeteer": "^1.20.0"
+    "puppeteer": "^13.1.2"
   },
   "devDependencies": {
     "@hmcts/eslint-config": "^1.4.0",
