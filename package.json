@@ -80,7 +80,7 @@
   ],
   "dependencies": {
     "@hmcts/nodejs-healthcheck": "1.7.0",
-    "@hmcts/properties-volume": "0.0.9",
+    "@hmcts/properties-volume": "0.0.13",
     "codeceptjs": "^2.2.0",
     "config": "^3.0.1",
     "eslint-plugin-codeceptjs": "^1.0.0",
