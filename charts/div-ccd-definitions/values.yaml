@@ -8,7 +8,11 @@ idam-pr:
   
 xui-webapp:
   enabled: false
+xui-mo-webapp:
+  enabled: false
 elastic:
+  enabled: false
+aac-manage-case-assignment:
   enabled: false
 
 div-pfe:
@@ -29,3 +33,4 @@ div-emca:
   enabled: false
 div-fps:
   enabled: false
+
