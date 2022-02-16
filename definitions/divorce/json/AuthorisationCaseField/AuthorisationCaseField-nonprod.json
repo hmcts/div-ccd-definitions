@@ -5,12 +5,5 @@
     "CaseFieldID": "DerivedCoRespondentSolicitorAddr",
     "UserRole": "caseworker-divorce-superuser",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/06/2019",
-    "CaseTypeID": "DIVORCE",
-    "CaseFieldID": "DecreeAbsoluteGrantedDate",
-    "UserRole": "citizen",
-    "CRUD": "R"
   }
 ]
