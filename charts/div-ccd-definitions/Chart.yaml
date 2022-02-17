@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.14
+version: 2.0.15
 dependencies:
   - name: nodejs
     version: ~2.3.7
@@ -15,6 +15,14 @@ dependencies:
     version: ~0.2.1
     repository: '@hmctspublic'
     condition: xui-webapp.enabled
+  - name: xui-mo-webapp
+    version: ~1.1.0
+    repository: '@hmctspublic'
+    condition: xui-mo-webapp.enabled
+  - name: aac-manage-case-assignment
+    version: ~0.1.6
+    repository: '@hmctspublic'
+    condition: aac-manage-case-assignment.enabled
   - name: idam-pr
     version: 2.2.6
     repository: '@hmctspublic'
