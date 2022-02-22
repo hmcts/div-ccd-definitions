@@ -92,7 +92,7 @@ div-da:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
-    image: hmctspublic.azurecr.io/div/da:pr-203-c544ebc-20220221132628
+    image: hmctspublic.azurecr.io/div/da:pr-203-5c1dcb4-20220222094217
     ingressHost: da-${SERVICE_FQDN}
     environment:
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
