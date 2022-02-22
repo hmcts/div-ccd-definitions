@@ -213,7 +213,7 @@ div-cms:
     environment:
       AUTH_PROVIDER_SERVICE_CLIENT_BASEURL: "http://rpe-service-auth-provider-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
       DRAFT_STORE_API_BASEURL: "http://draft-store-service-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
-      CASE_FORMATTER_SERVICE_API_BASEURL: "http://div-cfs-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
+      CASE_FORMATTER_SERVICE_API_BASEURL: "http://div-cfs-pr-261.service.core-compute-preview.internal"
       IDAM_API_REDIRECT_URL: https://pfe-${SERVICE_FQDN}/authenticated
       IDAM_API_BASEURL: https://idam-api.aat.platform.hmcts.net
       CASE_DATA_STORE_BASEURL: http://${SERVICE_NAME}-ccd-data-store-api
