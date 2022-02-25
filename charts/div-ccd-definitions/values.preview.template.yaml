@@ -175,6 +175,7 @@ div-cos:
       USERNAME_SOLICITOR: ${USERNAME_SOLICITOR}
       PASSWORD_SOLICITOR: ${PASSWORD_SOLICITOR}
       BULKACTION_MINCASES: 2
+      FEATURE_PAPER_UPDATE: true
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
