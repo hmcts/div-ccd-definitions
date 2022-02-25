@@ -128,6 +128,7 @@ div-cos:
       UK_GOV_NOTIFY_API_KEY: ${UK_GOV_NOTIFY_API_KEY}
       USERNAME_SOLICITOR: ${USERNAME_SOLICITOR}
       PASSWORD_SOLICITOR: ${PASSWORD_SOLICITOR}
+      FEATURE_PAPER_UPDATE: true
     ingressHost: cos-${SERVICE_FQDN}
     keyVaults:
       "div":
