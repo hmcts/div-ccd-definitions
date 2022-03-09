@@ -1272,7 +1272,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "FieldShowCondition": "D8StatementOfTruth=\"Banana\"",
+    "FieldShowCondition": "D8StatementOfTruth=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
@@ -1285,7 +1285,7 @@
     "PageID": "SolStatementOfTruth",
     "PageLabel": "Statement of truth and reconciliation",
     "PageDisplayOrder": 1,
-    "FieldShowCondition": "D8StatementOfTruth=\"Banana\"",
+    "FieldShowCondition": "D8StatementOfTruth=\"Yes\"",
     "ShowSummaryChangeOption": "No"
   },
   {
