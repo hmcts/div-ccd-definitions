@@ -837,7 +837,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-divorce-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
