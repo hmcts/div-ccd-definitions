@@ -149,7 +149,7 @@ div-cos:
       DATAEXTRACTION_STATUS_DA_EMAILTO: da_data_extraction@sharklasers.com
       DATAEXTRACTION_STATUS_AOS_EMAILTO: aos_data_extraction@sharklasers.com
       DATAEXTRACTION_STATUS_DN_EMAILTO: dn_data_extraction@sharklasers.com
-      SCHEDULER_ENABLED: true
+      SCHEDULER_ENABLED: false
       SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_ENABLED: false
       SCHEDULER_MAKE_ELIGIBLE_CASES_AOS_OVERDUE_CRON: "0 0/10 * ? * * *"#Runs every 10 minutes (if enabled)
       CASE_MAINTENANCE_SERVICE_API_BASEURL: http://${SERVICE_NAME}-div-cms
