@@ -459,7 +459,7 @@ ccd:
 
   elasticsearch:
     clusterName: "es"
-    imageTag: "6.4.2"
+    imageTag: "7.17.0"
     replicas: 1
     minimumMasterNodes: 1
     antiAffinity: "soft"
