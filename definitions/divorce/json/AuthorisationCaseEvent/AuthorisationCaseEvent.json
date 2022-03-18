@@ -907,7 +907,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "startAosFromOverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"t
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "09/11/2018",
