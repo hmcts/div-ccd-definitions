@@ -597,6 +597,20 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
+    "CaseEventID": "regenerateMiniPetition",
+    "UserRole": "caseworker-divorce-courtadmin_beta",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "regenerateMiniPetition",
+    "UserRole": "caseworker-divorce-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
     "CaseEventID": "paymentMade",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
@@ -893,7 +907,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "startAosFromOverdue",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "CRU"
+    "CRUD": "CRU"t
   },
   {
     "LiveFrom": "09/11/2018",

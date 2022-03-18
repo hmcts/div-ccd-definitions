@@ -162,6 +162,19 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "ID": "regenerateMiniPetition",
+    "Name": "Regenerate D8",
+    "Description": "Regenerate D8",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "AosAwaiting;AwaitingDecreeNisi;AwaitingLegalAdvisorReferral;AosDrafted;AwaitingService;DNDrafted;Issued;AosStarted;AwaitingReissue;AwaitingGeneralConsideration;AosOverdue ",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/regenerate-mini-petition",
+    "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "02/01/2017",
     "CaseTypeID": "DIVORCE",
     "ID": "transferCaseFromCTSCoverdue",
