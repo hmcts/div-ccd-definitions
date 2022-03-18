@@ -168,7 +168,7 @@
     "Name": "Regenerate D8",
     "Description": "Regenerate D8",
     "DisplayOrder": 2,
-    "PreConditionState(s)": "AosAwaiting;AwaitingDecreeNisi;AwaitingLegalAdvisorReferral;AosDrafted;AwaitingService;DNDrafted;Issued;AosStarted;AwaitingReissue;AwaitingGeneralConsideration;AosOverdue ",
+    "PreConditionState(s)": "AosAwaiting;AwaitingDecreeNisi;AwaitingLegalAdvisorReferral;AosDrafted;AwaitingService;DNDrafted;Issued;AosStarted;AwaitingReissue;AwaitingGeneralConsideration;AosOverdue",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/regenerate-mini-petition",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
