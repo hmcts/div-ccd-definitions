@@ -70,6 +70,22 @@ div-pfe:
       CASE_ORCHESTRATION_SERVICE_DRAFT_URL: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
+      FEATURE_NEW_APP_CUTOFF: "true"
+      NEW_APP_CUTOFF_DATE: "2022-03-30T15:00:00"
+      NEW_APP_CUTOFF_DATE_OVERRIDE: "false"
+      NEW_APP_CUTOFF_CASEID_OVERRIDE: "false"
+      NEW_APP_CUTOFF_REDIRECT_STATES: [
+          'AwaitingPayment',
+          'AwaitingHWFDecision',
+          'AwaitingDocuments',
+          'Withdrawn',
+          'PendingRejection',
+          'Rejected'
+      ]
+      NEW_APP_CUTOFF_USE_STATE_TO_CHECK: "false"
+      NEW_APP_CUTOFF_STATE_TO_CHECK: 'TestState'
+      NEW_APP_CUTOFF_STATE_OVERRIDE: "false"
+      NEW_APP_CUTOFF_DEBUG: "true"
 
 div-rfe:
   enabled: true
