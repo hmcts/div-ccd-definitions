@@ -27,7 +27,7 @@
       "ccdUrl": "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
     },
     "preview": {
-      "cosUrl": "http://div-cos-aat.service.core-compute-aat.internal",
+      "cosUrl": "http://div-rfe-pr-644.service.core-compute-preview.internal",
       "ccdUrl": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
     },
     "ithc": {
