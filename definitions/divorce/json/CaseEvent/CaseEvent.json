@@ -2233,7 +2233,7 @@
     "Description": "AOS Received (no admission/consent)",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosPreSubmit",
-    "PostConditionState": "AosCompleted",
+    "PostConditionState": "AwaitingDecreeNisi",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
