@@ -3524,7 +3524,7 @@
     "Description": "AOS Received (undefended)",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
-    "PostConditionState": "AwaitingDecreeNisi",
+    "PostConditionState": "AosPreSubmit",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "SecurityClassification": "Public"
