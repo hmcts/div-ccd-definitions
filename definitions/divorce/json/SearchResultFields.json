@@ -63,6 +63,13 @@
     "DisplayOrder": 9
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "DIVORCE",
+    "CaseFieldID": "[LAST_STATE_MODIFIED_DATE]",
+    "Label": "Last state modified date",
+    "DisplayOrder": 10
+  },
+  {
     "LiveFrom": "01/01/2018",
     "CaseTypeID": "DIVORCE",
     "CaseFieldID": "evidenceHandled",
