@@ -70,6 +70,7 @@ div-pfe:
       CASE_ORCHESTRATION_SERVICE_DRAFT_URL: http://${SERVICE_NAME}-div-cos/draftsapi/version/1
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
+      COURT_OPENINGHOURS_EN: "Monday to Friday, 8am to 6pm"
 
 div-rfe:
   enabled: true
