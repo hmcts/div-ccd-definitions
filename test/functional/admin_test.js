@@ -2,6 +2,7 @@ Feature('Admin Web');
 
 Scenario('add all the roles', I => {
   I.loginToAdminConsole();
+
   I.createRole('citizen');
   I.createRole('caseworker');
   I.createRole('caseworker-divorce-courtadmin');
