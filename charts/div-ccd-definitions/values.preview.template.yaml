@@ -134,7 +134,7 @@ div-cos:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cos:latest
+    image: hmctspublic.azurecr.io/div/cos:pr-1659
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
       FEATURE_DN_REFUSAL: "true"
