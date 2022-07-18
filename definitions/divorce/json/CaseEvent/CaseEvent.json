@@ -2221,7 +2221,7 @@
     "Name": "AOS Defending",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosPreSubmit",
-    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "PostConditionState": "AosCompleted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y"
   },
@@ -2245,7 +2245,7 @@
     "Description": "AOS Received (undefended)",
     "DisplayOrder": 1,
     "PreConditionState(s)": "AosPreSubmit",
-    "PostConditionState": "AwaitingDecreeNisi",
+    "PostConditionState": "AosCompleted",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
@@ -3511,7 +3511,7 @@
     "Description": "AOS Submitted (defending)",
     "DisplayOrder": 2,
     "PreConditionState(s)": "AosStarted;AosOverdue;ServiceApplicationNotApproved;AwaitingAlternativeService;AwaitingProcessServerService;AwaitingDWPResponse;IssuedToBailiff;AwaitingBailiffReferral;AwaitingBailiffService",
-    "PostConditionState": "AosSubmittedAwaitingAnswer",
+    "PostConditionState": "AosCompleted",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-received",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/aos-submitted",
     "SecurityClassification": "Public"
