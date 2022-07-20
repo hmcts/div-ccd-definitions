@@ -247,7 +247,7 @@ div-dgs:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/dgs:latest
+    image: hmctspublic.azurecr.io/div/dgs:pr-576
     releaseNameOverride: ${SERVICE_NAME}-div-dgs
     ingressHost: dgs-${SERVICE_FQDN}
     environment:
