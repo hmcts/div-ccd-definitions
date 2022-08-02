@@ -316,6 +316,8 @@ ccd:
       enabled: true
     elastic:
       enabled: true
+    ras:
+      enabled: false
 
   ingressHost: ${SERVICE_FQDN}
   ingressIP: ${INGRESS_IP}

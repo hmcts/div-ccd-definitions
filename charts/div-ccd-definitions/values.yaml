@@ -33,6 +33,4 @@ div-emca:
   enabled: false
 div-fps:
   enabled: false
-ras:
-  enabled: false
 
