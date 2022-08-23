@@ -1,65 +1,65 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.18
+version: 2.0.19
 dependencies:
   - name: nodejs
-    version: 2.4.5
+    version: 2.4.6
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
   - name: ccd
-    version: ~8.0.17
+    version: ~8.0.19
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     tags:
       - divorce-ccd-stack
   - name: xui-webapp
-    version: ~0.2.1
+    version: ~1.0.0
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: xui-webapp.enabled
   - name: xui-mo-webapp
-    version: ~1.1.0
+    version: ~1.1.6
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: xui-mo-webapp.enabled
   - name: aac-manage-case-assignment
-    version: ~0.1.6
+    version: ~0.2.5
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: aac-manage-case-assignment.enabled
   - name: idam-pr
-    version: 2.2.6
+    version: 2.2.7
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: idam-pr.enabled
   - name: div-pfe
-    version: 2.0.7
+    version: 2.0.22
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-pfe.enabled
   - name: div-rfe
-    version: 2.0.3
+    version: 2.0.14
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-rfe.enabled
   - name: div-da
-    version: 2.0.4
+    version: 2.0.17
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-da.enabled
   - name: div-dn
-    version: 2.0.2
+    version: 2.0.13
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dn.enabled
   - name: div-cos
-    version: 1.5.6
+    version: 1.5.13
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-cos.enabled
   - name: div-cms
-    version: 2.0.4
+    version: 2.0.11
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-cms.enabled
   - name: div-dgs
-    version: 2.0.5
+    version: 2.0.10
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dgs.enabled
   - name: div-emca
-    version: 2.0.4
+    version: 2.0.10
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-emca.enabled
   - name: div-fps
-    version: 3.0.4
+    version: 3.0.10
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-fps.enabled
