@@ -74,13 +74,13 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "UserRole": "[PETSOLICITOR]",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "28/04/2021",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "UserRole": "[CREATOR]",
-    "CRUD": "R"
+    "CRUD": "CRU"
   }
 ]
