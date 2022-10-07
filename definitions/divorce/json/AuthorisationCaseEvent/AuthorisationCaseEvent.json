@@ -837,14 +837,14 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-divorce-courtadmin_beta",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-divorce-courtadmin",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2622,7 +2622,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-divorce-superuser",
-    "CRUD": "RU"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -3840,7 +3840,7 @@
     "CaseTypeID": "DIVORCE",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-divorce-courtadmin-la",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "23/05/2019",
