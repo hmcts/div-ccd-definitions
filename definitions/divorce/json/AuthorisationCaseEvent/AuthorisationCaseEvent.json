@@ -289,13 +289,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "DIVORCE",
-    "CaseEventID": "create",
-    "UserRole": "citizen",
-    "CRUD": "RU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
     "CaseEventID": "daGranted",
     "UserRole": "caseworker-divorce-courtadmin_beta",
     "CRUD": "CRU"
