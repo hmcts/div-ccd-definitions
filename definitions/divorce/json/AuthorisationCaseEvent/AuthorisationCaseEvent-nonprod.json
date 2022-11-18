@@ -82,12 +82,5 @@
     "CaseEventID": "solicitorStatementOfTruthPaySubmit",
     "UserRole": "[CREATOR]",
     "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DIVORCE",
-    "CaseEventID": "create",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   }
 ]
