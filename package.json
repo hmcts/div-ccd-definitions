@@ -118,6 +118,7 @@
     "follow-redirects": "^1.14.7",
     "nanoid": ">=3.1.31",
     "moment": ">=2.29.2",
-    "async": ">=2.6.4"
+    "async": ">=2.6.4",
+    "minimatch": "^3.0.5"
   }
 }
