@@ -76,7 +76,7 @@ div-rfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-rfe
-    image: hmctspublic.azurecr.io/div/rfe:pr-697
+    image: hmctspublic.azurecr.io/div/rfe:latest
     ingressHost: rfe-${SERVICE_FQDN}
     environment:
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
