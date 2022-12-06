@@ -28,19 +28,19 @@ dependencies:
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: idam-pr.enabled
   - name: div-pfe
-    version: 2.0.22
+    version: 2.0.24
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-pfe.enabled
   - name: div-rfe
-    version: 2.0.14
+    version: 2.0.17
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-rfe.enabled
   - name: div-da
-    version: 2.0.17
+    version: 2.0.19
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-da.enabled
   - name: div-dn
-    version: 2.0.13
+    version: 2.0.16
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dn.enabled
   - name: div-cos
