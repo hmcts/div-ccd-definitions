@@ -1,13 +1,13 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.21
+version: 2.0.22
 dependencies:
   - name: nodejs
-    version: 2.4.11
+    version: 2.4.12
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
   - name: ccd
-    version: ~8.0.19
+    version: 8.0.18
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     tags:
       - divorce-ccd-stack
@@ -24,42 +24,42 @@ dependencies:
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: aac-manage-case-assignment.enabled
   - name: idam-pr
-    version: 2.2.7
+    version: 2.3.0
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: idam-pr.enabled
   - name: div-pfe
-    version: 2.0.24
+    version: 2.0.27
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-pfe.enabled
   - name: div-rfe
-    version: 2.0.17
+    version: 2.0.18
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-rfe.enabled
   - name: div-da
-    version: 2.0.19
+    version: 2.0.20
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-da.enabled
   - name: div-dn
-    version: 2.0.16
+    version: 2.0.17
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dn.enabled
   - name: div-cos
-    version: 1.5.13
+    version: 1.5.14
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-cos.enabled
   - name: div-cms
-    version: 2.0.11
+    version: 2.0.12
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-cms.enabled
   - name: div-dgs
-    version: 2.0.10
+    version: 2.0.12
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dgs.enabled
   - name: div-emca
-    version: 2.0.10
+    version: 2.0.11
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-emca.enabled
   - name: div-fps
-    version: 3.0.10
+    version: 3.0.11
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-fps.enabled
