@@ -485,8 +485,6 @@ ccd:
       enabled: false
     ingress:
       enabled: true
-      annotations:
-        kubernetes.io/ingress.class: traefik
       path: /
       hosts:
         - es-${SERVICE_FQDN}
