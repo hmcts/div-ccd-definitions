@@ -1,13 +1,13 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.21
+version: 2.0.22
 dependencies:
   - name: nodejs
     version: 2.4.11
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
   - name: ccd
-    version: ~8.0.19
+    version: ~8.0.24
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     tags:
       - divorce-ccd-stack
