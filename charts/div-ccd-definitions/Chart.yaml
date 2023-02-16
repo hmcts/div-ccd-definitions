@@ -4,10 +4,10 @@ name: div-ccd-definitions
 version: 2.0.22
 dependencies:
   - name: nodejs
-    version: 2.4.12
+    version: 2.4.15
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
   - name: ccd
-    version: 8.0.18
+    version: ~8.0.24
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     tags:
       - divorce-ccd-stack
