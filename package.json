@@ -116,7 +116,7 @@
     "ansi-regex": "^5.0.1",
     "json-schema": "^0.4.0",
     "follow-redirects": "^1.14.7",
-    "nanoid": ">=4.0.1",
+    "nanoid": ">=3.3.4",
     "moment": ">=2.29.2",
     "async": ">=2.6.4",
     "minimatch": "^3.0.5",
