@@ -44,7 +44,7 @@ dependencies:
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-dn.enabled
   - name: div-cos
-    version: 1.5.13
+    version: 1.5.14
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-cos.enabled
   - name: div-cms
