@@ -494,7 +494,7 @@ ccd:
         memory: 512Mi
     image:
       repository: hmctspublic.azurecr.io/ccd/logstash
-      tag: ccd-divorce-logstash
+      tag: ccd-divorce-logstash-latest
       pullPolicy: Always
     logstashJavaOpts: -Xmx1g -Xms512M
     persistence:
