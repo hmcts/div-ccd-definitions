@@ -10,8 +10,11 @@ yarn-error.log
 test/functional/output
 .gradle/
 
+.pnp.*
 .yarn/*
 !.yarn/cache
 !.yarn/patches
+!.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
