@@ -76,7 +76,7 @@ withPipeline("nodejs", product, component) {
     yarnBuilder.yarn('setup')
 
     env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
-    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net"
     stage('Generate Divorce Case excel file') {
       yarnBuilder.yarn('generate-excel-all')
     }
@@ -85,8 +85,8 @@ withPipeline("nodejs", product, component) {
     }
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
-    env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
-    env.CCD_WEB_URL="https://case-management-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal/v2/case/"
+    env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net"
+    env.CCD_WEB_URL="https://case-management-web-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net/v2/case/"
     env.IMPORT_PREVIEW=true
   }
 
