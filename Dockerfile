@@ -6,6 +6,9 @@ COPY --chown=hmcts:hmcts . .
 COPY /definitions/divorce/xlsx /
 ADD ./config "/config"
 RUN yarn install && yarn cache clean
+
+# ---- Runtime image ----
+FROM base as runtime
 COPY index.js ./
 ENV NODE_CONFIG_DIR="/config"
 CMD ["yarn", "start"]
