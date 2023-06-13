@@ -387,7 +387,8 @@
     "PreConditionState(s)": "AwaitingDecreeAbsolute;DARequested",
     "PostConditionState": "DAPending",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -473,7 +474,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -789,7 +791,8 @@
     "PreConditionState(s)": "Issued",
     "PostConditionState": "Issued",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -836,7 +839,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -883,7 +887,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -895,7 +900,8 @@
     "PreConditionState(s)": "Rejected",
     "PostConditionState": "Rejected",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "02/01/2017",
@@ -964,7 +970,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-update",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -989,7 +996,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1213,7 +1221,8 @@
     "PreConditionState(s)": "Withdrawn",
     "PostConditionState": "Withdrawn",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1225,7 +1234,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1248,7 +1258,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "ShowEventNotes": "N"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1260,7 +1271,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "ShowEventNotes": "N"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1392,7 +1404,8 @@
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1404,7 +1417,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1420,7 +1434,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -1432,7 +1447,8 @@
     "PreConditionState(s)": "AwaitingLegalAdvisorReferral",
     "PostConditionState": "AosCompleted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1444,7 +1460,8 @@
     "PreConditionState(s)": "Withdrawn",
     "PostConditionState": "AwaitingDocuments",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1456,7 +1473,8 @@
     "PreConditionState(s)": "Withdrawn",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1468,7 +1486,8 @@
     "PreConditionState(s)": "Withdrawn",
     "PostConditionState": "AwaitingHWFDecision",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1497,7 +1516,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1511,7 +1531,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1525,7 +1546,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1539,7 +1561,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1553,7 +1576,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1567,7 +1591,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1581,7 +1606,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1595,7 +1621,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1609,7 +1636,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1623,7 +1651,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1637,7 +1666,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1651,7 +1681,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1665,7 +1696,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -1679,7 +1711,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/aos-solicitor-nominated",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "07/05/2019",
@@ -1980,7 +2013,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
     "RetriesTimeoutURLSubmittedEvent": "30,30",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "16/04/2019",
@@ -1995,6 +2029,7 @@
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Save DN Application"
   },
   {
@@ -2010,6 +2045,7 @@
     "RetriesTimeoutAboutToStartEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Save updated DN Application"
   },
   {
@@ -2029,6 +2065,7 @@
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Submit Decree Nisi Application"
   },
   {
@@ -2042,7 +2079,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/solicitor-link-case",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2109,7 +2147,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-da-granted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "20/08/2019",
@@ -2145,7 +2184,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2159,7 +2199,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2173,7 +2214,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2187,7 +2229,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2201,7 +2244,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -2212,7 +2256,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "AosDrafted",
     "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "ShowEventNotes": "N"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -2223,7 +2268,8 @@
     "PreConditionState(s)": "AosPreSubmit",
     "PostConditionState": "AosSubmittedAwaitingAnswer",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -2235,7 +2281,8 @@
     "PreConditionState(s)": "AosPreSubmit",
     "PostConditionState": "AosCompleted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "12/08/2019",
@@ -2249,7 +2296,8 @@
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2263,7 +2311,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/listing/remove-bulk-link",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/06/2019",
@@ -2277,7 +2326,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/pronouncement/cancel",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2288,7 +2338,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "23/09/2019",
@@ -2304,7 +2355,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/da-requested-by-applicant",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2316,7 +2368,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "ShowEventNotes": "N"
   },
   {
     "LiveFrom": "30/07/2019",
@@ -2358,6 +2411,7 @@
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Submit AOS Response"
   },
   {
@@ -2372,7 +2426,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clarification-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2445,7 +2500,8 @@
     "PreConditionState(s)": "ClarificationSubmitted",
     "PostConditionState": "AosCompleted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -2459,7 +2515,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "16/05/2019",
@@ -2473,7 +2530,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/dn-about-to-be-granted",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "16/05/2019",
@@ -2485,7 +2543,8 @@
     "PreConditionState(s)": "AwaitingAdminClarification",
     "PostConditionState": "ClarificationSubmitted",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2592,7 +2651,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/clarification-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2608,7 +2668,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/handle-post-dn-submitted",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2639,7 +2700,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/dn-decision-made",
     "RetriesTimeoutURLSubmittedEvent": "30,30",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -2711,6 +2773,7 @@
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/default-values",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Save Petition"
   },
   {
@@ -2723,7 +2786,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "29/07/2020",
@@ -2747,6 +2811,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/create-general-order/final",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "SecurityClassification": "Public"
   },
   {
@@ -2763,7 +2828,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/service-decision-made/final",
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "16/09/2020",
@@ -2853,7 +2919,8 @@
     "PreConditionState(s)": "ServiceApplicationNotApproved",
     "PostConditionState": "ServiceApplicationNotApproved",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "16/09/2020",
@@ -2866,7 +2933,8 @@
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "30/10/2020",
@@ -2890,7 +2958,8 @@
     "PostConditionState": "AwaitingReissue",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "03/11/2020",
@@ -2904,7 +2973,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "03/11/2020",
@@ -2999,6 +3069,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/create-general-email/store-fields",
     "CallBackURLSubmittedEvent": "${CCD_DEF_COS_URL}/create-general-email",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "SecurityClassification": "Public"
   },
   {
@@ -3025,7 +3096,8 @@
     "PostConditionState": "GeneralConsiderationComplete",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/general-consideration",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "20/10/2020",
@@ -3065,6 +3137,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/process-pba-payment",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Submit Petition"
   },
   {
@@ -3090,7 +3163,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -3104,7 +3178,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -3118,7 +3193,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/03/2019",
@@ -3132,7 +3208,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/petition-issued?generateAosInvitation=true",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "05/02/2021",
@@ -3144,7 +3221,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "11/02/2021",
@@ -3156,7 +3234,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "26/02/2021",
@@ -3321,7 +3400,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/make-service-decision",
     "RetriesTimeoutURLAboutToSubmitEvent": "30,30",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "25/02/2021",
@@ -3334,7 +3414,8 @@
     "PostConditionState": "IssuedToBailiff",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-bailiff-pack",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "02/01/2021",
@@ -3349,6 +3430,7 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/confirm-sol-dn-review",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Save AOS Response"
   },
   {
@@ -3363,6 +3445,7 @@
     "CallBackURLAboutToStartEvent": "${CCD_DEF_COS_URL}/sol-dn-review-petition",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Save Updated AOS Response"
   },
   {
@@ -3380,6 +3463,7 @@
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Submit AOS Response"
   },
   {
@@ -3431,7 +3515,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "08/03/2021",
@@ -3445,7 +3530,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/issue-aos-pack-offline/parties/co-respondent",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "15/09/2020",
@@ -3461,6 +3547,7 @@
     "RetriesTimeoutURLSubmittedEvent": "120,120",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
+    "ShowEventNotes": "Y",
     "EndButtonLabel": "Submit AOS Response"
   },
   {
@@ -3490,7 +3577,8 @@
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF_COS_URL}/co-respondent-answered",
     "RetriesTimeoutURLAboutToSubmitEvent": "120,120",
     "SecurityClassification": "Public",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "31/03/2021",
