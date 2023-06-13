@@ -64,7 +64,7 @@
     "generate-excel-prod": "bash bin/generate-excel-prod.sh",
     "generate-excel": "bash bin/generate-excel.sh",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-preview && yarn generate-excel-aat && yarn generate-excel-aat-prod-like && yarn generate-excel-demo && yarn generate-excel-demo-prod-like && yarn generate-excel-ithc && yarn generate-excel-ithc-prod-like && yarn generate-excel-perftest && yarn generate-excel-prod",
-    "generate-bulk-json": "bash bin/generate-bulk-json.sh'",
+    "generate-bulk-json": "bash bin/generate-bulk-json.sh",
     "generate-bulk-excel-local": "bash bin/generate-bulk-excel-local.sh",
     "generate-bulk-excel-preview": "bash bin/generate-bulk-excel-preview.sh",
     "generate-bulk-excel-demo": "bash bin/generate-bulk-excel-demo.sh",
