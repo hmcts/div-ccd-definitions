@@ -70,8 +70,8 @@ A full CCD instance is created PR via Helm charts which can be accessed using th
 
 If you do not require this, add `[NO-CCD]` at the start of the PR title in GitHub.
 
-* Visit `https://gateway-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` and whitelist accept the SSL certificate
-* Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
+* Visit `https://gateway-div-ccd-definitions-pr-<number>.preview.platform.hmcts.net` and whitelist accept the SSL certificate
+* Access the PR on `https://case-management-web-div-ccd-definitions-pr-<number>.preview.platform.hmcts.net`
 * Login with an authorised AAT user [listed here](https://github.com/hmcts/div-ccd-definitions/blob/master/definitions/divorce/json/UserProfile.json)
 
 ### Accessing documents on a CCD PR
@@ -93,8 +93,8 @@ This will ensure that callbacks point back to the correct CCD URL.
 
 ## Applications useful urls
 
-* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
-* CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.service.core-compute-preview.internal`
+* CCD admin `https://admin-web-div-ccd-definitions-pr-<number>.preview.platform.hmcts.net` [Importer username/password can be found here](https://github.com/hmcts/ccd-docker-definition-importer#configuration)
+* CCD data-store-api `http://data-store-api-div-ccd-definitions-pr-<number>.preview.platform.hmcts.net`
 
 To run divorce test on CCD PR environment you need to replace `core_case_data.api.url` on COS and CMS to use your PR `data-store-api` URL 
 

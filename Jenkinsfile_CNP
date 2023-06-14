@@ -64,7 +64,7 @@ withPipeline("nodejs", product, component) {
   afterSuccess('test') {
     // enable yarn audit and send message on master branch only
     try {
-      yarnBuilder.yarn('audit')
+      yarnBuilder.yarn('npm audit')
     } catch (error) {
       onMaster {
         slackSend(channel: '#div-dev', color: 'warning', message: "Yarn Audit has detected vulnerabilities in ${env.JOB_NAME}. You can check if there are patches for them in the full report, build details here: <${env.RUN_DISPLAY_URL}|Build ${env.BUILD_DISPLAY_NAME}>.")
@@ -76,7 +76,7 @@ withPipeline("nodejs", product, component) {
     yarnBuilder.yarn('setup')
 
     env.COS_API_URL="http://div-ccd-definitions-pr-${CHANGE_ID}-div-cos"
-    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.CCD_DATA_API_URL="http://ccd-data-store-api-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net"
     stage('Generate Divorce Case excel file') {
       yarnBuilder.yarn('generate-excel-all')
     }
@@ -85,8 +85,8 @@ withPipeline("nodejs", product, component) {
     }
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
-    env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
-    env.CCD_WEB_URL="https://case-management-web-div-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal/v2/case/"
+    env.CCD_ADMIN_URL="https://admin-web-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net"
+    env.CCD_WEB_URL="https://case-management-web-div-ccd-definitions-pr-${CHANGE_ID}.preview.platform.hmcts.net/v2/case/"
     env.IMPORT_PREVIEW=true
   }
 
