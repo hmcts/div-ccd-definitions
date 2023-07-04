@@ -1,5 +1,5 @@
 # div-ccd-definitions
-Divorce configuration definitions for CCD
+Divorce configuration definitions for CCD.
 
 ## Setup
 
