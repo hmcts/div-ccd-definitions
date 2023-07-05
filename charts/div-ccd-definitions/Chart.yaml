@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.23
+version: 2.0.24
 dependencies:
   - name: nodejs
     version: 2.4.15
@@ -36,7 +36,7 @@ dependencies:
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-rfe.enabled
   - name: div-da
-    version: 2.0.19
+    version: 2.0.23
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
     condition: div-da.enabled
   - name: div-dn
