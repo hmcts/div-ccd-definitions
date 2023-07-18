@@ -2347,13 +2347,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"https-proxy-agent@npm:2.2.3":
-  version: 2.2.3
-  resolution: "https-proxy-agent@npm:2.2.3"
+"https-proxy-agent@npm:2.2.4":
+  version: 2.2.4
+  resolution: "https-proxy-agent@npm:2.2.4"
   dependencies:
     agent-base: ^4.3.0
     debug: ^3.1.0
-  checksum: cb10ee324b342cdb232291523334fee8b7969a3756c406794e5c220b434512a425bb79dc137c4d9186259fccfefaaed986cddc5009b0005ef8661c1a8d0ca5e9
+  checksum: 5fa8eab256b117a8badb5747bedf8b3a9de1fbabdccb26ff3132385426fdc3ad3c8b092ce52a1b74c70229b971df623f4f5a0c17f78e6a8fe5d10fc65d6ed8b8
   languageName: node
   linkType: hard
 

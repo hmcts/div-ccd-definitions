@@ -104,7 +104,7 @@
     "sonar-scanner": "^3.1.0"
   },
   "resolutions": {
-    "https-proxy-agent": "2.2.3",
+    "https-proxy-agent": "2.2.4",
     "eslint-utils": "^1.4.1",
     "minimist": "^1.2.6",
     "bl": "1.2.3",
