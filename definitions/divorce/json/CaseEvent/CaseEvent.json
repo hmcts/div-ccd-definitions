@@ -8,7 +8,9 @@
     "DisplayOrder": 10,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
@@ -41,7 +43,9 @@
     "DisplayOrder": 12,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
   },
   {
     "LiveFrom": "01/01/2017",
