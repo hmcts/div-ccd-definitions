@@ -521,6 +521,7 @@ ccd:
 aac-manage-case-assignment:
   enabled: true
   java:
+    disableKeyVaults: true
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-aac-manage-case-assignment
     image: hmctspublic.azurecr.io/aac/manage-case-assignment:latest
