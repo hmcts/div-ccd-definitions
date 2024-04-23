@@ -44,8 +44,11 @@ def secrets = [
                 secret("div-doc-s2s-auth-secret", "IDAM_AUTH_SECRET"),
                 secret("docmosis-api-key", "DOCMOSIS_SERVICE_ACCESS_KEY"),
                 secret("idam-secret", "AUTH_IDAM_CLIENT_SECRET"),
-                secret("div-doc-s2s-auth-secret", "AUTH_PROVIDER_SERVICE_CLIENT_KEY")
-
+                secret("div-doc-s2s-auth-secret", "AUTH_PROVIDER_SERVICE_CLIENT_KEY"),
+                secret('manage-case-s2s-key', 'MANAGE_CASE_S2S_KEY'),
+                secret('idam-mca-client-secret', 'IDAM_MCA_CLIENT_SECRET'),
+                secret('idam-caa-username', 'IDAM_CAA_USERNAME'),
+                secret('idam-caa-password', 'IDAM_CAA_PASSWORD'),
         ]
 ]
 
