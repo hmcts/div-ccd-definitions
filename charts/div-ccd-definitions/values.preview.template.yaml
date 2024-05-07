@@ -272,7 +272,7 @@ div-emca:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/emca:pr-443
+    image: hmctspublic.azurecr.io/div/emca:latest
     releaseNameOverride: ${SERVICE_NAME}-div-emca
     ingressHost: emca-${SERVICE_FQDN}
     environment:
