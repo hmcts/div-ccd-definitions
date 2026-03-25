@@ -1201,10 +1201,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devtools-protocol@npm:0.0.981744":
-  version: 0.0.981744
-  resolution: "devtools-protocol@npm:0.0.981744"
-  checksum: 609901bff551f5fbe98e272bdda7269de527e28fab138de371ffd7e9a06fa68ca2eec2e961bd1cd6fd98223ccee562c55b7ce3235d4e37cc8d85d6681bc45593
+"devtools-protocol@npm:0.0.1045489":
+  version: 0.0.1045489
+  resolution: "devtools-protocol@npm:0.0.1045489"
+  checksum: 670b2ecc8e890358b08da3095b4c927ffc5ef846a39e1526ff99aecaa623b339450dfe308e421e64bf94308441832b8e9497ebda97fb02266fef3f455286742f
   languageName: node
   linkType: hard
 
@@ -1246,7 +1246,7 @@ __metadata:
     pre-commit: ^1.2.2
     prettier: ^1.17.0
     pretty-quick: ^1.10.0
-    puppeteer: ^13.1.2
+    puppeteer: 19.0.0
     request: ^2.88.2
     request-promise-native: ^1.0.9
     sonar-scanner: ^3.1.0
@@ -3672,7 +3672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-dir@npm:4.2.0, pkg-dir@npm:^4.1.0":
+"pkg-dir@npm:^4.1.0":
   version: 4.2.0
   resolution: "pkg-dir@npm:4.2.0"
   dependencies:
@@ -3821,23 +3821,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer@npm:^13.1.2":
-  version: 13.7.0
-  resolution: "puppeteer@npm:13.7.0"
+"puppeteer-core@npm:19.0.0":
+  version: 19.0.0
+  resolution: "puppeteer-core@npm:19.0.0"
   dependencies:
     cross-fetch: 3.1.5
     debug: 4.3.4
-    devtools-protocol: 0.0.981744
+    devtools-protocol: 0.0.1045489
     extract-zip: 2.0.1
     https-proxy-agent: 5.0.1
-    pkg-dir: 4.2.0
-    progress: 2.0.3
     proxy-from-env: 1.1.0
     rimraf: 3.0.2
     tar-fs: 2.1.1
     unbzip2-stream: 1.4.3
-    ws: 8.5.0
-  checksum: 4062b3ac3330e70d58095c1e0c5a46cada39a3fc5608e0e0e204448a400aef4d785a3b21d9e7733b2b2dc8cf686a476abf016f05d2e9108b3753dd41d62b9d1c
+    ws: 8.9.0
+  checksum: bc2a111761b1ef72ed715d72e339f0a3b74f9ae22fdac1e3b40ba2e673505143b399479f6f1bc2f701cb8b88a0a5ad13c3ba4286f508d686e7746379e749e818
+  languageName: node
+  linkType: hard
+
+"puppeteer@npm:19.0.0":
+  version: 19.0.0
+  resolution: "puppeteer@npm:19.0.0"
+  dependencies:
+    https-proxy-agent: 5.0.1
+    progress: 2.0.3
+    proxy-from-env: 1.1.0
+    puppeteer-core: 19.0.0
+  checksum: 8c52f8f53cc5ee9699c609e26baab230addb4dd37d29131afd72bf996dc3bacfaaf7c5766a85ee0e35a3f5ba22b1d26c64780a45dc82da3d3fce15e66c47026b
   languageName: node
   linkType: hard
 
