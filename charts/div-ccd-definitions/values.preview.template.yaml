@@ -129,7 +129,6 @@ div-dn:
       FEES_AND_PAYMENTS_URL: http://${SERVICE_NAME}-div-fps
       EVIDENCE_MANAGEMENT_CLIENT_API_URL: http://${SERVICE_NAME}-div-emca
 
-
 div-cos:
   enabled: true
   java:
@@ -293,7 +292,7 @@ div-fps:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/fps:latest
+    image: hmctspublic.azurecr.io/div/fps:pr-410
     releaseNameOverride: ${SERVICE_NAME}-div-fps
     ingressHost: fps-${SERVICE_FQDN}
     keyVaults:
@@ -307,7 +306,7 @@ ccd:
     definitionImporter:
       enabled: false
     managementWeb:
-      enabled: true
+      enabled: false
     apiGatewayWeb:
       enabled: true
     s2s:
@@ -330,27 +329,38 @@ ccd:
     ccdAdminWebIngress: admin-web-${SERVICE_FQDN}
     ccdApiGatewayIngress: gateway-${SERVICE_FQDN}
     ccdCaseManagementWebIngress: case-management-web-${SERVICE_FQDN}
-    postgresUsername: hmcts
-    postgresPassword: hmcts
     s2sUrl: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
+    postgresHostname: "divorce-preview.postgres.database.azure.com"
+    postgresSecret: postgres
+    databaseNamePrefix: "pr-${CHANGE_ID}-"
 
   ccd-user-profile-api:
     java:
+      disableKeyVaults: true
+      autoscaling:
+        enabled: false
       imagePullPolicy: Always
       enviroment:
-        USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
-      disableKeyVaults: true
+        USER_PROFILE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
       environment:
-        USER_PROFILE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,ccd_definition,divorce
+        USER_PROFILE_S2S_AUTHORISED_SERVICES: ccd_data,ccd_definition,ccd_admin
       ingressHost: ccd-user-profile-api-${SERVICE_FQDN}
 
   ccd-data-store-api:
     java:
+      disableKeyVaults: true
+      autoscaling:
+        enabled: false
       imagePullPolicy: Always
+      image: hmctspublic.azurecr.io/ccd/data-store-api:latest
+      devmemoryRequests: 1024Mi
+      devcpuRequests: 2000m
+      devmemoryLimits: 2058Mi
+      devcpuLimits: 2000m
       environment:
-        DATA_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
+        DATA_STORE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
         DATA_STORE_IDAM_KEY: ${DATA_STORE_S2S_KEY}
-        DATA_STORE_S2S_AUTHORISED_SERVICES: ccd_gw,ccd_gateway,fpl_case_service,ccd_data,ccd_ps,aac_manage_case_assignment,xui_webapp,ccd_case_document_am_api,divorce_ccd_submission,divorce_frontend
+        DATA_STORE_S2S_AUTHORISED_SERVICES: ccd_gw,ccd_gateway,fpl_case_service,ccd_data,ccd_ps,aac_manage_case_assignment,xui_webapp,ccd_case_document_am_api,divorce_ccd_submission,divorce_frontend,finrem_case_orchestration
         CCD_S2S_AUTHORISED_SERVICES_CASE_USER_ROLES: aac_manage_case_assignment,fpl_case_service,finrem_case_orchestration,iac,divorce_frontend,civil_service
         IDAM_API_BASE_URL: https://idam-api.aat.platform.hmcts.net
         IDAM_OIDC_URL: https://idam-web-public.aat.platform.hmcts.net
@@ -362,24 +372,29 @@ ccd:
         ELASTIC_SEARCH_ENABLED: true
         ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
         ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
-      disableKeyVaults: true
+        ENABLE_ATTRIBUTE_BASED_ACCESS_CONTROL: true
+        ENABLE_PSEUDO_ROLE_ASSIGNMENTS_GENERATION: true
+        ENABLE_PSEUDO_ACCESS_PROFILES_GENERATION: true
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
   ccd-definition-store-api:
     java:
-      imagePullPolicy: Always
       disableKeyVaults: true
+      autoscaling:
+        enabled: false
+      imagePullPolicy: Always
+      image: hmctspublic.azurecr.io/ccd/definition-store-api:latest
       environment:
-        DEFINITION_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
+        DEFINITION_STORE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
         DEFINITION_STORE_IDAM_KEY: ${DEFINITION_STORE_S2S_KEY}
         DEFINITION_STORE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,divorce,ccd_gw,divorce_ccd_submission
+        DEFINITION_STORE_TX_TIMEOUT_DEFAULT: 300
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
         OIDC_ISSUER: https://forgerock-am.service.core-compute-idam-aat.internal:8443/openam/oauth2/hmcts
+        WELSH_TRANSLATION_ENABLED: false
         ELASTIC_SEARCH_ENABLED: true
         ELASTIC_SEARCH_HOST: ${SERVICE_NAME}-es-master
       ingressHost: ccd-definition-store-${SERVICE_FQDN}
-
-
 
   ccd-admin-web:
     nodejs:
@@ -390,28 +405,6 @@ ccd:
         USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
         IDAM_ADMIN_WEB_SERVICE_KEY: ${ADMIN_S2S_KEY}
         IDAM_OAUTH2_AW_CLIENT_SECRET: ${ADMIN_WEB_IDAM_SECRET}
-    idam-pr:
-      enabled: true
-
-  ccd-case-management-web:
-    nodejs:
-      devmemoryRequests: 512Mi
-      devcpuRequests: "1000m"
-      devmemoryLimits: 1024Mi
-      devcpuLimits: "2500m"
-      resources:
-        requests:
-          cpu: 1000m
-          memory: 512Mi
-      environment:
-        CCD_ACTIVITY_URL: null
-        DM_URL: https://gateway-${SERVICE_FQDN}/documents
-        DM_URL_REMOTE: https?://(gateway-${SERVICE_FQDN}:443|dm-store-aat.service.core-compute-aat.internal)/documents
-        NODE_TLS_REJECT_UNAUTHORIZED: 0
-        APPINSIGHTS_INSTRUMENTATIONKEY: ${APPINSIGHTS_INSTRUMENTATIONKEY}
-        APPINSIGHTS_ENABLED: false
-      ingressHost: case-management-web-${SERVICE_FQDN}
-      ingressIP: ${INGRESS_IP}
     idam-pr:
       enabled: true
 
@@ -454,69 +447,202 @@ ccd:
       userProfileDatabaseName: user-profile
 
   postgresql:
-    persistence:
-      enabled: false
-    postgresConfig:
-      maxConnections: "300"
+    enabled: true
+    flexibleserver: "divorce-preview"
+    setup:
+      databases:
+        - name: "pr-${CHANGE_ID}-data-store"
+        - name: "pr-${CHANGE_ID}-draftstore"
+        - name: "pr-${CHANGE_ID}-role-assignment"
+        - name: "pr-${CHANGE_ID}-definition-store"
+        - name: "pr-${CHANGE_ID}-user-profile"
 
   elasticsearch:
     nameOverride: ${SERVICE_NAME}-es
     clusterName: "es"
     replicas: 1
-    initResources:
-      limits:
-        cpu: "500m"
-        memory: "512Mi"
-      requests:
-        cpu: "25m"
-        memory: "512Mi"
-    minimumMasterNodes: 1
-    antiAffinity: "soft"
-    esJavaOpts: "-Xmx512m -Xms512m"
-    extraEnvs:
-      - name: discovery.type
-        value: single-node
-      - name: cluster.initial_master_nodes
-        value: ""
-      - name: action.auto_create_index
-        value: .security*,.watches,.triggered_watches,.watcher-history-*,.logstash_dead_letter,.ml*
-    persistence:
-      enabled: false
 
   logstash:
-    devmemoryRequests: 512Mi
-    devcpuRequests: "1000m"
-    devmemoryLimits: 1024Mi
-    devcpuLimits: "2500m"
-    resources:
-      requests:
-        cpu: 1000m
-        memory: 512Mi
-    image: hmctspublic.azurecr.io/ccd/logstash
-    imageTag: "ccd-divorce-logstash-latest"
+    image: hmctspublic.azurecr.io/imported/logstash/logstash
+    imageTag: "7.16.1"
+    imagePullPolicy: "IfNotPresent"
     logstashJavaOpts: -Xmx1g -Xms512M
-    extraEnvs:
-      - name: DB_URL
-        value: jdbc:postgresql://${SERVICE_NAME}-postgresql:5432/data-store?ssl=disable&stringtype=unspecified
-      - name: DB_USER
-        value: hmcts
-      - name: DB_PWD
-        value: hmcts
-      - name: ES_HOSTS
-        value: http://${SERVICE_NAME}-es-master:9200
-      - name: ES_DATA_NODES_URL
-        value: http://${SERVICE_NAME}-es-master:9200
-      - name: ELASTIC_SEARCH_DATA_NODES_HOSTS
-        value: http://${SERVICE_NAME}-es-master:9200
-      - name: ES_URL
-        value: http://${SERVICE_NAME}-es-master:9200
     persistence:
       enabled: false
-    volumeMounts:
-      - name: pipeline
-        mountPath: /usr/share/logstash/files
-    livenessProbe:
-      initialDelaySeconds: 90
+    extraEnvs:
+      - name: DATA_STORE_PASS
+        value: hmcts
+      - name: DATA_STORE_URL
+        value: "jdbc:postgresql://divorce-preview.postgres.database.azure.com:5432/{{ .Values.global.databaseNamePrefix }}data-store?sslmode=require&stringtype=unspecified"
+      - name: DATA_STORE_USER
+        value: hmcts
+      - name: ES_HOSTS
+        value: "${SERVICE_NAME}-es-master"
+    extraInitContainers: |
+      - name: download-postgres-jdbc
+        image: hmctspublic.azurecr.io/curl:7.70.0
+        command: ['curl', '-L', 'https://jdbc.postgresql.org/download/postgresql-42.3.3.jar', '-o', '/logstash-lib/postgresql.jar']
+        volumeMounts:
+        - name: logstash-lib
+          mountPath: /logstash-lib
+    extraVolumes: |
+      - name: logstash-lib
+        emptyDir: {}
+      - name: database-secret-volume
+        secret:
+          secretName: postgres
+    extraVolumeMounts: |
+      - name: logstash-lib
+        mountPath: /usr/share/logstash/ccd
+      - name: database-secret-volume
+        mountPath: /etc/logstash/secrets
+        readOnly: true
+    logstashConfig:
+      logstash.yml: |
+        http.host: 0.0.0.0
+        xpack.monitoring.enabled: false
+        queue.type: persisted
+        dead_letter_queue.enable: true
+      pipelines.yml: |
+        - pipeline.id: main
+          path.config: "/usr/share/logstash/pipeline/{01_input,02_filter,03_output}.conf"
+          pipeline.workers: 4
+          pipeline.batch.size: 500
+          queue.type: persisted
+    logstashPipeline:
+      01_input.conf: |
+        input  {
+          jdbc {
+            jdbc_connection_string => "jdbc:postgresql://divorce-preview.postgres.database.azure.com:5432/pr-${CHANGE_ID}-data-store?sslmode=require&stringtype=unspecified"
+            jdbc_user => "hmcts"
+            jdbc_password_filepath => "/etc/logstash/secrets/PASSWORD"
+            jdbc_validate_connection => true
+            jdbc_validation_timeout => "1"
+            jdbc_driver_library => "/usr/share/logstash/ccd/postgresql.jar"
+            jdbc_driver_class => "org.postgresql.Driver"
+            jdbc_default_timezone => "UTC"
+            statement => "UPDATE case_data SET marked_by_logstash = true WHERE marked_by_logstash = false RETURNING id, created_date, last_modified, jurisdiction, case_type_id, state, last_state_modified_date, data::TEXT as json_data, data_classification::TEXT as json_data_classification, reference, security_classification, supplementary_data::TEXT as json_supplementary_data"
+            clean_run => false
+            schedule => "* * * * * *"
+          }
+        }
+      02_filter.conf: |
+        filter{
+          json{
+              source => "json_data"
+              target => "data"
+              remove_field => ["json_data"]
+              }
+        
+              json{
+                  source => "json_supplementary_data"
+                  target => "supplementary_data"
+                  remove_field => ["json_supplementary_data"]
+              }
+        
+              json{
+                  source => "json_data_classification"
+                  target => "data_classification"
+                  remove_field => ["json_data_classification"]
+              }
+        
+              if [data][SearchCriteria] {
+                  clone {
+                      clones => ["SearchCriteria"]
+                  }
+              }
+        
+              if [type] == "SearchCriteria" {
+                  if [data][SearchCriteria] {
+                      mutate {
+                        rename => {"[data][SearchCriteria]" => "[data_new][SearchCriteria]" }
+                      }
+                  }
+                  if [data][caseManagementLocation] {
+                      mutate {
+                        rename => {"[data][caseManagementLocation]" => "[data_new][caseManagementLocation]" }
+                      }
+                  }
+                  if [data][CaseAccessCategory] {
+                    mutate {
+                        rename => {"[data][CaseAccessCategory]" => "[data_new][CaseAccessCategory]" }
+                    }
+                  }
+                  if [data][caseNameHmctsInternal] {
+                      mutate {
+                        rename => {"[data][caseNameHmctsInternal]" => "[data_new][caseNameHmctsInternal]" }
+                      }
+                  }
+                  if [data][caseManagementCategory] {
+                      mutate {
+                        rename => {"[data][caseManagementCategory]" => "[data_new][caseManagementCategory]" }
+                      }
+                  }
+                  if [supplementary_data][HMCTSServiceId] {
+                      mutate {
+                        rename => {"[supplementary_data][HMCTSServiceId]" => "[supplementary_data_new][HMCTSServiceId]" }
+                      }
+                  }
+                  if [data_classification][SearchCriteria] {
+                      mutate {
+                        rename => {"[data_classification][SearchCriteria]" => "[data_classification_new][SearchCriteria]" }
+                      }
+                  }
+                  if [data_classification][CaseAccessCategory] {
+                    mutate {
+                          rename => {"[data_classification][CaseAccessCategory]" => "[data_classification_new][CaseAccessCategory]" }
+                    }
+                  }
+                  if [data_classification][caseManagementLocation] {
+                    mutate {
+                        rename => {"[data_classification][caseManagementLocation]" => "[data_classification_new][caseManagementLocation]" }
+                    }
+                  }
+                  if [data_classification][caseNameHmctsInternal] {
+                      mutate {
+                        rename => {"[data_classification][caseNameHmctsInternal]" => "[data_classification_new][caseNameHmctsInternal]" }
+                      }
+                  }
+        
+                  if [data_classification][caseManagementCategory] {
+                      mutate {
+                        rename => {"[data_classification][caseManagementCategory]" => "[data_classification_new][caseManagementCategory]" }
+                      }
+                  }
+                  mutate { remove_field =>[ "data" ,"supplementary_data", "data_classification", "last_state_modified_date", "type","last_modified", "created_date" ] }
+        
+                  mutate {
+                          rename => { "[data_new]" => "data" }
+                          rename => { "[supplementary_data_new]"  => "supplementary_data" }
+                          rename => { "[data_classification_new]"  => "data_classification" }
+                  }
+        
+                  mutate {
+                    add_field => { "index_id" => "global_search" }
+                  }
+                  mutate {
+                    lowercase => [ "index_id" ]
+                  }
+              } else {
+                  mutate {
+                      add_field => { "index_id" => "%{case_type_id}_cases" }
+                }
+              mutate {
+                lowercase => [ "index_id" ]
+              }
+              }
+        }
+      03_output.conf: |
+        output {
+            elasticsearch {
+                hosts => ["${SERVICE_NAME}-es-master"]
+                sniffing => false
+                index => "%{[index_id]}"
+                document_type => "_doc"
+                document_id => "%{id}"
+                timeout => 60
+            }
+        }
 
 aac-manage-case-assignment:
   enabled: true
@@ -537,9 +663,12 @@ aac-manage-case-assignment:
       CCD_DATA_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-data-store-api
       CCD_DEFINITION_STORE_API_BASE_URL: http://${SERVICE_NAME}-ccd-definition-store
       PRD_HOST: http://rd-professional-api-aat.service.core-compute-aat.internal
-      MANAGE_CASE_S2S_KEY: ${MANAGE_CASE_S2S_KEY}
-      IDAM_CLIENT_SECRET: ${IDAM_MCA_CLIENT_SECRET}
       IDAM_CAA_USERNAME: ${IDAM_CAA_USERNAME}
       IDAM_CAA_PASSWORD: ${IDAM_CAA_PASSWORD}
+      IDAM_CLIENT_SECRET: ${IDAM_MCA_CLIENT_SECRET}
+      MANAGE_CASE_S2S_KEY: ${MANAGE_CASE_S2S_KEY}
+      IDAM_NOC_APPROVER_USERNAME: ${IDAM_NOC_APPROVER_USERNAME}
+      IDAM_NOC_APPROVER_PASSWORD: ${IDAM_NOC_APPROVER_PASSWORD}
+      NOTIFY_MCA_API_KEY: ${UK_GOV_NOTIFY_API_KEY}
     autoscaling:
       enabled: false
