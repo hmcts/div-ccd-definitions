@@ -13,35 +13,26 @@ let CaseEventToFields = [];
 
 function matchEventFieldToAuthField(userRole, caseType) {
   return (authFieldEntry, eventCaseField) => {
-    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
-      && authFieldEntry.UserRole === userRole
-      && authFieldEntry.CaseTypeID === caseType
-      && eventCaseField.CaseTypeID === caseType;
+    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID && authFieldEntry.UserRole === userRole && authFieldEntry.CaseTypeID === caseType && eventCaseField.CaseTypeID === caseType;
   };
 }
 
 function getFieldsForEvent(eventName, caseType) {
   return entry => {
-    return entry.CaseEventID === eventName
-      && (entry.DisplayContext === 'MANDATORY' || entry.DisplayContext === 'OPTIONAL')
-      && entry.CaseTypeID === caseType;
+    return entry.CaseEventID === eventName && (entry.DisplayContext === 'MANDATORY' || entry.DisplayContext === 'OPTIONAL') && entry.CaseTypeID === caseType;
   };
 }
 
 function getShowHideFieldsForEvent(eventName) {
   return entry => {
     return entry.CaseEventID === eventName && entry.DisplayContext === 'READONLY' && (
-      (entry.FieldShowCondition && entry.FieldShowCondition.includes(entry.CaseFieldID)) ||
-      (entry.PageShowCondition && entry.PageShowCondition.includes(entry.CaseFieldID)));
+      (entry.FieldShowCondition && entry.FieldShowCondition.includes(entry.CaseFieldID)) || (entry.PageShowCondition && entry.PageShowCondition.includes(entry.CaseFieldID)));
   };
 }
 
 function getDiffForFields(userRole, caseType) {
   return (eventCaseField, authFieldEntry) => {
-    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID
-      && authFieldEntry.UserRole === userRole
-      && authFieldEntry.CaseTypeID === caseType
-      && eventCaseField.CaseTypeID === caseType;
+    return eventCaseField.CaseFieldID === authFieldEntry.CaseFieldID && authFieldEntry.UserRole === userRole && authFieldEntry.CaseTypeID === caseType && eventCaseField.CaseTypeID === caseType;
   };
 }
 
@@ -190,10 +181,10 @@ function assertUserRoleCanTriggerEventOnCaseInState(eventId, role, stateId) {
   const testedEvent = CaseEvent.find(event => {
     return event.ID === eventId;
   });
-  /* eslint-disable no-unused-expressions */
+
   expect(testedEvent).not.undefined;
 
-  /* eslint-disable no-unused-expressions */
+
   const eventPermission = AuthorisationCaseEvent
     .find(auth => {
       return auth.CaseEventID === eventId && auth.UserRole === role;
@@ -205,7 +196,6 @@ function assertUserRoleCanTriggerEventOnCaseInState(eventId, role, stateId) {
   const stateRegExp = `/\b${stateId}\b/`;
   // `*` is for all states (then it's also for expected state)
   if (preConditionStates === '*' || preConditionStates.to.match(stateRegExp)) {
-    /* eslint-disable no-unused-expressions */
     const permissionsForState = AuthorisationCaseState
       .find(auth => {
         return auth.CaseStateID === stateId && auth.UserRole === role;
@@ -218,7 +208,6 @@ function assertUserRoleCanTriggerEventOnCaseInState(eventId, role, stateId) {
 
   const postConditionState = testedEvent.PostConditionState;
   if (preConditionStates === '*' || postConditionState === stateId) {
-    /* eslint-disable no-unused-expressions */
     const permissionsForState = AuthorisationCaseState
       .find(auth => {
         return auth.CaseStateID === stateId && auth.UserRole === role;

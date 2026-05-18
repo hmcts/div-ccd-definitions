@@ -29,7 +29,7 @@ xui-webapp:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-xui-webapp
-    image: hmctspublic.azurecr.io/xui/webapp:latest
+    image: hmctsprod.azurecr.io/xui/webapp:latest
     ingressHost: xui-${SERVICE_FQDN}
     environment:
       HEALTH_CCD_COMPONENT_API: http://gateway-${SERVICE_FQDN}/health
@@ -46,7 +46,7 @@ xui-mo-webapp:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-xui-mo-webapp
-    image: hmctspublic.azurecr.io/xui/mo-webapp:latest
+    image: hmctsprod.azurecr.io/xui/mo-webapp:latest
     ingressHost: xui-mo-${SERVICE_FQDN}
     environment:
       MANAGE_CASE_LINK: https://xui-${SERVICE_FQDN}/cases
@@ -60,7 +60,7 @@ div-pfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-pfe
-    image: hmctspublic.azurecr.io/div/pfe:latest
+    image: hmctsprod.azurecr.io/div/pfe:latest
     ingressHost: pfe-${SERVICE_FQDN}
     environment:
       DECREE_NISI_FRONTEND_URL: http://dn-${SERVICE_FQDN}
@@ -76,7 +76,7 @@ div-rfe:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-rfe
-    image: hmctspublic.azurecr.io/div/rfe:latest
+    image: hmctsprod.azurecr.io/div/rfe:latest
     ingressHost: rfe-${SERVICE_FQDN}
     environment:
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
@@ -92,7 +92,7 @@ div-da:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-da
-    image: hmctspublic.azurecr.io/div/da:latest
+    image: hmctsprod.azurecr.io/div/da:latest
     ingressHost: da-${SERVICE_FQDN}
     environment:
       PETITIONER_FRONTEND_URL: http://pfe-${SERVICE_FQDN}
@@ -113,7 +113,7 @@ div-dn:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-div-dn
-    image: hmctspublic.azurecr.io/div/dn:latest
+    image: hmctsprod.azurecr.io/div/dn:latest
     ingressHost: dn-${SERVICE_FQDN}
     environment:
       DECREE_ABSOLUTE_FRONTEND_URL: http://da-${SERVICE_FQDN}
@@ -134,7 +134,7 @@ div-cos:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cos:latest
+    image: hmctsprod.azurecr.io/div/cos:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cos
     environment:
       FEATURE_DN_REFUSAL: "true"
@@ -207,7 +207,7 @@ div-cms:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/cms:latest
+    image: hmctsprod.azurecr.io/div/cms:latest
     releaseNameOverride: ${SERVICE_NAME}-div-cms
     ingressHost: cms-${SERVICE_FQDN}
     environment:
@@ -247,7 +247,7 @@ div-dgs:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/dgs:latest
+    image: hmctsprod.azurecr.io/div/dgs:latest
     releaseNameOverride: ${SERVICE_NAME}-div-dgs
     ingressHost: dgs-${SERVICE_FQDN}
     environment:
@@ -272,7 +272,7 @@ div-emca:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/emca:latest
+    image: hmctsprod.azurecr.io/div/emca:latest
     releaseNameOverride: ${SERVICE_NAME}-div-emca
     ingressHost: emca-${SERVICE_FQDN}
     environment:
@@ -293,7 +293,7 @@ div-fps:
   enabled: true
   java:
     imagePullPolicy: Always
-    image: hmctspublic.azurecr.io/div/fps:latest
+    image: hmctsprod.azurecr.io/div/fps:latest
     releaseNameOverride: ${SERVICE_NAME}-div-fps
     ingressHost: fps-${SERVICE_FQDN}
     keyVaults:
@@ -330,25 +330,26 @@ ccd:
     ccdAdminWebIngress: admin-web-${SERVICE_FQDN}
     ccdApiGatewayIngress: gateway-${SERVICE_FQDN}
     ccdCaseManagementWebIngress: case-management-web-${SERVICE_FQDN}
-    postgresUsername: hmcts
-    postgresPassword: hmcts
+    postgresHostname: "divorce-preview.postgres.database.azure.com"
+    postgresSecret: postgres
+    databaseNamePrefix: "pr-${CHANGE_ID}-"
     s2sUrl: http://rpe-service-auth-provider-aat.service.core-compute-aat.internal
 
   ccd-user-profile-api:
     java:
       imagePullPolicy: Always
-      enviroment:
-        USER_PROFILE_DB_HOST: ${SERVICE_NAME}-postgresql
       disableKeyVaults: true
       environment:
+        USER_PROFILE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
         USER_PROFILE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,ccd_definition,divorce
       ingressHost: ccd-user-profile-api-${SERVICE_FQDN}
 
   ccd-data-store-api:
     java:
       imagePullPolicy: Always
+      disableKeyVaults: true
       environment:
-        DATA_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
+        DATA_STORE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
         DATA_STORE_IDAM_KEY: ${DATA_STORE_S2S_KEY}
         DATA_STORE_S2S_AUTHORISED_SERVICES: ccd_gw,ccd_gateway,fpl_case_service,ccd_data,ccd_ps,aac_manage_case_assignment,xui_webapp,ccd_case_document_am_api,divorce_ccd_submission,divorce_frontend
         CCD_S2S_AUTHORISED_SERVICES_CASE_USER_ROLES: aac_manage_case_assignment,fpl_case_service,finrem_case_orchestration,iac,divorce_frontend,civil_service
@@ -362,7 +363,6 @@ ccd:
         ELASTIC_SEARCH_ENABLED: true
         ELASTIC_SEARCH_HOSTS: ${SERVICE_NAME}-es-master:9200
         ELASTIC_SEARCH_DATA_NODES_HOSTS: http://${SERVICE_NAME}-es-master:9200
-      disableKeyVaults: true
       ingressHost: ccd-data-store-api-${SERVICE_FQDN}
 
   ccd-definition-store-api:
@@ -370,7 +370,7 @@ ccd:
       imagePullPolicy: Always
       disableKeyVaults: true
       environment:
-        DEFINITION_STORE_DB_HOST: ${SERVICE_NAME}-postgresql
+        DEFINITION_STORE_DB_HOST: '{{ tpl .Values.global.postgresHostname $}}'
         DEFINITION_STORE_IDAM_KEY: ${DEFINITION_STORE_S2S_KEY}
         DEFINITION_STORE_S2S_AUTHORISED_SERVICES: ccd_admin,ccd_data,divorce,ccd_gw,divorce_ccd_submission
         IDAM_USER_URL: https://idam-web-public.aat.platform.hmcts.net
@@ -379,11 +379,9 @@ ccd:
         ELASTIC_SEARCH_HOST: ${SERVICE_NAME}-es-master
       ingressHost: ccd-definition-store-${SERVICE_FQDN}
 
-
-
   ccd-admin-web:
     nodejs:
-      image: hmctspublic.azurecr.io/ccd/admin-web:latest
+      image: hmctsprod.azurecr.io/ccd/admin-web:latest
       ingressHost: admin-web-${SERVICE_FQDN}
       disableKeyVaults: true
       environment:
@@ -454,10 +452,13 @@ ccd:
       userProfileDatabaseName: user-profile
 
   postgresql:
-    persistence:
-      enabled: false
-    postgresConfig:
-      maxConnections: "300"
+    enabled: true
+    flexibleserver: "divorce-preview"
+    setup:
+      databases:
+        - name: "pr-${CHANGE_ID}-data-store"
+        - name: "pr-${CHANGE_ID}-definition-store"
+        - name: "pr-${CHANGE_ID}-user-profile"
 
   elasticsearch:
     nameOverride: ${SERVICE_NAME}-es
@@ -492,7 +493,7 @@ ccd:
       requests:
         cpu: 1000m
         memory: 512Mi
-    image: hmctspublic.azurecr.io/ccd/logstash
+    image: hmctsprod.azurecr.io/ccd/logstash
     imageTag: "ccd-divorce-logstash-latest"
     logstashJavaOpts: -Xmx1g -Xms512M
     extraEnvs:
@@ -524,7 +525,7 @@ aac-manage-case-assignment:
     disableKeyVaults: true
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-aac-manage-case-assignment
-    image: hmctspublic.azurecr.io/aac/manage-case-assignment:latest
+    image: hmctsprod.azurecr.io/aac/manage-case-assignment:latest
     ingressHost: aac-${SERVICE_FQDN}
     environment:
       IDAM_API_URL: https://idam-api.aat.platform.hmcts.net

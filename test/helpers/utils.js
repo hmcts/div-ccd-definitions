@@ -89,7 +89,7 @@ async function getServiceToken() {
 
   const s2sBaseUrl = `http://rpe-service-auth-provider-${env}.service.core-compute-${env}.internal`;
   const s2sAuthPath = '/lease';
-  // eslint-disable-next-line global-require
+   
   const oneTimePassword = require('otp')({ secret: serviceSecret }).totp();
 
   const serviceToken = await request({

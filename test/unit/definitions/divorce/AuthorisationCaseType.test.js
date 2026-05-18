@@ -6,8 +6,7 @@ const load = require;
 const authCaseType = Object.assign(require('definitions/divorce/json/AuthorisationCaseType/AuthorisationCaseType'), {});
 
 function isDuplicated(field1, field2) {
-  return field1.CaseTypeID === field2.CaseTypeID
-    && field1.UserRole === field2.UserRole;
+  return field1.CaseTypeID === field2.CaseTypeID && field1.UserRole === field2.UserRole;
 }
 
 function mergeJsonFilesFor(whatFolder, nonProdStartsWith) {
