@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.26
+version: 2.0.27
 dependencies:
   - name: nodejs
     version: 3.2.1
@@ -24,7 +24,7 @@ dependencies:
     repository: 'oci://hmctsprod.azurecr.io/helm'
     condition: aac-manage-case-assignment.enabled
   - name: idam-pr
-    version: 2.2.7
+    version: 2.4.0
     repository: 'oci://hmctsprod.azurecr.io/helm'
     condition: idam-pr.enabled
   - name: div-pfe
