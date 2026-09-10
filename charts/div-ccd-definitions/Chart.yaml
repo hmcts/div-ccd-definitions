@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Divorce - CCD Definitions
 name: div-ccd-definitions
-version: 2.0.26
+version: 2.0.27
 dependencies:
   - name: nodejs
     version: 3.2.1
@@ -60,7 +60,7 @@ dependencies:
     repository: 'oci://hmctsprod.azurecr.io/helm'
     condition: div-emca.enabled
   - name: div-fps
-    version: 3.0.10
+    version: 3.0.15
     repository: 'oci://hmctsprod.azurecr.io/helm'
     condition: div-fps.enabled
   - name: postgresql
