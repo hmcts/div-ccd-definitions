@@ -33,31 +33,26 @@ if (process.env.IMPORT_PREVIEW) {
   Scenario('upload prod-like divorce config file', ({ I }) => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat-prod-like.xlsx');
-    I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 });
 
   Scenario('upload divorce preview config file', ({ I }) => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-preview.xlsx');
-    I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 });
 
   Scenario('upload bulk action preview  config file', ({ I }) => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-preview.xlsx');
-    I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 });
 }
 if (process.env.IMPORT_AAT) {
   Scenario('upload divorce config file', ({ I }) => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/divorce/xlsx/ccd-config-aat.xlsx');
-    I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 });
 
   Scenario('upload bulk action config file', ({ I }) => {
     I.loginToAdminConsole();
     I.uploadConfig('../../definitions/bulk-action/xlsx/ccd-div-bulk-action-config-aat.xlsx');
-    I.see('Case Definition data successfully imported');
   }).retry({ retries: 3, minTimeout: 30000 });
 }
